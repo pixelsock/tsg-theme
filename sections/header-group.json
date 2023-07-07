@@ -1,0 +1,125 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "24f48508-6c61-4f52-a226-9a3eb069b0a1": {
+          "type": "message",
+          "settings": {
+            "text": "<a href=\"\/pages\/brick-mortar-charlotte\" title=\"Charlotte Brick & Mortar\">Brick & Mortar<\/a>     |    2848 Selwyn Ave. Charlotte, NC   |   (704) 896-5600   |   <a href=\"\/pages\/holler-at-us\" title=\"Holler At Us\">Contact Us<\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "24f48508-6c61-4f52-a226-9a3eb069b0a1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "autoplay": false,
+        "cycle_speed": 2,
+        "desktop_font_size": 10,
+        "mobile_font_size": 9,
+        "background": "#303030",
+        "text_color": "#ffffff"
+      }
+    },
+    "c3232e5d-33be-49ea-932f-6b0e94cfb62c": {
+      "type": "countdown-condensed",
+      "disabled": true,
+      "settings": {
+        "content": "20% Off All Apparel - USE CODE: MEMORIAL",
+        "link_text": "",
+        "link_url": "",
+        "expiration_date": "2023-06-25",
+        "expiration_behavior": "leave",
+        "desktop_justification": "space-between",
+        "background": "#cb2b2b",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "41cc00ee-6055-4f46-8dd0-e94be7d29c8d": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Apparel",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/tsg_dafuskie_builder_sage_webalt2_15dbb11f-6770-401b-ad7c-e983d9b66e59.jpg",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        },
+        "6c34292f-f545-4ae6-9fda-42c8b1da57d5": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Outdoor",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/loonoutdoorsmain1000x-WebImageEditor_0000s_0011_Layer114.jpg",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        },
+        "c8725d76-3b46-45a7-8f20-e1fec452f9c3": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Bar & Home",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/tsghavenfieldshellnavyalt1000x_0000s_0003_TSG-Late-Winter-Builder-159.jpg",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "41cc00ee-6055-4f46-8dd0-e94be7d29c8d",
+        "6c34292f-f545-4ae6-9fda-42c8b1da57d5",
+        "c8725d76-3b46-45a7-8f20-e1fec452f9c3"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "show_separation_border": false,
+        "reduce_padding": true,
+        "logo": "shopify:\/\/shop_images\/tsg_draught_FINAL_small_c67ee488-f969-478e-930f-ca9ea5005511.png",
+        "logo_max_width": 140,
+        "logo_mobile_max_width": 100,
+        "menu": "new-main",
+        "sidebar_menu": "accessories",
+        "menu_open_trigger": "hover",
+        "enable_search": true,
+        "sidebar_text_font": "heading",
+        "sidebar_show_dividers": true,
+        "layout": "logo_center_navigation_below",
+        "show_icons": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "show_locale_selector": false,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify:\/\/shop_images\/TSG-Logo-White-min.png"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "c3232e5d-33be-49ea-932f-6b0e94cfb62c",
+    "header"
+  ]
+}
