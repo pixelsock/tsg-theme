@@ -20,6 +20,45 @@
         "overlay_opacity": 30
       }
     },
+    "13e995ae-26bd-48a6-80d6-b273bb649389": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16748728287464__13e995ae-26bd-48a6-80d6-b273bb649389-1688747058e9958a7d-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops",
+            "image": "shopify:\/\/shop_images\/ss22-topper-polo-alt-images-1000x1.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16748728287464__13e995ae-26bd-48a6-80d6-b273bb649389-1688747058e9958a7d-2"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
     "main": {
       "type": "main-collection",
       "custom_css": [
@@ -48,6 +87,7 @@
   },
   "order": [
     "collection-banner",
+    "13e995ae-26bd-48a6-80d6-b273bb649389",
     "main"
   ]
 }
