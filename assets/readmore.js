@@ -1,45 +1,57 @@
 function addReadMore() {
-    var readMoreElements = document.querySelectorAll('.collection-description');
+    var collectionDescription = document.querySelector('.collection-description');
+    var content = collectionDescription.innerHTML;
+    var cutoff = 250;
   
-    readMoreElements.forEach(function(element) {
-      var paragraphs = element.getElementsByTagName('p');
+    if (content.length > cutoff) {
+      var beforeReadMore = content.substring(0, cutoff);
+      var afterReadMore = content.substring(cutoff);
   
-      if (paragraphs.length > 1) {
-        var firstParagraph = paragraphs[0];
-        var remainingContent = document.createElement('div');
+      // Create a new element and set its innerHTML to beforeReadMore
+      var div = document.createElement('div');
+      div.innerHTML = beforeReadMore;
+      // Extract the textContent, which will strip HTML tags
+      beforeReadMore = div.textContent;
   
-        for (var i = 0; i < paragraphs.length; i++) {
-          if (i > 0) {
-            remainingContent.appendChild(paragraphs[i]);
-          }
-        }
+      var dots = document.createElement('span');
+      dots.id = 'dots';
+      dots.textContent = '...';
   
-        element.innerHTML = '';
-        element.appendChild(firstParagraph);
-        element.appendChild(remainingContent);
+      var remainingContent = document.createElement('span');
+      remainingContent.id = 'more';
+      remainingContent.style.display = 'none';
+      remainingContent.innerHTML = afterReadMore;
   
-        remainingContent.style.display = 'none';
+      var readMoreLink = document.createElement('a');
+      readMoreLink.id = 'myBtn';
+      readMoreLink.href = '#';
+      readMoreLink.textContent = 'Read more';
+      readMoreLink.onclick = toggleReadMore;
   
-        var btnText = document.createElement('a');
-        btnText.id = 'myBtn';
-        btnText.innerHTML = 'Read more';
-        btnText.href = '#';
+      collectionDescription.innerHTML = '';
+      collectionDescription.appendChild(document.createTextNode(beforeReadMore));
+      collectionDescription.appendChild(dots);
+      collectionDescription.appendChild(remainingContent);
+      collectionDescription.appendChild(readMoreLink);
+    }
+  }
   
-        element.appendChild(btnText);
   
-        var toggleContent = function() {
-          if (remainingContent.style.display === 'none') {
-            remainingContent.style.display = 'block';
-            btnText.innerHTML = 'Read less';
-          } else {
-            remainingContent.style.display = 'none';
-            btnText.innerHTML = 'Read more';
-          }
-        };
+  function toggleReadMore(event) {
+    event.preventDefault();
+    var dots = document.querySelector('#dots');
+    var remainingContent = document.querySelector('#more');
+    var btnText = document.querySelector('#myBtn');
   
-        btnText.addEventListener('click', toggleContent);
-      }
-    });
+    if (remainingContent.style.display === 'none') {
+      dots.style.display = 'none';
+      btnText.textContent = 'Read less';
+      remainingContent.style.display = 'inline';
+    } else {
+      dots.style.display = 'inline';
+      btnText.textContent = 'Read more';
+      remainingContent.style.display = 'none';
+    }
   }
   
   document.addEventListener('DOMContentLoaded', addReadMore);
