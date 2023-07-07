@@ -1,46 +1,36 @@
 .newsletter.content-over-media {
     justify-items: center;
   }
-  .quick-buy-modal__content {
-    align-items: start;
-  }
+ 
   @media screen and (max-width: 1000px) {
     .hide-on-mobile {
       display: none;
     }
   }
+ 
 
+
+  /* Collection Banner */
+  collection-banner .content-over-media {
+    justify-items: start;
+  }
+
+  /* Read More Reveal CSS */
   #more {
     display: none;
   }
   .collection-description {
     max-width: 800px;
   }
+
+
+  /* Breadcubms */
   .breadcrumb__list-item + .breadcrumb__list-item:before {
     color: white;
   }
-  .content-over-media {
-    justify-items: start;
-  }
-  .block-swatch,
-  .quantity-selector,
-  .accordion {
-    background-color: #fff;
-  }
-  .block-swatch.is-disabled {
-    background-color: #b3b7ba;
-  }
-  .accordion {
-    padding: 0 2rem;
-  }
-  button.button.w-full:hover {
-    background: #b3b7ba;
-    border: 1px solid;
-  }
-  .shopify-payment-button__button--unbranded:hover:not([disabled]) {
-    background: #b2b7ba;
-    border: 1px solid;
-  }
+  
+ 
+  /* Product Card */
  
   .product-card__quick-add-button {
     background: #303030;
@@ -57,8 +47,46 @@
     margin: 5%;
   }
 
+  /* Quick Add */
+  .quick-buy-modal__content {
+    align-items: start;
+  }
+
+  button.button.w-full:hover {
+    background: #b3b7ba;
+    border: 1px solid;
+  }
+  .shopify-payment-button__button--unbranded:hover:not([disabled]) {
+    background: #b2b7ba;
+    border: 1px solid;
+  }
+
   /* Product Page */
+
+  .block-swatch,
+  .quantity-selector,
+  .accordion {
+    background-color: #fff;
+  }
+
+  .block-swatch.is-disabled {
+    background-color: #b3b7ba;
+  }
+
+  .accordion {
+    padding: 0 2rem;
+  }
+
   .shopify-section--main-product {
     background-color: #f1f3f3;
     padding: 2rem 0;
   }
+
+  .product-gallery {
+    --product-gallery-gap: .25rem;
+    --product-gallery-thumbnail-list-gap: .75rem .5rem;
+    --product-gallery-thumbnail-size: 6rem;
+    mix-blend-mode: multiply;
+    will-change: opacity;
+    gap:1rem;
+}
