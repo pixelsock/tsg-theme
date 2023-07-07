@@ -68,6 +68,8 @@
     {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
+
 
     <style>
       .read-more-content {
