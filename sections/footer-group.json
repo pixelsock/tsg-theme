@@ -8,7 +8,7 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "title": "Newsletter",
+            "title": "Newsletters",
             "content": "<p>Sign up to our newsletter to receive exclusive offers.<\/p>",
             "button_background": "",
             "button_text_color": ""
