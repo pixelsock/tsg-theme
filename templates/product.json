@@ -199,17 +199,17 @@
 
       ],
       "settings": {
-        "container_size": "xl",
-        "product_info_size": 40,
+        "container_size": "lg",
+        "product_info_size": 45,
         "show_sticky_add_to_cart": true,
-        "center_basic_info": false,
+        "center_basic_info": true,
         "desktop_media_layout": "carousel_thumbnails_left",
         "desktop_media_grid_gap": 0,
         "mobile_controls": "dots",
         "enable_media_autoplay": false,
         "enable_video_looping": true,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 1
       }
     },
     "7bb995d8-0e55-4451-a52b-7132112cb0d8": {
