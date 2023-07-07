@@ -9,7 +9,7 @@
       display: none;
     }
   }
-  
+
   #more {
     display: none;
   }
@@ -41,15 +41,7 @@
     background: #b2b7ba;
     border: 1px solid;
   }
-  .product-gallery__image-list,
-  .product-card {
-    background-color: #f1f3f3;
-  }
-  .product-card__figure,
-  .product-gallery__media {
-    mix-blend-mode: multiply;
-    will-change: opacity;
-  }
+ 
   .product-card__quick-add-button {
     background: #303030;
     color: white;
@@ -63,4 +55,10 @@
     align-items: center;
     justify-content: center;
     margin: 5%;
+  }
+
+  /* Product Page */
+  .shopify-section--main-product {
+    background-color: #f1f3f3;
+    padding: 2rem 0;
   }
