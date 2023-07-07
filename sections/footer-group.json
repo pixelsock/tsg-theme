@@ -5,38 +5,43 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "newsletter": {
-          "type": "newsletter",
-          "settings": {
-            "title": "Newsletters",
-            "content": "<p>Sign up to our newsletter to receive exclusive offers.<\/p>",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
         "links": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "footer-shop-online",
             "show_menu_title": true
           }
         },
-        "text": {
-          "type": "text",
+        "9a62da39-a2ce-45d6-9ec8-615c867ceb08": {
+          "type": "links",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
-            "enable_follow_on_shop": true
+            "menu": "the-lifestyle",
+            "show_menu_title": true
+          }
+        },
+        "655c721e-32d7-4fc0-aea0-d1419e823573": {
+          "type": "links",
+          "settings": {
+            "menu": "customer-service",
+            "show_menu_title": true
+          }
+        },
+        "aba604b8-5a73-45fe-b5b0-d34c16392dce": {
+          "type": "links",
+          "settings": {
+            "menu": "my-account",
+            "show_menu_title": true
           }
         }
       },
       "block_order": [
-        "newsletter",
         "links",
-        "text"
+        "9a62da39-a2ce-45d6-9ec8-615c867ceb08",
+        "655c721e-32d7-4fc0-aea0-d1419e823573",
+        "aba604b8-5a73-45fe-b5b0-d34c16392dce"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "show_social_media": true,
         "show_payment_icons": true,
         "show_country_selector": true,

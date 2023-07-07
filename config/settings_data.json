@@ -38,6 +38,9 @@
     "show_sold_out_badge": true,
     "discount_mode": "percentage",
     "cart_icon": "shopping_bag_sharp",
+    "social_facebook": "https:\/\/www.facebook.com\/TheSportingGent\/",
+    "social_instagram": "https:\/\/www.instagram.com\/thesportinggent\/",
+    "social_youtube": "https:\/\/www.youtube.com\/@TheSportingGentCo",
     "favicon": "shopify:\/\/shop_images\/for_favicon_TSG-01.png",
     "heading_color": "#1c1c1c",
     "content_for_index": [
