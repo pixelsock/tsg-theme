@@ -938,14 +938,12 @@
       "promotion_link_url_info": "Where do you want it to link to?",
       "promotion_link_text": "Promotion link text",
       "promotion_link_text_info": "Text to display in the link.",
-  
-
-        "promotion_placement_order_options": {
-          "random": "Random",
-          "first": "First",
-          "last": "Last",
-          "custom": "Custom"
-        }
+      "promotion_placement_order_options": {
+        "random": "Random",
+        "first": "First",
+        "last": "Last",
+        "custom": "Custom"
+      }
     },
     "main_customers_account": {
       "name": "Customer account",
