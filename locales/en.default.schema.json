@@ -929,7 +929,23 @@
         "video": {
           "name": "Video"
         }
-      }
+      },
+      "promotion_placement_order": "Promotion Placement Order",
+      "promotion_image_url": "Promotion image URL",
+      "promotion_image_url_info": "Image should be 1200x1200",
+      "enable_promotion_link": "Enable Promotion Link",
+      "promotion_link_url": "Promotion link URL",
+      "promotion_link_url_info": "Where do you want it to link to?",
+      "promotion_link_text": "Promotion link text",
+      "promotion_link_text_info": "Text to display in the link.",
+  
+
+        "promotion_placement_order_options": {
+          "random": "Random",
+          "first": "First",
+          "last": "Last",
+          "custom": "Custom"
+        }
     },
     "main_customers_account": {
       "name": "Customer account",
