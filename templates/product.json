@@ -142,7 +142,7 @@
             "link": "",
             "icon": "picto-coupon",
             "icon_width": 16,
-            "background": "rgba(0,0,0,0)",
+            "background": "#ffffff",
             "text_color": "#6b6b6b",
             "border_color": ""
           }
