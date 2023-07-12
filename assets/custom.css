@@ -79,7 +79,7 @@
   .block-swatch,
   .quantity-selector,
   .accordion {
-    background-color: #fff;
+      background-color: transparent;
   }
 
   .block-swatch.is-disabled {
