@@ -1,0 +1,155 @@
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "custom_css": [
+        "{text-align: left;}"
+      ],
+      "settings": {
+        "image_size": "xs",
+        "allow_transparent_header": false,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xl",
+        "background": "#000000",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "13e995ae-26bd-48a6-80d6-b273bb649389": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16748728287464__13e995ae-26bd-48a6-80d6-b273bb649389-1688747058e9958a7d-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops",
+            "image": "shopify:\/\/shop_images\/ss22-topper-polo-alt-images-1000x1.jpg",
+            "expand_collection": true,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "eb0b3846-751a-4f7e-a06d-0297a139346d": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottoms",
+            "image": "shopify:\/\/shop_images\/tsgstreampant-s22-web-4_696b450b-2245-4318-8ab2-9f3c1d7cea00.jpg",
+            "expand_collection": true,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "93557da7-9886-48c5-aaae-82984379c5e0": {
+          "type": "collection",
+          "settings": {
+            "collection": "footwear",
+            "image": "shopify:\/\/shop_images\/footwear-min.jpg",
+            "expand_collection": true,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "7ebd7766-fb36-452f-a845-50dc15eadb26": {
+          "type": "collection",
+          "settings": {
+            "collection": "headwear",
+            "image": "shopify:\/\/shop_images\/Hat_Button_16ff8c6c-ebb5-4fb4-93af-5ba8b543ee3b.jpg",
+            "expand_collection": true,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16748728287464__13e995ae-26bd-48a6-80d6-b273bb649389-1688747058e9958a7d-2",
+        "eb0b3846-751a-4f7e-a06d-0297a139346d",
+        "93557da7-9886-48c5-aaae-82984379c5e0",
+        "7ebd7766-fb36-452f-a845-50dc15eadb26"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "custom_css": [
+        ".dot-checkbox {border-radius: 0px; height: 0.75rem; width: 0.75rem; inset-block-start: calc(0.35em + 1px); background: #f79e1b; border: 2px solid;}"
+      ],
+      "settings": {
+        "hide_product_information": false,
+        "show_variant_swatches": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "large",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 1.3,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "",
+        "show_sort_by": false,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": true,
+        "show_empty_filter_values": true,
+        "show_filter_values_count": true,
+        "show_color_swatch": true,
+        "open_filters_by_default": false,
+        "promotion_placement_order": "random",
+        "custom_promotion_placement_order": 2,
+        "enable_promotion_link": true,
+        "promotion_link_url": ""
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "13e995ae-26bd-48a6-80d6-b273bb649389",
+    "main"
+  ]
+}
