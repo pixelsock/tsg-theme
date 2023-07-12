@@ -50,12 +50,7 @@
       {%- endif -%}
 
       {%- render 'product-info', product: product, center_basic_info: section.settings.center_basic_info, has_content_below_gallery: has_content_below_gallery, update_url: true -%}
-      <!-- Start of Judge.me code -->
-      <div style='clear:both'></div>
-      <div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-product-title='{{ product.title | escape }}' data-id='{{ product.id }}' data-auto-install='false'>
-        {{ product.metafields.judgeme.widget }}
-      </div>
-      <!-- End of Judge.me code -->
+      
 
       {%- comment -%}On Prestige, some content may be on the left part below the product gallery{%- endcomment -%}
       {%- if has_content_below_gallery -%}
