@@ -8,7 +8,7 @@
       "settings": {
         "image_size": "xs",
         "allow_transparent_header": false,
-        "reveal": true,
+        "reveal": false,
         "enable_parallax": true,
         "show_collection_title": true,
         "show_collection_description": true,
@@ -27,6 +27,7 @@
       ],
       "settings": {
         "hide_product_information": false,
+        "show_variant_swatches": false,
         "products_per_page": 48,
         "products_per_row_mobile": "2",
         "products_size_desktop": "large",
