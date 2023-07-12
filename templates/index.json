@@ -108,16 +108,16 @@
           "type": "collection",
           "settings": {
             "collection": "airetex-bamboo-apparel-collection",
-            "image": "shopify:\/\/shop_images\/080221_airetexgoods_hero_3fe8d56b-889e-4efa-8e0d-2f87dc2e14e8.jpg",
+            "image": "shopify:\/\/shop_images\/063023-summer-markdowns-HERO-DT_acff81f2-f5cb-4c82-8ab8-54a4c22a816c.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
+            "title": "",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "button_background": "",
             "button_text_color": ""
           }
