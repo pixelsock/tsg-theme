@@ -20,11 +20,9 @@
             "show_taxes_notice": false
           }
         },
-        "c85c0b72-522d-4561-9fe5-d2aab32ce881": {
-          "type": "rating",
+        "5ce33f42-3250-40e6-8ce1-d7a8683dbae5": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "show_empty": false,
-            "rating_mode": "rating"
           }
         },
         "payment_terms": {
@@ -176,7 +174,7 @@
         "vendor",
         "title",
         "price",
-        "c85c0b72-522d-4561-9fe5-d2aab32ce881",
+        "5ce33f42-3250-40e6-8ce1-d7a8683dbae5",
         "payment_terms",
         "707fefa4-f06c-4419-990e-cc836ef01909",
         "1895c9fb-ace6-4d23-bbdc-08b0805bda68",
@@ -311,14 +309,29 @@
         "content": ""
       }
     },
-    "522ab9e7-4525-4fce-8bd1-c4569d016ddb": {
-      "type": "custom-liquid",
+    "16891837271bf8cc12": {
+      "type": "apps",
+      "blocks": {
+        "c197ee80-3c06-46cd-9c8d-19328c0b1aec": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1500
+          }
+        },
+        "e2474bfa-6411-4ee3-9dbb-a8bafae10c60": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "c197ee80-3c06-46cd-9c8d-19328c0b1aec",
+        "e2474bfa-6411-4ee3-9dbb-a8bafae10c60"
+      ],
       "settings": {
         "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div id=\"shopify-product-reviews\" data-id=\"{{product.id}}\">{{ product.metafields.spr.reviews }}<\/div>",
-        "text_alignment": "start"
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true
       }
     }
   },
@@ -327,6 +340,6 @@
     "7bb995d8-0e55-4451-a52b-7132112cb0d8",
     "59bb20b9-4717-4c33-91ad-5abc2ab2822b",
     "related-products",
-    "522ab9e7-4525-4fce-8bd1-c4569d016ddb"
+    "16891837271bf8cc12"
   ]
 }
