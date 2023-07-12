@@ -1,6 +1,6 @@
 /* Header Nav Area */
 .header {
-  border-bottom: 3px solid --header-border-color; 
+  border-bottom: 3px solid var(--header-border-color); 
 }
 
 .newsletter.content-over-media {
