@@ -312,12 +312,6 @@
     "16891837271bf8cc12": {
       "type": "apps",
       "blocks": {
-        "c197ee80-3c06-46cd-9c8d-19328c0b1aec": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1500
-          }
-        },
         "e2474bfa-6411-4ee3-9dbb-a8bafae10c60": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -325,7 +319,6 @@
         }
       },
       "block_order": [
-        "c197ee80-3c06-46cd-9c8d-19328c0b1aec",
         "e2474bfa-6411-4ee3-9dbb-a8bafae10c60"
       ],
       "settings": {
