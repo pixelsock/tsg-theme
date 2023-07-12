@@ -198,6 +198,102 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
+    "16c35784-55f0-4e62-a535-e33bcc8677a3": {
+      "type": "collection-list",
+      "blocks": {
+        "674fcc65-93d7-46ee-95c6-ae76fd223542": {
+          "type": "collection",
+          "settings": {
+            "collection": "oxbow-goods-collection",
+            "image": "shopify:\/\/shop_images\/220515-TSG-Builder-flood-84.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "4e1dfdf9-ef31-4df6-9f4b-42a6b45c153c": {
+          "type": "collection",
+          "settings": {
+            "collection": "field-gear",
+            "image": "shopify:\/\/shop_images\/knightshill-builder-211_ceb5709b-ce6b-4817-a268-5d8c12fd7daa.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "76afd619-8003-49c9-812c-846812885b82": {
+          "type": "collection",
+          "settings": {
+            "collection": "fly-goods",
+            "image": "shopify:\/\/shop_images\/20220626-TSG-Troutsky-Builder-247.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "474638f9-e9f8-40de-a198-e90686a03525": {
+          "type": "collection",
+          "settings": {
+            "collection": "fly-goods",
+            "image": "shopify:\/\/shop_images\/20220626-TSG-Troutsky-Builder-247.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "674fcc65-93d7-46ee-95c6-ae76fd223542",
+        "4e1dfdf9-ef31-4df6-9f4b-42a6b45c153c",
+        "76afd619-8003-49c9-812c-846812885b82",
+        "474638f9-e9f8-40de-a198-e90686a03525"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "sm",
+        "show_text_outside": false,
+        "space_items": false,
+        "stack_collections": true,
+        "collections_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
     "image-with-text-scroll": {
       "type": "images-with-text-scroll",
       "disabled": true,
@@ -376,6 +472,7 @@
     "featured-collections",
     "collection-list",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
+    "16c35784-55f0-4e62-a535-e33bcc8677a3",
     "image-with-text-scroll",
     "multiple-media-with-text",
     "shop-the-look",
