@@ -1,3 +1,8 @@
+/* Header Nav Area */
+.header {
+  border-bottom: 3px solid --header-border-color; 
+}
+
 .newsletter.content-over-media {
     justify-items: center;
   }
