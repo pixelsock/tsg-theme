@@ -357,7 +357,7 @@
       "type": "newsletter",
       "settings": {
         "separate_section_with_border": false,
-        "image_size": "auto",
+        "image_size": "sm",
         "image": "shopify:\/\/shop_images\/New_Store_Image.jpg",
         "subheading": "Keep me updated",
         "title": "Sign up for our tsg dispatches",
