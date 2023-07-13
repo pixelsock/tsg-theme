@@ -44,8 +44,9 @@
         "show_filter_values_count": true,
         "show_color_swatch": true,
         "open_filters_by_default": false,
-        "promotion_placement_order": "custom",
+        "promotion_placement_order": "random",
         "custom_promotion_placement_order": 2,
+        "promotion_image_url": "shopify:\/\/shop_images\/tsghavenfieldoxbowalt1000x_0003_tsg-bluffducks-builder-305_feeb997c-35d3-4d29-894f-1045e2c76815.jpg",
         "enable_promotion_link": true,
         "promotion_link_url": ""
       }
