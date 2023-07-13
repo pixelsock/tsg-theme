@@ -508,19 +508,19 @@
     "newsletter": {
       "type": "newsletter",
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "image_size": "sm",
         "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
         "mobile_image": "shopify:\/\/shop_images\/122321_fly_mobile-hero.jpg",
-        "subheading": "Keep me updated",
+        "subheading": "Want to stay in the Loop?",
         "title": "Sign up for our tsg dispatches",
         "content": "",
-        "button_text": "Subscribe",
+        "button_text": "Subscribe Now",
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#303030",
         "overlay_color": "#000000",
-        "overlay_opacity": 58
+        "overlay_opacity": 51
       }
     }
   },
