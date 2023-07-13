@@ -510,7 +510,8 @@
       "settings": {
         "separate_section_with_border": false,
         "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/New_Store_Image.jpg",
+        "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/122321_fly_mobile-hero.jpg",
         "subheading": "Keep me updated",
         "title": "Sign up for our tsg dispatches",
         "content": "",
