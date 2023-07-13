@@ -87,8 +87,10 @@
         "1463836f-1096-4c23-9c5b-686a95535fd4": {
           "type": "image",
           "settings": {
-            "subheading": "Tell your story",
-            "title": "Image slide",
+            "image": "shopify:\/\/shop_images\/063023-summer-markdowns-HERO-DT_acff81f2-f5cb-4c82-8ab8-54a4c22a816c.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/063023-summer-markdowns-HERO-mobile.jpg",
+            "subheading": "",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -106,7 +108,7 @@
             "background_opacity": 50,
             "text_color": "#ffffff",
             "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+            "gradient_overlay": ""
           }
         }
       },
