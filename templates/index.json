@@ -33,10 +33,10 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/050123-ridge-short-hero-dt-_2333x780_3d3e0f99-cd52-4dc8-9957-7c535a742157.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/050123-ridge-shorts-mobile-hero_a6de74df-4db7-4770-b827-b08d3b09525b.jpg",
-            "subheading": "The best six inches on the web today",
-            "title": "The Ridge Short",
+            "image": "shopify:\/\/shop_images\/032522_getshorty_hero-dt.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/032522_getshort_hero-mobile.jpg",
+            "subheading": "The Oxbow™ Hybrid short",
+            "title": "Get Shorty",
             "mobile_text_position": "place-self-center-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "content_max_width": 800,
