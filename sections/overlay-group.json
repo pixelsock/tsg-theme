@@ -31,7 +31,7 @@
     "privacy-banner": {
       "type": "privacy-banner",
       "settings": {
-        "title": "🍪 Cookie policy",
+        "title": "Cookie Policy",
         "content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>",
         "background": "#1c1c1c",
         "text_color": "#ffffff"
