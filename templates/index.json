@@ -136,8 +136,8 @@
           "type": "collection",
           "settings": {
             "collection": "best-sellers",
-            "products_count": 8,
-            "title": "Top Items of the Season",
+            "products_count": 12,
+            "title": "The Best of The Best Sellers",
             "link_url": "",
             "link_text": ""
           }
