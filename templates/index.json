@@ -199,12 +199,13 @@
         "2a7f43bd-5afb-493f-bec0-f942efbc842f": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "button-downs",
+            "image": "shopify:\/\/shop_images\/tsgtanneraltimages1000x_0001s_0002_TSG-Bluff-S23-Builder-38.jpg",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "",
-            "button_text": "View products",
+            "title": "SHIRTS",
+            "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
