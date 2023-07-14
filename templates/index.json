@@ -135,7 +135,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "best-sellers",
+            "collection": "new-arrivals-this-week-tsg",
             "products_count": 12,
             "title": "The Best of The Best Sellers",
             "link_url": "",
