@@ -34,6 +34,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/071423_getshorty_hero-dt.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/071423_getshorty_hero-mobile.jpg",
             "subheading": "The Oxbow™ Hybrid short",
             "title": "Get Shorty",
             "mobile_text_position": "place-self-center-start text-start",
