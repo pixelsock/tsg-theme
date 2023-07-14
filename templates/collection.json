@@ -9,7 +9,7 @@
         "image_size": "xs",
         "allow_transparent_header": false,
         "reveal": false,
-        "enable_parallax": true,
+        "enable_parallax": false,
         "show_collection_title": true,
         "show_collection_description": true,
         "show_breadcrumb": true,
