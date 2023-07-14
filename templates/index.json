@@ -196,24 +196,6 @@
             "button_text_color": ""
           }
         },
-        "2a7f43bd-5afb-493f-bec0-f942efbc842f": {
-          "type": "collection",
-          "settings": {
-            "collection": "button-downs",
-            "image": "shopify:\/\/shop_images\/tsgtanneraltimages1000x_0001s_0002_TSG-Bluff-S23-Builder-38.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "SHIRTS",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426": {
           "type": "collection",
           "settings": {
@@ -236,7 +218,6 @@
       "block_order": [
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1",
-        "2a7f43bd-5afb-493f-bec0-f942efbc842f",
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426"
       ],
       "settings": {
@@ -245,7 +226,7 @@
         "show_text_outside": false,
         "space_items": false,
         "stack_collections": true,
-        "collections_per_row_desktop": 4,
+        "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "",
         "content": "",
