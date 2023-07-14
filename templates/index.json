@@ -224,7 +224,7 @@
         "separate_section_with_border": true,
         "image_size": "xs",
         "show_text_outside": false,
-        "space_items": false,
+        "space_items": true,
         "stack_collections": true,
         "collections_per_row_desktop": 3,
         "subheading": "",
@@ -317,10 +317,10 @@
         "474638f9-e9f8-40de-a198-e90686a03525"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image_size": "xs",
         "show_text_outside": false,
-        "space_items": false,
+        "space_items": true,
         "stack_collections": true,
         "collections_per_row_desktop": 4,
         "subheading": "",
