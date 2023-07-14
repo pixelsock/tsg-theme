@@ -440,7 +440,7 @@
         "image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tsggiftcardalt1000x_0006_418503E9-0D79-4FFC-BA70-D12E664BECE4_1_105_c.jpg",
+            "image": "shopify:\/\/shop_images\/tsgaco._topper_ls_crew_alt_img5.jpg",
             "rotation": 0
           }
         }
@@ -453,7 +453,7 @@
         "reveal_on_scroll": false,
         "separate_section_with_border": true,
         "media_position_desktop": "after_text",
-        "media_position_mobile": "after_text",
+        "media_position_mobile": "before_text",
         "media_layout": "separated",
         "media_alignment": "center",
         "media_alignment_offset": 0,
