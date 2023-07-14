@@ -157,45 +157,6 @@
         "subheading": ""
       }
     },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "airetex-bamboo-apparel-collection",
-            "image": "shopify:\/\/shop_images\/063023-summer-markdowns-HERO-DT_acff81f2-f5cb-4c82-8ab8-54a4c22a816c.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "sm",
-        "show_text_outside": false,
-        "space_items": false,
-        "stack_collections": true,
-        "collections_per_row_desktop": 1,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
     "11300496-0b96-4e9c-939f-8b4fa6c86620": {
       "type": "collection-list",
       "blocks": {
@@ -234,19 +195,56 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "2a7f43bd-5afb-493f-bec0-f942efbc842f": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "49dbe3c1-d8ef-4de7-b50e-946fb4e61426": {
+          "type": "collection",
+          "settings": {
+            "collection": "airetex-bamboo-apparel-collection",
+            "image": "shopify:\/\/shop_images\/s22-brooks-alt-forweb-1000x2.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "AIRETEX™ GOODS",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
-        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1"
+        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1",
+        "2a7f43bd-5afb-493f-bec0-f942efbc842f",
+        "49dbe3c1-d8ef-4de7-b50e-946fb4e61426"
       ],
       "settings": {
         "separate_section_with_border": true,
-        "image_size": "sm",
+        "image_size": "xs",
         "show_text_outside": false,
         "space_items": false,
         "stack_collections": true,
-        "collections_per_row_desktop": 2,
+        "collections_per_row_desktop": 4,
         "subheading": "",
         "title": "",
         "content": "",
@@ -338,7 +336,47 @@
       ],
       "settings": {
         "separate_section_with_border": true,
-        "image_size": "sm",
+        "image_size": "xs",
+        "show_text_outside": false,
+        "space_items": false,
+        "stack_collections": true,
+        "collections_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "airetex-bamboo-apparel-collection",
+            "image": "shopify:\/\/shop_images\/082322_bamboom_hero.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-1"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "xs",
         "show_text_outside": false,
         "space_items": false,
         "stack_collections": true,
@@ -527,9 +565,9 @@
   "order": [
     "slideshow",
     "featured-collections",
-    "collection-list",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "16c35784-55f0-4e62-a535-e33bcc8677a3",
+    "collection-list",
     "image-with-text-scroll",
     "multiple-media-with-text",
     "shop-the-look",
