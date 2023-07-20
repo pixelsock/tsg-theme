@@ -160,24 +160,24 @@
             "border_color": ""
           }
         },
-        "05aeae89-caad-4de8-9abe-b7781460ca04": {
-          "type": "feature_with_icon",
-          "settings": {
-            "text": "Free Shipping Over $99",
-            "link": "",
-            "icon": "picto-box",
-            "icon_width": 16,
-            "background": "#ffffff",
-            "text_color": "#6b6b6b",
-            "border_color": ""
-          }
-        },
         "0acebf67-008b-441f-8507-030d9f577c30": {
           "type": "feature_with_icon",
           "settings": {
             "text": "In-Store Pickup Available",
             "link": "",
             "icon": "picto-building",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#6b6b6b",
+            "border_color": ""
+          }
+        },
+        "05aeae89-caad-4de8-9abe-b7781460ca04": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "Free Shipping Over $99",
+            "link": "",
+            "icon": "picto-box",
             "icon_width": 16,
             "background": "#ffffff",
             "text_color": "#6b6b6b",
@@ -206,8 +206,8 @@
         "separator",
         "ad83e159-f427-42dc-8729-7dc2e621cc69",
         "18b40a92-f5ec-45aa-aa34-3d23836bcb1e",
-        "05aeae89-caad-4de8-9abe-b7781460ca04",
-        "0acebf67-008b-441f-8507-030d9f577c30"
+        "0acebf67-008b-441f-8507-030d9f577c30",
+        "05aeae89-caad-4de8-9abe-b7781460ca04"
       ],
       "custom_css": [
 
