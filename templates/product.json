@@ -77,7 +77,7 @@
             "show_below_gallery": true,
             "icon": "none",
             "title": "Features",
-            "content": "<p>{{ product.metafields.custom.features.value }}<\/p>",
+            "content": "{{ product.metafields.custom.features_new | metafield_tag }}",
             "page": ""
           }
         },
