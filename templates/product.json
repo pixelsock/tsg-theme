@@ -119,17 +119,20 @@
         },
         "707fefa4-f06c-4419-990e-cc836ef01909": {
           "type": "separator",
+          "disabled": true,
           "settings": {
           }
         },
         "1895c9fb-ace6-4d23-bbdc-08b0805bda68": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<h6>Order by 3pm for same-day shipping<\/h6>"
           }
         },
         "separator": {
           "type": "separator",
+          "disabled": true,
           "settings": {
           }
         },
