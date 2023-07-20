@@ -8,7 +8,7 @@
         "24f48508-6c61-4f52-a226-9a3eb069b0a1": {
           "type": "message",
           "settings": {
-            "text": "<a href=\"\/pages\/brick-mortar-charlotte\" title=\"Charlotte Brick & Mortar\">Brick & Mortar<\/a>     |    2848 Selwyn Ave. Charlotte, NC   |   (704) 896-5600   |   <a href=\"\/pages\/holler-at-us\" title=\"Holler At Us\">Contact Us<\/a>"
+            "text": "<a href=\"\/pages\/brick-mortar-charlotte\" title=\"Charlotte Brick & Mortar\">Brick & Mortar<\/a>     |    2848 Selwyn Ave. Charlotte, NC   |   (704) 896-5600   |   <a href=\"\/pages\/holler-at-us\" title=\"Holler At Us\">Holler at Us<\/a>"
           }
         }
       },
@@ -62,9 +62,9 @@
         "6c34292f-f545-4ae6-9fda-42c8b1da57d5": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Outdoor",
+            "menu_item": "Outdoor Gear",
             "images_position": "right",
-            "image_1": "shopify:\/\/shop_images\/loonoutdoorsmain1000x-WebImageEditor_0000s_0011_Layer114.jpg",
+            "image_1": "shopify:\/\/shop_images\/the_sporting_gent_fly_goods_rods.jpg",
             "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
@@ -78,7 +78,7 @@
           "settings": {
             "menu_item": "Bar & Home",
             "images_position": "right",
-            "image_1": "shopify:\/\/shop_images\/tsghavenfieldshellnavyalt1000x_0000s_0003_TSG-Late-Winter-Builder-159.jpg",
+            "image_1": "shopify:\/\/shop_images\/tsggiftcardalt1000x_0003_137B7E51-413C-4595-8FF5-11FAB1B68D3C_1_105_c.jpg",
             "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",

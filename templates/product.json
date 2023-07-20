@@ -20,31 +20,13 @@
             "show_taxes_notice": false
           }
         },
-        "c85c0b72-522d-4561-9fe5-d2aab32ce881": {
-          "type": "rating",
+        "5ce33f42-3250-40e6-8ce1-d7a8683dbae5": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "show_empty": false,
-            "rating_mode": "rating"
           }
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {
-          }
-        },
-        "707fefa4-f06c-4419-990e-cc836ef01909": {
-          "type": "separator",
-          "settings": {
-          }
-        },
-        "1895c9fb-ace6-4d23-bbdc-08b0805bda68": {
-          "type": "text",
-          "settings": {
-            "text": "<h6>Order by 3pm for same-day shipping<\/h6>"
-          }
-        },
-        "separator": {
-          "type": "separator",
           "settings": {
           }
         },
@@ -95,7 +77,7 @@
             "show_below_gallery": true,
             "icon": "none",
             "title": "Features",
-            "content": "<p>{{ product.metafields.custom.features.value }}<\/p>",
+            "content": "{{ product.metafields.custom.features_new | metafield_tag }}",
             "page": ""
           }
         },
@@ -135,24 +117,43 @@
           "settings": {
           }
         },
-        "18b40a92-f5ec-45aa-aa34-3d23836bcb1e": {
+        "707fefa4-f06c-4419-990e-cc836ef01909": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "1895c9fb-ace6-4d23-bbdc-08b0805bda68": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h6>Order by 3pm for same-day shipping<\/h6>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "ad83e159-f427-42dc-8729-7dc2e621cc69": {
           "type": "feature_with_icon",
           "settings": {
-            "text": "Easy Returns & Exchanges",
+            "text": "Order by 3PM EST for Same-Day Shipping",
             "link": "",
-            "icon": "picto-coupon",
+            "icon": "picto-timer",
             "icon_width": 16,
             "background": "#ffffff",
             "text_color": "#6b6b6b",
             "border_color": ""
           }
         },
-        "05aeae89-caad-4de8-9abe-b7781460ca04": {
+        "18b40a92-f5ec-45aa-aa34-3d23836bcb1e": {
           "type": "feature_with_icon",
           "settings": {
-            "text": "Free Shipping Over $99",
+            "text": "Easy Returns & Exchanges",
             "link": "",
-            "icon": "picto-box",
+            "icon": "picto-return",
             "icon_width": 16,
             "background": "#ffffff",
             "text_color": "#6b6b6b",
@@ -170,17 +171,26 @@
             "text_color": "#6b6b6b",
             "border_color": ""
           }
+        },
+        "05aeae89-caad-4de8-9abe-b7781460ca04": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "Free Shipping Over $99",
+            "link": "",
+            "icon": "picto-box",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#6b6b6b",
+            "border_color": ""
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "price",
-        "c85c0b72-522d-4561-9fe5-d2aab32ce881",
+        "5ce33f42-3250-40e6-8ce1-d7a8683dbae5",
         "payment_terms",
-        "707fefa4-f06c-4419-990e-cc836ef01909",
-        "1895c9fb-ace6-4d23-bbdc-08b0805bda68",
-        "separator",
         "e3537eb7-87d7-4dc0-a917-b7c1a48da8aa",
         "variant_picker",
         "quantity_selector",
@@ -191,9 +201,13 @@
         "dd52afe9-c3ed-44b9-80b8-f9061e29964a",
         "5ffbdf97-a5b9-4cc0-860a-60d281aa83ac",
         "f75034d7-0ec8-4b1d-84e6-da5efa720764",
+        "707fefa4-f06c-4419-990e-cc836ef01909",
+        "1895c9fb-ace6-4d23-bbdc-08b0805bda68",
+        "separator",
+        "ad83e159-f427-42dc-8729-7dc2e621cc69",
         "18b40a92-f5ec-45aa-aa34-3d23836bcb1e",
-        "05aeae89-caad-4de8-9abe-b7781460ca04",
-        "0acebf67-008b-441f-8507-030d9f577c30"
+        "0acebf67-008b-441f-8507-030d9f577c30",
+        "05aeae89-caad-4de8-9abe-b7781460ca04"
       ],
       "custom_css": [
 
@@ -311,14 +325,22 @@
         "content": ""
       }
     },
-    "522ab9e7-4525-4fce-8bd1-c4569d016ddb": {
-      "type": "custom-liquid",
+    "16891837271bf8cc12": {
+      "type": "apps",
+      "blocks": {
+        "e2474bfa-6411-4ee3-9dbb-a8bafae10c60": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "e2474bfa-6411-4ee3-9dbb-a8bafae10c60"
+      ],
       "settings": {
         "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div id=\"shopify-product-reviews\" data-id=\"{{product.id}}\">{{ product.metafields.spr.reviews }}<\/div>",
-        "text_alignment": "start"
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true
       }
     }
   },
@@ -327,6 +349,6 @@
     "7bb995d8-0e55-4451-a52b-7132112cb0d8",
     "59bb20b9-4717-4c33-91ad-5abc2ab2822b",
     "related-products",
-    "522ab9e7-4525-4fce-8bd1-c4569d016ddb"
+    "16891837271bf8cc12"
   ]
 }
