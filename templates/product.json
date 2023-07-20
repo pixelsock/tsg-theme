@@ -20,6 +20,11 @@
             "show_taxes_notice": false
           }
         },
+        "a4f01002-039b-4e8b-ab0f-7bd7bbdf8a0e": {
+          "type": "badges",
+          "settings": {
+          }
+        },
         "5ce33f42-3250-40e6-8ce1-d7a8683dbae5": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -67,6 +72,19 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
+          }
+        },
+        "13efb45b-9682-47f3-82ce-19b9e826e6ff": {
+          "type": "shopify:\/\/apps\/back-in-stock-customer-alerts\/blocks\/app-block\/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "settings": {
+            "caption": "Email when available",
+            "font_size": 16,
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "margin_top": 10,
+            "margin_bottom": 10,
+            "classes": "button button--full-width",
+            "style": "text-decoration:none"
           }
         },
         "buy_buttons": {
@@ -174,6 +192,7 @@
         "vendor",
         "title",
         "price",
+        "a4f01002-039b-4e8b-ab0f-7bd7bbdf8a0e",
         "5ce33f42-3250-40e6-8ce1-d7a8683dbae5",
         "payment_terms",
         "707fefa4-f06c-4419-990e-cc836ef01909",
@@ -182,6 +201,7 @@
         "e3537eb7-87d7-4dc0-a917-b7c1a48da8aa",
         "variant_picker",
         "quantity_selector",
+        "13efb45b-9682-47f3-82ce-19b9e826e6ff",
         "buy_buttons",
         "description",
         "52613e88-2864-490b-bf51-1f6b7f7f7f3f",
