@@ -77,18 +77,26 @@
   /* Product Page */
 
   .block-swatch,
-  .quantity-selector,
-  .accordion {
-      background-color: transparent;
+  .quantity-selector {
+      background-color: white;
   }
 
   .block-swatch.is-disabled {
-    background-color: #b3b7ba;
+    background-color: #dbdbdb;
+  }
+
+  .block-swatch {
+    --swatch-disabled-strick-color: black;
   }
 
   .accordion {
     padding: 0 2rem;
   }
+
+  .accordion[aria-expanded="true"] {
+  background-color: #ffffff;
+}
+
 
   .shopify-section--main-product {
     background-color: #f1f3f3;
@@ -102,4 +110,10 @@
     mix-blend-mode: multiply;
     will-change: opacity;
     gap:1rem;
+}
+
+/* Mega Menu */
+
+.mega-menu {
+  justify-content: center;
 }
