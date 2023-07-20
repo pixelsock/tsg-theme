@@ -222,7 +222,7 @@
       ],
       "settings": {
         "separate_section_with_border": true,
-        "image_size": "xs",
+        "image_size": "md",
         "show_text_outside": false,
         "space_items": true,
         "stack_collections": false,
@@ -318,7 +318,7 @@
       ],
       "settings": {
         "separate_section_with_border": false,
-        "image_size": "xs",
+        "image_size": "md",
         "show_text_outside": false,
         "space_items": true,
         "stack_collections": false,
