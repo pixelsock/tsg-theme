@@ -20,11 +20,6 @@
             "show_taxes_notice": false
           }
         },
-        "a4f01002-039b-4e8b-ab0f-7bd7bbdf8a0e": {
-          "type": "badges",
-          "settings": {
-          }
-        },
         "5ce33f42-3250-40e6-8ce1-d7a8683dbae5": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -32,22 +27,6 @@
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {
-          }
-        },
-        "707fefa4-f06c-4419-990e-cc836ef01909": {
-          "type": "separator",
-          "settings": {
-          }
-        },
-        "1895c9fb-ace6-4d23-bbdc-08b0805bda68": {
-          "type": "text",
-          "settings": {
-            "text": "<h6>Order by 3pm for same-day shipping<\/h6>"
-          }
-        },
-        "separator": {
-          "type": "separator",
           "settings": {
           }
         },
@@ -72,19 +51,6 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
-          }
-        },
-        "13efb45b-9682-47f3-82ce-19b9e826e6ff": {
-          "type": "shopify:\/\/apps\/back-in-stock-customer-alerts\/blocks\/app-block\/bfa6a8c4-24e2-411a-9396-e35031b33f34",
-          "settings": {
-            "caption": "Email when available",
-            "font_size": 16,
-            "color": "#ffffff",
-            "background_color": "#000000",
-            "margin_top": 10,
-            "margin_bottom": 10,
-            "classes": "button button--full-width",
-            "style": "text-decoration:none"
           }
         },
         "buy_buttons": {
@@ -151,6 +117,22 @@
           "settings": {
           }
         },
+        "707fefa4-f06c-4419-990e-cc836ef01909": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "1895c9fb-ace6-4d23-bbdc-08b0805bda68": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>Order by 3pm for same-day shipping<\/h6>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "18b40a92-f5ec-45aa-aa34-3d23836bcb1e": {
           "type": "feature_with_icon",
           "settings": {
@@ -192,16 +174,11 @@
         "vendor",
         "title",
         "price",
-        "a4f01002-039b-4e8b-ab0f-7bd7bbdf8a0e",
         "5ce33f42-3250-40e6-8ce1-d7a8683dbae5",
         "payment_terms",
-        "707fefa4-f06c-4419-990e-cc836ef01909",
-        "1895c9fb-ace6-4d23-bbdc-08b0805bda68",
-        "separator",
         "e3537eb7-87d7-4dc0-a917-b7c1a48da8aa",
         "variant_picker",
         "quantity_selector",
-        "13efb45b-9682-47f3-82ce-19b9e826e6ff",
         "buy_buttons",
         "description",
         "52613e88-2864-490b-bf51-1f6b7f7f7f3f",
@@ -209,6 +186,9 @@
         "dd52afe9-c3ed-44b9-80b8-f9061e29964a",
         "5ffbdf97-a5b9-4cc0-860a-60d281aa83ac",
         "f75034d7-0ec8-4b1d-84e6-da5efa720764",
+        "707fefa4-f06c-4419-990e-cc836ef01909",
+        "1895c9fb-ace6-4d23-bbdc-08b0805bda68",
+        "separator",
         "18b40a92-f5ec-45aa-aa34-3d23836bcb1e",
         "05aeae89-caad-4de8-9abe-b7781460ca04",
         "0acebf67-008b-441f-8507-030d9f577c30"
