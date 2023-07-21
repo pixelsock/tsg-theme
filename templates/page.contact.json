@@ -4,16 +4,51 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "b7dafb8a-5133-439f-bcb9-1c45239f532f": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16748705317096__b7dafb8a-5133-439f-bcb9-1c45239f532f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Holler At Us",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16748705317096__b7dafb8a-5133-439f-bcb9-1c45239f532f-heading-1"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/images-01.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "contact-form": {
       "type": "contact",
       "settings": {
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Contact",
+        "content": ""
       }
     }
   },
   "order": [
     "main",
+    "b7dafb8a-5133-439f-bcb9-1c45239f532f",
     "contact-form"
   ]
 }
