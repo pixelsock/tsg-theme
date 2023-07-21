@@ -60,9 +60,10 @@
         "template--16754841616616__91c60ca0-e4c7-48a3-8304-d289f307fb29-image_with_text-2": {
           "type": "image_with_text",
           "settings": {
-            "title": "Column title",
+            "image": "shopify:\/\/shop_images\/PTO_Fly_Fishing_1.jpeg",
+            "title": "Wading Adventures",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "content": "<p>Angle for brown, rainbow and brook trout on pristine North Carolina streams. Our Orvis endorsed guides will happily customize your fly fishing needs based on seasonal fishing conditions, ability and guest requests. Now featuring national park trips.<\/p><h5>PUBLIC WATER<\/h5><p>One Guest: Starting at $250<\/p><p>Two Guests: Starting at $350<\/p><h5>PRIVATE WATER<\/h5><p>Starting at $275 per person<\/p>",
             "link_url": "",
             "link_text": ""
           }
