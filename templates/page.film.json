@@ -38,7 +38,7 @@
         "template--16754568954088__6388de95-89a7-4b92-bfa1-8a10f3cc5bff-richtext-1"
       ],
       "custom_css": [
-
+        "{background: #4a4d53; color:white; padding:3rem 0; font-weight:bold;}"
       ],
       "settings": {
         "separate_section_with_border": true,
