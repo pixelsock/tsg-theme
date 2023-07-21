@@ -98,6 +98,116 @@
         "content": ""
       }
     },
+    "7fb035af-c38d-42ef-bcdd-64db9ead49e7": {
+      "type": "multi-column",
+      "blocks": {
+        "06fa96c7-a484-405c-a34b-4fd5326ea6be": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sporting-Reserve_Chetola_SM-1-1024x683.jpg",
+            "title": "Sporting Clays Course",
+            "heading_tag": "h3",
+            "content": "<p>Our 20-acre shotgun course features 13 stations that provide fun and challenging clay targets for both beginners and experts.<\/p><h5>6 STATIONS<\/h5><p>60 Clays & Shells: $80 per person<\/p><h5>13 STATIONS<\/h5><p>100 Clays & Shells: $150 per person<\/p><h5>FULL-DAY TRIPS<\/h5><p>One Boat: $450<\/p><p>Two Boats: $800<\/p><p>Full-day adventures include lunch & refreshments.<\/p><h5>HALF-DAY TRIPS<\/h5><p>One Boat: $375<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "88a861f0-74e2-483c-94e2-67f280ed7e54": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3-11.jpg",
+            "title": "5-STAND SHOTGUN STATION",
+            "heading_tag": "h3",
+            "content": "<p>Ideal for groups, families, and special events, the 5-stand accommodates up to 5 shooters jointly, featuring a mix of trap, skeet, and sporting clay targets.<\/p><h5>5-STAND<\/h5><p>25 Clays & Shells: $50 per person*<\/p><h5>5-STAND PACKAGE<\/h5><p>500 Clays & Shells: $295 (up to 5 guests)*<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "16b9b4a2-97e7-4561-bd8d-e9c642314073": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4-11.jpg",
+            "title": "PISTOL, RIFLE & ARCHERY RANGES",
+            "heading_tag": "h3",
+            "content": "<h5>ARCHERY<\/h5><p>Improve your fly fishing skills on Chetola Resort's beautiful 7-acre stocked lake.<\/p><h5>RENTALS $15+<\/h5><h5>1-HOUR INSTRUCTION: $70 (UP TO 5 GUESTS)<\/h5><h5>PISTOL RANGE<\/h5><p>5-bay pistol station featuring plinking and paper targets up to 30 years. Call for pricing.<\/p><h5>RIFLE RANGE<\/h5><h5>LAWN TENNIS<\/h5><p>By reservation only.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "06fa96c7-a484-405c-a34b-4fd5326ea6be",
+        "88a861f0-74e2-483c-94e2-67f280ed7e54",
+        "16b9b4a2-97e7-4561-bd8d-e9c642314073"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "start",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "SHOOTING COURSES",
+        "content": ""
+      }
+    },
+    "fec8f4e5-3938-4a41-a35e-dff5cd903d76": {
+      "type": "multi-column",
+      "blocks": {
+        "392e0405-a3fc-49b4-a6c2-9a5ffc780f77": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_155027859.jpg",
+            "title": "Lodging",
+            "heading_tag": "h3",
+            "content": "<p>Combine your adventures with a stay in luxury accommodations. Choose from Chetola Lodge, the Bob Timberlake Inn, or spacious 1 to 4 bedroom condominiums. Use our exclusive code when booking for 20% off full-price rates.<\/p><h5>USE CODE: TSG20<\/h5>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "a4eae5a2-746c-43a7-8cd1-88fd94ca94d0": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FIXE_0001-2.jpg",
+            "title": "Group Events",
+            "heading_tag": "h3",
+            "content": "<p>Special rates are available for groups of 10+ people. Create an unforgettable experience for special events, weddings, team building, corporate retreats, and more.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "fb6b1fb5-cd05-411f-a85a-6c74faf08fbc": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/snow_chetola_blackawning.jpg",
+            "title": "Club House",
+            "heading_tag": "h3",
+            "content": "<p>Nestled within the Sporting Reserve’s 67 acres is the property’s classic centerpiece, a 1,174 sq. ft. clubhouse outfitted with artist and outdoorsman Bob Timberlake’s furniture, artwork and accessories. The clubhouse, which seats up to 40, and the neighboring tent area, ideal for groups up to 150, are available to rent and perfect for team building activities, corporate retreats, celebrations, weddings, receptions, and bridal party outings. All catering is provided by Timberlake’s Restaurant at Chetola Resort.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "392e0405-a3fc-49b4-a6c2-9a5ffc780f77",
+        "a4eae5a2-746c-43a7-8cd1-88fd94ca94d0",
+        "fb6b1fb5-cd05-411f-a85a-6c74faf08fbc"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "start",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "CHETOLA RESORT",
+        "content": "<p>\"One of the best stays in the Blue Ridge.\" -Southern Living<\/p>"
+      }
+    },
     "45095bf8-836b-4394-9939-dde7469c685f": {
       "type": "rich-text",
       "blocks": {
@@ -110,29 +220,21 @@
         "template--16754551849192__45095bf8-836b-4394-9939-dde7469c685f-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Orvis Fly Fishing",
+            "text": "...And Look good doing it!",
             "heading_tag": "h2"
           }
         },
         "template--16754551849192__45095bf8-836b-4394-9939-dde7469c685f-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>From the roaring rivers of Patagonia to the flyways of the Midwest to opportunities in our own backyard, our friendly & knowledgeable staff at The Sporting Gent know the best spots & the best outfitters to make your next sporting adventure unforgettable.<\/p>"
-          }
-        },
-        "06bc95ea-0669-4e56-ab49-8c17e42c5a1e": {
-          "type": "heading",
-          "settings": {
-            "text": "WE’RE HERE TO MAKE YOUR NEXT SPORTING ADVENTURE A REALITY. JUST DROP US A LINE OR FEEL FREE TO SWING BY THE SHOP.",
-            "heading_tag": "h3"
+            "content": "<p>Don't Settle for Ordinary! Elevate Your Adventure with Stand Out Styles.<\/p>"
           }
         }
       },
       "block_order": [
         "template--16754551849192__45095bf8-836b-4394-9939-dde7469c685f-subheading-1",
         "template--16754551849192__45095bf8-836b-4394-9939-dde7469c685f-heading-1",
-        "template--16754551849192__45095bf8-836b-4394-9939-dde7469c685f-richtext-1",
-        "06bc95ea-0669-4e56-ab49-8c17e42c5a1e"
+        "template--16754551849192__45095bf8-836b-4394-9939-dde7469c685f-richtext-1"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -147,13 +249,12 @@
         "template--16754551849192__d7051b54-11ba-4cff-a487-a37efc87eb9d-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/CHETOLA-min-2_f0e3225c-ff60-4bf7-b71d-498b211a04ba.png",
+            "collection": "fly-goods",
             "expand_collection": true,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "CHETOLA SPORTING RESERVE",
-            "button_text": "Learn More",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
             "button_link": "shopify:\/\/pages\/chetola-sporting-reserve",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -162,17 +263,17 @@
             "button_text_color": "#303030"
           }
         },
-        "f75c5014-3173-4ea3-bb58-20cd027103c6": {
+        "01a1ecd4-1aae-427e-8019-c0701ad3b724": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/outfitting-2-min_69b2d340-edbe-49ca-a9d4-93efe5c1db83.jpg",
+            "collection": "packs-bags",
+            "image": "shopify:\/\/shop_images\/fishpondwebimage1000x_0000s_0016_flattop_trucklifestyle_2200x_ca5f4192-8b99-42ff-91b9-b31a631c5171.jpg",
             "expand_collection": true,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "Private Quail Hunting Trips",
-            "button_text": "Email Us",
-            "button_link": "mailto:holler@sportinggent.com",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/chetola-sporting-reserve",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
@@ -180,17 +281,16 @@
             "button_text_color": "#303030"
           }
         },
-        "418a20c7-2343-4099-ba90-99477de95469": {
+        "585f4d4f-a47b-4719-9a1c-9e43e842e1ac": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/outfitting-1-min_0c1bc799-4a32-4a4b-81a4-0c0b40c0d2d5.jpg",
+            "collection": "field-gear",
             "expand_collection": true,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "FLY FISHING ADVENTURES",
-            "button_text": "Email Us",
-            "button_link": "mailto:holler@sportinggent.com",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/chetola-sporting-reserve",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
@@ -201,8 +301,8 @@
       },
       "block_order": [
         "template--16754551849192__d7051b54-11ba-4cff-a487-a37efc87eb9d-collection-1",
-        "f75c5014-3173-4ea3-bb58-20cd027103c6",
-        "418a20c7-2343-4099-ba90-99477de95469"
+        "01a1ecd4-1aae-427e-8019-c0701ad3b724",
+        "585f4d4f-a47b-4719-9a1c-9e43e842e1ac"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -240,6 +340,8 @@
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "91c60ca0-e4c7-48a3-8304-d289f307fb29",
+    "7fb035af-c38d-42ef-bcdd-64db9ead49e7",
+    "fec8f4e5-3938-4a41-a35e-dff5cd903d76",
     "45095bf8-836b-4394-9939-dde7469c685f",
     "d7051b54-11ba-4cff-a487-a37efc87eb9d",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
