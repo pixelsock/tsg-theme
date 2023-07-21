@@ -86,9 +86,9 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/CHETOLA-min.png",
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Chetola Sporting Reserve",
+            "heading_tag": "h4",
+            "content": "<p>Upscale Resort in the mountains of Blowing Rock, NC<\/p>",
             "link_url": "",
             "link_text": ""
           }
