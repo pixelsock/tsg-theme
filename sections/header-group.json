@@ -28,7 +28,7 @@
       "settings": {
         "enable_sticky": true,
         "autoplay": true,
-        "cycle_speed": 2,
+        "cycle_speed": 5,
         "desktop_font_size": 10,
         "mobile_font_size": 9,
         "background": "#303030",
@@ -108,7 +108,7 @@
         "logo_max_width": 140,
         "logo_mobile_max_width": 100,
         "menu": "new-main",
-        "sidebar_menu": "new-main",
+        "sidebar_menu": "accessories",
         "menu_open_trigger": "hover",
         "enable_search": true,
         "sidebar_text_font": "heading",
