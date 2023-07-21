@@ -38,6 +38,12 @@
           "settings": {
             "content": "<p>If you have already created and activated your account, please sign in below.<\/p>"
           }
+        },
+        "7caea596-198e-4aa3-871b-03f7d45da654": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% form 'customer_login' %}\n  {{ form.errors | default_errors }}\n<input id=\"input-template--16748705775848__main--customeremail\" class=\"input\" type=\"email\" dir=\"ltr\" name=\"customer[email]\" placeholder=\"E-mail\" autocomplete=\"email\" required=\"\"><label for=\"input-template--16748705775848__main--customeremail\" class=\"floating-label text-xs\">E-mail<\/label><\/div><div class=\"relative\"><div class=\"form-control\"><input id=\"input-template--16748705775848__main--customerpassword\" class=\"input\" type=\"password\" name=\"customer[password]\" placeholder=\"Password\" autocomplete=\"current-password\" required=\"\"><label for=\"input-template--16748705775848__main--customerpassword\" class=\"floating-label text-xs\">Password<\/label><\/div><div class=\"input-suffix hide-on-focus\">\n                        <a href=\"#recover\" allow-hash-change=\"\" class=\"text-xs link-faded\">Forgot your password?<\/a>\n                      <\/div>\n                    <\/div>\n                  <\/div>\n<button type=\"submit\" class=\"button\">Login<\/button><div>\n                    <span class=\"text-subdued\">Don't have an account?<\/span>\n                    <a href=\"\/account\/register\" class=\"link-faded\">Sign up<\/a>\n                  <\/div><input type=\"hidden\" name=\"return_url\" value=\"\/account?\"><input type=\"hidden\" name=\"oseid\" value=\"geDffpQyU5BGbSEvkLvjCnmi\"><input type=\"hidden\" name=\"login_with_shop[analytics_trace_id]\" value=\"6b26c10a-24b4-446c-95b5-7a78e6845816\"><\/form>\n{% endform %}"
+          }
         }
       },
       "block_order": [
@@ -45,7 +51,8 @@
         "template--16748705775848__36a94b7f-f2bb-4e6f-ac57-67dc7f565a38-richtext-1",
         "3653b108-8e41-4f04-83e5-8e7b4d7bf1af",
         "37dcb679-c4e8-4b69-ac07-7e73c49c83bb",
-        "bd96c1b2-96bd-4cae-8a81-382998212974"
+        "bd96c1b2-96bd-4cae-8a81-382998212974",
+        "7caea596-198e-4aa3-871b-03f7d45da654"
       ],
       "settings": {
         "separate_section_with_border": true,
