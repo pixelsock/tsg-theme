@@ -125,16 +125,17 @@
       "type": "newsletter",
       "settings": {
         "separate_section_with_border": true,
-        "image_size": "auto",
-        "subheading": "Keep me updated",
-        "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing.<\/p>",
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
+        "subheading": "Want to stay in the loop?",
+        "title": "SIGN UP FOR OUR TSG DISPATCHES",
+        "content": "",
         "button_text": "Subscribe",
-        "text_color": "#1c1c1c",
-        "button_background": "",
-        "button_text_color": "",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#303030",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 42
       }
     }
   },
