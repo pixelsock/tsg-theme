@@ -210,7 +210,7 @@
         "05aeae89-caad-4de8-9abe-b7781460ca04"
       ],
       "custom_css": [
-
+        ".block-swatch.is-disabled {background-color: #dbdbdb;}"
       ],
       "settings": {
         "container_size": "lg",
