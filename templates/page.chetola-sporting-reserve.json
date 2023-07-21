@@ -49,7 +49,7 @@
         "template--16754841616616__91c60ca0-e4c7-48a3-8304-d289f307fb29-image_with_text-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PTO_Fly_Fishing_4.jpeg",
+            "image": "shopify:\/\/shop_images\/fishpondriverbank1000x_0000_Layer11.jpg",
             "title": "Float Adventures",
             "heading_tag": "h3",
             "content": "<p>Journey into the heart of the river on a private boat to fly fish for brown and rainbow trout, carp and small-mouth bass from the best locations in North Carolina and Tennessee. One boat comfortably seats up to two guests and your personal Orvis endorsed guide, who will choose locations based on your personal requests and current fishing conditions.<\/p><h5>FULL-DAY TRIPS<\/h5><p>One Boat: $450<\/p><p>Two Boats: $800<\/p><p>Full-day adventures include lunch & refreshments.<\/p><h5>HALF-DAY TRIPS<\/h5><p>One Boat: $375<\/p>",
@@ -60,7 +60,7 @@
         "template--16754841616616__91c60ca0-e4c7-48a3-8304-d289f307fb29-image_with_text-2": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PTO_Fly_Fishing_1.jpeg",
+            "image": "shopify:\/\/shop_images\/LeCoq_Fishpond-20210915-0977_1100x_b0ad7af4-15c6-43ae-aff8-442565c71c8a.jpg",
             "title": "Wading Adventures",
             "heading_tag": "h3",
             "content": "<p>Angle for brown, rainbow and brook trout on pristine North Carolina streams. Our Orvis endorsed guides will happily customize your fly fishing needs based on seasonal fishing conditions, ability and guest requests. Now featuring national park trips.<\/p><h5>PUBLIC WATER<\/h5><p>One Guest: Starting at $250<\/p><p>Two Guests: Starting at $350<\/p><h5>PRIVATE WATER<\/h5><p>Starting at $275 per person<\/p>",
@@ -71,9 +71,10 @@
         "template--16754841616616__91c60ca0-e4c7-48a3-8304-d289f307fb29-image_with_text-3": {
           "type": "image_with_text",
           "settings": {
-            "title": "Column title",
+            "image": "shopify:\/\/shop_images\/werkcreative_fishpond_thunderheadlumbar_hero2.jpg",
+            "title": "Casting Clinics",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "content": "<p>Improve your fly fishing skills on Chetola Resort's beautiful 7-acre stocked lake.<\/p><h5>2-HOUR INSTRUCTION<\/h5><p>$125 per person<\/p><p>Fishing license not required<\/p>",
             "link_url": "",
             "link_text": ""
           }
