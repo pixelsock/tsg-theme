@@ -495,10 +495,30 @@
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
+        },
+        "a5f78cf8-5e1d-449f-ae36-b6abe43d2675": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tsgstreampant-s22-web-5_cb33665e-a6bd-45b0-9870-16ba4942bc8f.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "tsg-stream-pant-khaki",
+            "product_1_horizontal_position": 52,
+            "product_1_vertical_position": 49,
+            "product_2": "fishpond-thunderhead-submersible-lumbar",
+            "product_2_horizontal_position": 43,
+            "product_2_vertical_position": 40,
+            "product_3": "tsg-brooks-ls-shirt-birch-plaid",
+            "product_3_horizontal_position": 54,
+            "product_3_vertical_position": 23,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
         }
       },
       "block_order": [
-        "look-1"
+        "look-1",
+        "a5f78cf8-5e1d-449f-ae36-b6abe43d2675"
       ],
       "settings": {
         "separate_section_with_border": true,
