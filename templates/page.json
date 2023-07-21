@@ -39,11 +39,12 @@
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/020723-vday-whistle-hero-dt-_2333x780_868049fd-9656-4666-a047-fa5f87edb74e.jpg",
         "subheading": "Keep me updated",
         "title": "Newsletter",
         "content": "<p>A short sentence describing what someone will receive by subscribing.<\/p>",
         "button_text": "Subscribe",
-        "text_color": "#1c1c1c",
+        "text_color": "#ffffff",
         "button_background": "",
         "button_text_color": "",
         "overlay_color": "#000000",
