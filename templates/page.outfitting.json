@@ -79,57 +79,81 @@
         "remove_vertical_spacing": false
       }
     },
-    "9dc28418-ef24-4f7c-9721-3558afeb329a": {
-      "type": "multi-column",
+    "d7051b54-11ba-4cff-a487-a37efc87eb9d": {
+      "type": "collection-list",
       "blocks": {
-        "template--16754551849192__9dc28418-ef24-4f7c-9721-3558afeb329a-image_with_text-1": {
-          "type": "image_with_text",
+        "template--16754551849192__d7051b54-11ba-4cff-a487-a37efc87eb9d-collection-1": {
+          "type": "collection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CHETOLA-min.png",
-            "title": "Chetola Sporting Reserve",
-            "heading_tag": "h4",
-            "content": "<p>Upscale Resort in the mountains of Blowing Rock, NC<\/p>",
-            "link_url": "",
-            "link_text": ""
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/CHETOLA-min-2_f0e3225c-ff60-4bf7-b71d-498b211a04ba.png",
+            "expand_collection": true,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "CHETOLA SPORTING RESERVE",
+            "button_text": "Learn More",
+            "button_link": "shopify:\/\/pages\/chetola-sporting-reserve",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "#ffffff",
+            "button_text_color": "#303030"
           }
         },
-        "template--16754551849192__9dc28418-ef24-4f7c-9721-3558afeb329a-image_with_text-2": {
-          "type": "image_with_text",
+        "f75c5014-3173-4ea3-bb58-20cd027103c6": {
+          "type": "collection",
           "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": ""
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/outfitting-2-min_69b2d340-edbe-49ca-a9d4-93efe5c1db83.jpg",
+            "expand_collection": true,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "Private Quail Hunting Trips",
+            "button_text": "Learn More",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "#ffffff",
+            "button_text_color": "#303030"
           }
         },
-        "template--16754551849192__9dc28418-ef24-4f7c-9721-3558afeb329a-image_with_text-3": {
-          "type": "image_with_text",
+        "418a20c7-2343-4099-ba90-99477de95469": {
+          "type": "collection",
           "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": ""
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/outfitting-1-min_0c1bc799-4a32-4a4b-81a4-0c0b40c0d2d5.jpg",
+            "expand_collection": true,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "FLY FISHING ADVENTURES",
+            "button_text": "Learn More",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "#ffffff",
+            "button_text_color": "#303030"
           }
         }
       },
       "block_order": [
-        "template--16754551849192__9dc28418-ef24-4f7c-9721-3558afeb329a-image_with_text-1",
-        "template--16754551849192__9dc28418-ef24-4f7c-9721-3558afeb329a-image_with_text-2",
-        "template--16754551849192__9dc28418-ef24-4f7c-9721-3558afeb329a-image_with_text-3"
+        "template--16754551849192__d7051b54-11ba-4cff-a487-a37efc87eb9d-collection-1",
+        "f75c5014-3173-4ea3-bb58-20cd027103c6",
+        "418a20c7-2343-4099-ba90-99477de95469"
       ],
       "settings": {
         "separate_section_with_border": true,
-        "columns_per_row": 3,
-        "stack_on_mobile": false,
-        "overlap_image": true,
-        "content_alignment": "center",
-        "text_alignment": "center",
-        "spacing": "xs",
+        "image_size": "xs",
+        "show_text_outside": false,
+        "space_items": false,
+        "stack_collections": false,
+        "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "",
-        "content": ""
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
       }
     },
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
@@ -153,7 +177,7 @@
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "45095bf8-836b-4394-9939-dde7469c685f",
-    "9dc28418-ef24-4f7c-9721-3558afeb329a",
+    "d7051b54-11ba-4cff-a487-a37efc87eb9d",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
 }
