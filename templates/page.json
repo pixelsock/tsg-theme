@@ -1,37 +1,48 @@
 {
   "sections": {
-    "73adeb6e-c32d-4bb0-abc9-b8d202a43bee": {
-      "type": "image-with-text-overlay",
+    "d4f68b2f-52c6-436c-86b1-cdfd291d6e41": {
+      "type": "rich-text",
       "blocks": {
-        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1": {
+        "template--16748705841384__d4f68b2f-52c6-436c-86b1-cdfd291d6e41-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16748705841384__d4f68b2f-52c6-436c-86b1-cdfd291d6e41-heading-1": {
           "type": "heading",
           "settings": {
             "text": "{{ page.title }}",
             "heading_tag": "h1"
           }
+        },
+        "template--16748705841384__d4f68b2f-52c6-436c-86b1-cdfd291d6e41-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
         }
       },
       "block_order": [
-        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1"
+        "template--16748705841384__d4f68b2f-52c6-436c-86b1-cdfd291d6e41-subheading-1",
+        "template--16748705841384__d4f68b2f-52c6-436c-86b1-cdfd291d6e41-heading-1",
+        "template--16748705841384__d4f68b2f-52c6-436c-86b1-cdfd291d6e41-richtext-1"
+      ],
+      "custom_css": [
+        "{background-color: \"#4a4d53\";}"
       ],
       "settings": {
-        "image_size": "auto",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": true,
-        "remove_vertical_spacing": true,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "main": {
       "type": "main-page",
       "settings": {
         "show_title": false,
-        "page_width": "lg"
+        "page_width": "md"
       }
     },
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
@@ -52,7 +63,7 @@
     }
   },
   "order": [
-    "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
+    "d4f68b2f-52c6-436c-86b1-cdfd291d6e41",
     "main",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
