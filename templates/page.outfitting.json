@@ -101,6 +101,7 @@
         "template--16754551849192__9dc28418-ef24-4f7c-9721-3558afeb329a-image_with_text-1": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify:\/\/shop_images\/CHETOLA-min.png",
             "title": "Column title",
             "heading_tag": "h3",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
