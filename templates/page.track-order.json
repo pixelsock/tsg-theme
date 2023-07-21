@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "6f24ea95-3114-45ea-82c1-8817e5d8508d": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16748705841384__6f24ea95-3114-45ea-82c1-8817e5d8508d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ page.title }}",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16748705841384__6f24ea95-3114-45ea-82c1-8817e5d8508d-heading-1"
+      ],
+      "settings": {
+        "image_size": "xs",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#202531",
+        "overlay_opacity": 100
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "md"
+      }
+    },
+    "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
+      "type": "newsletter",
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/020723-vday-whistle-hero-dt-_2333x780_868049fd-9656-4666-a047-fa5f87edb74e.jpg",
+        "subheading": "<strong>WANT TO STAY IN THE LOOP?<\/strong>",
+        "title": "SIGN UP FOR OUR TSG DISPATCHES",
+        "content": "",
+        "button_text": "Subscribe Now",
+        "text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "6f24ea95-3114-45ea-82c1-8817e5d8508d",
+    "main",
+    "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
+  ]
+}
