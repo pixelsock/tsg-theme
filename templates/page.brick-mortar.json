@@ -9,13 +9,21 @@
             "text": "{{ page.title }}",
             "heading_tag": "h1"
           }
+        },
+        "953a574f-78d1-4f96-8778-6ccb4bfb0e17": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"font-size:1.4rem; margin-top:0px\">Come on in. Make yourself at home.<\/p>"
+          }
         }
       },
       "block_order": [
-        "template--16748705841384__6f24ea95-3114-45ea-82c1-8817e5d8508d-heading-1"
+        "template--16748705841384__6f24ea95-3114-45ea-82c1-8817e5d8508d-heading-1",
+        "953a574f-78d1-4f96-8778-6ccb4bfb0e17"
       ],
       "settings": {
         "image_size": "xs",
+        "image": "shopify:\/\/shop_images\/IMG_1606---web.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
@@ -24,7 +32,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#202531",
-        "overlay_opacity": 100
+        "overlay_opacity": 0
       }
     },
     "main": {
