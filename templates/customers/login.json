@@ -1,22 +1,81 @@
 {
   "sections": {
+    "36a94b7f-f2bb-4e6f-ac57-67dc7f565a38": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16748705775848__36a94b7f-f2bb-4e6f-ac57-67dc7f565a38-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Register For An Account",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16748705775848__36a94b7f-f2bb-4e6f-ac57-67dc7f565a38-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Click the link below to register for your tsg.com account. Once you register on the next page, you'll be sent an email to confirm or \"activate\" your account. Make sure you're checking your spam or junk folder for that email.<\/p>"
+          }
+        },
+        "3653b108-8e41-4f04-83e5-8e7b4d7bf1af": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Create An Account",
+            "url": "\/account\/register",
+            "background": "#303030",
+            "text_color": "#ffffff"
+          }
+        },
+        "37dcb679-c4e8-4b69-ac07-7e73c49c83bb": {
+          "type": "heading",
+          "settings": {
+            "text": "Or Login Below",
+            "heading_tag": "h3"
+          }
+        },
+        "bd96c1b2-96bd-4cae-8a81-382998212974": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>If you have already created and activated your account, please sign in below.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16748705775848__36a94b7f-f2bb-4e6f-ac57-67dc7f565a38-heading-1",
+        "template--16748705775848__36a94b7f-f2bb-4e6f-ac57-67dc7f565a38-richtext-1",
+        "3653b108-8e41-4f04-83e5-8e7b4d7bf1af",
+        "37dcb679-c4e8-4b69-ac07-7e73c49c83bb",
+        "bd96c1b2-96bd-4cae-8a81-382998212974"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "main": {
       "type": "main-customers-login",
       "blocks": {
         "fields": {
           "type": "fields",
           "settings": {
+            "return_to": ""
           }
         }
       },
       "block_order": [
         "fields"
       ],
+      "custom_css": [
+        "{padding-top: 0px;}"
+      ],
       "settings": {
       }
     }
   },
   "order": [
+    "36a94b7f-f2bb-4e6f-ac57-67dc7f565a38",
     "main"
   ]
 }
