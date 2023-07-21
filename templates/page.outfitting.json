@@ -79,22 +79,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
-      "type": "newsletter",
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "subheading": "Keep me updated",
-        "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing.<\/p>",
-        "button_text": "Subscribe",
-        "text_color": "#1c1c1c",
-        "button_background": "",
-        "button_text_color": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "9dc28418-ef24-4f7c-9721-3558afeb329a": {
       "type": "multi-column",
       "blocks": {
@@ -139,7 +123,7 @@
         "separate_section_with_border": true,
         "columns_per_row": 3,
         "stack_on_mobile": false,
-        "overlap_image": false,
+        "overlap_image": true,
         "content_alignment": "center",
         "text_alignment": "center",
         "spacing": "xs",
@@ -147,13 +131,29 @@
         "title": "",
         "content": ""
       }
+    },
+    "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
+      "type": "newsletter",
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "Keep me updated",
+        "title": "Newsletter",
+        "content": "<p>A short sentence describing what someone will receive by subscribing.<\/p>",
+        "button_text": "Subscribe",
+        "text_color": "#1c1c1c",
+        "button_background": "",
+        "button_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "45095bf8-836b-4394-9939-dde7469c685f",
-    "b6c6ebb6-5a91-42d4-9521-8029bfeb083e",
-    "9dc28418-ef24-4f7c-9721-3558afeb329a"
+    "9dc28418-ef24-4f7c-9721-3558afeb329a",
+    "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
 }
