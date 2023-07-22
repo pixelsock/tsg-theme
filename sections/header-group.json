@@ -28,7 +28,7 @@
       "settings": {
         "enable_sticky": true,
         "autoplay": true,
-        "cycle_speed": 2,
+        "cycle_speed": 4,
         "desktop_font_size": 10,
         "mobile_font_size": 9,
         "background": "#303030",
