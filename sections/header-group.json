@@ -30,7 +30,7 @@
         "autoplay": true,
         "cycle_speed": 4,
         "desktop_font_size": 10,
-        "mobile_font_size": 9,
+        "mobile_font_size": 10,
         "background": "#303030",
         "text_color": "#ffffff"
       }
