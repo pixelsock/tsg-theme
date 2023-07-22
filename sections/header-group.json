@@ -10,17 +10,24 @@
           "settings": {
             "text": "<a href=\"\/pages\/brick-mortar-charlotte\" title=\"Charlotte Brick & Mortar\">Brick & Mortar<\/a>     |    2848 Selwyn Ave. Charlotte, NC   |   (704) 896-5600   |   <a href=\"\/pages\/holler-at-us\" title=\"Holler At Us\">Holler at Us<\/a>"
           }
+        },
+        "1090e969-2407-46e8-a855-23e75fedd389": {
+          "type": "message",
+          "settings": {
+            "text": "Free Shipping on All Orders Over $99"
+          }
         }
       },
       "block_order": [
-        "24f48508-6c61-4f52-a226-9a3eb069b0a1"
+        "24f48508-6c61-4f52-a226-9a3eb069b0a1",
+        "1090e969-2407-46e8-a855-23e75fedd389"
       ],
       "custom_css": [
 
       ],
       "settings": {
         "enable_sticky": true,
-        "autoplay": false,
+        "autoplay": true,
         "cycle_speed": 2,
         "desktop_font_size": 10,
         "mobile_font_size": 9,
