@@ -330,103 +330,6 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
-    "collection-list": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "airetex-bamboo-apparel-collection",
-            "image": "shopify:\/\/shop_images\/082322_bamboom_hero.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "xs",
-        "show_text_outside": false,
-        "space_items": false,
-        "stack_collections": true,
-        "collections_per_row_desktop": 4,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "image-with-text-scroll": {
-      "type": "images-with-text-scroll",
-      "disabled": true,
-      "blocks": {
-        "item-1": {
-          "type": "image_with_text",
-          "settings": {
-            "subheading": "",
-            "title": "#1",
-            "content": "<p>Welcome your customers to your store by sharing temporary offers or explaining to them what your products are about.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        },
-        "item-2": {
-          "type": "image_with_text",
-          "settings": {
-            "subheading": "",
-            "title": "#2",
-            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        },
-        "item-3": {
-          "type": "image_with_text",
-          "settings": {
-            "subheading": "",
-            "title": "#3",
-            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3"
-      ],
-      "settings": {
-        "background_image": "shopify:\/\/shop_images\/082322_bamboom_hero-mobile.jpg",
-        "mobile_background_image": "shopify:\/\/shop_images\/082322_bamboom_hero-mobile.jpg",
-        "image_position": "start",
-        "text_alignment": "center",
-        "heading_tag": "h3",
-        "background": "#1c1c1c",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#1c1c1c",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "multiple-media-with-text": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -488,6 +391,44 @@
             "product_2": "tsg-quail-patch-hat-forest",
             "product_2_horizontal_position": 20,
             "product_2_vertical_position": 24,
+            "product_3": "garmin-delta-upland-xc-system-bundle",
+            "product_3_horizontal_position": 78,
+            "product_3_vertical_position": 90,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "a5f78cf8-5e1d-449f-ae36-b6abe43d2675": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tsgstreampant-s22-web-5_cb33665e-a6bd-45b0-9870-16ba4942bc8f.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "tsg-stream-pant-khaki",
+            "product_1_horizontal_position": 52,
+            "product_1_vertical_position": 49,
+            "product_2": "fishpond-thunderhead-submersible-lumbar",
+            "product_2_horizontal_position": 43,
+            "product_2_vertical_position": 40,
+            "product_3": "tsg-brooks-ls-shirt-birch-plaid",
+            "product_3_horizontal_position": 54,
+            "product_3_vertical_position": 23,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "42d6059c-3ce9-4fe9-a701-61a333afe5ff": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tsghavenfieldoxbowalt1000x_0003_tsg-bluffducks-builder-305.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "tsg-allszn-hoody-oxbow",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "tsg-havenfield-shell-jacket-oxbow",
+            "product_2_horizontal_position": 30,
+            "product_2_vertical_position": 55,
             "product_3": "",
             "product_3_horizontal_position": 65,
             "product_3_vertical_position": 60,
@@ -498,14 +439,16 @@
         }
       },
       "block_order": [
-        "look-1"
+        "look-1",
+        "a5f78cf8-5e1d-449f-ae36-b6abe43d2675",
+        "42d6059c-3ce9-4fe9-a701-61a333afe5ff"
       ],
       "settings": {
         "separate_section_with_border": true,
         "subheading": "",
         "title": "Shop the look",
         "content": "",
-        "popover_title": "Shop the look"
+        "popover_title": ""
       }
     },
     "blog-posts": {
@@ -513,13 +456,13 @@
       "settings": {
         "separate_section_with_border": true,
         "blog": "dispatches",
-        "posts_count": 3,
-        "stack_on_mobile": true,
+        "posts_count": 6,
+        "stack_on_mobile": false,
         "show_category": true,
         "show_excerpt": true,
         "show_read_more": true,
         "subheading": "",
-        "title": "Blog posts",
+        "title": "The TSG Dispatch",
         "content": "",
         "button_link": "",
         "button_text": ""
@@ -549,8 +492,6 @@
     "featured-collections",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "16c35784-55f0-4e62-a535-e33bcc8677a3",
-    "collection-list",
-    "image-with-text-scroll",
     "multiple-media-with-text",
     "shop-the-look",
     "blog-posts",

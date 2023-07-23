@@ -78,7 +78,6 @@
           "settings": {
             "menu_item": "Bar & Home",
             "images_position": "right",
-            "image_1": "shopify:\/\/shop_images\/tsggiftcardalt1000x_0003_137B7E51-413C-4595-8FF5-11FAB1B68D3C_1_105_c.jpg",
             "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
@@ -101,7 +100,7 @@
         "logo_max_width": 140,
         "logo_mobile_max_width": 100,
         "menu": "new-main",
-        "sidebar_menu": "accessories",
+        "sidebar_menu": "new-main",
         "menu_open_trigger": "hover",
         "enable_search": true,
         "sidebar_text_font": "heading",

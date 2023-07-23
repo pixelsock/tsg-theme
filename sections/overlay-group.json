@@ -14,11 +14,12 @@
     },
     "newsletter-popup": {
       "type": "newsletter-popup",
+      "disabled": true,
       "settings": {
         "apparition_delay": 5,
-        "show_only_on_index": true,
-        "hide_for_account_holders": true,
-        "show_only_once": true,
+        "show_only_on_index": false,
+        "hide_for_account_holders": false,
+        "show_only_once": false,
         "title": "Signup for our newsletter",
         "content": "Describe what your customers will receive when subscribing to your newsletter.",
         "button_text": "Subscribe",

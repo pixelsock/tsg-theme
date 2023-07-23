@@ -5216,6 +5216,8 @@ openCollapsiblePanel_fn = function(event) {
 _onSidebarBeforeShow = new WeakSet();
 onSidebarBeforeShow_fn = function() {
   animate18(this.querySelector(".header-sidebar__main-panel"), { opacity: 0, transform: "translateX(0)" }, { duration: 0 });
+  document.querySelector("#dummy-chat-button-iframe")?.classList.add("hidden");
+
 };
 _onSidebarAfterShow = new WeakSet();
 onSidebarAfterShow_fn = function() {
@@ -5227,6 +5229,8 @@ onSidebarBeforeHide_fn = function() {
     __privateGet(this, _collapsiblePanel)?.removeAttribute("aria-activedescendant");
     __privateGet(this, _buttonElements).forEach((button) => button.setAttribute("aria-expanded", "false"));
   }
+  document.querySelector("#dummy-chat-button-iframe")?.classList.remove("hidden");
+
 };
 _onSidebarAfterHide = new WeakSet();
 onSidebarAfterHide_fn = function() {

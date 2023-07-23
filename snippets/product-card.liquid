@@ -104,7 +104,7 @@
             <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
             <button type="submit" class="product-card__quick-add-button">
               <span class="sr-only">{{ 'product.general.add_to_cart_button' | t }}</span>
-              {%- render 'icon' with 'plus' -%}
+              Quick Add
             </button>
           {%- endform -%}
         {%- else -%}

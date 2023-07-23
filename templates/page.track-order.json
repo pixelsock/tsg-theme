@@ -27,6 +27,41 @@
         "overlay_opacity": 100
       }
     },
+    "3a28f6af-5f87-4da9-be44-4c8b9513a569": {
+      "type": "rich-text",
+      "blocks": {
+        "8d7f2c17-7c70-4353-8c5d-1a25069ac4fa": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "Login To Your Account",
+            "url": "\/account\/login",
+            "background": "rgba(0,0,0,0)",
+            "text_color": ""
+          }
+        },
+        "bdaad790-e7ab-465e-9ece-b8d6ba12f1cf": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "Create An Account",
+            "url": "\/account\/register",
+            "background": "rgba(0,0,0,0)",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "8d7f2c17-7c70-4353-8c5d-1a25069ac4fa",
+        "bdaad790-e7ab-465e-9ece-b8d6ba12f1cf"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -40,20 +75,21 @@
         "separate_section_with_border": true,
         "image_size": "sm",
         "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
-        "subheading": "Keep me updated",
-        "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing.<\/p>",
-        "button_text": "Subscribe",
+        "subheading": "<strong>WANT TO STAY IN THE LOOP?<\/strong>",
+        "title": "SIGN UP FOR OUR TSG DISPATCHES",
+        "content": "",
+        "button_text": "Subscribe Now",
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#303030",
         "overlay_color": "#000000",
-        "overlay_opacity": 47
+        "overlay_opacity": 45
       }
     }
   },
   "order": [
     "6f24ea95-3114-45ea-82c1-8817e5d8508d",
+    "3a28f6af-5f87-4da9-be44-4c8b9513a569",
     "main",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
