@@ -87,6 +87,14 @@
             "question": "<strong>What is your shipping policy for Holiday orders?<\/strong>",
             "answer": "<p>While we are committed to providing the best service possible and processing your order as quickly as possible, we cannot guarantee any shipment by the estimated delivery date through our third-party shipping vendors. We are also not responsible for any delays as a result of COVID-19, weather or any third-party shipping errors.<\/p>"
           }
+        },
+        "1196a0c2-c744-4b51-8477-9a88fc8911a6": {
+          "type": "category",
+          "settings": {
+            "title": "Customer Service",
+            "icon": "none",
+            "icon_width": 16
+          }
         }
       },
       "block_order": [
@@ -101,7 +109,8 @@
         "f8649c62-a035-431f-88ba-726cb5373d81",
         "52e888c2-9a58-4eeb-bdeb-b80cbb0d21ef",
         "d688d3d0-0831-495f-ad07-7ab606cbd245",
-        "3bbe87f9-4667-49bb-a30d-c750d0a3ce27"
+        "3bbe87f9-4667-49bb-a30d-c750d0a3ce27",
+        "1196a0c2-c744-4b51-8477-9a88fc8911a6"
       ],
       "settings": {
         "separate_section_with_border": true,
