@@ -485,6 +485,16 @@
         "overlay_color": "#000000",
         "overlay_opacity": 51
       }
+    },
+    "7636dae3-a4d7-4bd4-bfa9-36e3e37ba015": {
+      "type": "custom-liquid",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": true,
+        "liquid": "<a href=\"#\" class=\"klaviyo_form_trigger2\">Popup<\/a>",
+        "text_alignment": "center"
+      }
     }
   },
   "order": [
@@ -495,6 +505,7 @@
     "multiple-media-with-text",
     "shop-the-look",
     "blog-posts",
-    "newsletter"
+    "newsletter",
+    "7636dae3-a4d7-4bd4-bfa9-36e3e37ba015"
   ]
 }
