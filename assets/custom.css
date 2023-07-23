@@ -53,7 +53,7 @@
     background: #303030;
     color: white;
     z-index: 1;
-    padding: 0.625rem;
+    padding: 0.125rem;
     position: absolute;
     inset-block-end: 0;
     inset-inline-end: 0;
@@ -130,9 +130,28 @@
     --product-gallery-thumbnail-list-gap: .75rem .5rem;
     --product-gallery-thumbnail-size: 6rem;
     mix-blend-mode: multiply;
+    -webkit-mix-blend-mode: multiply;
+    -moz-mix-blend-mode: multiply;
+    -o-mix-blend-mode: multiply;
     will-change: opacity;
     gap:1rem;
+    
 }
+
+@media screen and (max-width: 699px) {
+
+.quick-buy-modal__gallery-wrapper {
+    background: white;
+    padding: 2rem;
+}
+
+.product-gallery__carousel-with-arrows {
+  justify-content: space-between;
+}
+}
+
+
+
 
 
 
