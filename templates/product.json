@@ -53,6 +53,11 @@
           "settings": {
           }
         },
+        "1e5921a3-5505-407c-8c5b-fa0fe1783f14": {
+          "type": "shopify:\/\/apps\/back-in-stock-out-of-stock\/blocks\/bis-inline-button\/903b5cdc-6e3f-4b2d-a8ea-d1ade7f41610",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -194,6 +199,7 @@
         "e3537eb7-87d7-4dc0-a917-b7c1a48da8aa",
         "variant_picker",
         "quantity_selector",
+        "1e5921a3-5505-407c-8c5b-fa0fe1783f14",
         "buy_buttons",
         "description",
         "52613e88-2864-490b-bf51-1f6b7f7f7f3f",
