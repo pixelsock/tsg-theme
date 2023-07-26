@@ -69,6 +69,7 @@ Supported variables
         {%- else -%}
           {%- assign atc_button_style = 'solid' -%}
         {%- endif -%}
+        <button id="BIS_trigger" type="button">Notify me</button>
 
         {%- render 'button', content: button_content, type: 'submit', disabled: button_disabled, style: atc_button_style, background: atc_button_background, text_color: atc_button_text_color, stretch: true -%}
 
