@@ -121,7 +121,7 @@
             "icon": "none",
             "title": "Fit & Size",
             "content": "<p>{{ product.metafields.custom.fit_size.value }}<\/p>",
-            "page": "size-guide"
+            "page": ""
           }
         },
         "f75034d7-0ec8-4b1d-84e6-da5efa720764": {
