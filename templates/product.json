@@ -64,6 +64,19 @@
             "payment_button_text_color": ""
           }
         },
+        "3e23a281-affd-4ee6-ae8b-64fd3a9aff10": {
+          "type": "shopify:\/\/apps\/back-in-stock-customer-alerts\/blocks\/app-block\/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "settings": {
+            "caption": "Email when available",
+            "font_size": 16,
+            "color": "#ffffff",
+            "background_color": "#ed8a00",
+            "margin_top": 10,
+            "margin_bottom": 10,
+            "classes": "button button--full-width",
+            "style": "text-decoration:none"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -195,6 +208,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "3e23a281-affd-4ee6-ae8b-64fd3a9aff10",
         "description",
         "52613e88-2864-490b-bf51-1f6b7f7f7f3f",
         "3e7d8f07-a3c9-49fb-97ce-3b96c81cec0a",
