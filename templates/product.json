@@ -66,6 +66,7 @@
         },
         "3e23a281-affd-4ee6-ae8b-64fd3a9aff10": {
           "type": "shopify:\/\/apps\/back-in-stock-customer-alerts\/blocks\/app-block\/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "disabled": true,
           "settings": {
             "caption": "Email when available",
             "font_size": 16,
