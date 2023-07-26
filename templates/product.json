@@ -64,20 +64,6 @@
             "payment_button_text_color": ""
           }
         },
-        "3e23a281-affd-4ee6-ae8b-64fd3a9aff10": {
-          "type": "shopify:\/\/apps\/back-in-stock-customer-alerts\/blocks\/app-block\/bfa6a8c4-24e2-411a-9396-e35031b33f34",
-          "disabled": true,
-          "settings": {
-            "caption": "Email when available",
-            "font_size": 16,
-            "color": "#ffffff",
-            "background_color": "#ed8a00",
-            "margin_top": 10,
-            "margin_bottom": 10,
-            "classes": "button w-full",
-            "style": ""
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -209,7 +195,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "3e23a281-affd-4ee6-ae8b-64fd3a9aff10",
         "description",
         "52613e88-2864-490b-bf51-1f6b7f7f7f3f",
         "3e7d8f07-a3c9-49fb-97ce-3b96c81cec0a",
@@ -357,6 +342,16 @@
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true
       }
+    },
+    "466c6b5e-c6cc-41a8-9869-b386b7b1271e": {
+      "type": "custom-liquid",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<!-- Your HTML code remains the same -->\n\n<script type=\"text\/javascript\">\nvar _learnq = _learnq || [];\nvar addToCart = function() {\n  _learnq.push(['track', 'Added to Cart', item]);\n};\n\n\/\/ Find all the submit buttons with the content \"Add to cart\"\nvar buttons = document.querySelectorAll('button[type=\"submit\"][value=\"Add to cart\"]');\n\n\/\/ Loop through the selected buttons to add the event listener\nbuttons.forEach(function(button) {\n  button.addEventListener('click', addToCart, false);\n});\n<\/script>",
+        "text_alignment": "start"
+      }
     }
   },
   "order": [
@@ -364,6 +359,7 @@
     "7bb995d8-0e55-4451-a52b-7132112cb0d8",
     "59bb20b9-4717-4c33-91ad-5abc2ab2822b",
     "related-products",
-    "16891837271bf8cc12"
+    "16891837271bf8cc12",
+    "466c6b5e-c6cc-41a8-9869-b386b7b1271e"
   ]
 }
