@@ -73,8 +73,8 @@
             "background_color": "#ed8a00",
             "margin_top": 10,
             "margin_bottom": 10,
-            "classes": "button button--full-width",
-            "style": "text-decoration:none"
+            "classes": "button w-full",
+            "style": ""
           }
         },
         "description": {
