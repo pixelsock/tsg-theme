@@ -53,11 +53,6 @@
           "settings": {
           }
         },
-        "1e5921a3-5505-407c-8c5b-fa0fe1783f14": {
-          "type": "shopify:\/\/apps\/back-in-stock-out-of-stock\/blocks\/bis-inline-button\/903b5cdc-6e3f-4b2d-a8ea-d1ade7f41610",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -67,6 +62,19 @@
             "atc_button_text_color": "#303030",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "3e23a281-affd-4ee6-ae8b-64fd3a9aff10": {
+          "type": "shopify:\/\/apps\/back-in-stock-customer-alerts\/blocks\/app-block\/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "settings": {
+            "caption": "Email when available",
+            "font_size": 16,
+            "color": "#ffffff",
+            "background_color": "#ed8a00",
+            "margin_top": 10,
+            "margin_bottom": 10,
+            "classes": "button w-full",
+            "style": ""
           }
         },
         "description": {
@@ -113,7 +121,7 @@
             "icon": "none",
             "title": "Fit & Size",
             "content": "<p>{{ product.metafields.custom.fit_size.value }}<\/p>",
-            "page": ""
+            "page": "size-guide"
           }
         },
         "f75034d7-0ec8-4b1d-84e6-da5efa720764": {
@@ -199,8 +207,8 @@
         "e3537eb7-87d7-4dc0-a917-b7c1a48da8aa",
         "variant_picker",
         "quantity_selector",
-        "1e5921a3-5505-407c-8c5b-fa0fe1783f14",
         "buy_buttons",
+        "3e23a281-affd-4ee6-ae8b-64fd3a9aff10",
         "description",
         "52613e88-2864-490b-bf51-1f6b7f7f7f3f",
         "3e7d8f07-a3c9-49fb-97ce-3b96c81cec0a",
