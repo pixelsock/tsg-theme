@@ -119,7 +119,7 @@
             "subheading": "FROM BLUE RIDGE NATIVE & FRIENDS",
             "title": "New HATS ARRIVING DAILY",
             "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "",
             "button_1_link": "",
