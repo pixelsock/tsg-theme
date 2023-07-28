@@ -1,32 +1,32 @@
 {%- comment -%}
-----------------------------------------------------------------------------------------------------------------------
-BUTTON COMPONENT
-----------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------
+  BUTTON COMPONENT
+  ----------------------------------------------------------------------------------------------------------------------
 
-Generate a button (or link styled as a button). It supports wide range of attributes that can be used to customize
-the appearance and functionality of the button.
+  Generate a button (or link styled as a button). It supports wide range of attributes that can be used to customize
+  the appearance and functionality of the button.
 
-********************************************
-Supported variables
-********************************************
+  ********************************************
+  Supported variables
+  ********************************************
 
-* content: the content of the button
-* href: an optional link to set. If href is provided, then an "a" tag is generated, otherwise a "button"
-* size: can be "sm". If none is set, the default "base" size is used.
-* background: an optional background color to use that override the default
-* text_color: an optional text color to use that override the default
-* style: "solid", "outline" or "link". If none is set "solid" is assumed
-* stretch: if passed to true, a full width button is generated
-* subdued: when using the "outline" mode, this reduced the importance of the button
-* type: when href is empty, can be either "button" or "submit" (default to button if none is set)
-* is: if set, add the attribute for allowing custom elements
-* name: when the button is a real button, allow to set the name attribute that is submitted
-* icon: the name of an optional icon to render along the button
-* disabled: if set to true, the button is disabled
-* form: the form ID that this button is linked to
-* external: if set to true and that a href is passed, it opens into a new window
-* aria_controls: the ID of the element controlled
-* block: an optional block to output theme editor attributes
+  * content: the content of the button
+  * href: an optional link to set. If href is provided, then an "a" tag is generated, otherwise a "button"
+  * size: can be "sm". If none is set, the default "base" size is used.
+  * background: an optional background color to use that override the default
+  * text_color: an optional text color to use that override the default
+  * style: "solid", "outline" or "link". If none is set "solid" is assumed
+  * stretch: if passed to true, a full width button is generated
+  * subdued: when using the "outline" mode, this reduced the importance of the button
+  * type: when href is empty, can be either "button" or "submit" (default to button if none is set)
+  * is: if set, add the attribute for allowing custom elements
+  * name: when the button is a real button, allow to set the name attribute that is submitted
+  * icon: the name of an optional icon to render along the button
+  * disabled: if set to true, the button is disabled
+  * form: the form ID that this button is linked to
+  * external: if set to true and that a href is passed, it opens into a new window
+  * aria_controls: the ID of the element controlled
+  * block: an optional block to output theme editor attributes
 {%- endcomment -%}
 
 {% liquid
@@ -38,6 +38,10 @@ Supported variables
 
       if size != blank and size != 'base'
         echo ' button-' | append: size
+      endif
+
+      if style == 'hidden'
+        echo ' hidden'
       endif
 
       if style == 'outline'
@@ -52,6 +56,10 @@ Supported variables
         echo ' w-full'
       endif
     endif
+
+    if custom_class != blank
+      echo ' ' | append: custom_class
+    endif
   endcapture
 
   capture style_attribute
@@ -65,9 +73,16 @@ Supported variables
         echo '--button-text-color: ' | append: text_color.rgb | append: ';'
       endif
     endif
+
+    if custom_style != blank
+      echo custom_style
+    endif
   endcapture
 
   capture attributes
+    if custom_id != blank
+      echo 'id="' | append: custom_id | append: '"'
+    endif
     if class_attribute != blank
       echo 'class="' | append: class_attribute | append: '"'
     endif

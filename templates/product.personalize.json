@@ -342,16 +342,6 @@
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true
       }
-    },
-    "466c6b5e-c6cc-41a8-9869-b386b7b1271e": {
-      "type": "custom-liquid",
-      "settings": {
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<script type=\"text\/javascript\">\n  var _learnq = _learnq || [];\n  var addToCart = function() {\n    _learnq.push(['track', 'Added to Cart', item]);\n  };\n\n  \/\/ Helper function to filter elements based on inner text\n  function filterElementsByInnerText(elements, text) {\n    var filteredElements = [];\n    elements.forEach(function(element) {\n      if (element.innerText.trim() === text) {\n        filteredElements.push(element);\n      }\n    });\n    return filteredElements;\n  }\n\n  \/\/ Find all the buttons with the type attribute set to \"submit\"\n  var allButtons = document.querySelectorAll('button[type=\"submit\"]');\n\n  \/\/ Filter the buttons based on inner text \"ADD TO CART\"\n  var buttons = filterElementsByInnerText(allButtons, 'ADD TO CART');\n\n  \/\/ Loop through the selected buttons to add the event listener\n  buttons.forEach(function(button) {\n    button.addEventListener('click', addToCart, false);\n  });\n<\/script>",
-        "text_alignment": "start"
-      }
     }
   },
   "order": [
@@ -359,7 +349,6 @@
     "7bb995d8-0e55-4451-a52b-7132112cb0d8",
     "59bb20b9-4717-4c33-91ad-5abc2ab2822b",
     "related-products",
-    "16891837271bf8cc12",
-    "466c6b5e-c6cc-41a8-9869-b386b7b1271e"
+    "16891837271bf8cc12"
   ]
 }
