@@ -19,6 +19,11 @@ Supported variables
 {%- endcomment -%}
 
 {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
+{% assign show_personalization_3_char = product.metafields.custom.personalization_options %}
+{% assign jc_show_custom_props_dog = product.metafields.customPropDogs.prop %}
+{% assign jc_show_custom_props_3_char = product.metafields.customProp3Char.prop %}
+{% assign jc_show_custom_props_pants = product.metafields.customPropPants.prop %}
+{% assign jc_show_custom_props_6_char = product.metafields.customProp6Char.prop %}
 
 <safe-sticky class="product-info {% if center_basic_info %}product-info--center{% endif %}">
   <div class="product-info__block-list">
@@ -281,6 +286,9 @@ Supported variables
               </div>
             {%- endif -%}
 
+            
+
+
           {%- when 'line_item_property' -%}
             {%- if block.settings.label != blank -%}
               {%- capture name -%}properties[{{ block.settings.label | escape }}]{%- endcapture -%}
@@ -319,6 +327,45 @@ Supported variables
             -%}
 
           {%- when 'buy_buttons' -%}
+            
+{% comment %} Personalization {% endcomment %}
+    {% if product.metafields.custom.personalization_options == 'UP TO 6 CHARACTERS' %}
+      <div class="custom-properties-section-product">
+        <div class="prose"><p><strong>PERSONALIZATION</strong></p></div>
+        <div class="line-item-property">
+          {% render 'input', type: 'text', label: '(Up to 6 Characters)', name: name, form: product_form_id, required: false, maxlength: 6 %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if product.metafields.custom.personalization_options == '2 LINES. 12 CHARACTERS MAX PER LINE' %}
+      <div class="custom-properties-section-product">
+        <div class="prose"><p><strong>PERSONALIZATION</strong></p></div>
+        <div class="line-item-property">
+          {% render 'input', type: 'text', label: 'Line 1 - Max 12 Characters Per Line', name: name, form: product_form_id, required: false, maxlength: 12 %}
+          {% render 'input', type: 'text', label: 'Line 2 - Max 12 Characters Per Line', name: name, form: product_form_id, required: false, maxlength: 12 %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if product.metafields.custom.personalization_options == 'UP TO 3 CHARACTERS' %}
+      <div class="custom-properties-section-product">
+        <div class="prose"><p><strong>PERSONALIZATION</strong></p></div>
+        <div class="line-item-property">
+          {% render 'input', type: 'text', label: '(Up to 3 Characters)', name: name, form: product_form_id, required: false, maxlength: 3 %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if product.metafields.custom.personalization_options == 'OPTIONAL HEMMING' %}
+      <div class="custom-properties-section-product">
+        <div class="prose"><p><strong>If Hemming Needed</strong></p></div>
+        <div class="line-item-property">
+          {% render 'input', type: 'text', label: 'Enter Inseam Here', name: name, form: product_form_id, required: false %}
+        </div>
+      </div>
+      
+    {% endif %}
             {%- render 'buy-buttons',
                 product: product,
                 form_id: product_form_id,
@@ -520,6 +567,8 @@ Supported variables
       {%- endif -%}
     {%- endfor -%}
   </div>
+
+  
 
   {%- comment -%}
     IMPLEMENTATION NOTE: under rare circumstances, merchant may want to show selectors to allow variant selection, but hide

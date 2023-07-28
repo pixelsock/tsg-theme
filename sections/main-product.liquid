@@ -40,17 +40,22 @@
     <div class="product">
       {%- if product.media.size > 0 -%}
         {%- render 'product-gallery',
-            product: product,
-            desktop_layout: section.settings.desktop_media_layout,
-            mobile_controls: section.settings.mobile_controls,
-            enable_media_autoplay: section.settings.enable_media_autoplay,
-            enable_video_looping: section.settings.enable_video_looping,
-            enable_image_zoom: section.settings.enable_image_zoom,
-            max_image_zoom_level: section.settings.max_image_zoom_level -%}
+          product: product,
+          desktop_layout: section.settings.desktop_media_layout,
+          mobile_controls: section.settings.mobile_controls,
+          enable_media_autoplay: section.settings.enable_media_autoplay,
+          enable_video_looping: section.settings.enable_video_looping,
+          enable_image_zoom: section.settings.enable_image_zoom,
+          max_image_zoom_level: section.settings.max_image_zoom_level
+        -%}
       {%- endif -%}
 
-      {%- render 'product-info', product: product, center_basic_info: section.settings.center_basic_info, has_content_below_gallery: has_content_below_gallery, update_url: true -%}
-      
+      {%- render 'product-info',
+        product: product,
+        center_basic_info: section.settings.center_basic_info,
+        has_content_below_gallery: has_content_below_gallery,
+        update_url: true
+      -%}
 
       {%- comment -%}On Prestige, some content may be on the left part below the product gallery{%- endcomment -%}
       {%- if has_content_below_gallery -%}
@@ -65,7 +70,13 @@
                 {%- if product.description != blank -%}
                   {%- if block.settings.collapse_content -%}
                     {%- assign accordion_title = 'product.general.description' | t -%}
-                    {%- render 'accordion', title: accordion_title, content: product.description, prose_content: true, size: 'lg', block: block -%}
+                    {%- render 'accordion',
+                      title: accordion_title,
+                      content: product.description,
+                      prose_content: true,
+                      size: 'lg',
+                      block: block
+                    -%}
                   {%- else -%}
                     <div class="product-content-below-gallery__description prose">
                       {{- product.description -}}
@@ -98,7 +109,13 @@
                 {%- endcapture -%}
 
                 {%- if block.settings.show_star_icon -%}
-                  {%- render 'accordion', title: title, content: content, is: 'reviews-disclosure', size: 'lg', icon: 'picto-star' -%}
+                  {%- render 'accordion',
+                    title: title,
+                    content: content,
+                    is: 'reviews-disclosure',
+                    size: 'lg',
+                    icon: 'picto-star'
+                  -%}
                 {%- else -%}
                   {%- render 'accordion', title: title, content: content, is: 'reviews-disclosure', size: 'lg' -%}
                 {%- endif -%}
@@ -118,14 +135,25 @@
       <div class="h-stack gap-6">
         {%- if product.media.size > 0 -%}
           <variant-media widths="60,120,180" form="{{ form_id }}">
-            {%- assign default_media = product.selected_or_first_available_variant.media | default: product.featured_media -%}
-            {{- default_media | image_url: width: default_media.width | image_tag: loading: 'lazy', sizes: '60px', widths: '60,120,180' -}}
+            {%- assign default_media = product.selected_or_first_available_variant.media
+              | default: product.featured_media
+            -%}
+            {{-
+              default_media
+              | image_url: width: default_media.width
+              | image_tag: loading: 'lazy', sizes: '60px', widths: '60,120,180'
+            -}}
           </variant-media>
         {%- endif -%}
 
         <div class="v-stack">
           <span class="h6">{{ product.title }}</span>
-          {%- render 'price-list', variant: product.selected_or_first_available_variant, form_id: form_id, hide_unit_price: true, context: 'card' -%}
+          {%- render 'price-list',
+            variant: product.selected_or_first_available_variant,
+            form_id: form_id,
+            hide_unit_price: true,
+            context: 'card'
+          -%}
         </div>
       </div>
     </div>
@@ -135,10 +163,10 @@
 {%- endif -%}
 
 {%- comment -%}
-IMPLEMENTATION NOTE: Shopify does not currently allows to render a given section within the context of a given product. However,
-when rendering the quick buy drawers/popovers, we want to be able to re-use the merchant's choices (such as the selector type). This
-is however only possible by rendering the whole product page, and extracting the relevant part. Here, we therefore render the
-quick buy information in a template, that will be extracted in JS, which ensures it is not visible in the main product page
+  IMPLEMENTATION NOTE: Shopify does not currently allows to render a given section within the context of a given product. However,
+  when rendering the quick buy drawers/popovers, we want to be able to re-use the merchant's choices (such as the selector type). This
+  is however only possible by rendering the whole product page, and extracting the relevant part. Here, we therefore render the
+  quick buy information in a template, that will be extracted in JS, which ensures it is not visible in the main product page
 {%- endcomment -%}
 {%- render 'product-quick-buy', product: product -%}
 
