@@ -3,6 +3,11 @@
   border-bottom: 3px solid #303030; 
 }
 
+.header__nav-icon.icon.icon-search {
+  display: inline-block;
+  margin: 0 4px 0 0;
+}
+
 .newsletter.content-over-media {
     justify-items: center;
   }
@@ -113,6 +118,18 @@
 
   .accordion[aria-expanded="true"] {
   background-color: #ffffff;
+}
+
+.line-item-property input, .line-item-property select, .line-item-property textarea {
+  background: #ffffff;
+  margin-bottom: 0.75rem;
+}
+.custom-properties-section-product .prose {
+  margin-bottom: 5px;
+}
+
+.custom-properties-section-product {
+  margin: 1.5rem 0;
 }
 
 

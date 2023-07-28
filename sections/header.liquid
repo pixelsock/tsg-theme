@@ -107,7 +107,10 @@
           <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
 
           {%- if section.settings.show_icons -%}
-            {%- render 'icon' with 'search', class: 'header__nav-icon' -%}
+            <span class="h6 md-max:hidden" style="font-size:.65rem;">
+              {%- render 'icon' with 'search', class: 'header__nav-icon' -%}
+              {{ 'header.general.search' | t -}}
+            </span>
           {%- else -%}
             <span class="md:hidden">{%- render 'icon' with 'search', class: 'header__nav-icon' -%}</span>
             <span class="h6 link-faded md-max:hidden">{{ 'header.general.search' | t }}</span>
@@ -138,7 +141,10 @@
             <span class="sr-only">{{ 'header.general.open_search' | t }}</span>
 
             {%- if section.settings.show_icons -%}
-              {%- render 'icon' with 'search', class: 'header__nav-icon' -%}
+              <span class="h6" style="font-size:.65rem;">
+                {%- render 'icon' with 'search', class: 'header__nav-icon' -%}
+                {{ 'header.general.search' | t -}}
+              </span>
             {%- else -%}
               <span class="md:hidden">{%- render 'icon' with 'search', class: 'header__nav-icon' -%}</span>
               <span class="h6 link-faded md-max:hidden">{{ 'header.general.search' | t }}</span>
