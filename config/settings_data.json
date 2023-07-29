@@ -15,7 +15,6 @@
     "modal_background": "#ffffff",
     "modal_text_color": "#303030",
     "product_rating_color": "#ed8a00",
-    "product_custom_badge_background": "#1c1c1c",
     "heading_font": "itc_franklin_gothic_n9",
     "heading_text_transform": "uppercase",
     "heading_font_size_factor": 1.1,

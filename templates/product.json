@@ -20,11 +20,6 @@
             "show_taxes_notice": false
           }
         },
-        "7cc277f4-2feb-46ad-9a35-8f82d9e55444": {
-          "type": "badges",
-          "settings": {
-          }
-        },
         "5ce33f42-3250-40e6-8ce1-d7a8683dbae5": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -194,7 +189,6 @@
         "vendor",
         "title",
         "price",
-        "7cc277f4-2feb-46ad-9a35-8f82d9e55444",
         "5ce33f42-3250-40e6-8ce1-d7a8683dbae5",
         "payment_terms",
         "e3537eb7-87d7-4dc0-a917-b7c1a48da8aa",

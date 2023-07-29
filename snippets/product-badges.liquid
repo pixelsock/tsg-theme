@@ -1,19 +1,19 @@
 {%- comment -%}
-----------------------------------------------------------------------------------------------------------------------
-PRODUCT BADGES COMPONENT
-----------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------
+  PRODUCT BADGES COMPONENT
+  ----------------------------------------------------------------------------------------------------------------------
 
-This component is used in product listing and product page to render the badges of a given product
+  This component is used in product listing and product page to render the badges of a given product
 
-********************************************
-Supported variables
-********************************************
+  ********************************************
+  Supported variables
+  ********************************************
 
-* product: the product to render the badges
-* variant: the specific variant to show the badge from
-* vertical: if set to true, the badges are outputted vertically
-* types: the types of badge to output. Can be "custom", "sold_out" or "discount" (or a combination separated by comma). If nothing is set, all badges are outputted.
-* form_id: an optional form ID to use to update the badges when a given variant changes
+  * product: the product to render the badges
+  * variant: the specific variant to show the badge from
+  * vertical: if set to true, the badges are outputted vertically
+  * types: the types of badge to output. Can be "custom", "sold_out" or "discount" (or a combination separated by comma). If nothing is set, all badges are outputted.
+  * form_id: an optional form ID to use to update the badges when a given variant changes
 {%- endcomment -%}
 
 {%- liquid
@@ -79,7 +79,12 @@ Supported variables
 {%- endcapture -%}
 
 {%- if badges != blank -%}
-  <badge-list {% if form_id != blank and is_badge_list_hidden %}hidden{% endif %} class="badge-list {% if vertical %}badge-list--vertical{% endif %}">
+  <badge-list
+    {% if form_id != blank and is_badge_list_hidden %}
+      hidden
+    {% endif %}
+    class="badge-list {% if vertical %}badge-list--vertical{% endif %}"
+  >
     {{- badges -}}
   </badge-list>
 {%- endif -%}
