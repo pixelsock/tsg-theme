@@ -84,10 +84,18 @@
   }
 
   /* Product Page */
+/* badges start */
+ 
 
   .block-swatch,
   .quantity-selector {
       background-color: white;
+      
+        flex: 0 0 calc(20% - 6.5px);
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: calc(20% - 6.5px);
+    
   }
 
   :checked + .block-swatch.is-disabled {
