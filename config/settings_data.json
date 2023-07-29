@@ -38,6 +38,7 @@
     "show_product_rating_if_empty": true,
     "show_quick_buy": true,
     "show_sold_out_badge": true,
+    "show_discount": false,
     "discount_mode": "percentage",
     "cart_icon": "shopping_bag",
     "cart_empty_cart_link": "\/",
