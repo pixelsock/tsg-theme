@@ -87,8 +87,7 @@
 /* badges start */
  
 
-  .block-swatch,
-  .quantity-selector {
+  .block-swatch{
       background-color: white;
       
         flex: 0 0 calc(20% - 6.5px);

@@ -1310,6 +1310,10 @@ height-observer {
   transform: translateY(3px);
 }
 
+.floating-label .hidden {
+  display:none;
+}
+
 :-webkit-autofill ~ .floating-label {
   color: #000;
 }
