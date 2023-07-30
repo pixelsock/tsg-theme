@@ -164,9 +164,9 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals-this-week-tsg",
+            "collection": "seasonsendmarkdowns",
             "products_count": 12,
-            "title": "The Best of The Best Sellers",
+            "title": "The Best Deals During the Season’s End Sale",
             "link_url": "",
             "link_text": ""
           }
