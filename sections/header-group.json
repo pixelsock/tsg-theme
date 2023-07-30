@@ -5,6 +5,12 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "b463537e-3544-4743-b2aa-841c0ef53732": {
+          "type": "message",
+          "settings": {
+            "text": "Season’s End Sale | 25% Off Apparel"
+          }
+        },
         "1090e969-2407-46e8-a855-23e75fedd389": {
           "type": "message",
           "settings": {
