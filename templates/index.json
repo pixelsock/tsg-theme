@@ -5,7 +5,6 @@
       "blocks": {
         "e3b479ad-c2fa-4d42-8201-283d7929b0f7": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/072823-seasons-end-summer-sale-hero-DT.jpg",
             "mobile_image": "shopify:\/\/shop_images\/072823-seasons-end-summer-sale-hero-mobile.jpg",
@@ -33,6 +32,7 @@
         },
         "1463836f-1096-4c23-9c5b-686a95535fd4": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/063023-summer-markdowns-HERO-DT_acff81f2-f5cb-4c82-8ab8-54a4c22a816c.jpg",
             "mobile_image": "shopify:\/\/shop_images\/063023-summer-markdowns-HERO-mobile.jpg",
