@@ -590,3 +590,23 @@ Supported variables
     {%- endform -%}
   {%- endunless -%}
 </safe-sticky>
+
+{% comment %} This is custom script for auto-aligning the option selections based on char count {% endcomment %}
+<script type="text/javascript">
+  document.querySelector('[title="klayvio_trigger"]').addEventListener('click', function () {
+    window._klOnsite = window._klOnsite || [];
+    window._klOnsite.push(['openForm', 'R97gmQ']);
+  });
+  // Select the flex container
+  var container = document.querySelector('[data-option-selector]');
+
+  // Select all .block-swatch elements
+  var items = container.querySelectorAll('.block-swatch');
+
+  // Find the length of the longest text and add 4
+  var maxLength =
+    Array.from(items).reduce((max, item) => Math.max(max, item.querySelector('span').textContent.length), 0) + 3;
+
+  // Set the grid-template-columns property based on the length of the longest text
+  container.style.gridTemplateColumns = `repeat(auto-fill, minmax(min(100%, ${maxLength}ch), 1fr))`;
+</script>
