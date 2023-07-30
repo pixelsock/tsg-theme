@@ -5,6 +5,12 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "b463537e-3544-4743-b2aa-841c0ef53732": {
+          "type": "message",
+          "settings": {
+            "text": "Season’s End Sale | 25% Off Apparel"
+          }
+        },
         "1090e969-2407-46e8-a855-23e75fedd389": {
           "type": "message",
           "settings": {
@@ -16,18 +22,12 @@
           "settings": {
             "text": "<a href=\"\/pages\/brick-mortar-charlotte\" title=\"Charlotte Brick & Mortar\">Brick & Mortar<\/a>     |    2848 Selwyn Ave. Charlotte, NC   |   (704) 896-5600   |   <a href=\"\/pages\/holler-at-us\" title=\"Holler At Us\">Holler at Us<\/a>"
           }
-        },
-        "b463537e-3544-4743-b2aa-841c0ef53732": {
-          "type": "message",
-          "settings": {
-            "text": "Season’s End Sale | 25% Off Apparel"
-          }
         }
       },
       "block_order": [
+        "b463537e-3544-4743-b2aa-841c0ef53732",
         "1090e969-2407-46e8-a855-23e75fedd389",
-        "24f48508-6c61-4f52-a226-9a3eb069b0a1",
-        "b463537e-3544-4743-b2aa-841c0ef53732"
+        "24f48508-6c61-4f52-a226-9a3eb069b0a1"
       ],
       "custom_css": [
 
