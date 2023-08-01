@@ -1,7 +1,51 @@
 {
   "sections": {
+    "f86eb006-031c-4ef3-86e0-89cf1c5caac2": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16760218845416__f86eb006-031c-4ef3-86e0-89cf1c5caac2-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.main_image.value }}",
+            "subheading": "",
+            "title": "{{ metaobject.page_title.value }}",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 31,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "template--16760218845416__f86eb006-031c-4ef3-86e0-89cf1c5caac2-image-1"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    }
   },
   "order": [
-
+    "f86eb006-031c-4ef3-86e0-89cf1c5caac2"
   ]
 }
