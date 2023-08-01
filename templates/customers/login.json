@@ -1,63 +1,7 @@
 {
   "sections": {
-    "36a94b7f-f2bb-4e6f-ac57-67dc7f565a38": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16748705775848__36a94b7f-f2bb-4e6f-ac57-67dc7f565a38-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Register For An Account",
-            "heading_tag": "h1"
-          }
-        },
-        "template--16748705775848__36a94b7f-f2bb-4e6f-ac57-67dc7f565a38-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Click the link below to register for your online account. Once you register on the next page, you'll be sent an email to confirm or \"activate\" your account. Make sure you're checking your spam or junk folder for that email.<\/p>"
-          }
-        },
-        "3653b108-8e41-4f04-83e5-8e7b4d7bf1af": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Create An Account",
-            "url": "\/account\/register",
-            "background": "#303030",
-            "text_color": "#ffffff"
-          }
-        },
-        "37dcb679-c4e8-4b69-ac07-7e73c49c83bb": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Or Login Below",
-            "heading_tag": "h3"
-          }
-        },
-        "7caea596-198e-4aa3-871b-03f7d45da654": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "{% form 'customer_login' %}\n  {{ form.errors | default_errors }}\n<div class=\"form-control\" style=\"margin-top:3rem\">\n<p>If you have already created and activated your account, please sign in below.<\/p>\n<input id=\"input-template--16748705775848__main--customeremail\" class=\"input\" type=\"email\" dir=\"ltr\" name=\"customer[email]\" placeholder=\"E-mail\" autocomplete=\"email\" required=\"\"><label for=\"input-template--16748705775848__main--customeremail\" class=\"floating-label text-xs hidden\">E-mail<\/label><\/div><div class=\"relative\"><div class=\"form-control\"><input id=\"input-template--16748705775848__main--customerpassword\" class=\"input\" type=\"password\" name=\"customer[password]\" placeholder=\"Password\" autocomplete=\"current-password\" required=\"\"><label for=\"input-template--16748705775848__main--customerpassword\" class=\"floating-label hidden text-xs\">Password<\/label><\/div><div style=\"margin-block-start:0px\" class=\"input-suffix hide-on-focus\">\n                        <a href=\"#recover\" allow-hash-change=\"\" class=\"text-xs link-faded\">Forgot your password?<\/a>\n                      <\/div>\n                    <\/div>\n                  <\/div>\n<button style=\"--button-background: 48 48 48;--button-outline-color: 48 48 48;--button-text-color: 255 255 255;\" type=\"submit\" class=\"button\">Login<\/button><div>\n                    <span class=\"text-subdued\">Don't have an account?<\/span>\n                    <a href=\"\/account\/register\" class=\"link-faded\">Sign up<\/a>\n                  <\/div><input type=\"hidden\" name=\"return_url\" value=\"\/account?\"><input type=\"hidden\" name=\"oseid\" value=\"geDffpQyU5BGbSEvkLvjCnmi\"><input type=\"hidden\" name=\"login_with_shop[analytics_trace_id]\" value=\"6b26c10a-24b4-446c-95b5-7a78e6845816\"><\/form>\n{% endform %}"
-          }
-        }
-      },
-      "block_order": [
-        "template--16748705775848__36a94b7f-f2bb-4e6f-ac57-67dc7f565a38-heading-1",
-        "template--16748705775848__36a94b7f-f2bb-4e6f-ac57-67dc7f565a38-richtext-1",
-        "3653b108-8e41-4f04-83e5-8e7b4d7bf1af",
-        "37dcb679-c4e8-4b69-ac07-7e73c49c83bb",
-        "7caea596-198e-4aa3-871b-03f7d45da654"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "content_width": "xs",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
     "main": {
       "type": "main-customers-login",
-      "disabled": true,
       "blocks": {
         "fields": {
           "type": "fields",
@@ -77,7 +21,6 @@
     }
   },
   "order": [
-    "36a94b7f-f2bb-4e6f-ac57-67dc7f565a38",
     "main"
   ]
 }
