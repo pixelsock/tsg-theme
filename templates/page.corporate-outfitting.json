@@ -33,7 +33,7 @@
         "separate_section_with_border": false,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"button-group justify-center\"><a class=\"button button--outline\">Why TSGACO?<\/a>\n<a class=\"button button--outline\">Request More Info<\/a><\/div>",
+        "liquid": "<div class=\"button-group justify-center\"><a class=\"button button--outline\" href=\"#shopify-section-template--16760204132584__a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe\">Why TSGACO?<\/a>\n<a class=\"button button--outline\" href=\"#shopify-section-template--16760204132584__9852aff1-1244-41a2-a109-1f5dc22585f7\">Request More Info<\/a><\/div>",
         "text_alignment": "center"
       }
     },
