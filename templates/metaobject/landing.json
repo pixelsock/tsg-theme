@@ -73,11 +73,11 @@
         "template--16760218845416__5860d8fd-ee6a-4c95-b450-68f09ebc33aa-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "{{ metaobject.main_collection.value }}",
             "products_count": 8,
-            "title": "",
+            "title": "{{ metaobject.main_collection_title_text.value }}",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": ""
           }
         }
       },
@@ -85,14 +85,14 @@
         "template--16760218845416__5860d8fd-ee6a-4c95-b450-68f09ebc33aa-collection-1"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "Featured collection"
+        "subheading": ""
       }
     }
   },
