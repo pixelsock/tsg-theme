@@ -1,24 +1,10 @@
 <div class="section-spacing">
-  <div class="container container--xxs">
+  <div class="container container--xs">
     <account-login class="customer-account-box">
-      <div class="v-stack gap-6" id="login">
-        <div class="v-stack gap-4">
-          <h1 class="h3">{{ 'customer.login.title' | t }}</h1>
-          <p>{{ 'customer.login.instructions' | t }}</p>
-          {% form 'customer_login' %}
-            {{ form.errors | default_errors }}
-          <div class="form-control" style="margin-top:3rem">
-          <p>If you have already created and activated your account, please sign in below.</p>
-          <input id="input-template--16748705775848__main--customeremail" class="input" type="email" dir="ltr" name="customer[email]" placeholder="E-mail" autocomplete="email" required=""><label for="input-template--16748705775848__main--customeremail" class="floating-label text-xs">E-mail</label></div><div class="relative"><div class="form-control"><input id="input-template--16748705775848__main--customerpassword" class="input" type="password" name="customer[password]" placeholder="Password" autocomplete="current-password" required=""><label for="input-template--16748705775848__main--customerpassword" class=" text-xs">Password</label></div><div style="margin-block-start:0px" class="input-suffix hide-on-focus">
-                                  <a href="#recover" allow-hash-change="" class="text-xs link-faded">Forgot your password?</a>
-                                </div>
-                              </div>
-                            </div>
-          <button style="--button-background: 48 48 48;--button-outline-color: 48 48 48;--button-text-color: 255 255 255;" type="submit" class="button">Login</button><div>
-                              <span class="text-subdued">Don't have an account?</span>
-                              <a href="/account/register" class="link-faded">Sign up</a>
-                            </div><input type="hidden" name="return_url" value="/account?"><input type="hidden" name="oseid" value="geDffpQyU5BGbSEvkLvjCnmi"><input type="hidden" name="login_with_shop[analytics_trace_id]" value="6b26c10a-24b4-446c-95b5-7a78e6845816"></form>
-          {% endform %}
+      <div class="v-stack gap-3" id="login">
+        <div class="v-stack gap-1">
+          <h2 class="h2">Welcom Back!</h2>
+          <p>If you already have an account, enter your email and password to login:</p>
         </div>
 
         {%- for block in section.blocks -%}
@@ -34,7 +20,7 @@
               {%- endif -%}
 
             {%- when 'fields' -%}
-              <div {{ block.shopify_attributes }}>
+              <div {{ block.shopify_attributes }} class="container container--xxs">
                 {%- capture form_recover_capture -%}
                   {%- form 'recover_customer_password' -%}
                     {%- capture form_recover_status -%}

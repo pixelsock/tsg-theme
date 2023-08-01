@@ -1,4 +1,22 @@
-/* Header Nav Area */
+/* ++++ START: Global ++++ */
+.button:hover {
+  background: #b3b7ba;
+}
+
+.button--outline {
+  border: 2px solid #303030;
+}
+
+/* ---- END: Global ---- */
+
+/* ++++ START: Customer Account ++++ */
+.customer-account-box {
+  align-items: flex-start;
+  min-height: fit-content;
+}
+/* ---- END: Customer Account ---- */
+
+/* ++++ START: Header ++++ */
 .header {
   border-bottom: 3px solid #303030; 
 }
@@ -7,6 +25,10 @@
   display: inline-block;
   margin: 0 4px 0 0;
 }
+
+/* ---- END: Header ---- */
+
+/* ++++ START: Banners ++++ */
 
 .newsletter.content-over-media {
     justify-items: center;
@@ -31,11 +53,11 @@
     border: 2px solid;
   }
 
-
-  /* Collection Banner */
   collection-banner .content-over-media {
     justify-items: start;
   }
+
+  /* ---- END: Banners ---- */
 
   /* Read More Reveal CSS */
   #more {

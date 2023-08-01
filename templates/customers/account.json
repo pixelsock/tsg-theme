@@ -14,20 +14,9 @@
       ],
       "settings": {
       }
-    },
-    "c80ea2ff-8e31-4d99-a68e-6b8a2f3ddcc9": {
-      "type": "custom-liquid",
-      "settings": {
-        "separate_section_with_border": false,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"button-group justify-center\"><a class=\"button button--outline\">Shop Now<\/a><a class=\"button button--outline\">FAQs<\/a><a class=\"button button--outline\">Leave A Review<\/a><a class=\"button button--outline\">Returns<\/a>\n<a class=\"button button--outline\">Reset Password<\/a><a class=\"button button--outline\">Holler At Us<\/a><a class=\"button button--outline\">Logout<\/a><\/div>",
-        "text_alignment": "center"
-      }
     }
   },
   "order": [
-    "main",
-    "c80ea2ff-8e31-4d99-a68e-6b8a2f3ddcc9"
+    "main"
   ]
 }
