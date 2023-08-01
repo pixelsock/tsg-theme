@@ -11,8 +11,9 @@
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image_size": "xs",
-        "image": "shopify:\/\/shop_images\/030222_corpsales_banner.jpg",
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/L1009258.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/L1009286.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -24,8 +25,32 @@
         "overlay_opacity": 0
       }
     },
+    "8c73236e-61cc-42db-b218-c0f2fa1dfc46": {
+      "type": "rich-text",
+      "blocks": {
+        "1c10b9d4-7fb1-4d7a-b7ed-91f48ee0a2cc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>There's no school like the old school - hence the vintage, and may-we-say bada**, Oxbow™ camo pattern we developed here at TSG.  This pattern is formulated to give you concealment in a blind, field or stream with colors that naturally appear during the best season to be outside - everyday.  So you can basically go outside and look like a bada** too.  We've said that twice now.  We're going to get in trouble soon.  Buy Oxbow™ Camo gear and be a good boy.  'Whew.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1c10b9d4-7fb1-4d7a-b7ed-91f48ee0a2cc"
+      ],
+      "custom_css": [
+        "{background: #202530; color: white; padding: 3rem 0;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": true
+      }
+    },
     "7b52fbc8-ec23-4608-adf4-c500a36b63ba": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "{padding: 1rem; background: #e2e2e2;}"
       ],
@@ -35,27 +60,6 @@
         "remove_horizontal_spacing": false,
         "liquid": "<div class=\"button-group justify-center\"><a class=\"button button--outline\" href=\"#shopify-section-template--16760204132584__a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe\">Why TSGACO?<\/a>\n<a class=\"button button--outline\" href=\"#shopify-section-template--16760204132584__9852aff1-1244-41a2-a109-1f5dc22585f7\">Request More Info<\/a><\/div>",
         "text_alignment": "center"
-      }
-    },
-    "8c73236e-61cc-42db-b218-c0f2fa1dfc46": {
-      "type": "rich-text",
-      "blocks": {
-        "10484a82-e6bd-4339-9dfe-2147b1c5911d": {
-          "type": "heading",
-          "settings": {
-            "text": "TSG APPAREL CO. CUSTOM OUTFITTING",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "10484a82-e6bd-4339-9dfe-2147b1c5911d"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
       }
     },
     "a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe": {
@@ -331,8 +335,8 @@
   "order": [
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
-    "7b52fbc8-ec23-4608-adf4-c500a36b63ba",
     "8c73236e-61cc-42db-b218-c0f2fa1dfc46",
+    "7b52fbc8-ec23-4608-adf4-c500a36b63ba",
     "a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe",
     "4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd",
     "9852aff1-1244-41a2-a109-1f5dc22585f7",
