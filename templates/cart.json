@@ -33,7 +33,7 @@
         "template--16748705644776__706f911b-40ba-42de-bbda-adb772c6d4ec-image-2"
       ],
       "settings": {
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "separate_section_with_border": false,
         "media_position_desktop": "before_text",
         "media_position_mobile": "before_text",
