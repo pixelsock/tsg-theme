@@ -73,7 +73,7 @@
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"h-stack justify-items-start gap-4\"><a class=\"button outlined\">Shop Now<\/a><a class=\"button outlined\">FAQs<\/a><a class=\"button outlined\">Leave A Review<\/a><a class=\"button outlined\">Returns<\/a>\n<a class=\"button outlined\">Reset Password<\/a><a class=\"button outlined\">Holler At Us<\/a><a class=\"button outlined\">Logout<\/a><\/div>",
+        "liquid": "<div class=\"button-group justify-center\"><a class=\"button button--outline\">Shop Now<\/a><a class=\"button button--outline\">FAQs<\/a><a class=\"button button--outline\">Leave A Review<\/a><a class=\"button button--outline\">Returns<\/a>\n<a class=\"button button--outline\">Reset Password<\/a><a class=\"button button--outline\">Holler At Us<\/a><a class=\"button button--outline\">Logout<\/a><\/div>",
         "text_alignment": "center"
       }
     }
