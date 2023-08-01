@@ -37,16 +37,30 @@
         "text_alignment": "center"
       }
     },
+    "8c73236e-61cc-42db-b218-c0f2fa1dfc46": {
+      "type": "rich-text",
+      "blocks": {
+        "10484a82-e6bd-4339-9dfe-2147b1c5911d": {
+          "type": "heading",
+          "settings": {
+            "text": "TSG APPAREL CO. CUSTOM OUTFITTING",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "10484a82-e6bd-4339-9dfe-2147b1c5911d"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe": {
       "type": "rich-text",
       "blocks": {
-        "template--16760204132584__a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "TSG Apparel Co. Custom Outfitting",
-            "heading_tag": "h1"
-          }
-        },
         "template--16760204132584__a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe-richtext-1": {
           "type": "richtext",
           "settings": {
@@ -55,7 +69,6 @@
         }
       },
       "block_order": [
-        "template--16760204132584__a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe-heading-1",
         "template--16760204132584__a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe-richtext-1"
       ],
       "settings": {
@@ -319,6 +332,7 @@
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "7b52fbc8-ec23-4608-adf4-c500a36b63ba",
+    "8c73236e-61cc-42db-b218-c0f2fa1dfc46",
     "a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe",
     "4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd",
     "9852aff1-1244-41a2-a109-1f5dc22585f7",
