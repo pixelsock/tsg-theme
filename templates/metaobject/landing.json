@@ -35,17 +35,70 @@
       ],
       "settings": {
         "allow_transparent_header": false,
-        "show_next_section_button": true,
-        "media_size": "auto",
+        "show_next_section_button": false,
+        "media_size": "lg",
         "autoplay": true,
         "autoplay_pause_on_video": true,
-        "cycle_speed": 5,
+        "cycle_speed": 6,
         "background": "#000000",
         "controls_color": "#ffffff"
+      }
+    },
+    "f97f159d-bc3c-4f97-ae7b-03b2af47049b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16760218845416__f97f159d-bc3c-4f97-ae7b-03b2af47049b-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ metaobject.body_content | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--16760218845416__f97f159d-bc3c-4f97-ae7b-03b2af47049b-richtext-1"
+      ],
+      "custom_css": [
+        "{background: #202530; color: white; padding: 2rem 0;}"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": true
+      }
+    },
+    "5860d8fd-ee6a-4c95-b450-68f09ebc33aa": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16760218845416__5860d8fd-ee6a-4c95-b450-68f09ebc33aa-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "template--16760218845416__5860d8fd-ee6a-4c95-b450-68f09ebc33aa-collection-1"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Featured collection"
       }
     }
   },
   "order": [
-    "f86eb006-031c-4ef3-86e0-89cf1c5caac2"
+    "f86eb006-031c-4ef3-86e0-89cf1c5caac2",
+    "f97f159d-bc3c-4f97-ae7b-03b2af47049b",
+    "5860d8fd-ee6a-4c95-b450-68f09ebc33aa"
   ]
 }
