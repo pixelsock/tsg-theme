@@ -52,7 +52,7 @@
         "10484a82-e6bd-4339-9dfe-2147b1c5911d"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
@@ -72,7 +72,7 @@
         "template--16760204132584__a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe-richtext-1"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "content_width": "sm",
         "text_position": "start",
         "remove_vertical_spacing": false
