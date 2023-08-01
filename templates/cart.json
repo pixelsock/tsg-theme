@@ -10,47 +10,51 @@
         "show_shipping_estimator": false
       }
     },
-    "3e0f4d6f-a611-484a-8ecd-ef17e16c4021": {
-      "type": "multi-column",
+    "706f911b-40ba-42de-bbda-adb772c6d4ec": {
+      "type": "multiple-media-with-text",
       "blocks": {
-        "template--16748705644776__3e0f4d6f-a611-484a-8ecd-ef17e16c4021-image_with_text-1": {
-          "type": "image_with_text",
+        "template--16748705644776__706f911b-40ba-42de-bbda-adb772c6d4ec-image-1": {
+          "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/free-returns-icon-min_7b8185f8-14e4-42e2-8905-3977783a23fc.png",
-            "title": "Easy Returns",
-            "heading_tag": "h3",
-            "content": "<p>Need to return or exchange? Just holler at us or visit our policy.<\/p>",
-            "link_url": "shopify:\/\/pages\/returns-exchanges",
-            "link_text": "Learn More"
+            "rotation": 0
           }
         },
-        "template--16748705644776__3e0f4d6f-a611-484a-8ecd-ef17e16c4021-image_with_text-2": {
-          "type": "image_with_text",
+        "template--16748705644776__706f911b-40ba-42de-bbda-adb772c6d4ec-image-2": {
+          "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/questions-icon-min_c86e03da-9938-4292-a706-750d2cc7edee.png",
-            "title": "Have Questions?",
-            "heading_tag": "h3",
-            "content": "<p><a href=\"mailto:holler@thesportinggent.com\" title=\"mailto:holler@thesportinggent.com\">holler@thesportinggent.com<\/a><\/p><p><a href=\"tel:+17048965600\" title=\"tel:+17048965600\">(704) 896-5600<\/a><\/p><p>MONDAY - FRIDAY: 10AM - 6PM<br\/>SATURDAY: 10AM - 4PM<\/p>",
-            "link_url": "",
-            "link_text": ""
+            "rotation": 0
           }
         }
       },
       "block_order": [
-        "template--16748705644776__3e0f4d6f-a611-484a-8ecd-ef17e16c4021-image_with_text-1",
-        "template--16748705644776__3e0f4d6f-a611-484a-8ecd-ef17e16c4021-image_with_text-2"
+        "template--16748705644776__706f911b-40ba-42de-bbda-adb772c6d4ec-image-1",
+        "template--16748705644776__706f911b-40ba-42de-bbda-adb772c6d4ec-image-2"
       ],
       "settings": {
+        "reveal_on_scroll": true,
         "separate_section_with_border": false,
-        "columns_per_row": 3,
-        "stack_on_mobile": false,
-        "overlap_image": false,
-        "content_alignment": "center",
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
         "text_alignment": "center",
-        "spacing": "xs",
-        "subheading": "",
+        "subheading": "Easy Returns & Top Customer Service",
         "title": "",
-        "content": ""
+        "content": "<p>Need to return or exchange? Have other questions about your order or our store? <\/p>",
+        "button_1_text": "Returns & Exchanges",
+        "button_1_link": "shopify:\/\/pages\/returns-exchanges",
+        "button_1_style": "link",
+        "button_2_text": "Holler At Us",
+        "button_2_link": "shopify:\/\/pages\/holler-at-us",
+        "button_2_style": "link",
+        "background": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "610fca0c-51ee-4c66-8bbf-d97121f97027": {
@@ -84,7 +88,7 @@
   },
   "order": [
     "main",
-    "3e0f4d6f-a611-484a-8ecd-ef17e16c4021",
+    "706f911b-40ba-42de-bbda-adb772c6d4ec",
     "610fca0c-51ee-4c66-8bbf-d97121f97027"
   ]
 }
