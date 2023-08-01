@@ -96,23 +96,12 @@
             "background": "#303030",
             "text_color": ""
           }
-        },
-        "05b871ad-8fc5-4f9e-b351-0e17ea4242cf": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Get Directions",
-            "url": "shopify:\/\/pages\/holler-at-us",
-            "background": "#303030",
-            "text_color": ""
-          }
         }
       },
       "block_order": [
         "1058c197-0f51-4cdd-8640-c5105ef561be",
         "c1018f4d-d1b3-4c4c-8f2a-19d9799a4257",
-        "951c2aa8-9821-4677-bb6b-373a4065a165",
-        "05b871ad-8fc5-4f9e-b351-0e17ea4242cf"
+        "951c2aa8-9821-4677-bb6b-373a4065a165"
       ],
       "settings": {
         "separate_section_with_border": false,
