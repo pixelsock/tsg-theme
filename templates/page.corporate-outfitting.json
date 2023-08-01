@@ -11,8 +11,8 @@
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/101122_tsg-on-youtube_webhero_07c16925-3560-4e90-a04d-a434c4d6ed4a.jpg",
+        "image_size": "xs",
+        "image": "shopify:\/\/shop_images\/030222_corpsales_banner.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -24,31 +24,158 @@
         "overlay_opacity": 0
       }
     },
-    "6388de95-89a7-4b92-bfa1-8a10f3cc5bff": {
+    "7b52fbc8-ec23-4608-adf4-c500a36b63ba": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "{padding: 1rem; background: #e2e2e2;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"button-group justify-center\"><a class=\"button button--outline\">Why TSGACO?<\/a>\n<a class=\"button button--outline\">Request More Info<\/a><\/div>",
+        "text_alignment": "center"
+      }
+    },
+    "a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe": {
       "type": "rich-text",
       "blocks": {
-        "template--16754568954088__6388de95-89a7-4b92-bfa1-8a10f3cc5bff-richtext-1": {
+        "template--16760204132584__a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "TSG Apparel Co. Custom Outfitting",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16760204132584__a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<h4><em>CLICK THE VIDEO BELOW TO WATCH OUR LATEST VIDEO AND SUBSCRIBE TO OUR CHANNEL.<\/em><\/h4>"
+            "content": "<h2>WE MAKE IT EASY FOR YOU...<\/h2><ul><li><strong>A fully streamlined and simple approval process - <\/strong>We offer mockups and an easy process to make sure you're getting exactly what you want.<\/li><li><strong>Low minimums and bulk discounts available - <\/strong>Just need a couple items or maybe need a larger order for a corporate gift? Don't worry, we can handle any order size.<\/li><li><strong>Access to 100's of products across our TSG and TSGACo. collections - <\/strong>We have an extensive (and growing) collection of everyday and field-ready goods to turn into your own branded apparel.<\/li><li><strong>Fast turn-around - <\/strong>All of our customization is done locally and all design work is done in-house. We're set up to get your project done right, and fast.<\/li><\/ul>"
           }
         }
       },
       "block_order": [
-        "template--16754568954088__6388de95-89a7-4b92-bfa1-8a10f3cc5bff-richtext-1"
-      ],
-      "custom_css": [
-        "{background: #4a4d53; color: white; padding: 3rem 0; font-weight: bold;}"
+        "template--16760204132584__a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe-heading-1",
+        "template--16760204132584__a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe-richtext-1"
       ],
       "settings": {
         "separate_section_with_border": true,
-        "content_width": "lg",
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16760204132584__4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/030222_logoexamples_coporatepage-oversized2.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "33da0444-df20-4439-b84d-e8782bc790c7": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/030222_logoexamples_coporatepage-oversized_1828ea4a-a5ec-43e4-ad6d-d1d7d3efca02.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "bdd0589d-fc18-4c0d-9678-332353185d04": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/030222_logoexamples_coporatepage-oversized3_faaa087a-c314-4e7d-ba7e-bf26cda45dca.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16760204132584__4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd-collection-1",
+        "33da0444-df20-4439-b84d-e8782bc790c7",
+        "bdd0589d-fc18-4c0d-9678-332353185d04"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "xs",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": false,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "9852aff1-1244-41a2-a109-1f5dc22585f7": {
+      "type": "rich-text",
+      "blocks": {
+        "a16a476d-e669-45f2-bbcf-a50f2fab2b1a": {
+          "type": "heading",
+          "settings": {
+            "text": "Create An Account And Learn More",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "a16a476d-e669-45f2-bbcf-a50f2fab2b1a"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
         "text_position": "center",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false
+      }
+    },
+    "6f4072a3-740a-49b0-86bb-382803a9312f": {
+      "type": "custom-liquid",
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"container container--xxs\"><form method=\"post\" action=\"\/account\" id=\"create_customer\" accept-charset=\"UTF-8\" data-login-with-shop-sign-up=\"true\" class=\"form\" data-bitwarden-watching=\"1\"><input type=\"hidden\" name=\"form_type\" value=\"create_customer\"><input type=\"hidden\" name=\"utf8\" value=\"✓\"><div class=\"fieldset\">\n                    <div class=\"form-control\"><input id=\"input-template--16748705480936__main--customerfirst_name\" class=\"input\" type=\"text\" name=\"customer[first_name]\" placeholder=\"First name\" autocomplete=\"given-name\" required=\"\"><label for=\"input-template--16748705480936__main--customerfirst_name\" class=\"floating-label text-xs\">First name<\/label><\/div><div class=\"form-control\"><input id=\"input-template--16748705480936__main--customerlast_name\" class=\"input\" type=\"text\" name=\"customer[last_name]\" placeholder=\"Last name\" autocomplete=\"family-name\" required=\"\"><label for=\"input-template--16748705480936__main--customerlast_name\" class=\"floating-label text-xs\">Last name<\/label><\/div><div class=\"form-control\"><input id=\"input-template--16748705480936__main--customeremail\" class=\"input\" type=\"email\" dir=\"ltr\" name=\"customer[email]\" placeholder=\"E-mail\" autocomplete=\"email\" required=\"\"><label for=\"input-template--16748705480936__main--customeremail\" class=\"floating-label text-xs\">E-mail<\/label><\/div><div class=\"form-control\"><input id=\"input-template--16748705480936__main--customerpassword\" class=\"input\" type=\"password\" name=\"customer[password]\" placeholder=\"Password\" minlength=\"5\" autocomplete=\"new-password\" required=\"\"><label for=\"input-template--16748705480936__main--customerpassword\" class=\"floating-label text-xs\">Password<\/label><\/div>\n                  <\/div>\n<button type=\"submit\" class=\"button\">Create account<\/button><div>\n                    <span class=\"text-subdued\">Already have an account?<\/span>\n                    <a href=\"\/account\/login\" class=\"link-faded\">Login<\/a>\n                  <\/div><\/form><\/div>",
+        "text_alignment": "center"
       }
     },
     "acb25f99-5bbd-4339-9a18-107c326b2263": {
       "type": "video",
+      "disabled": true,
       "blocks": {
         "template--16754568954088__acb25f99-5bbd-4339-9a18-107c326b2263-play-1": {
           "type": "play",
@@ -191,7 +318,11 @@
   "order": [
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
-    "6388de95-89a7-4b92-bfa1-8a10f3cc5bff",
+    "7b52fbc8-ec23-4608-adf4-c500a36b63ba",
+    "a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe",
+    "4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd",
+    "9852aff1-1244-41a2-a109-1f5dc22585f7",
+    "6f4072a3-740a-49b0-86bb-382803a9312f",
     "acb25f99-5bbd-4339-9a18-107c326b2263",
     "d7051b54-11ba-4cff-a487-a37efc87eb9d",
     "0b4547ef-b6c9-4d3c-92d7-d2d47d133eea",
