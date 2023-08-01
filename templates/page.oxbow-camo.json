@@ -228,20 +228,32 @@
         "overlay_opacity": 73
       }
     },
-    "0b4547ef-b6c9-4d3c-92d7-d2d47d133eea": {
-      "type": "image-with-text-overlay",
+    "ec8c01eb-f2bb-4424-a732-83ececf4eac8": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16760249843944__ec8c01eb-f2bb-4424-a732-83ececf4eac8-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "oxbow-goods-collection",
+            "products_count": 8,
+            "title": "OXBOW ACCESSORIES",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "template--16760249843944__ec8c01eb-f2bb-4424-a732-83ececf4eac8-collection-1"
+      ],
       "settings": {
-        "image_size": "xs",
-        "image": "shopify:\/\/shop_images\/072721_tsgapparelco_hero_734680c1-e0ab-49b9-afa0-98f2af69ea29.jpg",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": false,
-        "remove_vertical_spacing": false,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 18
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Featured collection"
       }
     },
     "081a943f-e1e6-4a88-9a30-2c5ae40c9edb": {
@@ -358,32 +370,21 @@
         "remove_vertical_spacing": true
       }
     },
-    "ec8c01eb-f2bb-4424-a732-83ececf4eac8": {
-      "type": "featured-collections",
-      "blocks": {
-        "template--16760249843944__ec8c01eb-f2bb-4424-a732-83ececf4eac8-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "oxbow-goods-collection",
-            "products_count": 8,
-            "title": "OXBOW ACCESSORIES",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "template--16760249843944__ec8c01eb-f2bb-4424-a732-83ececf4eac8-collection-1"
-      ],
+    "0b4547ef-b6c9-4d3c-92d7-d2d47d133eea": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Featured collection"
+        "image_size": "xs",
+        "image": "shopify:\/\/shop_images\/072721_tsgapparelco_hero_734680c1-e0ab-49b9-afa0-98f2af69ea29.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 18
       }
     },
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
@@ -411,11 +412,11 @@
     "1fdb73fb-ca48-4fad-9c96-a7ffe1384177",
     "db017f56-6fdd-4016-b53e-14e88d41ca02",
     "73f2e6a0-47a9-46b6-ba22-7fbeced5a800",
-    "0b4547ef-b6c9-4d3c-92d7-d2d47d133eea",
+    "ec8c01eb-f2bb-4424-a732-83ececf4eac8",
     "081a943f-e1e6-4a88-9a30-2c5ae40c9edb",
     "bc9638a4-87f7-4a04-8fbe-ae455599375c",
     "be556c16-0c0b-42ca-8a8a-cc456f716789",
-    "ec8c01eb-f2bb-4424-a732-83ececf4eac8",
+    "0b4547ef-b6c9-4d3c-92d7-d2d47d133eea",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
 }
