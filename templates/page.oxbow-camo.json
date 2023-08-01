@@ -10,6 +10,17 @@
     },
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee": {
       "type": "image-with-text-overlay",
+      "blocks": {
+        "97f75e78-3ca2-4d22-8506-03516785baf2": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<h1 style=\"font-size:5vw;\">OXBOW™ CAMO<\/h1>"
+          }
+        }
+      },
+      "block_order": [
+        "97f75e78-3ca2-4d22-8506-03516785baf2"
+      ],
       "settings": {
         "image_size": "lg",
         "image": "shopify:\/\/shop_images\/L1009258.jpg",
@@ -22,7 +33,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 19
       }
     },
     "8c73236e-61cc-42db-b218-c0f2fa1dfc46": {
@@ -48,254 +59,173 @@
         "remove_vertical_spacing": true
       }
     },
-    "7b52fbc8-ec23-4608-adf4-c500a36b63ba": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "custom_css": [
-        "{padding: 1rem; background: #e2e2e2;}"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"button-group justify-center\"><a class=\"button button--outline\" href=\"#shopify-section-template--16760204132584__a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe\">Why TSGACO?<\/a>\n<a class=\"button button--outline\" href=\"#shopify-section-template--16760204132584__9852aff1-1244-41a2-a109-1f5dc22585f7\">Request More Info<\/a><\/div>",
-        "text_alignment": "center"
-      }
-    },
-    "a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe": {
-      "type": "rich-text",
+    "1fdb73fb-ca48-4fad-9c96-a7ffe1384177": {
+      "type": "featured-collections",
       "blocks": {
-        "template--16760204132584__a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe-richtext-1": {
-          "type": "richtext",
+        "template--16760249843944__1fdb73fb-ca48-4fad-9c96-a7ffe1384177-collection-1": {
+          "type": "collection",
           "settings": {
-            "content": "<h2>WE MAKE IT EASY FOR YOU...<\/h2><ul><li><strong>A fully streamlined and simple approval process - <\/strong>We offer mockups and an easy process to make sure you're getting exactly what you want.<\/li><li><strong>Low minimums and bulk discounts available - <\/strong>Just need a couple items or maybe need a larger order for a corporate gift? Don't worry, we can handle any order size.<\/li><li><strong>Access to 100's of products across our TSG and TSGACo. collections - <\/strong>We have an extensive (and growing) collection of everyday and field-ready goods to turn into your own branded apparel.<\/li><li><strong>Fast turn-around - <\/strong>All of our customization is done locally and all design work is done in-house. We're set up to get your project done right, and fast.<\/li><\/ul>"
+            "collection": "oxbow-camo-landing-page",
+            "products_count": 8,
+            "title": "New For Fall 2021",
+            "link_url": "",
+            "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "template--16760204132584__a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe-richtext-1"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "content_width": "sm",
-        "text_position": "start",
-        "remove_vertical_spacing": false
-      }
-    },
-    "4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd": {
-      "type": "collection-list",
-      "blocks": {
-        "template--16760204132584__4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/030222_logoexamples_coporatepage-oversized2.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "33da0444-df20-4439-b84d-e8782bc790c7": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/030222_logoexamples_coporatepage-oversized_1828ea4a-a5ec-43e4-ad6d-d1d7d3efca02.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "bdd0589d-fc18-4c0d-9678-332353185d04": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/030222_logoexamples_coporatepage-oversized3_faaa087a-c314-4e7d-ba7e-bf26cda45dca.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16760204132584__4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd-collection-1",
-        "33da0444-df20-4439-b84d-e8782bc790c7",
-        "bdd0589d-fc18-4c0d-9678-332353185d04"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "image_size": "xs",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": false,
-        "collections_per_row_desktop": 3,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "9852aff1-1244-41a2-a109-1f5dc22585f7": {
-      "type": "rich-text",
-      "blocks": {
-        "a16a476d-e669-45f2-bbcf-a50f2fab2b1a": {
-          "type": "heading",
-          "settings": {
-            "text": "Create An Account And Learn More",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "a16a476d-e669-45f2-bbcf-a50f2fab2b1a"
+        "template--16760249843944__1fdb73fb-ca48-4fad-9c96-a7ffe1384177-collection-1"
       ],
       "settings": {
         "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Featured collection"
       }
     },
-    "6f4072a3-740a-49b0-86bb-382803a9312f": {
-      "type": "custom-liquid",
+    "db017f56-6fdd-4016-b53e-14e88d41ca02": {
+      "type": "media-grid",
+      "blocks": {
+        "template--16760249843944__db017f56-6fdd-4016-b53e-14e88d41ca02-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tsg-blowingrock-builder-147.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "Outerwear & Vests",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-end text-end",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 21
+          }
+        },
+        "template--16760249843944__db017f56-6fdd-4016-b53e-14e88d41ca02-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JMB_3572.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "Bottoms",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "template--16760249843944__db017f56-6fdd-4016-b53e-14e88d41ca02-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f21-knightshill-lowres-208.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "Tops",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-start text-start",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--16760249843944__db017f56-6fdd-4016-b53e-14e88d41ca02-image-1",
+        "template--16760249843944__db017f56-6fdd-4016-b53e-14e88d41ca02-image-2",
+        "template--16760249843944__db017f56-6fdd-4016-b53e-14e88d41ca02-image-3"
+      ],
       "settings": {
         "separate_section_with_border": false,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"container container--xxs\"><form method=\"post\" action=\"\/account\" id=\"create_customer\" accept-charset=\"UTF-8\" data-login-with-shop-sign-up=\"true\" class=\"form\" data-bitwarden-watching=\"1\"><input type=\"hidden\" name=\"form_type\" value=\"create_customer\"><input type=\"hidden\" name=\"utf8\" value=\"✓\"><div class=\"fieldset\">\n                    <div class=\"form-control\"><input id=\"input-template--16748705480936__main--customerfirst_name\" class=\"input\" type=\"text\" name=\"customer[first_name]\" placeholder=\"First name\" autocomplete=\"given-name\" required=\"\"><label for=\"input-template--16748705480936__main--customerfirst_name\" class=\"floating-label text-xs\">First name<\/label><\/div><div class=\"form-control\"><input id=\"input-template--16748705480936__main--customerlast_name\" class=\"input\" type=\"text\" name=\"customer[last_name]\" placeholder=\"Last name\" autocomplete=\"family-name\" required=\"\"><label for=\"input-template--16748705480936__main--customerlast_name\" class=\"floating-label text-xs\">Last name<\/label><\/div><div class=\"form-control\"><input id=\"input-template--16748705480936__main--customeremail\" class=\"input\" type=\"email\" dir=\"ltr\" name=\"customer[email]\" placeholder=\"E-mail\" autocomplete=\"email\" required=\"\"><label for=\"input-template--16748705480936__main--customeremail\" class=\"floating-label text-xs\">E-mail<\/label><\/div><div class=\"form-control\"><input id=\"input-template--16748705480936__main--customerpassword\" class=\"input\" type=\"password\" name=\"customer[password]\" placeholder=\"Password\" minlength=\"5\" autocomplete=\"new-password\" required=\"\"><label for=\"input-template--16748705480936__main--customerpassword\" class=\"floating-label text-xs\">Password<\/label><\/div>\n                  <\/div>\n<button type=\"submit\" class=\"button\">Create account<\/button><div>\n                    <span class=\"text-subdued\">Already have an account?<\/span>\n                    <a href=\"\/account\/login\" class=\"link-faded\">Login<\/a>\n                  <\/div><\/form><\/div>",
-        "text_alignment": "center"
-      }
-    },
-    "acb25f99-5bbd-4339-9a18-107c326b2263": {
-      "type": "video",
-      "disabled": true,
-      "blocks": {
-        "template--16754568954088__acb25f99-5bbd-4339-9a18-107c326b2263-play-1": {
-          "type": "play",
-          "settings": {
-            "icon_color": "#ffffff"
-          }
-        },
-        "template--16754568954088__acb25f99-5bbd-4339-9a18-107c326b2263-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "template--16754568954088__acb25f99-5bbd-4339-9a18-107c326b2263-play-1",
-        "template--16754568954088__acb25f99-5bbd-4339-9a18-107c326b2263-heading-1"
-      ],
-      "settings": {
-        "autoplay": false,
-        "show_controls": true,
-        "video_size": "md",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=Y8Lc7LCRMwg",
-        "poster": "shopify:\/\/shop_images\/20220626-TSG-Troutsky-Builder-86.jpg",
-        "text_color": "#ffffff"
-      }
-    },
-    "d7051b54-11ba-4cff-a487-a37efc87eb9d": {
-      "type": "collection-list",
-      "blocks": {
-        "template--16754551849192__d7051b54-11ba-4cff-a487-a37efc87eb9d-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/A7R7060.jpg",
-            "expand_collection": true,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "",
-            "button_link": "shopify:\/\/pages\/chetola-sporting-reserve",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "#ffffff",
-            "button_text_color": "#303030"
-          }
-        },
-        "e61e1147-054e-4b46-a3c0-40bf524f362f": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/A747974.jpg",
-            "expand_collection": true,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "",
-            "button_link": "shopify:\/\/pages\/chetola-sporting-reserve",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "#ffffff",
-            "button_text_color": "#303030"
-          }
-        },
-        "4b448fd2-7f9c-4264-9fe8-32dd33202bf8": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/A7R7869.jpg",
-            "expand_collection": true,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "",
-            "button_link": "shopify:\/\/pages\/chetola-sporting-reserve",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "#ffffff",
-            "button_text_color": "#303030"
-          }
-        }
-      },
-      "block_order": [
-        "template--16754551849192__d7051b54-11ba-4cff-a487-a37efc87eb9d-collection-1",
-        "e61e1147-054e-4b46-a3c0-40bf524f362f",
-        "4b448fd2-7f9c-4264-9fe8-32dd33202bf8"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "xs",
-        "show_text_outside": false,
-        "space_items": false,
-        "stack_collections": false,
-        "collections_per_row_desktop": 3,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
         "subheading": "",
         "title": "",
         "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "73f2e6a0-47a9-46b6-ba22-7fbeced5a800": {
+      "type": "images-with-text-scroll",
+      "disabled": true,
+      "blocks": {
+        "template--16760249843944__73f2e6a0-47a9-46b6-ba22-7fbeced5a800-image_with_text-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f21-knightshill-lowres-149.jpg",
+            "subheading": "",
+            "title": "If you know TSG, then you better know Oxbow™.",
+            "content": "<p>A modern take on your grandpappy’s favorite duck hunter camo, with the added advantage of modern fabrics. It may be old school meets new school, but there is no denying that Oxbow™ will ensure that they never see you coming...<\/p><p>...Inspired by camouflage used by Marine Raiders in World War II, it did not take long for veterans and outdoors enthusiasts alike to put numerous variations of this pattern to work, everywhere from the duck blind to the dinner table.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "template--16760249843944__73f2e6a0-47a9-46b6-ba22-7fbeced5a800-image_with_text-2": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/082321_beawingman_1920x_97cd3853-3bc8-4b8b-80bd-729dd7f7bdd7.jpg",
+            "subheading": "",
+            "title": "",
+            "content": "<p>It is this quintessential image of freedom and free outdoor living that we pay homage to with our own signature pattern that will take you anywhere and everywhere...<\/p><p>...Not only does this disruptive pattern break up your outline in the field, it also breaks you free from the look of every other average guy. Wearing Oxbow™ conceals you on the hunt and reveals you when you are out and about. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "template--16760249843944__73f2e6a0-47a9-46b6-ba22-7fbeced5a800-image_with_text-3": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/020322-midszn-vest-oxbow-alt-2.jpg",
+            "subheading": "",
+            "title": "",
+            "content": "<p>Here at TSG we believe that Oxbow™ is suited for both work and play, and it is a clear sign to all who see you that you are a work hard, play hard, full-fledged Sporting Gent.<\/p><p>Check out our full collection of Oxbow™ products <a href=\"https:\/\/www.thesportinggent.com\/search?q=oxbow\"><span style=\"text-decoration:underline\">HERE<\/span><\/a>, including the limited edition <a href=\"https:\/\/www.thesportinggent.com\/collections\/all\/products\/tsg-boone-5-pocket-pant-oxbow\"><span style=\"text-decoration:underline\">Oxbow Boone 5-Pocket pants <\/span><\/a>(while they last).<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "template--16760249843944__73f2e6a0-47a9-46b6-ba22-7fbeced5a800-image_with_text-1",
+        "template--16760249843944__73f2e6a0-47a9-46b6-ba22-7fbeced5a800-image_with_text-2",
+        "template--16760249843944__73f2e6a0-47a9-46b6-ba22-7fbeced5a800-image_with_text-3"
+      ],
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/f21-knightshill-lowres-731.jpg",
+        "image_position": "start",
+        "text_alignment": "start",
+        "heading_tag": "h3",
+        "background": "#f5f5f5",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#1c1c1c",
+        "overlay_color": "#000000",
+        "overlay_opacity": 73
       }
     },
     "0b4547ef-b6c9-4d3c-92d7-d2d47d133eea": {
@@ -305,13 +235,155 @@
         "image": "shopify:\/\/shop_images\/072721_tsgapparelco_hero_734680c1-e0ab-49b9-afa0-98f2af69ea29.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
-        "remove_vertical_spacing": true,
+        "remove_vertical_spacing": false,
         "content_width": "md",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 18
+      }
+    },
+    "081a943f-e1e6-4a88-9a30-2c5ae40c9edb": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16760249843944__081a943f-e1e6-4a88-9a30-2c5ae40c9edb-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16760249843944__081a943f-e1e6-4a88-9a30-2c5ae40c9edb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "If you know TSG, then you better know Oxbow™.",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16760249843944__081a943f-e1e6-4a88-9a30-2c5ae40c9edb-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A modern take on your grandpappy’s favorite duck hunter camo, with the added advantage of modern fabrics. It may be old school meets new school, but there is no denying that Oxbow™ will ensure that they never see you coming...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16760249843944__081a943f-e1e6-4a88-9a30-2c5ae40c9edb-subheading-1",
+        "template--16760249843944__081a943f-e1e6-4a88-9a30-2c5ae40c9edb-heading-1",
+        "template--16760249843944__081a943f-e1e6-4a88-9a30-2c5ae40c9edb-richtext-1"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/f21-knightshill-lowres-149.jpg",
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
+      }
+    },
+    "bc9638a4-87f7-4a04-8fbe-ae455599375c": {
+      "type": "image-with-text",
+      "blocks": {
+        "2b130496-ab56-4d19-af17-7ec445179042": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "b28b60c8-faae-41a6-bada-4d27740be70c": {
+          "type": "heading",
+          "settings": {
+            "text": "If you know TSG, then you better know Oxbow™.",
+            "heading_tag": "h2"
+          }
+        },
+        "d86e3352-f5a7-4709-9453-bf8e7036e63f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>It is this quintessential image of freedom and free outdoor living that we pay homage to with our own signature pattern that will take you anywhere and everywhere...<\/p><p>...Not only does this disruptive pattern break up your outline in the field, it also breaks you free from the look of every other average guy. Wearing Oxbow™ conceals you on the hunt and reveals you when you are out and about. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "2b130496-ab56-4d19-af17-7ec445179042",
+        "b28b60c8-faae-41a6-bada-4d27740be70c",
+        "d86e3352-f5a7-4709-9453-bf8e7036e63f"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/082321_beawingman_1920x_97cd3853-3bc8-4b8b-80bd-729dd7f7bdd7.jpg",
+        "reveal_on_scroll": false,
+        "image_position": "end",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
+      }
+    },
+    "be556c16-0c0b-42ca-8a8a-cc456f716789": {
+      "type": "image-with-text",
+      "blocks": {
+        "b84948de-e4a3-4703-9882-78c5516b0429": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "fb925bcf-cf94-4bad-9c7b-4651715981f4": {
+          "type": "heading",
+          "settings": {
+            "text": "If you know TSG, then you better know Oxbow™.",
+            "heading_tag": "h2"
+          }
+        },
+        "39255c86-4e6f-45a3-a12b-ad523137b66b": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Here at TSG we believe that Oxbow™ is suited for both work and play, and it is a clear sign to all who see you that you are a work hard, play hard, full-fledged Sporting Gent.<\/p><p><\/p><p>Check out our full collection of Oxbow™ products <a href=\"https:\/\/www.thesportinggent.com\/search?q=oxbow\"><span style=\"text-decoration:underline\">HERE<\/span><\/a>, including the limited edition <a href=\"https:\/\/www.thesportinggent.com\/collections\/all\/products\/tsg-boone-5-pocket-pant-oxbow\"><span style=\"text-decoration:underline\">Oxbow Boone 5-Pocket pants <\/span><\/a>(while they last).<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b84948de-e4a3-4703-9882-78c5516b0429",
+        "fb925bcf-cf94-4bad-9c7b-4651715981f4",
+        "39255c86-4e6f-45a3-a12b-ad523137b66b"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/f21-knightshill-lowres-721.jpg",
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
+      }
+    },
+    "ec8c01eb-f2bb-4424-a732-83ececf4eac8": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16760249843944__ec8c01eb-f2bb-4424-a732-83ececf4eac8-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "oxbow-goods-collection",
+            "products_count": 8,
+            "title": "OXBOW ACCESSORIES",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "template--16760249843944__ec8c01eb-f2bb-4424-a732-83ececf4eac8-collection-1"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Featured collection"
       }
     },
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
@@ -336,14 +408,14 @@
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "8c73236e-61cc-42db-b218-c0f2fa1dfc46",
-    "7b52fbc8-ec23-4608-adf4-c500a36b63ba",
-    "a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe",
-    "4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd",
-    "9852aff1-1244-41a2-a109-1f5dc22585f7",
-    "6f4072a3-740a-49b0-86bb-382803a9312f",
-    "acb25f99-5bbd-4339-9a18-107c326b2263",
-    "d7051b54-11ba-4cff-a487-a37efc87eb9d",
+    "1fdb73fb-ca48-4fad-9c96-a7ffe1384177",
+    "db017f56-6fdd-4016-b53e-14e88d41ca02",
+    "73f2e6a0-47a9-46b6-ba22-7fbeced5a800",
     "0b4547ef-b6c9-4d3c-92d7-d2d47d133eea",
+    "081a943f-e1e6-4a88-9a30-2c5ae40c9edb",
+    "bc9638a4-87f7-4a04-8fbe-ae455599375c",
+    "be556c16-0c0b-42ca-8a8a-cc456f716789",
+    "ec8c01eb-f2bb-4424-a732-83ececf4eac8",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
 }
