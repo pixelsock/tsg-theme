@@ -50,7 +50,7 @@
         "link_url": "",
         "expiration_date": "2023-08-06 23:59",
         "expiration_behavior": "leave",
-        "desktop_justification": "space-between",
+        "desktop_justification": "center",
         "background": "#7c6e4e",
         "text_color": "#ffffff"
       }
