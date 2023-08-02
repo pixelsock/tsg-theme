@@ -304,7 +304,7 @@
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "button_text": "",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/oxbow-camo",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
