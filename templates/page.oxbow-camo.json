@@ -22,7 +22,7 @@
         "97f75e78-3ca2-4d22-8506-03516785baf2"
       ],
       "settings": {
-        "image_size": "lg",
+        "image_size": "xs",
         "image": "shopify:\/\/shop_images\/L1009258.jpg",
         "mobile_image": "shopify:\/\/shop_images\/L1009286.jpg",
         "allow_transparent_header": false,
