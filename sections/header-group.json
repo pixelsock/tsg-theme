@@ -44,15 +44,14 @@
     },
     "c3232e5d-33be-49ea-932f-6b0e94cfb62c": {
       "type": "countdown-condensed",
-      "disabled": true,
       "settings": {
-        "content": "20% Off All Apparel - USE CODE: MEMORIAL",
+        "content": "Summer Markdowns End in:",
         "link_text": "",
         "link_url": "",
-        "expiration_date": "2023-06-25",
+        "expiration_date": "2023-08-06 23:59",
         "expiration_behavior": "leave",
         "desktop_justification": "space-between",
-        "background": "#cb2b2b",
+        "background": "#7c6e4e",
         "text_color": "#ffffff"
       }
     },
