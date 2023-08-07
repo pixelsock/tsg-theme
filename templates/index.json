@@ -3,6 +3,33 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "b9881576-d349-4728-a854-c189239c9f4c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/080723-dove-szn-DT-hero.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/080723-dove-szn-mobile-hero_3ac9e424-9d55-48a4-bdff-76f225e56821.jpg",
+            "subheading": "We've got the gear you need",
+            "title": "DOVE SEASON COMETH",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#7c6e4e",
+            "button_1_text_color": "#ffffff",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "43a4b72e-066b-4e52-a087-1110ac34f653": {
           "type": "image",
           "settings": {
@@ -110,41 +137,14 @@
             "border_color": "",
             "gradient_overlay": ""
           }
-        },
-        "b9881576-d349-4728-a854-c189239c9f4c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/080723-dove-szn-DT-hero.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/080723-dove-szn-mobile-hero_3ac9e424-9d55-48a4-bdff-76f225e56821.jpg",
-            "subheading": "We've got the gear you need",
-            "title": "DOVE SEASON COMETH",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#7c6e4e",
-            "button_1_text_color": "#ffffff",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
         }
       },
       "block_order": [
+        "b9881576-d349-4728-a854-c189239c9f4c",
         "43a4b72e-066b-4e52-a087-1110ac34f653",
         "slide-1",
         "1463836f-1096-4c23-9c5b-686a95535fd4",
-        "a50d94f6-c366-440a-a4b3-b95854044c3f",
-        "b9881576-d349-4728-a854-c189239c9f4c"
+        "a50d94f6-c366-440a-a4b3-b95854044c3f"
       ],
       "settings": {
         "allow_transparent_header": false,
