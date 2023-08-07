@@ -44,6 +44,7 @@
     },
     "c3232e5d-33be-49ea-932f-6b0e94cfb62c": {
       "type": "countdown-condensed",
+      "disabled": true,
       "settings": {
         "content": "Summer Markdowns End in:",
         "link_text": "",

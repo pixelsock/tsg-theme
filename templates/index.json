@@ -5,6 +5,7 @@
       "blocks": {
         "e3b479ad-c2fa-4d42-8201-283d7929b0f7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/072823-seasons-end-summer-sale-hero-DT.jpg",
             "mobile_image": "shopify:\/\/shop_images\/072823-seasons-end-summer-sale-hero-mobile_8b8b5e80-5768-4333-b54c-07ffc0aa1d88.jpg",
@@ -32,6 +33,7 @@
         },
         "e31dba88-a35a-4bca-9b5f-d2b446b19bda": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/071423-russell-boot-event-hero-DT_3200x1200_6f13ce97-c5f3-4c62-8c25-994b223df763.jpg",
             "mobile_image": "shopify:\/\/shop_images\/071423-russell-event-hero-mobile_500x600_a3d76a37-fba8-4e3e-be84-f2a3ee771605.jpg",
