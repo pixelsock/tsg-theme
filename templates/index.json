@@ -141,10 +141,32 @@
             "link_url": "",
             "link_text": ""
           }
+        },
+        "22199300-574e-4d95-964c-63d7f6414320": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "e98aa442-4bbd-4efb-a7a0-b9101d9c1e65": {
+          "type": "collection",
+          "settings": {
+            "collection": "dove-hunt-goods-gear",
+            "products_count": 8,
+            "title": "Dove Szn Checklist",
+            "link_url": "",
+            "link_text": "View all"
+          }
         }
       },
       "block_order": [
-        "collection-1"
+        "collection-1",
+        "22199300-574e-4d95-964c-63d7f6414320",
+        "e98aa442-4bbd-4efb-a7a0-b9101d9c1e65"
       ],
       "settings": {
         "separate_section_with_border": true,
