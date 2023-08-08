@@ -14,7 +14,7 @@
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "",
+            "button_1_link": "shopify:\/\/collections\/dove-hunt-goods-gear",
             "button_1_style": "solid",
             "button_1_background": "#7c6e4e",
             "button_1_text_color": "#ffffff",
