@@ -48,7 +48,9 @@
           "settings": {
             "option_name": "Color",
             "option_value_metafield": "customSwatches.current",
-            "products": "{{ product.metafields.custom.variant_products.value }}",
+            "products": [
+
+            ],
             "color_selector_type": "color"
           }
         },
