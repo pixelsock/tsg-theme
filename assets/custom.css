@@ -242,7 +242,8 @@
 /* Mega Menu */
 
 .mega-menu {
-  justify-content: space-evenly;
+  border-top: 2px solid;
+  margin-top: -2px;
 }
 
 .mega-menu__linklist {
