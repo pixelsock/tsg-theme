@@ -250,3 +250,7 @@
   display: contents;
 }
 
+.header__dropdown-menu:not(:has(.header__dropdown-menu)) {
+    margin-top: 3px;
+}
+
