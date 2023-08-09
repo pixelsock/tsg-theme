@@ -201,7 +201,7 @@ height-observer {
 }
 
 .accordion :is(svg) {
-  /*transition: transform .2s;
+  transition: transform .2s;
 }
 
 .accordion + .accordion {
@@ -338,7 +338,7 @@ height-observer {
   align-items: center;
   column-gap: 1.125rem;
   padding: .65rem 1.75rem;
-  /*transition: background-size .45s cubic-bezier(.785, .135, .15, .86), background-position .45s step-end, color .45s cubic-bezier(.785, .135, .15, .86), border .45s cubic-bezier(.785, .135, .15, .86);
+  transition: background-size .45s cubic-bezier(.785, .135, .15, .86), background-position .45s step-end, color .45s cubic-bezier(.785, .135, .15, .86), border .45s cubic-bezier(.785, .135, .15, .86);
   display: inline-flex;
   position: relative;
 }
@@ -363,18 +363,18 @@ height-observer {
 }
 
 @media screen and (pointer: fine) and (prefers-reduced-motion: no-preference) {
-  .features--button-/*transition :is(.button, .shopify-challenge__button, .shopify-payment-button__button--unbranded):not([disabled]):hover {
+  .features--button-transition :is(.button, .shopify-challenge__button, .shopify-payment-button__button--unbranded):not([disabled]):hover {
     border-color: rgb(var(--button-background, var(--button-background-primary)));
     color: rgb(var(--button-background, var(--button-background-primary)));
     background-position: var(--hover-background-position);
     background-size: 0 100%, 100% 100%;
   }
 
-  .features--button-/*transition .shopify-payment-button__button--unbranded:not([disabled]):hover {
+  .features--button-transition .shopify-payment-button__button--unbranded:not([disabled]):hover {
     background-color: #0000;
   }
 
-  .features--button-/*transition .button--outline:not([disabled]):hover {
+  .features--button-transition .button--outline:not([disabled]):hover {
     color: rgb(var(--button-text-color, var(--button-text-primary)));
   }
 }
@@ -583,7 +583,7 @@ height-observer {
 
 .content-over-media > video-media:not([autoplay]) ~ * {
   pointer-events: none;
-  /*transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
+  transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
 }
 
 .content-over-media > video-media:not([autoplay])[loaded] ~ * {
@@ -592,7 +592,7 @@ height-observer {
 }
 
 .content-over-media:has(video-media:not([autoplay])) .play-button {
-  /*transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
 }
 
 .content-over-media:has(video-media:not([autoplay])):hover .play-button {
@@ -678,7 +678,7 @@ height-observer {
   border-radius: inherit;
   opacity: .4;
   background: currentColor;
-  /*transition: opacity .25s, background .25s;
+  transition: opacity .25s, background .25s;
   position: absolute;
   inset: 0;
 }
@@ -692,7 +692,7 @@ height-observer {
 }
 
 .page-dots--autoplay > [aria-current="false"]:after, .page-dots--autoplay > [aria-current="true"] .circular-progress {
-  /*transition-delay: .15s;
+  transition-delay: .15s;
 }
 
 .page-dots--autoplay > [aria-current="true"]:after, .page-dots--autoplay > [aria-current="false"] .circular-progress {
@@ -704,7 +704,7 @@ height-observer {
 }
 
 .prev-next-button {
-  /*transition: opacity .15s ease-in-out, transform .15s ease-in-out, visibility .15s ease-in-out;
+  transition: opacity .15s ease-in-out, transform .15s ease-in-out, visibility .15s ease-in-out;
 }
 
 .prev-next-button[disabled] {
@@ -800,7 +800,7 @@ height-observer {
 @media screen and (pointer: fine) {
   :where(.modal, .drawer, .popover, .header-search)::part(close-button) {
     opacity: .6;
-    /*transition: all .2s ease-in;
+    transition: all .2s ease-in;
   }
 
   :where(.modal, .drawer, .popover, .header-search)::part(close-button):hover {
@@ -1052,7 +1052,7 @@ height-observer {
   text-align: inherit;
   width: 100%;
   color: rgb(var(--text-color) / .65);
-  /*transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
 }
 
 .popover__value-list > *[aria-selected="true"], .popover__value-list > *:hover {
@@ -1244,7 +1244,7 @@ height-observer {
   color: rgb(var(--input-text-color, var(--text-color)));
   text-align: start;
   border-width: 1px;
-  /*transition: border-color .1s ease-in-out;
+  transition: border-color .1s ease-in-out;
 }
 
 :is(.input, .textarea, .select)::placeholder {
@@ -1265,7 +1265,7 @@ height-observer {
 }
 
 .select ~ svg, .select > svg {
-  /*transition: transform .2s;
+  transition: transform .2s;
   position: absolute;
   inset-block-start: calc(50% - 3.5px);
   inset-inline-end: calc(var(--input-padding-inline)  + 1px);
@@ -1303,7 +1303,7 @@ height-observer {
   opacity: 0;
   pointer-events: none;
   padding: 0 .25rem;
-  /*transition: opacity .2s ease-in-out, transform .2s ease-in-out;
+  transition: opacity .2s ease-in-out, transform .2s ease-in-out;
   position: absolute;
   inset-block-start: calc(-1 * var(--input-padding-block)  + 1px);
   inset-inline-start: calc(var(--input-padding-inline)  - .25rem + 1px);
@@ -1324,7 +1324,7 @@ height-observer {
 }
 
 .input-suffix {
-  /*transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
+  transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
   position: absolute;
   inset-block-start: var(--input-padding-block);
   inset-inline-end: var(--input-padding-inline);
@@ -1347,7 +1347,7 @@ height-observer {
   background: var(--checkmark-svg-url) no-repeat center / 0;
   border-radius: 2px;
   flex-shrink: 0;
-  /*transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
   position: relative;
   inset-block-start: var(--checkbox-offset);
 }
@@ -1378,7 +1378,7 @@ height-observer {
 }
 
 .checkbox ~ label {
-  /*transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .dot-checkbox {
@@ -1390,7 +1390,7 @@ height-observer {
   opacity: 0;
   pointer-events: none;
   border-radius: 100%;
-  /*transition: opacity .2s;
+  transition: opacity .2s;
   display: block;
   position: absolute;
   inset-block-start: calc(.5em + 1.5px);
@@ -1398,7 +1398,7 @@ height-observer {
 
 .dot-checkbox ~ label {
   opacity: .65;
-  /*transition: opacity .2s, transform .2s;
+  transition: opacity .2s, transform .2s;
   position: relative;
 }
 
@@ -1428,7 +1428,7 @@ height-observer {
   border-radius: var(--rounded-full);
   background: rgb(var(--text-color) / .1);
   align-self: center;
-  /*transition: background .2s ease-in-out;
+  transition: background .2s ease-in-out;
   display: grid;
 }
 
@@ -1438,7 +1438,7 @@ height-observer {
   height: var(--switch-toggle-size);
   background: rgb(var(--background-secondary));
   border-radius: var(--rounded-full);
-  /*transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
   box-shadow: 0 1px 1px #0003;
 }
 
@@ -1615,7 +1615,7 @@ height-observer {
 
 .shopify-section--announcement-bar, .shopify-section--header {
   transform: translateY(calc(((var(--announcement-bar-height, 0px)  + var(--header-height, 0px)) * -1) * var(--hide-header-group, 0)));
-  /*transition: transform .25s ease-in-out;
+  transition: transform .25s ease-in-out;
 }
 
 video-media, model-media {
@@ -1666,7 +1666,7 @@ video-media > :is(video, iframe, img) {
   width: 100%;
   height: 100%;
   border-radius: inherit;
-  /*transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
 }
 
 video-media > video[controls] {
@@ -1702,7 +1702,7 @@ video-media[suspended] ~ * {
 video-media::part(play-button) {
   z-index: 1;
   will-change: scale;
-  /*transition: scale .2s ease-in-out, opacity .2s ease-in-out;
+  transition: scale .2s ease-in-out, opacity .2s ease-in-out;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1904,14 +1904,14 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   will-change: opacity;
   z-index: 10;
   pointer-events: none;
-  /*transition: opacity .3s cubic-bezier(.4, 0, .22, 1), transform .3s cubic-bezier(.4, 0, .22, 1);
+  transition: opacity .3s cubic-bezier(.4, 0, .22, 1), transform .3s cubic-bezier(.4, 0, .22, 1);
   transform: translateY(15px);
 }
 
 .pswp--ui-visible .pswp__hide-on-close {
   opacity: 1;
   pointer-events: auto;
-  /*transition-delay: .3s;
+  transition-delay: .3s;
   transform: translateY(0);
 }
 
@@ -1931,7 +1931,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .pswp__top-bar > .circle-button {
   pointer-events: auto;
-  /*transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
 }
 
 @media screen and (pointer: fine) {
@@ -2148,7 +2148,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   object-fit: contain;
   object-position: center;
   margin-inline: auto;
-  /*transition: opacity .1s ease-in-out;
+  transition: opacity .1s ease-in-out;
 }
 
 .product-card__image--secondary {
@@ -2173,12 +2173,12 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 @media screen and (pointer: fine) {
   .product-card__quick-add-button {
     opacity: 0;
-    /*transition: opacity .2s ease-in-out, transform .2s ease-in-out;
+    transition: opacity .2s ease-in-out, transform .2s ease-in-out;
     transform: translateY(5px);
   }
 
   .product-card__quick-add-button :is(svg) {
-    /*transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
   }
 
   .product-card__quick-add-button:hover svg {
@@ -2532,7 +2532,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 .link, .prose a:not(.h1, .h2, .h3, .h4, .h5, .h6, .button, .link-faded, .link-faded-reverse) {
   text-underline: none;
   background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.35em) / 100% 1px no-repeat;
-  /*transition: background-size .3s ease-in-out;
+  transition: background-size .3s ease-in-out;
 }
 
 @media screen and (pointer: fine) {
@@ -2544,7 +2544,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 .link-reverse {
   text-underline: none;
   background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.35em) / 0 1px no-repeat;
-  /*transition: background-size .3s ease-in-out;
+  transition: background-size .3s ease-in-out;
 }
 
 @media screen and (pointer: fine) {
@@ -2555,7 +2555,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .link-faded {
   color: rgb(var(--text-color) / .65);
-  /*transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
 }
 
 @media screen and (pointer: fine) {
@@ -2565,7 +2565,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 .link-faded-reverse {
-  /*transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
 }
 
 @media screen and (pointer: fine) {
@@ -2628,7 +2628,7 @@ tfoot td {
 
 .js tr[onclick] {
   cursor: pointer;
-  /*transition: background .2s;
+  transition: background .2s;
 }
 
 .js tr[onclick]:hover {
@@ -2669,7 +2669,7 @@ tfoot td {
 
 .social-media--list .social-media__item {
   opacity: .65;
-  /*transition: opacity .2s, color .2s;
+  transition: opacity .2s, color .2s;
 }
 
 .social-media--list svg {
@@ -2696,7 +2696,7 @@ tfoot td {
   width: 100%;
   outline: 1px solid rgb(var(--border-color));
   z-index: 0;
-  /*transition: background .15s, color .15s, outline .15s, z-index .15s;
+  transition: background .15s, color .15s, outline .15s, z-index .15s;
 }
 
 .social-media--block a {
@@ -2944,7 +2944,7 @@ tfoot td {
 
 #shopify-product-reviews .spr-review-reportreview {
   opacity: .65;
-  /*transition: opacity .2s;
+  transition: opacity .2s;
 }
 
 #shopify-product-reviews .spr-review-reportreview:hover {
@@ -3105,7 +3105,7 @@ tfoot td {
 .content-tabs [role="tab"] {
   box-shadow: 0 1px rgb(var(--text-color));
   padding-block-end: .625rem;
-  /*transition: opacity .2s ease-in, box-shadow .2s ease-in;
+  transition: opacity .2s ease-in, box-shadow .2s ease-in;
 }
 
 .content-tabs [role="tab"]:not([aria-selected="true"]) {
@@ -3133,7 +3133,7 @@ tfoot td {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .features--page-/*transition {
+  .features--page-transition {
     opacity: 0;
   }
 }
@@ -3162,7 +3162,7 @@ tfoot td {
 .icon {
   vertical-align: middle;
   height: auto;
-  /*transition: transform .2s;
+  transition: transform .2s;
   display: block;
 }
 
@@ -3223,7 +3223,7 @@ tfoot td {
 }
 
 .localization-toggle > svg {
-  /*transition: transform .2s;
+  transition: transform .2s;
 }
 
 .localization-toggle[aria-expanded="true"] > svg {
@@ -3355,7 +3355,7 @@ tfoot td {
   transform: scaleX(var(--progress, 0));
   transform-origin: var(--transform-origin-start);
   background: currentColor;
-  /*transition: transform .45s ease-in-out;
+  transition: transform .45s ease-in-out;
   display: block;
 }
 
@@ -3380,7 +3380,7 @@ tfoot td {
     justify-self: center;
     padding: .125rem .5rem;
     font-size: .6875rem;
-    /*transition: opacity .1s ease-in-out, visibility .1s ease-in-out, scale .1s ease-in-out;
+    transition: opacity .1s ease-in-out, visibility .1s ease-in-out, scale .1s ease-in-out;
     position: absolute;
     left: 50%;
     translate: -50%;
@@ -3413,7 +3413,7 @@ tfoot td {
 .animated-plus:before, .animated-plus:after {
   content: "";
   background-color: currentColor;
-  /*transition: transform .25s ease-in-out, opacity .25s ease-in-out;
+  transition: transform .25s ease-in-out, opacity .25s ease-in-out;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -3475,7 +3475,7 @@ tfoot td {
 }
 
 .quantity-selector__button svg {
-  /*transition: opacity .2s;
+  transition: opacity .2s;
 }
 
 .quantity-selector__button[disabled] svg, .quantity-selector__button:hover svg {
@@ -3594,7 +3594,7 @@ tfoot td {
 }
 
 .circular-progress {
-  /*transition: opacity .25s;
+  transition: opacity .25s;
   transform: rotate(-90deg);
 }
 
@@ -3905,7 +3905,7 @@ tfoot td {
   visibility: hidden;
   z-index: 1;
   padding-block: 1rem;
-  /*transition: transform .2s, visibility .2s;
+  transition: transform .2s, visibility .2s;
   position: fixed;
   inset-block-start: var(--sticky-area-height);
   transform: translateY(-100%);
@@ -4042,7 +4042,7 @@ tfoot td {
 .cart-drawer:has(.cart-drawer__order-note[open])::part(header), .cart-drawer:has(.cart-drawer__order-note[open])::part(body) {
   opacity: .4;
   pointer-events: none;
-  /*transition: opacity .2s;
+  transition: opacity .2s;
 }
 
 .cart-drawer:not(:has(.cart-drawer__footer:only-child))::part(footer) {
@@ -4194,7 +4194,7 @@ tfoot td {
 }
 
 .collection-toolbar__button :is(svg) {
-  /*transition: transform .2s;
+  transition: transform .2s;
 }
 
 .collection-toolbar__button[aria-expanded="true"] svg {
@@ -4221,7 +4221,7 @@ tfoot td {
 
 .collection-toolbar__button {
   opacity: .5;
-  /*transition: opacity .2s;
+  transition: opacity .2s;
 }
 
 .collection-toolbar__button:hover, .collection-toolbar__button.is-active {
@@ -4612,7 +4612,7 @@ tfoot td {
 .faq__toc-item {
   text-underline: none;
   background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.35em) / 0 1px no-repeat;
-  /*transition: background-size .3s ease-in-out;
+  transition: background-size .3s ease-in-out;
 }
 
 .faq__toc-item.is-active {
@@ -4658,7 +4658,7 @@ tfoot td {
   height: 1px;
   transform-origin: var(--transform-origin-start);
   background: currentColor;
-  /*transition: transform .3s;
+  transition: transform .3s;
   position: absolute;
   inset-block-end: 0;
   inset-inline-start: 0;
@@ -4711,7 +4711,7 @@ tfoot td {
   padding-block-end: var(--header-padding-block);
   padding-inline-start: var(--container-gutter);
   padding-inline-end: var(--container-gutter);
-  /*transition: background .2s, color .2s, border .2s, box-shadow .2s;
+  transition: background .2s, color .2s, border .2s, box-shadow .2s;
   display: grid;
   position: relative;
 }
@@ -4730,7 +4730,7 @@ tfoot td {
 
 :has(.shopify-section:first-child [allow-transparent-header]):not(:has(.shopify-section--header + .shopify-section-group-header-group)) .header:not(:hover, .is-solid, :has([open])) .link-faded {
   color: currentColor;
-  /*transition: none;
+  transition: none;
 }
 
 .header__cart-dot {
@@ -4739,7 +4739,7 @@ tfoot td {
   box-shadow: 0 0 0 2px rgb(var(--background));
   background-color: currentColor;
   border-radius: 100%;
-  /*transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
   position: absolute;
   inset-block-start: 0;
   inset-inline-end: -.125rem;
@@ -4767,7 +4767,7 @@ tfoot td {
   height: var(--header-logo-height);
   max-width: 100%;
   opacity: calc(1 - var(--header-show-transparent-logo));
-  /*transition: opacity .2s;
+  transition: opacity .2s;
 }
 
 .header__logo-image--transparent {
@@ -4803,7 +4803,7 @@ tfoot td {
   letter-spacing: var(--heading-letter-spacing);
   text-transform: var(--heading-text-transform);
   pointer-events: none;
-  /*transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
   position: absolute;
   inset-block-end: 0;
   transform: scaleX(0);
@@ -4879,7 +4879,7 @@ tfoot td {
   width: 100%;
   transform-origin: var(--transform-origin-start);
   background: rgb(var(--text-color));
-  /*transition: transform .25s ease-in-out 50ms;
+  transition: transform .25s ease-in-out 50ms;
   position: absolute;
   inset-block-start: 0;
   inset-inline-start: 0;
@@ -5189,7 +5189,7 @@ tfoot td {
   align-items: center;
   padding-block-start: calc(var(--header-linklist-padding-block) / 2);
   padding-block-end: calc(var(--header-linklist-padding-block) / 2);
-  /*transition: color .2s;
+  transition: color .2s;
   display: flex;
 }
 
@@ -5807,7 +5807,7 @@ tfoot td {
 
 .product-gallery__zoom-button {
   z-index: 1;
-  /*transition: opacity .2s, visibility .2s;
+  transition: opacity .2s, visibility .2s;
   position: absolute;
   inset-block-start: 1.25rem;
   inset-inline-end: 0;
@@ -5872,7 +5872,7 @@ tfoot td {
 .product-gallery__thumbnail {
   border: 1px solid #0000;
   padding: 1px;
-  /*transition: border-color .1s;
+  transition: border-color .1s;
   position: relative;
 }
 
@@ -6005,7 +6005,7 @@ tfoot td {
 }
 
 .product-info__more-info > svg {
-  /*transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
 }
 
 @media screen and (pointer: fine) {
@@ -6106,7 +6106,7 @@ tfoot td {
   opacity: 0;
   visibility: hidden;
   z-index: 3;
-  /*transition: opacity .2s, visibility .2s;
+  transition: opacity .2s, visibility .2s;
   display: block;
   position: fixed;
   inset-block-end: 0;
@@ -6214,7 +6214,7 @@ tfoot td {
   width: var(--hot-spot-size);
   height: var(--hot-spot-size);
   border-radius: var(--rounded-full);
-  /*transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
   position: absolute;
 }
 
@@ -6270,7 +6270,7 @@ tfoot td {
     pointer-events: none;
     background: rgb(var(--background-primary));
     z-index: 2;
-    /*transition: opacity .4s;
+    transition: opacity .4s;
     position: fixed;
     inset-block-start: 0;
     inset-inline-start: 0;
@@ -6430,7 +6430,7 @@ tfoot td {
 }
 
 .testimonial-list__thumbnail {
-  /*transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
 }
 
 .testimonial-list__thumbnail[aria-current="false"] {
@@ -6611,7 +6611,7 @@ tfoot td {
 .timeline__nav > button {
   height: var(--text-h4);
   line-height: 1;
-  /*transition: opacity .25s ease-in-out, font-size .25s ease-in-out;
+  transition: opacity .25s ease-in-out, font-size .25s ease-in-out;
   position: relative;
 }
 
@@ -6621,7 +6621,7 @@ tfoot td {
   height: 3px;
   transform-origin: var(--transform-origin-start);
   background: currentColor;
-  /*transition: transform .25s ease-in-out;
+  transition: transform .25s ease-in-out;
   position: absolute;
   inset-block-end: -1.25rem;
   inset-inline-start: 0;
@@ -6721,7 +6721,7 @@ tfoot td {
 @media screen and (pointer: fine) and (prefers-reduced-motion: no-preference) {
   .features--zoom-image .zoom-image {
     transform-origin: center;
-    /*transition: scale 8s cubic-bezier(.25, .46, .45, .94);
+    transition: scale 8s cubic-bezier(.25, .46, .45, .94);
   }
 
   .features--zoom-image .group:hover .group-hover\:zoom {
