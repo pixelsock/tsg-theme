@@ -281,6 +281,7 @@
         "e61e1147-054e-4b46-a3c0-40bf524f362f",
         "4b448fd2-7f9c-4264-9fe8-32dd33202bf8"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "image_size": "xs",
@@ -297,12 +298,12 @@
     },
     "0b4547ef-b6c9-4d3c-92d7-d2d47d133eea": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image_size": "xs",
-        "image": "shopify:\/\/shop_images\/072721_tsgapparelco_hero_734680c1-e0ab-49b9-afa0-98f2af69ea29.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
-        "remove_vertical_spacing": true,
+        "remove_vertical_spacing": false,
         "content_width": "md",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
