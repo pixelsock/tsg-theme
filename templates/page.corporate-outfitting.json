@@ -12,7 +12,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image_size": "xs",
-        "image": "shopify:\/\/shop_images\/030222_corpsales_banner.jpg",
+        "image": "shopify:\/\/shop_images\/062723-custom-outfittin-HERO-DT.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -141,6 +141,7 @@
         "33da0444-df20-4439-b84d-e8782bc790c7",
         "bdd0589d-fc18-4c0d-9678-332353185d04"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "image_size": "xs",
@@ -188,7 +189,6 @@
     },
     "acb25f99-5bbd-4339-9a18-107c326b2263": {
       "type": "video",
-      "disabled": true,
       "blocks": {
         "template--16754568954088__acb25f99-5bbd-4339-9a18-107c326b2263-play-1": {
           "type": "play",
@@ -208,6 +208,7 @@
         "template--16754568954088__acb25f99-5bbd-4339-9a18-107c326b2263-play-1",
         "template--16754568954088__acb25f99-5bbd-4339-9a18-107c326b2263-heading-1"
       ],
+      "disabled": true,
       "settings": {
         "autoplay": false,
         "show_controls": true,
