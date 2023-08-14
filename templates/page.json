@@ -40,6 +40,7 @@
         "separate_section_with_border": true,
         "image_size": "sm",
         "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/122321_fly_mobile-hero.jpg",
         "subheading": "Want to stay in the Loop?",
         "title": "Sign up for our tsg dispatches",
         "content": "",
