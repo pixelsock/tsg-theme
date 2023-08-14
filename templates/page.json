@@ -27,31 +27,6 @@
         "overlay_opacity": 100
       }
     },
-    "main": {
-      "type": "main-page",
-      "settings": {
-        "show_title": false,
-        "page_width": "md"
-      }
-    },
-    "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
-      "type": "newsletter",
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/122321_fly_mobile-hero.jpg",
-        "subheading": "Want to stay in the Loop?",
-        "title": "Sign up for our tsg dispatches",
-        "content": "",
-        "button_text": "Subscribe Now",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#303030",
-        "overlay_color": "#000000",
-        "overlay_opacity": 47
-      }
-    },
     "a5856327-c29f-4b78-a42f-0d0a2a433156": {
       "type": "rich-text",
       "blocks": {
@@ -86,12 +61,37 @@
         "text_position": "center",
         "remove_vertical_spacing": false
       }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "md"
+      }
+    },
+    "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
+      "type": "newsletter",
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/122321_fly_mobile-hero.jpg",
+        "subheading": "Want to stay in the Loop?",
+        "title": "Sign up for our tsg dispatches",
+        "content": "",
+        "button_text": "Subscribe Now",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#303030",
+        "overlay_color": "#000000",
+        "overlay_opacity": 47
+      }
     }
   },
   "order": [
     "6f24ea95-3114-45ea-82c1-8817e5d8508d",
+    "a5856327-c29f-4b78-a42f-0d0a2a433156",
     "main",
-    "b6c6ebb6-5a91-42d4-9521-8029bfeb083e",
-    "a5856327-c29f-4b78-a42f-0d0a2a433156"
+    "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
 }
