@@ -6,7 +6,7 @@
         "show_image": true,
         "enable_parallax": false,
         "image_size": "medium",
-        "content_width": "xs",
+        "content_width": "sm",
         "show_date": true,
         "show_category": true,
         "show_author": false,
