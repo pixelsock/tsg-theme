@@ -51,11 +51,47 @@
         "overlay_color": "#000000",
         "overlay_opacity": 47
       }
+    },
+    "a5856327-c29f-4b78-a42f-0d0a2a433156": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "PORTAL COMING SOON",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Please email <a href=\"mailto:wholesale@thesportinggent.com\" title=\"mailto:wholesale@thesportinggent.com\">wholesale@thesportinggent.com<\/a> for more information about how to become a retail partner with TSGACo. and our other in-house brands.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-subheading-1",
+        "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-heading-1",
+        "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-richtext-1"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
     "6f24ea95-3114-45ea-82c1-8817e5d8508d",
     "main",
-    "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
+    "b6c6ebb6-5a91-42d4-9521-8029bfeb083e",
+    "a5856327-c29f-4b78-a42f-0d0a2a433156"
   ]
 }
