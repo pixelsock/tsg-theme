@@ -416,14 +416,14 @@
         "image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tsgaco._topper_ls_crew_alt_img4.jpg",
+            "image": "shopify:\/\/shop_images\/020322-midszn-vest-slate-alt-1.jpg",
             "rotation": 0
           }
         },
         "image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tsgaco._topper_ls_crew_alt_img5.jpg",
+            "image": "shopify:\/\/shop_images\/020322-midszn-vest-slate-alt-2.jpg",
             "rotation": 0
           }
         }
@@ -443,10 +443,10 @@
         "media_mobile_alignment_offset": 0,
         "text_alignment": "start",
         "subheading": "SUMMER HIGHLIGHT",
-        "title": "The one to \"top\" them all",
-        "content": "<p>Being comfortable AF on the water starts with the Topper Long Sleeve.  Jammed packed with UV-blockers, this lightweight and stretchy fabric is just about as breathable and purpose-built as it gets.  <\/p>",
-        "button_1_text": "TOPPER CREW SHIRT",
-        "button_1_link": "shopify:\/\/products\/tsg-ls-topper-crew-coastal-oxbow",
+        "title": "We're INVESTED.",
+        "content": "<p>We're pretty big vest people, especially since it's the perfect layer for our fall climate in North Carolina‚ so we've owned and seen a lot of them‚ a lot.We thought it was time we designed our own, and we focused on the design that makes our apparel so special.<\/p>",
+        "button_1_text": "SHOP MIDSZN VEST",
+        "button_1_link": "shopify:\/\/products\/tsg-midszn-vest-slate",
         "button_1_style": "solid",
         "button_2_text": "",
         "button_2_link": "",
