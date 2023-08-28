@@ -55,6 +55,7 @@
         "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-heading-1",
         "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-richtext-1"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "content_width": "sm",
