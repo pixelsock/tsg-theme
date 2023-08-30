@@ -266,7 +266,7 @@
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
+            "title": "BUTTON DOWNS & SHIRTS",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
