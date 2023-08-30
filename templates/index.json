@@ -248,7 +248,7 @@
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
+            "title": "PANTS & BRITCHES",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
