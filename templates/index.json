@@ -457,6 +457,41 @@
         "button_text_color": ""
       }
     },
+    "8497f75a-04a0-4256-bc34-4ea10943d2da": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16748706037992__8497f75a-04a0-4256-bc34-4ea10943d2da-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "THE VIBES ARE STRONG.",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16748706037992__8497f75a-04a0-4256-bc34-4ea10943d2da-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From everyday wears for the Southern Summer, to Field Day  goods,  to the perfect  gift for the \"Guy who has everything\"...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16748706037992__8497f75a-04a0-4256-bc34-4ea10943d2da-heading-1",
+        "template--16748706037992__8497f75a-04a0-4256-bc34-4ea10943d2da-richtext-1"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/051122_topsthemall_hero-dt.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "shop-the-look": {
       "type": "shop-the-look",
       "blocks": {
@@ -573,6 +608,7 @@
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "16c35784-55f0-4e62-a535-e33bcc8677a3",
     "multiple-media-with-text",
+    "8497f75a-04a0-4256-bc34-4ea10943d2da",
     "shop-the-look",
     "blog-posts",
     "newsletter"
