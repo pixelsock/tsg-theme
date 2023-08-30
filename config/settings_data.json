@@ -7,7 +7,7 @@
     "success_color": "#307a07",
     "error_color": "#cb2b2b",
     "header_background": "#ffffff",
-    "header_text_color": "{{ shop.brand.colors.primary[0].background }}",
+    "header_text_color": "#1c1c1c",
     "footer_background": "#ffffff",
     "footer_text_color": "#303030",
     "primary_button_background": "#557b97",
