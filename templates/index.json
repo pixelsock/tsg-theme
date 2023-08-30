@@ -481,6 +481,7 @@
       "settings": {
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/051122_topsthemall_hero-dt.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/051122_topsthemall_hero-mobile.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
