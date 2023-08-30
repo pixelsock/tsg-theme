@@ -11,6 +11,12 @@
             "text": "Get 15% off your first order by <a href=\"#\" title=\"klayvio_trigger\">signing up for our emails<\/a>!"
           }
         },
+        "c95c0108-e433-4e61-ade2-e93a314c79b2": {
+          "type": "message",
+          "settings": {
+            "text": "Apparel Makers. Gear Curators. Good Time Purveyors."
+          }
+        },
         "1090e969-2407-46e8-a855-23e75fedd389": {
           "type": "message",
           "settings": {
@@ -26,6 +32,7 @@
       },
       "block_order": [
         "958e3cb8-313c-4d8c-85dd-660942b09bff",
+        "c95c0108-e433-4e61-ade2-e93a314c79b2",
         "1090e969-2407-46e8-a855-23e75fedd389",
         "24f48508-6c61-4f52-a226-9a3eb069b0a1"
       ],
