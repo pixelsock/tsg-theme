@@ -496,22 +496,22 @@
     "shop-the-look": {
       "type": "shop-the-look",
       "blocks": {
-        "look-1": {
+        "42d6059c-3ce9-4fe9-a701-61a333afe5ff": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/072723-new-headwear_mobile-Hero.jpg",
+            "image": "shopify:\/\/shop_images\/tsghavenfieldoxbowalt1000x_0003_tsg-bluffducks-builder-305.jpg",
             "hot_spots_background": "#ffffff",
-            "product_1": "fishpond-nomad-emerger-net",
-            "product_1_horizontal_position": 89,
-            "product_1_vertical_position": 32,
-            "product_2": "brookie-patch-hat",
-            "product_2_horizontal_position": 58,
-            "product_2_vertical_position": 24,
-            "product_3": "tsg-brooks-ss-shirt-gentleman-check",
-            "product_3_horizontal_position": 86,
-            "product_3_vertical_position": 75,
-            "product_4": "fishpond-canyon-creek-chest-pack",
-            "product_4_horizontal_position": 49,
+            "product_1": "tsg-allszn-hoody-oxbow",
+            "product_1_horizontal_position": 55,
+            "product_1_vertical_position": 30,
+            "product_2": "tsg-havenfield-shell-jacket-oxbow",
+            "product_2_horizontal_position": 30,
+            "product_2_vertical_position": 55,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
         },
@@ -534,30 +534,30 @@
             "product_4_vertical_position": 85
           }
         },
-        "42d6059c-3ce9-4fe9-a701-61a333afe5ff": {
+        "look-1": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tsghavenfieldoxbowalt1000x_0003_tsg-bluffducks-builder-305.jpg",
+            "image": "shopify:\/\/shop_images\/072723-new-headwear_mobile-Hero.jpg",
             "hot_spots_background": "#ffffff",
-            "product_1": "tsg-allszn-hoody-oxbow",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 30,
-            "product_2": "tsg-havenfield-shell-jacket-oxbow",
-            "product_2_horizontal_position": 30,
-            "product_2_vertical_position": 55,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
+            "product_1": "fishpond-nomad-emerger-net",
+            "product_1_horizontal_position": 89,
+            "product_1_vertical_position": 32,
+            "product_2": "brookie-patch-hat",
+            "product_2_horizontal_position": 58,
+            "product_2_vertical_position": 24,
+            "product_3": "tsg-brooks-ss-shirt-gentleman-check",
+            "product_3_horizontal_position": 86,
+            "product_3_vertical_position": 75,
+            "product_4": "fishpond-canyon-creek-chest-pack",
+            "product_4_horizontal_position": 49,
             "product_4_vertical_position": 85
           }
         }
       },
       "block_order": [
-        "look-1",
+        "42d6059c-3ce9-4fe9-a701-61a333afe5ff",
         "a5f78cf8-5e1d-449f-ae36-b6abe43d2675",
-        "42d6059c-3ce9-4fe9-a701-61a333afe5ff"
+        "look-1"
       ],
       "settings": {
         "separate_section_with_border": true,
