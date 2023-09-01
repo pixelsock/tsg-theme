@@ -8,6 +8,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/090123-LBS-sale-hero-1-DT.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/090123_tsg_laborday_option2_1350x-1.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
