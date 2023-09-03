@@ -5,7 +5,6 @@
       "blocks": {
         "fefde785-2163-4f4c-a48a-b8222ad3800c": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/090123-LBS-sale-hero-1-DT.jpg",
             "mobile_image": "shopify:\/\/shop_images\/090123_tsg_laborday_option2_1350x-1.jpg",
