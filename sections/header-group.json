@@ -5,12 +5,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "185027ff-fff8-4603-b2ac-5435739912fa": {
-          "type": "message",
-          "settings": {
-            "text": "LABOR DAY SALE | 25% OFF ORDERS +$250"
-          }
-        },
         "958e3cb8-313c-4d8c-85dd-660942b09bff": {
           "type": "message",
           "settings": {
@@ -37,7 +31,6 @@
         }
       },
       "block_order": [
-        "185027ff-fff8-4603-b2ac-5435739912fa",
         "958e3cb8-313c-4d8c-85dd-660942b09bff",
         "c95c0108-e433-4e61-ade2-e93a314c79b2",
         "1090e969-2407-46e8-a855-23e75fedd389",
