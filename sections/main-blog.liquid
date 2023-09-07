@@ -68,7 +68,7 @@
                         <h2 class="h2">
                           {%- if article -%}
                             {{ article.title }}
-                              {{ article.metafields.custom.featured }}
+                          
                           {%- else -%}
                             {{- 'general.on_boarding.blog_post_title' | t -}}
                           {%- endif -%}
@@ -76,6 +76,7 @@
 
                         {%- assign button_content = 'blog.general.read_more' | t -%}
                         {%- render 'button', type: 'button', content: button_content, background: section.settings.featured_blog_post_button_background, text_color: section.settings.featured_blog_post_button_text_color -%}
+                        {{ article.metafields.custom.featured.value }}
                       </div>
                     </a>
                   </div>
