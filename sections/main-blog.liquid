@@ -68,6 +68,7 @@
                         <h2 class="h2">
                           {%- if article -%}
                             {{ article.title }}
+                              {{ article.metafields.custom.featured }}
                           {%- else -%}
                             {{- 'general.on_boarding.blog_post_title' | t -}}
                           {%- endif -%}
