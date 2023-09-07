@@ -30,6 +30,10 @@
     },
     "main": {
       "type": "main-page",
+      "custom_css": [
+        "h2, h3 {margin:0px}",
+        "h3 {color:grey;}"
+      ],
       "settings": {
         "show_title": false,
         "page_width": "md"
