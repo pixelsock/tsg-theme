@@ -154,7 +154,9 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "th,.size-guide tr td:first-child {opacity: 1; text-align: center; background-color: #262f4d; color: white; font-weight: bold; vertical-align: middle; padding: 1rem; font-size: 1rem;}"
+      "th,.size-guide tr td:first-child {opacity: 1; text-align: center; background-color: #262f4d; color: white; font-weight: bold; vertical-align: middle; padding: 1rem; font-size: 1rem;}",
+      ".mega-menu__promo {border-left: 2px solid orange; padding-left: 2rem;}",
+      ".mega-menu {max-height: none;}"
     ]
   }
 }
