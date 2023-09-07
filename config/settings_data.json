@@ -154,8 +154,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "th {text-align: center; background-color: #557b97; color: white; vertical-align: middle; padding: 1rem; font-size: 1rem;}",
-      ".size-chart tr td:first-child {text-align: center; background-color: #557b97; color: white; vertical-align: middle;}"
+      "th,.size-guide tr td:first-child {opacity: 1; text-align: center; background-color: #263461; color: white; vertical-align: middle; padding: 1rem; font-size: 1rem;}"
     ]
   }
 }
