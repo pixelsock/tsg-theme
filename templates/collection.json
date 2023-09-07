@@ -90,7 +90,7 @@
         "separate_section_with_border": true,
         "image": "shopify:\/\/shop_images\/tsg_onlinegiftcard_bf526156-435a-4ed3-a2de-e67cb1cbca23.png",
         "reveal_on_scroll": true,
-        "image_position": "start",
+        "image_position": "end",
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
