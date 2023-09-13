@@ -144,6 +144,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/091323-new-arrivals-web-hero-dt_d88d2d2e-4671-4e64-8a3b-68c57e234bf6.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/091323-new-arrivals-web-hero-mobile.jpg",
             "subheading": "FRESH AS COOL FALL DAY",
             "title": "NEW ARRIVALS AT TSG",
             "mobile_text_position": "place-self-center text-center",
@@ -155,7 +156,7 @@
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
-            "button_2_link": "",
+            "button_2_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
             "button_2_style": "outline",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
