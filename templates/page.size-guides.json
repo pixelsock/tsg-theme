@@ -6,24 +6,17 @@
         "template--16748705841384__6f24ea95-3114-45ea-82c1-8817e5d8508d-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "{{ page.title }}",
+            "text": "Sizing Guides",
             "heading_tag": "h1"
-          }
-        },
-        "953a574f-78d1-4f96-8778-6ccb4bfb0e17": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<p style=\"font-size:1.4rem; margin-top:0px\">Come on in. Make yourself at home.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16748705841384__6f24ea95-3114-45ea-82c1-8817e5d8508d-heading-1",
-        "953a574f-78d1-4f96-8778-6ccb4bfb0e17"
+        "template--16748705841384__6f24ea95-3114-45ea-82c1-8817e5d8508d-heading-1"
       ],
       "settings": {
         "image_size": "xs",
-        "image": "shopify:\/\/shop_images\/IMG_1606---web.jpg",
+        "image": "shopify:\/\/shop_images\/wholesale-hero.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
@@ -37,7 +30,10 @@
     },
     "main": {
       "type": "main-page",
-      "disabled": true,
+      "custom_css": [
+        "h2, h3 {margin:0px}",
+        "h3 {color:grey;}"
+      ],
       "settings": {
         "show_title": false,
         "page_width": "md"
@@ -49,14 +45,14 @@
         "template--16754582913256__93367fbc-a4dd-4211-b8e5-34e41d58c0a0-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "A SLICE OF SOUTHERN & SPORTING HEAVEN",
-            "heading_tag": "h3"
+            "text": "MADE WITH INCREDIBLE DETAIL AND PRIDE",
+            "heading_tag": "h2"
           }
         },
         "template--16754582913256__93367fbc-a4dd-4211-b8e5-34e41d58c0a0-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>A slice of southern and sporting heaven…feel free to stop by our home store for a visit, kick up your feet, and share a tall tale or two.<\/p><p>(And don’t hesitate to bring a friend along!)<\/p><p>If you have questions, we’ve got answers. <a href=\"https:\/\/the-sporting-gent.myshopify.com\/pages\/holler-at-us\" title=\"Holler At Us\">Holler at us anytime!<\/a><\/p><p>Located in the historic Colony Shopping Center in the Myers Park neighborhood of Charlotte, NC, our Brick & Mortar shop is our little slice of Southern & Sporting heaven. So whether you’re looking to outfit your next field day or grab that perfect shirt or the perfect gift, we stock and curate the finest brands in sporting and lifestyle gear. Check out our expansive selection of men's clothing, footwear, men's accessories, hunting gear and fly fishing goods and accessories<\/p>"
+            "content": "<p>We design and source our apparel with the highest standard possible, but just like most things...they still need a little looking after. We recommend following the care instructions inside your garment. If you are between sizes, we will always recommend sizing up.<\/p><p>If you have questions about the fit of other brands we offer, please do not hesitate to contact us <a href=\"https:\/\/the-sporting-gent.myshopify.com\/pages\/holler-at-us\" title=\"Holler At Us\">here<\/a>. These tables below ONLY provide information about The Sporting Gent and TSG-branded apparel.<\/p>"
           }
         }
       },
@@ -64,10 +60,11 @@
         "template--16754582913256__93367fbc-a4dd-4211-b8e5-34e41d58c0a0-heading-1",
         "template--16754582913256__93367fbc-a4dd-4211-b8e5-34e41d58c0a0-richtext-1"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "content_width": "sm",
-        "text_position": "start",
+        "text_position": "center",
         "remove_vertical_spacing": false
       }
     },
@@ -103,6 +100,7 @@
         "c1018f4d-d1b3-4c4c-8f2a-19d9799a4257",
         "951c2aa8-9821-4677-bb6b-373a4065a165"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "content_width": "sm",
@@ -112,7 +110,6 @@
     },
     "b1305ee0-1e50-49c2-bae5-f413b77c0b62": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--16754582913256__b1305ee0-1e50-49c2-bae5-f413b77c0b62-image-1": {
           "type": "image",
@@ -169,6 +166,7 @@
         "template--16754582913256__b1305ee0-1e50-49c2-bae5-f413b77c0b62-image-1",
         "template--16754582913256__b1305ee0-1e50-49c2-bae5-f413b77c0b62-image-2"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": true,

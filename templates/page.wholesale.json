@@ -14,6 +14,7 @@
       "block_order": [
         "template--16748705841384__6f24ea95-3114-45ea-82c1-8817e5d8508d-heading-1"
       ],
+      "disabled": true,
       "settings": {
         "image_size": "xs",
         "allow_transparent_header": false,

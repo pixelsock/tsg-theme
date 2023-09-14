@@ -3,18 +3,72 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "e3b479ad-c2fa-4d42-8201-283d7929b0f7": {
+        "b40f07c7-6a39-4453-a0c4-8ad8ece83c21": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/072823-seasons-end-summer-sale-hero-DT.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/072823-seasons-end-summer-sale-hero-mobile_8b8b5e80-5768-4333-b54c-07ffc0aa1d88.jpg",
-            "subheading": "",
-            "title": "",
+            "image": "shopify:\/\/shop_images\/091323-new-arrivals-web-hero-dt_d88d2d2e-4671-4e64-8a3b-68c57e234bf6.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/091323-new-arrivals-web-hero-mobile.jpg",
+            "subheading": "FRESH AS COOL FALL DAY",
+            "title": "NEW ARRIVALS AT TSG",
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "content_max_width": 780,
             "button_1_text": "",
             "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#303030",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "b9881576-d349-4728-a854-c189239c9f4c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/080723-dove-szn-DT-hero.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/080723-dove-szn-mobile-hero_3ac9e424-9d55-48a4-bdff-76f225e56821.jpg",
+            "subheading": "We've got the gear you need",
+            "title": "DOVE SEASON Has LANDED",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/collections\/dove-hunt-goods-gear",
+            "button_1_style": "solid",
+            "button_1_background": "#7c6e4e",
+            "button_1_text_color": "#ffffff",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "571588cf-aa5a-4959-9bb1-2ec014330c36": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/080723-F23-boone-pant-DT-hero.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/080723-F23-boone-pant-mobile-hero.jpg",
+            "subheading": "The BEST for a reason",
+            "title": "BOONE PANTS IN STOCK",
+            "mobile_text_position": "place-self-center-end text-end",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/products\/tsg-boone-5-pocket-pant-field-khaki",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -28,6 +82,34 @@
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
+          }
+        },
+        "43a4b72e-066b-4e52-a087-1110ac34f653": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/032923-blog-hero-aheadofthepack-dt.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/122321_fly_mobile-hero.jpg",
+            "subheading": "YOUR FLY GOODS HQ",
+            "title": "GET HIGH(ER) TODAY.",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/collections\/getting-higher-feeling-fishy",
+            "button_1_style": "solid",
+            "button_1_background": "#7c6e4e",
+            "button_1_text_color": "#ffffff",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2) 49%, rgba(4, 4, 4, 0.65) 100%)"
           }
         },
         "1463836f-1096-4c23-9c5b-686a95535fd4": {
@@ -56,60 +138,6 @@
             "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
-          }
-        },
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/071423_getshorty_hero-dt.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/071423_getshorty_hero-mobile.jpg",
-            "subheading": "The Oxbow™ Hybrid short",
-            "title": "Get Shorty",
-            "mobile_text_position": "place-self-center-start text-start",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "content_max_width": 800,
-            "button_1_text": "",
-            "button_1_link": "shopify:\/\/products\/tsg-ridge-short-iron",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "SHOP NOW",
-            "button_2_link": "shopify:\/\/products\/tsg-ridge-short-iron",
-            "button_2_style": "solid",
-            "button_2_background": "#7c6e4e",
-            "button_2_text_color": "#ffffff",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#303030",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "43a4b72e-066b-4e52-a087-1110ac34f653": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/032923-blog-hero-aheadofthepack-dt.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/20220626-TSG-Troutsky-Builder-113.jpg",
-            "subheading": "YOUR FLY GOODS HQ",
-            "title": "GET HIGH(ER) TODAY.",
-            "mobile_text_position": "place-self-center-start text-start",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify:\/\/collections\/fly-goods",
-            "button_1_style": "solid",
-            "button_1_background": "#7c6e4e",
-            "button_1_text_color": "#ffffff",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2) 49%, rgba(4, 4, 4, 0.65) 100%)"
           }
         },
         "a50d94f6-c366-440a-a4b3-b95854044c3f": {
@@ -141,10 +169,11 @@
         }
       },
       "block_order": [
-        "e3b479ad-c2fa-4d42-8201-283d7929b0f7",
-        "1463836f-1096-4c23-9c5b-686a95535fd4",
-        "slide-1",
+        "b40f07c7-6a39-4453-a0c4-8ad8ece83c21",
+        "b9881576-d349-4728-a854-c189239c9f4c",
+        "571588cf-aa5a-4959-9bb1-2ec014330c36",
         "43a4b72e-066b-4e52-a087-1110ac34f653",
+        "1463836f-1096-4c23-9c5b-686a95535fd4",
         "a50d94f6-c366-440a-a4b3-b95854044c3f"
       ],
       "settings": {
@@ -161,19 +190,43 @@
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
+        "e98aa442-4bbd-4efb-a7a0-b9101d9c1e65": {
+          "type": "collection",
+          "settings": {
+            "collection": "dove-hunt-goods-gear",
+            "products_count": 12,
+            "title": "The Dove Season Checklist",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
         "collection-1": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "seasonsendmarkdowns",
             "products_count": 12,
-            "title": "The Best Deals During the Season’s End Sale",
+            "title": "Summer Markdowns",
             "link_url": "",
             "link_text": ""
+          }
+        },
+        "22199300-574e-4d95-964c-63d7f6414320": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "best-sellers",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "collection-1"
+        "e98aa442-4bbd-4efb-a7a0-b9101d9c1e65",
+        "collection-1",
+        "22199300-574e-4d95-964c-63d7f6414320"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -192,12 +245,12 @@
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0": {
           "type": "collection",
           "settings": {
-            "collection": "shorts",
-            "image": "shopify:\/\/shop_images\/shorts-min-nav-updated.jpg",
+            "collection": "pants",
+            "image": "shopify:\/\/shop_images\/tsgboonepantcharcoalalt1000x_0000s_0001_TSG-Bluff-S23-Builder-84.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
+            "title": "PANTS & BRITCHES",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -210,12 +263,12 @@
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1": {
           "type": "collection",
           "settings": {
-            "collection": "polos",
-            "image": "shopify:\/\/shop_images\/nav-bg-polo-min.jpg",
+            "collection": "button-downs",
+            "image": "shopify:\/\/shop_images\/tsgtanneraltimages1000x_0000s_0002_TSG-Bluff-S23-Builder-69.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
+            "title": "BUTTON DOWNS & SHIRTS",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -229,7 +282,7 @@
           "type": "collection",
           "settings": {
             "collection": "airetex-bamboo-apparel-collection",
-            "image": "shopify:\/\/shop_images\/s22-brooks-alt-forweb-1000x2.jpg",
+            "image": "shopify:\/\/shop_images\/AllsznHoodyWildwoodaltiamgemain1000x_0000__A7R9579_c9a8ce04-6396-47b7-a177-53cd9722d195.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
@@ -270,13 +323,13 @@
           "type": "collection",
           "settings": {
             "collection": "oxbow-goods-collection",
-            "image": "shopify:\/\/shop_images\/220515-TSG-Builder-flood-84.jpg",
+            "image": "shopify:\/\/shop_images\/tsgacoaltimage1000x_0001_TSG-Bluff-S23-Builder-156.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
             "button_text": "",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/oxbow-camo",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
@@ -365,14 +418,14 @@
         "image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tsgaco._topper_ls_crew_alt_img4.jpg",
+            "image": "shopify:\/\/shop_images\/020322-midszn-vest-slate-alt-1.jpg",
             "rotation": 0
           }
         },
         "image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tsgaco._topper_ls_crew_alt_img5.jpg",
+            "image": "shopify:\/\/shop_images\/020322-midszn-vest-slate-alt-2.jpg",
             "rotation": 0
           }
         }
@@ -391,11 +444,11 @@
         "media_alignment_offset": 0,
         "media_mobile_alignment_offset": 0,
         "text_alignment": "start",
-        "subheading": "SUMMER HIGHLIGHT",
-        "title": "The one to \"top\" them all",
-        "content": "<p>Being comfortable AF on the water starts with the Topper Long Sleeve.  Jammed packed with UV-blockers, this lightweight and stretchy fabric is just about as breathable and purpose-built as it gets.  <\/p>",
-        "button_1_text": "TOPPER CREW SHIRT",
-        "button_1_link": "shopify:\/\/products\/tsg-ls-topper-crew-coastal-oxbow",
+        "subheading": "A TSGACO. BEST SELLER",
+        "title": "We're IN-VEST-ED.",
+        "content": "<p>We're pretty big vest people, especially since it's the perfect layer for our fall climate in North Carolina‚ so we've owned and seen a lot of them‚ a lot.We thought it was time we designed our own, and we focused on the design that makes our apparel so special.<\/p>",
+        "button_1_text": "SHOP MIDSZN VEST",
+        "button_1_link": "shopify:\/\/products\/tsg-midszn-vest-slate",
         "button_1_style": "solid",
         "button_2_text": "",
         "button_2_link": "",
@@ -406,47 +459,45 @@
         "button_text_color": ""
       }
     },
+    "8497f75a-04a0-4256-bc34-4ea10943d2da": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16748706037992__8497f75a-04a0-4256-bc34-4ea10943d2da-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "THE VIBES ARE STRONG.",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16748706037992__8497f75a-04a0-4256-bc34-4ea10943d2da-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From everyday wears for the Southern Summer, to Field Day  goods,  to the perfect  gift for the \"Guy who has everything\"...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16748706037992__8497f75a-04a0-4256-bc34-4ea10943d2da-heading-1",
+        "template--16748706037992__8497f75a-04a0-4256-bc34-4ea10943d2da-richtext-1"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/051122_topsthemall_hero-dt.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/051122_topsthemall_hero-mobile.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "shop-the-look": {
       "type": "shop-the-look",
       "blocks": {
-        "look-1": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/fishpondbighorn1000x_0000_Layer5.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "fishpond-bighorn-kit-bag",
-            "product_1_horizontal_position": 51,
-            "product_1_vertical_position": 70,
-            "product_2": "tsg-quail-patch-hat-forest",
-            "product_2_horizontal_position": 20,
-            "product_2_vertical_position": 24,
-            "product_3": "garmin-delta-upland-xc-system-bundle",
-            "product_3_horizontal_position": 78,
-            "product_3_vertical_position": 90,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        },
-        "a5f78cf8-5e1d-449f-ae36-b6abe43d2675": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/tsgstreampant-s22-web-5_cb33665e-a6bd-45b0-9870-16ba4942bc8f.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "tsg-stream-pant-khaki",
-            "product_1_horizontal_position": 52,
-            "product_1_vertical_position": 49,
-            "product_2": "fishpond-thunderhead-submersible-lumbar",
-            "product_2_horizontal_position": 43,
-            "product_2_vertical_position": 40,
-            "product_3": "tsg-brooks-ls-shirt-birch-plaid",
-            "product_3_horizontal_position": 54,
-            "product_3_vertical_position": 23,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        },
         "42d6059c-3ce9-4fe9-a701-61a333afe5ff": {
           "type": "look",
           "settings": {
@@ -465,12 +516,50 @@
             "product_4_horizontal_position": 85,
             "product_4_vertical_position": 85
           }
+        },
+        "a5f78cf8-5e1d-449f-ae36-b6abe43d2675": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/083023-twillfield-shopthelook-1200x.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "tsg-field-pocket-pant-iron",
+            "product_1_horizontal_position": 52,
+            "product_1_vertical_position": 49,
+            "product_2": "tsg-tyne-waxed-vest-taupe",
+            "product_2_horizontal_position": 52,
+            "product_2_vertical_position": 22,
+            "product_3": "filson-heritage-sportsman-bag",
+            "product_3_horizontal_position": 32,
+            "product_3_vertical_position": 70,
+            "product_4": "le-chameau-vierzon-jersey-lined-boot",
+            "product_4_horizontal_position": 49,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look-1": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/072723-new-headwear_mobile-Hero.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "fishpond-nomad-emerger-net",
+            "product_1_horizontal_position": 89,
+            "product_1_vertical_position": 32,
+            "product_2": "brookie-patch-hat",
+            "product_2_horizontal_position": 58,
+            "product_2_vertical_position": 24,
+            "product_3": "tsg-brooks-ss-shirt-gentleman-check",
+            "product_3_horizontal_position": 86,
+            "product_3_vertical_position": 75,
+            "product_4": "fishpond-canyon-creek-chest-pack",
+            "product_4_horizontal_position": 49,
+            "product_4_vertical_position": 85
+          }
         }
       },
       "block_order": [
-        "look-1",
+        "42d6059c-3ce9-4fe9-a701-61a333afe5ff",
         "a5f78cf8-5e1d-449f-ae36-b6abe43d2675",
-        "42d6059c-3ce9-4fe9-a701-61a333afe5ff"
+        "look-1"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -493,8 +582,8 @@
         "subheading": "",
         "title": "The TSG Dispatch",
         "content": "",
-        "button_link": "",
-        "button_text": ""
+        "button_link": "shopify:\/\/blogs\/dispatches",
+        "button_text": "See More"
       }
     },
     "newsletter": {
@@ -522,6 +611,7 @@
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "16c35784-55f0-4e62-a535-e33bcc8677a3",
     "multiple-media-with-text",
+    "8497f75a-04a0-4256-bc34-4ea10943d2da",
     "shop-the-look",
     "blog-posts",
     "newsletter"

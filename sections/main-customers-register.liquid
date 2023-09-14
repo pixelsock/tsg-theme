@@ -1,10 +1,15 @@
 <div class="section-spacing">
-  <div class="container container--xxs">
+  <div class="container container--xs">
     <div class="customer-account-box">
       <div class="v-stack gap-6">
         <div class="v-stack gap-4">
-          <h1 class="h3">{{ 'customer.register.title' | t }}</h1>
-          <p>{{ 'customer.register.instructions' | t }}</p>
+          <h1 class="h2">Register For Your Account</h1>
+          <p>
+            Please fill out the form below to register for your tsg.com account. Once you click "Register", you'll be
+            sent an email to confirm or "activate" your account. Make sure you're checking your spam or junk folder for
+            that email....you have been warned. After activating your account you'll be able to log in and view all your
+            orders and drastically increase the ease and efficiency of procuring the amazing gear.
+          </p>
         </div>
 
         {%- for block in section.blocks -%}
@@ -20,7 +25,7 @@
               {%- endif -%}
 
             {%- when 'fields' -%}
-              <div {{ block.shopify_attributes }}>
+              <div {{ block.shopify_attributes }} class="container container--xxs">
                 {%- form 'create_customer', class: 'form' -%}
                   <div class="fieldset">
                     {% liquid
