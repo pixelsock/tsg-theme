@@ -482,8 +482,8 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/051122_topsthemall_hero-dt.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/051122_topsthemall_hero-mobile.jpg",
+        "image": "shopify:\/\/shop_images\/021522_newarrivals_dt_hero.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/021522_newarrivals_mobile_hero.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
