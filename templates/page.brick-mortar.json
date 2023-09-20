@@ -112,7 +112,6 @@
     },
     "b1305ee0-1e50-49c2-bae5-f413b77c0b62": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--16754582913256__b1305ee0-1e50-49c2-bae5-f413b77c0b62-image-1": {
           "type": "image",
@@ -169,6 +168,7 @@
         "template--16754582913256__b1305ee0-1e50-49c2-bae5-f413b77c0b62-image-1",
         "template--16754582913256__b1305ee0-1e50-49c2-bae5-f413b77c0b62-image-2"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": true,

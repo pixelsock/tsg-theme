@@ -171,7 +171,6 @@
     },
     "73f2e6a0-47a9-46b6-ba22-7fbeced5a800": {
       "type": "images-with-text-scroll",
-      "disabled": true,
       "blocks": {
         "template--16760249843944__73f2e6a0-47a9-46b6-ba22-7fbeced5a800-image_with_text-1": {
           "type": "image_with_text",
@@ -215,6 +214,7 @@
         "template--16760249843944__73f2e6a0-47a9-46b6-ba22-7fbeced5a800-image_with_text-2",
         "template--16760249843944__73f2e6a0-47a9-46b6-ba22-7fbeced5a800-image_with_text-3"
       ],
+      "disabled": true,
       "settings": {
         "background_image": "shopify:\/\/shop_images\/f21-knightshill-lowres-731.jpg",
         "image_position": "start",
