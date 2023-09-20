@@ -43,20 +43,20 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-subheading-1": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": "THE GRAND PRIZE"
           }
         },
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
+            "text": "WIN A 4-PERSON QUAIL HUNT",
             "heading_tag": "h1"
           }
         },
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>We're offering an exclusive experience to one lucky winner and three friends to enjoy a quail hunting experience at one of South Carolina's most exclusive and historical hunting plantations.  The prize package also includes one-night stay for you and your guests plus a $500 TSG Gift Card.<\/p>"
           }
         }
       },
