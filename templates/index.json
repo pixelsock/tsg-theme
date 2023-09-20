@@ -115,9 +115,10 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/091923-F23-new-arrivals-hero-DT.jpg",
-            "subheading": "Going back to the roots",
+            "mobile_image": "shopify:\/\/shop_images\/091923-F23-new-arrivals-hero-mobile.jpg",
+            "subheading": "Inspired by our roots",
             "title": "Fall Gear from TSGACo.",
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "content_max_width": 780,
             "button_1_text": "",
