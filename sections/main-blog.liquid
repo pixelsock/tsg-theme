@@ -54,8 +54,7 @@
         {%- endif -%}
 
         <div class="v-stack gap-8 sm:gap-12">
-          {%- assign sorted_articles = blog.articles | sort: section.settings.sort_by | uniq -%}
-          {%- paginate sorted_articles by section.settings.posts_per_page -%}
+          {%- paginate blog.articles by section.settings.posts_per_page -%}
             <blog-posts
               class="blog-post-list"
               {% if settings.stagger_blog_posts_apparition %}
@@ -134,22 +133,6 @@
   "class": "shopify-section--main-blog",
   "tag": "section",
   "settings": [
-    {
-      "type": "select",
-      "id": "sort_by",
-      "label": "Sort by",
-      "default": "date",
-      "options": [
-        {
-          "value": "date",
-          "label": "Date"
-        },
-        {
-          "value": "title",
-          "label": "Title"
-        }
-      ]
-    },
     {
       "type": "checkbox",
       "id": "show_blog_title",
