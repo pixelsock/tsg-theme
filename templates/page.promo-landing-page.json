@@ -13,25 +13,19 @@
       "blocks": {
         "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "{{ page.title }}",
             "heading_tag": "h1"
           }
-        },
-        "e766d3c7-f50e-4fc6-ac3e-34c71b872028": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<p style=\"font-size: 1.4rem;\">BLOWING ROCK, NC\n<\/p>"
-          }
         }
       },
       "block_order": [
-        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1",
-        "e766d3c7-f50e-4fc6-ac3e-34c71b872028"
+        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1"
       ],
       "settings": {
         "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/CHETOLA-min.png",
+        "image": "shopify:\/\/shop_images\/Hunf-ot-a-Lifetime-landing-page-DT-al1.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
@@ -40,7 +34,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 46
+        "overlay_opacity": 0
       }
     },
     "91c60ca0-e4c7-48a3-8304-d289f307fb29": {
