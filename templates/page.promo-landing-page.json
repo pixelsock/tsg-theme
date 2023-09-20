@@ -93,17 +93,25 @@
           "settings": {
             "content": "<p>We're gonna make this easy for you.<\/p>"
           }
+        },
+        "4c482c85-f78c-47c7-a303-61094c4f80a8": {
+          "type": "link",
+          "settings": {
+            "text": "Shop to Win",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-subheading-1",
         "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-heading-1",
-        "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-richtext-1"
+        "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-richtext-1",
+        "4c482c85-f78c-47c7-a303-61094c4f80a8"
       ],
       "settings": {
         "separate_section_with_border": true,
         "reveal_on_scroll": true,
-        "image_position": "start",
+        "image_position": "end",
         "content_width": "sm",
         "remove_vertical_spacing": false
       }
