@@ -72,6 +72,42 @@
         "remove_vertical_spacing": false
       }
     },
+    "5dada071-19cf-4b59-b737-2ce6eba2ca52": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Here's How..."
+          }
+        },
+        "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "To win this Giveaway",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We're gonna make this easy for you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-subheading-1",
+        "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-heading-1",
+        "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-richtext-1"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": false
+      }
+    },
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
       "type": "newsletter",
       "settings": {
@@ -94,6 +130,7 @@
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
+    "5dada071-19cf-4b59-b737-2ce6eba2ca52",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
 }
