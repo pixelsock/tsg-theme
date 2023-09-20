@@ -84,62 +84,6 @@
             "gradient_overlay": ""
           }
         },
-        "43a4b72e-066b-4e52-a087-1110ac34f653": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/032923-blog-hero-aheadofthepack-dt.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/122321_fly_mobile-hero.jpg",
-            "subheading": "YOUR FLY GOODS HQ",
-            "title": "GET HIGH(ER) TODAY.",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify:\/\/collections\/getting-higher-feeling-fishy",
-            "button_1_style": "solid",
-            "button_1_background": "#7c6e4e",
-            "button_1_text_color": "#ffffff",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2) 49%, rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "1463836f-1096-4c23-9c5b-686a95535fd4": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/063023-summer-markdowns-HERO-DT_acff81f2-f5cb-4c82-8ab8-54a4c22a816c.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/063023-summer-markdowns-HERO-mobile.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify:\/\/collections\/seasonsendmarkdowns",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
         "a50d94f6-c366-440a-a4b3-b95854044c3f": {
           "type": "image",
           "settings": {
@@ -166,15 +110,40 @@
             "border_color": "",
             "gradient_overlay": ""
           }
+        },
+        "1a1c7464-16c6-4e73-8588-cd6bd51363b7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/091923-F23-new-arrivals-hero-DT.jpg",
+            "subheading": "Going back to the roots",
+            "title": "Fall Gear from TSGACo.",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(242deg, rgba(54, 54, 54, 0.2) 52%, rgba(4, 4, 4, 0.65) 100%)"
+          }
         }
       },
       "block_order": [
         "b40f07c7-6a39-4453-a0c4-8ad8ece83c21",
         "b9881576-d349-4728-a854-c189239c9f4c",
         "571588cf-aa5a-4959-9bb1-2ec014330c36",
-        "43a4b72e-066b-4e52-a087-1110ac34f653",
-        "1463836f-1096-4c23-9c5b-686a95535fd4",
-        "a50d94f6-c366-440a-a4b3-b95854044c3f"
+        "a50d94f6-c366-440a-a4b3-b95854044c3f",
+        "1a1c7464-16c6-4e73-8588-cd6bd51363b7"
       ],
       "settings": {
         "allow_transparent_header": false,
