@@ -188,7 +188,7 @@
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image_size": "auto",
         "show_text_outside": false,
         "space_items": true,
