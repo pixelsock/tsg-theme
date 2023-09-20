@@ -30,6 +30,33 @@
             "gradient_overlay": ""
           }
         },
+        "1a1c7464-16c6-4e73-8588-cd6bd51363b7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/091923-F23-new-arrivals-hero-DT.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/091923-F23-new-arrivals-hero-mobile.jpg",
+            "subheading": "Inspired by our roots",
+            "title": "Fall Gear from TSGACo.",
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/pages\/tsgapparelco",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(242deg, rgba(54, 54, 54, 0.2) 52%, rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
         "b9881576-d349-4728-a854-c189239c9f4c": {
           "type": "image",
           "settings": {
@@ -110,41 +137,14 @@
             "border_color": "",
             "gradient_overlay": ""
           }
-        },
-        "1a1c7464-16c6-4e73-8588-cd6bd51363b7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/091923-F23-new-arrivals-hero-DT.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/091923-F23-new-arrivals-hero-mobile.jpg",
-            "subheading": "Inspired by our roots",
-            "title": "Fall Gear from TSGACo.",
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify:\/\/pages\/tsgapparelco",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(242deg, rgba(54, 54, 54, 0.2) 52%, rgba(4, 4, 4, 0.65) 100%)"
-          }
         }
       },
       "block_order": [
         "b40f07c7-6a39-4453-a0c4-8ad8ece83c21",
+        "1a1c7464-16c6-4e73-8588-cd6bd51363b7",
         "b9881576-d349-4728-a854-c189239c9f4c",
         "571588cf-aa5a-4959-9bb1-2ec014330c36",
-        "a50d94f6-c366-440a-a4b3-b95854044c3f",
-        "1a1c7464-16c6-4e73-8588-cd6bd51363b7"
+        "a50d94f6-c366-440a-a4b3-b95854044c3f"
       ],
       "settings": {
         "allow_transparent_header": false,
