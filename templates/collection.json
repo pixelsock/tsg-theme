@@ -46,8 +46,9 @@
         "open_filters_by_default": false,
         "promotion_placement_order": "random",
         "custom_promotion_placement_order": 2,
-        "enable_promotion_link": false,
-        "promotion_link_url": ""
+        "promotion_image_url": "shopify:\/\/shop_images\/091523-ANSEL-VEST-COLLECTION-PROMO_cb8f2187-dfa4-4611-a569-86c98edea495.jpg",
+        "enable_promotion_link": true,
+        "promotion_link_url": "shopify:\/\/products\/tsg-ansel-quilted-vest-navy"
       }
     },
     "e84d2482-13b2-4890-b149-10ae72f172e3": {
@@ -86,6 +87,7 @@
         "template--16748705415400__e84d2482-13b2-4890-b149-10ae72f172e3-richtext-1",
         "13914815-a4a8-4a41-a7a9-1b6fe8f2b6ba"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify:\/\/shop_images\/tsg_onlinegiftcard_bf526156-435a-4ed3-a2de-e67cb1cbca23.png",
