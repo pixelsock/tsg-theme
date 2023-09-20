@@ -72,47 +72,58 @@
         "remove_vertical_spacing": false
       }
     },
-    "5dada071-19cf-4b59-b737-2ce6eba2ca52": {
-      "type": "image-with-text",
+    "32d730e3-3904-45e0-ac3b-2904076b078e": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "Here's How..."
-          }
-        },
-        "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-heading-1": {
+        "template--16783006138600__32d730e3-3904-45e0-ac3b-2904076b078e-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "To win this Giveaway",
-            "heading_tag": "h1"
+            "text": "",
+            "heading_tag": "h4"
           }
         },
-        "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-richtext-1": {
+        "template--16783006138600__32d730e3-3904-45e0-ac3b-2904076b078e-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We're gonna make this easy for you.<\/p>"
-          }
-        },
-        "4c482c85-f78c-47c7-a303-61094c4f80a8": {
-          "type": "link",
-          "settings": {
-            "text": "Shop to Win",
-            "url": "shopify:\/\/pages\/tsgapparelco"
+            "content": ""
           }
         }
       },
       "block_order": [
-        "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-subheading-1",
-        "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-heading-1",
-        "template--16783006138600__5dada071-19cf-4b59-b737-2ce6eba2ca52-richtext-1",
-        "4c482c85-f78c-47c7-a303-61094c4f80a8"
+        "template--16783006138600__32d730e3-3904-45e0-ac3b-2904076b078e-heading-1",
+        "template--16783006138600__32d730e3-3904-45e0-ac3b-2904076b078e-richtext-1"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-DT.jpg",
+        "allow_transparent_header": false,
         "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "sm",
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "d885fde2-13ec-45fb-b4d0-dfcede3c62de": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16783006138600__d885fde2-13ec-45fb-b4d0-dfcede3c62de-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Giveaway Terms & Conditions<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16783006138600__d885fde2-13ec-45fb-b4d0-dfcede3c62de-richtext-1"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
         "remove_vertical_spacing": false
       }
     },
@@ -138,7 +149,8 @@
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
-    "5dada071-19cf-4b59-b737-2ce6eba2ca52",
+    "32d730e3-3904-45e0-ac3b-2904076b078e",
+    "d885fde2-13ec-45fb-b4d0-dfcede3c62de",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
 }
