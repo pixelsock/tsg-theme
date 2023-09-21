@@ -235,7 +235,7 @@
       "type": "blog-posts",
       "settings": {
         "separate_section_with_border": true,
-        "blog": "",
+        "blog": "dispatches",
         "posts_count": 3,
         "stack_on_mobile": false,
         "show_category": true,
