@@ -131,6 +131,7 @@
     },
     "9517b309-2a41-4d87-8e33-0ef4f447fc66": {
       "type": "countdown",
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
@@ -226,7 +227,7 @@
         "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "GEAR UP FOR THE FIELD DAY",
-        "content": "",
+        "content": "<p>We're not saying that getting geared up will help with an invite back, but it won't hurt to try.  Remember: First impressions are everything.<\/p>",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
       }
