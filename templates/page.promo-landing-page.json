@@ -96,6 +96,7 @@
       "settings": {
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-DT.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-mobile.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": false,
@@ -104,7 +105,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "d885fde2-13ec-45fb-b4d0-dfcede3c62de": {
