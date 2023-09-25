@@ -309,6 +309,83 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
+    "b2a69ed3-5bf7-4662-817f-7f4c9df59dc1": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16783006138600__b2a69ed3-5bf7-4662-817f-7f4c9df59dc1-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/main1000x_0000s_0010_TSG_bamboo_highcountrycheck_frontcopy.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "TANNER BAMBOO SHIRT",
+            "button_text": "View products",
+            "button_link": "shopify:\/\/products\/tsg-tanner-button-down-shirt-high-country-check",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "template--16783006138600__b2a69ed3-5bf7-4662-817f-7f4c9df59dc1-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/tsg-highland-vest-sienna-main-1000x_57830deb-aae5-4c7b-87e0-ec3ac3c11438.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "HIGHLAND QUILTED VEST",
+            "button_text": "View products",
+            "button_link": "shopify:\/\/products\/tsg-highland-quilted-vest-sienna",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "template--16783006138600__b2a69ed3-5bf7-4662-817f-7f4c9df59dc1-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/mission_mercantile_oxbow_shellbag_8c58faf7-7a37-43c4-b275-e05ded5c7b52.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "SHELL BAGS",
+            "button_text": "View products",
+            "button_link": "shopify:\/\/products\/white-wing-waxed-canvas-hunting-shell-bag",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16783006138600__b2a69ed3-5bf7-4662-817f-7f4c9df59dc1-collection-1",
+        "template--16783006138600__b2a69ed3-5bf7-4662-817f-7f4c9df59dc1-collection-2",
+        "template--16783006138600__b2a69ed3-5bf7-4662-817f-7f4c9df59dc1-collection-3"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
     "40d836d0-5c70-4341-b9cb-b40c858de1d6": {
       "type": "collection-list",
       "blocks": {
@@ -392,6 +469,7 @@
     "9517b309-2a41-4d87-8e33-0ef4f447fc66",
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
     "89fb0fae-3c6c-4ed8-9de4-02c40b37f8e9",
+    "b2a69ed3-5bf7-4662-817f-7f4c9df59dc1",
     "40d836d0-5c70-4341-b9cb-b40c858de1d6",
     "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
