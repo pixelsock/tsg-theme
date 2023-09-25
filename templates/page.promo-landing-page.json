@@ -296,7 +296,7 @@
         "template--16783006138600__89fb0fae-3c6c-4ed8-9de4-02c40b37f8e9-collection-3"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image_size": "auto",
         "show_text_outside": false,
         "space_items": true,
@@ -373,7 +373,7 @@
         "template--16783006138600__b2a69ed3-5bf7-4662-817f-7f4c9df59dc1-collection-3"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image_size": "auto",
         "show_text_outside": false,
         "space_items": true,
