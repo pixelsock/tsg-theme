@@ -239,6 +239,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/tsgf21altimages-08_84fd0620-4192-44b8-b373-070ebef2a72e.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -273,12 +274,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/khaki-havenfield-alt-2.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "ANSEL QUILTED VEST",
             "button_text": "View products",
-            "button_link": "shopify:\/\/products\/ansel-quilted-vest",
+            "button_link": "shopify:\/\/products\/tsg-havenfield-shell-jacket-khaki",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
