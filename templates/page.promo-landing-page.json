@@ -57,7 +57,7 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We're offering an exclusive experience to one lucky winner and three friends to enjoy a quail hunting experience at one of South Carolina's most exclusive and historical hunting plantations.  The prize package also includes one-night stay for you and your guests plus a $500 TSG Gift Card.<\/p>"
+            "content": "<p>We're offering an exclusive experience to one lucky winner and three friends to enjoy a quail hunting experience at one of South Carolina's most exclusive and historical private hunting plantations.  The prize package also includes one-night stay for you and your guests plus a $500 TSG Gift Card.<\/p>"
           }
         }
       },
@@ -96,8 +96,8 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-DT.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-mobile.jpg",
+        "image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-DT_83e13441-325c-4582-93f1-2a3fab5a77d2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-mobile_30573633-0cff-4437-a996-dce1df8b8ccc.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": false,
