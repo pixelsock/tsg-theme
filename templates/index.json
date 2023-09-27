@@ -186,45 +186,6 @@
         "controls_color": "#ffffff"
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "e98aa442-4bbd-4efb-a7a0-b9101d9c1e65": {
-          "type": "collection",
-          "settings": {
-            "collection": "dove-hunt-goods-gear",
-            "products_count": 12,
-            "title": "The Dove Season Checklist",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "22199300-574e-4d95-964c-63d7f6414320": {
-          "type": "collection",
-          "settings": {
-            "collection": "best-sellers",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "e98aa442-4bbd-4efb-a7a0-b9101d9c1e65",
-        "22199300-574e-4d95-964c-63d7f6414320"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1.4,
-        "subheading": ""
-      }
-    },
     "11300496-0b96-4e9c-939f-8b4fa6c86620": {
       "type": "collection-list",
       "blocks": {
@@ -396,6 +357,45 @@
         "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "e98aa442-4bbd-4efb-a7a0-b9101d9c1e65": {
+          "type": "collection",
+          "settings": {
+            "collection": "dove-hunt-goods-gear",
+            "products_count": 12,
+            "title": "The Dove Season Checklist",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "22199300-574e-4d95-964c-63d7f6414320": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "e98aa442-4bbd-4efb-a7a0-b9101d9c1e65",
+        "22199300-574e-4d95-964c-63d7f6414320"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1.4,
+        "subheading": ""
       }
     },
     "multiple-media-with-text": {
@@ -594,9 +594,9 @@
   },
   "order": [
     "slideshow",
-    "featured-collections",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "16c35784-55f0-4e62-a535-e33bcc8677a3",
+    "featured-collections",
     "multiple-media-with-text",
     "8497f75a-04a0-4256-bc34-4ea10943d2da",
     "shop-the-look",
