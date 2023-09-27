@@ -567,6 +567,9 @@
         "a5f78cf8-5e1d-449f-ae36-b6abe43d2675",
         "look-1"
       ],
+      "custom_css": [
+        ".section-stack {\/* gap: var(--section-stack-gap); *\/}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "subheading": "",
