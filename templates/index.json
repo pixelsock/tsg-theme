@@ -568,7 +568,7 @@
         "look-1"
       ],
       "custom_css": [
-        ".section-stack {\/* gap: var(--section-stack-gap); *\/}"
+        ".section-stack {gap: 0;}"
       ],
       "settings": {
         "separate_section_with_border": true,
