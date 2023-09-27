@@ -207,24 +207,6 @@
             "button_text_color": ""
           }
         },
-        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "button-downs",
-            "image": "shopify:\/\/shop_images\/tsgtanneraltimages1000x_0000s_0002_TSG-Bluff-S23-Builder-69.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "BUTTON DOWNS & SHIRTS",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426": {
           "type": "collection",
           "settings": {
@@ -242,12 +224,30 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "button-downs",
+            "image": "shopify:\/\/shop_images\/tsgtanneraltimages1000x_0000s_0002_TSG-Bluff-S23-Builder-69.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "BUTTON DOWNS & SHIRTS",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
-        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1",
-        "49dbe3c1-d8ef-4de7-b50e-946fb4e61426"
+        "49dbe3c1-d8ef-4de7-b50e-946fb4e61426",
+        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -305,12 +305,12 @@
         "4c4cac34-eb3b-419d-a005-64251cfb2833": {
           "type": "collection",
           "settings": {
-            "collection": "vests",
-            "image": "shopify:\/\/shop_images\/highland-vest-sienna-alt-1000x_0005s_0001_TSG_FALL_137.png",
+            "collection": "airetex-bamboo-apparel-collection",
+            "image": "shopify:\/\/shop_images\/AllsznHoodyWildwoodaltiamgemain1000x_0001__A7R9418_035af556-8342-439b-a1c8-41be38c4bbde.jpg",
             "expand_collection": true,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "VESTS",
+            "title": "Airetex™ Bamboo Apparel",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
