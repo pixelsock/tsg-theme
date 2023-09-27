@@ -302,6 +302,24 @@
             "button_text_color": ""
           }
         },
+        "4c4cac34-eb3b-419d-a005-64251cfb2833": {
+          "type": "collection",
+          "settings": {
+            "collection": "vests",
+            "image": "shopify:\/\/shop_images\/highland-vest-sienna-alt-1000x_0005s_0001_TSG_FALL_137.png",
+            "expand_collection": true,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "VESTS",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
         "76afd619-8003-49c9-812c-846812885b82": {
           "type": "collection",
           "settings": {
@@ -337,32 +355,14 @@
             "button_background": "",
             "button_text_color": ""
           }
-        },
-        "4c4cac34-eb3b-419d-a005-64251cfb2833": {
-          "type": "collection",
-          "settings": {
-            "collection": "vests",
-            "image": "shopify:\/\/shop_images\/highland-vest-sienna-alt-1000x_0005s_0001_TSG_FALL_137.png",
-            "expand_collection": true,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "VESTS",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
         }
       },
       "block_order": [
         "674fcc65-93d7-46ee-95c6-ae76fd223542",
         "4e1dfdf9-ef31-4df6-9f4b-42a6b45c153c",
+        "4c4cac34-eb3b-419d-a005-64251cfb2833",
         "76afd619-8003-49c9-812c-846812885b82",
-        "474638f9-e9f8-40de-a198-e90686a03525",
-        "4c4cac34-eb3b-419d-a005-64251cfb2833"
+        "474638f9-e9f8-40de-a198-e90686a03525"
       ],
       "settings": {
         "separate_section_with_border": false,
