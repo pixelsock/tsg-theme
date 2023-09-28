@@ -381,16 +381,6 @@
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
-        "e98aa442-4bbd-4efb-a7a0-b9101d9c1e65": {
-          "type": "collection",
-          "settings": {
-            "collection": "dove-hunt-goods-gear",
-            "products_count": 12,
-            "title": "The Dove Season Checklist",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
         "22199300-574e-4d95-964c-63d7f6414320": {
           "type": "collection",
           "settings": {
@@ -400,11 +390,32 @@
             "link_url": "",
             "link_text": "View all"
           }
+        },
+        "c26eff7e-9cfb-41c8-9f93-2c22b98c9dcc": {
+          "type": "collection",
+          "settings": {
+            "collection": "vests",
+            "products_count": 8,
+            "title": "GET IN'VEST'ED",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "e98aa442-4bbd-4efb-a7a0-b9101d9c1e65": {
+          "type": "collection",
+          "settings": {
+            "collection": "dove-hunt-goods-gear",
+            "products_count": 12,
+            "title": "Dove Field Gear",
+            "link_url": "",
+            "link_text": ""
+          }
         }
       },
       "block_order": [
-        "e98aa442-4bbd-4efb-a7a0-b9101d9c1e65",
-        "22199300-574e-4d95-964c-63d7f6414320"
+        "22199300-574e-4d95-964c-63d7f6414320",
+        "c26eff7e-9cfb-41c8-9f93-2c22b98c9dcc",
+        "e98aa442-4bbd-4efb-a7a0-b9101d9c1e65"
       ],
       "settings": {
         "separate_section_with_border": true,
