@@ -124,7 +124,7 @@
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
             "button_1_link": "shopify:\/\/products\/tsg-boone-5-pocket-pant-field-khaki",
-            "button_1_style": "solid",
+            "button_1_style": "link",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
