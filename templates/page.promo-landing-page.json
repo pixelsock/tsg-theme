@@ -94,6 +94,7 @@
         "template--16783006138600__32d730e3-3904-45e0-ac3b-2904076b078e-heading-1",
         "template--16783006138600__32d730e3-3904-45e0-ac3b-2904076b078e-richtext-1"
       ],
+      "disabled": true,
       "settings": {
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-DT_83e13441-325c-4582-93f1-2a3fab5a77d2.jpg",
@@ -107,6 +108,51 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "047ea314-02cf-4695-877e-47db2ca47942": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16783006138600__047ea314-02cf-4695-877e-47db2ca47942-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-DT_83e13441-325c-4582-93f1-2a3fab5a77d2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-mobile_30573633-0cff-4437-a996-dce1df8b8ccc.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16783006138600__047ea314-02cf-4695-877e-47db2ca47942-image-1"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "auto",
+        "autoplay": false,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 4,
+        "background": "#000000",
+        "controls_color": "#ffffff"
       }
     },
     "d885fde2-13ec-45fb-b4d0-dfcede3c62de": {
@@ -465,6 +511,7 @@
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "32d730e3-3904-45e0-ac3b-2904076b078e",
+    "047ea314-02cf-4695-877e-47db2ca47942",
     "d885fde2-13ec-45fb-b4d0-dfcede3c62de",
     "9517b309-2a41-4d87-8e33-0ef4f447fc66",
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
