@@ -163,15 +163,6 @@
       "info": "You can choose and change this menu in the navigation settings. To create a link to tagged articls you just make the url for the navigation item /blog/dispatches/tagged/{the-name-of-your-tag}"
     },
     {
-      "type": "range",
-      "id": "posts_per_page",
-      "label": "t:sections.main_blog.blog_posts_per_page",
-      "min": 3,
-      "max": 50,
-      "step": 1,
-      "default": 10
-    },
-    {
       "type": "header",
       "content": "t:sections.main_blog.featured_blog_post_category",
       "info": "t:sections.main_blog.featured_blog_post_category_info"
@@ -187,6 +178,15 @@
       "label": "t:sections.main_blog.feature_first_blog_post",
       "default": true,
       "info": "Selecting this option will override the selected featured article setting and feature the first article in the blog on every paginated blog page."
+    },
+    {
+      "type": "range",
+      "id": "posts_per_page",
+      "label": "t:sections.main_blog.blog_posts_per_page",
+      "min": 3,
+      "max": 50,
+      "step": 1,
+      "default": 10
     },
     {
       "type": "color",
