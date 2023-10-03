@@ -9,6 +9,19 @@
 
 /* ---- END: Global ---- */
 
+/* ---- START: BLOG ---- */
+ul.blog-tags li {
+  border: 2px solid;
+  padding: 0.5rem 1rem;
+}
+
+img.blog-post-card__image {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* ---- END: BLOG ---- */
+
 /* ++++ START: Customer Account ++++ */
 .customer-account-box {
   align-items: flex-start;
@@ -238,75 +251,18 @@
 }
 }
 
-th,
-.size-guide tr td:first-child {
-  opacity: 1;
-  text-align: center;
-  background-color: #262f4d;
-  color: white;
-  font-weight: bold;
-  vertical-align: middle;
-  padding: 1rem;
-  font-size: 1rem;
-}
 
-
-
-/* Mega Menu Styles */
-
-.orange-divider {
-  border-left: 1px solid orange;
-  width: 38px !important;
-  background-color: orange;
-  height: 100%;
-  min-height: 200px;
-  position: relative;
-  z-index: 200;
-}
-
+/* Mega Menu */
 
 .mega-menu {
-  postion: relative;
-  display: flex;
-  justify-content: center;
-  max-width: 1000px;
-  max-height: none;
-  left: 0;
-  right: 0;
-  margin: auto;
-  --mega-menu-gap: 2.5rem;
-  --mega-menu-linklist-gap: 2.5rem;
-  --mega-menu-promo-gap: 2.5rem;
+  border-top: 3px solid;
+  margin-top: -3px;
 }
 
-
-.mega-menu__linklist {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(200px, 1fr));
-  align-items: start; /* vertically aligns the content */
+/* .mega-menu__linklist {
+  display: contents;
 }
-
-.mega-menu__linklist > * {
-  text-align: left; /* horizontally aligns the text */
-}
-
-.mega-menu__promo {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  align-items: center;
-      border-left: 1px solid orange;
-    padding-left: 4rem !important;
-
-
-}
-
-.v-stack {
-  grid-template-columns: minmax(225px, 225px);
-}
-
-
-
-
+*/
 .header__dropdown-menu {
     margin-top: 3px;
   border: none;
@@ -323,3 +279,11 @@ th,
   padding: 1rem;
   font-size: 1rem;
 }
+.mega-menu__promo {
+  border-left: 2px solid orange;
+  padding-left: 3rem;
+}
+.mega-menu {
+  max-height: none;
+}
+
