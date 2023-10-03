@@ -6,7 +6,7 @@
         "sort_by": "date",
         "show_blog_title": true,
         "show_rss_feed": false,
-        "show_tags": true,
+        "show_tags": false,
         "menu": "dispatch",
         "posts_per_page": 10,
         "featured_post": "",
