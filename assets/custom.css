@@ -9,6 +9,20 @@
 
 /* ---- END: Global ---- */
 
+/* ---- START: BLOG ---- */
+ul.blog-tags li {
+  border: 2px solid;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+
+img.blog-post-card__image {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* ---- END: BLOG ---- */
+
 /* ++++ START: Customer Account ++++ */
 .customer-account-box {
   align-items: flex-start;
@@ -238,19 +252,6 @@
 }
 }
 
-th,
-.size-guide tr td:first-child {
-  opacity: 1;
-  text-align: center;
-  background-color: #262f4d;
-  color: white;
-  font-weight: bold;
-  vertical-align: middle;
-  padding: 1rem;
-  font-size: 1rem;
-}
-
-
 
 /* Mega Menu Styles */
 
@@ -283,9 +284,8 @@ th,
 
 
 .mega-menu__linklist {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(200px, 1fr));
-  align-items: start; /* vertically aligns the content */
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .mega-menu__linklist > * {
@@ -296,8 +296,9 @@ th,
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   align-items: center;
-      border-left: 1px solid orange;
-    padding-left: 4rem !important;
+  border-left: 1px solid orange;
+  padding-left: 4rem;
+
 
 
 }
