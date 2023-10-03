@@ -3,10 +3,13 @@
     "main": {
       "type": "main-blog",
       "settings": {
+        "sort_by": "date",
         "show_blog_title": true,
         "show_rss_feed": false,
-        "show_tags": false,
+        "show_tags": true,
+        "menu": "dispatch",
         "posts_per_page": 10,
+        "featured_post": "",
         "feature_first_blog_post": true,
         "featured_blog_post_text_color": "#ffffff",
         "featured_blog_post_button_background": "#ffffff",
