@@ -314,7 +314,7 @@
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0,
+            "overlay_opacity": 30,
             "button_background": "",
             "button_text_color": ""
           }
