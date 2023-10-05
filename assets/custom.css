@@ -302,6 +302,7 @@ img.blog-post-card__image {
   align-items: center;
   border-left: 1px solid orange;
   padding-left: 4rem;
+  row-gap: 2rem;
 
 
 
