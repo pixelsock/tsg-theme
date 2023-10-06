@@ -3,33 +3,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "c6d23322-7f91-4ca5-a7ae-16d6662788b6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Hunf-ot-a-Lifetime-hero-DT.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Hunf-ot-a-Lifetime-hero-mobile.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify:\/\/pages\/the-hunt-of-a-lifetime-giveaway",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
         "b40f07c7-6a39-4453-a0c4-8ad8ece83c21": {
           "type": "image",
           "settings": {
@@ -53,6 +26,33 @@
             "background": "",
             "background_opacity": 50,
             "text_color": "#303030",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "c6d23322-7f91-4ca5-a7ae-16d6662788b6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hunf-ot-a-Lifetime-hero-DT.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Hunf-ot-a-Lifetime-hero-mobile.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify:\/\/pages\/the-hunt-of-a-lifetime-giveaway",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
             "border_color": "",
             "gradient_overlay": ""
           }
@@ -167,8 +167,8 @@
         }
       },
       "block_order": [
-        "c6d23322-7f91-4ca5-a7ae-16d6662788b6",
         "b40f07c7-6a39-4453-a0c4-8ad8ece83c21",
+        "c6d23322-7f91-4ca5-a7ae-16d6662788b6",
         "1a1c7464-16c6-4e73-8588-cd6bd51363b7",
         "b9881576-d349-4728-a854-c189239c9f4c",
         "571588cf-aa5a-4959-9bb1-2ec014330c36",
