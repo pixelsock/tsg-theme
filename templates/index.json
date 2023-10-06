@@ -191,7 +191,7 @@
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426": {
           "type": "collection",
           "settings": {
-            "collection": "airetex-bamboo-apparel-collection",
+            "collection": "vests",
             "image": "shopify:\/\/shop_images\/TSG_Highland-Vest_iron-alt4-1000x.png",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
