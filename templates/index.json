@@ -269,8 +269,8 @@
           "type": "collection",
           "settings": {
             "collection": "oxbow-goods-collection",
-            "image": "shopify:\/\/shop_images\/tsgmidsznhoodedjacketoxbowalt1000x2.jpg",
-            "expand_collection": false,
+            "image": "shopify:\/\/shop_images\/tsg_midszn_hooded_jacket_oxbow_1500x_69e8a660-0a56-4afa-a395-9fc87412e2e6.png",
+            "expand_collection": true,
             "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
