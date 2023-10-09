@@ -191,8 +191,8 @@
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426": {
           "type": "collection",
           "settings": {
-            "collection": "vests",
-            "image": "shopify:\/\/shop_images\/TSG_Highland-Vest_iron-alt4-1000x.png",
+            "collection": "vests-outerwear-jackets",
+            "image": "shopify:\/\/shop_images\/baeron-front-alt-2.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
