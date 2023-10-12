@@ -287,8 +287,8 @@
           "type": "collection",
           "settings": {
             "collection": "field-gear",
-            "image": "shopify:\/\/shop_images\/knightshill-builder-211_ceb5709b-ce6b-4817-a268-5d8c12fd7daa.jpg",
-            "expand_collection": false,
+            "image": "shopify:\/\/shop_images\/Untitled-2_a7c26ed1-3bc4-4395-a50d-dc6ddf218a2e.jpg",
+            "expand_collection": true,
             "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
@@ -314,7 +314,7 @@
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 10,
             "button_background": "",
             "button_text_color": ""
           }
