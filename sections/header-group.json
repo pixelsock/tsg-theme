@@ -43,7 +43,7 @@
         "enable_sticky": true,
         "autoplay": true,
         "cycle_speed": 4,
-        "desktop_font_size": 10,
+        "desktop_font_size": 12,
         "mobile_font_size": 10,
         "background": "#303030",
         "text_color": "#ffffff"
