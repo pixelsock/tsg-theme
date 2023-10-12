@@ -66,7 +66,7 @@
           "type": "collection",
           "settings": {
             "collection": "oxbow-goods-collection",
-            "products_count": 8,
+            "products_count": 12,
             "title": "The OXBOW™ CAMO LINEUP",
             "link_url": "",
             "link_text": "View all"
@@ -321,7 +321,7 @@
         "39255c86-4e6f-45a3-a12b-ad523137b66b": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Here at TSG we believe that Oxbow™ is suited for both work and play, and it is a clear sign to all who see you that you are a work hard, play hard, full-fledged Sporting Gent.<\/p><p><\/p><p>Check out our full collection of Oxbow™ products <a href=\"https:\/\/www.thesportinggent.com\/search?q=oxbow\"><span style=\"text-decoration:underline\">HERE<\/span><\/a>, including the limited edition <a href=\"https:\/\/www.thesportinggent.com\/products\/tsg-waxed-briar-chaps-oxbow\" title=\"https:\/\/www.thesportinggent.com\/products\/tsg-waxed-briar-chaps-oxbow\">Oxbow™ Briar Chaps<\/a> (while they last).<\/p>"
+            "content": "<p>Here at TSG we believe that Oxbow™ is suited for both work and play, and it is a clear sign to all who see you that you are a work hard, play hard, full-fledged Sporting Gent.<\/p><p><\/p><p>Check out our full collection of Oxbow™ products <a href=\"https:\/\/www.thesportinggent.com\/collections\/oxbow-goods-collection\" title=\"https:\/\/www.thesportinggent.com\/collections\/oxbow-goods-collection\"><span style=\"text-decoration:underline\">HERE<\/span><\/a>, including the limited edition <a href=\"https:\/\/www.thesportinggent.com\/products\/tsg-waxed-briar-chaps-oxbow\" title=\"https:\/\/www.thesportinggent.com\/products\/tsg-waxed-briar-chaps-oxbow\">Oxbow™ Briar Chaps<\/a> (while they last).<\/p>"
           }
         }
       },
