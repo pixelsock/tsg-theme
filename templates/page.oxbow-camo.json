@@ -65,9 +65,9 @@
         "template--16760249843944__1fdb73fb-ca48-4fad-9c96-a7ffe1384177-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "oxbow-camo-landing-page",
+            "collection": "oxbow-goods-collection",
             "products_count": 8,
-            "title": "New For Fall 2021",
+            "title": "The OXBOW™ CAMO LINEUP",
             "link_url": "",
             "link_text": "View all"
           }
@@ -84,7 +84,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "OXBOW Camo"
+        "subheading": ""
       }
     },
     "db017f56-6fdd-4016-b53e-14e88d41ca02": {
