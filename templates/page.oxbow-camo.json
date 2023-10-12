@@ -245,6 +245,7 @@
       "block_order": [
         "template--16760249843944__ec8c01eb-f2bb-4424-a732-83ececf4eac8-collection-1"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "hide_product_information": false,
@@ -349,7 +350,7 @@
         "39255c86-4e6f-45a3-a12b-ad523137b66b": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Here at TSG we believe that Oxbow™ is suited for both work and play, and it is a clear sign to all who see you that you are a work hard, play hard, full-fledged Sporting Gent.<\/p><p><\/p><p>Check out our full collection of Oxbow™ products <a href=\"https:\/\/www.thesportinggent.com\/search?q=oxbow\"><span style=\"text-decoration:underline\">HERE<\/span><\/a>, including the limited edition <a href=\"https:\/\/www.thesportinggent.com\/collections\/all\/products\/tsg-boone-5-pocket-pant-oxbow\"><span style=\"text-decoration:underline\">Oxbow Boone 5-Pocket pants <\/span><\/a>(while they last).<\/p>"
+            "content": "<p>Here at TSG we believe that Oxbow™ is suited for both work and play, and it is a clear sign to all who see you that you are a work hard, play hard, full-fledged Sporting Gent.<\/p><p><\/p><p>Check out our full collection of Oxbow™ products <a href=\"https:\/\/www.thesportinggent.com\/search?q=oxbow\"><span style=\"text-decoration:underline\">HERE<\/span><\/a>, including the limited edition <a href=\"https:\/\/www.thesportinggent.com\/products\/tsg-waxed-briar-chaps-oxbow\" title=\"https:\/\/www.thesportinggent.com\/products\/tsg-waxed-briar-chaps-oxbow\">Oxbow™ Briar Chaps<\/a> (while they last).<\/p>"
           }
         }
       },
