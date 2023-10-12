@@ -278,7 +278,7 @@
             "button_link": "shopify:\/\/pages\/oxbow-camo",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 16,
             "button_background": "",
             "button_text_color": ""
           }
@@ -296,7 +296,7 @@
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 17,
             "button_background": "",
             "button_text_color": ""
           }
@@ -332,7 +332,7 @@
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 9,
             "button_background": "",
             "button_text_color": ""
           }
