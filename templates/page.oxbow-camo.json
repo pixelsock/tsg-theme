@@ -116,7 +116,7 @@
             "image": "shopify:\/\/shop_images\/JMB_3572.jpg",
             "column_count": "6",
             "row_count": 2,
-            "title": "Bottoms",
+            "title": "Limited Edition Bottoms",
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
@@ -226,35 +226,6 @@
         "button_text_color": "#1c1c1c",
         "overlay_color": "#000000",
         "overlay_opacity": 73
-      }
-    },
-    "ec8c01eb-f2bb-4424-a732-83ececf4eac8": {
-      "type": "featured-collections",
-      "blocks": {
-        "template--16760249843944__ec8c01eb-f2bb-4424-a732-83ececf4eac8-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "oxbow-goods-collection",
-            "products_count": 8,
-            "title": "OXBOW ACCESSORIES",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "template--16760249843944__ec8c01eb-f2bb-4424-a732-83ececf4eac8-collection-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Featured collection"
       }
     },
     "081a943f-e1e6-4a88-9a30-2c5ae40c9edb": {
@@ -413,7 +384,6 @@
     "1fdb73fb-ca48-4fad-9c96-a7ffe1384177",
     "db017f56-6fdd-4016-b53e-14e88d41ca02",
     "73f2e6a0-47a9-46b6-ba22-7fbeced5a800",
-    "ec8c01eb-f2bb-4424-a732-83ececf4eac8",
     "081a943f-e1e6-4a88-9a30-2c5ae40c9edb",
     "bc9638a4-87f7-4a04-8fbe-ae455599375c",
     "be556c16-0c0b-42ca-8a8a-cc456f716789",
