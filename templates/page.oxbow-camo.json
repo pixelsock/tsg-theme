@@ -127,13 +127,13 @@
             "button_background": "",
             "button_text_color": "",
             "overlay_color": "#000000",
-            "overlay_opacity": 20
+            "overlay_opacity": 0
           }
         },
         "template--16760249843944__db017f56-6fdd-4016-b53e-14e88d41ca02-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/f21-knightshill-lowres-208.jpg",
+            "image": "shopify:\/\/shop_images\/WebImageEditoroxbowguideshirtalt1000x_0000s_0002_JPrice_TSG21_dove-9330.jpg",
             "column_count": "6",
             "row_count": 1,
             "title": "Tops",
