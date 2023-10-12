@@ -291,7 +291,7 @@
         "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "lg",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false
       }
     },
     "bc9638a4-87f7-4a04-8fbe-ae455599375c": {
@@ -368,7 +368,7 @@
         "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "lg",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false
       }
     },
     "0b4547ef-b6c9-4d3c-92d7-d2d47d133eea": {
