@@ -519,43 +519,6 @@
         "button_text_color": ""
       }
     },
-    "8497f75a-04a0-4256-bc34-4ea10943d2da": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--16748706037992__8497f75a-04a0-4256-bc34-4ea10943d2da-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        },
-        "template--16748706037992__8497f75a-04a0-4256-bc34-4ea10943d2da-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16748706037992__8497f75a-04a0-4256-bc34-4ea10943d2da-heading-1",
-        "template--16748706037992__8497f75a-04a0-4256-bc34-4ea10943d2da-richtext-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/021522_newarrivals_dt_hero.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/021522_newarrivals_mobile_hero.jpg",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": false,
-        "remove_vertical_spacing": true,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "shop-the-look": {
       "type": "shop-the-look",
       "blocks": {
@@ -676,7 +639,6 @@
     "d6c7f89c-8e8b-472b-b049-fa602d5e901f",
     "featured-collections",
     "multiple-media-with-text",
-    "8497f75a-04a0-4256-bc34-4ea10943d2da",
     "shop-the-look",
     "blog-posts",
     "newsletter"
