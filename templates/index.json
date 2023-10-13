@@ -445,21 +445,21 @@
             "link_text": ""
           }
         },
-        "e98aa442-4bbd-4efb-a7a0-b9101d9c1e65": {
+        "e5b09454-6655-41a1-a720-765a5e69f3a2": {
           "type": "collection",
           "settings": {
-            "collection": "dove-hunt-goods-gear",
-            "products_count": 12,
-            "title": "Dove Field Gear",
+            "collection": "tsgaco-baeron-waxed-collection",
+            "products_count": 8,
+            "title": "Baeron Waxed Goods",
             "link_url": "",
-            "link_text": ""
+            "link_text": "View all"
           }
         }
       },
       "block_order": [
         "22199300-574e-4d95-964c-63d7f6414320",
         "c26eff7e-9cfb-41c8-9f93-2c22b98c9dcc",
-        "e98aa442-4bbd-4efb-a7a0-b9101d9c1e65"
+        "e5b09454-6655-41a1-a720-765a5e69f3a2"
       ],
       "settings": {
         "separate_section_with_border": true,
