@@ -287,7 +287,6 @@ img.blog-post-card__image {
 
 
 .mega-menu {
-  position: relative;
   display: flex;
   justify-content: center;
   max-width: 1000px;
