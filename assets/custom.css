@@ -306,8 +306,7 @@ img.blog-post-card__image {
 .mega-menu__linklist {
   flex-wrap: nowrap;
   justify-content: space-between;
-  --mega-menu-linklist-gap: 5rem;
-  --mega-menu-gap: 5rem;
+  gap: 5rem !important;
 }
 
 .mega-menu__linklist > * {
