@@ -279,8 +279,7 @@ img.blog-post-card__image {
   width: 1px;
   background-color: orange;
   margin: 0 20px;
-  height: 1000px;
-  max-height: 75%;
+  height: 400px;
 }
 
 
