@@ -25,8 +25,12 @@ function addReadMore() {
 
     collectionDescription.innerHTML = '';
     collectionDescription.appendChild(document.createTextNode(beforeReadMore));
-  collectionDescription.appendChild(dots);
-  collectionDescription.appendChild(remainingContent);
+    collectionDescription.appendChild(dots);
+    collectionDescription.appendChild(remainingContent);
+
+    // Add a line break before the Read More link
+    var lineBreak = document.createElement('br');
+    collectionDescription.appendChild(lineBreak);
 
     collectionDescription.appendChild(readMoreLink);
   }
