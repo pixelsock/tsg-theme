@@ -153,21 +153,23 @@
     </div>
   </div>
 </div>
-<div class="section-spacing bordered-section">
-  <div class="button-group justify-center">
-    {%- assign user_tags = customer.tags | downcase -%}
-    {%- if user_tags contains 'employee' or user_tags contains 'wholesale' or user_tags contains 'wholesalecustomer'
-    or user_tags contains 'wholesaleprospect' -%}
-    <a href="/pages/wholesale" class="button button--outline">Shop Wholesale</a>
-    {%- else -%}
-    <a href="/collections/all" class="button button--outline">Shop Now</a>
-    {%- endif -%}
-    <a href="/pages/frequently-asked-questions" class="button button--outline">FAQs</a>
-    <a href="/a/return" class="button button--outline">Returns</a>
-    <a href="/account/login?reset-password#recover" class="button button--outline">Reset Password</a>
-    <a href="/account/logout" class="button button--outline">Logout</a>
+<section>
+  <div class="section-spacing bordered-section">
+    <div class="button-group justify-center">
+      {%- assign user_tags = customer.tags | downcase -%}
+      {%- if user_tags contains 'employee' or user_tags contains 'wholesale' or user_tags contains 'wholesalecustomer'
+      or user_tags contains 'wholesaleprospect' -%}
+      <a href="/pages/wholesale" class="button button--outline">Shop Wholesale</a>
+      {%- else -%}
+      <a href="/collections/all" class="button button--outline">Shop Now</a>
+      {%- endif -%}
+      <a href="/pages/frequently-asked-questions" class="button button--outline">FAQs</a>
+      <a href="/a/return" class="button button--outline">Returns</a>
+      <a href="/account/login?reset-password#recover" class="button button--outline">Reset Password</a>
+      <a href="/account/logout" class="button button--outline">Logout</a>
+    </div>
   </div>
-</div>
+</section>
 
 {% schema %}
 {
