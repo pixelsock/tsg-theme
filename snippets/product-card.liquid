@@ -193,10 +193,11 @@
 
           {%- case settings.product_color_display -%}
             {%- when 'count' -%}
+              {%- if product_option.values.size > 1 -%}
               <p class="smallcaps text-subdued">
-                <!-- {{- 'product.general.available_colors_count' | t: count: product_option.values.size -}} -->
                 More Colors Available
               </p>
+            {%- endif -%}
 
             {%- when 'swatch' -%}
               <fieldset class="h-stack wrap justify-center gap-1" data-option-position="{{ product_option.position }}">
