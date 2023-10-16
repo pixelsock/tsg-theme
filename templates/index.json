@@ -625,8 +625,8 @@
         "content": "",
         "button_text": "Subscribe Now",
         "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#303030",
+        "button_background": "#ed8a00",
+        "button_text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 51
       }
