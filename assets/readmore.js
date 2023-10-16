@@ -1,21 +1,12 @@
 function addReadMore() {
   var collectionDescription = document.querySelector('.collection-description');
-  var content = collectionDescription.innerHTML;
+  var content = collectionDescription.innerText; // Use innerText instead of innerHTML
 
   var cutoff = 250;
 
   if (content.length > cutoff) {
     var beforeReadMore = content.substring(0, cutoff);
     var afterReadMore = content.substring(cutoff);
-
-    // Create a new element and set its innerHTML to beforeReadMore
-    var div = document.createElement('div');
-    div.innerHTML = beforeReadMore;
-    // Create a temporary textarea to decode HTML entities
-    var textarea = document.createElement('textarea');
-    textarea.innerHTML = div.innerHTML;
-    // Extract the value, which will be the decoded text
-    beforeReadMore = textarea.value;
 
     var dots = document.createElement('span');
     dots.id = 'dots';
