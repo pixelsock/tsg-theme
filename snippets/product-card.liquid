@@ -194,7 +194,8 @@
           {%- case settings.product_color_display -%}
             {%- when 'count' -%}
               <p class="smallcaps text-subdued">
-                {{- 'product.general.available_colors_count' | t: count: product_option.values.size -}}
+                <!-- {{- 'product.general.available_colors_count' | t: count: product_option.values.size -}} -->
+                More Colors Available
               </p>
 
             {%- when 'swatch' -%}
