@@ -22,10 +22,10 @@
             "button_2_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
             "button_2_style": "link",
             "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
+            "button_2_text_color": "#282e29",
             "background": "",
             "background_opacity": 50,
-            "text_color": "#303030",
+            "text_color": "#282e29",
             "border_color": "",
             "gradient_overlay": ""
           }
