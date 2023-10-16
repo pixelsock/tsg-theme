@@ -1,6 +1,7 @@
 function addReadMore() {
   var collectionDescription = document.querySelector('.collection-description');
   var content = collectionDescription.innerHTML;
+
   var cutoff = 250;
 
   if (content.length > cutoff) {
@@ -10,8 +11,11 @@ function addReadMore() {
     // Create a new element and set its innerHTML to beforeReadMore
     var div = document.createElement('div');
     div.innerHTML = beforeReadMore;
-    // Extract the textContent, which will strip HTML tags
-    beforeReadMore = div.textContent;
+    // Create a temporary textarea to decode HTML entities
+    var textarea = document.createElement('textarea');
+    textarea.innerHTML = div.innerHTML;
+    // Extract the value, which will be the decoded text
+    beforeReadMore = textarea.value;
 
     var dots = document.createElement('span');
     dots.id = 'dots';
