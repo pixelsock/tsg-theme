@@ -34,7 +34,7 @@
     "show_vendor": true,
     "product_title_max_lines": 3,
     "product_card_text_font": "heading",
-    "product_color_display": "hide",
+    "product_color_display": "count",
     "show_product_rating": true,
     "show_product_rating_if_empty": true,
     "show_quick_buy": true,
