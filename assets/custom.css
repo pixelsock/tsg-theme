@@ -276,13 +276,11 @@ img.blog-post-card__image {
 /* Mega Menu Styles */
 
 .orange-divider {
-  border-left: 1px solid orange;
-  width: 38px !important;
+  width: 1px;
   background-color: orange;
-  height: 100%;
-  min-height: 200px;
-  position: relative;
-  z-index: 200;
+  margin: 0 20px;
+  height: 1000px;
+  max-height: 75%;
 }
 
 
