@@ -344,6 +344,6 @@ th,
 }
 /* popup background color */
 #pwwp__bg-id {
-  background-color: white;
+  background-color: white !important;
 }
 /* Product Page End */
