@@ -149,6 +149,15 @@
           "settings": {
           }
         },
+        "963f74e2-2e1c-41a3-b1eb-23f5b85acce0": {
+          "type": "image",
+          "settings": {
+            "alignment": "start",
+            "width_mode": "full_width",
+            "max_width": 300,
+            "mobile_max_width": 200
+          }
+        },
         "05aeae89-caad-4de8-9abe-b7781460ca04": {
           "type": "feature_with_icon",
           "settings": {
@@ -219,6 +228,7 @@
         "707fefa4-f06c-4419-990e-cc836ef01909",
         "1895c9fb-ace6-4d23-bbdc-08b0805bda68",
         "separator",
+        "963f74e2-2e1c-41a3-b1eb-23f5b85acce0",
         "05aeae89-caad-4de8-9abe-b7781460ca04",
         "0acebf67-008b-441f-8507-030d9f577c30",
         "ad83e159-f427-42dc-8729-7dc2e621cc69",
