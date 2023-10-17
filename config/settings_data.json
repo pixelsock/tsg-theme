@@ -16,7 +16,7 @@
     "modal_text_color": "#282e29",
     "product_rating_color": "#eaab53",
     "product_on_sale_accent": "#282e29",
-    "product_custom_badge_background": "#7c6e4e",
+    "product_custom_badge_background": "#8d762f",
     "heading_font": "itc_franklin_gothic_n9",
     "heading_text_transform": "uppercase",
     "heading_font_size_factor": 1.1,
@@ -156,7 +156,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".product-gallery {padding-bottom: 0px; margin-bottom: -3.5rem ;}",
+      ".product-gallery {padding-bottom: 0px; margin-bottom: -3.5rem;}",
       "th,.size-guide tr td:first-child {opacity: 1; text-align: center; background-color: #262f4d; color: white; font-weight: bold; vertical-align: middle; padding: 1rem; font-size: 1rem;}",
       ".customer-account-overview th {opacity: 1; text-align: left; background-color: #262f4d; color: #fff; vertical-align: middle; padding: 0.5rem; font-size: 0.75rem;}",
       ".customer-account-overview :is(th, td):last-child {text-align: right;}",
