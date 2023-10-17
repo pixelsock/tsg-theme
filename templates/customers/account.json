@@ -14,20 +14,9 @@
       ],
       "settings": {
       }
-    },
-    "0e4931cb-0b1e-462f-848b-912beaf4cbdc": {
-      "type": "custom-liquid",
-      "settings": {
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"button-group justify-center\">\n<a href=\"\/collections\/all\" class=\"button button--outline\">Shop Now<\/a>\n<a href=\"\/pages\/frequently-asked-questions\" class=\"button button--outline\">FAQs<\/a>\n<a href=\"\/a\/return\" class=\"button button--outline\">Returns<\/a>\n<a href=\"\/account\/login?reset-password#recover\" class=\"button button--outline\">Reset Password<\/a>\n<a href=\"\/account\/logout\" class=\"button button--outline\">Logout<\/a>",
-        "text_alignment": "center"
-      }
     }
   },
   "order": [
-    "main",
-    "0e4931cb-0b1e-462f-848b-912beaf4cbdc"
+    "main"
   ]
 }
