@@ -111,8 +111,9 @@
 </div>
 {%- endif -%}
 {%- if section.settings.show_breadcrumb -%}
-<div style="background:{{ section.settings.breadcrumb_color }}; color: white; padding:1rem; display:sticky;">{{-
-  collection_breadcrumb -}}</div>
+<div
+  style="background:{{ section.settings.breadcrumb_color }}; color: {{ section.settings.breadcrumb_text_color }}; padding:1rem; display:sticky;">
+  {{- collection_breadcrumb -}}</div>
 {%- endif -%}
 {% schema %}
 {
@@ -235,7 +236,13 @@
 {
 "type": "color",
 "id": "breadcrumb_color",
-"label": "Breadcrumb Background Color",
+"label": "Breadcrumb Background",
+"default": "#303030"
+},
+{
+"type": "color",
+"id": "breadcrumb_text_color",
+"label": "Breadcrumb Text",
 "default": "#303030"
 },
 {
