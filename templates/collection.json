@@ -14,6 +14,8 @@
         "show_collection_description": true,
         "show_breadcrumb": true,
         "content_width": "xl",
+        "breadcrumb_color": "#303030",
+        "breadcrumb_text_color": "#ffffff",
         "background": "#282e29",
         "text_color": "#ffffff",
         "overlay_color": "#282e29",
