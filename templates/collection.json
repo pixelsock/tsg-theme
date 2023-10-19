@@ -14,9 +14,9 @@
         "show_collection_description": true,
         "show_breadcrumb": true,
         "content_width": "xl",
-        "background": "#000000",
+        "background": "#282e29",
         "text_color": "#ffffff",
-        "overlay_color": "#000000",
+        "overlay_color": "#282e29",
         "overlay_opacity": 30
       }
     },
