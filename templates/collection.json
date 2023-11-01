@@ -6,6 +6,7 @@
         "{text-align: left;}"
       ],
       "settings": {
+        "content_width": "xl",
         "image_size": "xs",
         "allow_transparent_header": false,
         "reveal": false,
@@ -13,7 +14,8 @@
         "show_collection_title": true,
         "show_collection_description": true,
         "show_breadcrumb": true,
-        "content_width": "xl",
+        "breadcrumb_color": "#303030",
+        "breadcrumb_text_color": "#fff",
         "background": "#282e29",
         "text_color": "#ffffff",
         "overlay_color": "#282e29",
@@ -47,7 +49,7 @@
         "promotion_placement_order": "random",
         "custom_promotion_placement_order": 2,
         "promotion_image_url": "shopify:\/\/shop_images\/Hunf-ot-a-Lifetime-hero-mobile_bb7b24fd-09f1-4888-9119-f3e2756abd8f.jpg",
-        "enable_promotion_link": true,
+        "enable_promotion_link": false,
         "promotion_link_url": "shopify:\/\/pages\/the-hunt-of-a-lifetime-giveaway"
       }
     },
