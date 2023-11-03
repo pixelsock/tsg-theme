@@ -244,7 +244,7 @@
         "center_basic_info": true,
         "desktop_media_layout": "carousel_thumbnails_left",
         "desktop_media_grid_gap": 20,
-        "mobile_controls": "dots",
+        "mobile_controls": "free_scroll",
         "enable_media_autoplay": false,
         "enable_video_looping": false,
         "enable_image_zoom": false,
