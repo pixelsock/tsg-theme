@@ -12,24 +12,12 @@
     },
     "706f911b-40ba-42de-bbda-adb772c6d4ec": {
       "type": "multiple-media-with-text",
-      "blocks": {
-        "template--16748705644776__706f911b-40ba-42de-bbda-adb772c6d4ec-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/questions-icon-min_c86e03da-9938-4292-a706-750d2cc7edee.png",
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--16748705644776__706f911b-40ba-42de-bbda-adb772c6d4ec-image-2"
-      ],
       "settings": {
         "reveal_on_scroll": false,
         "separate_section_with_border": false,
         "media_position_desktop": "before_text",
         "media_position_mobile": "before_text",
-        "media_layout": "separated",
+        "media_layout": "overlap",
         "media_alignment": "center",
         "media_alignment_offset": 0,
         "media_mobile_alignment_offset": 0,
@@ -55,9 +43,9 @@
         "template--16748705644776__610fca0c-51ee-4c66-8bbf-d97121f97027-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "seasonsendmarkdowns",
-            "products_count": 4,
-            "title": "Lost Shot For These Items",
+            "collection": "tsg-apparel-co-new-arrivals-for-fall",
+            "products_count": 8,
+            "title": "Last Shot For These Items",
             "link_url": "",
             "link_text": ""
           }
@@ -70,7 +58,7 @@
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
-        "products_per_row_mobile": "2",
+        "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
