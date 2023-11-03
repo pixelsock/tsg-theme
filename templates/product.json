@@ -345,8 +345,8 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "Pairs well with the {{ product.title }}",
-        "title": "",
+        "subheading": "Pairs Well With...",
+        "title": "{{ product.title }}",
         "content": ""
       }
     },
