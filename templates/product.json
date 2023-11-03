@@ -345,9 +345,9 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "Pairs Well With...",
-        "title": "{{ product.title }}",
-        "content": ""
+        "subheading": "",
+        "title": "A match made in Heaven",
+        "content": "<p>Here are couple suggestion based on what our other friends and customers purchased along with the {{ product.title }}<\/p>"
       }
     },
     "16891837271bf8cc12": {
