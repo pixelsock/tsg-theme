@@ -344,7 +344,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
+        "vertical_spacing_factor": 0.2,
         "subheading": "",
         "title": "A match made in Heaven",
         "content": "<p>Here are couple suggestion based on what our other friends and customers purchased along with the {{ product.title }}<\/p>"
