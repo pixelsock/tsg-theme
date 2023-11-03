@@ -37,6 +37,41 @@
         "button_text_color": ""
       }
     },
+    "55da84e4-a7f2-43f8-9271-914bd4abba56": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16748705644776__55da84e4-a7f2-43f8-9271-914bd4abba56-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16748705644776__55da84e4-a7f2-43f8-9271-914bd4abba56-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Easy Returns & Even Easier Exchanges",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16748705644776__55da84e4-a7f2-43f8-9271-914bd4abba56-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Need to return or exchange? Have other questions about your order or our store? <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16748705644776__55da84e4-a7f2-43f8-9271-914bd4abba56-subheading-1",
+        "template--16748705644776__55da84e4-a7f2-43f8-9271-914bd4abba56-heading-1",
+        "template--16748705644776__55da84e4-a7f2-43f8-9271-914bd4abba56-richtext-1"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "610fca0c-51ee-4c66-8bbf-d97121f97027": {
       "type": "featured-collections",
       "blocks": {
@@ -69,6 +104,7 @@
   "order": [
     "main",
     "706f911b-40ba-42de-bbda-adb772c6d4ec",
+    "55da84e4-a7f2-43f8-9271-914bd4abba56",
     "610fca0c-51ee-4c66-8bbf-d97121f97027"
   ]
 }
