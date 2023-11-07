@@ -151,6 +151,7 @@
         },
         "963f74e2-2e1c-41a3-b1eb-23f5b85acce0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/101623-product-page-USP-graphic.png",
             "alignment": "start",
@@ -161,7 +162,6 @@
         },
         "05aeae89-caad-4de8-9abe-b7781460ca04": {
           "type": "feature_with_icon",
-          "disabled": true,
           "settings": {
             "text": "Free Shipping Over $99",
             "link": "",
@@ -174,7 +174,6 @@
         },
         "0acebf67-008b-441f-8507-030d9f577c30": {
           "type": "feature_with_icon",
-          "disabled": true,
           "settings": {
             "text": "In-Store Pickup Available",
             "link": "",
@@ -187,7 +186,6 @@
         },
         "ad83e159-f427-42dc-8729-7dc2e621cc69": {
           "type": "feature_with_icon",
-          "disabled": true,
           "settings": {
             "text": "Order by 3PM EST for Same-Day Shipping",
             "link": "",
@@ -200,7 +198,6 @@
         },
         "18b40a92-f5ec-45aa-aa34-3d23836bcb1e": {
           "type": "feature_with_icon",
-          "disabled": true,
           "settings": {
             "text": "Easy Returns & Exchanges",
             "link": "",
