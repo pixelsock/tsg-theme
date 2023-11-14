@@ -193,7 +193,7 @@ img.blog-post-card__image {
 
   .block-swatch{
       background-color: white;
-      
+      padding: .25rem;
         /* flex: 0 0 calc(100% / 5 - 1rem); */
         
     
