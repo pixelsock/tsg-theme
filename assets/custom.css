@@ -277,9 +277,9 @@ img.blog-post-card__image {
 
 .orange-divider {
   width: 1px;
-  background-color: orange;
-  margin: 0 20px;
-  height: 400px;
+    background-color: orange;
+    margin: 0 20px;
+    align-self: stretch;
 }
 
 
