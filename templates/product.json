@@ -162,6 +162,7 @@
         },
         "05aeae89-caad-4de8-9abe-b7781460ca04": {
           "type": "feature_with_icon",
+          "disabled": true,
           "settings": {
             "text": "Free Shipping Over $99",
             "link": "",
@@ -174,6 +175,7 @@
         },
         "0acebf67-008b-441f-8507-030d9f577c30": {
           "type": "feature_with_icon",
+          "disabled": true,
           "settings": {
             "text": "In-Store Pickup Available",
             "link": "",
@@ -186,6 +188,7 @@
         },
         "ad83e159-f427-42dc-8729-7dc2e621cc69": {
           "type": "feature_with_icon",
+          "disabled": true,
           "settings": {
             "text": "Order by 3PM EST for Same-Day Shipping",
             "link": "",
@@ -198,6 +201,7 @@
         },
         "18b40a92-f5ec-45aa-aa34-3d23836bcb1e": {
           "type": "feature_with_icon",
+          "disabled": true,
           "settings": {
             "text": "Easy Returns & Exchanges",
             "link": "",
@@ -210,7 +214,6 @@
         },
         "c679f56d-abe2-40cf-b46d-860f17955676": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
             "liquid": "<div class=\"section-stack product\" style=\"display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); grid-gap: 10px; align-items: end;\">\n    <div style=\"background: white; display: flex; align-items: center; justify-content: center; padding: 0 10px;\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/8799\/files\/Asset_5_430x.svg?v=1699981513\" style=\"width: 100px; height: 100px;\"\/>\n    <\/div>\n    <div style=\"background: white; display: flex; align-items: center; justify-content: center; padding: 0 10px;\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/8799\/files\/Asset_7_430x.svg?v=1699981513\" style=\"width: 100px; height: 100px;\"\/>\n    <\/div>\n    <div style=\"background: white; display: flex; align-items: center; justify-content: center; padding: 0 10px;\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/8799\/files\/Asset_6_430x.svg?v=1699981513\" style=\"width: 100px; height: 100px;\"\/>\n    <\/div>\n    <div style=\"background: white; display: flex; align-items: center; justify-content: center; padding: 0 10px;\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/8799\/files\/Asset_8_430x.svg?v=1699981513\" style=\"width: 100px; height: 100px;\"\/>\n    <\/div>\n<\/div>"
           }
