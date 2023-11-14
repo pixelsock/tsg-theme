@@ -212,7 +212,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "liquid": "<div class=\"section-stack product\">\n<img src=\"https:\/\/placeholder.co\/100x100\"\/>\n<img src=\"https:\/\/placeholder.co\/100x100\"\/>\n<img src=\"https:\/\/placeholder.co\/100x100\"\/>\n<img src=\"https:\/\/placeholder.co\/100x100\"\/>\n<\/div>"
+            "liquid": "<div class=\"section-stack product\" style=\"display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); grid-gap: 10px;\">\n    <img src=\"https:\/\/placeholder.co\/100x100\" style=\"width: 100%; height: auto;\"\/>\n    <img src=\"https:\/\/placeholder.co\/100x100\" style=\"width: 100%; height: auto;\"\/>\n    <img src=\"https:\/\/placeholder.co\/100x100\" style=\"width: 100%; height: auto;\"\/>\n    <img src=\"https:\/\/placeholder.co\/100x100\" style=\"width: 100%; height: auto;\"\/>\n<\/div>"
           }
         }
       },
