@@ -207,6 +207,13 @@
             "text_color": "#6b6b6b",
             "border_color": ""
           }
+        },
+        "c679f56d-abe2-40cf-b46d-860f17955676": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"section-stack product\">\n<img src=\"https:\/\/placeholder.co\/100x100\"\/>\n<img src=\"https:\/\/placeholder.co\/100x100\"\/>\n<img src=\"https:\/\/placeholder.co\/100x100\"\/>\n<img src=\"https:\/\/placeholder.co\/100x100\"\/>\n<\/div>"
+          }
         }
       },
       "block_order": [
@@ -234,7 +241,8 @@
         "05aeae89-caad-4de8-9abe-b7781460ca04",
         "0acebf67-008b-441f-8507-030d9f577c30",
         "ad83e159-f427-42dc-8729-7dc2e621cc69",
-        "18b40a92-f5ec-45aa-aa34-3d23836bcb1e"
+        "18b40a92-f5ec-45aa-aa34-3d23836bcb1e",
+        "c679f56d-abe2-40cf-b46d-860f17955676"
       ],
       "custom_css": [
         ".block-swatch.is-disabled {background-color: #dbdbdb;}"
