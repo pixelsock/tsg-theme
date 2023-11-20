@@ -48,12 +48,19 @@
           "settings": {
             "content": "<p>Unfortunately, we do not have any open positions, but you can always send your resume and cover letter to work@thesportinggent.com for any future openings.  <\/p>"
           }
+        },
+        "6abf80cb-2c99-4f55-ab91-a3ae8085579d": {
+          "type": "page",
+          "settings": {
+            "page": "career-listing"
+          }
         }
       },
       "block_order": [
         "template--16748705841384__f66930ed-2623-42ff-9588-df904b94cf4c-subheading-1",
         "template--16748705841384__f66930ed-2623-42ff-9588-df904b94cf4c-heading-1",
-        "template--16748705841384__f66930ed-2623-42ff-9588-df904b94cf4c-richtext-1"
+        "template--16748705841384__f66930ed-2623-42ff-9588-df904b94cf4c-richtext-1",
+        "6abf80cb-2c99-4f55-ab91-a3ae8085579d"
       ],
       "settings": {
         "separate_section_with_border": true,
