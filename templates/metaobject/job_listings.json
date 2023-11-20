@@ -6,7 +6,7 @@
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"container container--sm\" style=\"font-size:.85rem\"><a class=\"link\" href=\"\/pages\/careers\">All Carreers<\/a> > {{page_title}}<\/div>",
+        "liquid": "<div class=\"container--sm\" style=\"font-size:.85rem\"><a class=\"link\" href=\"\/pages\/careers\">All Carreers<\/a> > {{page_title}}<\/div>",
         "text_alignment": "start"
       }
     },
