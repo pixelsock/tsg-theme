@@ -68,7 +68,7 @@
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "{% assign jobListings = shop.metaobjects.job_listings.values %}\n\n{{ jobListings | size }}\n\n{% if jobListings %}\n  {% for job in jobListings %}\n    <div style=\"padding-bottom: 2rem; border-bottom: solid 1px black;\">\n      <h6>Published on: {{ job.publish_date.value }}<\/h6>\n      <h3>{{ job.job_title.value }}<\/h3>\n      <p>{{ job.job_summary.value }}<\/p>\n      <br>\n      <button class=\"button button--outline\">View Job Posting<\/button>\n    <\/div>\n  {% endfor %}\n{% else %}\n  <p>Unfortunately, we do not have any open positions at the moment. However, you can always send your resume and cover letter to work@thesportinggent.com for any future openings.<\/p>\n{% endif %}",
+        "liquid": "{% assign jobListings = shop.metaobjects.job_listings.values %}\n\n{% if jobListings.count > 0 %}\n  {% for job in jobListings %}\n    <div style=\"padding-bottom: 2rem; border-bottom: solid 1px black;\">\n      <h6>Published on: {{ job.publish_date.value }}<\/h6>\n      <h3>{{ job.job_title.value }}<\/h3>\n      <p>{{ job.job_summary.value }}<\/p>\n      <br>\n      <button class=\"button button--outline\">View Job Posting<\/button>\n    <\/div>\n  {% endfor %}\n{% else %}\n  <p>Unfortunately, we do not have any open positions at the moment. However, you can always send your resume and cover letter to work@thesportinggent.com for any future openings.<\/p>\n{% endif %}",
         "text_alignment": "start"
       }
     },
