@@ -68,7 +68,7 @@
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "",
+        "liquid": "{{ metafields.custom.job_listings.publish_date}}",
         "text_alignment": "start"
       }
     },
