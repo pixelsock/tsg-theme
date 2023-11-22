@@ -563,7 +563,7 @@
         ".section-stack {gap: 0;}"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "subheading": "",
         "title": "Shop the Gear",
         "content": "<p>Quick access to the gear we use in the field and on the river.<\/p>",
