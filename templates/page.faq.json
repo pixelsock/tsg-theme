@@ -102,7 +102,7 @@
           "type": "question",
           "settings": {
             "question": "<strong>What is your shipping policy for Holiday orders?<\/strong>",
-            "answer": "<p>While we are committed to providing the best service possible and processing your order as quickly as possible, we cannot guarantee any shipment by the estimated delivery date through our third-party shipping vendors. We are also not responsible for any delays as a result of weather or any third-party shipping errors.<\/p>"
+            "answer": "<p>While we are committed to providing the best service possible and processing your order as quickly as possible, we cannot guarantee any shipment by the estimated delivery date through our third-party shipping vendors. We are also not responsible, but will help out as much as possible, for any delays as a result of weather or any third-party shipping errors.<\/p>"
           }
         }
       },
