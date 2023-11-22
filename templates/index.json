@@ -188,6 +188,24 @@
     "11300496-0b96-4e9c-939f-8b4fa6c86620": {
       "type": "collection-list",
       "blocks": {
+        "74a21c4e-de8f-47ef-a8f9-212606a0f88e": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "image": "shopify:\/\/shop_images\/thomasfieldshirtwheatalt1000x_0003s_0000_Boone-TSG-Builder-23-0396.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "BEST SELLERS",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/best-sellers",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426": {
           "type": "collection",
           "settings": {
@@ -244,6 +262,7 @@
         }
       },
       "block_order": [
+        "74a21c4e-de8f-47ef-a8f9-212606a0f88e",
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426",
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1"
