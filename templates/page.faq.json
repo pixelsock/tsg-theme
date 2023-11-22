@@ -39,13 +39,6 @@
             "answer": "<p>Absolutely.  We’d love to help you out.  <a href=\"https:\/\/www.thesportinggent.com\/pages\/holler-at-us\">Holler at us!<\/a><\/p>"
           }
         },
-        "d09490cf-35e4-4d85-bd2a-631443876067": {
-          "type": "question",
-          "settings": {
-            "question": "<strong>Can I use my Gentry Points for an online order?<\/strong>",
-            "answer": "<p>Absolutely. Gentry points can be redeemed at our Brick-and-Mortar shop <em>or<\/em>  online.  Just keep an eye out for the \"Use My Gentry Points\" at Checkout or in your Cart.  Pro Tip: Make sure you use the same email address associated with your Gentry account so your points are automatically counted for each purchase. Unfortunately, we cannot add points retroactively.  As always, if you have a question, don’t hesitate to <a href=\"https:\/\/www.thesportinggent.com\/pages\/holler-at-us\">holler at us!<\/a><\/p>"
-          }
-        },
         "1196a0c2-c744-4b51-8477-9a88fc8911a6": {
           "type": "category",
           "settings": {
@@ -109,7 +102,7 @@
           "type": "question",
           "settings": {
             "question": "<strong>What is your shipping policy for Holiday orders?<\/strong>",
-            "answer": "<p>While we are committed to providing the best service possible and processing your order as quickly as possible, we cannot guarantee any shipment by the estimated delivery date through our third-party shipping vendors. We are also not responsible for any delays as a result of COVID-19, weather or any third-party shipping errors.<\/p>"
+            "answer": "<p>While we are committed to providing the best service possible and processing your order as quickly as possible, we cannot guarantee any shipment by the estimated delivery date through our third-party shipping vendors. We are also not responsible for any delays as a result of weather or any third-party shipping errors.<\/p>"
           }
         }
       },
@@ -119,7 +112,6 @@
         "question-2",
         "question-3",
         "d5c8eb0b-8743-4d7c-a602-200e39cc25c4",
-        "d09490cf-35e4-4d85-bd2a-631443876067",
         "1196a0c2-c744-4b51-8477-9a88fc8911a6",
         "7f3538bd-8745-48a1-b6f0-110cd6c31a5e",
         "e7788296-8c47-43bc-aa0c-7eb7bb3a82af",
