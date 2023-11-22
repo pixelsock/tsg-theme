@@ -212,6 +212,11 @@
             "border_color": ""
           }
         },
+        "91c578f3-33c8-4bbf-afdb-6aa8668231da": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "c679f56d-abe2-40cf-b46d-860f17955676": {
           "type": "liquid",
           "settings": {
@@ -245,6 +250,7 @@
         "0acebf67-008b-441f-8507-030d9f577c30",
         "ad83e159-f427-42dc-8729-7dc2e621cc69",
         "18b40a92-f5ec-45aa-aa34-3d23836bcb1e",
+        "91c578f3-33c8-4bbf-afdb-6aa8668231da",
         "c679f56d-abe2-40cf-b46d-860f17955676"
       ],
       "custom_css": [
