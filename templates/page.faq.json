@@ -6,7 +6,7 @@
         "category": {
           "type": "category",
           "settings": {
-            "title": "Order",
+            "title": "Orders",
             "icon": "none",
             "icon_width": 16
           }
