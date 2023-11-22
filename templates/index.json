@@ -449,24 +449,24 @@
     "multiple-media-with-text": {
       "type": "multiple-media-with-text",
       "blocks": {
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tsghighlandvestf23alt1000x_0006s_0001_Boone-TSG-Builder-23-0089.jpg",
+            "rotation": 0
+          }
+        },
         "image-1": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/highland-vest-sienna-alt-1000x_0005s_0002_TSG_FALL_136.png",
             "rotation": 0
           }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/highland-vest-sienna-alt-1000x_0005s_0000_TSG_FALL_138.png",
-            "rotation": 0
-          }
         }
       },
       "block_order": [
-        "image-1",
-        "image-2"
+        "image-2",
+        "image-1"
       ],
       "settings": {
         "reveal_on_scroll": false,
