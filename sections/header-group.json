@@ -5,6 +5,12 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "2dea96b7-7821-4b84-af06-acf79d0a5776": {
+          "type": "message",
+          "settings": {
+            "text": "TIME FOR 25% OFF SITEWIDE | CODE: EARLYBIRD"
+          }
+        },
         "958e3cb8-313c-4d8c-85dd-660942b09bff": {
           "type": "message",
           "settings": {
@@ -31,6 +37,7 @@
         }
       },
       "block_order": [
+        "2dea96b7-7821-4b84-af06-acf79d0a5776",
         "958e3cb8-313c-4d8c-85dd-660942b09bff",
         "c95c0108-e433-4e61-ade2-e93a314c79b2",
         "1090e969-2407-46e8-a855-23e75fedd389",
