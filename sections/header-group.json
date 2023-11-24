@@ -8,11 +8,12 @@
         "2dea96b7-7821-4b84-af06-acf79d0a5776": {
           "type": "message",
           "settings": {
-            "text": "TIME FOR 25% OFF SITEWIDE | CODE: EARLYBIRD"
+            "text": "TIME FOR 25% OFF SITEWIDE | CODE: BLACKFRIDAY"
           }
         },
         "958e3cb8-313c-4d8c-85dd-660942b09bff": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Get 15% off your first order by <a href=\"#\" title=\"klayvio_trigger\">signing up for our emails<\/a>!"
           }
