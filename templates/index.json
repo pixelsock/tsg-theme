@@ -180,7 +180,7 @@
         "media_size": "lg",
         "autoplay": true,
         "autoplay_pause_on_video": false,
-        "cycle_speed": 8,
+        "cycle_speed": 14,
         "background": "#000000",
         "controls_color": "#ffffff"
       }
