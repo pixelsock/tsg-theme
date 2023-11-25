@@ -188,6 +188,13 @@ img.blog-post-card__image {
   gap: .5rem;
 }
 
+.variant-picker__option-values .v-stack
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 8rem), 1fr));
+  gap: .5rem;
+}
+
  
  .quantity-selector {
   background: #ffffff;
