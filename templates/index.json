@@ -5,7 +5,6 @@
       "blocks": {
         "f00cde45-a676-4d5c-8381-79ba6b0646d3": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/112523-BFCM-Cyber-Sunday-DT-hero_fd573967-c923-4570-8e89-ad77bc6e298f.jpg",
             "mobile_image": "shopify:\/\/shop_images\/112523-BFCM-Cyber-Sunday-mobile-hero.jpg",
@@ -33,6 +32,7 @@
         },
         "a50d94f6-c366-440a-a4b3-b95854044c3f": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/112323-23-BF-DT-hero-3_4d0b5b4e-242b-4fc0-ad8c-52d1ef995f8b.jpg",
             "mobile_image": "shopify:\/\/shop_images\/112323-23-BF-mobile-hero.jpg",
