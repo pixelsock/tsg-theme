@@ -5,6 +5,7 @@
       "blocks": {
         "f00cde45-a676-4d5c-8381-79ba6b0646d3": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/112523-BFCM-Cyber-Sunday-DT-hero_3b3caf01-0134-4d8c-a1f7-ebbee6dbccb2.jpg",
             "mobile_image": "shopify:\/\/shop_images\/112523-BFCM-Cyber-Sunday-mobile-hero.jpg",
