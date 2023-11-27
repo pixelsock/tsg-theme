@@ -200,13 +200,14 @@ img.blog-post-card__image {
   background: #ffffff;
  }
 
-  .block-swatch{
-      background-color: white;
-      padding: .25rem;
-      width: 170px;
-        
-    
-  }
+.block-swatch {
+    background-color: white;
+    padding: .25rem;
+    width: calc(25% - 10px); /* Example for four items per row, adjust the percentage and subtract value as needed */
+    margin: 5px; /* Optional, for spacing between elements */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
 
   :checked + .block-swatch.is-disabled {
     background-color: #dbdbdb;
