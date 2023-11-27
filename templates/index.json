@@ -30,18 +30,18 @@
             "gradient_overlay": ""
           }
         },
-        "f00cde45-a676-4d5c-8381-79ba6b0646d3": {
+        "66b0cfb3-b2cf-47a6-9634-f55dd4bbb712": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/112723-Retro-PE-DT-hero_e739b508-4b40-4c1c-a36c-ecdff6710d9a.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/112723-Retro-PE-mobile-hero-v2.jpg",
+            "image": "shopify:\/\/shop_images\/110923-DT-web-hero-with-copy-v2_b72de31c-26a8-48ee-8273-233b04fa9543.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/110923-mobile-web-hero-with-copy-v1.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "",
+            "button_1_link": "shopify:\/\/collections\/2023-holiday-gift-guide",
             "button_1_style": "link",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -57,18 +57,18 @@
             "gradient_overlay": ""
           }
         },
-        "66b0cfb3-b2cf-47a6-9634-f55dd4bbb712": {
+        "f00cde45-a676-4d5c-8381-79ba6b0646d3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/110923-DT-web-hero-with-copy-v2_b72de31c-26a8-48ee-8273-233b04fa9543.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/110923-mobile-web-hero-with-copy-v1.jpg",
+            "image": "shopify:\/\/shop_images\/112723-Retro-PE-DT-hero_e739b508-4b40-4c1c-a36c-ecdff6710d9a.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/112723-Retro-PE-mobile-hero-v2.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify:\/\/collections\/2023-holiday-gift-guide",
+            "button_1_link": "shopify:\/\/collections\/tsg-apparel",
             "button_1_style": "link",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -168,8 +168,8 @@
       },
       "block_order": [
         "a50d94f6-c366-440a-a4b3-b95854044c3f",
-        "f00cde45-a676-4d5c-8381-79ba6b0646d3",
         "66b0cfb3-b2cf-47a6-9634-f55dd4bbb712",
+        "f00cde45-a676-4d5c-8381-79ba6b0646d3",
         "b40f07c7-6a39-4453-a0c4-8ad8ece83c21",
         "60da5d15-05af-4fba-9206-415a209ff28e",
         "b9881576-d349-4728-a854-c189239c9f4c"
