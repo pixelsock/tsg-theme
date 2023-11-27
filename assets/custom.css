@@ -202,11 +202,12 @@ img.blog-post-card__image {
 
 .block-swatch {
     background-color: white;
-    padding: .25rem;
-    width: calc(25% - 10px); /* Example for four items per row, adjust the percentage and subtract value as needed */
-    margin: 5px; /* Optional, for spacing between elements */
-    box-sizing: border-box; /* Include padding in the width calculation */
+    padding: .25rem; /* Adjust padding as needed */
+    flex: 1 1 calc(25% - 0.625rem); /* Adjust flex-basis as needed */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    /* Add any additional styles like borders or margins if necessary */
 }
+
 
 
   :checked + .block-swatch.is-disabled {
