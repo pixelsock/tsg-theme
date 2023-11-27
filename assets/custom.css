@@ -202,11 +202,12 @@ img.blog-post-card__image {
 
 .block-swatch {
     background-color: white;
-    padding: .25rem; /* Adjust padding as needed */
-    flex: 1 1 0px; /* All items start from 0 width and grow equally */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    /* Add any additional styles like borders or margins if necessary */
+    padding: .25rem;
+    flex: 1 1 calc(33.333% - 0.625rem); /* Each element takes up to one-third of the container's width */
+    box-sizing: border-box;
+    max-width: calc(33.333% - 0.625rem); /* Ensuring the maximum width */
 }
+
 
 
 
