@@ -35,7 +35,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/120623-Xmas-Eve-Holida-Hours-DT-hero.jpg",
             "mobile_image": "shopify:\/\/shop_images\/120623-Xmas-Eve-Holida-Hours-mobile-hero.jpg",
-            "subheading": "Special SHOP Hours",
+            "subheading": "<em><strong>Special SHOP Hours<\/strong><\/em>",
             "title": "Open Sunday Dec. 24",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
