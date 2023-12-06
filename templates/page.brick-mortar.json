@@ -66,7 +66,7 @@
       ],
       "settings": {
         "separate_section_with_border": true,
-        "content_width": "sm",
+        "content_width": "lg",
         "text_position": "start",
         "remove_vertical_spacing": false
       }
@@ -149,7 +149,7 @@
       ],
       "settings": {
         "separate_section_with_border": false,
-        "content_width": "sm",
+        "content_width": "md",
         "text_position": "center",
         "remove_vertical_spacing": false
       }
