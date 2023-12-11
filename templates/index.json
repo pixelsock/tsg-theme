@@ -86,6 +86,7 @@
         },
         "f00cde45-a676-4d5c-8381-79ba6b0646d3": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/112723-Retro-PE-DT-hero-2.jpg",
             "mobile_image": "shopify:\/\/shop_images\/112723-Retro-PE-mobile-hero_9ea59f0d-460b-4197-b01d-776cfb86daf4.jpg",
@@ -113,6 +114,7 @@
         },
         "b40f07c7-6a39-4453-a0c4-8ad8ece83c21": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/101823-new-arrivals-web-hero-dt-v2.jpg",
             "mobile_image": "shopify:\/\/shop_images\/101823-new-arrivals-web-hero-mobile-2_833b0b41-b4a9-4295-be54-a7bd867a1764.jpg",
@@ -140,6 +142,7 @@
         },
         "b9881576-d349-4728-a854-c189239c9f4c": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/101223-oxbow-camo-F23-hero-dt.jpg",
             "mobile_image": "shopify:\/\/shop_images\/tsghavenfieldoxbowalt1000x_0003_tsg-bluffducks-builder-305_feeb997c-35d3-4d29-894f-1045e2c76815.jpg",
