@@ -60,14 +60,14 @@
       "type": "countdown-condensed",
       "disabled": true,
       "settings": {
-        "content": "Summer Markdowns End in:",
+        "content": "XMAS SHIPPING CUTOFF: 12\/20 @ 11:59 PM EST",
         "link_text": "",
         "link_url": "",
-        "expiration_date": "2023-08-06 23:59",
+        "expiration_date": "2023-12-20 11:59",
         "expiration_behavior": "leave",
         "desktop_justification": "center",
-        "background": "#ed8a00",
-        "text_color": "#ffffff"
+        "background": "#f5f5f5",
+        "text_color": "#ed8a00"
       }
     },
     "header": {
