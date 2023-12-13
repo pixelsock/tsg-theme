@@ -11,6 +11,12 @@
             "text": "Get 15% off your first order by <a href=\"#\" title=\"klayvio_trigger\">signing up for our emails<\/a>!"
           }
         },
+        "498290cb-d2b2-4eaf-93d7-388844bde108": {
+          "type": "message",
+          "settings": {
+            "text": "XMAS SHIPPING CUTOFF: 12\/20 @ 11:59 PM EST"
+          }
+        },
         "c95c0108-e433-4e61-ade2-e93a314c79b2": {
           "type": "message",
           "settings": {
@@ -28,20 +34,14 @@
           "settings": {
             "text": "<a href=\"\/pages\/brick-mortar-charlotte\" title=\"Charlotte Brick & Mortar\">Brick & Mortar<\/a>     |    2848 Selwyn Ave. Charlotte, NC   |   (704) 896-5600   |   <a href=\"\/pages\/holler-at-us\" title=\"Holler At Us\">Holler at Us<\/a>"
           }
-        },
-        "498290cb-d2b2-4eaf-93d7-388844bde108": {
-          "type": "message",
-          "settings": {
-            "text": "XMAS SHIPPING CUTOFF: 12\/20 @ 11:59 PM EST"
-          }
         }
       },
       "block_order": [
         "958e3cb8-313c-4d8c-85dd-660942b09bff",
+        "498290cb-d2b2-4eaf-93d7-388844bde108",
         "c95c0108-e433-4e61-ade2-e93a314c79b2",
         "1090e969-2407-46e8-a855-23e75fedd389",
-        "24f48508-6c61-4f52-a226-9a3eb069b0a1",
-        "498290cb-d2b2-4eaf-93d7-388844bde108"
+        "24f48508-6c61-4f52-a226-9a3eb069b0a1"
       ],
       "custom_css": [
 
