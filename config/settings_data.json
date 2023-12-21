@@ -92,9 +92,9 @@
         "settings": {
           "button_color": "#202a36",
           "button_icon": "chat_bubble",
+          "button_text": "no_text",
           "button_horizontal_position": "bottom_left",
           "button_vertical_position": "lowest",
-          "button_text": "no_text",
           "greeting_message": "👋  Good day! Please holler at us if you have questions.  We’re here and happy to help! "
         }
       }
