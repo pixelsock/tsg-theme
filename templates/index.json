@@ -115,7 +115,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/122723-IG-Follow-Us-Hero-DT_17778a7b-8477-4a17-96d0-4415f46f930b.jpg",
-            "subheading": "",
+            "subheading": "TSG ON IG = GOOD TIMES",
             "title": "We're Having a Field day.",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
@@ -134,7 +134,7 @@
             "background_opacity": 50,
             "text_color": "#ffffff",
             "border_color": "",
-            "gradient_overlay": "linear-gradient(265deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+            "gradient_overlay": "linear-gradient(265deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.2) 100%)"
           }
         }
       },
