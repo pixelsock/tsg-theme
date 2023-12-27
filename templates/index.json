@@ -87,6 +87,7 @@
         },
         "d21ac96c-6258-443c-9d36-1e876c50f473": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/120623-Xmas-Eve-Holida-Hours-DT-hero.jpg",
             "mobile_image": "shopify:\/\/shop_images\/120623-Xmas-Eve-Holida-Hours-mobile-hero.jpg",
