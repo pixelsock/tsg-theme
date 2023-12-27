@@ -110,13 +110,40 @@
             "border_color": "",
             "gradient_overlay": ""
           }
+        },
+        "0641277a-208f-4edf-8118-45b68fa6aa69": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/122723-IG-Follow-Us-Hero-DT_17778a7b-8477-4a17-96d0-4415f46f930b.jpg",
+            "subheading": "",
+            "title": "We're Having a Field day.",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "Follow Along",
+            "button_1_link": "https:\/\/www.instagram.com\/thesportinggent",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(265deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
         }
       },
       "block_order": [
         "bdf8c4df-7b45-4ed5-9ec4-c417caa362b7",
         "b9881576-d349-4728-a854-c189239c9f4c",
         "39865a19-cef5-472a-9406-08b74ec659af",
-        "b40f07c7-6a39-4453-a0c4-8ad8ece83c21"
+        "b40f07c7-6a39-4453-a0c4-8ad8ece83c21",
+        "0641277a-208f-4edf-8118-45b68fa6aa69"
       ],
       "settings": {
         "allow_transparent_header": false,
