@@ -5,6 +5,7 @@
       "blocks": {
         "bdf8c4df-7b45-4ed5-9ec4-c417caa362b7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/111923-boxing-day-2023-DT-hero_e34c757e-34c8-41c9-a7fb-1d6d0a576631.jpg",
             "mobile_image": "shopify:\/\/shop_images\/122223-Boxing-Day-Sale-hero-mobile-v2.jpg",
