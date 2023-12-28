@@ -131,11 +131,14 @@
     },
     "ebc5991b-8329-4499-9aff-2ede32c195fa": {
       "type": "custom-liquid",
+      "custom_css": [
+
+      ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<p>Apparel Makers. Gear Curators. Good Time Purveyors.<\/p>",
+        "liquid": "Apparel Makers. Gear Curators. Good Time Purveyors.",
         "text_alignment": "center"
       }
     },
