@@ -129,6 +129,16 @@
         "controls_color": "#ffffff"
       }
     },
+    "ebc5991b-8329-4499-9aff-2ede32c195fa": {
+      "type": "custom-liquid",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p>Apparel Makers. Gear Curators. Good Time Purveyors.<\/p>",
+        "text_alignment": "center"
+      }
+    },
     "11300496-0b96-4e9c-939f-8b4fa6c86620": {
       "type": "collection-list",
       "blocks": {
@@ -552,6 +562,7 @@
   },
   "order": [
     "slideshow",
+    "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "16c35784-55f0-4e62-a535-e33bcc8677a3",
     "featured-collections",
