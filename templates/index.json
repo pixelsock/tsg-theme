@@ -225,7 +225,7 @@
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image_size": "md",
         "show_text_outside": false,
         "space_items": true,
