@@ -13,6 +13,7 @@
         },
         "c95c0108-e433-4e61-ade2-e93a314c79b2": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Apparel Makers. Gear Curators. Good Time Purveyors."
           }
