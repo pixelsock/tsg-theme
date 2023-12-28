@@ -132,13 +132,13 @@
     "ebc5991b-8329-4499-9aff-2ede32c195fa": {
       "type": "custom-liquid",
       "custom_css": [
-
+        "* {margin: 0; padding-top: 3px; padding-bottom: 1px; border: 0; outline: 0; vertical-align: baseline; background: transparent;}"
       ],
       "settings": {
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "Apparel Makers. Gear Curators. Good Time Purveyors.",
+        "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<title>\n<\/title>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\nbody {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}\nh1{font-family:\"Work Sans\", sans-serif;letter-spacing:0px;color:#000000;background-color:#ffffff;font-weight:900;}\n<\/style>\n<\/head>\n<body>\n<h1>APPAREL MAKERS. GEAR CURATORS. GOOD TIME PURVEYORS.<\/h1>\n<p><\/p>\n<\/body>\n<\/html>",
         "text_alignment": "center"
       }
     },
@@ -224,8 +224,11 @@
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "image_size": "md",
         "show_text_outside": false,
         "space_items": true,
