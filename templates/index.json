@@ -132,13 +132,15 @@
     "ebc5991b-8329-4499-9aff-2ede32c195fa": {
       "type": "custom-liquid",
       "custom_css": [
-        "* {margin: 0; padding-top: 10px; padding-bottom: 1px;}"
+        "* {margin: 0; padding-top: 10px; padding-bottom: 1px;}",
+        ".divider-text {font-size: 22px;}",
+        "@media only screen and (max-width: 699px) {.divider-text {font-size: 12px; }}"
       ],
       "settings": {
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<title>\n<\/title>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\nbody {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}\nh1{font-family:\"Work Sans\", sans-serif;letter-spacing:0px;color:#282E29;background-color:#ffffff;font-weight:900;}\n<\/style>\n<\/head>\n<body>\n<h1>APPAREL MAKERS. GEAR CURATORS. GOOD TIME PURVEYORS.<\/h1>\n<p><\/p>\n<\/body>\n<\/html>",
+        "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<title>\n<\/title>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\nbody {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}\nh1{font-family:\"Work Sans\", sans-serif;letter-spacing:0px;color:#282E29;background-color:#ffffff;font-weight:900;}\n<\/style>\n<\/head>\n<body>\n<h1 class=\"divider-text\">APPAREL MAKERS. GEAR CURATORS. GOOD TIME PURVEYORS.<\/h1>\n<p><\/p>\n<\/body>\n<\/html>",
         "text_alignment": "center"
       }
     },
