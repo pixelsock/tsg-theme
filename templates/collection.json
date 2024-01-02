@@ -48,9 +48,9 @@
         "open_filters_by_default": false,
         "promotion_placement_order": "random",
         "custom_promotion_placement_order": 2,
-        "promotion_image_url": "shopify:\/\/shop_images\/122223-Boxing-Day-Sale-hero-mobile-v2_79693e19-2ec2-4f64-baa5-aa7d8902ff52.jpg",
-        "enable_promotion_link": false,
-        "promotion_link_url": "shopify:\/\/collections\/2023-holiday-gift-guide"
+        "promotion_image_url": "shopify:\/\/shop_images\/010224-russell-oxbow-boot-hero-collection-page.jpg",
+        "enable_promotion_link": true,
+        "promotion_link_url": "shopify:\/\/pages\/russell-x-tsg-oxbow-boot"
       }
     },
     "e84d2482-13b2-4890-b149-10ae72f172e3": {
