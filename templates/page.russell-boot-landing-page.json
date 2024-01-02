@@ -26,7 +26,7 @@
       "settings": {
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/Hunf-ot-a-Lifetime-landing-page-DT-al1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Hunf-ot-a-Lifetime-landingpage-mobile.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/010224-russell-oxbow-boot-hero-mobile_5d58e902-7d89-4536-a090-161b5c8c6451.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -90,7 +90,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-DT_83e13441-325c-4582-93f1-2a3fab5a77d2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-mobile_30573633-0cff-4437-a996-dce1df8b8ccc.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/010224-russell-oxbow-boot-hero-mobile.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
