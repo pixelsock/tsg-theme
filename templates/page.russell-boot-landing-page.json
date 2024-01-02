@@ -73,7 +73,7 @@
         "remove_vertical_spacing": false
       }
     },
-    "6953e9c0-2b5c-4c4a-81a7-9ae32675310c": {
+    "1c47351d-9bba-41d0-952a-72f6961e68f7": {
       "type": "custom-liquid",
       "settings": {
         "separate_section_with_border": true,
@@ -145,8 +145,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/TSGBoot_6_326922d0-ad9b-49bc-98b1-f0593a0b9604.jpg",
             "mobile_image": "shopify:\/\/shop_images\/TSGBoot_6_19ebec2c-f608-4927-8f58-4bcb213218b3.jpg",
-            "subheading": "",
-            "title": "",
+            "subheading": "LIMITED-TIME OFFERING",
+            "title": "COMING SOON",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -215,7 +215,7 @@
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
-    "6953e9c0-2b5c-4c4a-81a7-9ae32675310c",
+    "1c47351d-9bba-41d0-952a-72f6961e68f7",
     "047ea314-02cf-4695-877e-47db2ca47942",
     "9517b309-2a41-4d87-8e33-0ef4f447fc66"
   ]
