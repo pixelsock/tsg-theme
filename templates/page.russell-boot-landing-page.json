@@ -77,9 +77,9 @@
       "type": "custom-liquid",
       "settings": {
         "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"klaviyo-form-TXBjHA\"><\/div>",
+        "liquid": "A TECHNICAL DIFFICULTY HAS PRESENTED ITSELF\n\n<div class=\"klaviyo-form-TXBjHA\"><\/div>",
         "text_alignment": "center"
       }
     },
