@@ -79,7 +79,7 @@
         "separate_section_with_border": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "A TECHNICAL DIFFICULTY HAS PRESENTED ITSELF. WE'RE FIXING IT.  \n<div class=\"klaviyo-form-TXBjHA\"><\/div>",
+        "liquid": "<div class=\"klaviyo-form-TXBjHA\"><\/div>",
         "text_alignment": "center"
       }
     },
