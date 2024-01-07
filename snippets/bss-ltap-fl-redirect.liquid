@@ -7,7 +7,7 @@ function runInLoginPage() {
     if (BSS && BSS.redirect_url && createCustomer) {
       const returnToInput = document.createElement('input');
       returnToInput.type = 'hidden';
-      returnToInput.name = 'return_to';
+      returnToInput.name = 'return_to';    
       returnToInput.value = BSS.redirect_url;
       createCustomer.appendChild(returnToInput);
     }
@@ -96,9 +96,10 @@ function runInRegisterPage() {
   }
 }
 
-if (window.location.pathname === "/account/login") {
+if (window.location.pathname.includes("/account/login")) {
   runInLoginPage();
 }
+
 
 if (window.location.pathname === "/account/register") {
   runInRegisterPage();

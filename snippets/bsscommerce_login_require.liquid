@@ -1,5 +1,5 @@
 {%- capture contentForQuerystring -%}{{ content_for_header }}{%- endcapture -%}
-{%- assign page_url = contentForQuerystring | split:'"pageurl":"' | last | split:'"' | first | split:'.myshopify.com' | last |   replace:'\\/','/' |    replace:'%20',' ' |    replace:'\u0026','&'  -%}
+{%- assign page_url = contentForQuerystring | split:'"pageurl":"' | last | split:'"' | first | split:'.myshopify.com' | last |   replace:'\\/','/' |    replace:'%20',' ' |    replace:'\u0026','&' | replace:'\/', '/'  -%}
 {% assign page_url =  "https://" | append: page_url  %}
 {% assign pageUrlWithParams = page_url | remove: shop.url %}
 {% assign isApplyForceLogin = false %}
