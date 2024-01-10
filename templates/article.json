@@ -10,7 +10,7 @@
         "show_date": true,
         "show_category": true,
         "show_author": false,
-        "show_share_buttons": true,
+        "show_share_buttons": false,
         "show_sticky_bar": true,
         "background": "#1c1c1c",
         "text_color": "#ffffff"
