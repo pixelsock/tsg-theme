@@ -13,7 +13,7 @@
         "featured_blog_post_text_color": "#ffffff",
         "featured_blog_post_button_background": "#ffffff",
         "featured_blog_post_button_text_color": "#1c1c1c",
-        "show_category": true,
+        "show_category": false,
         "show_excerpt": true,
         "show_read_more": true
       }
