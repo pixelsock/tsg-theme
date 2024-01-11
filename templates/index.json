@@ -11,7 +11,7 @@
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end sm:text-end",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "Pre-Order Now",
             "button_1_link": "shopify:\/\/products\/russell-x-tsg-backcountry-oxbow-boots",
@@ -583,7 +583,7 @@
       "settings": {
         "separate_section_with_border": true,
         "subheading": "",
-        "title": "Shop the Gear",
+        "title": "What we're wearing in the field.",
         "content": "<p>Quick access to the gear we use in the field and on the river.<\/p>",
         "popover_title": "SHOP THE GEAR"
       }
