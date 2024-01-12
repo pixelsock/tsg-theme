@@ -113,6 +113,7 @@
         },
         "0641277a-208f-4edf-8118-45b68fa6aa69": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/122723-IG-Follow-Us-Hero-DT_e914d06d-c6ee-4203-b7cd-caf307aa53dc.jpg",
             "mobile_image": "shopify:\/\/shop_images\/122723-IG-Follow-Us-Hero-mobile_f1536098-936d-4e91-a8db-48ee651be855.jpg",
