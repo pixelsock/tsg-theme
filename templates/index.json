@@ -57,6 +57,33 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.05) 100%)"
           }
         },
+        "image_3MaCEj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/012424-wing-man-hero-DT.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/012424-wing-man-guide-hero-mobile_4a7a8e37-d8f2-4531-915e-0f1530680ca4.jpg",
+            "subheading": "How to Be a Good Wing Man.",
+            "title": "A KISS GEAR Guide",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "content_max_width": 780,
+            "button_1_text": "Shop Now",
+            "button_1_link": "",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#282e29",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#282e29",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "39865a19-cef5-472a-9406-08b74ec659af": {
           "type": "image",
           "settings": {
@@ -137,42 +164,15 @@
             "border_color": "",
             "gradient_overlay": ""
           }
-        },
-        "image_3MaCEj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/012424-wing-man-hero-DT.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/012424-wing-man-guide-hero-mobile_4a7a8e37-d8f2-4531-915e-0f1530680ca4.jpg",
-            "subheading": "How to Be a Good Wing Man.",
-            "title": "A KISS GEAR Guide",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "content_max_width": 780,
-            "button_1_text": "Shop Now",
-            "button_1_link": "",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#282e29",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#282e29",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
         }
       },
       "block_order": [
         "1b8076b3-fc8f-4855-8836-55f9d63cfcea",
         "image_QaLzqV",
+        "image_3MaCEj",
         "39865a19-cef5-472a-9406-08b74ec659af",
         "b9881576-d349-4728-a854-c189239c9f4c",
-        "ff5327ca-85a7-4437-acc3-d8909a2efd33",
-        "image_3MaCEj"
+        "ff5327ca-85a7-4437-acc3-d8909a2efd33"
       ],
       "settings": {
         "allow_transparent_header": false,
