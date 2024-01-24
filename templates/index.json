@@ -68,7 +68,7 @@
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "content_max_width": 780,
             "button_1_text": "Shop Now",
-            "button_1_link": "",
+            "button_1_link": "shopify:\/\/collections\/the-wing-man-necessities",
             "button_1_style": "link",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#282e29",
