@@ -49,7 +49,7 @@
         "promotion_placement_order": "random",
         "custom_promotion_placement_order": 2,
         "promotion_image_url": "shopify:\/\/shop_images\/010224-russell-oxbow-boot-hero-collection-page.jpg",
-        "enable_promotion_link": true,
+        "enable_promotion_link": false,
         "promotion_link_url": "shopify:\/\/products\/russell-x-tsg-backcountry-oxbow-boots"
       }
     },
