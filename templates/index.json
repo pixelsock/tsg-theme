@@ -5,6 +5,7 @@
       "blocks": {
         "1b8076b3-fc8f-4855-8836-55f9d63cfcea": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/010424-russell-oxbow-hero-DT-3200x_7cdea83f-5b25-48e6-87d8-88532629cce0.jpg",
             "mobile_image": "shopify:\/\/shop_images\/010424-russell-oxbow-boot-hero-mobile_d9a920de-8360-436e-b01e-3809e8cafda5.jpg",
