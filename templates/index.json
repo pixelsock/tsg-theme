@@ -3,25 +3,24 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "1b8076b3-fc8f-4855-8836-55f9d63cfcea": {
+        "image_WKUMR6": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/010424-russell-oxbow-hero-DT-3200x_7cdea83f-5b25-48e6-87d8-88532629cce0.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/010424-russell-oxbow-boot-hero-mobile_d9a920de-8360-436e-b01e-3809e8cafda5.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "image": "shopify:\/\/shop_images\/boone_fw20-01.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/080723-F23-boone-pant-mobile-hero.jpg",
+            "subheading": "Your legs never looked better",
+            "title": "Shop the Boone 5P Pant",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "Pre-Order Now",
-            "button_1_link": "shopify:\/\/products\/russell-x-tsg-backcountry-oxbow-boots",
+            "button_1_text": "GETCHA SOME",
+            "button_1_link": "",
             "button_1_style": "solid",
-            "button_1_background": "#000000",
-            "button_1_text_color": "#ffffff",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
             "button_2_text": "",
             "button_2_link": "",
-            "button_2_style": "link",
+            "button_2_style": "outline",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
             "background": "",
@@ -168,7 +167,7 @@
         }
       },
       "block_order": [
-        "1b8076b3-fc8f-4855-8836-55f9d63cfcea",
+        "image_WKUMR6",
         "image_QaLzqV",
         "image_3MaCEj",
         "39865a19-cef5-472a-9406-08b74ec659af",
