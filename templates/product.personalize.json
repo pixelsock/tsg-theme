@@ -21,7 +21,7 @@
           }
         },
         "5ce33f42-3250-40e6-8ce1-d7a8683dbae5": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -138,6 +138,7 @@
         },
         "ad83e159-f427-42dc-8729-7dc2e621cc69": {
           "type": "feature_with_icon",
+          "disabled": true,
           "settings": {
             "text": "Order by 3PM EST for Same-Day Shipping",
             "link": "",
@@ -150,6 +151,7 @@
         },
         "18b40a92-f5ec-45aa-aa34-3d23836bcb1e": {
           "type": "feature_with_icon",
+          "disabled": true,
           "settings": {
             "text": "Easy Returns & Exchanges",
             "link": "",
@@ -162,6 +164,7 @@
         },
         "0acebf67-008b-441f-8507-030d9f577c30": {
           "type": "feature_with_icon",
+          "disabled": true,
           "settings": {
             "text": "In-Store Pickup Available",
             "link": "",
@@ -174,6 +177,7 @@
         },
         "05aeae89-caad-4de8-9abe-b7781460ca04": {
           "type": "feature_with_icon",
+          "disabled": true,
           "settings": {
             "text": "Free Shipping Over $99",
             "link": "",
@@ -245,7 +249,6 @@
     },
     "59bb20b9-4717-4c33-91ad-5abc2ab2822b": {
       "type": "text-with-icons",
-      "disabled": true,
       "blocks": {
         "template--16741951176936__59bb20b9-4717-4c33-91ad-5abc2ab2822b-1687636273ffde5e3c-0": {
           "type": "item",
@@ -329,7 +332,7 @@
       "type": "apps",
       "blocks": {
         "e2474bfa-6411-4ee3-9dbb-a8bafae10c60": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
