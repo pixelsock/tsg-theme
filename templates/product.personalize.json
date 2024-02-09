@@ -308,6 +308,7 @@
         "template--16741951176936__59bb20b9-4717-4c33-91ad-5abc2ab2822b-1687636273ffde5e3c-2",
         "a05b5303-5418-477c-84d8-665cf49edf41"
       ],
+      "disabled": true,
       "custom_css": [
         "{background-color: #202530; padding: 0.25rem;}"
       ],
