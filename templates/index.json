@@ -138,21 +138,20 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         },
-        "b9881576-d349-4728-a854-c189239c9f4c": {
+        "image_NCVprd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/101223-oxbow-camo-F23-hero-dt.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/tsghavenfieldoxbowalt1000x_0003_tsg-bluffducks-builder-305_feeb997c-35d3-4d29-894f-1045e2c76815.jpg",
-            "subheading": "BE READY FOR ANYTHING THIS SZN",
-            "title": "OXBOW™ Camo GOODS",
+            "image": "shopify:\/\/shop_images\/021224-Brooks-SS-hero-DT-v2.jpg",
+            "subheading": "Learn <em>why<\/em> Airetex™ is",
+            "title": "The better Bamboo",
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify:\/\/collections\/oxbow-goods-collection",
+            "button_1_text": "Learn More",
+            "button_1_link": "shopify:\/\/products\/tsg-brooks-ss-shirt-coastal-check",
             "button_1_style": "link",
             "button_1_background": "#ffffff",
-            "button_1_text_color": "#ffffff",
+            "button_1_text_color": "#000000",
             "button_2_text": "",
             "button_2_link": "",
             "button_2_style": "outline",
@@ -162,7 +161,7 @@
             "background_opacity": 50,
             "text_color": "#ffffff",
             "border_color": "",
-            "gradient_overlay": "linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.15) 39%)"
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
         }
       },
@@ -172,7 +171,7 @@
         "image_QaLzqV",
         "image_3MaCEj",
         "39865a19-cef5-472a-9406-08b74ec659af",
-        "b9881576-d349-4728-a854-c189239c9f4c"
+        "image_NCVprd"
       ],
       "settings": {
         "allow_transparent_header": false,
