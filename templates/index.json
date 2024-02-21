@@ -273,13 +273,32 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "collection_PrBp3L": {
+          "type": "collection",
+          "settings": {
+            "collection": "shorts",
+            "image": "shopify:\/\/shop_images\/nav-bg-shorts-min.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "SHORTS",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/shorts",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
         "74a21c4e-de8f-47ef-a8f9-212606a0f88e",
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426",
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
-        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1"
+        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1",
+        "collection_PrBp3L"
       ],
       "custom_css": [
 
