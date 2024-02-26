@@ -84,60 +84,6 @@
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.05) 100%)"
           }
         },
-        "image_3MaCEj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/012424-wing-man-hero-DT_7ea08dd6-df4c-4140-912c-7f75ed66c988.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/012424-wing-man-guide-hero-mobile_4a7a8e37-d8f2-4531-915e-0f1530680ca4.jpg",
-            "subheading": "How to Be a Good Wing Man.",
-            "title": "THE K.I.S.S. GEAR Guide",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "content_max_width": 780,
-            "button_1_text": "Shop Now",
-            "button_1_link": "shopify:\/\/collections\/the-wing-man-necessities",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#282e29",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#282e29",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "39865a19-cef5-472a-9406-08b74ec659af": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/field-gear-hero2_03d56c01-49b3-4700-adbc-05659f1879af.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/101323-baeron-goods-arrival-1920x-1.jpg",
-            "subheading": "Field Days are Ahead.",
-            "title": "It's time to get waxed.",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "content_max_width": 780,
-            "button_1_text": "Shop the TSG Baeron Collection",
-            "button_1_link": "shopify:\/\/collections\/tsgaco-baeron-waxed-collection",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
         "image_NCVprd": {
           "type": "image",
           "settings": {
@@ -169,8 +115,6 @@
         "image_cixnMR",
         "image_WKUMR6",
         "image_QaLzqV",
-        "image_3MaCEj",
-        "39865a19-cef5-472a-9406-08b74ec659af",
         "image_NCVprd"
       ],
       "settings": {
@@ -206,7 +150,7 @@
           "type": "collection",
           "settings": {
             "collection": "best-sellers",
-            "image": "shopify:\/\/shop_images\/tsgmidsznjacketf23alt1000x_0002s_0003_tsg0marc-SD2023-0007.jpg",
+            "image": "shopify:\/\/shop_images\/tsgaco.brooksssaltimages1000x1.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
@@ -220,20 +164,20 @@
             "button_text_color": ""
           }
         },
-        "49dbe3c1-d8ef-4de7-b50e-946fb4e61426": {
+        "collection_PrBp3L": {
           "type": "collection",
           "settings": {
-            "collection": "vests-outerwear-jackets",
-            "image": "shopify:\/\/shop_images\/Boone-TSG-Builder-23-0105.jpg",
+            "collection": "shorts",
+            "image": "shopify:\/\/shop_images\/main1000x_0001_TSG-Bluff-S23-Builder-150Denim.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "VESTS & OUTERWEAR",
+            "title": "SHORTS",
             "button_text": "",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/shorts",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 6,
+            "overlay_opacity": 30,
             "button_background": "",
             "button_text_color": ""
           }
@@ -274,20 +218,20 @@
             "button_text_color": ""
           }
         },
-        "collection_PrBp3L": {
+        "49dbe3c1-d8ef-4de7-b50e-946fb4e61426": {
           "type": "collection",
           "settings": {
-            "collection": "shorts",
-            "image": "shopify:\/\/shop_images\/nav-bg-shorts-min.jpg",
+            "collection": "vests-outerwear-jackets",
+            "image": "shopify:\/\/shop_images\/Boone-TSG-Builder-23-0105.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "SHORTS",
+            "title": "VESTS & OUTERWEAR",
             "button_text": "",
-            "button_link": "shopify:\/\/collections\/shorts",
+            "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 6,
             "button_background": "",
             "button_text_color": ""
           }
@@ -295,10 +239,10 @@
       },
       "block_order": [
         "74a21c4e-de8f-47ef-a8f9-212606a0f88e",
-        "49dbe3c1-d8ef-4de7-b50e-946fb4e61426",
+        "collection_PrBp3L",
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1",
-        "collection_PrBp3L"
+        "49dbe3c1-d8ef-4de7-b50e-946fb4e61426"
       ],
       "custom_css": [
 
