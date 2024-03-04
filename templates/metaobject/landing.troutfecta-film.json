@@ -50,7 +50,7 @@
         "template--16760218845416__f97f159d-bc3c-4f97-ae7b-03b2af47049b-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We set out on a mission to check off  the three <\/p>"
+            "content": "<p>Some call it the Appalachian Slam, we call it the Troutfecta.  The truck is packed, flies are tied, and we're searching out three wild fish in one day: Brook, Rainbow and Brown.<\/p><p><\/p><p>Follow along <\/p>"
           }
         }
       },
@@ -62,9 +62,9 @@
       ],
       "settings": {
         "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "start",
-        "remove_vertical_spacing": true
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "5860d8fd-ee6a-4c95-b450-68f09ebc33aa": {
@@ -72,6 +72,7 @@
       "blocks": {
         "template--16760218845416__5860d8fd-ee6a-4c95-b450-68f09ebc33aa-collection-1": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "{{ metaobject.main_collection.value }}",
             "products_count": 8,
@@ -84,6 +85,7 @@
       "block_order": [
         "template--16760218845416__5860d8fd-ee6a-4c95-b450-68f09ebc33aa-collection-1"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "hide_product_information": false,
