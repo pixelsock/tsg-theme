@@ -110,7 +110,7 @@
           "type": "heading",
           "settings": {
             "text": "WATCH ME",
-            "heading_tag": "h2"
+            "heading_tag": "h1"
           }
         }
       },
