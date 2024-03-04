@@ -171,6 +171,53 @@
         "text_alignment": "center"
       }
     },
+    "multiple_media_with_text_DYhQ7U": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_tMLVf9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/harimarimain1000x_0004s_0000_Layer8.jpg",
+            "rotation": 0
+          }
+        },
+        "image_cf4bAR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/main1000x_0001_TSG_Clubshort_bonecopydenim.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_tMLVf9",
+        "image_cf4bAR"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "separate_section_with_border": true,
+        "media_position_desktop": "after_text",
+        "media_position_mobile": "after_text",
+        "media_layout": "separated",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "'TIS THE SEASON",
+        "title": "NEW ARRIVALS MOTHERLOAD",
+        "content": "<p>Meet the up-to-the-moment collection of our newest, latest and greatest gear and goods.<\/p>",
+        "button_1_text": "SHOP NOW",
+        "button_1_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid",
+        "background": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "11300496-0b96-4e9c-939f-8b4fa6c86620": {
       "type": "collection-list",
       "blocks": {
@@ -617,6 +664,7 @@
   "order": [
     "slideshow",
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
+    "multiple_media_with_text_DYhQ7U",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "16c35784-55f0-4e62-a535-e33bcc8677a3",
     "featured-collections",
