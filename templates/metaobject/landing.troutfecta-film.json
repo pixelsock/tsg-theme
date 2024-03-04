@@ -101,7 +101,7 @@
         "play_wx6HrE": {
           "type": "play",
           "settings": {
-            "icon_color": "#ffffff"
+            "icon_color": "#000000"
           }
         },
         "heading_DRHPpy": {
@@ -121,6 +121,7 @@
         "show_controls": true,
         "video_size": "md",
         "external_video_url": "https:\/\/youtu.be\/Y8Lc7LCRMwg?si=bX_FN2kK2XbHYnbz",
+        "poster": "shopify:\/\/shop_images\/081722_troutfecta-YT-thumbnail_1280x720_f72dff67-7f71-4241-b75d-75c33015006b.jpg",
         "text_color": "#ffffff"
       }
     }
