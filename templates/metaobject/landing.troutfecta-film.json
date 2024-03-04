@@ -44,57 +44,50 @@
         "controls_color": "#ffffff"
       }
     },
-    "f97f159d-bc3c-4f97-ae7b-03b2af47049b": {
+    "rich_text_TJdawX": {
       "type": "rich-text",
       "blocks": {
-        "template--16760218845416__f97f159d-bc3c-4f97-ae7b-03b2af47049b-richtext-1": {
+        "subheading_KPDhKy": {
+          "type": "subheading",
+          "settings": {
+            "text": "For your viewing pleasure..."
+          }
+        },
+        "heading_eV9Mje": {
+          "type": "heading",
+          "settings": {
+            "text": "THE TROUTFECTA: A SHORT FILM",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_yQPYDh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Some call it the Appalachian Slam, we call it the Troutfecta.  The truck is packed, flies are tied, and we're searching out three wild fish in one day: Brook, Rainbow and Brown.<\/p><p><\/p><p>Follow along <\/p>"
+            "content": "<p>Some call it the Appalachian Slam, we call it the Troutfecta.  The truck is packed, flies are tied, and we're searching out the Blue Ridge's three wild fish in one day: Brook, Rainbow and Brown.<\/p><p><\/p><p>Enjoy our first short film and follow along as we load our coffee mugs and gear bags and drive along the parkway in search of The Troutfecta.<\/p>"
+          }
+        },
+        "button_EHakce": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "CLICK HERE",
+            "url": "https:\/\/youtu.be\/Y8Lc7LCRMwg?si=bX_FN2kK2XbHYnbz",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "template--16760218845416__f97f159d-bc3c-4f97-ae7b-03b2af47049b-richtext-1"
-      ],
-      "custom_css": [
-        "{background: #202530; color: white; padding: 2rem 0;}"
+        "subheading_KPDhKy",
+        "heading_eV9Mje",
+        "richtext_yQPYDh",
+        "button_EHakce"
       ],
       "settings": {
         "separate_section_with_border": true,
-        "content_width": "lg",
+        "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
-      }
-    },
-    "5860d8fd-ee6a-4c95-b450-68f09ebc33aa": {
-      "type": "featured-collections",
-      "blocks": {
-        "template--16760218845416__5860d8fd-ee6a-4c95-b450-68f09ebc33aa-collection-1": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "{{ metaobject.main_collection.value }}",
-            "products_count": 8,
-            "title": "{{ metaobject.main_collection_title_text.value }}",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16760218845416__5860d8fd-ee6a-4c95-b450-68f09ebc33aa-collection-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
       }
     },
     "video_q3bWcw": {
@@ -126,12 +119,28 @@
         "poster": "shopify:\/\/shop_images\/081722_troutfecta-YT-thumbnail_1280x720_f72dff67-7f71-4241-b75d-75c33015006b.jpg",
         "text_color": "#ffffff"
       }
+    },
+    "recently_viewed_products_XXL49L": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Making Reunions Easy for You...",
+        "content": ""
+      }
     }
   },
   "order": [
     "f86eb006-031c-4ef3-86e0-89cf1c5caac2",
-    "f97f159d-bc3c-4f97-ae7b-03b2af47049b",
-    "5860d8fd-ee6a-4c95-b450-68f09ebc33aa",
-    "video_q3bWcw"
+    "rich_text_TJdawX",
+    "video_q3bWcw",
+    "recently_viewed_products_XXL49L"
   ]
 }
