@@ -6,7 +6,7 @@
         "template--16760218845416__f86eb006-031c-4ef3-86e0-89cf1c5caac2-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/081722_troutfecta-YT-thumbnail_1280x720_f72dff67-7f71-4241-b75d-75c33015006b.jpg",
+            "image": "shopify:\/\/shop_images\/030424-troutfecta-hero-DT.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -26,7 +26,7 @@
             "background_opacity": 31,
             "text_color": "#ffffff",
             "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+            "gradient_overlay": ""
           }
         }
       },
