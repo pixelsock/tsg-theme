@@ -6,9 +6,9 @@
         "template--16760218845416__f86eb006-031c-4ef3-86e0-89cf1c5caac2-image-1": {
           "type": "image",
           "settings": {
-            "image": "{{ metaobject.main_image.value }}",
+            "image": "shopify:\/\/shop_images\/081722_troutfecta-YT-thumbnail_1280x720_f72dff67-7f71-4241-b75d-75c33015006b.jpg",
             "subheading": "",
-            "title": "{{ metaobject.page_title.value }}",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -161,6 +161,7 @@
         "template--16760218845416__74bad3c2-6912-4ef8-ab7f-38358a8267bf-image-2",
         "template--16760218845416__74bad3c2-6912-4ef8-ab7f-38358a8267bf-image-3"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "desktop_row_height": 290,

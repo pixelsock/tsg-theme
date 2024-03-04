@@ -50,7 +50,7 @@
         "template--16760218845416__f97f159d-bc3c-4f97-ae7b-03b2af47049b-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "{{ metaobject.body_content | metafield_tag }}"
+            "content": "<p>We set out on a mission to check off  the three <\/p>"
           }
         }
       },
