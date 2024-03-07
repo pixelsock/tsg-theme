@@ -65,7 +65,7 @@
             "subheading": "Your legs never looked better",
             "title": "Shop the Boone 5P Pant",
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "content_max_width": 780,
             "button_1_text": "GETCHA SOME",
             "button_1_link": "shopify:\/\/products\/tsg-boone-5-pocket-pant-charcoal",
