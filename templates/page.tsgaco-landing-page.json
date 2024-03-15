@@ -25,7 +25,7 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/031524-S24-tsgaco-landing-pg-hero_c0b9f4e4-8b72-48dd-af6c-114f5af4a50f.jpg",
+        "image": "shopify:\/\/shop_images\/031524-S24-tsgaco-landing-pg-hero_0652a063-5f34-4a8c-abfd-92493730d5b4.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -40,16 +40,10 @@
     "b68f4120-e5fd-4103-875c-84f7da9480a5": {
       "type": "rich-text",
       "blocks": {
-        "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "THE GRAND PRIZE"
-          }
-        },
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "WIN A 4-PERSON QUAIL HUNT",
+            "text": "NEW SEASON. NEW GEAR.",
             "heading_tag": "h1"
           }
         },
@@ -61,7 +55,6 @@
         }
       },
       "block_order": [
-        "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-subheading-1",
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1",
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1"
       ],
