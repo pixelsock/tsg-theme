@@ -215,13 +215,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/anselvestalt1000x_0001_2021-11-10-SportingGent-1-Brighter-15Navy.jpg",
+            "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-8.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
-            "title": "Headwear",
+            "title": "Airetex™ Button Downs",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/headwear",
+            "button_link": "shopify:\/\/products\/tsg-tanner-bamboo-button-down-grassland-check-1",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
@@ -237,9 +237,9 @@
       ],
       "settings": {
         "separate_section_with_border": false,
-        "image_size": "auto",
+        "image_size": "md",
         "show_text_outside": false,
-        "space_items": true,
+        "space_items": false,
         "stack_collections": true,
         "collections_per_row_desktop": 3,
         "subheading": "",
@@ -312,6 +312,7 @@
         "template--16783006138600__89fb0fae-3c6c-4ed8-9de4-02c40b37f8e9-collection-2",
         "template--16783006138600__89fb0fae-3c6c-4ed8-9de4-02c40b37f8e9-collection-3"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "image_size": "auto",
@@ -389,6 +390,7 @@
         "template--16783006138600__b2a69ed3-5bf7-4662-817f-7f4c9df59dc1-collection-2",
         "template--16783006138600__b2a69ed3-5bf7-4662-817f-7f4c9df59dc1-collection-3"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "image_size": "auto",
