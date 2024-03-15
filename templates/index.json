@@ -136,6 +136,33 @@
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
+        },
+        "image_9gh78M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/031524-S24-tsgaco-landing-pg-hero_e8b55ff9-8426-44b6-9c86-73453b78e52e.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/022624-S24-Collection-hero-mobile.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-start-end sm:text-end",
+            "content_max_width": 780,
+            "button_1_text": "see the collection",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#282e29",
+            "button_1_text_color": "#ffffff",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
         }
       },
       "block_order": [
@@ -143,7 +170,8 @@
         "image_cixnMR",
         "image_WKUMR6",
         "image_QaLzqV",
-        "image_NCVprd"
+        "image_NCVprd",
+        "image_9gh78M"
       ],
       "settings": {
         "allow_transparent_header": false,
