@@ -71,6 +71,51 @@
         "remove_vertical_spacing": false
       }
     },
+    "rich_text_QYHDJp": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_yDJkqh": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_AGtqMb": {
+          "type": "heading",
+          "settings": {
+            "text": "Upcoming Shop Events",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_hjXnBQ": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        },
+        "image_exqizV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/031424-Warehouse-Sale-Main-Poster_71772181-573a-42d8-9c78-96a59c6b80b5.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yDJkqh",
+        "heading_AGtqMb",
+        "richtext_hjXnBQ",
+        "image_exqizV"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "53762d71-21b1-4901-9926-dc2f90215d94": {
       "type": "rich-text",
       "blocks": {
@@ -96,22 +141,12 @@
             "background": "#282e29",
             "text_color": ""
           }
-        },
-        "image_ytTG8T": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/031424-Warehouse-Sale-Main-Poster_71772181-573a-42d8-9c78-96a59c6b80b5.jpg",
-            "width_mode": "custom",
-            "max_width": 490,
-            "mobile_max_width": 600
-          }
         }
       },
       "block_order": [
         "1058c197-0f51-4cdd-8640-c5105ef561be",
         "c1018f4d-d1b3-4c4c-8f2a-19d9799a4257",
-        "951c2aa8-9821-4677-bb6b-373a4065a165",
-        "image_ytTG8T"
+        "951c2aa8-9821-4677-bb6b-373a4065a165"
       ],
       "settings": {
         "separate_section_with_border": false,
@@ -142,6 +177,7 @@
     "6f24ea95-3114-45ea-82c1-8817e5d8508d",
     "main",
     "93367fbc-a4dd-4211-b8e5-34e41d58c0a0",
+    "rich_text_QYHDJp",
     "53762d71-21b1-4901-9926-dc2f90215d94",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
