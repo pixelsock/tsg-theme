@@ -175,35 +175,35 @@
     "e5971167-2fc4-4b51-a545-d1c14d7c618b": {
       "type": "collection-list",
       "blocks": {
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/022624-ridge-short-hero-mobile.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "RIDGE SHORTS",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-ridge-short-sage",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2": {
           "type": "collection",
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-25.jpg",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "DRIFT POLO",
             "button_text": "SHOP NOW",
             "button_link": "shopify:\/\/products\/tsg-drift-polo-harbour",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/022624-ridge-short-hero-mobile.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "RIDGE SHORTS",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/tsg-ridge-short-sage",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -224,15 +224,15 @@
             "button_link": "shopify:\/\/products\/tsg-tanner-bamboo-button-down-grassland-check-1",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "button_background": "",
             "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1",
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2",
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1",
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3"
       ],
       "settings": {
