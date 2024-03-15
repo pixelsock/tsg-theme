@@ -409,12 +409,12 @@
         "template--16783006138600__40d836d0-5c70-4341-b9cb-b40c858de1d6-collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/091923-F23-new-arrivals-hero-DT.jpg",
+            "collection": "tsg-apparel",
+            "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-9.jpg",
             "expand_collection": true,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
-            "title": "SHOP NEW ARRIVALS FOR FALL",
+            "title": "SHOP NEW ARRIVALS FOR SPRING",
             "button_text": "View products",
             "button_link": "",
             "text_color": "#ffffff",
