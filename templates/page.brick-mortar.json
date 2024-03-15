@@ -149,7 +149,7 @@
         "951c2aa8-9821-4677-bb6b-373a4065a165"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "content_width": "md",
         "text_position": "center",
         "remove_vertical_spacing": false
