@@ -7,6 +7,34 @@
         "page_width": "md"
       }
     },
+    "rich_text_8AXVH3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gkycQn": {
+          "type": "heading",
+          "settings": {
+            "text": "Sign UP for Our TSG Dispatches.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_7RRreW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From recipes to gear guides, interviews with extrremely interesting people and other random musings, the TSG Dispatch is our runway for all things good-times related.<\/p><p><\/p><p>And for you first timers, we toss in a little something extra <em>(wink wink)<\/em>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gkycQn",
+        "richtext_7RRreW"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
       "type": "newsletter",
       "settings": {
@@ -45,6 +73,7 @@
   },
   "order": [
     "main",
+    "rich_text_8AXVH3",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e",
     "blog_posts_VxdLaw"
   ]
