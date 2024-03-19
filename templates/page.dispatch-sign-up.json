@@ -83,7 +83,7 @@
       "type": "newsletter",
       "settings": {
         "separate_section_with_border": true,
-        "image_size": "fill",
+        "image_size": "md",
         "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
         "mobile_image": "shopify:\/\/shop_images\/tsg-s24-builder-001-8.jpg",
         "subheading": "Want to stay in the Loop?",
