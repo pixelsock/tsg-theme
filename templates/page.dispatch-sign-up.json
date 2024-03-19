@@ -1,77 +1,5 @@
 {
   "sections": {
-    "f66930ed-2623-42ff-9588-df904b94cf4c": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16748705841384__f66930ed-2623-42ff-9588-df904b94cf4c-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "WANT TO WORK WITH US?"
-          }
-        },
-        "template--16748705841384__f66930ed-2623-42ff-9588-df904b94cf4c-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "JOB POSTINGS",
-            "heading_tag": "h1"
-          }
-        },
-        "template--16748705841384__f66930ed-2623-42ff-9588-df904b94cf4c-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Unfortunately, we do not have any open positions, but you can always send your resume and cover letter to work@thesportinggent.com for any future openings.  <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16748705841384__f66930ed-2623-42ff-9588-df904b94cf4c-subheading-1",
-        "template--16748705841384__f66930ed-2623-42ff-9588-df904b94cf4c-heading-1",
-        "template--16748705841384__f66930ed-2623-42ff-9588-df904b94cf4c-richtext-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
-    "a5856327-c29f-4b78-a42f-0d0a2a433156": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "PORTAL COMING SOON",
-            "heading_tag": "h1"
-          }
-        },
-        "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Please email <a href=\"mailto:wholesale@thesportinggent.com\" title=\"mailto:wholesale@thesportinggent.com\">wholesale@thesportinggent.com<\/a> for more information about how to become a retail partner with TSGACo. and our other in-house brands.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-subheading-1",
-        "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-heading-1",
-        "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-richtext-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -97,20 +25,27 @@
         "overlay_opacity": 47
       }
     },
-    "171086472089282f24": {
-      "type": "apps",
+    "blog_posts_VxdLaw": {
+      "type": "blog-posts",
       "settings": {
         "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false
+        "blog": "dispatches",
+        "posts_count": 3,
+        "stack_on_mobile": false,
+        "show_category": true,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "subheading": "",
+        "title": "A sampling of the goodness...",
+        "content": "",
+        "button_link": "",
+        "button_text": "View all"
       }
     }
   },
   "order": [
-    "f66930ed-2623-42ff-9588-df904b94cf4c",
-    "a5856327-c29f-4b78-a42f-0d0a2a433156",
     "main",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e",
-    "171086472089282f24"
+    "blog_posts_VxdLaw"
   ]
 }
