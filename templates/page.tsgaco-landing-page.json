@@ -316,6 +316,34 @@
         "subheading": ""
       }
     },
+    "featured_collections_AiMxxy": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_xhA8Xb": {
+          "type": "collection",
+          "settings": {
+            "collection": "blue-ridge-native",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_xhA8Xb"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 6,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34": {
       "type": "blog-posts",
       "settings": {
@@ -362,6 +390,7 @@
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
     "40d836d0-5c70-4341-b9cb-b40c858de1d6",
     "featured_collections_EJbhpb",
+    "featured_collections_AiMxxy",
     "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
