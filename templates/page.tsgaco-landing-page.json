@@ -258,7 +258,7 @@
             "collection": "tsg-apparel",
             "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-9.jpg",
             "expand_collection": true,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-end text-end",
             "subheading": "",
             "title": "SHOP NEW ARRIVALS FOR SPRING",
             "button_text": "View products",
