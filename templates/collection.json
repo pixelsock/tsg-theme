@@ -7,8 +7,6 @@
       ],
       "settings": {
         "content_width": "xl",
-        "image": "shopify:\/\/shop_images\/040224-tsgaco_banner-3.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/s24tannerbamboobuttondownalt1000x_0000s_0000_TSG-SS24-Builder-KHP-213.jpg",
         "image_size": "lg",
         "allow_transparent_header": false,
         "reveal": false,
