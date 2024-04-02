@@ -106,6 +106,7 @@
         "93557da7-9886-48c5-aaae-82984379c5e0",
         "7ebd7766-fb36-452f-a845-50dc15eadb26"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
@@ -114,7 +115,7 @@
         "stack_collections": false,
         "collections_per_row_desktop": 4,
         "subheading": "",
-        "title": "",
+        "title": "FEATURED COLLECTIONS",
         "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
@@ -136,9 +137,9 @@
         "vertical_spacing_factor": 1,
         "filter_layout": "sidebar",
         "quick_links_menu": "",
-        "show_sort_by": false,
+        "show_sort_by": true,
         "show_filters": true,
-        "show_results_count": true,
+        "show_results_count": false,
         "show_filter_group_name": true,
         "show_empty_filter_values": true,
         "show_filter_values_count": true,
