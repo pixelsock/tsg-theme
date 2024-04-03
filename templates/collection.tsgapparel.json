@@ -17,11 +17,11 @@
         "show_collection_description": true,
         "show_breadcrumb": false,
         "breadcrumb_color": "#303030",
-        "breadcrumb_text_color": "#fff",
-        "background": "#ffffff",
+        "breadcrumb_text_color": "#ffffff",
+        "background": "#282e29",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 50
+        "overlay_opacity": 63
       }
     },
     "13e995ae-26bd-48a6-80d6-b273bb649389": {
