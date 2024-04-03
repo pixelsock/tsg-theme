@@ -151,11 +151,30 @@
         "enable_promotion_link": true,
         "promotion_link_url": "shopify:\/\/pages\/tsg-apparel-co"
       }
+    },
+    "newsletter_CqViA7": {
+      "type": "newsletter",
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/040324-newsletter-hero-mobile_2040685d-7af9-4189-90de-c4acc04c0b2e.jpg",
+        "subheading": "Want to stay in the loop?",
+        "title": "Sign up for our TSG Dispatches",
+        "content": "",
+        "button_text": "Subscribe",
+        "text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "collection-banner",
     "13e995ae-26bd-48a6-80d6-b273bb649389",
-    "main"
+    "main",
+    "newsletter_CqViA7"
   ]
 }
