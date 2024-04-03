@@ -98,12 +98,30 @@
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
+    },
+    "newsletter_igGzqj": {
+      "type": "newsletter",
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
+        "subheading": "Want to stay in the loop",
+        "title": "Sign Up for our TSG Dispatches",
+        "content": "",
+        "button_text": "Subscribe",
+        "text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "collection-banner",
     "main",
-    "e84d2482-13b2-4890-b149-10ae72f172e3"
+    "e84d2482-13b2-4890-b149-10ae72f172e3",
+    "newsletter_igGzqj"
   ],
   "wrapper": ".boost-sd__product-filter-fallback"
 }
