@@ -3,7 +3,7 @@
     "collection-banner": {
       "type": "collection-banner",
       "custom_css": [
-        "{text-align: left;}"
+        "{text-align: center;}"
       ],
       "settings": {
         "content_width": "xl",
