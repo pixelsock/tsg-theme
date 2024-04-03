@@ -20,7 +20,7 @@
         "breadcrumb_text_color": "#ffffff",
         "background": "#282e29",
         "text_color": "#ffffff",
-        "overlay_color": "#000000",
+        "overlay_color": "#282e29",
         "overlay_opacity": 63
       }
     },
