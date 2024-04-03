@@ -15,7 +15,7 @@
         "enable_parallax": false,
         "show_collection_title": true,
         "show_collection_description": true,
-        "show_breadcrumb": true,
+        "show_breadcrumb": false,
         "breadcrumb_color": "#303030",
         "breadcrumb_text_color": "#ffffff",
         "background": "#282e29",
