@@ -7,6 +7,8 @@
       ],
       "settings": {
         "content_width": "xl",
+        "image": "shopify:\/\/shop_images\/040324-BRN-collection-hero.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/040324-BRN-collection-hero-mobile_79fa6e30-a4ab-40e4-8cd2-72d69e337a79.jpg",
         "image_size": "lg",
         "allow_transparent_header": false,
         "reveal": false,
