@@ -26,8 +26,9 @@
     },
     "7b52fbc8-ec23-4608-adf4-c500a36b63ba": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
-        "{padding: 1rem; background: #e2e2e2;}"
+        "{padding: 1rem; background: #fffff;}"
       ],
       "settings": {
         "separate_section_with_border": false,
@@ -43,7 +44,7 @@
         "10484a82-e6bd-4339-9dfe-2147b1c5911d": {
           "type": "heading",
           "settings": {
-            "text": "TSG APPAREL CO. CUSTOM OUTFITTING",
+            "text": "",
             "heading_tag": "h1"
           }
         }
@@ -52,10 +53,10 @@
         "10484a82-e6bd-4339-9dfe-2147b1c5911d"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "content_width": "sm",
         "text_position": "center",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
       }
     },
     "a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe": {
