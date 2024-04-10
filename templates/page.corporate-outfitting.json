@@ -79,19 +79,27 @@
         "remove_vertical_spacing": false
       }
     },
+    "contact_Gn3GpW": {
+      "type": "contact",
+      "settings": {
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Contact us and We'll get you started.",
+        "content": ""
+      }
+    },
     "4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd": {
       "type": "collection-list",
       "blocks": {
         "template--16760204132584__4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/030222_logoexamples_coporatepage-oversized2.jpg",
+            "collection": "button-downs",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "",
+            "button_text": "SHOP SHIRTS",
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -103,13 +111,12 @@
         "33da0444-df20-4439-b84d-e8782bc790c7": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/030222_logoexamples_coporatepage-oversized_1828ea4a-a5ec-43e4-ad6d-d1d7d3efca02.jpg",
+            "collection": "polos",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "",
+            "button_text": "SHOP POLOS",
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -121,13 +128,12 @@
         "bdd0589d-fc18-4c0d-9678-332353185d04": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/030222_logoexamples_coporatepage-oversized3_faaa087a-c314-4e7d-ba7e-bf26cda45dca.jpg",
+            "collection": "tsg-vests-1",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "",
+            "button_text": "SHOP VESTS",
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -142,28 +148,18 @@
         "33da0444-df20-4439-b84d-e8782bc790c7",
         "bdd0589d-fc18-4c0d-9678-332353185d04"
       ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": false,
-        "image_size": "xs",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": false,
-        "collections_per_row_desktop": 3,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "contact_Gn3GpW": {
-      "type": "contact",
       "settings": {
         "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Contact us and We'll get you started.",
-        "content": ""
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": false,
+        "stack_collections": false,
+        "collections_per_row_desktop": 4,
+        "subheading": "Just a few options for you...",
+        "title": "GET ACCESS to the Whole TSG Catalog",
+        "content": "<p>If we make it, we can customize it for you.  And with ultra-low minimums and a full-service process, you don't need to break the bank to make it happen either.<\/p>",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
       }
     },
     "9852aff1-1244-41a2-a109-1f5dc22585f7": {
@@ -349,8 +345,8 @@
     "7b52fbc8-ec23-4608-adf4-c500a36b63ba",
     "8c73236e-61cc-42db-b218-c0f2fa1dfc46",
     "a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe",
-    "4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd",
     "contact_Gn3GpW",
+    "4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd",
     "9852aff1-1244-41a2-a109-1f5dc22585f7",
     "6f4072a3-740a-49b0-86bb-382803a9312f",
     "acb25f99-5bbd-4339-9a18-107c326b2263",
