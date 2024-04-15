@@ -129,6 +129,16 @@
             "page": ""
           }
         },
+        "accordion_fmWEpi": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": true,
+            "icon": "none",
+            "title": "About the Brand",
+            "content": "<p>{{ product.metafields.custom.about_the_brand | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
         "f75034d7-0ec8-4b1d-84e6-da5efa720764": {
           "type": "share_buttons",
           "disabled": true,
@@ -252,6 +262,7 @@
         "3e7d8f07-a3c9-49fb-97ce-3b96c81cec0a",
         "dd52afe9-c3ed-44b9-80b8-f9061e29964a",
         "5ffbdf97-a5b9-4cc0-860a-60d281aa83ac",
+        "accordion_fmWEpi",
         "f75034d7-0ec8-4b1d-84e6-da5efa720764",
         "707fefa4-f06c-4419-990e-cc836ef01909",
         "1895c9fb-ace6-4d23-bbdc-08b0805bda68",
