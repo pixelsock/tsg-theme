@@ -8,6 +8,11 @@
           "settings": {
           }
         },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "vendor": {
           "type": "vendor",
           "settings": {
@@ -158,12 +163,6 @@
             "text": "<h6>Order by 3pm for same-day shipping<\/h6>"
           }
         },
-        "separator": {
-          "type": "separator",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "963f74e2-2e1c-41a3-b1eb-23f5b85acce0": {
           "type": "image",
           "disabled": true,
@@ -246,6 +245,7 @@
       },
       "block_order": [
         "20191541-17ed-452d-ad6e-7c38919175bb",
+        "separator",
         "vendor",
         "title",
         "price",
@@ -266,7 +266,6 @@
         "f75034d7-0ec8-4b1d-84e6-da5efa720764",
         "707fefa4-f06c-4419-990e-cc836ef01909",
         "1895c9fb-ace6-4d23-bbdc-08b0805bda68",
-        "separator",
         "963f74e2-2e1c-41a3-b1eb-23f5b85acce0",
         "05aeae89-caad-4de8-9abe-b7781460ca04",
         "0acebf67-008b-441f-8507-030d9f577c30",
@@ -283,7 +282,7 @@
         "container_size": "lg",
         "product_info_size": 45,
         "show_sticky_add_to_cart": true,
-        "center_basic_info": true,
+        "center_basic_info": false,
         "desktop_media_layout": "carousel_thumbnails_left",
         "desktop_media_grid_gap": 20,
         "mobile_controls": "free_scroll",
