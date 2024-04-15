@@ -105,6 +105,16 @@
             "page": ""
           }
         },
+        "accordion_NtmkBd": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": true,
+            "icon": "none",
+            "title": "Specs",
+            "content": "{{ product.metafields.custom.specs | metafield_tag }}",
+            "page": ""
+          }
+        },
         "3e7d8f07-a3c9-49fb-97ce-3b96c81cec0a": {
           "type": "accordion",
           "settings": {
@@ -260,6 +270,7 @@
         "buy_buttons",
         "description",
         "52613e88-2864-490b-bf51-1f6b7f7f7f3f",
+        "accordion_NtmkBd",
         "3e7d8f07-a3c9-49fb-97ce-3b96c81cec0a",
         "dd52afe9-c3ed-44b9-80b8-f9061e29964a",
         "5ffbdf97-a5b9-4cc0-860a-60d281aa83ac",
