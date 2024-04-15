@@ -293,6 +293,24 @@
         "max_image_zoom_level": 1
       }
     },
+    "16891837271bf8cc12": {
+      "type": "apps",
+      "blocks": {
+        "e2474bfa-6411-4ee3-9dbb-a8bafae10c60": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "e2474bfa-6411-4ee3-9dbb-a8bafae10c60"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true
+      }
+    },
     "7bb995d8-0e55-4451-a52b-7132112cb0d8": {
       "type": "custom-liquid",
       "custom_css": [
@@ -392,22 +410,20 @@
         "content": "<p>Here are couple suggestion based on what our other friends and customers purchased along with the {{ product.title }}<\/p>"
       }
     },
-    "16891837271bf8cc12": {
-      "type": "apps",
-      "blocks": {
-        "e2474bfa-6411-4ee3-9dbb-a8bafae10c60": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "e2474bfa-6411-4ee3-9dbb-a8bafae10c60"
-      ],
+    "recently_viewed_products_grTPtK": {
+      "type": "recently-viewed-products",
       "settings": {
         "separate_section_with_border": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Recently viewed products",
+        "content": ""
       }
     },
     "466c6b5e-c6cc-41a8-9869-b386b7b1271e": {
@@ -423,10 +439,11 @@
   },
   "order": [
     "main",
+    "16891837271bf8cc12",
     "7bb995d8-0e55-4451-a52b-7132112cb0d8",
     "59bb20b9-4717-4c33-91ad-5abc2ab2822b",
     "related-products",
-    "16891837271bf8cc12",
+    "recently_viewed_products_grTPtK",
     "466c6b5e-c6cc-41a8-9869-b386b7b1271e"
   ]
 }
