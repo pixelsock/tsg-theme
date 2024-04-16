@@ -172,6 +172,34 @@
         "text_alignment": "center"
       }
     },
+    "featured_collections_hH68i7": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_gFdpUU": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals-this-week-tsg",
+            "products_count": 8,
+            "title": "NEW ARRIVALS MOTHERLOAD",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_gFdpUU"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": true,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Meet the up-to-the-moment collection of our newest, latest and greatest gear and goods."
+      }
+    },
     "multiple_media_with_text_DYhQ7U": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -665,6 +693,7 @@
   "order": [
     "slideshow",
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
+    "featured_collections_hH68i7",
     "multiple_media_with_text_DYhQ7U",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "16c35784-55f0-4e62-a535-e33bcc8677a3",
