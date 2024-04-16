@@ -832,7 +832,7 @@
         "look-1"
       ],
       "custom_css": [
-        ".section-stack {gap: 0rem;}",
+        ".section-stack {gap: -0rem;}",
         ".button {margin-top: -1.75rem;}"
       ],
       "settings": {
