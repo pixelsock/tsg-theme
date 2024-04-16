@@ -333,6 +333,7 @@
       "block_order": [
         "collection_xhA8Xb"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
