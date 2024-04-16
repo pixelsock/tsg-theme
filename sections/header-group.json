@@ -2,54 +2,6 @@
   "type": "header",
   "name": "Header group",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "958e3cb8-313c-4d8c-85dd-660942b09bff": {
-          "type": "message",
-          "settings": {
-            "text": "Get 15% off your first order by <a href=\"#\" title=\"klayvio_trigger\">signing up for our emails<\/a>!"
-          }
-        },
-        "c95c0108-e433-4e61-ade2-e93a314c79b2": {
-          "type": "message",
-          "disabled": true,
-          "settings": {
-            "text": "Apparel Makers. Gear Curators. Good Time Purveyors."
-          }
-        },
-        "1090e969-2407-46e8-a855-23e75fedd389": {
-          "type": "message",
-          "settings": {
-            "text": "Fast & Free Shipping on All Orders Over $99"
-          }
-        },
-        "24f48508-6c61-4f52-a226-9a3eb069b0a1": {
-          "type": "message",
-          "settings": {
-            "text": "<a href=\"\/pages\/brick-mortar-charlotte\" title=\"Charlotte Brick & Mortar\">Brick & Mortar<\/a>     |    2848 Selwyn Ave. Charlotte, NC   |   (704) 896-5600   |   <a href=\"\/pages\/holler-at-us\" title=\"Holler At Us\">Holler at Us<\/a>"
-          }
-        }
-      },
-      "block_order": [
-        "958e3cb8-313c-4d8c-85dd-660942b09bff",
-        "c95c0108-e433-4e61-ade2-e93a314c79b2",
-        "1090e969-2407-46e8-a855-23e75fedd389",
-        "24f48508-6c61-4f52-a226-9a3eb069b0a1"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "enable_sticky": true,
-        "autoplay": true,
-        "cycle_speed": 4,
-        "desktop_font_size": 12,
-        "mobile_font_size": 10,
-        "background": "#282e29",
-        "text_color": "#ffffff"
-      }
-    },
     "c3232e5d-33be-49ea-932f-6b0e94cfb62c": {
       "type": "countdown-condensed",
       "disabled": true,
@@ -139,11 +91,59 @@
         "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify:\/\/shop_images\/TSG-Logo-White-min.png"
       }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "958e3cb8-313c-4d8c-85dd-660942b09bff": {
+          "type": "message",
+          "settings": {
+            "text": "Get 15% off your first order by <a href=\"#\" title=\"klayvio_trigger\">signing up for our emails<\/a>!"
+          }
+        },
+        "c95c0108-e433-4e61-ade2-e93a314c79b2": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "Apparel Makers. Gear Curators. Good Time Purveyors."
+          }
+        },
+        "1090e969-2407-46e8-a855-23e75fedd389": {
+          "type": "message",
+          "settings": {
+            "text": "Fast & Free Shipping on All Orders Over $99"
+          }
+        },
+        "24f48508-6c61-4f52-a226-9a3eb069b0a1": {
+          "type": "message",
+          "settings": {
+            "text": "<a href=\"\/pages\/brick-mortar-charlotte\" title=\"Charlotte Brick & Mortar\">Brick & Mortar<\/a>     |    2848 Selwyn Ave. Charlotte, NC   |   (704) 896-5600   |   <a href=\"\/pages\/holler-at-us\" title=\"Holler At Us\">Holler at Us<\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "958e3cb8-313c-4d8c-85dd-660942b09bff",
+        "c95c0108-e433-4e61-ade2-e93a314c79b2",
+        "1090e969-2407-46e8-a855-23e75fedd389",
+        "24f48508-6c61-4f52-a226-9a3eb069b0a1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "autoplay": true,
+        "cycle_speed": 4,
+        "desktop_font_size": 12,
+        "mobile_font_size": 10,
+        "background": "#282e29",
+        "text_color": "#ffffff"
+      }
     }
   },
   "order": [
-    "announcement-bar",
     "c3232e5d-33be-49ea-932f-6b0e94cfb62c",
-    "header"
+    "header",
+    "announcement-bar"
   ]
 }
