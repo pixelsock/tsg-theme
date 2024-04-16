@@ -389,7 +389,7 @@
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "content_max_width": 780,
-            "button_1_text": "CHECK IT OUT",
+            "button_1_text": "FIND OUT MORE",
             "button_1_link": "shopify:\/\/collections\/airetex-bamboo-apparel-collection",
             "button_1_style": "link",
             "button_1_background": "#ffffff",
@@ -708,6 +708,7 @@
       "blocks": {
         "22199300-574e-4d95-964c-63d7f6414320": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "best-sellers",
             "products_count": 8,
@@ -718,6 +719,7 @@
         },
         "c26eff7e-9cfb-41c8-9f93-2c22b98c9dcc": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "vests",
             "products_count": 8,
@@ -748,7 +750,7 @@
         "stack_products": false,
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
+        "horizontal_spacing_factor": 0.2,
         "vertical_spacing_factor": 1.4,
         "subheading": ""
       }
