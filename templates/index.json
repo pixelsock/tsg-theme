@@ -750,9 +750,9 @@
         "e5b09454-6655-41a1-a720-765a5e69f3a2"
       ],
       "custom_css": [
-        ".h2 {margin-top: -0.5rem; margin-bottom: -1.5rem;}",
-        ".section-spacing {margin-top: 12px;}",
-        ".button {margin-top: -0.5rem;}"
+        ".h2 {margin-top: 0rem; margin-bottom: -1.5rem;}",
+        ".section-spacing {margin-top: 24px;}",
+        ".button {margin-top: -7.5rem;}"
       ],
       "settings": {
         "separate_section_with_border": true,
