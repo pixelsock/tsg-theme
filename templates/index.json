@@ -833,7 +833,7 @@
       ],
       "custom_css": [
         ".section-stack {gap: 0rem;}",
-        ".button {margin-top: -1.5rem;}"
+        ".button {margin-top: -1.75rem;}"
       ],
       "settings": {
         "separate_section_with_border": true,
