@@ -491,6 +491,7 @@
         },
         "74a21c4e-de8f-47ef-a8f9-212606a0f88e": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "best-sellers",
             "image": "shopify:\/\/shop_images\/tsgaco.brooksssaltimages1000x1.jpg",
