@@ -288,8 +288,8 @@
         "richtext_PmJMTt"
       ],
       "settings": {
-        "image_size": "lg",
-        "image": "shopify:\/\/shop_images\/s24driftpoloalt1000x_0001s_0005_TSG-SS24-Builder-KHP-119.jpg",
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/091323-new-arrivals-web-hero-dt_6d5d7b6d-8fc5-4c06-aa35-534dfa1602bb.jpg",
         "mobile_image": "shopify:\/\/shop_images\/s24driftpoloalt1000x_0001s_0001_TSG-SS24-Builder-KHP-171.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
