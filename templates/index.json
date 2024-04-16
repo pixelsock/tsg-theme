@@ -220,32 +220,85 @@
         "button_text_color": ""
       }
     },
-    "featured_collections_hH68i7": {
-      "type": "featured-collections",
+    "rich_text_yPCbG8": {
+      "type": "rich-text",
       "blocks": {
-        "collection_gFdpUU": {
-          "type": "collection",
+        "subheading_BVgRVV": {
+          "type": "subheading",
           "settings": {
-            "collection": "new-arrivals-this-week-tsg",
-            "products_count": 8,
-            "title": "NEW ARRIVALS MOTHERLOAD",
-            "link_url": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
-            "link_text": "View all"
+            "text": "Subheading"
+          }
+        },
+        "heading_KKN7xb": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_N3rCgf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
       "block_order": [
-        "collection_gFdpUU"
+        "subheading_BVgRVV",
+        "heading_KKN7xb",
+        "richtext_N3rCgf"
       ],
       "settings": {
         "separate_section_with_border": true,
-        "hide_product_information": true,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "Meet the up-to-the-moment collection of our newest, latest and greatest gear and goods."
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_overlay_B4prAx": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "button_bzyVTt": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "CHECK THEM OUT",
+            "url": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "heading_edhGAW": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_PmJMTt": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_bzyVTt",
+        "heading_edhGAW",
+        "richtext_PmJMTt"
+      ],
+      "settings": {
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/s24driftpoloalt1000x_0001s_0001_TSG-SS24-Builder-KHP-171.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "slideshow_KgiFpE": {
@@ -741,7 +794,8 @@
     "slideshow",
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "multiple-media-with-text",
-    "featured_collections_hH68i7",
+    "rich_text_yPCbG8",
+    "image_with_text_overlay_B4prAx",
     "slideshow_KgiFpE",
     "multiple_media_with_text_DYhQ7U",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
