@@ -508,14 +508,14 @@
         "image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tsghighlandvestf23alt1000x_0006s_0001_Boone-TSG-Builder-23-0089.jpg",
+            "image": "shopify:\/\/shop_images\/041624-hatteras-alt-image-2.jpg",
             "rotation": 0
           }
         },
         "image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/highland-vest-sienna-alt-1000x_0005s_0000_TSG_FALL_138.png",
+            "image": "shopify:\/\/shop_images\/041624-hatteras-alt-image-1.jpg",
             "rotation": 0
           }
         }
@@ -535,10 +535,10 @@
         "media_mobile_alignment_offset": 0,
         "text_alignment": "start",
         "subheading": "A TSGACO. BEST SELLER",
-        "title": "We're IN-VEST-ED.",
+        "title": "We're gonna sell a million...",
         "content": "<p>We're pretty big vest people, especially since it's the perfect layer for our fall climate in North Carolina‚ so we've owned and seen a lot of them‚ a lot. We thought it was time we designed our own, and we focused on the design that makes our apparel so special.<\/p>",
-        "button_1_text": "SHOP HIGHLAND VEST",
-        "button_1_link": "shopify:\/\/products\/tsg-highland-quilted-vest-sienna",
+        "button_1_text": "SHOP HATTERAS PANTS",
+        "button_1_link": "shopify:\/\/products\/tsg-hatteras-performance-pant-khaki",
         "button_1_style": "solid",
         "button_2_text": "",
         "button_2_link": "",
