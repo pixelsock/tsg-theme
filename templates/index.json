@@ -172,6 +172,53 @@
         "text_alignment": "center"
       }
     },
+    "multiple-media-with-text": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/041624-hatteras-alt-_0000_TSG-SS24-Builder-KHP-051.jpg",
+            "rotation": 0
+          }
+        },
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/041624-hatteras-alt-_0001_TSG-SS24-Builder-KHP-039.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image-2",
+        "image-1"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "separate_section_with_border": true,
+        "media_position_desktop": "after_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "separated",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "start",
+        "subheading": "A TSGACO. BEST SELLER",
+        "title": "We're gonna sell a million...",
+        "content": "<p>Introducing the Hatteras Performance Pant - the more athletic-slash-fraternal twin to our Numero Uno selling pant:  the Boone 5-Pocket.  With built-in stretch, and an ultra-comfortable polyester, you can guarantee yourself a few strokes a-side plus a few whistles from the gallery thanks to our right-on-the-money TSG fit.<\/p>",
+        "button_1_text": "SHOP HATTERAS PANTS",
+        "button_1_link": "shopify:\/\/products\/tsg-hatteras-performance-pant-khaki",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid",
+        "background": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "featured_collections_hH68i7": {
       "type": "featured-collections",
       "blocks": {
@@ -222,6 +269,7 @@
         "image_tMLVf9",
         "image_cf4bAR"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "separate_section_with_border": true,
@@ -530,53 +578,6 @@
         "subheading": ""
       }
     },
-    "multiple-media-with-text": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/041624-hatteras-alt-_0000_TSG-SS24-Builder-KHP-051.jpg",
-            "rotation": 0
-          }
-        },
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/041624-hatteras-alt-_0001_TSG-SS24-Builder-KHP-039.jpg",
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image-2",
-        "image-1"
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "separate_section_with_border": true,
-        "media_position_desktop": "after_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "separated",
-        "media_alignment": "center",
-        "media_alignment_offset": 0,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "start",
-        "subheading": "A TSGACO. BEST SELLER",
-        "title": "We're gonna sell a million...",
-        "content": "<p>Introducing the Hatteras Performance Pant - the more athletic-slash-fraternal twin to our Numero Uno selling pant:  the Boone 5-Pocket.  With built-in stretch, and an ultra-comfortable polyester, you can guarantee yourself a few strokes a-side plus a few whistles from the gallery thanks to our right-on-the-money TSG fit.<\/p>",
-        "button_1_text": "SHOP HATTERAS PANTS",
-        "button_1_link": "shopify:\/\/products\/tsg-hatteras-performance-pant-khaki",
-        "button_1_style": "solid",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid",
-        "background": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "shop-the-look": {
       "type": "shop-the-look",
       "blocks": {
@@ -693,12 +694,12 @@
   "order": [
     "slideshow",
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
+    "multiple-media-with-text",
     "featured_collections_hH68i7",
     "multiple_media_with_text_DYhQ7U",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "16c35784-55f0-4e62-a535-e33bcc8677a3",
     "featured-collections",
-    "multiple-media-with-text",
     "shop-the-look",
     "blog-posts",
     "newsletter"
