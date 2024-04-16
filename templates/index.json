@@ -259,7 +259,7 @@
             "subheading": "Learn <em>why<\/em> Airetex™ is",
             "title": "The Better Bamboo",
             "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "content_max_width": 780,
             "button_1_text": "CHECK IT OUT",
             "button_1_link": "shopify:\/\/collections\/airetex-bamboo-apparel-collection",
