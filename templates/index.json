@@ -178,7 +178,7 @@
         "image_tMLVf9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/harimarimain1000x_0004s_0000_Layer8.jpg",
+            "image": "shopify:\/\/shop_images\/turtleboxgen2main1000x_0004s_0003_Layer1.jpg",
             "rotation": 0
           }
         },
@@ -209,7 +209,7 @@
         "content": "<p>Meet the up-to-the-moment collection of our newest, latest and greatest gear and goods.<\/p>",
         "button_1_text": "SHOP NOW",
         "button_1_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
-        "button_1_style": "solid",
+        "button_1_style": "outline",
         "button_2_text": "",
         "button_2_link": "",
         "button_2_style": "solid",
