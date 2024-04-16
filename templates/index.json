@@ -32,6 +32,7 @@
         },
         "image_cixnMR": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/021224-Brooks-SS-hero-DT.jpg",
             "mobile_image": "shopify:\/\/shop_images\/021224-Brooks-SS-hero-mobile.jpg",
@@ -87,6 +88,7 @@
         },
         "image_WKUMR6": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/boone_fw20-01.jpg",
             "mobile_image": "shopify:\/\/shop_images\/080723-F23-boone-pant-mobile-hero.jpg",
