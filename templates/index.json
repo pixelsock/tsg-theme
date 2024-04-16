@@ -289,13 +289,14 @@
       ],
       "settings": {
         "image_size": "lg",
-        "image": "shopify:\/\/shop_images\/s24driftpoloalt1000x_0001s_0001_TSG-SS24-Builder-KHP-171.jpg",
+        "image": "shopify:\/\/shop_images\/s24driftpoloalt1000x_0001s_0005_TSG-SS24-Builder-KHP-119.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/s24driftpoloalt1000x_0001s_0001_TSG-SS24-Builder-KHP-171.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
         "content_width": "md",
         "mobile_text_position": "place-self-end-start text-start",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "desktop_text_position": "sm:place-self-end-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
