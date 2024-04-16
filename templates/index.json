@@ -275,8 +275,9 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/040224-tsgaco_banner.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/s24driftpoloalt1000x_0001s_0004_TSG-SS24-Builder-KHP-147.jpg",
             "subheading": "Meet the up-to-the-moment collection of our newest, latest and greatest gear and goods.",
-            "title": "NEW THIS WEEK",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 780,
