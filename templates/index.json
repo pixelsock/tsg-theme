@@ -220,42 +220,6 @@
         "button_text_color": ""
       }
     },
-    "rich_text_yPCbG8": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_BVgRVV": {
-          "type": "subheading",
-          "settings": {
-            "text": "'TIS THE SEASON"
-          }
-        },
-        "heading_KKN7xb": {
-          "type": "heading",
-          "settings": {
-            "text": "NEW ARRIVALS MOTHERLOAD",
-            "heading_tag": "h2"
-          }
-        },
-        "richtext_N3rCgf": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Meet the up-to-the-moment collection of our newest, latest and greatest gear and goods.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_BVgRVV",
-        "heading_KKN7xb",
-        "richtext_N3rCgf"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
     "image_with_text_overlay_B4prAx": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -304,6 +268,113 @@
         "overlay_opacity": 0
       }
     },
+    "slideshow_7cYzUq": {
+      "type": "slideshow",
+      "blocks": {
+        "image_cReNYf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/040224-tsgaco_banner.jpg",
+            "subheading": "Meet the up-to-the-moment collection of our newest, latest and greatest gear and goods.",
+            "title": "NEW THIS WEEK",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NEW ARRIVALS",
+            "button_1_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_cReNYf"
+      ],
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": false,
+        "media_size": "sm",
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "featured_collections_iT3pdC": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_CYpWzq": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "products_count": 4,
+            "title": "OUR BEST SELLERS OF SPRING",
+            "link_url": "shopify:\/\/collections\/best-sellers",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_CYpWzq"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "rich_text_yPCbG8": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_BVgRVV": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_KKN7xb": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_N3rCgf": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_BVgRVV",
+        "heading_KKN7xb",
+        "richtext_N3rCgf"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "lg",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
     "slideshow_KgiFpE": {
       "type": "slideshow",
       "blocks": {
@@ -342,8 +413,8 @@
         "allow_transparent_header": true,
         "show_next_section_button": false,
         "media_size": "auto",
-        "autoplay": true,
-        "autoplay_pause_on_video": true,
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
         "cycle_speed": 4,
         "background": "#000000",
         "controls_color": "#ffffff"
@@ -797,8 +868,10 @@
     "slideshow",
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "multiple-media-with-text",
-    "rich_text_yPCbG8",
     "image_with_text_overlay_B4prAx",
+    "slideshow_7cYzUq",
+    "featured_collections_iT3pdC",
+    "rich_text_yPCbG8",
     "slideshow_KgiFpE",
     "multiple_media_with_text_DYhQ7U",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
