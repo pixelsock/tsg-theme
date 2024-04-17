@@ -419,7 +419,7 @@
         "image_9w6Xz9"
       ],
       "custom_css": [
-        ".h6 {margin-top: -0.5rem; ; font-size: 24px;}"
+        ".h6 {margin-top: -0.5rem; font-size: 24px;}"
       ],
       "settings": {
         "allow_transparent_header": true,
@@ -756,7 +756,7 @@
         "e5b09454-6655-41a1-a720-765a5e69f3a2"
       ],
       "custom_css": [
-        ".h2 {margin-top: 0rem; margin-bottom: -1.5rem;}",
+        ".h2 {margin-top: 0rem; margin-bottom: -0.5rem;}",
         ".section-spacing {margin-top: 24px;}",
         ".button {margin-top: -7.5rem;}"
       ],
