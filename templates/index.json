@@ -328,7 +328,7 @@
             "products_count": 4,
             "title": "OUR BEST SELLERS OF SPRING",
             "link_url": "shopify:\/\/collections\/best-sellers",
-            "link_text": ""
+            "link_text": "SHOP NOW"
           }
         }
       },
@@ -336,7 +336,8 @@
         "collection_CYpWzq"
       ],
       "custom_css": [
-        ".h2 {margin-top: -0.5rem; margin-bottom: -1rem;}"
+        ".h2 {margin-top: -0.5rem; margin-bottom: -1rem;}",
+        ".floating-controls-container {margin-bottom: -1.5rem;}"
       ],
       "settings": {
         "separate_section_with_border": false,
