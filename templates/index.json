@@ -758,7 +758,7 @@
       "custom_css": [
         ".h2 {margin-top: 0rem; margin-bottom: -0.5rem;}",
         ".section-spacing {margin-top: 24px;}",
-        ".button {margin-top: -7.5rem;}"
+        ".button {margin-top: -7.5rem;"
       ],
       "settings": {
         "separate_section_with_border": true,
