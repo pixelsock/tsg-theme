@@ -708,8 +708,8 @@
         "e5b09454-6655-41a1-a720-765a5e69f3a2"
       ],
       "custom_css": [
-        ".h2 {margin-top: -1.5rem; margin-bottom: -0.5rem;}",
-        ".h6.text-center {margin-top: -1.5rem; margin-bottom: 1.5rem;}"
+        ".h2 {margin-top: -1.5rem; margin-bottom: -0rem;}",
+        ".floating-controls-container {margin-top: -0.05rem; margin-bottom: -1.5rem;}"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -789,14 +789,14 @@
         "look-1"
       ],
       "custom_css": [
-        ".h2 {margin-top: -0.5rem; margin-bottom: -0.5rem;}",
+        ".h2 {margin-top: 0rem; margin-bottom: -0.5rem;}",
         ".floating-controls-container {margin-top: -3rem; margin-bottom: -1.5rem;}"
       ],
       "settings": {
         "separate_section_with_border": true,
-        "subheading": "",
+        "subheading": "Quick access to the gear we use in the field and on the river.",
         "title": "What we're wearing in the field.",
-        "content": "<p>Quick access to the gear we use in the field and on the river.<\/p>",
+        "content": "",
         "popover_title": "SHOP THE GEAR"
       }
     },
