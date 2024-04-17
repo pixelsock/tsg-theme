@@ -337,7 +337,8 @@
       ],
       "custom_css": [
         ".h2 {margin-top: -0.5rem; margin-bottom: -1rem;}",
-        ".floating-controls-container {margin-bottom: -1.5rem;}"
+        ".floating-controls-container {margin-bottom: -1.5rem;}",
+        ".container {margin-bottom: -1.25rem}"
       ],
       "settings": {
         "separate_section_with_border": false,
@@ -710,7 +711,8 @@
       ],
       "custom_css": [
         ".h2 {margin-top: -0.5rem; margin-bottom: -0.5rem;}",
-        ".floating-controls-container {margin-bottom: -1.5rem;}"
+        ".floating-controls-container {margin-bottom: -2.5rem;}",
+        ".container {margin-bottom: -1.75rem;}"
       ],
       "settings": {
         "separate_section_with_border": true,
