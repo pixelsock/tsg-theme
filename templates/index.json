@@ -711,7 +711,7 @@
       ],
       "custom_css": [
         ".h2 {margin-top: -0.5rem; margin-bottom: -0.5rem;}",
-        ".floating-controls-container {margin-bottom: -2.5rem;}",
+        ".floating-controls-container {margin-bottom: -1.5rem;}",
         ".container {margin-bottom: -1.75rem;}"
       ],
       "settings": {
