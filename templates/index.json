@@ -432,54 +432,6 @@
         "controls_color": "#ffffff"
       }
     },
-    "multiple_media_with_text_DYhQ7U": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image_tMLVf9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/turtleboxgen2main1000x_0004s_0003_Layer1.jpg",
-            "rotation": 0
-          }
-        },
-        "image_cf4bAR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/main1000x_0001_TSG_Clubshort_bonecopydenim.jpg",
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_tMLVf9",
-        "image_cf4bAR"
-      ],
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": false,
-        "separate_section_with_border": true,
-        "media_position_desktop": "after_text",
-        "media_position_mobile": "after_text",
-        "media_layout": "separated",
-        "media_alignment": "center",
-        "media_alignment_offset": 0,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "center",
-        "subheading": "'TIS THE SEASON",
-        "title": "NEW ARRIVALS MOTHERLOAD",
-        "content": "<p>Meet the up-to-the-moment collection of our newest, latest and greatest gear and goods.<\/p>",
-        "button_1_text": "SHOP NOW",
-        "button_1_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
-        "button_1_style": "outline",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid",
-        "background": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "11300496-0b96-4e9c-939f-8b4fa6c86620": {
       "type": "collection-list",
       "blocks": {
@@ -756,9 +708,8 @@
         "e5b09454-6655-41a1-a720-765a5e69f3a2"
       ],
       "custom_css": [
-        ".h2 {margin-top: 0rem; margin-bottom: -0.5rem;}",
-        ".section-spacing {margin-top: 24px;}",
-        ".button {margin-top: -7.5rem;"
+        ".h2 {margin-top: -1.5rem; margin-bottom: -0.5rem;}",
+        ".h6.text-center {margin-top: -1.5rem; margin-bottom: 1.5rem;}"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -838,7 +789,8 @@
         "look-1"
       ],
       "custom_css": [
-
+        ".h2 {margin-top: -0.5rem; margin-bottom: -0.5rem;}",
+        ".floating-controls-container {margin-top: -3rem; margin-bottom: -1.5rem;}"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -893,7 +845,6 @@
     "featured_collections_iT3pdC",
     "rich_text_yPCbG8",
     "slideshow_KgiFpE",
-    "multiple_media_with_text_DYhQ7U",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "16c35784-55f0-4e62-a535-e33bcc8677a3",
     "featured-collections",
