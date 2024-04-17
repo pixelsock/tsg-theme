@@ -709,7 +709,7 @@
       ],
       "custom_css": [
         ".h2 {margin-top: -1rem; margin-bottom: -0rem;}",
-        ".floating-controls-container {margin-top: -0.05rem; margin-bottom: -1.5rem;}"
+        ".floating-controls-container {margin-bottom: -1.5rem;}"
       ],
       "settings": {
         "separate_section_with_border": true,
