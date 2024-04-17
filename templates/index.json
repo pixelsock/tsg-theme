@@ -304,6 +304,9 @@
       "block_order": [
         "image_cReNYf"
       ],
+      "custom_css": [
+        ".h6 {margin-top: -0.5rem; margin-bottom: -1.5rem;}"
+      ],
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": false,
