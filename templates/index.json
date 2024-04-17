@@ -709,7 +709,7 @@
         "e5b09454-6655-41a1-a720-765a5e69f3a2"
       ],
       "custom_css": [
-        ".h2 {margin-top: -1rem; margin-bottom: -0rem;}",
+        ".h2 {margin-top: -0.5rem; margin-bottom: -0.5rem;}",
         ".floating-controls-container {margin-bottom: -1.5rem;}"
       ],
       "settings": {
@@ -720,7 +720,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.2,
         "vertical_spacing_factor": 1.4,
-        "subheading": "Discover Quality in Every Thread with Our Exclusive Wax-Coated Cotton and Spandex™ Blend at TSG."
+        "subheading": "Our Exclusive Wax-Coated Cotton and Spandex™ Blend at TSG."
       }
     },
     "shop-the-look": {
