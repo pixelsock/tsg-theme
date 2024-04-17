@@ -710,7 +710,7 @@
         "e5b09454-6655-41a1-a720-765a5e69f3a2"
       ],
       "custom_css": [
-        ".h2 {margin-top: -0.75rem; margin-bottom: -0.5rem;}",
+        ".h2 {margin-top: -0.75rem; margin-bottom: -1rem;}",
         ".floating-controls-container {margin-bottom: -1.5rem;}",
         ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}"
       ],
