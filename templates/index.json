@@ -418,6 +418,9 @@
       "block_order": [
         "image_9w6Xz9"
       ],
+      "custom_css": [
+        ".h6 {margin-top: -0.5rem; ; font-size: 24px;}"
+      ],
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": false,
