@@ -766,6 +766,7 @@
         },
         "look-1": {
           "type": "look",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/072723-new-headwear_mobile-Hero.jpg",
             "hot_spots_background": "#ffffff",
@@ -791,8 +792,9 @@
       ],
       "custom_css": [
         ".h2 {margin-top: 0.5rem; margin-bottom: -0.5rem;}",
-        ".floating-controls-container {margin-top: -3rem; margin-bottom: -1.5rem;}",
-        ".container {margin-bottom: -1.75rem;}"
+        ".floating-controls-container {margin-top: -3rem; margin-bottom: -0rem;}",
+        ".container {margin-bottom: -1.75rem;}",
+        ".shop-the-look__carousel {margin-bottom: 0.5rem;}"
       ],
       "settings": {
         "separate_section_with_border": true,
