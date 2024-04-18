@@ -155,6 +155,12 @@
             "page": ""
           }
         },
+        "text_AAKhF6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.dropship | metafield_tag }}<\/p>"
+          }
+        },
         "f75034d7-0ec8-4b1d-84e6-da5efa720764": {
           "type": "share_buttons",
           "disabled": true,
@@ -275,6 +281,7 @@
         "dd52afe9-c3ed-44b9-80b8-f9061e29964a",
         "5ffbdf97-a5b9-4cc0-860a-60d281aa83ac",
         "accordion_fmWEpi",
+        "text_AAKhF6",
         "f75034d7-0ec8-4b1d-84e6-da5efa720764",
         "707fefa4-f06c-4419-990e-cc836ef01909",
         "1895c9fb-ace6-4d23-bbdc-08b0805bda68",
