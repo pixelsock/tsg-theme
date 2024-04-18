@@ -40,6 +40,9 @@
         "655c721e-32d7-4fc0-aea0-d1419e823573",
         "aba604b8-5a73-45fe-b5b0-d34c16392dce"
       ],
+      "custom_css": [
+        "@media (max-width: 639px) {.footer__block-list {grid-template-rows: repeat(2, 1fr); grid-template-columns: repeat(2, 1fr); }}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "show_social_media": true,
