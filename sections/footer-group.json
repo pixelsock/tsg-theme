@@ -42,7 +42,7 @@
       ],
       "custom_css": [
         ".footer__block-list {gap: 2rem;}",
-        "@media (max-width: 639px) {.footer__block-list {grid-template-rows: repeat(2, 1fr); grid-template-columns: repeat(2, 1fr); }}"
+        "@media (max-width: 700px) {.footer__block-list {grid-template-rows: repeat(2, 1fr); grid-template-columns: repeat(2, 1fr); }}"
       ],
       "settings": {
         "separate_section_with_border": true,
