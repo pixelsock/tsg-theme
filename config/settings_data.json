@@ -176,7 +176,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".product-gallery {padding-bottom: 0px; margin-bottom: -4.5rem;}",
+      ".product-gallery {padding-bottom: px; margin-bottom: -3.5rem;}",
       "th,.size-guide tr td:first-child {opacity: 1; text-align: center; background-color: #262f4d; color: white; font-weight: bold; vertical-align: middle; padding: 1rem; font-size: 1rem;}",
       ".customer-account-overview th {opacity: 1; text-align: left; background-color: #262f4d; color: #fff; vertical-align: middle; padding: 0.5rem; font-size: 0.75rem;}",
       ".customer-account-overview :is(th, td):last-child {text-align: right;}",
