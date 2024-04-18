@@ -44,11 +44,6 @@
           "settings": {
           }
         },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {
-          }
-        },
         "e3537eb7-87d7-4dc0-a917-b7c1a48da8aa": {
           "type": "product_variations",
           "settings": {
@@ -86,6 +81,11 @@
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {
           }
         },
         "description": {
@@ -262,12 +262,12 @@
         "price",
         "121dc7ac-4018-4486-892f-4571b772c4de",
         "5ce33f42-3250-40e6-8ce1-d7a8683dbae5",
-        "payment_terms",
         "e3537eb7-87d7-4dc0-a917-b7c1a48da8aa",
         "separator_dXB68M",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "payment_terms",
         "description",
         "52613e88-2864-490b-bf51-1f6b7f7f7f3f",
         "accordion_NtmkBd",
