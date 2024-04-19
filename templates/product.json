@@ -88,69 +88,6 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false,
-            "show_below_gallery": true
-          }
-        },
-        "52613e88-2864-490b-bf51-1f6b7f7f7f3f": {
-          "type": "accordion",
-          "settings": {
-            "show_below_gallery": true,
-            "icon": "none",
-            "title": "Features",
-            "content": "{{ product.metafields.custom.features_new | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "accordion_NtmkBd": {
-          "type": "accordion",
-          "settings": {
-            "show_below_gallery": true,
-            "icon": "none",
-            "title": "Specs",
-            "content": "{{ product.metafields.custom.specs | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "3e7d8f07-a3c9-49fb-97ce-3b96c81cec0a": {
-          "type": "accordion",
-          "settings": {
-            "show_below_gallery": true,
-            "icon": "none",
-            "title": "Materials",
-            "content": "<p>{{ product.metafields.custom.materials | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
-        "dd52afe9-c3ed-44b9-80b8-f9061e29964a": {
-          "type": "accordion",
-          "settings": {
-            "show_below_gallery": true,
-            "icon": "none",
-            "title": "Care Guide",
-            "content": "<p>{{ product.metafields.descriptors.care_guide.value }}<\/p>",
-            "page": ""
-          }
-        },
-        "5ffbdf97-a5b9-4cc0-860a-60d281aa83ac": {
-          "type": "accordion",
-          "settings": {
-            "show_below_gallery": true,
-            "icon": "none",
-            "title": "Fit & Size",
-            "content": "<p>{{ product.metafields.custom.fit_size.value }}<\/p>",
-            "page": ""
-          }
-        },
-        "text_AAKhF6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.custom.dropship | metafield_tag }}<\/p>"
-          }
-        },
         "91c578f3-33c8-4bbf-afdb-6aa8668231da": {
           "type": "separator",
           "settings": {
@@ -162,9 +99,72 @@
             "liquid": "<div class=\"custom-stack product\">\n    <div class=\"product-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/8799\/files\/101623-product-page-USP-graphic-197x144-02_fd7f8850-8b7d-466d-82ce-5aabd54069d1.svg?v=1700064601?v=1700063708\"\/>\n    <\/div>\n    <div class=\"product-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/8799\/files\/101623-product-page-USP-graphic-197x144-04_d337eec0-6e46-4f47-8404-1aaba1261e52.svg?v=1700064600\"\/>\n    <\/div>\n    <div class=\"product-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/8799\/files\/101623-product-page-USP-graphic-197x144-01_5a2818a8-0554-40af-970c-2ff90b54cff5.svg?v=1700064600\"\/>\n    <\/div>\n    <div class=\"product-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/8799\/files\/101623-product-page-USP-graphic-197x144-03_cfd7a4ab-4e92-4799-b4bb-595c552a64bc.svg?v=1700064600\"\/>\n    <\/div>\n<\/div>\n<style>\n.custom-stack.product {\n    display: grid;\n    grid-gap: 10px;\n    align-items: end;\n    grid-template-columns: repeat(2, 1fr); \/* Default to 2 columns for mobile *\/\n}\n\n.product-item {\n    background: none;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.product-item img {\n    width: 100px;\n    height: 100px;\n}\n\n\/* Media query for desktop *\/\n@media (min-width: 768px) {\n    .custom-stack.product {\n        grid-template-columns: repeat(4, 1fr); \/* 4 columns on desktop *\/\n    }\n}\n\n<\/style>"
           }
         },
+        "text_AAKhF6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.dropship | metafield_tag }}<\/p>"
+          }
+        },
         "f59d8ef0-dace-48a3-b374-45406cc5e458": {
           "type": "separator",
           "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "52613e88-2864-490b-bf51-1f6b7f7f7f3f": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Features",
+            "content": "{{ product.metafields.custom.features_new | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "accordion_NtmkBd": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Specs",
+            "content": "{{ product.metafields.custom.specs | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "3e7d8f07-a3c9-49fb-97ce-3b96c81cec0a": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Materials",
+            "content": "<p>{{ product.metafields.custom.materials | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "dd52afe9-c3ed-44b9-80b8-f9061e29964a": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Care Guide",
+            "content": "<p>{{ product.metafields.descriptors.care_guide.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "5ffbdf97-a5b9-4cc0-860a-60d281aa83ac": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Fit & Size",
+            "content": "<p>{{ product.metafields.custom.fit_size.value }}<\/p>",
+            "page": ""
           }
         },
         "accordion_fmWEpi": {
@@ -192,16 +192,16 @@
         "quantity_selector",
         "buy_buttons",
         "payment_terms",
+        "91c578f3-33c8-4bbf-afdb-6aa8668231da",
+        "c679f56d-abe2-40cf-b46d-860f17955676",
+        "text_AAKhF6",
+        "f59d8ef0-dace-48a3-b374-45406cc5e458",
         "description",
         "52613e88-2864-490b-bf51-1f6b7f7f7f3f",
         "accordion_NtmkBd",
         "3e7d8f07-a3c9-49fb-97ce-3b96c81cec0a",
         "dd52afe9-c3ed-44b9-80b8-f9061e29964a",
         "5ffbdf97-a5b9-4cc0-860a-60d281aa83ac",
-        "text_AAKhF6",
-        "91c578f3-33c8-4bbf-afdb-6aa8668231da",
-        "c679f56d-abe2-40cf-b46d-860f17955676",
-        "f59d8ef0-dace-48a3-b374-45406cc5e458",
         "accordion_fmWEpi"
       ],
       "custom_css": [
