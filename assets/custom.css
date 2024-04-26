@@ -209,7 +209,9 @@ img.blog-post-card__image {
     font-weight: bold;
 }
 
-
+.legend {
+  font-weight: bold;
+}
 
 
   :checked + .block-swatch.is-disabled {
