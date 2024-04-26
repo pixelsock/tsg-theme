@@ -208,7 +208,9 @@ img.blog-post-card__image {
     max-width: calc(25% - 0.500rem); /* Ensuring the maximum width */
     font-weight: bold;
 }
-
+.legend {
+  font-weight: bold;
+}
 
 
 
