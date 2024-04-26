@@ -6781,7 +6781,7 @@ tfoot td {
 }
 
 .text-subdued {
-  color: rgb(var(--text-color) / .65);
+  color: rgb(var(--border-color) / .65);
   font-weight: bold;
 }
 
