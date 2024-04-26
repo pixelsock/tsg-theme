@@ -114,13 +114,13 @@
           "type": "description",
           "settings": {
             "collapse_content": false,
-            "show_below_gallery": false
+            "show_below_gallery": true
           }
         },
         "52613e88-2864-490b-bf51-1f6b7f7f7f3f": {
           "type": "accordion",
           "settings": {
-            "show_below_gallery": false,
+            "show_below_gallery": true,
             "icon": "none",
             "title": "Features",
             "content": "{{ product.metafields.custom.features_new | metafield_tag }}",
@@ -130,7 +130,7 @@
         "accordion_NtmkBd": {
           "type": "accordion",
           "settings": {
-            "show_below_gallery": true,
+            "show_below_gallery": false,
             "icon": "none",
             "title": "Specs",
             "content": "{{ product.metafields.custom.specs | metafield_tag }}",
@@ -140,7 +140,7 @@
         "3e7d8f07-a3c9-49fb-97ce-3b96c81cec0a": {
           "type": "accordion",
           "settings": {
-            "show_below_gallery": false,
+            "show_below_gallery": true,
             "icon": "none",
             "title": "Materials",
             "content": "<p>{{ product.metafields.custom.materials | metafield_tag }}<\/p>",
@@ -150,7 +150,7 @@
         "dd52afe9-c3ed-44b9-80b8-f9061e29964a": {
           "type": "accordion",
           "settings": {
-            "show_below_gallery": false,
+            "show_below_gallery": true,
             "icon": "none",
             "title": "Care Guide",
             "content": "<p>{{ product.metafields.descriptors.care_guide.value }}<\/p>",
@@ -160,7 +160,7 @@
         "5ffbdf97-a5b9-4cc0-860a-60d281aa83ac": {
           "type": "accordion",
           "settings": {
-            "show_below_gallery": false,
+            "show_below_gallery": true,
             "icon": "none",
             "title": "Fit & Size",
             "content": "<p>{{ product.metafields.custom.fit_size.value }}<\/p>",
@@ -170,7 +170,7 @@
         "accordion_fmWEpi": {
           "type": "accordion",
           "settings": {
-            "show_below_gallery": false,
+            "show_below_gallery": true,
             "icon": "none",
             "title": "About the Brand",
             "content": "<p>{{ product.metafields.custom.about_the_brand | metafield_tag }}<\/p>",
