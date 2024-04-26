@@ -114,7 +114,7 @@
           "type": "description",
           "settings": {
             "collapse_content": false,
-            "show_below_gallery": true
+            "show_below_gallery": false
           }
         },
         "52613e88-2864-490b-bf51-1f6b7f7f7f3f": {
