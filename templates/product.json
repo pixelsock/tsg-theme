@@ -49,6 +49,11 @@
           "settings": {
           }
         },
+        "separator_L9DGtA": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "e3537eb7-87d7-4dc0-a917-b7c1a48da8aa": {
           "type": "product_variations",
           "settings": {
@@ -187,6 +192,7 @@
         "payment_terms",
         "121dc7ac-4018-4486-892f-4571b772c4de",
         "5ce33f42-3250-40e6-8ce1-d7a8683dbae5",
+        "separator_L9DGtA",
         "e3537eb7-87d7-4dc0-a917-b7c1a48da8aa",
         "separator_dXB68M",
         "variant_picker",
