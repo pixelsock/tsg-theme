@@ -207,7 +207,6 @@ img.blog-post-card__image {
     box-sizing: border-box;
     max-width: calc(25% - 0.500rem); /* Ensuring the maximum width */
     font-weight: bold;
-    border-width: 1px;
 }
 
 
