@@ -130,6 +130,7 @@ fieldset {
 
 legend {
   padding: 0;
+  font-weight: bold;
 }
 
 ul, ol, menu {
