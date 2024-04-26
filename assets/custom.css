@@ -203,9 +203,9 @@ img.blog-post-card__image {
 .block-swatch {
     background-color: white;
     padding: .25rem;
-    flex: 1 1 calc(25% - 0.625rem); /* Each element takes up to one-quarter of the container's width */
+    flex: 1 1 calc(25% - 0.725rem); /* Each element takes up to one-quarter of the container's width */
     box-sizing: border-box;
-    max-width: calc(25% - 0.625rem); /* Ensuring the maximum width */
+    max-width: calc(25% - 0.725rem); /* Ensuring the maximum width */
 }
 
 
