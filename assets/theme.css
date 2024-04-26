@@ -3461,8 +3461,8 @@ tfoot td {
 }
 
 .quantity-selector {
-  --quantity-selector-height: 2rem;
-  --quantity-selector-input-width: 3rem;
+  --quantity-selector-height: 3rem;
+  --quantity-selector-input-width: 2rem;
   --tooltip-offset: calc(-1 * var(--quantity-selector-height) / 2 + 1rem);
   grid-template-columns: var(--quantity-selector-height) auto var(--quantity-selector-height);
   grid-auto-rows: var(--quantity-selector-height);
