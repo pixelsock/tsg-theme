@@ -112,7 +112,7 @@
         </a>
       {%- endif -%}
     {%- else -%}
-      <label class="block-swatch" {% if selected %}style="background-color=blue;"{% endif %} for="{{ id | escape }}" data-option-value>{{ value }}</label>
+      <label class="block-swatch" for="{{ id | escape }}" data-option-value>{{ value }}</label>
     {%- endif -%}
 
   {%- when 'block' -%}
