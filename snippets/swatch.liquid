@@ -32,7 +32,7 @@
 {%- endcomment -%}
 
 {%- capture id -%}swatch-{{ id_prefix }}-{{ section.id }}-{{ form }}-{{ name }}-{{ value | handle }}{%- endcapture -%}
-<div style="display: hidden;">{{ name }}+++++{{ value | handle }}</div>
+<div style="display: none;">{{ name }}+++++{{ value | handle }}</div>
 {%- liquid
   if swatch == 'color' or swatch == 'block' and show_color
     assign swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />'
