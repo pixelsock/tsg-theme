@@ -32,7 +32,7 @@
 {%- endcomment -%}
 
 {%- capture id -%}swatch-{{ id_prefix }}-{{ section.id }}-{{ form }}-{{ name }}-{{ value | handle }}{%- endcapture -%}
-
+<div style="display: hidden;">{{ name }}+++++{{ value | handle }}</div>
 {%- liquid
   if swatch == 'color' or swatch == 'block' and show_color
     assign swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />'
@@ -117,7 +117,7 @@
 
   {%- when 'block' -%}
     {%- if href == blank -%}
-      <label class="block-swatch" {% if selected %}style="background-color: white;"{% endif %} for="{{ id | escape }}" data-option-value>
+      <label class="block-swatch" for="{{ id | escape }}" data-option-value>
         {%- if show_color -%}
           <span class="block-swatch__color" style="{{ swatch_style }}"></span>
         {%- endif -%}
@@ -125,7 +125,7 @@
         <span>{{ value }}</span>
       </label>
     {%- else -%}
-      <a href="{{ href }}" {% if selected %}style="background-color: white;"{% endif %} class="block-swatch {% if selected %}is-selected{% endif %}">
+      <a href="{{ href }}" class="block-swatch {% if selected %}is-selected{% endif %}">
         {%- if show_color -%}
           <span
             class="block-swatch__color {% if settings.round_color_swatches %}rounded-full{% endif %}"
