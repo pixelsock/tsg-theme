@@ -205,7 +205,7 @@ img.blog-post-card__image {
     padding: .25rem;
     flex: 1 1 calc(20% - 0.500rem); /* Each element takes up to one-fifth of the container's width */
     box-sizing: border-box;
-    max-width: calc(35% - 0.500rem); /* Ensuring the maximum width */
+    max-width: calc(50% - 0.500rem); /* Ensuring the maximum width */
     font-weight: 600;
 }
 
