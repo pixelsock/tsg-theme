@@ -211,7 +211,7 @@ img.blog-post-card__image {
 }
 
 .block-swatch-variant {
-    width: calc(50% - 0.500rem); /* Each element takes half of the container's width */
+    min-width: calc(50% - 0.500rem); /* Each element takes up at least half of the container's width */
     max-width: calc(50% - 0.500rem); /* Ensuring the maximum width */
 }
 
