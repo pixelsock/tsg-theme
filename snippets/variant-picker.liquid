@@ -124,7 +124,7 @@ Supported variables
                   when 'color'
                     render 'swatch' with 'color', value: value, selected: selected, name: name, form: form_id
                   when 'block'
-                    render 'swatch' with 'block', value: value, selected: selected, name: name, form: form_id, is_size: true
+                    render 'swatch' with 'block', value: value, selected: selected, name: name, form: form_id, is_size: {{ size_label_list contains option_downcase }}
                   when 'block_swatch'
                     render 'swatch' with 'block', value: value, selected: selected, name: name, form: form_id, show_color: true
                 endcase
