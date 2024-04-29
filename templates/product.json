@@ -51,6 +51,7 @@
         },
         "separator_L9DGtA": {
           "type": "separator",
+          "disabled": true,
           "settings": {
           }
         },
