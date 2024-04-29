@@ -207,6 +207,7 @@ img.blog-post-card__image {
     box-sizing: border-box;
     max-width: calc(35% - 0.500rem); /* Ensuring the maximum width */
     font-weight: 600;
+    letter-spacing: .03rem;
 }
 
   :checked + .block-swatch.is-disabled {
