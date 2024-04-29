@@ -117,7 +117,7 @@
 
   {%- when 'block' -%}
     {%- if href == blank -%}
-      <label class="block-swatch {%- if is_size == false -%}block-swatch-variant{%- endif -%}" for="{{ id | escape }}" data-option-value>
+      <label class="block-swatch {%- if is_size == false -%} block-swatch-variant{%- endif -%}" for="{{ id | escape }}" data-option-value>
         {%- if show_color -%}
           <span class="block-swatch__color" style="{{ swatch_style }}"></span>
         {%- endif -%}
