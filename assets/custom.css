@@ -211,7 +211,7 @@ img.blog-post-card__image {
 }
 
 .block-swatch-variant {
-    max-width: calc(35% - 0.500rem); /* Ensuring the maximum width */
+    max-width: calc(50% - 0.500rem); /* Ensuring the maximum width */
 }
 
   :checked + .block-swatch.is-disabled {
