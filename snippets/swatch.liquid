@@ -112,12 +112,12 @@
         </a>
       {%- endif -%}
     {%- else -%}
-      <label class="block-swatch" {% if selected %}style="background-color: white;"{% endif %} for="{{ id | escape }}" data-option-value>{{ value }}</label>
+      <label class="block-swatch" for="{{ id | escape }}" data-option-value>{{ value }}</label>
     {%- endif -%}
 
   {%- when 'block' -%}
     {%- if href == blank -%}
-      <label class="block-swatch" for="{{ id | escape }}" data-option-value>
+      <label class="block-swatch" {% if selected %}style="background-color: white;"{% endif %} for="{{ id | escape }}" data-option-value>
         {%- if show_color -%}
           <span class="block-swatch__color" style="{{ swatch_style }}"></span>
         {%- endif -%}
@@ -125,7 +125,7 @@
         <span>{{ value }}</span>
       </label>
     {%- else -%}
-      <a href="{{ href }}" class="block-swatch {% if selected %}is-selected{% endif %}">
+      <a href="{{ href }}" {% if selected %}style="background-color: white;"{% endif %} class="block-swatch {% if selected %}is-selected{% endif %}">
         {%- if show_color -%}
           <span
             class="block-swatch__color {% if settings.round_color_swatches %}rounded-full{% endif %}"
