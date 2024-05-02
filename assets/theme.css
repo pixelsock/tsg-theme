@@ -3507,7 +3507,7 @@ tfoot td {
 }
 
 .breadcrumb {
-  display: none;
+  display: flex;
 }
 
 .breadcrumb__list {
