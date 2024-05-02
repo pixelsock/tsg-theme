@@ -3507,10 +3507,7 @@ tfoot td {
 }
 
 .breadcrumb {
-  align-items: center;
-  column-gap: .5rem;
-  line-height: 1;
-  display: flex;
+  display: none;
 }
 
 .breadcrumb__list {
