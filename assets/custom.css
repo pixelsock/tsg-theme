@@ -155,7 +155,7 @@ img.blog-post-card__image {
 
 .shopify-section--main-product {
   background-color: #f1f3f3;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 .product-info__block-item:is([data-block-type="badges"]) .badge {
   color: #ffffff;
