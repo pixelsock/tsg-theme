@@ -224,7 +224,7 @@
         "mobile_controls": "dots",
         "enable_media_autoplay": false,
         "enable_video_looping": false,
-        "enable_image_zoom": true,
+        "enable_image_zoom": false,
         "max_image_zoom_level": 1
       }
     },
