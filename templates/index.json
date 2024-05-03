@@ -198,8 +198,7 @@
         "image-1"
       ],
       "custom_css": [
-        ".align-self-start {background-color: #efefef;}",
-        ".prose {background-color: #ffff;}"
+
       ],
       "settings": {
         "reveal_on_scroll": false,
