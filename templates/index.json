@@ -198,7 +198,7 @@
         "image-1"
       ],
       "custom_css": [
-        ".multiple-media-with-text__media-wrapper {mix-blend-mode: multiply; will-change: opacity;}"
+
       ],
       "settings": {
         "reveal_on_scroll": false,
