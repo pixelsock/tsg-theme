@@ -181,14 +181,14 @@
         "image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/oxbowguideshirtshortsleevealt1000x_0000s_0002_TSG-SS24-Builder-KHP-248.jpg",
+            "image": "shopify:\/\/shop_images\/TSG_guideshirt_coastaloxbowcopy.jpg",
             "rotation": 0
           }
         },
         "image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TSG_mens_ss_guideshirt_coastaloxbowcopy.jpg",
+            "image": "shopify:\/\/shop_images\/oxbowguideshirtshortsleevealt1000x_0000s_0000_TSG-SS24-Builder-KHP-246.jpg",
             "rotation": 0
           }
         }
@@ -196,6 +196,9 @@
       "block_order": [
         "image-2",
         "image-1"
+      ],
+      "custom_css": [
+        ".multiple-media-with-text__media-wrapper align-self-start {}"
       ],
       "settings": {
         "reveal_on_scroll": false,
@@ -210,8 +213,8 @@
         "subheading": "A TSGACO. BEST SELLER",
         "title": "Designed for it all: wing, water and woods.",
         "content": "<p>The Guide Shirt is constructed of an ultra-lightweight polyester and Spandex™ fabric with technical features for days.  Two external chest pockets as well as a hidden pocket helps you keep all the necessities right where you need them.  The lightweight mesh inside the rear vent helps to move moisture away from your body while helping keep this already breathable shirt as comfortable as it can be on those warmer days.<\/p>",
-        "button_1_text": "SHOP HATTERAS PANTS",
-        "button_1_link": "shopify:\/\/products\/tsg-hatteras-performance-pant-khaki",
+        "button_1_text": "SHOP GUIDE SHIRTS",
+        "button_1_link": "shopify:\/\/products\/tsg-long-sleeve-guide-shirt-coastal-oxbow",
         "button_1_style": "solid",
         "button_2_text": "",
         "button_2_link": "",
