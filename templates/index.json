@@ -181,7 +181,7 @@
         "image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TSG_guideshirt_coastal_oxbow_copy.png",
+            "image": "shopify:\/\/shop_images\/coastal-oxbow-guide-shirt-ls-no-bg.png",
             "rotation": 0
           }
         },
@@ -198,7 +198,7 @@
         "image-1"
       ],
       "custom_css": [
-
+        ".multiple-media-with-text__img {background-color: #dbdbdb;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
