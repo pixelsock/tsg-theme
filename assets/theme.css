@@ -5641,7 +5641,7 @@ tfoot td {
 
 @media screen and (min-width: 1150px) {
   .multiple-media-with-text {
-    --multiple-media-with-text-gap: 2rem 7.5rem;
+    --multiple-media-with-text-gap: 2rem 4rem;
   }
 }
 
