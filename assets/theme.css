@@ -5623,6 +5623,8 @@ tfoot td {
   grid: var(--multiple-media-with-text-media-grid);
   column-gap: var(--multiple-media-with-text-media-gap);
   display: grid;
+  mix-blend-mode: multiply;
+  will-change: opacity;
 }
 
 .multiple-media-with-text__media-wrapper > * {
