@@ -328,7 +328,7 @@ height-observer {
   text-align: center;
   cursor: pointer;
   color: rgb(var(--button-text-color, var(--button-text-primary)));
-  border: 0px solid rgb(var(--button-outline-color, var(--button-background, var(--button-background-primary))));
+  border: 1px solid rgb(var(--button-outline-color, var(--button-background, var(--button-background-primary))));
   border-radius: var(--button-border-radius);
   background-color: #0000;
   background-image: var(--initial-gradient), var(--hover-gradient);
