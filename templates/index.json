@@ -198,7 +198,7 @@
         "image-1"
       ],
       "custom_css": [
-        ".multiple-media-with-text__media-wrapper align-self-start {}"
+        ".hide-bg {mix-blend-mode: multiply; will-change: opacity;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
@@ -206,7 +206,7 @@
         "media_position_desktop": "after_text",
         "media_position_mobile": "before_text",
         "media_layout": "separated",
-        "media_alignment": "center",
+        "media_alignment": "start",
         "media_alignment_offset": 0,
         "media_mobile_alignment_offset": 0,
         "text_alignment": "start",
