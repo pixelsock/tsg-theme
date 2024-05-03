@@ -60,15 +60,6 @@
     "checkout_accent_color": "#303030",
     "checkout_button_color": "#ed8a00",
     "heading_color": "#1c1c1c",
-    "sections": {
-      "main-gift-card": {
-        "type": "main-gift-card",
-        "settings": {
-          "image": "shopify:\/\/shop_images\/tsg_onlinegiftcard_0ae8fc5c-3756-429c-92b9-81b20150bae9.png",
-          "show_qr_code": false
-        }
-      }
-    },
     "content_for_index": [
 
     ],
