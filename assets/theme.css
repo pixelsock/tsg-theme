@@ -344,6 +344,10 @@ height-observer {
   position: relative;
 }
 
+.button:hover {
+  background-color: #282E29;
+}
+
 .button--outline {
   --initial-gradient: linear-gradient(transparent, transparent);
   --hover-gradient: linear-gradient(rgb(var(--button-background, var(--button-background-primary))), rgb(var(--button-background, var(--button-background-primary))));
