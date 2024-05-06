@@ -43,6 +43,11 @@
             "show_taxes_notice": false
           }
         },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {
+          }
+        },
         "separator_JPrtGb": {
           "type": "separator",
           "settings": {
@@ -99,12 +104,6 @@
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "",
             "payment_button_text_color": ""
-          }
-        },
-        "payment_terms": {
-          "type": "payment_terms",
-          "disabled": true,
-          "settings": {
           }
         },
         "91c578f3-33c8-4bbf-afdb-6aa8668231da": {
@@ -205,6 +204,7 @@
         "121dc7ac-4018-4486-892f-4571b772c4de",
         "separator_MGrJxL",
         "price",
+        "payment_terms",
         "separator_JPrtGb",
         "5ce33f42-3250-40e6-8ce1-d7a8683dbae5",
         "separator_L9DGtA",
@@ -213,7 +213,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "payment_terms",
         "91c578f3-33c8-4bbf-afdb-6aa8668231da",
         "c679f56d-abe2-40cf-b46d-860f17955676",
         "text_AAKhF6",
