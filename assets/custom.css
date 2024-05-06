@@ -1,7 +1,6 @@
 /* ++++ START: Global ++++ */
 .button:hover {
   background: #282E29;
-  border: 2px solid #282E29;
 }
 
 .button--outline {
