@@ -9,6 +9,11 @@
   border-color: #7B6729;
 }
 
+.newsletter .button:hover {
+  background: #7B6729;
+  border-color: #7B6729;
+}
+
 .slideshow__slide-content .button:hover {
   background: #EFEFEF;
   border-color: #EFEFEF;
