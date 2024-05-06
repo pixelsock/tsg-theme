@@ -222,7 +222,7 @@ img.blog-post-card__image {
     max-width: calc(50% - 0.500rem); /* Ensuring the maximum width */
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 599px) {
   .block-swatch-variant {
     min-width: calc(100% - 0.500rem); /* Each element takes up at least half of the container's width */
     max-width: calc(100% - 0.500rem); /* Ensuring the maximum width */
