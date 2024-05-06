@@ -136,10 +136,6 @@ img.blog-post-card__image {
     align-items: start;
   }
 
-  button.button.w-full:hover {
-    background: #b3b7ba;
-    border: 1px solid;
-  }
   .shopify-payment-button__button--unbranded:hover:not([disabled]) {
     background: #b2b7ba;
     border: 1px solid;
