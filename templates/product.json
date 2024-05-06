@@ -25,15 +25,15 @@
             "heading_tag": "h4"
           }
         },
+        "separator_MGrJxL": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
-          }
-        },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {
           }
         },
         "121dc7ac-4018-4486-892f-4571b772c4de": {
@@ -41,6 +41,16 @@
           "settings": {
             "show_empty": true,
             "rating_mode": "rating"
+          }
+        },
+        "separator_JPrtGb": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {
           }
         },
         "5ce33f42-3250-40e6-8ce1-d7a8683dbae5": {
@@ -189,9 +199,11 @@
         "separator",
         "vendor",
         "title",
+        "separator_MGrJxL",
         "price",
-        "payment_terms",
         "121dc7ac-4018-4486-892f-4571b772c4de",
+        "separator_JPrtGb",
+        "payment_terms",
         "5ce33f42-3250-40e6-8ce1-d7a8683dbae5",
         "separator_L9DGtA",
         "e3537eb7-87d7-4dc0-a917-b7c1a48da8aa",
