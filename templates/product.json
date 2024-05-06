@@ -213,7 +213,8 @@
       ],
       "custom_css": [
         ".block-swatch.is-disabled {background-color: #dbdbdb;}",
-        ".quantity-selector {margin-top: 1rem;}"
+        ".quantity-selector {margin-top: 1rem;}",
+        ".variant-picker {padding-bottom: 0.5rem;}"
       ],
       "settings": {
         "container_size": "lg",
