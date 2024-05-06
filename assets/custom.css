@@ -4,6 +4,11 @@
   border-color: #CF7900;
 }
 
+.buy-buttons .button:hover {
+  background: #7B6729;
+  border-color: #7B6729;
+}
+
 .button--outline {
   border: 2px solid #303030;
 }
