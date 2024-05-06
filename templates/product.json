@@ -214,7 +214,8 @@
       "custom_css": [
         ".block-swatch.is-disabled {background-color: #dbdbdb;}",
         ".quantity-selector {margin-top: 1rem;}",
-        ".variant-picker {padding-bottom: 0.5rem;}"
+        ".variant-picker {padding-bottom: 0.5rem;}",
+        ".rating-badge {padding-top: 0.25rem;}"
       ],
       "settings": {
         "container_size": "lg",
