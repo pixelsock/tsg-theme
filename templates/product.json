@@ -212,7 +212,8 @@
         "accordion_fmWEpi"
       ],
       "custom_css": [
-        ".block-swatch.is-disabled {background-color: #dbdbdb;}"
+        ".block-swatch.is-disabled {background-color: #dbdbdb;}",
+        ".quantity-selector {margin-top: 1rem;}"
       ],
       "settings": {
         "container_size": "lg",
