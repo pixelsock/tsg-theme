@@ -7587,7 +7587,7 @@ tfoot td {
 
 .h4, :where(.prose h4) {
   font-size: var(--text-h4);
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .h5, :where(.prose h5) {
