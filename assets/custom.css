@@ -377,6 +377,13 @@ th,
   padding-bottom: 0px;
   margin-bottom: -3.5rem;
 }
+
+@media screen and (max-width: 699px) {
+  .product-gallery {
+  padding-bottom: 0px;
+  margin-bottom: -1.5rem;
+  }
+  
 /* popup background color */
 #pwwp__bg-id {
   background-color: white !important;
