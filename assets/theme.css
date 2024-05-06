@@ -5911,7 +5911,7 @@ tfoot td {
 }
 
 .product-info {
-  --product-info-gap: 1rem;
+  --product-info-gap: 0.5rem;
   grid-area: product-info;
 }
 
