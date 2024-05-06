@@ -71,6 +71,7 @@
         },
         "separator_dXB68M": {
           "type": "separator",
+          "disabled": true,
           "settings": {
           }
         },
@@ -226,8 +227,7 @@
       "custom_css": [
         ".block-swatch.is-disabled {background-color: #dbdbdb;}",
         ".quantity-selector {margin-top: 1rem;}",
-        ".variant-picker {padding-bottom: 0.5rem;}",
-        ".rating-badge {padding-top: 0.25rem;}"
+        ".variant-picker {padding-bottom: 0.5rem;}"
       ],
       "settings": {
         "container_size": "lg",
