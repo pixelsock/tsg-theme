@@ -9,7 +9,7 @@
   border-color: #7B6729;
 }
 
-.prose .button:hover {
+.slideshow__slide-content .button:hover {
   background: #EFEFEF;
   border-color: #EFEFEF;
 }
