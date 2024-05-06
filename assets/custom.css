@@ -378,7 +378,7 @@ th,
   margin-bottom: -3.5rem;
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 500px) {
   .product-gallery {
   padding-bottom: 0px;
   margin-bottom: -1.5rem;
