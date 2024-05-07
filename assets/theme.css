@@ -3197,7 +3197,6 @@ tfoot td {
 
 .price-list--product {
   column-gap: 1rem;
-  margin-top: 0.25rem
 }
 
 .localization-selectors {
@@ -5773,7 +5772,8 @@ tfoot td {
 .product {
   grid: var(--product-grid, none);
   align-items: start;
-  gap: var(--product-gap, 1.875rem);
+  gap: var(--product-gap, 0);
+  /* gap: var(--product-gap, 1.875rem); */
   display: grid;
 }
 
@@ -5783,13 +5783,15 @@ tfoot td {
   }
 
   .product {
-    --product-gap: 3.5rem;
+    --product-gap: 0;
+    /* --product-gap: 3.5rem; */
   }
 }
 
 @media screen and (min-width: 1150px) {
   .product {
-    --product-gap: 5rem;
+    --product-gap: 0;
+    /* --product-gap: 5rem; */
   }
 }
 
@@ -5912,7 +5914,7 @@ tfoot td {
 }
 
 .product-info {
-  --product-info-gap: 0.5rem;
+  --product-info-gap: 1rem;
   grid-area: product-info;
 }
 
@@ -5929,19 +5931,19 @@ tfoot td {
 }
 
 .product-info__block-item:is([data-block-type="vendor"], [data-block-type="title"], [data-block-type="sku"], [data-block-type="price"]) {
-  --product-info-gap: 0rem;
+  --product-info-gap: .5rem;
 }
 
 .product-info__block-group:has(.product-info__block-item:is([data-block-type="vendor"], [data-block-type="title"], [data-block-type="sku"], [data-block-type="price"])) {
-  --product-info-gap: 0rem;
+  --product-info-gap: .5rem;
 }
 
 .product-info__block-item:is([data-block-type="variant-picker"], [data-block-type="product-variations"], [data-block-type="separator"], [data-block-type="description"], [data-block-type="text"], [data-block-type="liquid"], [data-block-type="share-buttons"]) {
-  --product-info-gap: .5rem;
+  --product-info-gap: 1.5rem;
 }
 
 .product-info__block-group:has(.product-info__block-item:is([data-block-type="variant-picker"], [data-block-type="product-variations"], [data-block-type="separator"], [data-block-type="description"], [data-block-type="text"], [data-block-type="liquid"], [data-block-type="share-buttons"])) {
-  --product-info-gap: .5rem;
+  --product-info-gap: 1.5rem;
 }
 
 .product-info__block-item:is([data-block-type="inventory"], [data-block-type="buy-buttons"], [data-block-type="pickup-availability"], [data-block-type="more-information"], [data-block-type="offers"]) {
@@ -7347,7 +7349,7 @@ tfoot td {
 }
 
 .gap-2 {
-  gap: 0.25rem;
+  gap: .5rem;
 }
 
 .gap-2\.5 {
@@ -7588,7 +7590,7 @@ tfoot td {
 
 .h4, :where(.prose h4) {
   font-size: var(--text-h4);
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 .h5, :where(.prose h5) {
