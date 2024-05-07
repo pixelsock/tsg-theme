@@ -5124,7 +5124,7 @@ tfoot td {
   gap: var(--mega-menu-linklist-gap);
   flex-wrap: wrap;
   flex: 0 auto;
-  display: flex;
+  display: inline-grid;
 }
 
 .mega-menu__linklist > * {
