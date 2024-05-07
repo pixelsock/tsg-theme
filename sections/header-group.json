@@ -48,7 +48,7 @@
         "41cc00ee-6055-4f46-8dd0-e94be7d29c8d": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Apparel",
+            "menu_item": "Apparel & Accessories",
             "images_position": "right",
             "image_1": "shopify:\/\/shop_images\/tsg-boone-pant-navy-alt.jpg",
             "image_1_heading": "A little work, a lot of play.",
@@ -88,12 +88,27 @@
             "image_2_text": "",
             "image_2_link": ""
           }
+        },
+        "mega_menu_TmAzLb": {
+          "type": "mega_menu",
+          "disabled": true,
+          "settings": {
+            "menu_item": "Brands",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
         }
       },
       "block_order": [
         "41cc00ee-6055-4f46-8dd0-e94be7d29c8d",
         "6c34292f-f545-4ae6-9fda-42c8b1da57d5",
-        "c8725d76-3b46-45a7-8f20-e1fec452f9c3"
+        "c8725d76-3b46-45a7-8f20-e1fec452f9c3",
+        "mega_menu_TmAzLb"
       ],
       "settings": {
         "enable_sticky": false,
