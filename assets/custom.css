@@ -382,7 +382,7 @@ th,
 }
 
 .product-gallery .pwzrswiper-pagination {
-  margin-top: 1rem !important;
-  line-height: 1rem;
+  margin-top: 0.875rem !important;
+  line-height: 0.875rem;
 }
 /* Product Page End */
