@@ -5099,7 +5099,7 @@ tfoot td {
   justify-content: safe center;
   align-items: start;
   column-gap: var(--mega-menu-gap);
-  background: var(--background);
+  background: rgb(var(--header-background));
   color: rgb(var(--header-text));
   border-block-end-width: 1px;
   padding-block: 2.5rem;
