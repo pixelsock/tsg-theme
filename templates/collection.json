@@ -53,52 +53,6 @@
         "promotion_link_url": "shopify:\/\/pages\/tsg-apparel-co"
       }
     },
-    "e84d2482-13b2-4890-b149-10ae72f172e3": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16748705415400__e84d2482-13b2-4890-b149-10ae72f172e3-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "STILL NOT SURE WHAT TO GET?"
-          }
-        },
-        "template--16748705415400__e84d2482-13b2-4890-b149-10ae72f172e3-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "THE GIFT OF CHOICE",
-            "heading_tag": "h1"
-          }
-        },
-        "template--16748705415400__e84d2482-13b2-4890-b149-10ae72f172e3-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Nothing like the gift of choice, right?  Our TSG gift cards can be used both online and in our flagship shop in Charlotte, NC.  <\/p><p>Now enjoy this gallery of people who are enjoying the gear they were able to purchase with their TSG Gift Card.<\/p>"
-          }
-        },
-        "13914815-a4a8-4a41-a7a9-1b6fe8f2b6ba": {
-          "type": "link",
-          "settings": {
-            "text": "CLICK HERE",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16748705415400__e84d2482-13b2-4890-b149-10ae72f172e3-subheading-1",
-        "template--16748705415400__e84d2482-13b2-4890-b149-10ae72f172e3-heading-1",
-        "template--16748705415400__e84d2482-13b2-4890-b149-10ae72f172e3-richtext-1",
-        "13914815-a4a8-4a41-a7a9-1b6fe8f2b6ba"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": true,
-        "image": "shopify:\/\/shop_images\/tsg_onlinegiftcard_bf526156-435a-4ed3-a2de-e67cb1cbca23.png",
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
-      }
-    },
     "newsletter_igGzqj": {
       "type": "newsletter",
       "settings": {
@@ -121,7 +75,6 @@
   "order": [
     "collection-banner",
     "main",
-    "e84d2482-13b2-4890-b149-10ae72f172e3",
     "newsletter_igGzqj"
   ],
   "wrapper": ".boost-sd__product-filter-fallback"
