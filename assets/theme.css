@@ -5772,8 +5772,8 @@ tfoot td {
 .product {
   grid: var(--product-grid, none);
   align-items: start;
-  /* gap: var(--product-gap, 0); */
-  gap: var(--product-gap, 1.875rem);
+  gap: var(--product-gap, 0);
+  /* gap: var(--product-gap, 1.875rem); */
   display: grid;
 }
 
