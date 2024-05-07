@@ -4861,7 +4861,6 @@ tfoot td {
   min-width: 12.5rem;
   max-width: 17.5rem;
   background: rgb(var(--header-background));
-  background-color: #faf8f6;
   color: rgb(var(--header-text));
   box-shadow: 2px 2px 6px rgb(var(--text-color) / .05);
   border-width: 0 1px 1px;
