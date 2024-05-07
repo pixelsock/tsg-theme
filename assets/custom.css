@@ -68,7 +68,7 @@ img.blog-post-card__image {
 
 /* ++++ START: Header ++++ */
 .header {
-  border-bottom: 3px solid #303030; 
+  border-bottom: 3px solid #282E29; 
 }
 
 .header__nav-icon.icon.icon-search {
@@ -127,7 +127,7 @@ img.blog-post-card__image {
   /* Product Card */
  
   .product-card__quick-add-button {
-    background: #303030;
+    background: #282E29;
     color: white;
     z-index: 1;
     padding: 0.125rem;
