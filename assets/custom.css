@@ -373,7 +373,7 @@ th,
 /* Product Page */
 .product-gallery {
   padding-bottom: 0px;
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
   /* margin-bottom: -3.5rem; */
 }
 /* popup background color */
