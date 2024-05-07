@@ -397,4 +397,16 @@ th,
     margin-top: -1rem;
   }
 }
+
+@media screen and (min-width: 1000px) {
+  .product {
+    --product-gap: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .product {
+    --product-gap: 3.5rem;
+  }
+}
 /* Product Page End */
