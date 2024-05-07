@@ -383,6 +383,7 @@ th,
 
 .product-gallery .pwzrswiper-pagination {
   margin-top: 0.875rem !important;
+  margin-bottom: 0 !important;
   line-height: 0.875rem;
 }
 
