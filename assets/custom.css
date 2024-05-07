@@ -385,4 +385,10 @@ th,
   margin-top: 0.875rem !important;
   line-height: 0.875rem;
 }
+
+@media screen and (max-width: 1000px) {
+  .product-gallery .badge-list {
+    margin-top: -1rem;
+  }
+}
 /* Product Page End */
