@@ -387,7 +387,7 @@ th,
 }
 
 @media screen and (max-width: 1000px) {
-  .product-gallery .badge-list {
+  .product-info .badge-list {
     margin-top: -1rem;
   }
 }
