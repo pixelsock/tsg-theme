@@ -398,6 +398,10 @@ th,
   }
 }
 
+.product {
+  gap: var(--product-gap, 1.25rem);
+}
+
 @media screen and (min-width: 1000px) {
   .product {
     --product-gap: 2.5rem;
