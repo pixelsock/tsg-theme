@@ -380,4 +380,9 @@ th,
 #pwwp__bg-id {
   background-color: white !important;
 }
+
+.product-gallery .pwzrswiper-pagination {
+  margin-top: 7px;
+  line-height: 1rem;
+}
 /* Product Page End */
