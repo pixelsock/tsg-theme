@@ -5772,7 +5772,7 @@ tfoot td {
 .product {
   grid: var(--product-grid, none);
   align-items: start;
-  gap: var(--product-gap, 0);
+  gap: var(--product-gap, 1.25rem);
   /* gap: var(--product-gap, 1.875rem); */
   display: grid;
 }
@@ -5783,14 +5783,12 @@ tfoot td {
   }
 
   .product {
-    /* --product-gap: 0; */
     --product-gap: 3.5rem;
   }
 }
 
 @media screen and (min-width: 1150px) {
   .product {
-    /* --product-gap: 0; */
     --product-gap: 5rem;
   }
 }
