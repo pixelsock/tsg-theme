@@ -51,7 +51,7 @@ img.blog-post-card__image {
 .customer-account-overview th {
   opacity: 1;
   text-align: left;
-  background-color: #282E29;
+  background-color: #262f4d;
   color: #fff;
   vertical-align: middle;
   padding: 0.5rem;
@@ -68,7 +68,7 @@ img.blog-post-card__image {
 
 /* ++++ START: Header ++++ */
 .header {
-  border-bottom: 3px solid #282E29; 
+  border-bottom: 3px solid #303030; 
 }
 
 .header__nav-icon.icon.icon-search {
@@ -127,7 +127,7 @@ img.blog-post-card__image {
   /* Product Card */
  
   .product-card__quick-add-button {
-    background: #282E29;
+    background: #303030;
     color: white;
     z-index: 1;
     padding: 0.125rem;
@@ -166,7 +166,7 @@ img.blog-post-card__image {
 
 
 .shopify-section--main-product {
-  background-color: #f2f2ec;
+  background-color: #f1f3f3;
   padding: 1.5rem 0;
 }
 .product-info__block-item:is([data-block-type="badges"]) .badge {
@@ -362,7 +362,7 @@ th,
 .size-guide tr td:first-child {
   opacity: 1;
   text-align: center;
-  background-color: #282E29;
+  background-color: #262f4d;
   color: white;
   font-weight: bold;
   vertical-align: middle;
@@ -372,7 +372,7 @@ th,
 
 /* Product Page */
 .product-gallery {
-  padding-bottom: 0px;
+  padding-bottom: 0 !important;
   margin-bottom: 0 !important;
   /* margin-bottom: -3.5rem; */
 }
