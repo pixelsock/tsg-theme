@@ -65,6 +65,22 @@
         "subheading": "Did you miss something?"
       }
     },
+    "recently_viewed_products_M6jQF4": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Recently viewed products",
+        "content": ""
+      }
+    },
     "55da84e4-a7f2-43f8-9271-914bd4abba56": {
       "type": "rich-text",
       "blocks": {
@@ -105,6 +121,7 @@
     "main",
     "706f911b-40ba-42de-bbda-adb772c6d4ec",
     "610fca0c-51ee-4c66-8bbf-d97121f97027",
+    "recently_viewed_products_M6jQF4",
     "55da84e4-a7f2-43f8-9271-914bd4abba56"
   ]
 }
