@@ -305,7 +305,7 @@ var CountrySelector = class extends HTMLElement {
   }
   connectedCallback() {
     this.countryElement = this.querySelector('[name="address[country]"]');
-    this.provinceElement = this.querySelector('[name="address[province]"]');
+    this.StateElement = this.querySelector('[name="address[State]"]');
     this.countryElement.addEventListener("change", __privateGet(this, _onCountryChangedListener));
     if (this.getAttribute("country") !== "") {
       this.countryElement.selectedIndex = Math.max(0, Array.from(this.countryElement.options).findIndex((option) => option.textContent === this.getAttribute("country")));
@@ -319,15 +319,15 @@ var CountrySelector = class extends HTMLElement {
 _onCountryChangedListener = new WeakMap();
 _onCountryChanged = new WeakSet();
 onCountryChanged_fn = function() {
-  const option = this.countryElement.options[this.countryElement.selectedIndex], provinces = JSON.parse(option.getAttribute("data-provinces"));
-  this.provinceElement.parentElement.hidden = provinces.length === 0;
-  if (provinces.length === 0) {
+  const option = this.countryElement.options[this.countryElement.selectedIndex], States = JSON.parse(option.getAttribute("data-States"));
+  this.StateElement.parentElement.hidden = States.length === 0;
+  if (States.length === 0) {
     return;
   }
-  this.provinceElement.innerHTML = "";
-  provinces.forEach((data) => {
-    const selected = data[1] === this.getAttribute("province") || data[0] === this.getAttribute("province");
-    this.provinceElement.options.add(new Option(data[1], data[0], selected, selected));
+  this.StateElement.innerHTML = "";
+  States.forEach((data) => {
+    const selected = data[1] === this.getAttribute("State") || data[0] === this.getAttribute("State");
+    this.StateElement.options.add(new Option(data[1], data[0], selected, selected));
   });
 };
 if (!window.customElements.get("country-selector")) {
@@ -1660,13 +1660,13 @@ _estimateShippingListener = new WeakMap();
 _estimateShipping = new WeakSet();
 estimateShipping_fn = async function(event) {
   event.preventDefault();
-  const zip = this.querySelector('[name="address[zip]"]').value, country = this.querySelector('[name="address[country]"]').value, province = this.querySelector('[name="address[province]"]').value;
+  const zip = this.querySelector('[name="address[zip]"]').value, country = this.querySelector('[name="address[country]"]').value, State = this.querySelector('[name="address[State]"]').value;
   this.submitButton.setAttribute("aria-busy", "true");
   document.documentElement.dispatchEvent(new CustomEvent("theme:loading:start", { bubbles: true }));
-  const prepareResponse = await fetch(`${Shopify.routes.root}cart/prepare_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[province]=${province}`, { method: "POST" });
+  const prepareResponse = await fetch(`${Shopify.routes.root}cart/prepare_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[State]=${State}`, { method: "POST" });
   document.documentElement.dispatchEvent(new CustomEvent("theme:loading:end", { bubbles: true }));
   if (prepareResponse.ok) {
-    const shippingRates = await __privateMethod(this, _getAsyncShippingRates, getAsyncShippingRates_fn).call(this, zip, country, province);
+    const shippingRates = await __privateMethod(this, _getAsyncShippingRates, getAsyncShippingRates_fn).call(this, zip, country, State);
     __privateMethod(this, _formatShippingRates, formatShippingRates_fn).call(this, shippingRates);
   } else {
     const jsonError = await prepareResponse.json();
@@ -1676,11 +1676,11 @@ estimateShipping_fn = async function(event) {
   this.submitButton.removeAttribute("aria-busy");
 };
 _getAsyncShippingRates = new WeakSet();
-getAsyncShippingRates_fn = async function(zip, country, province) {
-  const response = await fetch(`${Shopify.routes.root}cart/async_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[province]=${province}`);
+getAsyncShippingRates_fn = async function(zip, country, State) {
+  const response = await fetch(`${Shopify.routes.root}cart/async_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[State]=${State}`);
   const responseAsText = await response.text();
   if (responseAsText === "null") {
-    return __privateMethod(this, _getAsyncShippingRates, getAsyncShippingRates_fn).call(this, zip, country, province);
+    return __privateMethod(this, _getAsyncShippingRates, getAsyncShippingRates_fn).call(this, zip, country, State);
   } else {
     return JSON.parse(responseAsText)["shipping_rates"];
   }
