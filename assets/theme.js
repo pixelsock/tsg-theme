@@ -305,7 +305,7 @@ var CountrySelector = class extends HTMLElement {
   }
   connectedCallback() {
     this.countryElement = this.querySelector('[name="address[country]"]');
-    this.ProvinceElement = this.querySelector('[name="address[Province]"]');
+    this.provinceElement = this.querySelector('[name="address[province]"]');
     this.countryElement.addEventListener("change", __privateGet(this, _onCountryChangedListener));
     if (this.getAttribute("country") !== "") {
       this.countryElement.selectedIndex = Math.max(0, Array.from(this.countryElement.options).findIndex((option) => option.textContent === this.getAttribute("country")));
@@ -319,15 +319,15 @@ var CountrySelector = class extends HTMLElement {
 _onCountryChangedListener = new WeakMap();
 _onCountryChanged = new WeakSet();
 onCountryChanged_fn = function() {
-  const option = this.countryElement.options[this.countryElement.selectedIndex], Provinces = JSON.parse(option.getAttribute("data-Provinces"));
-  this.ProvinceElement.parentElement.hidden = Provinces.length === 0;
-  if (Provinces.length === 0) {
+  const option = this.countryElement.options[this.countryElement.selectedIndex], provinces = JSON.parse(option.getAttribute("data-provinces"));
+  this.provinceElement.parentElement.hidden = provinces.length === 0;
+  if (provinces.length === 0) {
     return;
   }
-  this.ProvinceElement.innerHTML = "";
-  Provinces.forEach((data) => {
-    const selected = data[1] === this.getAttribute("Province") || data[0] === this.getAttribute("Province");
-    this.ProvinceElement.options.add(new Option(data[1], data[0], selected, selected));
+  this.provinceElement.innerHTML = "";
+  provinces.forEach((data) => {
+    const selected = data[1] === this.getAttribute("province") || data[0] === this.getAttribute("province");
+    this.provinceElement.options.add(new Option(data[1], data[0], selected, selected));
   });
 };
 if (!window.customElements.get("country-selector")) {
@@ -462,7 +462,7 @@ function videoLoaded(videoOrArray) {
   videoOrArray = videoOrArray instanceof Element ? [videoOrArray] : Array.from(videoOrArray);
   return Promise.all(videoOrArray.map((video) => {
     return new Promise((resolve) => {
-      if (video.tagName === "VIDEO" && video.readyProvince >= HTMLMediaElement.HAVE_FUTURE_DATA || !video.offsetParent) {
+      if (video.tagName === "VIDEO" && video.readyprovince >= HTMLMediaElement.HAVE_FUTURE_DATA || !video.offsetParent) {
         resolve();
       } else {
         video.oncanplay = () => resolve();
@@ -1660,13 +1660,13 @@ _estimateShippingListener = new WeakMap();
 _estimateShipping = new WeakSet();
 estimateShipping_fn = async function(event) {
   event.preventDefault();
-  const zip = this.querySelector('[name="address[zip]"]').value, country = this.querySelector('[name="address[country]"]').value, Province = this.querySelector('[name="address[Province]"]').value;
+  const zip = this.querySelector('[name="address[zip]"]').value, country = this.querySelector('[name="address[country]"]').value, province = this.querySelector('[name="address[province]"]').value;
   this.submitButton.setAttribute("aria-busy", "true");
   document.documentElement.dispatchEvent(new CustomEvent("theme:loading:start", { bubbles: true }));
-  const prepareResponse = await fetch(`${Shopify.routes.root}cart/prepare_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[Province]=${Province}`, { method: "POST" });
+  const prepareResponse = await fetch(`${Shopify.routes.root}cart/prepare_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[province]=${province}`, { method: "POST" });
   document.documentElement.dispatchEvent(new CustomEvent("theme:loading:end", { bubbles: true }));
   if (prepareResponse.ok) {
-    const shippingRates = await __privateMethod(this, _getAsyncShippingRates, getAsyncShippingRates_fn).call(this, zip, country, Province);
+    const shippingRates = await __privateMethod(this, _getAsyncShippingRates, getAsyncShippingRates_fn).call(this, zip, country, province);
     __privateMethod(this, _formatShippingRates, formatShippingRates_fn).call(this, shippingRates);
   } else {
     const jsonError = await prepareResponse.json();
@@ -1676,11 +1676,11 @@ estimateShipping_fn = async function(event) {
   this.submitButton.removeAttribute("aria-busy");
 };
 _getAsyncShippingRates = new WeakSet();
-getAsyncShippingRates_fn = async function(zip, country, Province) {
-  const response = await fetch(`${Shopify.routes.root}cart/async_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[Province]=${Province}`);
+getAsyncShippingRates_fn = async function(zip, country, province) {
+  const response = await fetch(`${Shopify.routes.root}cart/async_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[province]=${province}`);
   const responseAsText = await response.text();
   if (responseAsText === "null") {
-    return __privateMethod(this, _getAsyncShippingRates, getAsyncShippingRates_fn).call(this, zip, country, Province);
+    return __privateMethod(this, _getAsyncShippingRates, getAsyncShippingRates_fn).call(this, zip, country, province);
   } else {
     return JSON.parse(responseAsText)["shipping_rates"];
   }
@@ -2333,7 +2333,7 @@ document.addEventListener("facet:update", async (event) => {
   const url = event.detail.url, shopifySection = document.getElementById(`shopify-section-${url.searchParams.get("section_id")}`);
   const clonedUrl = new URL(url);
   clonedUrl.searchParams.delete("section_id");
-  history.replaceProvince({}, "", clonedUrl.toString());
+  history.replaceprovince({}, "", clonedUrl.toString());
   try {
     document.documentElement.dispatchEvent(new CustomEvent("theme:loading:start", { bubbles: true }));
     const tempContent = new DOMParser().parseFromString(await (await cachedFetch(url.toString(), { signal: abortController.signal })).text(), "text/html");
@@ -3723,14 +3723,14 @@ var VariantPicker = class extends HTMLElement {
     }
     this.masterSelector.value = id;
     this.masterSelector.dispatchEvent(new Event("change", { bubbles: true }));
-    if (this.updateUrl && history.replaceProvince) {
+    if (this.updateUrl && history.replaceprovince) {
       const newUrl = new URL(window.location.href);
       if (id) {
         newUrl.searchParams.set("variant", id);
       } else {
         newUrl.searchParams.delete("variant");
       }
-      window.history.replaceProvince({ path: newUrl.toString() }, "", newUrl.toString());
+      window.history.replaceprovince({ path: newUrl.toString() }, "", newUrl.toString());
     }
     __privateMethod(this, _updateDisableSelectors, updateDisableSelectors_fn).call(this);
     this.masterSelector.form.dispatchEvent(new CustomEvent("variant:change", {
