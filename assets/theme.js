@@ -305,7 +305,7 @@ var CountrySelector = class extends HTMLElement {
   }
   connectedCallback() {
     this.countryElement = this.querySelector('[name="address[country]"]');
-    this.stateElement = this.querySelector('[name="address[state]"]');
+    this.provinceElement = this.querySelector('[name="address[province]"]');
     this.countryElement.addEventListener("change", __privateGet(this, _onCountryChangedListener));
     if (this.getAttribute("country") !== "") {
       this.countryElement.selectedIndex = Math.max(0, Array.from(this.countryElement.options).findIndex((option) => option.textContent === this.getAttribute("country")));
