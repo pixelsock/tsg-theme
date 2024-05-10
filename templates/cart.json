@@ -2,6 +2,11 @@
   "sections": {
     "main": {
       "type": "main-cart",
+      "custom_css": [
+        ".text-end {text-align: center;}",
+        ".order-summary__header {background-color: #282e29;}",
+        ".shipping-estimator__form {padding: 1rem; justify-content: center;}"
+      ],
       "settings": {
         "show_cart_note": true,
         "show_order_weight": false,
