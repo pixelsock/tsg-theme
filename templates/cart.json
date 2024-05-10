@@ -7,7 +7,7 @@
         "show_order_weight": false,
         "show_shipping_text": true,
         "show_accelerated_buttons": true,
-        "show_shipping_estimator": false
+        "show_shipping_estimator": true
       }
     },
     "706f911b-40ba-42de-bbda-adb772c6d4ec": {
