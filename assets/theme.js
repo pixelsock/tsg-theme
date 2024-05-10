@@ -2333,7 +2333,7 @@ document.addEventListener("facet:update", async (event) => {
   const url = event.detail.url, shopifySection = document.getElementById(`shopify-section-${url.searchParams.get("section_id")}`);
   const clonedUrl = new URL(url);
   clonedUrl.searchParams.delete("section_id");
-  history.replaceState({}, "", clonedUrl.toString());
+  history.replaceProvince({}, "", clonedUrl.toString());
   try {
     document.documentElement.dispatchEvent(new CustomEvent("theme:loading:start", { bubbles: true }));
     const tempContent = new DOMParser().parseFromString(await (await cachedFetch(url.toString(), { signal: abortController.signal })).text(), "text/html");
@@ -3723,14 +3723,14 @@ var VariantPicker = class extends HTMLElement {
     }
     this.masterSelector.value = id;
     this.masterSelector.dispatchEvent(new Event("change", { bubbles: true }));
-    if (this.updateUrl && history.replaceState) {
+    if (this.updateUrl && history.replaceProvince) {
       const newUrl = new URL(window.location.href);
       if (id) {
         newUrl.searchParams.set("variant", id);
       } else {
         newUrl.searchParams.delete("variant");
       }
-      window.history.replaceState({ path: newUrl.toString() }, "", newUrl.toString());
+      window.history.replaceProvince({ path: newUrl.toString() }, "", newUrl.toString());
     }
     __privateMethod(this, _updateDisableSelectors, updateDisableSelectors_fn).call(this);
     this.masterSelector.form.dispatchEvent(new CustomEvent("variant:change", {
