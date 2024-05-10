@@ -305,7 +305,7 @@ var CountrySelector = class extends HTMLElement {
   }
   connectedCallback() {
     this.countryElement = this.querySelector('[name="address[country]"]');
-    this.StateElement = this.querySelector('[name="address[State]"]');
+    this.ProvinceElement = this.querySelector('[name="address[Province]"]');
     this.countryElement.addEventListener("change", __privateGet(this, _onCountryChangedListener));
     if (this.getAttribute("country") !== "") {
       this.countryElement.selectedIndex = Math.max(0, Array.from(this.countryElement.options).findIndex((option) => option.textContent === this.getAttribute("country")));
@@ -319,15 +319,15 @@ var CountrySelector = class extends HTMLElement {
 _onCountryChangedListener = new WeakMap();
 _onCountryChanged = new WeakSet();
 onCountryChanged_fn = function() {
-  const option = this.countryElement.options[this.countryElement.selectedIndex], States = JSON.parse(option.getAttribute("data-States"));
-  this.StateElement.parentElement.hidden = States.length === 0;
-  if (States.length === 0) {
+  const option = this.countryElement.options[this.countryElement.selectedIndex], Provinces = JSON.parse(option.getAttribute("data-Provinces"));
+  this.ProvinceElement.parentElement.hidden = Provinces.length === 0;
+  if (Provinces.length === 0) {
     return;
   }
-  this.StateElement.innerHTML = "";
-  States.forEach((data) => {
-    const selected = data[1] === this.getAttribute("State") || data[0] === this.getAttribute("State");
-    this.StateElement.options.add(new Option(data[1], data[0], selected, selected));
+  this.ProvinceElement.innerHTML = "";
+  Provinces.forEach((data) => {
+    const selected = data[1] === this.getAttribute("Province") || data[0] === this.getAttribute("Province");
+    this.ProvinceElement.options.add(new Option(data[1], data[0], selected, selected));
   });
 };
 if (!window.customElements.get("country-selector")) {
@@ -462,7 +462,7 @@ function videoLoaded(videoOrArray) {
   videoOrArray = videoOrArray instanceof Element ? [videoOrArray] : Array.from(videoOrArray);
   return Promise.all(videoOrArray.map((video) => {
     return new Promise((resolve) => {
-      if (video.tagName === "VIDEO" && video.readyState >= HTMLMediaElement.HAVE_FUTURE_DATA || !video.offsetParent) {
+      if (video.tagName === "VIDEO" && video.readyProvince >= HTMLMediaElement.HAVE_FUTURE_DATA || !video.offsetParent) {
         resolve();
       } else {
         video.oncanplay = () => resolve();
@@ -1660,13 +1660,13 @@ _estimateShippingListener = new WeakMap();
 _estimateShipping = new WeakSet();
 estimateShipping_fn = async function(event) {
   event.preventDefault();
-  const zip = this.querySelector('[name="address[zip]"]').value, country = this.querySelector('[name="address[country]"]').value, State = this.querySelector('[name="address[State]"]').value;
+  const zip = this.querySelector('[name="address[zip]"]').value, country = this.querySelector('[name="address[country]"]').value, Province = this.querySelector('[name="address[Province]"]').value;
   this.submitButton.setAttribute("aria-busy", "true");
   document.documentElement.dispatchEvent(new CustomEvent("theme:loading:start", { bubbles: true }));
-  const prepareResponse = await fetch(`${Shopify.routes.root}cart/prepare_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[State]=${State}`, { method: "POST" });
+  const prepareResponse = await fetch(`${Shopify.routes.root}cart/prepare_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[Province]=${Province}`, { method: "POST" });
   document.documentElement.dispatchEvent(new CustomEvent("theme:loading:end", { bubbles: true }));
   if (prepareResponse.ok) {
-    const shippingRates = await __privateMethod(this, _getAsyncShippingRates, getAsyncShippingRates_fn).call(this, zip, country, State);
+    const shippingRates = await __privateMethod(this, _getAsyncShippingRates, getAsyncShippingRates_fn).call(this, zip, country, Province);
     __privateMethod(this, _formatShippingRates, formatShippingRates_fn).call(this, shippingRates);
   } else {
     const jsonError = await prepareResponse.json();
@@ -1676,11 +1676,11 @@ estimateShipping_fn = async function(event) {
   this.submitButton.removeAttribute("aria-busy");
 };
 _getAsyncShippingRates = new WeakSet();
-getAsyncShippingRates_fn = async function(zip, country, State) {
-  const response = await fetch(`${Shopify.routes.root}cart/async_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[State]=${State}`);
+getAsyncShippingRates_fn = async function(zip, country, Province) {
+  const response = await fetch(`${Shopify.routes.root}cart/async_shipping_rates.json?shipping_address[zip]=${zip}&shipping_address[country]=${country}&shipping_address[Province]=${Province}`);
   const responseAsText = await response.text();
   if (responseAsText === "null") {
-    return __privateMethod(this, _getAsyncShippingRates, getAsyncShippingRates_fn).call(this, zip, country, State);
+    return __privateMethod(this, _getAsyncShippingRates, getAsyncShippingRates_fn).call(this, zip, country, Province);
   } else {
     return JSON.parse(responseAsText)["shipping_rates"];
   }
