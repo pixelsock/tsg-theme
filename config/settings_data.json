@@ -46,7 +46,7 @@
     "discount_mode": "percentage",
     "cart_type": "drawer",
     "cart_icon": "shopping_bag_sharp",
-    "cart_empty_cart_link": "\/",
+    "cart_empty_cart_link": "shopify:\/\/pages\/custom-tsgapparelco",
     "cart_show_free_shipping_bar": true,
     "cart_free_shipping_threshold": "99",
     "social_facebook": "https:\/\/www.facebook.com\/TheSportingGent\/",
