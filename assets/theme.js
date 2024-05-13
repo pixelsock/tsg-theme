@@ -462,7 +462,7 @@ function videoLoaded(videoOrArray) {
   videoOrArray = videoOrArray instanceof Element ? [videoOrArray] : Array.from(videoOrArray);
   return Promise.all(videoOrArray.map((video) => {
     return new Promise((resolve) => {
-      if (video.tagName === "VIDEO" && video.readyprovince >= HTMLMediaElement.HAVE_FUTURE_DATA || !video.offsetParent) {
+      if (video.tagName === "VIDEO" && video.readyState >= HTMLMediaElement.HAVE_FUTURE_DATA || !video.offsetParent) {
         resolve();
       } else {
         video.oncanplay = () => resolve();
