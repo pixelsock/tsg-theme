@@ -1,5 +1,6 @@
 function addReadMore() {
   var collectionDescription = document.querySelector('.collection-description');
+  if (!collection-description) { return; }
   var content = collectionDescription.innerText; // Use innerText instead of innerHTML
 
   var cutoff = 250;
