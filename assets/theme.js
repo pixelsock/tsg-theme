@@ -2333,7 +2333,7 @@ document.addEventListener("facet:update", async (event) => {
   const url = event.detail.url, shopifySection = document.getElementById(`shopify-section-${url.searchParams.get("section_id")}`);
   const clonedUrl = new URL(url);
   clonedUrl.searchParams.delete("section_id");
-  history.replaceprovince({}, "", clonedUrl.toString());
+  history.replaceState({}, "", clonedUrl.toString());
   try {
     document.documentElement.dispatchEvent(new CustomEvent("theme:loading:start", { bubbles: true }));
     const tempContent = new DOMParser().parseFromString(await (await cachedFetch(url.toString(), { signal: abortController.signal })).text(), "text/html");
