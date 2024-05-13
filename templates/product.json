@@ -232,7 +232,7 @@
       ],
       "settings": {
         "container_size": "lg",
-        "product_info_size": 45,
+        "product_info_size": 40,
         "show_sticky_add_to_cart": true,
         "center_basic_info": false,
         "desktop_media_layout": "carousel_thumbnails_left",
