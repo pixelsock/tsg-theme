@@ -634,7 +634,7 @@
         "474638f9-e9f8-40de-a198-e90686a03525": {
           "type": "collection",
           "settings": {
-            "collection": "headwear",
+            "collection": "hats-headwear",
             "image": "shopify:\/\/shop_images\/A7R0958.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
