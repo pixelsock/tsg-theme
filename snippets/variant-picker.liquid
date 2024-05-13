@@ -116,7 +116,6 @@ Supported variables
                 if value == option.selected_value
                   assign selected = true
                 endif
-
                 case option_selector_type
                   when 'variant'
                     assign variant_for_value = product.variants | where: name, value | first
@@ -124,7 +123,11 @@ Supported variables
                   when 'color'
                     render 'swatch' with 'color', value: value, selected: selected, name: name, form: form_id
                   when 'block'
-                    render 'swatch' with 'block', value: value, selected: selected, name: name, form: form_id
+                    assign is_size = false
+                    if size_label_list contains option_downcase
+                      assign is_size = true
+                    endif
+                    render 'swatch' with 'block', value: value, selected: selected, name: name, form: form_id, is_size: is_size
                   when 'block_swatch'
                     render 'swatch' with 'block', value: value, selected: selected, name: name, form: form_id, show_color: true
                 endcase
