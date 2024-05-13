@@ -3723,14 +3723,14 @@ var VariantPicker = class extends HTMLElement {
     }
     this.masterSelector.value = id;
     this.masterSelector.dispatchEvent(new Event("change", { bubbles: true }));
-    if (this.updateUrl && history.replaceprovince) {
+    if (this.updateUrl && history.replaceState) {
       const newUrl = new URL(window.location.href);
       if (id) {
         newUrl.searchParams.set("variant", id);
       } else {
         newUrl.searchParams.delete("variant");
       }
-      window.history.replaceprovince({ path: newUrl.toString() }, "", newUrl.toString());
+      window.history.replaceState({ path: newUrl.toString() }, "", newUrl.toString());
     }
     __privateMethod(this, _updateDisableSelectors, updateDisableSelectors_fn).call(this);
     this.masterSelector.form.dispatchEvent(new CustomEvent("variant:change", {
