@@ -32,7 +32,7 @@
       value="{{ product.selected_or_first_available_variant.id }}"
     >
     <script>
-      {% unless product.selected_or_first_available_variant.available == false || !soldOutButton %}
+      {% unless product.selected_or_first_available_variant.available == false %}
       soldOutButton.classList.add('hidden');
       {% endunless %}
     </script>
