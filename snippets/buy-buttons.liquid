@@ -33,7 +33,9 @@
     >
     <script>
       {% unless product.selected_or_first_available_variant.available == false %}
-      soldOutButton.classList.add('hidden');
+        {% if soldOutButton != blank %}
+          soldOutButton.classList.add('hidden');
+        {% endif %}}
       {% endunless %}
     </script>
     {% liquid
