@@ -5939,11 +5939,11 @@ tfoot td {
 }
 
 .product-info__block-item:is([data-block-type="variant-picker"], [data-block-type="product-variations"], [data-block-type="separator"], [data-block-type="description"], [data-block-type="text"], [data-block-type="liquid"], [data-block-type="share-buttons"]) {
-  --product-info-gap: 1.5rem;
+  --product-info-gap: .75rem;
 }
 
 .product-info__block-group:has(.product-info__block-item:is([data-block-type="variant-picker"], [data-block-type="product-variations"], [data-block-type="separator"], [data-block-type="description"], [data-block-type="text"], [data-block-type="liquid"], [data-block-type="share-buttons"])) {
-  --product-info-gap: 1.5rem;
+  --product-info-gap: .75rem;
 }
 
 .product-info__block-item:is([data-block-type="inventory"], [data-block-type="buy-buttons"], [data-block-type="pickup-availability"], [data-block-type="more-information"], [data-block-type="offers"]) {
