@@ -178,7 +178,8 @@
         "image_NCVprd"
       ],
       "custom_css": [
-        ".h1 {font-size: 48px;}"
+        ".h1 {font-size: 48px;}",
+        ".h6 {font-size: 16px;}"
       ],
       "settings": {
         "allow_transparent_header": false,
@@ -186,7 +187,7 @@
         "media_size": "lg",
         "autoplay": true,
         "autoplay_pause_on_video": false,
-        "cycle_speed": 6,
+        "cycle_speed": 8,
         "background": "#ffffff",
         "controls_color": "#ffffff"
       }
