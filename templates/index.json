@@ -177,6 +177,9 @@
         "image_WKUMR6",
         "image_NCVprd"
       ],
+      "custom_css": [
+        ".h1 {font-size: 48px;}"
+      ],
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
@@ -184,7 +187,7 @@
         "autoplay": true,
         "autoplay_pause_on_video": false,
         "cycle_speed": 6,
-        "background": "#000000",
+        "background": "#ffffff",
         "controls_color": "#ffffff"
       }
     },
