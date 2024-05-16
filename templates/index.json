@@ -178,7 +178,7 @@
         "image_NCVprd"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 1000px) {.h1 {font-size: 48px; } .h6 {font-size: 16px; }}"
+        "@media only screen and (min-width: 1000px) {.h1 {font-size: 48px; } .h6 {font-size: 16px; } .prose:not(.prose--tight) :is(.button,.button-group:has(.button)) {margin-block-start: 1rem; }}"
       ],
       "settings": {
         "allow_transparent_header": false,
