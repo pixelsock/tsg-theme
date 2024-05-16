@@ -27,7 +27,7 @@
             "background_opacity": 50,
             "text_color": "#282e29",
             "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(235, 235, 235, 0.49) 5%, rgba(218, 222, 220, 0.07) 100%)"
+            "gradient_overlay": "linear-gradient(180deg, rgba(235, 235, 235, 0.34) 5%, rgba(218, 222, 220, 0.07) 100%)"
           }
         },
         "image_9gh78M": {
@@ -178,7 +178,9 @@
         "image_NCVprd"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 1000px) {.h1 {font-size: 48px; } .h6 {font-size: 16px; } .prose:not(.prose--tight) :is(.button,.button-group:has(.button)) {margin-block-start: 1rem; }}"
+        ".h1 {text-shadow: #fff 1px 0 20px;}",
+        ".h6 {text-shadow: #fff 0px 0 10px;}",
+        "@media only screen and (min-width: 1000px) {.h1 {font-size: 48px; } .h6 {font-size: 16px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}"
       ],
       "settings": {
         "allow_transparent_header": false,
