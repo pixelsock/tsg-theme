@@ -25,6 +25,15 @@ Supported variables
 {% assign jc_show_custom_props_pants = product.metafields.customPropPants.prop %}
 {% assign jc_show_custom_props_6_char = product.metafields.customProp6Char.prop %}
 
+<div style="position: absolute; opacity: 0.1">
+  {%- case block.type -%}
+    {%- when 'badges' -%}
+      {%- if product != blank -%}
+        {%- render 'product-badges', product: product, variant: product.selected_or_first_available_variant, types: 'custom,discount', form_id: product_form_id -%}
+      {%- endif -%}
+  {%- endcase -%}
+</div>
+
 <safe-sticky class="product-info {% if center_basic_info %}product-info--center{% endif %}">
   <div class="product-info__block-list">
     {%- liquid
