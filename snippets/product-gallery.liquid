@@ -1,21 +1,21 @@
 {%- comment -%}
-----------------------------------------------------------------------------------------------------------------------
-PRODUCT GALLERY COMPONENT
-----------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------------------------------------------
+  PRODUCT GALLERY COMPONENT
+  ----------------------------------------------------------------------------------------------------------------------
 
-This component is used to show the product gallery (used in product page and featured product section)
+  This component is used to show the product gallery (used in product page and featured product section)
 
-********************************************
-Supported variables
-********************************************
+  ********************************************
+  Supported variables
+  ********************************************
 
-* product: the product to render (if empty, renders placeholder content)
-* desktop_layout: the layout on desktop (can be "carousel_thumbnails_left", "carousel_thumbnails_bottom", "carousel_dots", "grid", "grid_2x" or "grid_2x_highlighted")
-* mobile_controls: the controls to show on mobile (can be "thumbnails", "dots", "arrows" or "free_scroll")
-* enable_media_autoplay: if set to true media are autoplayed when switched to
-* enable_video_looping: if set to true videos automatically loop when finished
-* enable_image_zoom: if set to true the gallery allow zoom
-* max_image_zoom_level: the maximum zoom level allowed (if enabled)
+  * product: the product to render (if empty, renders placeholder content)
+  * desktop_layout: the layout on desktop (can be "carousel_thumbnails_left", "carousel_thumbnails_bottom", "carousel_dots", "grid", "grid_2x" or "grid_2x_highlighted")
+  * mobile_controls: the controls to show on mobile (can be "thumbnails", "dots", "arrows" or "free_scroll")
+  * enable_media_autoplay: if set to true media are autoplayed when switched to
+  * enable_video_looping: if set to true videos automatically loop when finished
+  * enable_image_zoom: if set to true the gallery allow zoom
+  * max_image_zoom_level: the maximum zoom level allowed (if enabled)
 {%- endcomment -%}
 
 <style>
@@ -61,11 +61,11 @@ Supported variables
 </style>
 
 {%- comment -%}
-IMPLEMENTATION NOTE: Shopify does not natively offer a way to create a set of images per variant. This is often
-pretty limited when you have a lot of colors and would like to only see the images specific to a given color. To
-goes around that, Impact offers a hack using alt tags whose usage is described here: https://support.maestrooo.com/article/187-product-creating-variant-image-set
-The implementation is rather complex and inefficient due to a lot of string parsings, but it is, unfortunately, the
-only way to do it on Shopify right now.
+  IMPLEMENTATION NOTE: Shopify does not natively offer a way to create a set of images per variant. This is often
+  pretty limited when you have a lot of colors and would like to only see the images specific to a given color. To
+  goes around that, Impact offers a hack using alt tags whose usage is described here: https://support.maestrooo.com/article/187-product-creating-variant-image-set
+  The implementation is rather complex and inefficient due to a lot of string parsings, but it is, unfortunately, the
+  only way to do it on Shopify right now.
 {%- endcomment -%}
 
 {% liquid
@@ -102,7 +102,6 @@ only way to do it on Shopify right now.
     allow-zoom="{{ max_image_zoom_level }}"
   {% endif %}
 >
-  
   {%- if enable_image_zoom -%}
     <button class="product-gallery__zoom-button circle-button circle-button--sm md:hidden" is="open-lightbox-button">
       <span class="sr-only">{{ 'product.gallery.zoom' | t }}</span>
@@ -257,38 +256,6 @@ only way to do it on Shopify right now.
         </span>
       </button>
     {%- endif -%}
-
-    {%- comment -%}
-      ----------------------------------------------------------------------------------------------------------------------
-      BADGES
-      ----------------------------------------------------------------------------------------------------------------------
-    {%- endcomment -%}
-
-    <div class="custom-style">
-      {%- liquid
-        if allow_blocks != blank
-          assign filtered_blocks = '' | split: ''
-
-          for block in section.blocks
-            if allow_blocks contains block.type
-              assign block_as_arr = block | sort
-              assign filtered_blocks = filtered_blocks | concat: block_as_arr
-            endif
-          endfor
-        else
-          assign filtered_blocks = section.blocks
-        endif
-      -%}
-
-      {%- for block in filtered_blocks -%}
-        {%- case block.type -%}
-          {%- when 'badges' -%}
-            {%- if product != blank -%}
-              {%- render 'product-badges', product: product, variant: product.selected_or_first_available_variant, types: 'custom,discount', form_id: product_form_id -%}
-            {%- endif -%}
-        {%- endcase -%}
-      {%- endfor -%}
-    </div>
   </div>
 
   {%- comment -%}
