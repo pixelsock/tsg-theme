@@ -421,8 +421,8 @@ th,
   padding: 5px 10px;
   margin-right: 8px;
   border: solid 1px #e2e2e2;
-  color: #e8e6e3;
-  background-color: #63583e;
+  color: rgb(var(--custom-badge-text));
+  background-color: rgb(var(--custom-badge-background));
   border-color: #383d3f;
   position: absolute;
   top: 0.5rem;
