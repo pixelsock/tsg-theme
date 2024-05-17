@@ -414,6 +414,21 @@ th,
     --product-gap: 3.5rem;
   }
 }
+
+.badge-modified {
+  letter-spacing: .085rem;
+  width: fit-content;
+  padding: 5px 10px;
+  margin-right: 8px;
+  border: solid 1px #e2e2e2;
+  color: rgb(232, 230, 227);
+  background-color: rgb(99, 88, 62);
+  border-color: rgb(56, 61, 63);
+  position: absolute;
+  opacity: 0.1;
+  top: 0.5rem;
+  left: 0.5rem;
+}
 /* Product Page End */
 
 .order-summary__header th:first-child {
