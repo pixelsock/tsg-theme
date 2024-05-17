@@ -427,6 +427,7 @@ th,
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
+  z-index: 1;
 }
 /* Product Page End */
 
