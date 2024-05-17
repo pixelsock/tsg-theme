@@ -259,6 +259,37 @@
   </div>
 
   {%- comment -%}
+  ----------------------------------------------------------------------------------------------------------------------
+  BADGES
+  ----------------------------------------------------------------------------------------------------------------------
+  {%- endcomment -%}
+
+  {%- liquid
+  if allow_blocks != blank
+    assign filtered_blocks = '' | split: ''
+
+    for block in section.blocks
+      if allow_blocks contains block.type
+        assign block_as_arr = block | sort
+        assign filtered_blocks = filtered_blocks | concat: block_as_arr
+      endif
+    endfor
+  else
+    assign filtered_blocks = section.blocks
+  endif
+  -%}
+  <div class="badge-modified">
+    {%- for block in filtered_blocks -%}
+      {%- case block.type -%}
+        {%- when 'badges' -%}
+          {%- if product != blank -%}
+            {%- render 'product-badges', product: product, variant: product.selected_or_first_available_variant, types: 'custom,discount', form_id: product_form_id -%}
+          {%- endif -%}
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+
+  {%- comment -%}
     ----------------------------------------------------------------------------------------------------------------------
     CONTROLS
     ----------------------------------------------------------------------------------------------------------------------
