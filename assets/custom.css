@@ -423,11 +423,15 @@ th,
   border: solid 1px #e2e2e2;
   color: #fff;
   background-color: #7c6e4e;
-  border-color: solid 1px #e2e2e2;
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
   z-index: 1;
+}
+
+.badge-modified .badge {
+  color: #fff;
+  background-color: #7c6e4e;
 }
 /* Product Page End */
 
