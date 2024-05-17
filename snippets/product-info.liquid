@@ -155,10 +155,10 @@ Supported variables
               {{- 'product.general.sku' | t }} {% if product != blank -%}{{ product.selected_or_first_available_variant.sku -}}{%- else -%}SK-123AB{%- endif -%}
             </variant-sku>
 
-          <!-- PRODUCT BADGE {%- when 'badges' -%}
-            {%- if product != blank -%}
-              {%- render 'product-badges', product: product, variant: product.selected_or_first_available_variant, types: 'custom,discount', form_id: product_form_id -%}
-            {%- endif -%} -->
+          <!-- BADGE {%- when 'badges' -%} -->
+            <!-- {%- if product != blank -%} -->
+              <!-- {%- render 'product-badges', product: product, variant: product.selected_or_first_available_variant, types: 'custom,discount', form_id: product_form_id -%} -->
+            <!-- {%- endif -%} -->
 
           {%- when 'price' -%}
             <div class="v-stack">
