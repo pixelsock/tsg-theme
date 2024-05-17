@@ -25,6 +25,23 @@ Supported variables
 {% assign jc_show_custom_props_pants = product.metafields.customPropPants.prop %}
 {% assign jc_show_custom_props_6_char = product.metafields.customProp6Char.prop %}
 
+{%- liquid
+  assign inside_block_group_context = false
+  assign current_block_group_name = ''
+
+  if allow_blocks != blank
+    assign filtered_blocks = '' | split: ''
+
+    for block in section.blocks
+      if allow_blocks contains block.type
+        assign block_as_arr = block | sort
+        assign filtered_blocks = filtered_blocks | concat: block_as_arr
+      endif
+    endfor
+  else
+    assign filtered_blocks = section.blocks
+  endif
+-%}
 <div style="position: absolute; opacity: 0.1">
   {%- for block in filtered_blocks -%}
     {%- case block.type -%}
