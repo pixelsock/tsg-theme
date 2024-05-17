@@ -415,3 +415,8 @@ th,
   }
 }
 /* Product Page End */
+
+.order-summary__header th:first-child {
+    text-align: left;
+    padding: 1rem;
+}
