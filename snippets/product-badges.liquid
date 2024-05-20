@@ -80,7 +80,7 @@
 
 {%- if badges != blank -%}
   <script>
-  console.log("LOG HERE 02,", badges);
+  console.log("LOG HERE 02, {{ badges }}");
   </script>
   <badge-list
     {% if form_id != blank and is_badge_list_hidden %}
