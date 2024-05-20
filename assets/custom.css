@@ -433,6 +433,15 @@ th,
   color: #fff;
   background-color: #7c6e4e;
 }
+
+.badge {
+  font-size: 11px;
+}
+
+@media screen and (min-width: 1001px) {
+  font-size: 13.2px;
+}
+
 /* Product Page End */
 
 .order-summary__header th:first-child {
