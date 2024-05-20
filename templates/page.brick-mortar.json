@@ -95,6 +95,7 @@
         },
         "image_exqizV": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/031824-Warehouse-Sale-RT-email.jpg",
             "width_mode": "custom",
