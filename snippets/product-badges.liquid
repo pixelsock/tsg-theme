@@ -30,7 +30,6 @@
     {%- case stripped_badge_type -%}
       {%- when 'custom' -%}
         {%- assign custom_badges = product.metafields.custom.badges.value -%}
-    <script>console.log("LOG HERE 133210");</script>
 
         {%- for custom_badge in custom_badges -%}
           {%- assign is_badge_list_hidden = false -%}
@@ -43,7 +42,6 @@
             {%- unless variant.available -%}
               {%- assign is_badge_list_hidden = false -%}
             {%- endunless -%}
-    <script>console.log("LOG HERE 1032");</script>
 
             <sold-out-badge {% if variant.available %}hidden{% endif %} {% if form_id != blank %}form="{{ form_id }}"{% endif %} class="badge badge--sold-out">
               {{- 'product.general.sold_out_badge' | t -}}
@@ -54,13 +52,11 @@
       {%- when 'discount' -%}
         {%- if settings.show_discount -%}
           {%- assign is_variant_on_sale = false -%}
-    <script>console.log("LOG HERE 1023");</script>
 
           {%- if variant.compare_at_price > variant.price -%}
             {%- assign is_variant_on_sale = true -%}
             {%- assign is_badge_list_hidden = false -%}
           {%- endif -%}
-    <script>console.log("LOG HERE 1330");</script>
 
           {%- if product.compare_at_price > product.price -%}
             {%- if settings.discount_mode == 'percentage' -%}
@@ -68,7 +64,6 @@
             {%- else -%}
               {%- capture savings -%}{{ variant.compare_at_price | minus: variant.price | money }}{%- endcapture -%}
             {%- endif -%}
-    <script>console.log("LOG HERE 32");</script>
 
             <on-sale-badge {% if form_id != blank and is_variant_on_sale == false %}hidden{% endif %} {% if settings.show_discount %}discount-mode="{{ settings.discount_mode | escape }}"{% endif %} {% if form_id != blank %}form="{{ form_id }}"{% endif %} class="badge badge--on-sale">
               {%- if form_id == blank and is_variant_on_sale == false or product.compare_at_price_varies -%}
@@ -83,7 +78,6 @@
   {%- endfor -%}
 {%- endcapture -%}
 
-
 {%- if badges != blank -%}
   <badge-list
     {% if form_id != blank and is_badge_list_hidden %}
@@ -91,7 +85,6 @@
     {% endif %}
     class="badge-list {% if vertical %}badge-list--vertical{% endif %}"
   >
-    <script>console.log("LOG HERE 10");</script>
     {{- badges -}}
   </badge-list>
 {%- endif -%}
