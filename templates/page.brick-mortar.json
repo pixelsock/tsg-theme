@@ -82,6 +82,7 @@
         },
         "heading_AGtqMb": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Upcoming Shop Events",
             "heading_tag": "h3"
@@ -110,6 +111,7 @@
         "richtext_hjXnBQ",
         "image_exqizV"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "content_width": "sm",
