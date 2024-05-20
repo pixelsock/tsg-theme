@@ -33,7 +33,9 @@
 
         {%- for custom_badge in custom_badges -%}
           {%- assign is_badge_list_hidden = false -%}
-          <span class="badge badge--custom">{{ custom_badge }}</span>
+          <div class="badge-modified">
+            <span class="badge badge--custom">{{ custom_badge }}</span>
+          </div>
         {%- endfor -%}
 
       {%- when 'sold_out' -%}
