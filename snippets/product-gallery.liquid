@@ -111,6 +111,10 @@
     assign filtered_blocks = section.blocks
   endif
 -%}
+
+      <script>
+      console.log("My variable value: {{ filtered_blocks }}");
+    </script>
 <div class="badge-modified">
   {%- for block in filtered_blocks -%}
     {%- case block.type -%}
