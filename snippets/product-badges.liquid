@@ -23,8 +23,8 @@
 
 {%- assign is_badge_list_hidden = true -%}
 
-<script> console.log("LOG HERE", {{ badge_types }} }};</script>
 {%- capture badges -%}
+<script> console.log("LOG HERE", {{ badges }});</script>
   {%- for badge_type in badge_types -%}
     {%- assign stripped_badge_type = badge_type | strip -%}
 
