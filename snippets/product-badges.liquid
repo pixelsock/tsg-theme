@@ -85,6 +85,7 @@
     {% endif %}
     class="badge-list {% if vertical %}badge-list--vertical{% endif %}"
   >
+    <script> console.log("LOG HERE", {{ badges }} }}</script>
     {{- badges -}}
   </badge-list>
 {%- endif -%}
