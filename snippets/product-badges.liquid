@@ -79,9 +79,11 @@
 {%- endcapture -%}
 
 {%- if badges != blank -%}
+  {% assign badges_json = badges | json %}
   <script>
     console.log("LOG HERE");
-    console.log("HERE: {{ badges }}");
+    var badges = {{ badges_json }};
+    console.log("HERE:", badges);
   </script>
   <badge-list
     {% if form_id != blank and is_badge_list_hidden %}
