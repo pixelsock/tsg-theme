@@ -32,6 +32,7 @@
         },
         "image_dgzhkc": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/022624-ridge-short-hero-DT.jpg",
             "mobile_image": "shopify:\/\/shop_images\/022624-ridge-short-hero-mobile.jpg",
@@ -308,33 +309,6 @@
     "slideshow_7cYzUq": {
       "type": "slideshow",
       "blocks": {
-        "image_cReNYf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/040224-tsgaco_banner.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/s24driftpoloalt1000x_0001s_0004_TSG-SS24-Builder-KHP-147.jpg",
-            "subheading": "Meet the up-to-the-moment collection of our newest, latest and greatest gear and goods.",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "content_max_width": 780,
-            "button_1_text": "SHOP NEW ARRIVALS",
-            "button_1_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
         "image_CRfQ83": {
           "type": "image",
           "settings": {
@@ -361,11 +335,38 @@
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
+        },
+        "image_cReNYf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/040224-tsgaco_banner.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/s24driftpoloalt1000x_0001s_0004_TSG-SS24-Builder-KHP-147.jpg",
+            "subheading": "Meet the up-to-the-moment collection of our newest, latest and greatest gear and goods.",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "SHOP NEW ARRIVALS",
+            "button_1_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
         }
       },
       "block_order": [
-        "image_cReNYf",
-        "image_CRfQ83"
+        "image_CRfQ83",
+        "image_cReNYf"
       ],
       "custom_css": [
         ".h6 {margin-top: -0.5rem; margin-bottom: -1.5rem; font-size: 24px;}"
