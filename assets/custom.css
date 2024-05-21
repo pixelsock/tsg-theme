@@ -418,9 +418,8 @@ th,
 .badge-modified {
   letter-spacing: .085rem;
   width: fit-content;
-  padding: 5px 10px;
+  padding: 2px 2px;
   margin-right: 8px;
-  border: solid 1px #e2e2e2;
   color: #fff;
   background-color: #7c6e4e;
   position: absolute;
