@@ -314,10 +314,10 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/022624-ridge-short-hero-DT.jpg",
             "mobile_image": "shopify:\/\/shop_images\/022624-ridge-short-hero-mobile.jpg",
-            "subheading": "",
+            "subheading": "RESTOCK ALERT",
             "title": "RIDGE SHORTS ARE BACK",
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
             "button_1_link": "shopify:\/\/products\/tsg-ridge-short-stone",
@@ -369,7 +369,7 @@
         "image_cReNYf"
       ],
       "custom_css": [
-        ".h6 {margin-top: -0.5rem; margin-bottom: -1.5rem; font-size: 24px;}"
+        ".h6 {font-size: 24px;}"
       ],
       "settings": {
         "allow_transparent_header": true,
