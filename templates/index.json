@@ -338,6 +338,7 @@
         },
         "image_cReNYf": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/040224-tsgaco_banner.jpg",
             "mobile_image": "shopify:\/\/shop_images\/s24driftpoloalt1000x_0001s_0004_TSG-SS24-Builder-KHP-147.jpg",
