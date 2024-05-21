@@ -858,6 +858,7 @@
         "a5f78cf8-5e1d-449f-ae36-b6abe43d2675",
         "look-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".h2 {margin-top: 0.5rem; margin-bottom: -1.5rem;}",
         ".floating-controls-container {margin-top: -1rem; margin-bottom: -0rem;}",
