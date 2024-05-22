@@ -340,8 +340,8 @@ img.blog-post-card__image {
 
 .mega-menu__linklist > * {
   text-align: left; /* horizontally aligns the text */
-  max-width: 132px;
-  min-width: 100px;
+  /* max-width: 132px;
+  min-width: 100px; */
 }
 
 .mega-menu__promo {
