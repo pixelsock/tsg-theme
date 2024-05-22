@@ -335,7 +335,8 @@ img.blog-post-card__image {
 .mega-menu__linklist {
   /* flex-wrap: nowrap; */
   justify-content: space-between;
-  gap: 4.625rem !important;
+  /* gap: 4.625rem !important; */
+  gap: 2rem !important;
 }
 
 .mega-menu__linklist > * {
