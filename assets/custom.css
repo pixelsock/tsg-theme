@@ -333,10 +333,17 @@ img.blog-post-card__image {
 
 
 .mega-menu__linklist {
-  /* flex-wrap: nowrap; */
+  flex-wrap: nowrap;
   justify-content: space-between;
-  /* gap: 4.625rem !important; */
-  gap: 2rem !important;
+  gap: 4.625rem !important;
+}
+
+@media screen and (min-width: 1000px) {
+  .mega-menu__linklist {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem !important;
+  }
 }
 
 .mega-menu__linklist > * {
