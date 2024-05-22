@@ -333,15 +333,15 @@ img.blog-post-card__image {
 
 
 .mega-menu__linklist {
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   justify-content: space-between;
   gap: 4.625rem !important;
 }
 
 .mega-menu__linklist > * {
   text-align: left; /* horizontally aligns the text */
-  /* max-width: 132px;
-  min-width: 100px; */
+  max-width: 132px;
+  min-width: 132px;
 }
 
 .mega-menu__promo {
