@@ -6,17 +6,17 @@
 
       ],
       "settings": {
-        "content_width": "xl",
-        "image_size": "lg",
+        "content_width": "sm",
+        "image_size": "xs",
         "allow_transparent_header": false,
         "reveal": false,
         "enable_parallax": false,
-        "show_collection_title": true,
-        "show_collection_description": true,
+        "show_collection_title": false,
+        "show_collection_description": false,
         "show_breadcrumb": true,
         "breadcrumb_color": "#282e29",
         "breadcrumb_text_color": "#ffffff",
-        "background": "#282e29",
+        "background": "#ffffff",
         "text_color": "#ffffff",
         "overlay_color": "#282e29",
         "overlay_opacity": 100
@@ -28,20 +28,20 @@
         "subheading_tgGpm3": {
           "type": "subheading",
           "settings": {
-            "text": "MEMORIAL DAY MARKDOWNS"
+            "text": "SAVE OVER 60% OFF | GREAT GEAR AT CRAZY DEALS"
           }
         },
         "heading_NQ4hWH": {
           "type": "heading",
           "settings": {
-            "text": "DISCOUNT ADDED",
+            "text": "MEMORIAL DAY MARKDOWNS",
             "heading_tag": "h1"
           }
         },
         "richtext_MR4TxL": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>We don't run many sales, but when we do we <em>do not<\/em> mess around.  Amassed below you'll find goods and gear ready at prices you <em>cannot<\/em> pass up.  From shorts, polos, pants, and gear, you have less excuses here than you do to go visit a certain relative by marriage.  No code necessary either....just spend $250 and we'll hand you 25% off at checkout.  This also applies to already marked down and discounted goods and gear.  Again, what's the excuse??<\/p>"
           }
         }
       },
@@ -68,7 +68,7 @@
         "products_per_page": 50,
         "products_per_row_mobile": "2",
         "products_size_desktop": "large",
-        "show_grid_mode_selector": false,
+        "show_grid_mode_selector": true,
         "horizontal_spacing_factor": 0.5,
         "vertical_spacing_factor": 1,
         "filter_layout": "sidebar",
@@ -84,7 +84,7 @@
         "promotion_placement_order": "random",
         "custom_promotion_placement_order": 2,
         "promotion_image_url": "shopify:\/\/shop_images\/022624-S24-Collection-hero-mobile_e8531e78-9ba2-4ba1-8885-12ddc7c9d669.jpg",
-        "enable_promotion_link": true,
+        "enable_promotion_link": false,
         "promotion_link_url": "shopify:\/\/pages\/tsg-apparel-co"
       }
     },
