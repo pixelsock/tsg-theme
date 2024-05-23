@@ -22,6 +22,41 @@
         "overlay_opacity": 100
       }
     },
+    "rich_text_7t3XAm": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_tgGpm3": {
+          "type": "subheading",
+          "settings": {
+            "text": "MEMORIAL DAY MARKDOWNS"
+          }
+        },
+        "heading_NQ4hWH": {
+          "type": "heading",
+          "settings": {
+            "text": "DISCOUNT ADDED",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_MR4TxL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_tgGpm3",
+        "heading_NQ4hWH",
+        "richtext_MR4TxL"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "main": {
       "type": "main-collection",
       "custom_css": [
@@ -74,6 +109,7 @@
   },
   "order": [
     "collection-banner",
+    "rich_text_7t3XAm",
     "main",
     "newsletter_igGzqj"
   ],
