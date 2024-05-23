@@ -8,7 +8,8 @@
       "settings": {
         "content_width": "sm",
         "image": "shopify:\/\/shop_images\/052324-MDS-Collection-banner-3000x1000.jpg",
-        "image_size": "xs",
+        "mobile_image": "shopify:\/\/shop_images\/052324-MDS-Collection-banner-mobile.jpg",
+        "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
         "enable_parallax": false,
