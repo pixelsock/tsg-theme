@@ -2,14 +2,13 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
-      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
         "content_width": "sm",
-        "image": "shopify:\/\/shop_images\/052324-MDS-Collection-banner-3000x1000.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/052324-MDS-Collection-banner-mobile.jpg",
+        "image": "shopify:\/\/shop_images\/052824-S24-Spring-Clearing-Collection-banner-DT.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/052824-S24-Spring-Clearing-Collection-banner-mobile.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
