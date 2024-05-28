@@ -2,6 +2,7 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -36,14 +37,14 @@
         "heading_NQ4hWH": {
           "type": "heading",
           "settings": {
-            "text": "MEMORIAL DAY MARKDOWNS",
+            "text": "SPRING CLEARING MARKDOWNS",
             "heading_tag": "h1"
           }
         },
         "richtext_MR4TxL": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We don't run many sales, but when we do we <em>do not<\/em> mess around.  Amassed below you'll find goods and gear ready at prices you <em>cannot<\/em> pass up.  From shorts, polos, pants, and gear, you have less excuses here than you do to go visit a certain relative by marriage.  No code necessary either....just spend $250 and we'll hand you 25% off at checkout.  This also applies to already marked down and discounted goods and gear.  Again, what's the excuse??<\/p>"
+            "content": "<p>We don't run many sales, but when we do we <em>do not<\/em> mess around.  Amassed below you'll find goods and gear ready at prices you <em>cannot<\/em> pass up.  From shorts, polos, pants, and gear, you have less excuses here than you do to go visit a certain relative by marriage. <\/p><p>  Again, what's the excuse??<\/p>"
           }
         }
       },
