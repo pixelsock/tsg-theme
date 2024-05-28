@@ -20,12 +20,14 @@
 }
 
 .button--outline {
-  border: 2px solid #303030;
+  border: 1px solid #303030;
 }
 
 .predictive-search__products {
     align-items: start;
 }
+
+
 
 /* ---- END: Global ---- */
 
