@@ -437,13 +437,16 @@ th,
   left: 0.5rem;
 }
 
-.badge-modified .badge {
-  color: #fff;
-  background-color: #7c6e4e;
+.badge-modified {
   z-index: 1;
   letter-spacing: .085rem;
   width: fit-content;
   padding: 2px 2px;
+}
+
+.badge-modified .badge {
+  color: #fff;
+  background-color: #7c6e4e;
 }
 
 .badge {
