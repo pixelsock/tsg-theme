@@ -81,7 +81,7 @@
 {%- endcapture -%}
 
 {%- if badges != blank -%}
-  <script>console.log('badges:::::', {{  badges  }})</script>
+  <script>console.log('badges:::::', "{{  badges  }}")</script>
   <badge-list
     {% if form_id != blank and is_badge_list_hidden %}
       hidden
