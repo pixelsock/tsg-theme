@@ -442,6 +442,7 @@ th,
   letter-spacing: .085rem;
   width: fit-content;
   padding: 2px 2px;
+  background-color: #7c6e4e;
 }
 
 .badge-modified .badge {
