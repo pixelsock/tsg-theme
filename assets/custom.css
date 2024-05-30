@@ -20,14 +20,12 @@
 }
 
 .button--outline {
-  border: 1px solid #303030;
+  border: 2px solid #303030;
 }
 
 .predictive-search__products {
     align-items: start;
 }
-
-
 
 /* ---- END: Global ---- */
 
@@ -427,22 +425,25 @@ th,
   }
 }
 
-.badge-modified {
-  letter-spacing: .085rem;
+.product .badge-modified {
+  /* letter-spacing: .085rem;
   width: fit-content;
-  padding: 2px 2px;
-  margin-right: 8px;
-  color: #fff;
-  background-color: #7c6e4e;
+  padding: 2px 2px; */
+  /* margin-right: 8px; */
+  /* color: #fff; */
+  /* background-color: #7c6e4e; */
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
-  z-index: 1;
 }
 
 .badge-modified .badge {
   color: #fff;
   background-color: #7c6e4e;
+  z-index: 1;
+  letter-spacing: .085rem;
+  width: fit-content;
+  padding: 2px 2px;
 }
 
 .badge {
