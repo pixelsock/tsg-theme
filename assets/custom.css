@@ -425,24 +425,18 @@ th,
   }
 }
 
-.product .badge-modified {
-  /* letter-spacing: .085rem;
-  width: fit-content;
-  padding: 2px 2px; */
-  /* margin-right: 8px; */
-  /* color: #fff; */
-  /* background-color: #7c6e4e; */
-  position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
-}
-
 .badge-modified {
   z-index: 1;
   letter-spacing: .085rem;
   width: fit-content;
   padding: 2px 2px;
   background-color: #7c6e4e;
+}
+
+.product .badge-modified {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
 }
 
 .badge-modified .badge {
