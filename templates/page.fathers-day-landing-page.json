@@ -23,7 +23,8 @@
         "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1"
       ],
       "custom_css": [
-        ".h1 {text-shadow: #000 1px 0 10px; font-size: 48pt;@media only screen and (min-width: 1000px) {.h1 {font-size: 24pt; }"
+        ".h1 {text-shadow: #363230 1px 0 20px; font-size: 48pt; }",
+        " @media only screen and (min-width: 1000px) {.h1 {font-size: larger; }"
       ],
       "settings": {
         "image_size": "auto",
