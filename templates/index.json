@@ -255,7 +255,7 @@
         "autoplay": false,
         "autoplay_pause_on_video": false,
         "cycle_speed": 5,
-        "background": "#000000",
+        "background": "#ffffff",
         "controls_color": "#ffffff"
       }
     },
