@@ -105,7 +105,7 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We've been saying since we started TSG, for the guy who has everything, we have something.  And that holds <em>very<\/em> true for dads too.  This Father's Day, shop the extensive collection and selection of goods we have lined up.  We've been hooking up guys\/dads with cool stuff from the git-go, so scroll down, and find something he'll be pleasantly surprised by. <\/p>"
+            "content": "<p>We've been saying since we started TSG, for the guy who has everything, we have something.  And that holds <em>very<\/em> true for dads too.  This Father's Day, shop the extensive collection and selection of goods we have lined up.  We've been hooking up guys\/dads with cool stuff from the git-go, so scroll down, and find something he'll be pleasantly surprised by no matter his hobby of the week.<\/p>"
           }
         }
       },
@@ -191,8 +191,82 @@
         "stack_collections": true,
         "collections_per_row_desktop": 3,
         "subheading": "",
-        "title": "The Newest Arrivals",
-        "content": "<p>Top to bottom, this Spring's collection is our best ever.  Check out the new fabrics and styles below and see why.<\/p>",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "collection_list_mRFmeW": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_CQRH93": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_q6qG74": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_fYkD38": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_CQRH93",
+        "collection_q6qG74",
+        "collection_fYkD38"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "md",
+        "show_text_outside": false,
+        "space_items": false,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
       }
@@ -289,6 +363,7 @@
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
+    "collection_list_mRFmeW",
     "40d836d0-5c70-4341-b9cb-b40c858de1d6",
     "featured_collections_EJbhpb",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
