@@ -58,40 +58,6 @@
         "controls_color": "#ffffff"
       }
     },
-    "73adeb6e-c32d-4bb0-abc9-b8d202a43bee": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "FATHER'S DAY DONE RIGHT",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".h1 {text-shadow: #363230 1px 0 15px; font-size: 50px;}",
-        "@media only screen and (m-width: 1000px) {.h1 {font-size: 36px; }"
-      ],
-      "settings": {
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/060324-fathers-day-collection-landing-page-hero-DT_14c39b02-a138-44db-8f43-010669b93da1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/060324-fathers-day-collection-hero-mobile.jpg",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": false,
-        "remove_vertical_spacing": true,
-        "content_width": "sm",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center-end sm:text-end",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "b68f4120-e5fd-4103-875c-84f7da9480a5": {
       "type": "rich-text",
       "blocks": {
@@ -118,6 +84,81 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
+      }
+    },
+    "collection_list_y7iqCk": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_7aMiY6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/TSG_menspolo_tealcaststripecopy.png",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "TOPPER POLOS",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/tsg-topper-polo-teal-cast-stripe",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_87jfG6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_mHXifP": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_7aMiY6",
+        "collection_87jfG6",
+        "collection_mHXifP"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
       }
     },
     "e5971167-2fc4-4b51-a545-d1c14d7c618b": {
@@ -364,8 +405,8 @@
   "order": [
     "main",
     "slideshow_rL8YMj",
-    "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
+    "collection_list_y7iqCk",
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
     "collection_list_mRFmeW",
     "40d836d0-5c70-4341-b9cb-b40c858de1d6",
