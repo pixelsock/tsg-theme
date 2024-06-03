@@ -22,6 +22,9 @@
       "block_order": [
         "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1"
       ],
+      "custom_css": [
+        ".h1 {text-shadow: #000 1px 0 10px; font-size: 48pt;@media only screen and (min-width: 1000px) {.h1 {font-size: 24pt; }"
+      ],
       "settings": {
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/060324-fathers-day-collection-landing-page-hero-DT_14c39b02-a138-44db-8f43-010669b93da1.jpg",
@@ -50,7 +53,7 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We've been saying since we started TSG, for the guy who has everything, we have something.  And that holds <em>very<\/em> true for dads too.  This Father's Day, shop the extensive collection and selection of goods we have lined up.<\/p>"
+            "content": "<p>We've been saying since we started TSG, for the guy who has everything, we have something.  And that holds <em>very<\/em> true for dads too.  This Father's Day, shop the extensive collection and selection of goods we have lined up.  We've been hooking up guys\/dads with cool stuff from the git-go, so scroll down, and find something he'll be pleasantly surprised by. <\/p>"
           }
         }
       },
