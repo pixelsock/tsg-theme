@@ -43,8 +43,8 @@
         "image_HAmQiM"
       ],
       "custom_css": [
-        ".h1 {text-shadow: #000 1px 0 50px;}",
-        ".h6 {text-shadow: #000 0px 0 50px;}",
+        ".h1 {text-shadow: #000 1px 0 20px;}",
+        ".h6 {text-shadow: #000 1px 0 20px;}",
         "@media only screen and (min-width: 1000px) {.h1 {font-size: 48px; } .h6 {font-size: 24px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}"
       ],
       "settings": {
