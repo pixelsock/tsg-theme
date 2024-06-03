@@ -144,14 +144,14 @@
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "new-arrivals-this-week-tsg",
             "image": "shopify:\/\/shop_images\/022624-ridge-short-hero-mobile.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "RIDGE SHORTS",
+            "title": "NEW ARRIVALS",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-ridge-short-sage",
+            "button_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
