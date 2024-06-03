@@ -126,14 +126,14 @@
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "best-sellers",
             "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-25.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "DRIFT POLO",
+            "title": "BEST SELLERS",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-drift-polo-harbour",
+            "button_link": "shopify:\/\/collections\/best-sellers",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -203,16 +203,17 @@
         "collection_CQRH93": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "field-gear",
+            "image": "shopify:\/\/shop_images\/field_gear-01.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
-            "button_text": "View products",
+            "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "button_background": "",
             "button_text_color": ""
           }
@@ -220,7 +221,8 @@
         "collection_q6qG74": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "fly-goods",
+            "image": "shopify:\/\/shop_images\/fly_goods-01-01.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -237,7 +239,8 @@
         "collection_fYkD38": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "grill-cooking-tools",
+            "image": "shopify:\/\/shop_images\/burchsobbarrelgrillmain1000x_0000_Layer61.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
