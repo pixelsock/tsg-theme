@@ -13,6 +13,7 @@
       "blocks": {
         "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "HOOK UP DADDIO THIS YEAR.",
             "heading_tag": "h1"
