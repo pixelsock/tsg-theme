@@ -13,9 +13,8 @@
       "blocks": {
         "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "text": "{{ page.title }}",
+            "text": "HOOK UP DADDIO THIS YEAR.",
             "heading_tag": "h1"
           }
         }
@@ -25,7 +24,7 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/031524-S24-tsgaco-landing-pg-hero_0652a063-5f34-4a8c-abfd-92493730d5b4.jpg",
+        "image": "shopify:\/\/shop_images\/060324-fathers-day-collection-landing-page-hero-DT_14c39b02-a138-44db-8f43-010669b93da1.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
