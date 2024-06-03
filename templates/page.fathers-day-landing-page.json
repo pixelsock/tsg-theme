@@ -58,6 +58,86 @@
         "controls_color": "#ffffff"
       }
     },
+    "collection_list_y7iqCk": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_7aMiY6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/TSG_menspolo_tealcaststripecopy.png",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "TOPPER POLOS",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/tsg-topper-polo-teal-cast-stripe",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_87jfG6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/main1000x_0001_TSG_Clubshort_bonecopy.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "BOONE SHORTS",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/copy-of-tsg-club-short-stone",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_mHXifP": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/tsghatteraspantmain1000x_0000s_0000_TSG_hatteraspant_charcoal_frontcopy2khaki_089f919f-9a0e-466c-922b-52b7e5e88be6.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "HATTERAS PANTS",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/tsg-hatteras-performance-pant-khaki",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_7aMiY6",
+        "collection_87jfG6",
+        "collection_mHXifP"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
     "b68f4120-e5fd-4103-875c-84f7da9480a5": {
       "type": "rich-text",
       "blocks": {
@@ -84,81 +164,6 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
-      }
-    },
-    "collection_list_y7iqCk": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_7aMiY6": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/TSG_menspolo_tealcaststripecopy.png",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "TOPPER POLOS",
-            "button_text": "",
-            "button_link": "shopify:\/\/products\/tsg-topper-polo-teal-cast-stripe",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_87jfG6": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_mHXifP": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_7aMiY6",
-        "collection_87jfG6",
-        "collection_mHXifP"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": true,
-        "collections_per_row_desktop": 3,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
       }
     },
     "e5971167-2fc4-4b51-a545-d1c14d7c618b": {
@@ -405,8 +410,8 @@
   "order": [
     "main",
     "slideshow_rL8YMj",
-    "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "collection_list_y7iqCk",
+    "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
     "collection_list_mRFmeW",
     "40d836d0-5c70-4341-b9cb-b40c858de1d6",
