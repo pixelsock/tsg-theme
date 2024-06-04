@@ -249,7 +249,7 @@
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": true,
-        "media_size": "xs",
+        "media_size": "auto",
         "autoplay": false,
         "autoplay_pause_on_video": false,
         "cycle_speed": 5,
