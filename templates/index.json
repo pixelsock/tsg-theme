@@ -422,12 +422,12 @@
         ".h6 {font-size: 24px;}"
       ],
       "settings": {
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "show_next_section_button": false,
         "media_size": "sm",
         "autoplay": false,
         "autoplay_pause_on_video": false,
-        "cycle_speed": 5,
+        "cycle_speed": 4,
         "background": "#ffffff",
         "controls_color": "#ffffff"
       }
