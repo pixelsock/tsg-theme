@@ -518,7 +518,7 @@
         ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image_size": "auto",
         "show_text_outside": false,
         "space_items": true,
@@ -968,7 +968,7 @@
         ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image_size": "auto",
         "show_text_outside": false,
         "space_items": true,
