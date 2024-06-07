@@ -163,7 +163,9 @@ img.blog-post-card__image {
   gap: 0.75rem 0.5rem;
   display: flex;
 }
-
+.shopify-section shopify-section--blog-posts {
+  background-color: #f7f6f3;
+}
 
 .shopify-section--main-product {
   background-color: #f7f6f3;
