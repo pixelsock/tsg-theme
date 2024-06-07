@@ -466,7 +466,7 @@
             "button_link": "shopify:\/\/collections\/tsg-boone-5-pocket-pants",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 5,
             "button_background": "",
             "button_text_color": ""
           }
@@ -484,7 +484,7 @@
             "button_link": "shopify:\/\/products\/tsg-topper-polo-monkey-around",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 5,
             "button_background": "",
             "button_text_color": ""
           }
@@ -502,7 +502,7 @@
             "button_link": "shopify:\/\/products\/tsg-long-sleeve-guide-shirt-coastal-oxbow",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 5,
             "button_background": "",
             "button_text_color": ""
           }
