@@ -313,18 +313,19 @@ img.blog-post-card__image {
   background-color: orange;
   margin: 0 20px;
   align-self: stretch;
+  display: none;
 }
 
 
 .mega-menu {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   max-width: 1000px;
   max-height: none;
   left: 0;
   right: 0;
   margin: auto;
-  --mega-menu-gap: 2.5rem;
+  --mega-menu-gap: 1rem;
   --mega-menu-linklist-gap: 2.5rem;
   --mega-menu-promo-gap: 2.5rem;
   border-top: 3px solid black;
@@ -348,23 +349,31 @@ img.blog-post-card__image {
 
 .mega-menu__linklist > * {
   text-align: left; /* horizontally aligns the text */
-  max-width: 132px;
-  min-width: 132px;
+  max-width: 128px;
+  min-width: 80px;
 }
 
 .mega-menu__promo {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  align-items: center;
-  row-gap: 2rem;
-
-
-
+  display: flex;
+  align-items: start;
+  row-gap: 1rem;
+  column-gap: 0rem;
 }
 
+.mega-menu__promo img {
+  width: 180px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.mega-menu__promo>* {
+    min-width: 200px;
+    max-width: 315px;
+    flex: 200px;
+}
 
 .header__dropdown-menu {
-    margin-top: 3px;
+  margin-top: 3px;
   border: none;
 }
 
