@@ -2196,7 +2196,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   justify-items: start;
   gap: .75rem;
   display: grid;
-  background:#fff;
+  background:#f7f6f3;
   padding: 1rem 0;
 }
 
