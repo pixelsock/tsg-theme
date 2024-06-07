@@ -432,6 +432,101 @@
         "controls_color": "#ffffff"
       }
     },
+    "collection_list_UCmGTM": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_Q3Vt8z": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/053024-main-1000x_0003_TSG_ridge-short_stone_front-copy-khaki.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "RIDGE SHORTS",
+            "button_link": "shopify:\/\/products\/tsg-ridge-short-sage",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_qTV7tz": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/TSG_boonepant_khaki_3copystoneDenim.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "BOONE PANTS",
+            "button_link": "shopify:\/\/collections\/tsg-boone-5-pocket-pants",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_VzcEKR": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/TSG_menspolo_monkeyaroundcopy.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "TOPPER POLOS",
+            "button_link": "shopify:\/\/products\/tsg-topper-polo-monkey-around",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_9dJAb4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_Q3Vt8z",
+        "collection_qTV7tz",
+        "collection_VzcEKR",
+        "collection_9dJAb4"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 4,
+        "subheading": "",
+        "title": "OUR BEST SELLERS OF SPRING",
+        "content": "<p>We're a small-batch company, so if you want it, snag it.  These don't and won't last long...and the bean-counters are super happy about it.<\/p>",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
     "featured_collections_iT3pdC": {
       "type": "featured-collections",
       "blocks": {
@@ -449,6 +544,7 @@
       "block_order": [
         "collection_CYpWzq"
       ],
+      "disabled": true,
       "custom_css": [
         ".h2 {margin-top: -0.5rem; margin-bottom: -1rem;}",
         ".floating-controls-container {margin-bottom: -1.5rem;}",
@@ -538,7 +634,7 @@
         ".h6 {margin-top: -0.5rem; font-size: 24px;}"
       ],
       "settings": {
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "show_next_section_button": false,
         "media_size": "auto",
         "autoplay": false,
@@ -965,6 +1061,7 @@
     "multiple-media-with-text",
     "image_with_text_overlay_B4prAx",
     "slideshow_7cYzUq",
+    "collection_list_UCmGTM",
     "featured_collections_iT3pdC",
     "rich_text_yPCbG8",
     "slideshow_KgiFpE",
