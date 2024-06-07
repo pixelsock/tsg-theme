@@ -6,8 +6,8 @@
 
       ],
       "settings": {
-        "content_width": "xl",
-        "image_size": "lg",
+        "content_width": "md",
+        "image_size": "xs",
         "allow_transparent_header": false,
         "reveal": false,
         "enable_parallax": false,
