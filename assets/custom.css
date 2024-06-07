@@ -362,7 +362,7 @@ img.blog-post-card__image {
 }
 
 .mega-menu__promo img {
-  width: 180px;
+  /* width: 180px; */
   height: 250px;
   object-fit: cover;
 }
@@ -370,7 +370,7 @@ img.blog-post-card__image {
 .mega-menu__promo>* {
     min-width: 200px;
     max-width: 315px;
-    flex: 200px;
+    margin-left: 1rem;
 }
 
 .header__dropdown-menu {
