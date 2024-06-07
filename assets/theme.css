@@ -2126,7 +2126,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .product-card__figure {
   position: relative;
-  mix-blend-mode: multiply;
+  mix-blend-mode: normal;
   will-change: opacity;
   
 }
