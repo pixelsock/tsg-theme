@@ -166,6 +166,34 @@
         "remove_vertical_spacing": false
       }
     },
+    "featured_collections_xCLLxj": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_jbkRGJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-fathers-day-collection",
+            "products_count": 20,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_jbkRGJ"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "e5971167-2fc4-4b51-a545-d1c14d7c618b": {
       "type": "collection-list",
       "blocks": {
@@ -412,6 +440,7 @@
     "slideshow_rL8YMj",
     "collection_list_y7iqCk",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
+    "featured_collections_xCLLxj",
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
     "collection_list_mRFmeW",
     "40d836d0-5c70-4341-b9cb-b40c858de1d6",
