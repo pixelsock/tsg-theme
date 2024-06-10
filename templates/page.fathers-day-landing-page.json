@@ -175,8 +175,8 @@
             "collection": "the-fathers-day-collection",
             "products_count": 20,
             "title": "",
-            "link_url": "",
-            "link_text": "View all"
+            "link_url": "shopify:\/\/collections\/the-fathers-day-collection",
+            "link_text": "See the Whole Enchilada"
           }
         }
       },
@@ -184,7 +184,7 @@
         "collection_jbkRGJ"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
