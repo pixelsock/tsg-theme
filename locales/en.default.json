@@ -59,9 +59,9 @@
     },
     "on_boarding": {
       "blog_post_category": "Category",
-      "blog_post_title": "Blog post",
+      "blog_post_title": "Dispatch post",
       "blog_post_excerpt": "Write text about your blog post.",
-      "product_vendor": "Vendor",
+      "product_vendor": "Brand",
       "product_title": "Product",
       "product_description": "Write text about your product.",
       "collection_title": "Collection"
