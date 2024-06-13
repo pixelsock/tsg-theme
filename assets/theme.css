@@ -311,7 +311,7 @@ height-observer {
 }
 
 .shopify-challenge__button, .shopify-payment-button__button--unbranded {
-  all: revert;
+  all: inherit;
 }
 
 .button, .shopify-challenge__button, .shopify-payment-button__button--unbranded {
