@@ -520,7 +520,7 @@
         ".constrained-image {padding-top: 2rem;}"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "content_width": "lg",
         "text_position": "center",
         "remove_vertical_spacing": false
