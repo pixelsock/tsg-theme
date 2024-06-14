@@ -163,12 +163,25 @@
             "background": "",
             "text_color": ""
           }
+        },
+        "image_cBGEmc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/021224-Brooks-SS-hero-DT-v2.jpg",
+            "width_mode": "custom",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
         }
       },
       "block_order": [
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1",
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1",
-        "button_6FPewP"
+        "button_6FPewP",
+        "image_cBGEmc"
+      ],
+      "custom_css": [
+        ".constrained-image {padding-top: 2rem;}"
       ],
       "settings": {
         "separate_section_with_border": true,
