@@ -153,11 +153,22 @@
           "settings": {
             "content": "<p>Some do it right, and some do it better, and that's where the Airetex™ bamboo fabric comes into play.  The team at TSG Apparel Co. worked with an STeP™ certified facility to create a blend of lightweight, quick drying and anti-microbial fabric as the first and most important part of the puzzle during the design and production of the collection of Airetex™ goods.  So whether your next adventure is in the stream or the field, or just taking your ol' lady to a nice steak dinner, you'll be good to go - even if your overcooked steak isn't.<\/p>"
           }
+        },
+        "button_6FPewP": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SEE MORE",
+            "url": "shopify:\/\/collections\/airetex-bamboo-apparel-collection",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1",
-        "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1"
+        "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1",
+        "button_6FPewP"
       ],
       "settings": {
         "separate_section_with_border": true,
