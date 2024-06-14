@@ -415,6 +415,29 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
+    "rich_text_hMxmxq": {
+      "type": "rich-text",
+      "blocks": {
+        "image_qkQyED": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/s23-topper-polos-_2333x780_1883da6c-c3b1-4a36-9d3c-ab2bcde27980.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        }
+      },
+      "block_order": [
+        "image_qkQyED"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "featured_collections_EJbhpb": {
       "type": "featured-collections",
       "blocks": {
@@ -471,6 +494,7 @@
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
     "collection_list_mRFmeW",
     "40d836d0-5c70-4341-b9cb-b40c858de1d6",
+    "rich_text_hMxmxq",
     "featured_collections_EJbhpb",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
