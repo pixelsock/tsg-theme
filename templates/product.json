@@ -148,7 +148,7 @@
         "accordion_NtmkBd": {
           "type": "accordion",
           "settings": {
-            "show_below_gallery": false,
+            "show_below_gallery": true,
             "icon": "none",
             "title": "Specs",
             "content": "{{ product.metafields.custom.specs | metafield_tag }}",
