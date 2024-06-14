@@ -466,8 +466,58 @@
       "block_order": [
         "image_qkQyED"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_mKXXTd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_W3h964": {
+          "type": "heading",
+          "settings": {
+            "text": "YOUR SUMMER CLOSET UPGRADE",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_L9tkAh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From the Topper Polo to our Hatteras Pants, if you're not cooler this summer than you were last year, then sounds like those \"light beers\" weren't that light.<\/p>"
+          }
+        },
+        "image_87jewQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/s23-topper-polos-_2333x780_1883da6c-c3b1-4a36-9d3c-ab2bcde27980.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "button_ntiw84": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_W3h964",
+        "richtext_L9tkAh",
+        "image_87jewQ",
+        "button_ntiw84"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
         "content_width": "lg",
         "text_position": "center",
         "remove_vertical_spacing": false
@@ -481,7 +531,7 @@
           "settings": {
             "collection": "tsg-apparel",
             "products_count": 8,
-            "title": "HIS CLOSET LIKELY NEEEDS AN UPDATE TOO",
+            "title": "",
             "link_url": "shopify:\/\/collections\/tsg-apparel",
             "link_text": "Shop The Whole Collection"
           }
@@ -489,6 +539,9 @@
       },
       "block_order": [
         "collection_BWKqbq"
+      ],
+      "custom_css": [
+        ".h2 {font-size: large;}"
       ],
       "settings": {
         "separate_section_with_border": false,
@@ -531,6 +584,7 @@
     "collection_list_mRFmeW",
     "40d836d0-5c70-4341-b9cb-b40c858de1d6",
     "rich_text_hMxmxq",
+    "rich_text_mKXXTd",
     "featured_collections_EJbhpb",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
