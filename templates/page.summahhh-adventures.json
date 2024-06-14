@@ -14,10 +14,10 @@
         "image_HAmQiM": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/060324-fathers-day-collection-landing-page-hero-DT_14c39b02-a138-44db-8f43-010669b93da1.jpg",
+            "image": "shopify:\/\/shop_images\/060124-Summah-DT-hero.jpg",
             "mobile_image": "shopify:\/\/shop_images\/060324-fathers-day-collection-hero-mobile.jpg",
-            "subheading": "THE NO BRAINER GUIDE TO",
-            "title": "FATHERS DAY DONE RIGHT",
+            "subheading": "",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "content_max_width": 780,
