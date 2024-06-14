@@ -503,8 +503,8 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Button text",
-            "url": "",
+            "text": "SHOP NOW",
+            "url": "shopify:\/\/collections\/tsg-apparel",
             "background": "",
             "text_color": ""
           }
