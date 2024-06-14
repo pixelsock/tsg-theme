@@ -184,6 +184,9 @@
       "block_order": [
         "collection_jbkRGJ"
       ],
+      "custom_css": [
+        ".h6.text-center {gap: 0.5rem;}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
@@ -192,7 +195,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": ""
+        "subheading": "Dries Quicker Than Your Lawn in August."
       }
     },
     "e5971167-2fc4-4b51-a545-d1c14d7c618b": {
