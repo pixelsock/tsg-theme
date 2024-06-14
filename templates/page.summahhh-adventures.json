@@ -144,14 +144,14 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "HOOK UP POPS THIS YEAR.",
+            "text": "AIRETEX™ BAMBOO COLLECTION",
             "heading_tag": "h1"
           }
         },
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We've been saying since we started TSG, for the guy who has everything, we have something.  And that holds <em>very<\/em> true for dads too.  This Father's Day, shop the extensive collection and selection of goods we have lined up.  We've been hooking up guys\/dads with cool stuff from the git-go, so scroll down, and find something he'll be pleasantly surprised by no matter his hobby of the week.<\/p>"
+            "content": "<p>Some do it right, and some do it better, and that's where the Airetex™ bamboo fabric comes into play.  The team at TSG Apparel Co. worked with an STeP™ certified facility to create a blend of lightweight, quick drying and anti-microbial fabric as the first and most important part of the puzzle during the design and production of the collection of Airetex™ goods.  So whether your next adventure is in the stream or the field, or just taking your ol' lady to a nice steak dinner, you'll be good to go - even if your overcooked steak isn't.<\/p>"
           }
         }
       },
@@ -159,7 +159,6 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1",
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1"
       ],
-      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "content_width": "sm",
@@ -175,7 +174,7 @@
           "settings": {
             "collection": "airetex-bamboo-apparel-collection",
             "products_count": 20,
-            "title": "",
+            "title": "Find out Why Other Brands Got Mad At Us.",
             "link_url": "shopify:\/\/collections\/airetex-bamboo-apparel-collection",
             "link_text": "See the Whole Enchilada"
           }
@@ -185,17 +184,17 @@
         "collection_jbkRGJ"
       ],
       "custom_css": [
-        ".h6.text-center {font-size: large;}"
+        ".h2 {font-size: large;}"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": true,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.5,
         "vertical_spacing_factor": 0.5,
-        "subheading": "Dries Quicker Than Your Lawn in August."
+        "subheading": ""
       }
     },
     "e5971167-2fc4-4b51-a545-d1c14d7c618b": {
