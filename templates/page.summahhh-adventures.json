@@ -49,13 +49,48 @@
       ],
       "settings": {
         "allow_transparent_header": false,
-        "show_next_section_button": true,
+        "show_next_section_button": false,
         "media_size": "auto",
         "autoplay": false,
         "autoplay_pause_on_video": false,
         "cycle_speed": 5,
         "background": "#000000",
         "controls_color": "#ffffff"
+      }
+    },
+    "rich_text_mpbJeB": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_3xgCW7": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_wq77n6": {
+          "type": "heading",
+          "settings": {
+            "text": "IT'll FEEL GOOD TO HIGH(ER)",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_pjDaQH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Some head east, some head west.  In either direction, we have got you covered - especially those of you choosing to chase some adventure in the hills and breathe in the complete-lack-of humidity at higher altitudes.  It's hard to beat.  Check out the line up of goods & gear to set yourself for the most-relaxing Summahhh yet.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3xgCW7",
+        "heading_wq77n6",
+        "richtext_pjDaQH"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "collection_list_y7iqCk": {
@@ -488,6 +523,7 @@
   "order": [
     "main",
     "slideshow_rL8YMj",
+    "rich_text_mpbJeB",
     "collection_list_y7iqCk",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "featured_collections_xCLLxj",
