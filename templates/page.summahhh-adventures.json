@@ -490,15 +490,6 @@
             "content": "<p>From the Topper Polo to our Hatteras Pants, if you're not cooler this summer than you were last year, then sounds like those \"light beers\" weren't that light.<\/p>"
           }
         },
-        "image_87jewQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/s23-topper-polos-_2333x780_1883da6c-c3b1-4a36-9d3c-ab2bcde27980.jpg",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
         "button_ntiw84": {
           "type": "button",
           "settings": {
@@ -508,13 +499,25 @@
             "background": "",
             "text_color": ""
           }
+        },
+        "image_87jewQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/s23-topper-polos-_2333x780_1883da6c-c3b1-4a36-9d3c-ab2bcde27980.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
         }
       },
       "block_order": [
         "heading_W3h964",
         "richtext_L9tkAh",
-        "image_87jewQ",
-        "button_ntiw84"
+        "button_ntiw84",
+        "image_87jewQ"
+      ],
+      "custom_css": [
+        ".constrained-image {padding-top: 2rem;}"
       ],
       "settings": {
         "separate_section_with_border": false,
