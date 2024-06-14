@@ -159,6 +159,7 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1",
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "content_width": "sm",
@@ -172,10 +173,10 @@
         "collection_jbkRGJ": {
           "type": "collection",
           "settings": {
-            "collection": "the-fathers-day-collection",
+            "collection": "airetex-bamboo-apparel-collection",
             "products_count": 20,
             "title": "",
-            "link_url": "shopify:\/\/collections\/the-fathers-day-collection",
+            "link_url": "shopify:\/\/collections\/airetex-bamboo-apparel-collection",
             "link_text": "See the Whole Enchilada"
           }
         }
