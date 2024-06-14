@@ -1,5 +1,68 @@
 {
   "sections": {
+    "slideshow_PAnqch": {
+      "type": "slideshow",
+      "blocks": {
+        "image_pAzji4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/060124-Summah-DT-hero_507115f5-f242-4db8-a281-a855c13ed863.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/060124-Summah-mobile-hero.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "CHECK IT OUT",
+            "button_1_link": "shopify:\/\/pages\/summahh-good-times-ahead",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(296deg, rgba(2, 2, 2, 1) 10%, rgba(54, 212, 255, 0) 47%, rgba(43, 252, 135, 0) 83%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_pAzji4"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 1000px) {.h1 {font-size: 48px; } .h6 {font-size: 16px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": true,
+        "media_size": "lg",
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 5,
+        "background": "#ffffff",
+        "controls_color": "#ffffff"
+      }
+    },
+    "ebc5991b-8329-4499-9aff-2ede32c195fa": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "* {margin: 0; padding-top: 2.5px; padding-bottom: 1px;}",
+        ".divider-text {font-size: 22px;}",
+        "@media only screen and (max-width: 699px) {.divider-text {font-size: 11px; }}"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<title>\n<\/title>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\nbody {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}\nh1{font-family:\"Work Sans\", sans-serif;letter-spacing:0px;color:#282E29;background-color:#ffffff;font-weight:900;}\n<\/style>\n<\/head>\n<body>\n<h1 class=\"divider-text\">APPAREL MAKERS. GEAR CURATORS. GOOD TIME PURVEYORS.<\/h1>\n<p><\/p>\n<\/body>\n<\/html>",
+        "text_alignment": "center"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -46,69 +109,6 @@
         "autoplay": false,
         "autoplay_pause_on_video": false,
         "cycle_speed": 8,
-        "background": "#ffffff",
-        "controls_color": "#ffffff"
-      }
-    },
-    "ebc5991b-8329-4499-9aff-2ede32c195fa": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "* {margin: 0; padding-top: 2.5px; padding-bottom: 1px;}",
-        ".divider-text {font-size: 22px;}",
-        "@media only screen and (max-width: 699px) {.divider-text {font-size: 11px; }}"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<title>\n<\/title>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\nbody {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}\nh1{font-family:\"Work Sans\", sans-serif;letter-spacing:0px;color:#282E29;background-color:#ffffff;font-weight:900;}\n<\/style>\n<\/head>\n<body>\n<h1 class=\"divider-text\">APPAREL MAKERS. GEAR CURATORS. GOOD TIME PURVEYORS.<\/h1>\n<p><\/p>\n<\/body>\n<\/html>",
-        "text_alignment": "center"
-      }
-    },
-    "slideshow_PAnqch": {
-      "type": "slideshow",
-      "blocks": {
-        "image_pAzji4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/060324-fathers-day-collection-hero-DT.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/060324-fathers-day-collection-hero-mobile.jpg",
-            "subheading": "THE NO BRAINER GUIDE TO",
-            "title": "FATHER's DAY GIFTS",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "content_max_width": 780,
-            "button_1_text": "CHECK IT OUT",
-            "button_1_link": "shopify:\/\/pages\/fathers-day-2024-the-no-brainer-guide",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(296deg, rgba(2, 2, 2, 1) 10%, rgba(54, 212, 255, 0) 47%, rgba(43, 252, 135, 0) 83%)"
-          }
-        }
-      },
-      "block_order": [
-        "image_pAzji4"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 1000px) {.h1 {font-size: 48px; } .h6 {font-size: 16px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}"
-      ],
-      "settings": {
-        "allow_transparent_header": false,
-        "show_next_section_button": true,
-        "media_size": "auto",
-        "autoplay": false,
-        "autoplay_pause_on_video": false,
-        "cycle_speed": 5,
         "background": "#ffffff",
         "controls_color": "#ffffff"
       }
@@ -1015,9 +1015,9 @@
     }
   },
   "order": [
-    "slideshow",
-    "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "slideshow_PAnqch",
+    "ebc5991b-8329-4499-9aff-2ede32c195fa",
+    "slideshow",
     "multiple-media-with-text",
     "image_with_text_overlay_B4prAx",
     "slideshow_7cYzUq",
