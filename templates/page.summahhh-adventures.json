@@ -185,7 +185,7 @@
         "collection_jbkRGJ"
       ],
       "custom_css": [
-        ".h6.text-center {gap: 0.5rem;}"
+        ".h6.text-center {font-size: large;}"
       ],
       "settings": {
         "separate_section_with_border": true,
