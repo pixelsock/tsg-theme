@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "slideshow": {
@@ -71,8 +80,8 @@
         "image_pAzji4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/060124-Summah-DT-hero_507115f5-f242-4db8-a281-a855c13ed863.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/060124-Summah-mobile-hero.jpg",
+            "image": "shopify:\/\/shop_images\/060124-Summah-DT-hero_6c519fd3-1b98-4819-8f30-143aa94028d8.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/060124-Summah-mobile-hero_05cc73a9-8060-4e04-b22e-f0cd6f6daa09.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
