@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -14,8 +23,8 @@
         "image_HAmQiM": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/060124-Summah-landing-page-DT-hero.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/060124-Summah-landing-page-mobile-hero.jpg",
+            "image": "shopify:\/\/shop_images\/060124-Summah-DT-hero_0ed5e1cf-65ea-41ba-9a58-ae3b5f1cd96e.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/060124-Summah-mobile-hero_de46cdd7-a344-4dc2-bbff-f62b2c09d1a0.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
