@@ -144,6 +144,7 @@
       "block_order": [
         "template--16783006138600__047ea314-02cf-4695-877e-47db2ca47942-image-1"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
@@ -244,6 +245,7 @@
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1",
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "image_size": "md",
@@ -283,6 +285,7 @@
       "block_order": [
         "template--16783006138600__40d836d0-5c70-4341-b9cb-b40c858de1d6-collection-3"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "image_size": "sm",
@@ -314,6 +317,7 @@
       "block_order": [
         "collection_BWKqbq"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
