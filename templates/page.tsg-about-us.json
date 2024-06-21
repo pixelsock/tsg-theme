@@ -59,13 +59,22 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We’re coming off one of the craziest Fall\/Winter seasons in our short history and we’re now rolling that momentum into this Spring with a collection of gear and goods that are both tried-and-tested winners (read: The Ridge Short) and some new fabrics that are aboslute perfection (read: Drift Polo).  We’re committed to finding the best in fabric and function, reinforcing our core styles, and doing all the leg work for, so you can get out there and make some new memories.<br\/>\tSo, feast your eyes and let those thumbs go nuts on the latest new-ness from TSG and our newest family member, Blue Ridge Native™. <\/p>"
+            "content": "<p>First and most importantly, thanks for being here.  <\/p><p>Back in 2012 when the idea hit me to start TSG, I started with one mission: to curate the best gear and goods we can find and drop them in one place (well, technically two now if you also count our brick-and-mortar shop).  But there was also a desire to not only solve an \"accessibility\" issue, but create a community, promote and serve traditions.  <\/p>"
+          }
+        },
+        "image_xqwRUQ": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
           }
         }
       },
       "block_order": [
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1",
-        "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1"
+        "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1",
+        "image_xqwRUQ"
       ],
       "settings": {
         "separate_section_with_border": true,
