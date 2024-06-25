@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "page": "Page {{ page }}",
@@ -459,6 +468,25 @@
     "shop_the_look": {
       "view_products": "View products",
       "view_product": "View product"
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "go_to_store_link": "Keep Shopping",
+      "orders_link_label": "My Orders"
+    },
+    "account_information": {
+      "profile_card": {
+        "edit_accessibility_label": "Edit My Profile",
+        "title": "My Profile"
+      },
+      "title": "My Profile"
+    },
+    "orders": {
+      "list_title": "My Orders",
+      "status_title": "My Order Status",
+      "buy_again": "Buy It Again",
+      "contact_us": "Holler At Us"
     }
   }
 }
