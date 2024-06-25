@@ -500,7 +500,8 @@
         "accept_sms_checkbox_label": "Holler at me via SMS for TSG updates"
       },
       "shipping": {
-        "shipping_method_title": "Shipping Method"
+        "shipping_method_title": "Shipping Method",
+        "shipping_address_title": "Ship To:"
       }
     }
   }
