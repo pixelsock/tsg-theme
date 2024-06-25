@@ -84,7 +84,7 @@
             "mobile_image": "shopify:\/\/shop_images\/060124-Summah-mobile-hero_05cc73a9-8060-4e04-b22e-f0cd6f6daa09.jpg",
             "subheading": "",
             "title": "",
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "CHECK IT OUT",
