@@ -498,6 +498,9 @@
         "accept_marketing_checkbox_label": "Add my email to the TSG Disptaches",
         "post_accept_marketing_checkbox_label": "You are now a member of the club!",
         "accept_sms_checkbox_label": "Holler at me via SMS for TSG updates"
+      },
+      "shipping": {
+        "shipping_method_title": "Shipping Method"
       }
     }
   }
