@@ -219,7 +219,7 @@ img.blog-post-card__image {
     max-width: calc(25% - 0rem); /* Ensuring the maximum width */
     font-weight: 700;
     letter-spacing: .03rem;
-    transition: border-color 200ms ease
+    transition: border-color 200ms ease;
 }
 
 .block-swatch-variant {
