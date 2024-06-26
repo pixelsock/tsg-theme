@@ -225,6 +225,8 @@ img.blog-post-card__image {
 .block-swatch-variant {
     min-width: calc(50% - 0.500rem); /* Each element takes up at least half of the container's width */
     max-width: calc(50% - 0.500rem); /* Ensuring the maximum width */
+    transition: border-color 200ms ease;
+
 }
 
 @media screen and (max-width: 599px) {
