@@ -3192,6 +3192,8 @@ tfoot td {
   align-items: baseline;
   column-gap: .5rem;
   display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .price-list--product {
