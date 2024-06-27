@@ -24,8 +24,14 @@
 {%- assign is_badge_list_hidden = true -%}
 {%- assign sold_out_badge_present = false -%}
 
-<script>console.log('Badge Type:', '{{ badge_types }}')</script>
-{%- if badge_types contains 'sold_out' and settings.show_sold_out_badge -%}
+{%- assign stripped_badge_types = '' -%}
+{%- for badge_type in badge_types -%}
+  {%- assign stripped_badge_type = badge_type | strip -%}
+  {%- assign stripped_badge_types = stripped_badge_types | append: stripped_badge_type | append: ',' -%}
+{%- endfor -%}
+{%- assign stripped_badge_types = stripped_badge_types | split: ',' -%}
+
+{%- if stripped_badge_types contains 'sold_out' and settings.show_sold_out_badge -%}
   {%- if variant.available == false or form_id != blank -%}
     {%- assign sold_out_badge_present = true -%}
   {%- endif -%}
