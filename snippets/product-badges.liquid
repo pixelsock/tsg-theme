@@ -24,9 +24,7 @@
 {%- assign is_badge_list_hidden = true -%}
 {%- assign sold_out_badge_present = false -%}
 
-<script>console.log('Hit1:::::')</script>
 {%- if badge_types contains 'sold_out' and settings.show_sold_out_badge -%}
-  <script>console.log('Hit2:::::')</script>
   {%- if variant.available == false or form_id != blank -%}
     {%- assign sold_out_badge_present = true -%}
   {%- endif -%}
@@ -42,6 +40,7 @@
     </sold-out-badge>
   {%- else -%}
     {%- for badge_type in badge_types -%}
+      <script>console.log('Badge Type:', '{{ badge_type }}')</script>
       {%- assign stripped_badge_type = badge_type | strip -%}
 
       {%- case stripped_badge_type -%}
