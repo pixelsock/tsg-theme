@@ -24,18 +24,14 @@
 {%- assign is_badge_list_hidden = true -%}
 {%- assign sold_out_badge_present = false -%}
 
-{%- assign stripped_badge_types = '' -%}
 {%- for badge_type in badge_types -%}
   {%- assign stripped_badge_type = badge_type | strip -%}
-  {%- assign stripped_badge_types = stripped_badge_types | append: stripped_badge_type | append: ',' -%}
+  {%- if stripped_badge_types contains 'sold_out' and settings.show_sold_out_badge -%}
+    {%- if variant.available == false or form_id != blank -%}
+      {%- assign sold_out_badge_present = true -%}
+    {%- endif -%}
+  {%- endif -%}  
 {%- endfor -%}
-{%- assign stripped_badge_types = stripped_badge_types | split: ',' -%}
-
-{%- if stripped_badge_types contains 'sold_out' and settings.show_sold_out_badge -%}
-  {%- if variant.available == false or form_id != blank -%}
-    {%- assign sold_out_badge_present = true -%}
-  {%- endif -%}
-{%- endif -%}
 
 {%- capture badges -%}
   {%- if sold_out_badge_present -%}
