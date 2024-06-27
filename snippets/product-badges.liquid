@@ -24,9 +24,9 @@
 {%- assign is_badge_list_hidden = true -%}
 {%- assign sold_out_badge_present = false -%}
 
-<script>console.log('Hit1:::::', `{{  settings.show_sold_out_badge  }}`)</script>
+<script>console.log('Hit1:::::')</script>
 {%- if badge_types contains 'sold_out' and settings.show_sold_out_badge -%}
-  <script>console.log('Hit2:::::', `{{  settings.show_sold_out_badge  }}`)</script>
+  <script>console.log('Hit2:::::')</script>
   {%- if variant.available == false or form_id != blank -%}
     {%- assign sold_out_badge_present = true -%}
   {%- endif -%}
