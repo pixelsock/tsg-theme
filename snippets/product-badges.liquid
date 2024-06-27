@@ -27,7 +27,7 @@
 {%- for badge_type in badge_types -%}
   {%- assign stripped_badge_type = badge_type | strip -%}
   <script>console.log('Badge Type:', '{{ stripped_badge_type }}')</script>
-  {%- if stripped_badge_types == 'sold_out' and settings.show_sold_out_badge -%}
+  {%- if stripped_badge_type == 'sold_out' and settings.show_sold_out_badge -%}
     {%- if variant.available == false or form_id != blank -%}
       {%- assign sold_out_badge_present = true -%}
     {%- endif -%}
