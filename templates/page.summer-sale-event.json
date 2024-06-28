@@ -269,7 +269,7 @@
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "best-sellers",
+            "collection": "polos",
             "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-25.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-center text-center",
@@ -287,7 +287,7 @@
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals-this-week-tsg",
+            "collection": "pants",
             "image": "shopify:\/\/shop_images\/022624-ridge-short-hero-mobile.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-center text-center",
