@@ -403,6 +403,7 @@
         "collection_q6qG74",
         "collection_fYkD38"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "image_size": "sm",
