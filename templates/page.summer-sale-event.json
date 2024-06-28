@@ -116,7 +116,7 @@
             "button_link": "shopify:\/\/products\/tsg-allszn-hoody-deep-sea",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 15,
             "button_background": "",
             "button_text_color": ""
           }
@@ -134,7 +134,7 @@
             "button_link": "shopify:\/\/collections\/tasc-performance-apparel",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 15,
             "button_background": "",
             "button_text_color": ""
           }
