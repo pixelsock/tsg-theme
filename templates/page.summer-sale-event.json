@@ -23,6 +23,8 @@
         "image_HAmQiM": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/062824-Summer-24-J4-Sale-landing-page-DT-hero.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/062824-Summer-24-J4-Sale-landing-page-mobile-hero_f8827827-0a50-4ef6-bf53-0c647de2b472.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
