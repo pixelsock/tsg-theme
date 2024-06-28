@@ -340,6 +340,80 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
+    "collection_list_YENC3j": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_KtVQEW": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_j9jcyX": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_TG8jxc": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_KtVQEW",
+        "collection_j9jcyX",
+        "collection_TG8jxc"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
     "featured_product_TxhkjG": {
       "type": "featured-product",
       "blocks": {
@@ -446,7 +520,7 @@
       ],
       "settings": {
         "product": "tsg-havenfield-shell-jacket-navy",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "container_size": "lg",
         "product_info_size": 49,
         "center_basic_info": true,
@@ -458,7 +532,7 @@
         "enable_image_zoom": false,
         "max_image_zoom_level": 1,
         "subheading": "",
-        "title": "Featured product",
+        "title": "",
         "content": ""
       }
     },
@@ -572,6 +646,7 @@
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "featured_collections_xCLLxj",
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
+    "collection_list_YENC3j",
     "featured_product_TxhkjG",
     "rich_text_mKXXTd",
     "featured_collections_EJbhpb",
