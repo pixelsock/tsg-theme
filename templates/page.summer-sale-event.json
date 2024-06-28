@@ -23,8 +23,6 @@
         "image_HAmQiM": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/060124-Summah-DT-hero_0ed5e1cf-65ea-41ba-9a58-ae3b5f1cd96e.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/060124-Summah-mobile-hero_de46cdd7-a344-4dc2-bbff-f62b2c09d1a0.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -79,14 +77,14 @@
         "heading_wq77n6": {
           "type": "heading",
           "settings": {
-            "text": "IT'll FEEL GOOD TO GET HIGH(ER)",
+            "text": "THE SUMMER SALE EVENT IS HERE.",
             "heading_tag": "h1"
           }
         },
         "richtext_pjDaQH": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Some head east, some head west.  In either direction, we have got you covered - especially those of you choosing to chase adventure in the hills and breathe in the complete-lack-of humidity at higher altitudes.  It's hard to beat.  Check out the line up of goods & gear to set yourself for the most-relaxing Summahhh yet.<\/p>"
+            "content": "<p>We don't mess around.  We don't run a ton of sales, but when we do, we make it good.  So, all in-stock apparel is at least 25% off with code: SUMMERSALE.  Orders $300 or more will <em>automatically<\/em> get 30% off - no additional code necessary.<\/p><p>Shop the collection of polos, shorts, pants, headwear, and more.<\/p>"
           }
         }
       },
@@ -109,13 +107,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/TSG_menspolo_tealcaststripecopy.png",
+            "image": "shopify:\/\/shop_images\/TSG_Allszn_Hoody_forest_forestcopyallsznhoodydeepsea.png",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "TOPPER POLOS",
-            "button_text": "",
-            "button_link": "shopify:\/\/products\/tsg-topper-polo-teal-cast-stripe",
+            "title": "AllSZN HOODY",
+            "button_text": "GET AN EXTRA 25% OFF",
+            "button_link": "shopify:\/\/products\/tsg-allszn-hoody-deep-sea",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
