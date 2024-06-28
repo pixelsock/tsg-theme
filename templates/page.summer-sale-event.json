@@ -103,24 +103,6 @@
     "collection_list_y7iqCk": {
       "type": "collection-list",
       "blocks": {
-        "collection_7aMiY6": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/TSG_Allszn_Hoody_forest_forestcopyallsznhoodydeepsea.png",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "AIRETEX™ BAMBOO Apparel",
-            "button_text": "GET AN EXTRA 20% OFF",
-            "button_link": "shopify:\/\/collections\/airetex-bamboo-apparel-collection",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 15,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
         "collection_87jfG6": {
           "type": "collection",
           "settings": {
@@ -139,6 +121,24 @@
             "button_text_color": ""
           }
         },
+        "collection_7aMiY6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/TSG_Allszn_Hoody_forest_forestcopyallsznhoodydeepsea.png",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "AIRETEX™ BAMBOO Apparel",
+            "button_text": "GET AN EXTRA 20% OFF",
+            "button_link": "shopify:\/\/collections\/airetex-bamboo-apparel-collection",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
         "collection_mHXifP": {
           "type": "collection",
           "settings": {
@@ -147,20 +147,20 @@
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "SHORTS & SWIM",
+            "title": "SHORTS & SWIMwear",
             "button_text": "20% OFF",
             "button_link": "shopify:\/\/collections\/shorts",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 15,
             "button_background": "",
             "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "collection_7aMiY6",
         "collection_87jfG6",
+        "collection_7aMiY6",
         "collection_mHXifP"
       ],
       "custom_css": [
