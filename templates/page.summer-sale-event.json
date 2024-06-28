@@ -340,146 +340,126 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
-    "collection_list_mRFmeW": {
-      "type": "collection-list",
+    "featured_product_TxhkjG": {
+      "type": "featured-product",
       "blocks": {
-        "collection_CQRH93": {
-          "type": "collection",
+        "vendor_NiLaab": {
+          "type": "vendor",
+          "disabled": true,
           "settings": {
-            "collection": "field-gear",
-            "image": "shopify:\/\/shop_images\/TSG-SS24-Builder-KHP-021.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "FIELD GEAR",
-            "button_text": "SHOP NOW",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
           }
         },
-        "collection_q6qG74": {
-          "type": "collection",
+        "title_iGVmdY": {
+          "type": "title",
           "settings": {
-            "collection": "fly-goods",
-            "image": "shopify:\/\/shop_images\/20220626-TSG-Troutsky-Builder-60.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "FLY GOODS",
-            "button_text": "SHOP NOW",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
+            "heading_tag": "h3"
           }
         },
-        "collection_fYkD38": {
-          "type": "collection",
+        "badges_axdKNT": {
+          "type": "badges",
           "settings": {
-            "collection": "shorts",
-            "image": "shopify:\/\/shop_images\/main-1000x_0002_TSG-Bluff-S23-Builder-144Denim.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "SHORTS",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/personalize-me",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
+          }
+        },
+        "price_9EhT8q": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_xXRxAn": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "rating"
+          }
+        },
+        "payment_terms_G3Ke9N": {
+          "type": "payment_terms",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "separator_Yy6Gxp": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "description_EPfjBz": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_cfrLRt": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
+        },
+        "separator_VpLtzw": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "quantity_selector_UwjCVy": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons_rAAbrr": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_E4PmhE": {
+          "type": "pickup_availability",
+          "settings": {
           }
         }
       },
       "block_order": [
-        "collection_CQRH93",
-        "collection_q6qG74",
-        "collection_fYkD38"
+        "vendor_NiLaab",
+        "title_iGVmdY",
+        "badges_axdKNT",
+        "price_9EhT8q",
+        "rating_xXRxAn",
+        "payment_terms_G3Ke9N",
+        "separator_Yy6Gxp",
+        "description_EPfjBz",
+        "variant_picker_cfrLRt",
+        "separator_VpLtzw",
+        "quantity_selector_UwjCVy",
+        "buy_buttons_rAAbrr",
+        "pickup_availability_E4PmhE"
       ],
-      "disabled": true,
       "settings": {
-        "separate_section_with_border": false,
-        "image_size": "sm",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": true,
-        "collections_per_row_desktop": 3,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "40d836d0-5c70-4341-b9cb-b40c858de1d6": {
-      "type": "collection-list",
-      "blocks": {
-        "template--16783006138600__40d836d0-5c70-4341-b9cb-b40c858de1d6-collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "tsg-apparel",
-            "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-9.jpg",
-            "expand_collection": true,
-            "content_position": "place-self-end text-end",
-            "subheading": "",
-            "title": "SHOP NEW ARRIVALS FOR SPRING '24",
-            "button_text": "See The Collection",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16783006138600__40d836d0-5c70-4341-b9cb-b40c858de1d6-collection-3"
-      ],
-      "disabled": true,
-      "settings": {
+        "product": "tsg-havenfield-shell-jacket-navy",
         "separate_section_with_border": true,
-        "image_size": "sm",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": false,
-        "collections_per_row_desktop": 1,
+        "container_size": "lg",
+        "product_info_size": 49,
+        "center_basic_info": true,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 1,
         "subheading": "",
-        "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "rich_text_hMxmxq": {
-      "type": "rich-text",
-      "blocks": {
-        "image_qkQyED": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/s23-topper-polos-_2333x780_1883da6c-c3b1-4a36-9d3c-ab2bcde27980.jpg",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 600
-          }
-        }
-      },
-      "block_order": [
-        "image_qkQyED"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": true,
-        "content_width": "lg",
-        "text_position": "center",
-        "remove_vertical_spacing": false
+        "title": "Featured product",
+        "content": ""
       }
     },
     "rich_text_mKXXTd": {
@@ -592,9 +572,7 @@
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "featured_collections_xCLLxj",
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
-    "collection_list_mRFmeW",
-    "40d836d0-5c70-4341-b9cb-b40c858de1d6",
-    "rich_text_hMxmxq",
+    "featured_product_TxhkjG",
     "rich_text_mKXXTd",
     "featured_collections_EJbhpb",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
