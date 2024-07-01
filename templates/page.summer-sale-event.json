@@ -441,6 +441,7 @@
         },
         "title_iGVmdY": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_tag": "h3"
           }
@@ -450,14 +451,9 @@
           "settings": {
           }
         },
-        "price_9EhT8q": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
         "rating_xXRxAn": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": true,
             "rating_mode": "rating"
@@ -478,6 +474,12 @@
           "type": "description",
           "settings": {
             "collapse_content": false
+          }
+        },
+        "price_9EhT8q": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
           }
         },
         "variant_picker_cfrLRt": {
@@ -523,11 +525,11 @@
         "vendor_NiLaab",
         "title_iGVmdY",
         "badges_axdKNT",
-        "price_9EhT8q",
         "rating_xXRxAn",
         "payment_terms_G3Ke9N",
         "separator_Yy6Gxp",
         "description_EPfjBz",
+        "price_9EhT8q",
         "variant_picker_cfrLRt",
         "separator_VpLtzw",
         "quantity_selector_UwjCVy",
