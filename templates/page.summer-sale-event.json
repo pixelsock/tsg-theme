@@ -319,13 +319,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/burchsupplybarrelmain1000x_0006_Layer51.jpg",
+            "image": "shopify:\/\/shop_images\/tsgacoaltimage1000x_0004_TSG-Bluff-S23-Builder-151.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-center text-center",
             "subheading": "",
-            "title": "GRILL GEAR & GOODS",
+            "title": "COASTAL OXBOW™",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/grill-cooking-tools",
+            "button_link": "shopify:\/\/products\/tsg-long-sleeve-guide-shirt-coastal-oxbow",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -360,6 +360,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/tsghavenfieldmain1000x_0000s_0006_TSG_Havenfield_khaki_frontcopy_6beaf4ea-86ef-482d-8567-7f4a4988319e.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -377,6 +378,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/tsghavenfieldmain1000x_0000s_0011_TSG_Havenfield_camo_frontcopy_5568131c-f11c-483d-9f3a-cfbdb530d06e.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -394,6 +396,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/tsghavenfieldmain1000x_0000s_0001_TSG_Havenfield_navy_frontcopy_1d6c3869-bac7-46b6-8f45-dd9aac5411fd.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -414,14 +417,14 @@
         "collection_TG8jxc"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image_size": "auto",
         "show_text_outside": false,
-        "space_items": true,
+        "space_items": false,
         "stack_collections": true,
         "collections_per_row_desktop": 3,
         "subheading": "",
-        "title": "",
+        "title": "THE HAVENFIELD SHELL",
         "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
