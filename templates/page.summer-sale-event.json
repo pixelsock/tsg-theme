@@ -193,6 +193,83 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
+    "e5971167-2fc4-4b51-a545-d1c14d7c618b": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "polos",
+            "image": "shopify:\/\/shop_images\/s24driftpoloalt1000x_0001s_0004_TSG-SS24-Builder-KHP-147.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "DRIFT POLOS",
+            "button_text": "DRIFT POLOS",
+            "button_link": "shopify:\/\/collections\/best-sellers",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/tsgacoaltimage1000x_0004_TSG-Bluff-S23-Builder-151.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "COASTAL OXBOW™",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/tsg-long-sleeve-guide-shirt-coastal-oxbow",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/021224-Brooks-SS-hero-mobile.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "BROOKS SHIRTS",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2",
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3",
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "sm",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "THE NECESSITIES FOR...",
+        "content": "<p>Getting your summer started off on the right foot.  And hopefully that right foot is going into some fishable water.<\/p>",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
     "b68f4120-e5fd-4103-875c-84f7da9480a5": {
       "type": "rich-text",
       "blocks": {
@@ -274,83 +351,6 @@
         "horizontal_spacing_factor": 0.5,
         "vertical_spacing_factor": 0.5,
         "subheading": ""
-      }
-    },
-    "e5971167-2fc4-4b51-a545-d1c14d7c618b": {
-      "type": "collection-list",
-      "blocks": {
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "polos",
-            "image": "shopify:\/\/shop_images\/s24driftpoloalt1000x_0001s_0004_TSG-SS24-Builder-KHP-147.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "DRIFT POLOS",
-            "button_text": "DRIFT POLOS",
-            "button_link": "shopify:\/\/collections\/best-sellers",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/tsgacoaltimage1000x_0004_TSG-Bluff-S23-Builder-151.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "COASTAL OXBOW™",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-long-sleeve-guide-shirt-coastal-oxbow",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/021224-Brooks-SS-hero-mobile.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "BROOKS SHIRTS",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2",
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3",
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "sm",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": true,
-        "collections_per_row_desktop": 3,
-        "subheading": "",
-        "title": "THE NECESSITIES FOR...",
-        "content": "<p>Getting your summer started off on the right foot.  And hopefully that right foot is going into some fishable water.<\/p>",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
       }
     },
     "collection_list_YENC3j": {
@@ -661,9 +661,9 @@
     "slideshow_rL8YMj",
     "rich_text_mpbJeB",
     "collection_list_y7iqCk",
+    "e5971167-2fc4-4b51-a545-d1c14d7c618b",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "featured_collections_xCLLxj",
-    "e5971167-2fc4-4b51-a545-d1c14d7c618b",
     "collection_list_YENC3j",
     "featured_product_TxhkjG",
     "rich_text_mKXXTd",
