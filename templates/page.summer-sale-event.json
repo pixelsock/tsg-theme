@@ -476,7 +476,6 @@
         },
         "description_EPfjBz": {
           "type": "description",
-          "disabled": true,
           "settings": {
             "collapse_content": false
           }
@@ -515,6 +514,7 @@
         },
         "pickup_availability_E4PmhE": {
           "type": "pickup_availability",
+          "disabled": true,
           "settings": {
           }
         }
