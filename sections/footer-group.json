@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "footer",
   "name": "Footer group",
@@ -32,13 +41,23 @@
             "menu": "my-account",
             "show_menu_title": true
           }
+        },
+        "image_RgG7D9": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/060124-Summah-mobile-hero.jpg",
+            "image_width": 240,
+            "link": ""
+          }
         }
       },
       "block_order": [
         "links",
         "9a62da39-a2ce-45d6-9ec8-615c867ceb08",
         "655c721e-32d7-4fc0-aea0-d1419e823573",
-        "aba604b8-5a73-45fe-b5b0-d34c16392dce"
+        "aba604b8-5a73-45fe-b5b0-d34c16392dce",
+        "image_RgG7D9"
       ],
       "custom_css": [
         ".footer__block-list {gap: 2rem;}",
