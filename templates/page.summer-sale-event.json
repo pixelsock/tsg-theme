@@ -283,31 +283,13 @@
           "type": "collection",
           "settings": {
             "collection": "polos",
-            "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-25.jpg",
+            "image": "shopify:\/\/shop_images\/s24driftpoloalt1000x_0001s_0004_TSG-SS24-Builder-KHP-147.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-center text-center",
             "subheading": "",
-            "title": "BEST SELLERS",
-            "button_text": "SHOP NOW",
+            "title": "DRIFT POLOS",
+            "button_text": "DRIFT POLOS",
             "button_link": "shopify:\/\/collections\/best-sellers",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "pants",
-            "image": "shopify:\/\/shop_images\/022624-ridge-short-hero-mobile.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "NEW ARRIVALS",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -332,12 +314,30 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/021224-Brooks-SS-hero-mobile.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "BROOKS SHIRTS",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2",
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1",
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3"
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3",
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -362,14 +362,14 @@
             "collection": "",
             "image": "shopify:\/\/shop_images\/tsghavenfieldmain1000x_0000s_0006_TSG_Havenfield_khaki_frontcopy_6beaf4ea-86ef-482d-8567-7f4a4988319e.jpg",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "button_text": "SHOP 20% OFF",
+            "button_link": "shopify:\/\/products\/tsg-havenfield-shell-jacket-khaki",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 15,
             "button_background": "",
             "button_text_color": ""
           }
@@ -380,14 +380,14 @@
             "collection": "",
             "image": "shopify:\/\/shop_images\/tsghavenfieldmain1000x_0000s_0011_TSG_Havenfield_camo_frontcopy_5568131c-f11c-483d-9f3a-cfbdb530d06e.jpg",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "button_text": "SHOP 20% OFF",
+            "button_link": "shopify:\/\/products\/tsg-havenfield-shell-jacket-oxbow",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 15,
             "button_background": "",
             "button_text_color": ""
           }
@@ -398,14 +398,14 @@
             "collection": "",
             "image": "shopify:\/\/shop_images\/tsghavenfieldmain1000x_0000s_0001_TSG_Havenfield_navy_frontcopy_1d6c3869-bac7-46b6-8f45-dd9aac5411fd.jpg",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "button_text": "SHOP 20% OFF",
+            "button_link": "shopify:\/\/products\/tsg-havenfield-shell-jacket-navy",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 14,
             "button_background": "",
             "button_text_color": ""
           }
@@ -417,13 +417,13 @@
         "collection_TG8jxc"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "image_size": "auto",
         "show_text_outside": false,
         "space_items": false,
         "stack_collections": true,
         "collections_per_row_desktop": 3,
-        "subheading": "",
+        "subheading": "The smartest jacket we've ever made.",
         "title": "THE HAVENFIELD SHELL",
         "content": "",
         "circle_button_background": "#ffffff",
