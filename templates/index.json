@@ -80,7 +80,7 @@
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
-        "media_size": "lg",
+        "media_size": "md",
         "autoplay": false,
         "autoplay_pause_on_video": false,
         "cycle_speed": 8,
