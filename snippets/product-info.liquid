@@ -165,8 +165,23 @@ Supported variables
 
           {%- when 'price' -%}
             <div class="v-stack">
-              {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, context: 'product', form_id: product_form_id -%}
-
+              <div style="display: flex;">
+                {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, context: 'product', form_id: product_form_id -%}
+  
+                {%- if product != blank -%}
+                  {%- if product.metafields.badges -%}
+                    {%- assign badges = product.metafields.custom.badges.value -%}
+                    {%- for badge in badges -%}
+                      {%- assign stripped_badge_type = badge | strip -%}
+                      {%- if stripped_badge_type == 'Sale' or stripped_badge_type == 'Final Sale' -%}
+                        <div class="badge badge--custom badge--price">
+                          {{ badge }}
+                        </div>
+                      {%- endif -%}
+                    {%- endfor -%}
+                  {%- endif -%}
+                {%- endif -%}
+              </div>
               {%- if block.settings.show_taxes_notice -%}
                 <p class="text-sm text-subdued">
                   {%- if cart.taxes_included -%}
@@ -179,20 +194,6 @@ Supported variables
                     {{ 'product.general.shipping_policy_html' | t: link: shop.shipping_policy.url }}
                   {%- endif -%}
                 </p>
-              {%- endif -%}
-        
-              {%- if product != blank -%}
-                {%- if product.metafields.badges -%}
-                  {%- assign badges = product.metafields.custom.badges.value -%}
-                  {%- for badge in badges -%}
-                    {%- assign stripped_badge_type = badge | strip -%}
-                    {%- if stripped_badge_type == 'Sale' or stripped_badge_type == 'Final Sale' -%}
-                      <div class="badge badge--custom badge--price">
-                        {{ badge }}
-                      </div>
-                    {%- endif -%}
-                  {%- endfor -%}
-                {%- endif -%}
               {%- endif -%}
             </div>
 
