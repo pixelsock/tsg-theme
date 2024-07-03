@@ -189,13 +189,11 @@ Supported variables
                 {%- for badge in badges -%}
                   {%- assign stripped_badge_type = badge | strip -%}
                   {%- if stripped_badge_type == 'Sale' or stripped_badge_type == 'Final Sale' -%}
-                    <div class="badge badge--custom">
+                    <div class="badge badge--custom badge--price">
                       {{ badge }}
                     </div>
                   {%- endif -%}
                 {%- endfor -%}
-              {%- else -%}
-                <div style="display: none;">No Badges Metafield Found</div>
               {%- endif -%}
             {%- endif -%}
 
