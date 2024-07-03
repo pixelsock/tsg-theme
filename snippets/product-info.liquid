@@ -164,7 +164,7 @@ Supported variables
                 <div style="display: none;">Metafield Badges Content: {{ product.metafields.custom.badges.value }}</div>
                 {%- assign badges = product.metafields.custom.badges -%}
                 {%- for badge in badges -%}
-                  <div style="display: none;">{{ badge }}</div>
+                  <div style="display: none;">test</div>
                   {%- if badge == 'sale' or badge == 'final sale' -%}
                     <div class="badge badge--{{ badge | handleize }}">
                       {{ badge }}
