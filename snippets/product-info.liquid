@@ -155,28 +155,13 @@ Supported variables
               {{- 'product.general.sku' | t }} {% if product != blank -%}{{ product.selected_or_first_available_variant.sku -}}{%- else -%}SK-123AB{%- endif -%}
             </variant-sku>
 
-
+          {%- comment -%}
           <!-- OLD BADGE  -->
           {%- when 'badges' -%}
             {%- if product != blank -%}
-              {%- if product.metafields.badges -%}
-                <!-- Output the content of the badges metafield for debugging -->
-                <div style="display: none;">Metafield Badges Content: {{ product.metafields.custom.badges }}</div>
-                {%- assign badges = product.metafields.custom.badges.value -%}
-                {%- for badge in badges -%}
-                  {%- assign stripped_badge_type = badge | strip -%}
-                  <div style="display: none;">{{ stripped_badge_type }}</div>
-                  {%- if stripped_badge_type == 'Sale' or stripped_badge_type == 'Final Sale' -%}
-                    <div class="badge badge--custom">
-                      {{ badge }}
-                    </div>
-                  {%- endif -%}
-                {%- endfor -%}
-              {%- else -%}
-                <div style="display: none;">No Badges Metafield Found</div>
-              {%- endif -%}
+              {%- render 'product-badges', product: product, variant: product.selected_or_first_available_variant, types: 'custom,discount', form_id: product_form_id -%}
             {%- endif -%}
-
+          {%- endcomment -%}
 
           {%- when 'price' -%}
             <div class="v-stack">
@@ -195,13 +180,16 @@ Supported variables
                   {%- endif -%}
                 </p>
               {%- endif -%}
+        
+            {%- if product != blank -%}
               {%- if product.metafields.badges -%}
                 <!-- Output the content of the badges metafield for debugging -->
-                <div style="display: none;">Metafield Badges Content: {{ product.metafields.badges.value }}</div>
-                {%- assign badges = product.metafields.badges.value | split: ',' -%}
+                <div style="display: none;">Metafield Badges Content: {{ product.metafields.custom.badges }}</div>
+                {%- assign badges = product.metafields.custom.badges.value -%}
                 {%- for badge in badges -%}
-                  {%- if badge == 'sale' or badge == 'final sale' -%}
-                    <div class="badge badge--{{ badge | handleize }}">
+                  {%- assign stripped_badge_type = badge | strip -%}
+                  {%- if stripped_badge_type == 'Sale' or stripped_badge_type == 'Final Sale' -%}
+                    <div class="badge badge--custom">
                       {{ badge }}
                     </div>
                   {%- endif -%}
@@ -209,6 +197,9 @@ Supported variables
               {%- else -%}
                 <div style="display: none;">No Badges Metafield Found</div>
               {%- endif -%}
+            {%- endif -%}
+
+              
             </div>
 
           {%- when 'payment_terms' -%}
