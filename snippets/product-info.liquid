@@ -159,20 +159,8 @@ Supported variables
           <!-- OLD BADGE  -->
           {%- when 'badges' -%}
             {%- if product != blank -%}
-{%- if product.metafields.badges -%}
-                <!-- Output the content of the badges metafield for debugging -->
-                <div style="display: none;">Metafield Badges Content: {{ product.metafields.badges.value }}</div>
-                {%- assign badges = product.metafields.badges.value | split: ',' -%}
-                {%- for badge in badges -%}
-                  {%- if badge == 'sale' or badge == 'final sale' -%}
-                    <div class="badge badge--{{ badge | handleize }}">
-                      {{ badge }}
-                    </div>
-                  {%- endif -%}
-                {%- endfor -%}
-              {%- else -%}
-                <div style="display: none;">No Badges Metafield Found</div>
-              {%- endif -%}            {%- endif -%}
+              {%- render 'product-badges', product: product, variant: product.selected_or_first_available_variant, types: 'custom,discount', form_id: product_form_id -%}
+            {%- endif -%}
 
 
           {%- when 'price' -%}
