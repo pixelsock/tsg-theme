@@ -159,9 +159,9 @@ Supported variables
           <!-- OLD BADGE  -->
           {%- when 'badges' -%}
             {%- if product != blank -%}
-{%- if product.metafields.badges -%}
+              {%- if product.metafields.badges -%}
                 <!-- Output the content of the badges metafield for debugging -->
-                <div style="display: none;">Metafield Badges Content: {{ product.metafields.badges.value }}</div>
+                <div style="display: none;">Metafield Badges Content: {{ JSON.stringify(product) }}</div>
                 {%- assign badges = product.metafields.badges.value | split: ',' -%}
                 {%- for badge in badges -%}
                   {%- if badge == 'sale' or badge == 'final sale' -%}
@@ -172,7 +172,8 @@ Supported variables
                 {%- endfor -%}
               {%- else -%}
                 <div style="display: none;">No Badges Metafield Found</div>
-              {%- endif -%}            {%- endif -%}
+              {%- endif -%}
+            {%- endif -%}
 
 
           {%- when 'price' -%}
