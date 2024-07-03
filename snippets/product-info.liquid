@@ -161,7 +161,7 @@ Supported variables
             {%- if product != blank -%}
               {%- if product.metafields.badges -%}
                 <!-- Output the content of the badges metafield for debugging -->
-                <div style="display: none;">Metafield Badges Content: {{ product.metafields.custom }}</div>
+                <div style="display: none;">Metafield Badges Content: {{ product.metafields.custom.badges }}</div>
                 {%- assign badges = product.metafields.badges.value | split: ',' -%}
                 {%- for badge in badges -%}
                   {%- if badge == 'sale' or badge == 'final sale' -%}
