@@ -183,7 +183,6 @@ Supported variables
               {%- if product.metafields.badges -%}
                 <!-- Output the content of the badges metafield for debugging -->
                 <div style="display: none;">Metafield Badges Content: {{ product.metafields.badges.value }}</div>
-                <script>console.log(product)</script>
                 {%- assign badges = product.metafields.badges.value | split: ',' -%}
                 {%- for badge in badges -%}
                   {%- if badge == 'sale' or badge == 'final sale' -%}
