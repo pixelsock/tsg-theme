@@ -162,7 +162,7 @@ Supported variables
               {%- if product.metafields.badges -%}
                 <!-- Output the content of the badges metafield for debugging -->
                 <div style="display: none;">Metafield Badges Content: {{ product.metafields.custom.badges }}</div>
-                {%- assign badges = product.metafields.custom.badges.value | split: ',' -%}
+                {%- assign badges = product.metafields.custom.badges.value -%}
                 {%- for badge in badges -%}
                   {%- assign stripped_badge_type = badge | strip -%}
                   <div style="display: none;">{{ stripped_badge_type }}</div>
