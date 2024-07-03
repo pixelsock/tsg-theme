@@ -180,6 +180,17 @@ Supported variables
                   {%- endif -%}
                 </p>
               {%- endif -%}
+                  <div></div>
+                  {%- if product.metafields.badges -%}
+                  {%- assign badges = product.metafields.badges.value | split: ',' -%}
+                  {%- for badge in badges -%}
+                    {%- if badge == 'sale' or badge == 'final sale' -%}
+                      <div class="badge badge--{{ badge | handleize }}">
+                        {{ badge }}
+                      </div>
+                    {%- endif -%}
+                  {%- endfor -%}
+                {%- endif -%}
             </div>
 
           {%- when 'payment_terms' -%}
