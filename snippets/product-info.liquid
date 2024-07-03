@@ -165,6 +165,7 @@ Supported variables
                 {%- assign badges = product.metafields.custom.badges.value | split: ',' -%}
                 {%- for badge in badges -%}
                   {%- assign stripped_badge_type = badge | strip -%}
+                  <div>{{ stripped_badge_type }}</div>
                   {%- if stripped_badge_type == 'Sale' or stripped_badge_type == 'Final Sale' -%}
                     <div class="badge badge--custom">
                       {{ badge }}
