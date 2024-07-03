@@ -180,17 +180,21 @@ Supported variables
                   {%- endif -%}
                 </p>
               {%- endif -%}
-                  <div></div>
-                  {%- if product.metafields.badges -%}
-                  {%- assign badges = product.metafields.badges.value | split: ',' -%}
-                  {%- for badge in badges -%}
-                    {%- if badge == 'sale' or badge == 'final sale' -%}
-                      <div class="badge badge--{{ badge | handleize }}">
-                        {{ badge }}
-                      </div>
-                    {%- endif -%}
-                  {%- endfor -%}
-                {%- endif -%}
+              {%- if product.metafields.badges -%}
+                <!-- Output the content of the badges metafield for debugging -->
+                <div style="display: none;">Metafield Badges Content: {{ product.metafields.badges.value }}</div>
+              
+                {%- assign badges = product.metafields.badges.value | split: ',' -%}
+                {%- for badge in badges -%}
+                  {%- if badge == 'sale' or badge == 'final sale' -%}
+                    <div class="badge badge--{{ badge | handleize }}">
+                      {{ badge }}
+                    </div>
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- else -%}
+                <div style="display: none;">No Badges Metafield Found</div>
+              {%- endif -%}
             </div>
 
           {%- when 'payment_terms' -%}
