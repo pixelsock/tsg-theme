@@ -466,7 +466,7 @@ th,
 }
 
 .badge--price {
-  background: black;
+  /* background: black; */
   height: 1.5rem;
   margin-left: 0.75rem;
 }
