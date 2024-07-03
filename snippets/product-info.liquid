@@ -181,21 +181,19 @@ Supported variables
                 </p>
               {%- endif -%}
         
-            {%- if product != blank -%}
-              {%- if product.metafields.badges -%}
-                {%- assign badges = product.metafields.custom.badges.value -%}
-                {%- for badge in badges -%}
-                  {%- assign stripped_badge_type = badge | strip -%}
-                  {%- if stripped_badge_type == 'Sale' or stripped_badge_type == 'Final Sale' -%}
-                    <div class="badge badge--custom badge--price">
-                      {{ badge }}
-                    </div>
-                  {%- endif -%}
-                {%- endfor -%}
+              {%- if product != blank -%}
+                {%- if product.metafields.badges -%}
+                  {%- assign badges = product.metafields.custom.badges.value -%}
+                  {%- for badge in badges -%}
+                    {%- assign stripped_badge_type = badge | strip -%}
+                    {%- if stripped_badge_type == 'Sale' or stripped_badge_type == 'Final Sale' -%}
+                      <div class="badge badge--custom badge--price">
+                        {{ badge }}
+                      </div>
+                    {%- endif -%}
+                  {%- endfor -%}
+                {%- endif -%}
               {%- endif -%}
-            {%- endif -%}
-
-              
             </div>
 
           {%- when 'payment_terms' -%}
