@@ -12,24 +12,23 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "image_GELxYM": {
+        "image_mTcHjm": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/062824-Summer-24-J4-Sale-landing-page-DT-hero_95044328-61f9-4339-8d5a-4fcf86caee32.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/062824-Summer-24-J4-Sale-landing-page-mobile-hero_8a3e1416-da2e-47a1-ba7f-0407b84805ae.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "image": "shopify:\/\/shop_images\/070824-summer-fishing-DT-hero.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/070824-summer-fishing-mobile-hero_1a5cd972-7ffc-4f70-ab3c-1cf95358475e.jpg",
+            "subheading": "GEAR & GOODS FOR",
+            "title": "SUMMAHHHH.",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify:\/\/pages\/summer-sale-event",
-            "button_1_style": "link",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/pages\/summahh-good-times-ahead",
+            "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
-            "button_2_link": "shopify:\/\/pages\/summer-sale-event",
+            "button_2_link": "",
             "button_2_style": "outline",
             "button_2_background": "#ffffff",
             "button_2_text_color": "#000000",
@@ -42,6 +41,7 @@
         },
         "image_gYbE7m": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/051524-S24-Topper-DT-hero.jpg",
             "mobile_image": "shopify:\/\/shop_images\/051624-S24-Topper-mobile-Hero.jpg",
@@ -69,13 +69,11 @@
         }
       },
       "block_order": [
-        "image_GELxYM",
+        "image_mTcHjm",
         "image_gYbE7m"
       ],
       "custom_css": [
-        ".h1 {text-shadow: #5a69a7 1px 0 20px;}",
-        ".h6 {text-shadow: #5a69a7 0px 0 10px;}",
-        "@media only screen and (min-width: 1000px) {.h1 {font-size: 48px; } .h6 {font-size: 16px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}"
+        "@media only screen and (min-width: 1000px) {.h1 {font-size: 54px; } .h6 {font-size: 24px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}"
       ],
       "settings": {
         "allow_transparent_header": false,
