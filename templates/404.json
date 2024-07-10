@@ -53,7 +53,7 @@
         "button_T3Rh89": {
           "type": "button",
           "settings": {
-            "style": "solid",
+            "style": "outline",
             "text": "Take Me Home",
             "url": "https:\/\/www.thesportinggent.com",
             "background": "",
