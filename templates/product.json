@@ -115,11 +115,6 @@
             "payment_button_text_color": ""
           }
         },
-        "pickup_availability_Lk9exR": {
-          "type": "pickup_availability",
-          "settings": {
-          }
-        },
         "91c578f3-33c8-4bbf-afdb-6aa8668231da": {
           "type": "separator",
           "settings": {
@@ -133,12 +128,18 @@
         },
         "text_AAKhF6": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>{{ product.metafields.custom.dropship | metafield_tag }}<\/p>"
           }
         },
         "f59d8ef0-dace-48a3-b374-45406cc5e458": {
           "type": "separator",
+          "settings": {
+          }
+        },
+        "pickup_availability_Lk9exR": {
+          "type": "pickup_availability",
           "settings": {
           }
         },
@@ -227,11 +228,11 @@
         "quantity_selector",
         "payment_terms",
         "buy_buttons",
-        "pickup_availability_Lk9exR",
         "91c578f3-33c8-4bbf-afdb-6aa8668231da",
         "c679f56d-abe2-40cf-b46d-860f17955676",
         "text_AAKhF6",
         "f59d8ef0-dace-48a3-b374-45406cc5e458",
+        "pickup_availability_Lk9exR",
         "description",
         "52613e88-2864-490b-bf51-1f6b7f7f7f3f",
         "accordion_NtmkBd",
