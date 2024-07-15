@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "6f24ea95-3114-45ea-82c1-8817e5d8508d": {
@@ -44,16 +53,27 @@
             "content": "<p>Thank you for being a trusted wholesale partner. You can browse our wholesale prices and collections via our Faire portal below. <\/p><p>Please email <a href=\"mailto:wholesale@thesportinggent.com\" title=\"mailto:wholesale@thesportinggent.com\">wholesale@thesportinggent.com<\/a> for any questions regarding your account or pricing.<\/p>"
           }
         },
+        "button_XmMaYe": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
         "a99f1f42-f373-4427-b941-4787fa016e1c": {
           "type": "liquid",
           "settings": {
-            "liquid": "<iframe src=\"https:\/\/www.faire.com\/embed\/bw_d26nj7wykr\" width=\"900\" height=\"600\" style=\"margin: 0 auto; border: none; display: block; max-width: 100%; width: 900px; height: 600px;\" scrolling=\"no\"><\/iframe>"
+            "liquid": "<iframe src=\"https:\/\/www.faire.com\/embed\/bw_d26nj7wykr\" width=\"900\" height=\"600\" style=\"margin: 0 auto; border: none; display: block; max-width: 100%; width: 900px; height: 600px; padding-top: 2rem;\" scrolling=\"no\"><\/iframe>"
           }
         }
       },
       "block_order": [
         "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-heading-1",
         "template--16748705841384__a5856327-c29f-4b78-a42f-0d0a2a433156-richtext-1",
+        "button_XmMaYe",
         "a99f1f42-f373-4427-b941-4787fa016e1c"
       ],
       "settings": {
