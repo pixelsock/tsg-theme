@@ -224,27 +224,27 @@
               <form id="bsscommerce-ltap-password" class="cart" novalidate style="display: flex">
                   <div class="bss-password-form-wrapper" style="display: flex; flex: 1; align-items: center; border: 1px solid #ccc; border-radius: 5px; margin-right: 6px; background-color: #fff">
                       <input
-                              type="password"
-                              value=""
-                              name="attributes[{{ passAttrName }}]"
-                              id="bsscommerce-password"
-                              class="input-full"
-                              style="
-                                  width: 100%;
-                                  padding: 8px 0 8px 10px;
-                                  font-size: 14px;
-                                  border-radius: 5px;
-                                  border: none;
-                                  margin-right: 5px;
-                                  box-shadow: none;
-                                  outline: none;"
-                              placeholder="
-                                          {%- if input_placeholder_form_submit == "" -%}
-                                              {{ 'general.password_page.login_form_password_placeholder' | t }}
-                                          {%- else -%}
-                                              {{ input_placeholder_form_submit }}
-                                          {%- endif -%}
-                                      "
+                        type="password"
+                        value=""
+                        name="attributes[{{ passAttrName }}]"
+                        id="bsscommerce-password"
+                        class="input-full"
+                        style="
+                          width: 100%;
+                          padding: 8px 0 8px 10px;
+                          font-size: 14px;
+                          border-radius: 5px;
+                          border: none;
+                          margin-right: 5px;
+                          box-shadow: none;
+                          outline: none;"
+                        placeholder="
+                          {%- if input_placeholder_form_submit == "" -%}
+                              {{ 'general.password_page.login_form_password_placeholder' | t }}
+                          {%- else -%}
+                              {{ input_placeholder_form_submit }}
+                          {%- endif -%}
+                        "
                       />
                       <button class="toggle-passcode-input" type="button" style="background-color: transparent; border: none; line-height: 0; padding: 8px; cursor: pointer; fill: #BABEC3">
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15 12c0 1.654-1.346 3-3 3s-3-1.346-3-3 1.346-3 3-3 3 1.346 3 3zm9-.449s-4.252 8.449-11.985 8.449c-7.18 0-12.015-8.449-12.015-8.449s4.446-7.551 12.015-7.551c7.694 0 11.985 7.551 11.985 7.551zm-7 .449c0-2.757-2.243-5-5-5s-5 2.243-5 5 2.243 5 5 5 5-2.243 5-5z"/></svg>
@@ -327,7 +327,7 @@
                       flex-direction: inherit;
                       row-gap: 6px;
                       column-gap: 6px;
-                      height: 42px;
+                      height: inherit;
                       max-width: 1850px;
                       max-height: 200px;  
                     ">
@@ -400,6 +400,7 @@
                               "
                           />
                   </form>
+                  <div style="width: 100%;display: flex;justify-content: center;"><div class="loader" style="display:none">...</div></div>
                   {% if entered_password %}
                     {%- if entered_password_up_case != password or entered_password_down_case != password -%}
                       <div class="form-message form-message--error" style="text-align: left; font-size: 16px; color: red;">
@@ -622,6 +623,10 @@
   let name = document.querySelector(".field-name");
   let message = document.querySelector(".field-message");
   let emailError = document.querySelector('.message-email');
+
+  //authentication
+  {%- capture authentication -%}{"domain":"{{ shop.permanent_domain }}","ruleId":"{{ origin_rule_id }}"}{%- endcapture -%}
+  {% assign authentication = authentication | hmac_sha256: '19f28bb46fef8fa41bd7180b12628ee7' %}
   
   btn.onclick = function () {
       modal.style.display = "flex";
@@ -674,7 +679,8 @@
         let res = await fetch(url, {
             method: "POST",
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Authentication': 'Bearer {{ authentication }}'
             },
             body: data
         });
@@ -769,17 +775,6 @@
 
     const customerId = window.__st.hasOwnProperty('cid') ? window.__st.cid : ""; 
 
-    let passcodeList = [];
-    {% if passcode_case_sensitive == 0 %}
-      {% assign bssPwList = password | downcase | split: "*bss*" %}
-    {% else %}
-      {% assign bssPwList = password | split: "*bss*" %}
-    {% endif %}
-    {% for password in bssPwList %}
-      {% if password != "" %}
-        passcodeList.push("{{ password | hmac_sha256: '19f28bb46fef8fa41bd7180b12628ee7' }}");
-      {% endif %}
-    {% endfor %}
     {% if is_call_api == "true" %}
       // handle call API save passcode actions
       if(customerId) {
@@ -787,16 +782,15 @@
         let xmlHttp = new XMLHttpRequest();
 
         let data = JSON.stringify({
-          domain: `${window.Shopify.shop}`,
           customerId: customerId,
           passcode: passcodeElement.value,
-          ruleId: "{{ origin_rule_id }}",
-          passcodeList: passcodeList,
-          caseSensitive: "{{ passcode_case_sensitive }}"
+          domain: "{{ shop.permanent_domain }}",
+          ruleId: "{{ origin_rule_id }}"
         });
 
           xmlHttp.open("POST", url);
           xmlHttp.setRequestHeader("Content-Type", "application/json");
+          xmlHttp.setRequestHeader("Authentication", "Bearer {{ authentication }}");
           xmlHttp.send(data);
         }
     {% endif %}
@@ -807,19 +801,18 @@
 
     if (passcodeElement.value && passcodeElement.value !== "" && passcodeElement.value.length <= 255) {
       let dataUsage = JSON.stringify({
-        domain: "{{ shop.permanent_domain }}",
         passcode: passcodeElement.value,
         pageUrl: window.location.href,
         customerId: customerId,
-        ruleId: "{{ origin_rule_id }}",
-        passcodeList: passcodeList,
-        caseSensitive: "{{ passcode_case_sensitive }}"
+        domain: "{{ shop.permanent_domain }}",
+        ruleId: "{{ origin_rule_id }}"
       });
   
       fetch("{{ save_usage_history }}", {
         method:"POST",
         headers: {
           "Content-Type": "application/json",
+          "Authentication": "Bearer {{ authentication }}"
         },
         body: dataUsage
       }).then((dataReq) =>{

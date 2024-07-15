@@ -7,7 +7,7 @@
 {% assign old_content_for_layout = content_for_layout %}
 {% assign customize = true %}
 
-{% unless content_for_header contains "Shopify.designMode" or content_for_header contains "previewBarInjector.init()" %}
+{% unless request.design_mode or request.visual_preview_mode %}
     {% if  template != "customers/reset_password" and template != "customers/register" and template != "customers/activate_account" and request.path != "/challenge" %}
         {% assign bss_login_to_day_date = 'now' | date: '%s' %}
         {% assign bsscommerce-password = "" %}
