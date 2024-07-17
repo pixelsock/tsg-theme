@@ -342,7 +342,7 @@
       ],
       "custom_css": [
         "@media only screen and (min-width: 1000px) {.h1 {font-size: 54px; line-height: 3rem; } .h6 {font-size: 24px; line-height: 4rem; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
-        "@media only screen and (max-width: 900px) {.h1 {font-size: 36px; line-height: 2rem; padding-bottom: 0rem; } .h6 {font-size: 18px; line-height: 5rem; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: .5rem;}"
+        "@media only screen and (max-width: 900px) {.h1 {font-size: 36px; line-height: 2rem; padding-bottom: 0rem; } .h6 {font-size: 18px; line-height: 5rem; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: .5rem; }}"
       ],
       "settings": {
         "allow_transparent_header": false,
