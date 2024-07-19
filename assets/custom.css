@@ -477,3 +477,10 @@ th,
     text-align: left;
     padding: 1rem;
 }
+
+/* Nav */
+.header-sidebar__nested-linklist {
+    border-inline-start-width: 1px;
+    margin-inline-start: .5rem;
+    padding-inline-start: 1.5rem;
+}
