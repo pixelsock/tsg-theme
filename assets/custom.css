@@ -483,4 +483,7 @@ th,
     border-inline-start-width: 0;
     margin-inline-start: 0;
     padding-inline-start: 0;
+    row-gap: 0.625rem;
+    font-weight: 700;
+    font-size: 0.925rem;
 }
