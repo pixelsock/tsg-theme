@@ -480,7 +480,7 @@ th,
 
 /* Nav */
 .header-sidebar__nested-linklist {
-    border-inline-start-width: 1px;
-    margin-inline-start: .5rem;
-    padding-inline-start: 1.5rem;
+    border-inline-start-width: 0;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
 }
