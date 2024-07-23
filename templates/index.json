@@ -102,6 +102,105 @@
         "text_alignment": "center"
       }
     },
+    "collection_list_UCmGTM": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_Q3Vt8z": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/053024-main-1000x_0003_TSG_ridge-short_stone_front-copy-khaki.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "RIDGE SHORTS",
+            "button_link": "shopify:\/\/products\/tsg-ridge-short-sage",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_qTV7tz": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/TSG_boonepant_khaki_3copystoneDenim.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "BOONE PANTS",
+            "button_link": "shopify:\/\/collections\/tsg-boone-5-pocket-pants",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_VzcEKR": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/TSG_menspolo_monkeyaroundcopy.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "TOPPER POLOS",
+            "button_link": "shopify:\/\/products\/tsg-topper-polo-monkey-around",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_9dJAb4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/coastal-oxbow-guide-shirt-ls-no-bg_4fb63e4a-219b-4ddc-ac9f-03076ec387a8.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "GUIDE SHIRTS",
+            "button_link": "shopify:\/\/products\/tsg-long-sleeve-guide-shirt-coastal-oxbow",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_Q3Vt8z",
+        "collection_qTV7tz",
+        "collection_VzcEKR",
+        "collection_9dJAb4"
+      ],
+      "custom_css": [
+        ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 4,
+        "subheading": "",
+        "title": "OUR BEST SELLERS OF SUMMER",
+        "content": "<p>We're a small-batch company, so if you want it, snag it.  These don't and won't last long...and the bean-counters are super happy about it.<\/p>",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
     "slideshow_PAnqch": {
       "type": "slideshow",
       "blocks": {
@@ -281,6 +380,7 @@
         },
         "image_CRfQ83": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/022624-ridge-short-hero-DT.jpg",
             "mobile_image": "shopify:\/\/shop_images\/022624-ridge-short-hero-mobile.jpg",
@@ -342,7 +442,7 @@
       ],
       "custom_css": [
         "@media only screen and (min-width: 1000px) {.h1 {font-size: 54px; line-height: 3rem; } .h6 {font-size: 24px; line-height: 4rem; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
-        "@media only screen and (max-width: 900px) {.h1 {font-size: 36px; line-height: 2rem; padding-bottom: 0rem; } .h6 {font-size: 18px; line-height: 5rem; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: .5rem; }}"
+        "@media only screen and (max-width: 900px) {.h1 {font-size: 36px; line-height: 2rem; padding-bottom: 0rem; } .h6 {font-size: 18px; line-height: 5rem; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 0.5rem; }}"
       ],
       "settings": {
         "allow_transparent_header": false,
@@ -355,101 +455,76 @@
         "controls_color": "#ffffff"
       }
     },
-    "collection_list_UCmGTM": {
+    "collection_list_DHReAP": {
       "type": "collection-list",
       "blocks": {
-        "collection_Q3Vt8z": {
+        "collection_iPcxQ3": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/053024-main-1000x_0003_TSG_ridge-short_stone_front-copy-khaki.png",
             "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
+            "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
-            "button_text": "RIDGE SHORTS",
-            "button_link": "shopify:\/\/products\/tsg-ridge-short-sage",
+            "button_text": "View products",
+            "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 5,
+            "overlay_opacity": 30,
             "button_background": "",
             "button_text_color": ""
           }
         },
-        "collection_qTV7tz": {
+        "collection_gXTBQG": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/TSG_boonepant_khaki_3copystoneDenim.png",
             "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
+            "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
-            "button_text": "BOONE PANTS",
-            "button_link": "shopify:\/\/collections\/tsg-boone-5-pocket-pants",
+            "button_text": "View products",
+            "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 5,
+            "overlay_opacity": 30,
             "button_background": "",
             "button_text_color": ""
           }
         },
-        "collection_VzcEKR": {
+        "collection_MJJi7B": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/TSG_menspolo_monkeyaroundcopy.png",
             "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
+            "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
-            "button_text": "TOPPER POLOS",
-            "button_link": "shopify:\/\/products\/tsg-topper-polo-monkey-around",
+            "button_text": "View products",
+            "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 5,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_9dJAb4": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/coastal-oxbow-guide-shirt-ls-no-bg_4fb63e4a-219b-4ddc-ac9f-03076ec387a8.png",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "GUIDE SHIRTS",
-            "button_link": "shopify:\/\/products\/tsg-long-sleeve-guide-shirt-coastal-oxbow",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 5,
+            "overlay_opacity": 30,
             "button_background": "",
             "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "collection_Q3Vt8z",
-        "collection_qTV7tz",
-        "collection_VzcEKR",
-        "collection_9dJAb4"
-      ],
-      "custom_css": [
-        ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}"
+        "collection_iPcxQ3",
+        "collection_gXTBQG",
+        "collection_MJJi7B"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "image_size": "auto",
         "show_text_outside": false,
         "space_items": true,
         "stack_collections": true,
         "collections_per_row_desktop": 4,
         "subheading": "",
-        "title": "OUR BEST SELLERS OF SUMMER",
-        "content": "<p>We're a small-batch company, so if you want it, snag it.  These don't and won't last long...and the bean-counters are super happy about it.<\/p>",
+        "title": "",
+        "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
       }
@@ -1084,11 +1159,12 @@
   "order": [
     "slideshow",
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
+    "collection_list_UCmGTM",
     "slideshow_PAnqch",
     "multiple-media-with-text",
     "image_with_text_overlay_B4prAx",
     "slideshow_7cYzUq",
-    "collection_list_UCmGTM",
+    "collection_list_DHReAP",
     "featured_collections_iT3pdC",
     "rich_text_yPCbG8",
     "slideshow_KgiFpE",
