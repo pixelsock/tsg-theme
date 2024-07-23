@@ -185,7 +185,8 @@
         "collection_9dJAb4"
       ],
       "custom_css": [
-        ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}"
+        ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}",
+        ".h2 {font-size: 24pt;}"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -857,7 +858,8 @@
         "collection_DP6FKe"
       ],
       "custom_css": [
-        ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}"
+        ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}",
+        ".h2 {font-size: 24pt;}"
       ],
       "settings": {
         "separate_section_with_border": true,
