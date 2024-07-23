@@ -251,54 +251,6 @@
         "button_text_color": ""
       }
     },
-    "image_with_text_overlay_B4prAx": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "button_bzyVTt": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "CHECK THEM OUT",
-            "url": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "heading_edhGAW": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h4"
-          }
-        },
-        "richtext_PmJMTt": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_bzyVTt",
-        "heading_edhGAW",
-        "richtext_PmJMTt"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/091323-new-arrivals-web-hero-dt_6d5d7b6d-8fc5-4c06-aa35-534dfa1602bb.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/s24driftpoloalt1000x_0001s_0001_TSG-SS24-Builder-KHP-171.jpg",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": false,
-        "remove_vertical_spacing": false,
-        "content_width": "md",
-        "mobile_text_position": "place-self-end-start text-start",
-        "desktop_text_position": "sm:place-self-end-start sm:text-start",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "slideshow_7cYzUq": {
       "type": "slideshow",
       "blocks": {
@@ -420,7 +372,7 @@
             "title": "",
             "button_text": "",
             "button_link": "shopify:\/\/products\/tsg-hatteras-performance-pant-navy",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 10,
             "button_background": "",
@@ -503,40 +455,6 @@
         "content": "<p>Featuring a bombproof poly weave that is both lightweight and durable, these might be the only \"performance\" pant we ever design.<\/p>",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "featured_collections_iT3pdC": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_CYpWzq": {
-          "type": "collection",
-          "settings": {
-            "collection": "best-sellers",
-            "products_count": 4,
-            "title": "OUR BEST SELLERS OF SPRING",
-            "link_url": "shopify:\/\/collections\/best-sellers",
-            "link_text": "SHOP NOW"
-          }
-        }
-      },
-      "block_order": [
-        "collection_CYpWzq"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".h2 {margin-top: -0.5rem; margin-bottom: -1rem;}",
-        ".floating-controls-container {margin-bottom: -1.5rem;}",
-        ".container {margin-bottom: -1.25rem;}"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.2,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
       }
     },
     "rich_text_yPCbG8": {
@@ -942,7 +860,7 @@
         ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "image_size": "auto",
         "show_text_outside": false,
         "space_items": true,
@@ -953,147 +871,6 @@
         "content": "<p>Our Exclusive Wax-Coated Cotton and Spandex™ Blend at TSG.  We spent over 4+ years developing the lightest, but strongest blend of durable cotton twill we could.  Several dozen prototypes and even more Neosporin later, we have it perfected.  Have a field day in these.<\/p>",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "22199300-574e-4d95-964c-63d7f6414320": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "best-sellers",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "c26eff7e-9cfb-41c8-9f93-2c22b98c9dcc": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "vests",
-            "products_count": 8,
-            "title": "GET IN'VEST'ED",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "e5b09454-6655-41a1-a720-765a5e69f3a2": {
-          "type": "collection",
-          "settings": {
-            "collection": "tsgaco-baeron-waxed-collection",
-            "products_count": 4,
-            "title": "Baeron Waxed Goods",
-            "link_url": "shopify:\/\/collections\/tsgaco-baeron-waxed-collection",
-            "link_text": "SHOP NOW"
-          }
-        }
-      },
-      "block_order": [
-        "22199300-574e-4d95-964c-63d7f6414320",
-        "c26eff7e-9cfb-41c8-9f93-2c22b98c9dcc",
-        "e5b09454-6655-41a1-a720-765a5e69f3a2"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".h2 {margin-top: -0.75rem; margin-bottom: -1rem;}",
-        ".floating-controls-container {margin-bottom: -1.5rem;}",
-        ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.2,
-        "vertical_spacing_factor": 1.4,
-        "subheading": "Our Exclusive Wax-Coated Cotton and Spandex™ Blend at TSG."
-      }
-    },
-    "shop-the-look": {
-      "type": "shop-the-look",
-      "blocks": {
-        "42d6059c-3ce9-4fe9-a701-61a333afe5ff": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/tsghavenfieldoxbowalt1000x_0003_tsg-bluffducks-builder-305.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "tsg-allszn-hoody-oxbow",
-            "product_1_horizontal_position": 57,
-            "product_1_vertical_position": 30,
-            "product_2": "tsg-havenfield-shell-jacket-oxbow",
-            "product_2_horizontal_position": 30,
-            "product_2_vertical_position": 55,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        },
-        "a5f78cf8-5e1d-449f-ae36-b6abe43d2675": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/083023-twillfield-shopthelook-1200x.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "tsg-midland-twill-pant-iron",
-            "product_1_horizontal_position": 52,
-            "product_1_vertical_position": 49,
-            "product_2": "tsg-tyne-waxed-vest-taupe",
-            "product_2_horizontal_position": 52,
-            "product_2_vertical_position": 22,
-            "product_3": "filson-heritage-sportsman-bag",
-            "product_3_horizontal_position": 32,
-            "product_3_vertical_position": 70,
-            "product_4": "le-chameau-vierzon-jersey-lined-boot",
-            "product_4_horizontal_position": 49,
-            "product_4_vertical_position": 85
-          }
-        },
-        "look-1": {
-          "type": "look",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/072723-new-headwear_mobile-Hero.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "fishpond-nomad-emerger-net",
-            "product_1_horizontal_position": 89,
-            "product_1_vertical_position": 32,
-            "product_2": "brookie-patch-hat",
-            "product_2_horizontal_position": 58,
-            "product_2_vertical_position": 24,
-            "product_3": "tsg-brooks-ss-shirt-gentleman-check",
-            "product_3_horizontal_position": 86,
-            "product_3_vertical_position": 75,
-            "product_4": "fishpond-canyon-creek-chest-pack",
-            "product_4_horizontal_position": 49,
-            "product_4_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "42d6059c-3ce9-4fe9-a701-61a333afe5ff",
-        "a5f78cf8-5e1d-449f-ae36-b6abe43d2675",
-        "look-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".h2 {margin-top: 0.5rem; margin-bottom: -1.5rem;}",
-        ".floating-controls-container {margin-top: -1rem; margin-bottom: -0rem;}",
-        ".container {margin-bottom: -1.75rem;}",
-        ".shop-the-look__carousel {margin-bottom: 0.5rem;}",
-        ".@media only screen and (max-width: 699px) .h2 {margin-top: 0.5rem; margin-bottom: -3.5rem;}"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "subheading": "Quick access to the gear we use in the field and on the river.",
-        "title": "What we're wearing in the field.",
-        "content": "",
-        "popover_title": "SHOP THE GEAR"
       }
     },
     "blog-posts": {
@@ -1137,17 +914,13 @@
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "collection_list_UCmGTM",
     "multiple-media-with-text",
-    "image_with_text_overlay_B4prAx",
     "slideshow_7cYzUq",
     "collection_list_DHReAP",
-    "featured_collections_iT3pdC",
     "rich_text_yPCbG8",
     "slideshow_KgiFpE",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "16c35784-55f0-4e62-a535-e33bcc8677a3",
     "collection_list_BJppBc",
-    "featured-collections",
-    "shop-the-look",
     "blog-posts",
     "newsletter"
   ]
