@@ -877,6 +877,9 @@
     },
     "blog-posts": {
       "type": "blog-posts",
+      "custom_css": [
+        ".h2 {font-size: 24pt;}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "blog": "dispatches",
