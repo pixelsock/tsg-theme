@@ -458,19 +458,38 @@
     "collection_list_DHReAP": {
       "type": "collection-list",
       "blocks": {
-        "collection_iPcxQ3": {
+        "collection_fg7Xh8": {
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/TSG_hatteras-pant_charcoal_front-copy-2navy-RecoveredOxfordNavy.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/tsg-hatteras-performance-pant-navy",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 10,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_iPcxQ3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/tsghatteraspantmain1000x_0000s_0004_TSG_hatteraspant_charcoal_frontcopy2Charcoal.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/tsg-hatteras-performance-pant-grey",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10,
             "button_background": "",
             "button_text_color": ""
           }
@@ -479,15 +498,16 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/tsghatteraspantmain1000x_0000s_0000_TSG_hatteraspant_charcoal_frontcopy2khaki_089f919f-9a0e-466c-922b-52b7e5e88be6.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/tsg-hatteras-performance-pant-khaki",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 10,
             "button_background": "",
             "button_text_color": ""
           }
@@ -496,36 +516,40 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/tsghatteraspantmain1000x_0000s_0002_TSG_hatteraspant_charcoal_frontcopy2firFir.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/tsg-hatteras-performance-pant-fir",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 10,
             "button_background": "",
             "button_text_color": ""
           }
         }
       },
       "block_order": [
+        "collection_fg7Xh8",
         "collection_iPcxQ3",
         "collection_gXTBQG",
         "collection_MJJi7B"
       ],
-      "disabled": true,
+      "custom_css": [
+        ".h6 {font-size: 24pt;}"
+      ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image_size": "auto",
         "show_text_outside": false,
         "space_items": true,
         "stack_collections": true,
         "collections_per_row_desktop": 4,
-        "subheading": "",
+        "subheading": "Possibly, but very likely, the greatest travel pant made today.",
         "title": "",
-        "content": "",
+        "content": "<p>Featuring a bombproof poly weave that is both lightweight and durable, these might be the only \"performance\" pant we ever design.<\/p>",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
       }
