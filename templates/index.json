@@ -515,6 +515,7 @@
         "collection_gXTBQG",
         "collection_MJJi7B"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
