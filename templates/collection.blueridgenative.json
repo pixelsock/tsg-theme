@@ -146,37 +146,6 @@
         "remove_vertical_spacing": true
       }
     },
-    "featured_collections_Q9YdgK": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_xjPjJ9": {
-          "type": "collection",
-          "settings": {
-            "collection": "blue-ridge-native",
-            "products_count": 5,
-            "title": "BRN TEES",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_xjPjJ9"
-      ],
-      "custom_css": [
-        ".h2 {line-height: 2rem; font-size: 33px;}"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
     "collection_list_6FrLgU": {
       "type": "collection-list",
       "blocks": {
@@ -317,6 +286,37 @@
         "content_width": "lg",
         "text_position": "start",
         "remove_vertical_spacing": false
+      }
+    },
+    "featured_collections_Q9YdgK": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_xjPjJ9": {
+          "type": "collection",
+          "settings": {
+            "collection": "blue-ridge-native",
+            "products_count": 5,
+            "title": "BRN TEES",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_xjPjJ9"
+      ],
+      "custom_css": [
+        ".h2 {line-height: 2rem; font-size: 33px;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "featured_collections_8zaJce": {
@@ -535,9 +535,9 @@
     "collection-banner",
     "rich_text_Te97A6",
     "rich_text_HkdFAe",
-    "featured_collections_Q9YdgK",
     "collection_list_6FrLgU",
     "rich_text_cR7JQX",
+    "featured_collections_Q9YdgK",
     "featured_collections_8zaJce",
     "collection_list_pfR9x7",
     "main",
