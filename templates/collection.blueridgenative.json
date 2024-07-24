@@ -9,16 +9,46 @@
 */
 {
   "sections": {
+    "video_xXi4xW": {
+      "type": "video",
+      "blocks": {
+        "play_PckyB9": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_rX44Dm": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_PckyB9",
+        "heading_rX44Dm"
+      ],
+      "disabled": true,
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
     "collection-banner": {
       "type": "collection-banner",
       "custom_css": [
         "{text-align: left;}"
       ],
       "settings": {
-        "content_width": "lg",
+        "content_width": "xl",
         "image": "shopify:\/\/shop_images\/040324-BRN-collection-hero_f90d8bb7-9419-45eb-a5ef-840d83d6e640.jpg",
         "mobile_image": "shopify:\/\/shop_images\/040324-BRN-collection-hero-mobile.jpg",
-        "image_size": "auto",
+        "image_size": "md",
         "allow_transparent_header": false,
         "reveal": false,
         "enable_parallax": false,
@@ -501,6 +531,7 @@
     }
   },
   "order": [
+    "video_xXi4xW",
     "collection-banner",
     "rich_text_Te97A6",
     "rich_text_HkdFAe",
