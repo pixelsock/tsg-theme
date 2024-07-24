@@ -126,7 +126,7 @@
         "image_Dt6wKn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0724-brn-collection-tees-tsg-ss24-watauga-builder-134.png",
+            "image": "shopify:\/\/shop_images\/0724-brn-collection-tees-tsg-ss24-watauga-builder-134_8a233d23-854f-4d0c-8ca7-312c165bce41.png",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 400
@@ -302,7 +302,7 @@
         "image_zenHJe": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/072424-brn-collection-hats-tsg-ss24-watauga-builder-138.png",
+            "image": "shopify:\/\/shop_images\/072424-brn-collection-hats-tsg-ss24-watauga-builder-138_5d1d9752-c525-4112-be22-c8f3eb63a08f.png",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 390
@@ -315,7 +315,7 @@
       "settings": {
         "separate_section_with_border": false,
         "content_width": "lg",
-        "text_position": "center",
+        "text_position": "start",
         "remove_vertical_spacing": false
       }
     },
