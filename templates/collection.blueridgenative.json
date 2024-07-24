@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "collection-banner": {
@@ -22,6 +31,21 @@
         "text_color": "#ffffff",
         "overlay_color": "#282e29",
         "overlay_opacity": 30
+      }
+    },
+    "custom_liquid_bTgjd3": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "* {margin: 0; padding-top: 2.5px; padding-bottom: 1px;}",
+        ".divider-text {font-size: 20px;}",
+        "@media only screen and (max-width: 699px) {.divider-text {font-size: 11px; }}"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<title>\n<\/title>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\nbody {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}\nh1{font-family:\"Work Sans\", sans-serif;letter-spacing:0px;color:#282E29;background-color:#ffffff;font-weight:900;}\n<\/style>\n<\/head>\n<body>\n<h1 class=\"divider-text\">BE O-RIDGE-NAL: APPAREL & GOODS FOR THE STREAM<\/h1>\n<p><\/p>\n<\/body>\n<\/html>",
+        "text_alignment": "center"
       }
     },
     "13e995ae-26bd-48a6-80d6-b273bb649389": {
@@ -173,6 +197,7 @@
   },
   "order": [
     "collection-banner",
+    "custom_liquid_bTgjd3",
     "13e995ae-26bd-48a6-80d6-b273bb649389",
     "main",
     "newsletter_aEky8U"
