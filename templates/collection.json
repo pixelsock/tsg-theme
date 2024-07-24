@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "collection-banner": {
@@ -48,7 +57,6 @@
         "open_filters_by_default": false,
         "promotion_placement_order": "random",
         "custom_promotion_placement_order": 2,
-        "promotion_image_url": "shopify:\/\/shop_images\/022624-S24-Collection-hero-mobile_e8531e78-9ba2-4ba1-8885-12ddc7c9d669.jpg",
         "enable_promotion_link": false,
         "promotion_link_url": "shopify:\/\/pages\/tsg-apparel-co"
       }
