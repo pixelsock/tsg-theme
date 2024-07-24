@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -25,7 +34,7 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/031524-S24-tsgaco-landing-pg-hero_0652a063-5f34-4a8c-abfd-92493730d5b4.jpg",
+        "image": "shopify:\/\/shop_images\/072424-tsgaco_banner.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
