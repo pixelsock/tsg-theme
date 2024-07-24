@@ -139,6 +139,7 @@
         "richtext_JUyaFt",
         "image_Dt6wKn"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "content_width": "lg",
@@ -281,11 +282,12 @@
       "block_order": [
         "image_zenHJe"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "content_width": "lg",
         "text_position": "start",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
       }
     },
     "featured_collections_Q9YdgK": {
@@ -305,6 +307,7 @@
       "block_order": [
         "collection_xjPjJ9"
       ],
+      "disabled": true,
       "custom_css": [
         ".h2 {line-height: 2rem; font-size: 33px;}"
       ],
@@ -336,6 +339,7 @@
       "block_order": [
         "collection_64ePYr"
       ],
+      "disabled": true,
       "custom_css": [
         ".h2 {line-height: 2rem; font-size: 33px;}"
       ],
@@ -481,7 +485,6 @@
     },
     "main": {
       "type": "main-collection",
-      "disabled": true,
       "custom_css": [
         ".dot-checkbox {border-radius: 0px; height: 0.75rem; width: 0.75rem; inset-block-start: calc(0.35em + 1px); background: #f79e1b; border: 2px solid;}"
       ],
