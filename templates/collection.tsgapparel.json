@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "collection-banner": {
@@ -24,101 +33,39 @@
         "overlay_opacity": 30
       }
     },
-    "13e995ae-26bd-48a6-80d6-b273bb649389": {
-      "type": "collection-list",
+    "rich_text_wz38A6": {
+      "type": "rich-text",
       "blocks": {
-        "template--16748728287464__13e995ae-26bd-48a6-80d6-b273bb649389-1688747058e9958a7d-2": {
-          "type": "collection",
+        "subheading_3D3ibh": {
+          "type": "subheading",
           "settings": {
-            "collection": "button-downs",
-            "image": "shopify:\/\/shop_images\/s24tannerbamboobuttondownalt1000x_0000s_0000_TSG-SS24-Builder-KHP-213.jpg",
-            "expand_collection": true,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 20,
-            "button_background": "",
-            "button_text_color": ""
+            "text": "Made to be worn, and worn in."
           }
         },
-        "eb0b3846-751a-4f7e-a06d-0297a139346d": {
-          "type": "collection",
+        "heading_nmDKqh": {
+          "type": "heading",
           "settings": {
-            "collection": "shorts",
-            "image": "shopify:\/\/shop_images\/s24ridgeshortalt1000x_0000s_0003_TSG-SS24-Builder-KHP-171.jpg",
-            "expand_collection": true,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 20,
-            "button_background": "",
-            "button_text_color": ""
+            "text": "TSG Apparel Co.",
+            "heading_tag": "h1"
           }
         },
-        "93557da7-9886-48c5-aaae-82984379c5e0": {
-          "type": "collection",
+        "richtext_Eiht3r": {
+          "type": "richtext",
           "settings": {
-            "collection": "airetex-bamboo-apparel-collection",
-            "image": "shopify:\/\/shop_images\/tsgaco.brooksssaltimages1000x1.jpg",
-            "expand_collection": true,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "7ebd7766-fb36-452f-a845-50dc15eadb26": {
-          "type": "collection",
-          "settings": {
-            "collection": "headwear",
-            "image": "shopify:\/\/shop_images\/072723-new-headwear_mobile-Hero_6244e1e5-34f5-4d7e-b99a-eaa6e80b61a8.jpg",
-            "expand_collection": true,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 20,
-            "button_background": "",
-            "button_text_color": ""
+            "content": "<p>After years of watching, learning, testing, and heck, even a little drinking , TSG apparel was born out of a need to offer what we thought the world was lacking: A brand that is inspired to build and design the highest-quality men's apparel and gearfor a lifestyle where style and function can work together. Add in a dash of best-in-market fit, ruggedness, and comfort and the end result is goods and apparel which are made to be worn, and worn in.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16748728287464__13e995ae-26bd-48a6-80d6-b273bb649389-1688747058e9958a7d-2",
-        "eb0b3846-751a-4f7e-a06d-0297a139346d",
-        "93557da7-9886-48c5-aaae-82984379c5e0",
-        "7ebd7766-fb36-452f-a845-50dc15eadb26"
+        "subheading_3D3ibh",
+        "heading_nmDKqh",
+        "richtext_Eiht3r"
       ],
-      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
-        "image_size": "auto",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": false,
-        "collections_per_row_desktop": 4,
-        "subheading": "",
-        "title": "FEATURED COLLECTIONS",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
+        "content_width": "md",
+        "text_position": "start",
+        "remove_vertical_spacing": false
       }
     },
     "main": {
@@ -173,7 +120,7 @@
   },
   "order": [
     "collection-banner",
-    "13e995ae-26bd-48a6-80d6-b273bb649389",
+    "rich_text_wz38A6",
     "main",
     "newsletter_CqViA7"
   ]
