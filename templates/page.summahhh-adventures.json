@@ -230,7 +230,7 @@
       "settings": {
         "separate_section_with_border": true,
         "content_width": "lg",
-        "text_position": "start",
+        "text_position": "center",
         "remove_vertical_spacing": false
       }
     },
