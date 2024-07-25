@@ -16,7 +16,6 @@
       ],
       "settings": {
         "content_width": "lg",
-        "image": "shopify:\/\/shop_images\/072424-tsgaco_banner.jpg",
         "mobile_image": "shopify:\/\/shop_images\/s24tannerbambooshirtalt1000x_0005s_0001_TSG-SS24-Builder-KHP-053.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
@@ -39,20 +38,20 @@
         "subheading_3D3ibh": {
           "type": "subheading",
           "settings": {
-            "text": "Made to be worn, and worn in."
+            "text": "Dries Quicker than your lawn in august."
           }
         },
         "heading_nmDKqh": {
           "type": "heading",
           "settings": {
-            "text": "TSG Apparel Co.",
+            "text": "AIRETEX™ BAMBOO APPAREL",
             "heading_tag": "h1"
           }
         },
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
-            "content": "<p>After years of watching, learning, testing, and heck, even a little drinking , TSG apparel was born out of a need to offer what we thought the world was lacking: A brand that is inspired to build and design the highest-quality men's apparel and gearfor a lifestyle where style and function can work together. Add in a dash of best-in-market fit, ruggedness, and comfort and the end result is goods and apparel which are made to be worn, and worn in.<\/p>"
+            "content": "<p>Some do it right, and some do it better, and that's where the Airetex™ bamboo fabric comes into play.  The team at TSG Apparel Co. worked with an STeP™ certified facility to create a blend of lightweight, quick drying and anti-microbial fabric as the first and most important part of the puzzle during the design and production of the collection of Airetex™ goods.  So whether your next adventure is in the stream or the field, or just taking your ol' lady to a nice steak dinner, you'll be good to go - even if your overcooked steak isn't.<\/p>"
           }
         }
       },
