@@ -447,7 +447,7 @@
       "settings": {
         "separate_section_with_border": false,
         "image_size": "auto",
-        "show_text_outside": true,
+        "show_text_outside": false,
         "space_items": true,
         "stack_collections": true,
         "collections_per_row_desktop": 4,
@@ -456,6 +456,55 @@
         "content": "<p>Featuring a bombproof poly weave that is both lightweight and durable, these might be the only \"performance\" pant we ever design.<\/p>",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "rich_text_WpqxEn": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_NLeHGT": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_eQiaDH": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_3ErRzy": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_V89t8t": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP THE HATTERAS PANT",
+            "url": "shopify:\/\/products\/tsg-hatteras-performance-pant-navy",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_NLeHGT",
+        "heading_eQiaDH",
+        "richtext_3ErRzy",
+        "button_V89t8t"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "rich_text_yPCbG8": {
@@ -924,6 +973,7 @@
     "multiple-media-with-text",
     "slideshow_7cYzUq",
     "collection_list_DHReAP",
+    "rich_text_WpqxEn",
     "rich_text_yPCbG8",
     "slideshow_KgiFpE",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
