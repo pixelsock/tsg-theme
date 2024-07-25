@@ -1049,7 +1049,8 @@
       "type": "newsletter",
       "custom_css": [
         ".form-control {max-height: 30px;}",
-        "input::placeholder {color: #ffff; font-weight: bold; border: 2px;}"
+        "input::placeholder {color: #ffff; font-weight: bold; border: 2px;}",
+        ".button:hover {background-color: #cf7900;}"
       ],
       "settings": {
         "separate_section_with_border": true,
