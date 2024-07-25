@@ -590,6 +590,107 @@
         "controls_color": "#ffffff"
       }
     },
+    "collection_list_XBTAm9": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_pUnxAa": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/main1000x_0000s_0006_TSG_bamboo_riversidecheck_frontcopy.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_rAbQip": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/TSG_Brooks_coastalcheck_sscopy.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_biWNgD": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/tsgbrookslongsleevemain1000x_0006_TSG_Brooks_birchplaid_front_ls_front_ls_2copycopy2.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 6,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_pUnxAa",
+        "collection_rAbQip",
+        "collection_biWNgD"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "rich_text_3c6R3f": {
+      "type": "rich-text",
+      "blocks": {
+        "button_8qmT8M": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "FIND OUT MORE",
+            "url": "shopify:\/\/collections\/airetex-bamboo-apparel-collection",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_8qmT8M"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "11300496-0b96-4e9c-939f-8b4fa6c86620": {
       "type": "collection-list",
       "blocks": {
@@ -976,6 +1077,8 @@
     "rich_text_WpqxEn",
     "rich_text_yPCbG8",
     "slideshow_KgiFpE",
+    "collection_list_XBTAm9",
+    "rich_text_3c6R3f",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "16c35784-55f0-4e62-a535-e33bcc8677a3",
     "collection_list_BJppBc",
