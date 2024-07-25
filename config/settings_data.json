@@ -195,7 +195,8 @@
       "th,.size-guide tr td:first-child {opacity: 1; text-align: center; background-color: #282e29; color: white; font-weight: bold; vertical-align: middle; padding: 1rem; font-size: 1rem;}",
       ".customer-account-overview th {opacity: 1; text-align: left; background-color: #282e29; color: #fff; vertical-align: middle; padding: 0.5rem; font-size: 0.75rem;}",
       ".customer-account-overview :is(th, td):last-child {text-align: right;}",
-      ".customer-account-overview td {padding: 1rem 0.5rem; font-size: 0.85rem;}"
+      ".customer-account-overview td {padding: 1rem 0.5rem; font-size: 0.85rem;}",
+      ".form-control {max-height: 30px;}"
     ]
   }
 }
