@@ -184,14 +184,34 @@
         "image_NRM3Hn"
       ],
       "settings": {
-        "allow_transparent_header": true,
-        "show_next_section_button": true,
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
         "media_size": "sm",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_pause_on_video": true,
         "cycle_speed": 5,
         "background": "#000000",
         "controls_color": "#ffffff"
+      }
+    },
+    "rich_text_gYzfAf": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_3PDcHq": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3PDcHq"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "newsletter_CqViA7": {
@@ -222,6 +242,7 @@
     "image_with_text_bXrnij",
     "main",
     "slideshow_HBU8dN",
+    "rich_text_gYzfAf",
     "newsletter_CqViA7"
   ]
 }
