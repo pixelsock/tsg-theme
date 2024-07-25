@@ -63,11 +63,14 @@
     },
     "newsletter_igGzqj": {
       "type": "newsletter",
+      "custom_css": [
+        "input::placeholder {color: #ffff; font-weight: bold;}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/040324-newsletter-hero-mobile_2040685d-7af9-4189-90de-c4acc04c0b2e.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/070824-summer-fishing-mobile-hero_1a5cd972-7ffc-4f70-ab3c-1cf95358475e.jpg",
         "subheading": "Want to stay in the loop?",
         "title": "Sign Up for our TSG Dispatches",
         "content": "",
