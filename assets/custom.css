@@ -4,7 +4,7 @@
   border-color: #CF7900;
 }
 
-#checkout-button:hover {
+.buy-buttons--has-dynamic #checkout-button:hover {
   background: #7B6729;
   border-color: #7B6729;
 }
