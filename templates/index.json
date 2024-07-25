@@ -897,6 +897,9 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "custom_css": [
+        ".form-control {max-height: 30px;}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "image_size": "sm",
