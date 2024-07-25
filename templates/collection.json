@@ -64,7 +64,9 @@
     "newsletter_igGzqj": {
       "type": "newsletter",
       "custom_css": [
-        "input::placeholder {color: #ffff; font-weight: bold;}"
+        "input::placeholder {color: #ffff; font-weight: bold;}",
+        ".button:hover {background-color: #cf7900;}",
+        ".form-control {max-height: 30px;}"
       ],
       "settings": {
         "separate_section_with_border": true,
