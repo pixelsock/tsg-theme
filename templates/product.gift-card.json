@@ -117,16 +117,19 @@
         },
         "pickup_availability_Lk9exR": {
           "type": "pickup_availability",
+          "disabled": true,
           "settings": {
           }
         },
         "91c578f3-33c8-4bbf-afdb-6aa8668231da": {
           "type": "separator",
+          "disabled": true,
           "settings": {
           }
         },
         "c679f56d-abe2-40cf-b46d-860f17955676": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"custom-stack product\">\n    <div class=\"product-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/8799\/files\/101623-product-page-USP-graphic-197x144-02_fd7f8850-8b7d-466d-82ce-5aabd54069d1.svg?v=1700064601?v=1700063708\"\/>\n    <\/div>\n    <div class=\"product-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/8799\/files\/101623-product-page-USP-graphic-197x144-04_d337eec0-6e46-4f47-8404-1aaba1261e52.svg?v=1700064600\"\/>\n    <\/div>\n    <div class=\"product-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/8799\/files\/101623-product-page-USP-graphic-197x144-01_5a2818a8-0554-40af-970c-2ff90b54cff5.svg?v=1700064600\"\/>\n    <\/div>\n    <div class=\"product-item\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/8799\/files\/101623-product-page-USP-graphic-197x144-03_cfd7a4ab-4e92-4799-b4bb-595c552a64bc.svg?v=1700064600\"\/>\n    <\/div>\n<\/div>\n<style>\n.custom-stack.product {\n    display: grid;\n    grid-gap: 10px;\n    align-items: end;\n    grid-template-columns: repeat(2, 1fr); \/* Default to 2 columns for mobile *\/\n}\n\n.product-item {\n    background: none;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.product-item img {\n    width: 100px;\n    height: 100px;\n}\n\n\/* Media query for desktop *\/\n@media (min-width: 768px) {\n    .custom-stack.product {\n        grid-template-columns: repeat(4, 1fr); \/* 4 columns on desktop *\/\n    }\n}\n\n<\/style>"
           }
