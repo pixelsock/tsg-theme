@@ -165,6 +165,7 @@
         },
         "accordion_NtmkBd": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "show_below_gallery": true,
             "icon": "none",
@@ -283,7 +284,7 @@
     "7bb995d8-0e55-4451-a52b-7132112cb0d8": {
       "type": "custom-liquid",
       "custom_css": [
-        ".masonary-container {display: grid; grid-template-columns: repeat(3, 33%); grid-template-rows: repeat(auto, 10vh); gap: 0.5rem; grid-auto-flow: dense;}",
+        ".masonary-container {display: grid; grid-template-columns: repeat(3, 33%); grid-template-rows: repeat(auto, 10vh); gap: 0.5rem; grid-auto-flow: dense; overflow: hidden;}",
         ".masonary-item:nth-child(1) {grid-column: span 3; grid-row: span 2;}",
         " \/* .masonary-item:is(:nth-child(2)) {grid-column: span 2; grid-row: span 2;}",
         " *\/.masonary-item {grid-column: span 1; grid-row: span 1;}",
