@@ -80,8 +80,8 @@
         "heading_QqnhjV": {
           "type": "heading",
           "settings": {
-            "text": "Bamboo MEETS POly",
-            "heading_tag": "h1"
+            "text": "Bamboo + Poly = PERFECT",
+            "heading_tag": "h2"
           }
         },
         "richtext_R77g3t": {
@@ -89,12 +89,26 @@
           "settings": {
             "content": "<ul><li>Made from a sustainable source of Bamboo fibers in our Airetex™ fabric blend<\/li><li>Anti-microbial and anti-odor fabric<\/li><li>Soft AF<\/li><li>Lightweight and breathable fabric <\/li><li>Quick drying<\/li><li>Modern but not slim fit so you won't look like you borrowed a shirt from your dorm closet.<\/li><\/ul><p><\/p>"
           }
+        },
+        "button_tnHxC8": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Shop The Collection",
+            "url": "shopify:\/\/collections\/airetex-bamboo-apparel-collection",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "subheading_BhfK4P",
         "heading_QqnhjV",
-        "richtext_R77g3t"
+        "richtext_R77g3t",
+        "button_tnHxC8"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -141,6 +155,8 @@
         "image_NRM3Hn": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/072524-airetex-collection-alt-image-3200x1000.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/s24tannerbamboobuttondownalt1000x_0000s_0000_TSG-SS24-Builder-KHP-213.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -180,6 +196,9 @@
     },
     "newsletter_CqViA7": {
       "type": "newsletter",
+      "custom_css": [
+
+      ],
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
