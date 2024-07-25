@@ -447,7 +447,7 @@
       "settings": {
         "separate_section_with_border": false,
         "image_size": "auto",
-        "show_text_outside": false,
+        "show_text_outside": true,
         "space_items": true,
         "stack_collections": true,
         "collections_per_row_desktop": 4,
