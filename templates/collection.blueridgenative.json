@@ -14,12 +14,14 @@
       "blocks": {
         "play_PckyB9": {
           "type": "play",
+          "disabled": true,
           "settings": {
             "icon_color": "#ffffff"
           }
         },
         "heading_rX44Dm": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Video",
             "heading_tag": "h2"
@@ -30,17 +32,18 @@
         "play_PckyB9",
         "heading_rX44Dm"
       ],
-      "disabled": true,
       "settings": {
-        "autoplay": false,
+        "autoplay": true,
         "show_controls": true,
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "shopify:\/\/files\/videos\/Automatic.mp4",
+        "external_video_url": "",
         "text_color": "#ffffff"
       }
     },
     "collection-banner": {
       "type": "collection-banner",
+      "disabled": true,
       "custom_css": [
         "{text-align: left;}"
       ],
