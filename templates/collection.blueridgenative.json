@@ -34,8 +34,8 @@
       ],
       "settings": {
         "autoplay": true,
-        "show_controls": true,
-        "video_size": "md",
+        "show_controls": false,
+        "video_size": "auto",
         "video": "shopify:\/\/files\/videos\/Automatic.mp4",
         "external_video_url": "",
         "text_color": "#ffffff"
