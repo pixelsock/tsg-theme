@@ -487,3 +487,15 @@ th,
     font-weight: 700;
     font-size: 0.925rem;
 }
+
+/* Nav End */
+
+.product-card__info {
+  padding: 0.5rem 0;
+  gap: 0.25rem;
+}
+
+.price-list {
+  padding-top: 0;
+  padding-bottom: 0;
+}
