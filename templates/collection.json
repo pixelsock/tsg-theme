@@ -44,7 +44,7 @@
         "products_size_desktop": "large",
         "show_grid_mode_selector": false,
         "horizontal_spacing_factor": 0.5,
-        "vertical_spacing_factor": 1,
+        "vertical_spacing_factor": 0.5,
         "filter_layout": "sidebar",
         "quick_links_menu": "",
         "show_sort_by": false,
