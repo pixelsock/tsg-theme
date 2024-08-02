@@ -147,7 +147,7 @@
     "main": {
       "type": "main-collection",
       "custom_css": [
-        ".dot-checkbox {border-radius: 0px; height: 0.75rem; width: 0.75rem; inset-block-start: calc(0.35em + 1px); background: #f79e1b; border: 2px solid;}"
+        ".dot-checkbox {border-radius: 0px; height: 0.75rem; width: 0.75rem; inset-block-start: calc(0.35rem + 1px); background: #f79e1b; border: 2px solid;}"
       ],
       "settings": {
         "hide_product_information": false,
@@ -156,8 +156,8 @@
         "products_per_row_mobile": "2",
         "products_size_desktop": "large",
         "show_grid_mode_selector": false,
-        "horizontal_spacing_factor": 1.3,
-        "vertical_spacing_factor": 1,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 0.5,
         "filter_layout": "sidebar",
         "quick_links_menu": "",
         "show_sort_by": true,
