@@ -32,41 +32,6 @@
         "overlay_opacity": 30
       }
     },
-    "rich_text_ajCUdx": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_zTXt3m": {
-          "type": "subheading",
-          "settings": {
-            "text": "HAVE A FIELD DAY."
-          }
-        },
-        "heading_qTq3hN": {
-          "type": "heading",
-          "settings": {
-            "text": "FIELD GEAR",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_Ux6pzJ": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>This is what we work for--day-in, and day-out.  The field day.  Memories are made out there and the gear we use to help us be successful in the field means something as well.  Quality hunting, shooting, and field gear and goods are important to accomplish the task at hand: make memories, chase game, and pass along the traditions to the next person.  Shop our curated collection of shooting accessories, upland apparel, knives, binoculars, and other hunting gear for your next field day.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_zTXt3m",
-        "heading_qTq3hN",
-        "richtext_Ux6pzJ"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "content_width": "lg",
-        "text_position": "start",
-        "remove_vertical_spacing": false
-      }
-    },
     "13e995ae-26bd-48a6-80d6-b273bb649389": {
       "type": "collection-list",
       "blocks": {
@@ -130,6 +95,7 @@
         "eb0b3846-751a-4f7e-a06d-0297a139346d",
         "93557da7-9886-48c5-aaae-82984379c5e0"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
@@ -142,6 +108,41 @@
         "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "rich_text_ajCUdx": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_zTXt3m": {
+          "type": "subheading",
+          "settings": {
+            "text": "HAVE A FIELD DAY."
+          }
+        },
+        "heading_qTq3hN": {
+          "type": "heading",
+          "settings": {
+            "text": "NEW THIS WEEK @ TSG",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Ux6pzJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>If you're looking for the latest and greatest of what TSG has to offer...you have landed in the right spot.  Check out the collection of all the new men's clothing and gear arrivals from our favorites like Duck Camp, Redington, YETI, Marsh Wear, Filson, Danner, and of course, our very own TSG Apparel Company.  Goods for fly fishing, gear for hunting quail, or just flat out good times with the family or fellas...Welcome to the Thunder Dome.  Have fun.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zTXt3m",
+        "heading_qTq3hN",
+        "richtext_Ux6pzJ"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "lg",
+        "text_position": "start",
+        "remove_vertical_spacing": false
       }
     },
     "main": {
@@ -177,8 +178,8 @@
   },
   "order": [
     "collection-banner",
-    "rich_text_ajCUdx",
     "13e995ae-26bd-48a6-80d6-b273bb649389",
+    "rich_text_ajCUdx",
     "main"
   ]
 }
