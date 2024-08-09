@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -37,6 +46,10 @@
     },
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
       "type": "newsletter",
+      "custom_css": [
+        "input {background: rgba(255, 255, 255, 0.65); color: black;}",
+        "input::placeholder {color: #474747;}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "image_size": "md",
