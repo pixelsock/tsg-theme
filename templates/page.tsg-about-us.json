@@ -35,6 +35,7 @@
       "settings": {
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/082724-about-us-landing-page-hero.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/082724-about-us-page-hero-mobile.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
