@@ -14,6 +14,7 @@
       "blocks": {
         "image_mTcHjm": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/101823-new-arrivals-web-hero-dt-v2.jpg",
             "mobile_image": "shopify:\/\/shop_images\/101823-new-arrivals-web-hero-mobile-2_833b0b41-b4a9-4295-be54-a7bd867a1764.jpg",
@@ -41,7 +42,6 @@
         },
         "image_HCMD6a": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/082824-LDW-Sale-hero-dt_8e1182b4-2ab6-4057-8ae1-f49c26563813.jpg",
             "mobile_image": "shopify:\/\/shop_images\/082824-LDS-Sale-hero-mobile_55b03613-f3b7-46cd-a35a-6b8c07fc5368.jpg",
