@@ -339,13 +339,17 @@ Supported variables
                     </div>
                     </div>
                     <!-- COLOR -->
-                    <div class="variant-picker__option-values h-stack gap-2.5 wrap" {% if true %}style="display: none;"{% else %}style="display: none;"{% endif %}>
+                    <div class="variant-picker__option-values h-stack gap-2.5 wrap" {% if has_color %}style="display: block;"{% else %}style="display: none;"{% endif %}>
                       {%- liquid
                         for product_variation in block.settings.products
                           assign color_value = product_variation.metafields.custom.variant_color | strip
                           assign size_value = product_variation.metafields.custom.variant_size | strip
                           assign value = product_variation.metafields[metafield_namespace][metafield_key].value
-                          
+
+                         if color_value != ""
+                           assign has_color = true
+                         endif
+                         
                           if product_variation == product
                             assign selected = true
                           else
