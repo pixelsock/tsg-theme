@@ -317,7 +317,8 @@ Supported variables
               
                           case block.settings.color_selector_type
                            when 'color'
-                              if color_value != ' '
+                              if color_value != ''
+                                echo "Debug: Color value is set to: " | append: color_value | append: "<br>"
                                 render 'swatch' with 'color', href: product_variation.url, value: color_value, selected: selected
                               endif
                           endcase
