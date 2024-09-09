@@ -322,7 +322,6 @@
                     {%- liquid
                       for product_variation in block.settings.products
                         assign value = product_variation.metafields[metafield_namespace][metafield_key].value
-                        echo "Debug: Value is '" | append: value | append: "'<br>"
 
                         if product_variation == product
                           assign selected = true
