@@ -265,8 +265,8 @@
                   endif
               
                   # Check if color exists and set flag
-                  assign variant_color = product_variation.metafields.custom.variant_color | strip
-                  if variant_color != ""
+                  assign variant_custom_swatch = product_variation.metafields[metafield_namespace][metafield_key].value | strip
+                  if variant_custom_swatch != ""
                     assign has_color = true
                   endif
               
@@ -300,7 +300,7 @@
                 </ul>
               {% endfor %}
             </div>
-            {%- if contains_product -%}
+            {%- if contains_product and has_color -%}
               {%- comment -%}
                 IMPLEMENTATION NOTE: this feature allows to connect different products on the same page. It is therefore
                 visually similar to a variant picker, although it does not share the functionality
