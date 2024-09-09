@@ -274,8 +274,10 @@
                 endif
               endfor
             -%}
+
               <div style="display: none;">
                 {% for product_variation in block.settings.products %}
+                  <pre>{{ product_variation.metafields.custom | json }}</pre>
                   <p>Product {{ forloop.index }}:</p>
                   <p>Metafield Parts: {{ block.settings.option_value_metafield }}</p>
                   <p>Metafield Namespace, Metafield Key: {{ metafield_namespace }} - {{ metafield_key }}</p>
