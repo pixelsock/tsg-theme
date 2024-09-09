@@ -348,7 +348,7 @@ Supported variables
 
                          if color_value != ""
                            assign has_color = true
-                           echo has_color
+                           echo "Debug: Color value is set to: " | append: color_value | append: "<br>"
                          endif
                          
                           if product_variation == product
