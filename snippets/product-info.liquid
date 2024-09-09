@@ -283,6 +283,7 @@ Supported variables
   {% for product_variation in block.settings.products %}
     <p>Product {{ forloop.index }}:</p>
     <p>Metafield Parts: {{ block.settings.option_value_metafield }}</p>
+    <p>value: {{ product_variation.metafields[metafield_namespace][metafield_key].value }}</p>
     <ul>
       <li>Variant Products: {{ product_variation.metafields.custom.variant_products }}</li>
       <li>Variant Color: {{ product_variation.metafields.custom.variant_color }}</li>
