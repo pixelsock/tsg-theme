@@ -271,7 +271,9 @@ Supported variables
                     {%- assign metafield_parts = block.settings.option_value_metafield | split: '.' -%}
                     {%- assign metafield_namespace = metafield_parts | first -%}
                     {%- assign metafield_key = metafield_parts | last -%}
-              
+                    <!-- {%- assign has_color = false -%}
+                    {%- assign has_size = false -%} -->
+
                     {%- if block.settings.option_name != blank -%}
                       <div class="h-stack gap-1">
                         <p class="text-subdued">{{ block.settings.option_name | escape }}:</p>
@@ -301,7 +303,7 @@ Supported variables
                         </ul>
                       {% endfor %}
                     </div>
-              
+                    <!-- SIZE -->
                     <div class="variant-picker__option-values h-stack gap-2.5 wrap">
                       {%- liquid
                         for product_variation in block.settings.products
@@ -316,11 +318,56 @@ Supported variables
                           endif
               
                           case block.settings.color_selector_type
-                           when 'color'
+                            when 'color'
                               if color_value != ''
-          echo "Debug: Color value is set to: '" | append: color_value | append: "'" | append: "<br>"
                                 render 'swatch' with 'color', href: product_variation.url, value: color_value, selected: selected
                               endif
+                      
+                            when 'variant'
+                              render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected
+  
+                            when 'block'
+                              if size_value != ''
+                                render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected
+                              endif
+                      
+                            when 'block_swatch'
+                              render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true
+                          endcase
+                        endfor
+                      -%}
+                    </div>
+                    </div>
+                    <!-- COLOR -->
+                    <div class="variant-picker__option-values h-stack gap-2.5 wrap" {% if true %}style="display: block;"{% else %}style="display: none;"{% endif %}>
+                      {%- liquid
+                        for product_variation in block.settings.products
+                          assign color_value = product_variation.metafields.custom.variant_color | strip
+                          assign size_value = product_variation.metafields.custom.variant_size | strip
+                          assign value = product_variation.metafields[metafield_namespace][metafield_key].value
+                          
+                          if product_variation == product
+                            assign selected = true
+                          else
+                            assign selected = false
+                          endif
+              
+                          case block.settings.color_selector_type
+                            when 'color'
+                              if color_value != ''
+                                render 'swatch' with 'color', href: product_variation.url, value: color_value, selected: selected
+                              endif
+                      
+                            when 'variant'
+                              render 'swatch' with 'media', href: product_variation.url, value: value, media: product_variation.featured_media, selected: selected
+  
+                            when 'block'
+                              if size_value != ''
+                                render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected
+                              endif
+                      
+                            when 'block_swatch'
+                              render 'swatch' with 'block', href: product_variation.url, value: value, selected: selected, show_color: true
                           endcase
                         endfor
                       -%}
