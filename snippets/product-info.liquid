@@ -259,7 +259,75 @@ Supported variables
                 endif
               endfor
             -%}
-
+<div style="display: none;">
+              {%- if contains_product -%}
+                {%- comment -%}
+                  IMPLEMENTATION NOTE: this feature allows to connect different products on the same page. It is therefore
+                  visually similar to a variant picker, although it does not share the functionality.
+                {%- endcomment -%}
+              
+                <div class="variant-picker v-stack gap-4">
+                  <div class="variant-picker__option v-stack gap-2">
+                    {%- assign metafield_parts = block.settings.option_value_metafield | split: '.' -%}
+                    {%- assign metafield_namespace = metafield_parts | first -%}
+                    {%- assign metafield_key = metafield_parts | last -%}
+              
+                    {%- if block.settings.option_name != blank -%}
+                      <div class="h-stack gap-1">
+                        <p class="text-subdued">{{ block.settings.option_name | escape }}:</p>
+                        <span>{{ product.metafields[metafield_namespace][metafield_key].value | escape }}</span>
+                      </div>
+                    {%- endif -%}
+              
+                    <div style="display: none;">
+                      {% for product_variation in block.settings.products %}
+                        <p>Product {{ forloop.index }}:</p>
+                        <p>Metafield Parts: {{ block.settings.option_value_metafield }}</p>
+                        <p>value: {{ product_variation.metafields[metafield_namespace][metafield_key].value }}</p>
+                        <ul>
+                          <li>Variant Products: {{ product_variation.metafields.custom.variant_products }}</li>
+                          <li>Variant Color: {{ product_variation.metafields.custom.variant_color }}</li>
+                          <li>Variant Size: {{ product_variation.metafields.custom.variant_size }}</li>
+                          <li>Featured Images: {{ product_variation.metafields.custom.featured_images }}</li>
+                          <li>Features: {{ product_variation.metafields.custom.features }}</li>
+                          <li>Specs: {{ product_variation.metafields.custom.specs }}</li>
+                          <li>Personalization Options: {{ product_variation.metafields.custom.personalization_options }}</li>
+                          <li>Materials: {{ product_variation.metafields.custom.materials }}</li>
+                          <li>Fit & Size: {{ product_variation.metafields.custom.fit_and_size }}</li>
+                          <li>Care Guide: {{ product_variation.metafields.custom.care_guide }}</li>
+                          <li>About The Brand: {{ product_variation.metafields.custom.about_the_brand }}</li>
+                          <li>Badges: {{ product_variation.metafields.custom.badges }}</li>
+                          <li>Dropship: {{ product_variation.metafields.custom.dropship }}</li>
+                        </ul>
+                      {% endfor %}
+                    </div>
+              
+                    <div class="variant-picker__option-values h-stack gap-2.5 wrap">
+                      {%- liquid
+                        for product_variation in block.settings.products
+                          assign color_value = product_variation.metafields.custom.variant_color
+                          assign size_value = product_variation.metafields.custom.variant_size
+                          assign value = product_variation.metafields[metafield_namespace][metafield_key].value
+                          
+                          if product_variation == product
+                            assign selected = true
+                          else
+                            assign selected = false
+                          endif
+              
+                          case block.settings.color_selector_type
+                           when 'color'
+                              if product_variation.url contains 'example-pattern'
+                                render 'special-swatch' with 'color', href: product_variation.url, value: color_value, selected: selected
+                              endif
+                          endcase
+                        endfor
+                      -%}s
+                    </div>
+                  </div>
+                </div>
+              {%- endif -%}
+            </div>    
             {%- if contains_product -%}
               {%- comment -%}
                 IMPLEMENTATION NOTE: this feature allows to connect different products on the same page. It is therefore
