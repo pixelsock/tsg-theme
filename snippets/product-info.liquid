@@ -274,6 +274,8 @@
                 endif
               endfor
             -%}
+            <pre>TESTING::: {{ product_variation.metafields.custom | json }}</pre>
+
               <div style="display: none;">
                 {% for product_variation in block.settings.products %}
                   <p>Product {{ forloop.index }}:</p>
