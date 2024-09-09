@@ -279,6 +279,9 @@ Supported variables
                     </div>
                   {%- endif -%}
 
+                  <div style="display: none;">
+                    test1223: {{product_variation.metafields[metafield_namespace][metafield_key].value}}
+                  </div>
                   <div class="variant-picker__option-values h-stack gap-2.5 wrap">
                     {%- liquid
                       for product_variation in block.settings.products
