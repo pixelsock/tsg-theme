@@ -262,12 +262,14 @@ Supported variables
                 endif
             
                 # Check if color exists and set flag
-                if product_variation.metafields.custom.variant_color | strip
+                assign variant_color = product_variation.metafields.custom.variant_color | strip
+                if variant_color
                   assign has_color = true
                 endif
             
                 # Check if size exists and set flag
-                if product_variation.metafields.custom.variant_size | strip
+                assign variant_size = product_variation.metafields.custom.variant_size | strip
+                if variant_size
                   assign has_size = true
                 endif
               endfor
