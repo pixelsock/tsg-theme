@@ -275,7 +275,7 @@
                 endfor
             -%}
 
-            {%- if contains_product -%}
+            {%- if contains_product and has_color -%}
               {%- comment -%}
                 IMPLEMENTATION NOTE: this feature allows to connect different products on the same page. It is therefore
                 visually similar to a variant picker, although it does not share the functionality
