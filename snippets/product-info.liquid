@@ -286,6 +286,7 @@ Supported variables
                         <li>Title: {{ product_variation.title }}</li>
                         <li>URL: {{ product_variation.url }}</li>
                         <li>Metafield Value: {{ product_variation.metafields[metafield_namespace][metafield_key].value }}</li>
+                        <li>Color Selector Type: {{ block.settings.color_selector_type }}</li>
                         <!-- Add more properties as needed -->
                       </ul>
                     {% endfor %}
