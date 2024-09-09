@@ -280,13 +280,21 @@ Supported variables
                   {%- endif -%}
 
                   <div style="display: none;">
-                    test1223: {{block}}
+                    {% for product_variation in block.settings.products %}
+                      <p>Product {{ forloop.index }}:</p>
+                      <ul>
+                        <li>Title: {{ product_variation.title }}</li>
+                        <li>URL: {{ product_variation.url }}</li>
+                        <li>Metafield Value: {{ product_variation.metafields[metafield_namespace][metafield_key].value }}</li>
+                        <!-- Add more properties as needed -->
+                      </ul>
+                    {% endfor %}
                   </div>
                   <div class="variant-picker__option-values h-stack gap-2.5 wrap">
                     {%- liquid
                       for product_variation in block.settings.products
                         assign value = product_variation.metafields[metafield_namespace][metafield_key].value
-
+                        
                         if product_variation == product
                           assign selected = true
                         else
