@@ -98,18 +98,6 @@
         "settings": {
         }
       },
-      "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": false,
-        "settings": {
-          "button_color": "#202a36",
-          "button_icon": "chat_bubble",
-          "button_text": "no_text",
-          "button_horizontal_position": "bottom_left",
-          "button_vertical_position": "lowest",
-          "greeting_message": "👋  Good day! Please holler at us if you have questions.  We’re here and happy to help! "
-        }
-      },
       "14288002729265275678": {
         "type": "shopify:\/\/apps\/go-product-page-gallery-zoom\/blocks\/app-embed\/00e2bd89-9dbb-4f36-8a7f-03768835bc78",
         "disabled": true,
@@ -120,6 +108,20 @@
         "type": "shopify:\/\/apps\/wishlist-plus\/blocks\/wishlist-app-embed\/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
         "disabled": true,
         "settings": {
+        }
+      },
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#ed8a00",
+          "secondary_color": "#FFFFFF",
+          "ternary_color": "#6A6A6A",
+          "button_icon": "chat_bubble",
+          "button_text": "no_text",
+          "button_horizontal_position": "bottom_left",
+          "button_vertical_position": "lowest",
+          "greeting_message": "👋  Good day! Please holler at us if you have questions.  We’re here and happy to help!"
         }
       }
     }
