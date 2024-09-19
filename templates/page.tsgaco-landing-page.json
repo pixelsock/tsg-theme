@@ -189,13 +189,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-25.jpg",
+            "image": "shopify:\/\/shop_images\/A7R4196_1650e6eb-0d8a-4fa6-8903-75347d3411a7.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "DRIFT POLO",
+            "title": "HAVENFIELD SHELL",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-drift-polo-harbour",
+            "button_link": "shopify:\/\/products\/tsg-havenfield-shell-jacket-dark-olive",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -207,11 +207,11 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/022624-ridge-short-hero-mobile.jpg",
+            "image": "shopify:\/\/shop_images\/A7R3855.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "RIDGE SHORTS",
+            "title": "BOONE PANTS",
             "button_text": "SHOP NOW",
             "button_link": "shopify:\/\/products\/tsg-ridge-short-sage",
             "text_color": "#ffffff",
@@ -225,7 +225,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-8.jpg",
+            "image": "shopify:\/\/shop_images\/A7R4344.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
@@ -284,6 +284,7 @@
       "block_order": [
         "template--16783006138600__40d836d0-5c70-4341-b9cb-b40c858de1d6-collection-3"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "image_size": "sm",
