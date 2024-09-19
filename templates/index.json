@@ -15,12 +15,12 @@
         "image_mTcHjm": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/101823-new-arrivals-web-hero-dt-v2.jpg",
+            "image": "shopify:\/\/shop_images\/091924-F24-Launch-New-Arrivals-DT-hero.jpg",
             "mobile_image": "shopify:\/\/shop_images\/101823-new-arrivals-web-hero-mobile-2_833b0b41-b4a9-4295-be54-a7bd867a1764.jpg",
             "subheading": "NEW ARRIVALS DAILY",
             "title": "FALL IS here.",
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "content_max_width": 780,
             "button_1_text": "SHOP NOW",
             "button_1_link": "shopify:\/\/collections\/new-arrivals-this-week-tsg",
@@ -34,43 +34,14 @@
             "button_2_text_color": "#000000",
             "background": "",
             "background_opacity": 50,
-            "text_color": "#000000",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_HCMD6a": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/082824-LDW-Sale-hero-dt_8e1182b4-2ab6-4057-8ae1-f49c26563813.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/082824-LDS-Sale-hero-mobile_55b03613-f3b7-46cd-a35a-6b8c07fc5368.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
             "text_color": "#ffffff",
             "border_color": "",
-            "gradient_overlay": ""
+            "gradient_overlay": "linear-gradient(127deg, rgba(254, 217, 81, 0) 10%, rgba(0, 0, 0, 0.25) 100%)"
           }
         }
       },
       "block_order": [
-        "image_mTcHjm",
-        "image_HCMD6a"
+        "image_mTcHjm"
       ],
       "custom_css": [
         "@media only screen and (min-width: 1000px) {.h1 {font-size: 54px; } .h6 {font-size: 24px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
