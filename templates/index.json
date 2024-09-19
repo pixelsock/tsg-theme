@@ -179,14 +179,14 @@
         "image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/main1000x_0000s_0010_TSG_bamboo_highcountrycheck_frontcopy.jpg",
+            "image": "shopify:\/\/shop_images\/main1000x_0000s_0006_TSG_bamboo_riversidecheck_frontcopy.jpg",
             "rotation": 0
           }
         },
         "image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tsgtanneraltimages1000x_0002s_0000_TSG-Bluff-S23-Builder-94.jpg",
+            "image": "shopify:\/\/shop_images\/tsgtanneraltimages1000x_0001s_0003_TSG-Bluff-S23-Builder-32.jpg",
             "rotation": 0
           }
         }
