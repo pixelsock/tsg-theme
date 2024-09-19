@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/091924-F24-Launch-New-Arrivals-DT-hero.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/101823-new-arrivals-web-hero-mobile-2_833b0b41-b4a9-4295-be54-a7bd867a1764.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/091924-F24-Launch-New-Arrivals-mobile-hero-_0001__A7R3806_d0cc767e-9743-49f6-befa-4a2a0ab08033.jpg",
             "subheading": "NEW ARRIVALS DAILY",
             "title": "FALL IS here.",
             "mobile_text_position": "place-self-center text-center",
@@ -38,14 +38,42 @@
             "border_color": "",
             "gradient_overlay": "linear-gradient(127deg, rgba(254, 217, 81, 0) 10%, rgba(0, 0, 0, 0.25) 100%)"
           }
+        },
+        "image_dtHXgr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/091924-F24-Launch-New-Arrivals-DT-hero-v2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/091924-F24-Launch-New-Arrivals-mobile-hero-_0000_Brightness_Contrast_1_a55c926d-1408-4c9d-9563-121fc3438113.jpg",
+            "subheading": "New season, New Gear",
+            "title": "Check it out",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "content_max_width": 780,
+            "button_1_text": "CLICK HERE",
+            "button_1_link": "shopify:\/\/pages\/tsg-apparel-co",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 18,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(262deg, rgba(0, 0, 0, 0.14) 78%, rgba(4, 4, 4, 0.65) 100%)"
+          }
         }
       },
       "block_order": [
-        "image_mTcHjm"
+        "image_mTcHjm",
+        "image_dtHXgr"
       ],
       "custom_css": [
         "@media only screen and (min-width: 1000px) {.h1 {font-size: 54px; } .h6 {font-size: 24px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
-        "@media only screen and (max-width: 900px) {.h1 {font-size: 36px; } .h6 {font-size: 9px; }}"
+        "@media only screen and (max-width: 900px) {.h1 {font-size: 36px; } .h6 {font-size: 15px; }}"
       ],
       "settings": {
         "allow_transparent_header": false,
