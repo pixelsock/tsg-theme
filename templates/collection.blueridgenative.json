@@ -151,12 +151,14 @@
       "blocks": {
         "subheading_Vhf7Wp": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": ""
           }
         },
         "heading_JFHAcA": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "",
             "heading_tag": "h1"
