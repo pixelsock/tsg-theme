@@ -32,11 +32,11 @@
         "play_PckyB9",
         "heading_rX44Dm"
       ],
+      "disabled": true,
       "settings": {
-        "autoplay": true,
+        "autoplay": false,
         "show_controls": false,
         "video_size": "md",
-        "video": "shopify:\/\/files\/videos\/Automatic.mp4",
         "external_video_url": "",
         "text_color": "#ffffff"
       }
@@ -49,8 +49,8 @@
       ],
       "settings": {
         "content_width": "xl",
-        "image": "shopify:\/\/shop_images\/040324-BRN-collection-hero_f90d8bb7-9419-45eb-a5ef-840d83d6e640.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/040324-BRN-collection-hero-mobile.jpg",
+        "image": "shopify://shop_images/040324-BRN-collection-hero_f90d8bb7-9419-45eb-a5ef-840d83d6e640.jpg",
+        "mobile_image": "shopify://shop_images/040324-BRN-collection-hero-mobile.jpg",
         "image_size": "md",
         "allow_transparent_header": false,
         "reveal": false,
@@ -85,7 +85,7 @@
         "richtext_nL4VB3": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Introducing a new lineup of gear from your's truly here at TSG. Inspired by the adventures along the ridge lines and in the rivers of the High Country, we've created Blue Ridge Native -- from tee shirts, hats and other gear -- to celebrate the playground in our backyard.<\/p>"
+            "content": "<p>Introducing a new lineup of gear from your's truly here at TSG. Inspired by the adventures along the ridge lines and in the rivers of the High Country, we've created Blue Ridge Native -- from tee shirts, hats and other gear -- to celebrate the playground in our backyard.</p>"
           }
         }
       },
@@ -98,6 +98,86 @@
         "separate_section_with_border": true,
         "content_width": "lg",
         "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "slideshow_ziUw4J": {
+      "type": "slideshow",
+      "blocks": {
+        "image_9dUfdA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0724-brn-collection-tees-tsg-ss24-watauga-builder-134_8a233d23-854f-4d0c-8ca7-312c165bce41.png",
+            "mobile_image": "shopify://shop_images/040324-BRN-collection-hero-mobile.jpg",
+            "subheading": "Let's band together.",
+            "title": "Help our guiding community.",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_9dUfdA"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "auto",
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "rich_text_9NFzdh": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Vhf7Wp": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_JFHAcA": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_8NjJtx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our guiding community along the Blue Ridge has been devastated by the flooding and destruction caused by Helene.  The fisheries are non-existent and so is their primary source of income.  We have a wonderful community of customers and friends and now is the time for us to come together to support those that need it most.  The rivers will rebound.  Nature will recover.  But the people, businesses and communities which have welcomed us in their backyard need our help.  Now more than ever.</p><p></p><p>While supplies last, 100% of the profits from the sale of our Blue Ridge Native Co. brand will be donated to a local and community-focused organization dedicated to supporting the guides who have not only lost their belongings, but their livelihood as well.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Vhf7Wp",
+        "heading_JFHAcA",
+        "richtext_8NjJtx"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
         "remove_vertical_spacing": false
       }
     },
@@ -123,13 +203,13 @@
           "type": "richtext",
           "disabled": true,
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "image_Dt6wKn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0724-brn-collection-tees-tsg-ss24-watauga-builder-134_8a233d23-854f-4d0c-8ca7-312c165bce41.png",
+            "image": "shopify://shop_images/0724-brn-collection-tees-tsg-ss24-watauga-builder-134_8a233d23-854f-4d0c-8ca7-312c165bce41.png",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 400
@@ -157,7 +237,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/tsg_tshirt_brn-sierra-back.jpg",
+            "image": "shopify://shop_images/tsg_tshirt_brn-sierra-back.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-center text-center",
             "subheading": "",
@@ -175,7 +255,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/tsg_tshirt_brn-whiskey-back.jpg",
+            "image": "shopify://shop_images/tsg_tshirt_brn-whiskey-back.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-center text-center",
             "subheading": "",
@@ -193,7 +273,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/tsg_tshirt_brn-navy-back.jpg",
+            "image": "shopify://shop_images/tsg_tshirt_brn-navy-back.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-center text-center",
             "subheading": "",
@@ -211,13 +291,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/tsg_tshirt_brn-stream.jpg",
+            "image": "shopify://shop_images/tsg_tshirt_brn-stream.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "brn",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/brn-trout-short-sleeve-tee-1",
+            "button_link": "shopify://products/brn-trout-short-sleeve-tee-1",
             "text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 8,
@@ -229,7 +309,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/tsg_tshirt_brn-agave-back.jpg",
+            "image": "shopify://shop_images/tsg_tshirt_brn-agave-back.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-center text-center",
             "subheading": "",
@@ -275,7 +355,7 @@
         "image_zenHJe": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/072424-brn-collection-hats-tsg-ss24-watauga-builder-138_5d1d9752-c525-4112-be22-c8f3eb63a08f.png",
+            "image": "shopify://shop_images/072424-brn-collection-hats-tsg-ss24-watauga-builder-138_5d1d9752-c525-4112-be22-c8f3eb63a08f.png",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 390
@@ -512,9 +592,9 @@
         "open_filters_by_default": false,
         "promotion_placement_order": "random",
         "custom_promotion_placement_order": 2,
-        "promotion_image_url": "shopify:\/\/shop_images\/022624-S24-Collection-hero-mobile_e8531e78-9ba2-4ba1-8885-12ddc7c9d669.jpg",
+        "promotion_image_url": "shopify://shop_images/022624-S24-Collection-hero-mobile_e8531e78-9ba2-4ba1-8885-12ddc7c9d669.jpg",
         "enable_promotion_link": false,
-        "promotion_link_url": "shopify:\/\/pages\/tsg-apparel-co"
+        "promotion_link_url": "shopify://pages/tsg-apparel-co"
       }
     },
     "newsletter_aEky8U": {
@@ -522,8 +602,8 @@
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/040324-newsletter-hero-mobile.jpg",
+        "image": "shopify://shop_images/042122_learntofish_hero-dt.jpg",
+        "mobile_image": "shopify://shop_images/040324-newsletter-hero-mobile.jpg",
         "subheading": "Want to stay in the loop?",
         "title": "Sign up for our TSG Dispatches",
         "content": "",
@@ -540,6 +620,8 @@
     "video_xXi4xW",
     "collection-banner",
     "rich_text_Te97A6",
+    "slideshow_ziUw4J",
+    "rich_text_9NFzdh",
     "rich_text_HkdFAe",
     "collection_list_6FrLgU",
     "rich_text_cR7JQX",
