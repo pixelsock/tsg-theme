@@ -94,6 +94,7 @@
         "heading_tmkN3y",
         "richtext_nL4VB3"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "content_width": "lg",
@@ -109,7 +110,7 @@
           "settings": {
             "image": "shopify://shop_images/0724-brn-collection-tees-tsg-ss24-watauga-builder-134_8a233d23-854f-4d0c-8ca7-312c165bce41.png",
             "mobile_image": "shopify://shop_images/040324-BRN-collection-hero-mobile.jpg",
-            "subheading": "Let's band together.",
+            "subheading": "Blue Ridge Native Co.",
             "title": "Help our guiding community.",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
