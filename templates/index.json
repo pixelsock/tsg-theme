@@ -41,6 +41,7 @@
         },
         "image_dtHXgr": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/091924-F24-Launch-New-Arrivals-DT-hero-v2.jpg",
             "mobile_image": "shopify://shop_images/091924-F24-Launch-New-Arrivals-mobile-hero-_0000_Brightness_Contrast_1_a55c926d-1408-4c9d-9563-121fc3438113.jpg",
