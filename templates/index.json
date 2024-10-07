@@ -69,12 +69,12 @@
         "image_iphqir": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/100724-guide-relief-BRN-hero-DT_f7a55f9a-c01e-4ea2-8754-8e48c2196a0c.jpg",
+            "image": "shopify://shop_images/100724-guide-relief-BRN-hero-DT_85696b84-43f2-4fab-bd21-3db16648cb78.jpg",
             "mobile_image": "shopify://shop_images/100724-guide-relief-BRN-hero-mobile_2830a273-674b-469e-85b9-15de00052515.jpg",
             "subheading": "LEARN MORE ABOUT OUR BRN GUIDE RELIEF CAMPAIGN",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "CLICK HERE",
             "button_1_link": "shopify://collections/blue-ridge-native",
@@ -100,8 +100,8 @@
         "image_iphqir"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 1000px) {.h1 {font-size: 54px; } .h6 {font-size: 24px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
-        "@media only screen and (max-width: 900px) {.h1 {font-size: 36px; } .h6 {font-size: 15px; }}"
+        "@media only screen and (min-width: 1000px) {.h1 {font-size: 54px; } .h6 {font-size: 36px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
+        "@media only screen and (max-width: 900px) {.h1 {font-size: 36px; } .h6 {font-size: 24px; }}"
       ],
       "settings": {
         "allow_transparent_header": false,
