@@ -71,8 +71,8 @@
           "settings": {
             "image": "shopify://shop_images/100724-guide-relief-BRN-hero-DT_f7a55f9a-c01e-4ea2-8754-8e48c2196a0c.jpg",
             "mobile_image": "shopify://shop_images/100724-guide-relief-BRN-hero-mobile_2830a273-674b-469e-85b9-15de00052515.jpg",
-            "subheading": "BRN GUIDE RELIEF CAMPAIGN",
-            "title": "SHOP BRN and HELP",
+            "subheading": "LEARN MORE ABOUT OUR BRN GUIDE RELIEF CAMPAIGN",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "content_max_width": 780,
