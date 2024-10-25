@@ -198,7 +198,7 @@
         "look_74b9Mt"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "subheading": "The Missus will thank you.",
         "title": "Fall Pairings Made Easy...",
         "content": "",
@@ -341,7 +341,7 @@
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "image_size": "md",
         "show_text_outside": false,
         "space_items": false,
