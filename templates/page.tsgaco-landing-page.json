@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -34,7 +34,7 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/082024-f24-launch-lockup-hero-dt.jpg",
+        "image": "shopify://shop_images/082024-f24-launch-lockup-hero-dt.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -59,7 +59,7 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>If you said the Fall\/Winter seasons is where TSG shines like a new penny, then call us Abe, because this is our best collection yet. We’re committed to finding the best in fabric and function, reinforcing our core styles, and doing all the leg work for, so you can get out there and make some new memories.<br\/>\t<\/p><p>So, feast your eyes and let those thumbs go crazy. <\/p>"
+            "content": "<p>If you said the Fall/Winter seasons is where TSG shines like a new penny, then call us Abe, because this is our best collection yet. We’re committed to finding the best in fabric and function, reinforcing our core styles, and doing all the leg work for, so you can get out there and make some new memories.<br/>\t</p><p>So, feast your eyes and let those thumbs go crazy. </p>"
           }
         }
       },
@@ -98,8 +98,8 @@
       "disabled": true,
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-DT_83e13441-325c-4582-93f1-2a3fab5a77d2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-mobile_30573633-0cff-4437-a996-dce1df8b8ccc.jpg",
+        "image": "shopify://shop_images/Hunt-ot-a-Lifetime-entry-DT_83e13441-325c-4582-93f1-2a3fab5a77d2.jpg",
+        "mobile_image": "shopify://shop_images/Hunt-ot-a-Lifetime-entry-mobile_30573633-0cff-4437-a996-dce1df8b8ccc.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
@@ -111,21 +111,115 @@
         "overlay_opacity": 0
       }
     },
+    "shop_the_look_rX6wMr": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_Yn6pWD": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/LBUILDER-TSG-240916-098.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "tsg-sutton-worksman-shell-midnight",
+            "product_1_horizontal_position": 43,
+            "product_1_vertical_position": 35,
+            "product_2": "tsg-boone-5-pocket-pant-whiskey",
+            "product_2_horizontal_position": 18,
+            "product_2_vertical_position": 78,
+            "product_3": "tsg-tanner-button-down-shirt-riverside-check",
+            "product_3_horizontal_position": 57,
+            "product_3_vertical_position": 41,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_hAT4eJ": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/LBUILDER-TSG-240916-136.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "tsg-havenfield-shell-jacket-dark-olive",
+            "product_1_horizontal_position": 30,
+            "product_1_vertical_position": 35,
+            "product_2": "tsg-cottonwood-cord-shirt-cedar",
+            "product_2_horizontal_position": 59,
+            "product_2_vertical_position": 65,
+            "product_3": "tsg-tanner-bamboo-button-down-bridgewater-plaid",
+            "product_3_horizontal_position": 55,
+            "product_3_vertical_position": 32,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_WgBeFk": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/LBUILDER-TSG-240916-228.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "tsg-highland-quilted-jacket-slate",
+            "product_1_horizontal_position": 32,
+            "product_1_vertical_position": 49,
+            "product_2": "tsg-fraser-cashmere-sweater-medium-grey",
+            "product_2_horizontal_position": 53,
+            "product_2_vertical_position": 59,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        },
+        "look_74b9Mt": {
+          "type": "look",
+          "settings": {
+            "image": "shopify://shop_images/LBUILDER-TSG-240916-172.jpg",
+            "hot_spots_background": "#ffffff",
+            "product_1": "tsg-tyne-waxed-vest-taupe",
+            "product_1_horizontal_position": 32,
+            "product_1_vertical_position": 68,
+            "product_2": "tsg-tanner-button-down-shirt-high-country-check",
+            "product_2_horizontal_position": 57,
+            "product_2_vertical_position": 60,
+            "product_3": "",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 60,
+            "product_4": "",
+            "product_4_horizontal_position": 85,
+            "product_4_vertical_position": 85
+          }
+        }
+      },
+      "block_order": [
+        "look_Yn6pWD",
+        "look_hAT4eJ",
+        "look_WgBeFk",
+        "look_74b9Mt"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "subheading": "The Missus will thank you.",
+        "title": "Fall Pairings Made Easy...",
+        "content": "",
+        "popover_title": "Shop the look"
+      }
+    },
     "047ea314-02cf-4695-877e-47db2ca47942": {
       "type": "slideshow",
       "blocks": {
         "template--16783006138600__047ea314-02cf-4695-877e-47db2ca47942-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/091924-F24-Launch-New-Arrivals-DT-hero-v2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/A7R4196_db9ee208-c45f-4585-97a8-6b0c31728ca5.jpg",
+            "image": "shopify://shop_images/091924-F24-Launch-New-Arrivals-DT-hero-v2.jpg",
+            "mobile_image": "shopify://shop_images/A7R4196_db9ee208-c45f-4585-97a8-6b0c31728ca5.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "",
-            "button_1_link": "shopify:\/\/pages\/tsg-apparel-co",
+            "button_1_link": "shopify://pages/tsg-apparel-co",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -145,6 +239,7 @@
       "block_order": [
         "template--16783006138600__047ea314-02cf-4695-877e-47db2ca47942-image-1"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
@@ -189,13 +284,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/A7R4196_1650e6eb-0d8a-4fa6-8903-75347d3411a7.jpg",
+            "image": "shopify://shop_images/A7R4196_1650e6eb-0d8a-4fa6-8903-75347d3411a7.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "HAVENFIELD SHELL",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-havenfield-shell-jacket-dark-olive",
+            "button_link": "shopify://products/tsg-havenfield-shell-jacket-dark-olive",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -207,13 +302,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/A7R3855.jpg",
+            "image": "shopify://shop_images/A7R3855.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "BOONE PANTS",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-ridge-short-sage",
+            "button_link": "shopify://products/tsg-ridge-short-sage",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -225,13 +320,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/A7R4344.jpg",
+            "image": "shopify://shop_images/A7R4344.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "Airetex™ Button Downs",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-tanner-bamboo-button-down-grassland-check-1",
+            "button_link": "shopify://products/tsg-tanner-bamboo-button-down-grassland-check-1",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -254,7 +349,7 @@
         "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "The Newest Arrivals",
-        "content": "<p>Tops to bottoms, this Fall's collection is our best ever.  Check out the new fabrics and styles below and see why.<\/p>",
+        "content": "<p>Tops to bottoms, this Fall's collection is our best ever.  Check out the new fabrics and styles below and see why.</p>",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
       }
@@ -266,7 +361,7 @@
           "type": "collection",
           "settings": {
             "collection": "tsg-apparel",
-            "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-9.jpg",
+            "image": "shopify://shop_images/tsg-s24-builder-001-9.jpg",
             "expand_collection": true,
             "content_position": "place-self-end text-end",
             "subheading": "",
@@ -378,8 +473,8 @@
       "settings": {
         "separate_section_with_border": true,
         "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/baeronwaxedjacketoxbowf23_0001_tsg-ducks-240114-048.jpg",
+        "image": "shopify://shop_images/042122_learntofish_hero-dt.jpg",
+        "mobile_image": "shopify://shop_images/baeronwaxedjacketoxbowf23_0001_tsg-ducks-240114-048.jpg",
         "subheading": "WANT TO STAY IN THE LOOP?",
         "title": "SIGN UP FOR OUR TSG DISPATCHES",
         "content": "",
@@ -397,6 +492,7 @@
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "32d730e3-3904-45e0-ac3b-2904076b078e",
+    "shop_the_look_rX6wMr",
     "047ea314-02cf-4695-877e-47db2ca47942",
     "9517b309-2a41-4d87-8e33-0ef4f447fc66",
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
