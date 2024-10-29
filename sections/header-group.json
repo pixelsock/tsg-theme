@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -17,19 +17,19 @@
         "1090e969-2407-46e8-a855-23e75fedd389": {
           "type": "message",
           "settings": {
-            "text": "Fast & Free Ground Shipping on All Orders Over $99*"
+            "text": "Fast & Free Standard Shipping on All Orders Over $99*"
           }
         },
         "958e3cb8-313c-4d8c-85dd-660942b09bff": {
           "type": "message",
           "settings": {
-            "text": "Get 15% off your first order by <a href=\"#\" title=\"klayvio_trigger\">signing up for our emails<\/a>!"
+            "text": "Get 15% off your first order by <a href=\"#\" title=\"klayvio_trigger\">signing up for our emails</a>!"
           }
         },
         "24f48508-6c61-4f52-a226-9a3eb069b0a1": {
           "type": "message",
           "settings": {
-            "text": "<a href=\"\/pages\/brick-mortar-charlotte\" title=\"Charlotte Brick & Mortar\">Brick & Mortar<\/a>     |    2848 Selwyn Ave. Charlotte, NC   |   (704) 896-5600   |   <a href=\"\/pages\/holler-at-us\" title=\"Holler At Us\">Holler at Us<\/a>"
+            "text": "<a href=\"/pages/brick-mortar-charlotte\" title=\"Charlotte Brick & Mortar\">Brick & Mortar</a>     |    2848 Selwyn Ave. Charlotte, NC   |   (704) 896-5600   |   <a href=\"/pages/holler-at-us\" title=\"Holler At Us\">Holler at Us</a>"
           }
         }
       },
@@ -59,14 +59,14 @@
           "settings": {
             "menu_item": "Apparel & Accessories",
             "images_position": "right",
-            "image_1": "shopify:\/\/shop_images\/tsg-boone-pant-navy-alt.jpg",
+            "image_1": "shopify://shop_images/tsg-boone-pant-navy-alt.jpg",
             "image_1_heading": "A little work, a lot of play.",
-            "image_1_text": "<strong>TSG Boone 5-Pocket Pant<\/strong>",
-            "image_1_link": "shopify:\/\/collections\/tsg-boone-5-pocket-pants",
-            "image_2": "shopify:\/\/shop_images\/tyne-waxed-vest--taupe-alt-1.jpg",
+            "image_1_text": "<strong>TSG Boone 5-Pocket Pant</strong>",
+            "image_1_link": "shopify://collections/tsg-boone-5-pocket-pants",
+            "image_2": "shopify://shop_images/tyne-waxed-vest--taupe-alt-1.jpg",
             "image_2_heading": "The Lightest on the Market",
-            "image_2_text": "<strong>Baeron Waxed Collection<\/strong>",
-            "image_2_link": "shopify:\/\/collections\/tsgaco-baeron-waxed-collection"
+            "image_2_text": "<strong>Baeron Waxed Collection</strong>",
+            "image_2_link": "shopify://collections/tsgaco-baeron-waxed-collection"
           }
         },
         "6c34292f-f545-4ae6-9fda-42c8b1da57d5": {
@@ -74,14 +74,14 @@
           "settings": {
             "menu_item": "Outdoor Gear",
             "images_position": "right",
-            "image_1": "shopify:\/\/shop_images\/tsghavenfieldoxbowalt1000x_0003_tsg-bluffducks-builder-305.jpg",
+            "image_1": "shopify://shop_images/tsghavenfieldoxbowalt1000x_0003_tsg-bluffducks-builder-305.jpg",
             "image_1_heading": "There's no school like the old school",
-            "image_1_text": "<strong>Oxbow™ CAMO<\/strong>",
-            "image_1_link": "shopify:\/\/collections\/oxbow-goods-collection",
-            "image_2": "shopify:\/\/shop_images\/tsgacos23altimages_0011_TSG-Bluff-S23-Builder-102.jpg",
+            "image_1_text": "<strong>Oxbow™ CAMO</strong>",
+            "image_1_link": "shopify://collections/oxbow-goods-collection",
+            "image_2": "shopify://shop_images/tsgacos23altimages_0011_TSG-Bluff-S23-Builder-102.jpg",
             "image_2_heading": "Softer and better than you expected.",
-            "image_2_text": "<strong>Airetex™ Bamboo Apparel<\/strong>",
-            "image_2_link": "shopify:\/\/collections\/airetex-bamboo-apparel-collection"
+            "image_2_text": "<strong>Airetex™ Bamboo Apparel</strong>",
+            "image_2_link": "shopify://collections/airetex-bamboo-apparel-collection"
           }
         },
         "c8725d76-3b46-45a7-8f20-e1fec452f9c3": {
@@ -89,7 +89,7 @@
           "settings": {
             "menu_item": "Bar & Home",
             "images_position": "right",
-            "image_1": "shopify:\/\/shop_images\/tsg_barrier_rose_altweb.jpg",
+            "image_1": "shopify://shop_images/tsg_barrier_rose_altweb.jpg",
             "image_1_heading": "The Bar is OPEN!",
             "image_1_text": "Shop the collection of goods for entertaining and grilling.",
             "image_1_link": "",
@@ -123,7 +123,7 @@
         "enable_sticky": false,
         "show_separation_border": false,
         "reduce_padding": true,
-        "logo": "shopify:\/\/shop_images\/TSGOCo_Main_Logo_-site_header.png",
+        "logo": "shopify://shop_images/TSGOCo_Main_Logo_-site_header.png",
         "logo_max_width": 140,
         "logo_mobile_max_width": 100,
         "menu": "new-main",
@@ -139,7 +139,7 @@
         "show_country_flag": false,
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
-        "transparent_logo": "shopify:\/\/shop_images\/TSG-Logo-White-min.png"
+        "transparent_logo": "shopify://shop_images/TSG-Logo-White-min.png"
       }
     }
   },
