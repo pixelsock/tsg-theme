@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -1082,7 +1082,7 @@
       ],
       "settings": {
         "separate_section_with_border": true,
-        "image_size": "sm",
+        "image_size": "auto",
         "image": "shopify://shop_images/042122_learntofish_hero-dt.jpg",
         "mobile_image": "shopify://shop_images/040324-newsletter-hero-mobile_2040685d-7af9-4189-90de-c4acc04c0b2e.jpg",
         "subheading": "Want to stay in the Loop?",
