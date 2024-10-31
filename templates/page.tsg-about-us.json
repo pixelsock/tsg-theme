@@ -63,7 +63,7 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>First, and most importantly, thanks for being here.</p><p>Back in 2013 when the idea hit to start TSG, we had one mission: to curate the best gear and goods we can find and drop them in one place (well, technically two now if you also count our website).  But there was also a desire to not only solve an \"accessibility\" issue, but create a community, and promote and serve traditions.  The sporting lifestyle has been passed down through generations and, while everything should eventually evolve, there are a number of facets that remain constant in the field, in the woods, or on the water.  It's our mission to enrich those traditions with new memories, and in the process, create the best gear and goods possible.</p><p>So, welcome to our little slice of southern sporting heaven.  </p>"
+            "content": "<p>First, and most importantly, thanks for being here.</p><p>Back in 2013 when the idea hit to start TSG, we had one mission: to curate the best gear and goods we can find and drop them in one place (well, technically two now if you also count our website).  But there was also a desire to not only solve an \"accessibility\" issue, but create a community, and promote and serve traditions.  The sporting lifestyle has been passed down through generations and, while everything should eventually evolve, there are a number of facets that remain constant in the field, in the woods, or on the water.  It's our mission to enrich those traditions with new memories, and in the process, create products that are made to be worn, and worn in.</p><p>So, welcome to our little slice of southern sporting heaven.  </p>"
           }
         },
         "image_xqwRUQ": {
@@ -96,20 +96,34 @@
       "blocks": {
         "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "text": "{{ page.title }}",
+            "text": "OUR MISSION:",
             "heading_tag": "h1"
+          }
+        },
+        "heading_cxKzi6": {
+          "type": "heading",
+          "settings": {
+            "text": "TO BE THE BEST, NOT THE BIGGEST.",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_LnVUcc": {
+          "type": "subheading",
+          "settings": {
+            "text": "And have some good times in the process."
           }
         }
       },
       "block_order": [
-        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1"
+        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1",
+        "heading_cxKzi6",
+        "subheading_LnVUcc"
       ],
       "settings": {
         "image_size": "auto",
         "image": "shopify://shop_images/082724-about-us-landing-page-hero_ec4e205b-b9e1-4f7f-9f62-299cac5a1e99.jpg",
-        "mobile_image": "shopify://shop_images/082724-about-us-page-hero-mobile-2.jpg",
+        "mobile_image": "shopify://shop_images/LBUILDER-TSG-240916-136.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -119,6 +133,58 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "multi_column_BCfWBe": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_G8cnC7": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "APPAREL MAKERS",
+            "heading_tag": "h2",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_ErFdNq": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "GEAR CURATORS",
+            "heading_tag": "h2",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_MharUX": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "GOOD TIME PURVEYORS",
+            "heading_tag": "h2",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_G8cnC7",
+        "image_with_text_ErFdNq",
+        "image_with_text_MharUX"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "lg",
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     },
     "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34": {
@@ -163,6 +229,7 @@
     "video_k7pqhM",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
+    "multi_column_BCfWBe",
     "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
