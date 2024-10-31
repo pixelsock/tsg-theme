@@ -82,7 +82,7 @@
         "image_xqwRUQ"
       ],
       "custom_css": [
-        ".prose.text-center {font-weight: bold; padding-bottom: 2rem;}"
+        ".prose.text-center {font-weight: bold; padding-bottom: 0.5rem;}"
       ],
       "settings": {
         "separate_section_with_border": false,
@@ -174,6 +174,9 @@
         "image_with_text_ErFdNq",
         "image_with_text_MharUX"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "separate_section_with_border": false,
         "columns_per_row": 3,
@@ -189,7 +192,6 @@
     },
     "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34": {
       "type": "blog-posts",
-      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "blog": "dispatches",
