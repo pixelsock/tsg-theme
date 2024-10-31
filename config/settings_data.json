@@ -160,7 +160,7 @@
           "add_button_text_color": "#5873f9",
           "remove_button_color": "rgba(0,0,0,0)",
           "remove_button_text_color": "#5873f9",
-          "custom_css": ""
+          "custom_css": ".frcp-wishlist-btn__icon svg {\n  display: none;\n}\n.frcp-wishlist-btn__icon::before {\n  content: \"+\";\n  display: inline-block;\n  transition: transform 0.3s ease, opacity 0.3s ease;\n  font-size: 1.375rem;\n}\n\n.frcp-wishlist-btn--add .frcp-wishlist-btn__icon::before {\n  content: \"+\";\n  transform: rotate(0deg);\n  opacity: 1;\n  animation: icon-fade-in 0.3s forwards;\n  font-size: 1.375rem;\n}\n\n.frcp-wishlist-btn--remove .frcp-wishlist-btn__icon::before {\n  content: \"−\";\n  transform: rotate(90deg);\n  opacity: 1;\n  animation: icon-fade-in 0.3s forwards;\n  font-size: 1.5rem;\n  margin-top: -2px;\n}\n\n@keyframes icon-fade-in {\n  0% {\n    opacity: 0;\n    transform: scale(0.8);\n  }\n  100% {\n    opacity: 1;\n    transform: scale(1);\n  }\n}\n\n.frcp-wishlist-btn__icon {\n  transition: transform 0.3s ease, opacity 0.3s ease;\n}"
         }
       }
     }
@@ -242,7 +242,9 @@
       "th,.size-guide tr td:first-child {opacity: 1; text-align: center; background-color: #282e29; color: white; font-weight: bold; vertical-align: middle; padding: 1rem; font-size: 1rem;}",
       ".customer-account-overview th {opacity: 1; text-align: left; background-color: #282e29; color: #fff; vertical-align: middle; padding: 0.5rem; font-size: 0.75rem;}",
       ".customer-account-overview :is(th, td):last-child {text-align: right;}",
-      ".customer-account-overview td {padding: 1rem 0.5rem; font-size: 0.85rem;}"
+      ".customer-account-overview td {padding: 1rem 0.5rem; font-size: 0.85rem;}",
+      ".frcp-wishlist-wrapper {margin-bottom: -1rem; width: 170px; white-space: nowrap;}",
+      ".frcp-wishlist-btn {padding: 0; justify-content: flex-start;}"
     ]
   }
 }
