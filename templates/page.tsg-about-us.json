@@ -17,34 +17,36 @@
         "page_width": "lg"
       }
     },
-    "73adeb6e-c32d-4bb0-abc9-b8d202a43bee": {
-      "type": "image-with-text-overlay",
+    "video_k7pqhM": {
+      "type": "video",
       "blocks": {
-        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1": {
+        "play_H6YTxm": {
+          "type": "play",
+          "disabled": true,
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_4VcEPj": {
           "type": "heading",
           "disabled": true,
           "settings": {
-            "text": "{{ page.title }}",
-            "heading_tag": "h1"
+            "text": "Video",
+            "heading_tag": "h2"
           }
         }
       },
       "block_order": [
-        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1"
+        "play_H6YTxm",
+        "heading_4VcEPj"
       ],
       "settings": {
-        "image_size": "auto",
-        "image": "shopify://shop_images/082724-about-us-landing-page-hero_ec4e205b-b9e1-4f7f-9f62-299cac5a1e99.jpg",
-        "mobile_image": "shopify://shop_images/082724-about-us-page-hero-mobile-2.jpg",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": false,
-        "remove_vertical_spacing": true,
-        "content_width": "sm",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "autoplay": true,
+        "show_controls": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/tsg_website__38s_-_16x9 (720p).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
       }
     },
     "b68f4120-e5fd-4103-875c-84f7da9480a5": {
@@ -89,254 +91,39 @@
         "remove_vertical_spacing": false
       }
     },
-    "047ea314-02cf-4695-877e-47db2ca47942": {
-      "type": "slideshow",
+    "73adeb6e-c32d-4bb0-abc9-b8d202a43bee": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "template--16783006138600__047ea314-02cf-4695-877e-47db2ca47942-image-1": {
-          "type": "image",
+        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1": {
+          "type": "heading",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/tsg-s24-builder-001-14.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify://pages/tsg-apparel-co",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
+            "text": "{{ page.title }}",
+            "heading_tag": "h1"
           }
         }
       },
       "block_order": [
-        "template--16783006138600__047ea314-02cf-4695-877e-47db2ca47942-image-1"
+        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1"
       ],
       "settings": {
-        "allow_transparent_header": false,
-        "show_next_section_button": false,
-        "media_size": "lg",
-        "autoplay": false,
-        "autoplay_pause_on_video": true,
-        "cycle_speed": 4,
-        "background": "#000000",
-        "controls_color": "#ffffff"
-      }
-    },
-    "9517b309-2a41-4d87-8e33-0ef4f447fc66": {
-      "type": "countdown",
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": true,
         "image_size": "auto",
-        "subheading": "THE HUNT OF A LIFETIME",
-        "title": "A CHANCE TO WIN ENDS in...",
-        "content": "",
-        "button_link": "",
-        "button_text": "",
-        "expiration_date": "2023-10-31 11:59",
-        "expiration_behavior": "leave",
-        "timer_position": "end",
-        "animate_number": true,
-        "background": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": "",
-        "flip_background": "",
-        "flip_background_opacity": 50,
-        "flip_text_color": "",
+        "image": "shopify://shop_images/082724-about-us-landing-page-hero_ec4e205b-b9e1-4f7f-9f62-299cac5a1e99.jpg",
+        "mobile_image": "shopify://shop_images/082724-about-us-page-hero-mobile-2.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": true,
+        "content_width": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "e5971167-2fc4-4b51-a545-d1c14d7c618b": {
-      "type": "collection-list",
-      "blocks": {
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/tsg-s24-builder-001-25.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "DRIFT POLO",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify://products/tsg-drift-polo-harbour",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/022624-ridge-short-hero-mobile.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "RIDGE SHORTS",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify://products/tsg-ridge-short-sage",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/tsg-s24-builder-001-8.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "Airetex™ Button Downs",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify://products/tsg-tanner-bamboo-button-down-grassland-check-1",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2",
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1",
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": false,
-        "image_size": "md",
-        "show_text_outside": false,
-        "space_items": false,
-        "stack_collections": true,
-        "collections_per_row_desktop": 3,
-        "subheading": "",
-        "title": "The Newest Arrivals",
-        "content": "<p>Top to bottom, this Spring's collection is our best ever.  Check out the new fabrics and styles below and see why.</p>",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "40d836d0-5c70-4341-b9cb-b40c858de1d6": {
-      "type": "collection-list",
-      "blocks": {
-        "template--16783006138600__40d836d0-5c70-4341-b9cb-b40c858de1d6-collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "tsg-apparel",
-            "image": "shopify://shop_images/tsg-s24-builder-001-9.jpg",
-            "expand_collection": true,
-            "content_position": "place-self-end text-end",
-            "subheading": "",
-            "title": "SHOP NEW ARRIVALS FOR SPRING '24",
-            "button_text": "See The Collection",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16783006138600__40d836d0-5c70-4341-b9cb-b40c858de1d6-collection-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "sm",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": false,
-        "collections_per_row_desktop": 1,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "featured_collections_EJbhpb": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_BWKqbq": {
-          "type": "collection",
-          "settings": {
-            "collection": "tsg-apparel",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "Shop The Whole Collection"
-          }
-        }
-      },
-      "block_order": [
-        "collection_BWKqbq"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "featured_collections_AiMxxy": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_xhA8Xb": {
-          "type": "collection",
-          "settings": {
-            "collection": "blue-ridge-native",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_xhA8Xb"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 6,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
+        "overlay_opacity": 0
       }
     },
     "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "blog": "dispatches",
@@ -373,14 +160,9 @@
   },
   "order": [
     "main",
-    "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
+    "video_k7pqhM",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
-    "047ea314-02cf-4695-877e-47db2ca47942",
-    "9517b309-2a41-4d87-8e33-0ef4f447fc66",
-    "e5971167-2fc4-4b51-a545-d1c14d7c618b",
-    "40d836d0-5c70-4341-b9cb-b40c858de1d6",
-    "featured_collections_EJbhpb",
-    "featured_collections_AiMxxy",
+    "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
