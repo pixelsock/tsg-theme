@@ -244,7 +244,8 @@
       ".customer-account-overview :is(th, td):last-child {text-align: right;}",
       ".customer-account-overview td {padding: 1rem 0.5rem; font-size: 0.85rem;}",
       ".frcp-wishlist-wrapper {margin-bottom: -1rem; width: 170px; white-space: nowrap;}",
-      ".frcp-wishlist-btn {padding: 0; justify-content: flex-start;}"
+      ".frcp-wishlist-btn {padding: 0; justify-content: flex-start;}",
+      ".frcp-toast-wrapper {display: none;}"
     ]
   }
 }
