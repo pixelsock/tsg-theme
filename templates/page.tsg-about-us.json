@@ -52,6 +52,7 @@
       "blocks": {
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "BE THE BEST, NOT THE BIGGEST.",
             "heading_tag": "h1"
@@ -60,7 +61,7 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>First and most importantly, thanks for being here.</p><p>Back in 2013 when the idea hit to start TSG, we had one mission: to curate the best gear and goods we can find and drop them in one place (well, technically two now if you also count our website).  But there was also a desire to not only solve an \"accessibility\" issue, but create a community, and promote and serve traditions.  The sporting lifestyle has been passed down through generations and, while everything should eventually evolve, there are a number of facets that remain constant in the field, in the woods, or on the water.</p><p>So, welcome to our little slice of southern sporting heaven.  </p>"
+            "content": "<p>First, and most importantly, thanks for being here.</p><p>Back in 2013 when the idea hit to start TSG, we had one mission: to curate the best gear and goods we can find and drop them in one place (well, technically two now if you also count our website).  But there was also a desire to not only solve an \"accessibility\" issue, but create a community, and promote and serve traditions.  The sporting lifestyle has been passed down through generations and, while everything should eventually evolve, there are a number of facets that remain constant in the field, in the woods, or on the water.  It's our mission to enrich those traditions with new memories, and in the process, create the best gear and goods possible.</p><p>So, welcome to our little slice of southern sporting heaven.  </p>"
           }
         },
         "image_xqwRUQ": {
@@ -88,43 +89,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "32d730e3-3904-45e0-ac3b-2904076b078e": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--16783006138600__32d730e3-3904-45e0-ac3b-2904076b078e-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h4"
-          }
-        },
-        "template--16783006138600__32d730e3-3904-45e0-ac3b-2904076b078e-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16783006138600__32d730e3-3904-45e0-ac3b-2904076b078e-heading-1",
-        "template--16783006138600__32d730e3-3904-45e0-ac3b-2904076b078e-richtext-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_size": "auto",
-        "image": "shopify://shop_images/Hunt-ot-a-Lifetime-entry-DT_83e13441-325c-4582-93f1-2a3fab5a77d2.jpg",
-        "mobile_image": "shopify://shop_images/Hunt-ot-a-Lifetime-entry-mobile_30573633-0cff-4437-a996-dce1df8b8ccc.jpg",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": false,
-        "remove_vertical_spacing": false,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "047ea314-02cf-4695-877e-47db2ca47942": {
       "type": "slideshow",
       "blocks": {
@@ -134,7 +98,7 @@
             "image": "shopify://shop_images/tsg-s24-builder-001-14.jpg",
             "subheading": "",
             "title": "",
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "",
@@ -158,11 +122,10 @@
       "block_order": [
         "template--16783006138600__047ea314-02cf-4695-877e-47db2ca47942-image-1"
       ],
-      "disabled": true,
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
-        "media_size": "auto",
+        "media_size": "lg",
         "autoplay": false,
         "autoplay_pause_on_video": true,
         "cycle_speed": 4,
@@ -401,10 +364,10 @@
         "content": "",
         "button_text": "Subscribe Now",
         "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#202531",
-        "overlay_color": "#000000",
-        "overlay_opacity": 24
+        "button_background": "#ed8a00",
+        "button_text_color": "#f7f6f3",
+        "overlay_color": "#282e29",
+        "overlay_opacity": 100
       }
     }
   },
@@ -412,7 +375,6 @@
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
-    "32d730e3-3904-45e0-ac3b-2904076b078e",
     "047ea314-02cf-4695-877e-47db2ca47942",
     "9517b309-2a41-4d87-8e33-0ef4f447fc66",
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
