@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -34,8 +34,8 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/082724-about-us-landing-page-hero_ec4e205b-b9e1-4f7f-9f62-299cac5a1e99.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/082724-about-us-page-hero-mobile-2.jpg",
+        "image": "shopify://shop_images/082724-about-us-landing-page-hero_ec4e205b-b9e1-4f7f-9f62-299cac5a1e99.jpg",
+        "mobile_image": "shopify://shop_images/082724-about-us-page-hero-mobile-2.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -53,20 +53,20 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "DOING WHAT WE DO BEST.",
+            "text": "BE THE BEST, NOT THE BIGGEST.",
             "heading_tag": "h1"
           }
         },
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>First and most importantly, thanks for being here.<\/p><p>Back in 2013 when the idea hit to start TSG, we had one mission: to curate the best gear and goods we can find and drop them in one place (well, technically two now if you also count our website).  But there was also a desire to not only solve an \"accessibility\" issue, but create a community, and promote and serve traditions.  The sporting lifestyle has been passed down through generations and, while everything should eventually evolve, there are a number of facets that remain constant in the field, in the woods, or on the water.<\/p><p>So, welcome to our little slice of southern sporting heaven.  <\/p>"
+            "content": "<p>First and most importantly, thanks for being here.</p><p>Back in 2013 when the idea hit to start TSG, we had one mission: to curate the best gear and goods we can find and drop them in one place (well, technically two now if you also count our website).  But there was also a desire to not only solve an \"accessibility\" issue, but create a community, and promote and serve traditions.  The sporting lifestyle has been passed down through generations and, while everything should eventually evolve, there are a number of facets that remain constant in the field, in the woods, or on the water.</p><p>So, welcome to our little slice of southern sporting heaven.  </p>"
           }
         },
         "image_xqwRUQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Marc_9c163748-f6ad-46b1-92e3-0cdbd6159191.png",
+            "image": "shopify://shop_images/Marc_9c163748-f6ad-46b1-92e3-0cdbd6159191.png",
             "width_mode": "custom",
             "max_width": 100,
             "mobile_max_width": 100
@@ -112,8 +112,8 @@
       "disabled": true,
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-DT_83e13441-325c-4582-93f1-2a3fab5a77d2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-mobile_30573633-0cff-4437-a996-dce1df8b8ccc.jpg",
+        "image": "shopify://shop_images/Hunt-ot-a-Lifetime-entry-DT_83e13441-325c-4582-93f1-2a3fab5a77d2.jpg",
+        "mobile_image": "shopify://shop_images/Hunt-ot-a-Lifetime-entry-mobile_30573633-0cff-4437-a996-dce1df8b8ccc.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
@@ -131,14 +131,14 @@
         "template--16783006138600__047ea314-02cf-4695-877e-47db2ca47942-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-14.jpg",
+            "image": "shopify://shop_images/tsg-s24-builder-001-14.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "",
-            "button_1_link": "shopify:\/\/pages\/tsg-apparel-co",
+            "button_1_link": "shopify://pages/tsg-apparel-co",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -203,13 +203,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-25.jpg",
+            "image": "shopify://shop_images/tsg-s24-builder-001-25.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "DRIFT POLO",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-drift-polo-harbour",
+            "button_link": "shopify://products/tsg-drift-polo-harbour",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -221,13 +221,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/022624-ridge-short-hero-mobile.jpg",
+            "image": "shopify://shop_images/022624-ridge-short-hero-mobile.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "RIDGE SHORTS",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-ridge-short-sage",
+            "button_link": "shopify://products/tsg-ridge-short-sage",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -239,13 +239,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-8.jpg",
+            "image": "shopify://shop_images/tsg-s24-builder-001-8.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "Airetex™ Button Downs",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-tanner-bamboo-button-down-grassland-check-1",
+            "button_link": "shopify://products/tsg-tanner-bamboo-button-down-grassland-check-1",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -269,7 +269,7 @@
         "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "The Newest Arrivals",
-        "content": "<p>Top to bottom, this Spring's collection is our best ever.  Check out the new fabrics and styles below and see why.<\/p>",
+        "content": "<p>Top to bottom, this Spring's collection is our best ever.  Check out the new fabrics and styles below and see why.</p>",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
       }
@@ -281,7 +281,7 @@
           "type": "collection",
           "settings": {
             "collection": "tsg-apparel",
-            "image": "shopify:\/\/shop_images\/tsg-s24-builder-001-9.jpg",
+            "image": "shopify://shop_images/tsg-s24-builder-001-9.jpg",
             "expand_collection": true,
             "content_position": "place-self-end text-end",
             "subheading": "",
@@ -394,8 +394,8 @@
       "settings": {
         "separate_section_with_border": true,
         "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/baeronwaxedjacketoxbowf23_0001_tsg-ducks-240114-048.jpg",
+        "image": "shopify://shop_images/042122_learntofish_hero-dt.jpg",
+        "mobile_image": "shopify://shop_images/baeronwaxedjacketoxbowf23_0001_tsg-ducks-240114-048.jpg",
         "subheading": "WANT TO STAY IN THE LOOP?",
         "title": "SIGN UP FOR OUR TSG DISPATCHES",
         "content": "",
