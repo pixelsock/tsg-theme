@@ -142,7 +142,7 @@
           "type": "image_with_text",
           "settings": {
             "title": "APPAREL MAKERS",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "content": "<p>We take our passion for the sporting lifestyle and are focusing that into our design, quality and function of our apparel.  We have high standards, just as you do.</p>",
             "link_url": "shopify://pages/tsg-apparel-co",
             "link_text": ""
@@ -152,8 +152,8 @@
           "type": "image_with_text",
           "settings": {
             "title": "GEAR CURATORS",
-            "heading_tag": "h2",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "heading_tag": "h3",
+            "content": "<p>We source the best-of-the-best from brands like Filson, Danner, YETI and others to offer a one-stop-place to fuel your adventures.</p>",
             "link_url": "shopify://collections/new-arrivals-this-week-tsg",
             "link_text": ""
           }
@@ -162,9 +162,9 @@
           "type": "image_with_text",
           "settings": {
             "title": "GOOD TIME PURVEYORS",
-            "heading_tag": "h2",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
+            "heading_tag": "h3",
+            "content": "<p>From field guides to reviews, and heck, just ramblings about how much fun we're having, our Dispatches are our landing zone for all things good times.</p>",
+            "link_url": "shopify://pages/gentry-dispatches",
             "link_text": ""
           }
         }
