@@ -150,7 +150,7 @@
           "offset_right": 0,
           "collections_wishlist_button": "none",
           "collection_button_border_radius": 50,
-          "floating_link_placement": "right",
+          "floating_link_placement": "none",
           "floating_link_vertical_offset": 0,
           "floating_link_lateral_offset": 0,
           "floating_link_border_radius": 4,
