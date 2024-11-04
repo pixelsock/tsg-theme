@@ -16,7 +16,6 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/LBUILDER-TSG-240916-040.jpg",
-            "mobile_image": "shopify://shop_images/091924-F24-Launch-New-Arrivals-mobile-hero-_0001__A7R3806_d0cc767e-9743-49f6-befa-4a2a0ab08033.jpg",
             "subheading": "NEW ARRIVALS DAILY",
             "title": "FALL IS here.",
             "mobile_text_position": "place-self-center text-center",
