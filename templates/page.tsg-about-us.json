@@ -234,6 +234,49 @@
         "controls_color": "#ffffff"
       }
     },
+    "image_with_text_overlay_T9FqBG": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_B3jbh3": {
+          "type": "heading",
+          "settings": {
+            "text": "VISIT THE BRICK-AND-MORTAR",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Ew8zCx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our little slice of heaven.</p>"
+          }
+        },
+        "link_NDAQzj": {
+          "type": "link",
+          "settings": {
+            "text": "Click Here for More",
+            "url": "shopify://pages/brick-mortar-charlotte"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B3jbh3",
+        "richtext_Ew8zCx",
+        "link_NDAQzj"
+      ],
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify://shop_images/110424-shop-banner-2500x900.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": false,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34": {
       "type": "blog-posts",
       "disabled": true,
@@ -278,6 +321,7 @@
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "multi_column_BCfWBe",
     "slideshow_Ug9awq",
+    "image_with_text_overlay_T9FqBG",
     "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
