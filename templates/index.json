@@ -230,6 +230,53 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
+    "multiple_media_with_text_dLtGfn": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_6RqdyG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/f24-tsgaco-_0001s_0000_LBUILDER-TSG-240916-141.jpg",
+            "rotation": 0
+          }
+        },
+        "image_miLpqC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tsgchapshavenfieldbaeronalt1000x_0004__A7R8312.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_6RqdyG",
+        "image_miLpqC"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "separated",
+        "media_alignment": "center",
+        "media_alignment_offset": 64,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "start",
+        "subheading": "TIME TO HAVE A FIELD DAY",
+        "title": "FEELING BIRDY?",
+        "content": "<p>We love to hunt. So we make goods we love to hunt in.  Shop our new arrivals and core apparel from britches, chaps, vest and field shirting.</p>",
+        "button_1_text": "SHOP FIELD APPAREL",
+        "button_1_link": "shopify://collections/field-apparel",
+        "button_1_style": "solid",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid",
+        "background": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "multiple-media-with-text": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -1101,6 +1148,7 @@
     "slideshow",
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "collection_list_UCmGTM",
+    "multiple_media_with_text_dLtGfn",
     "multiple-media-with-text",
     "slideshow_7cYzUq",
     "collection_list_DHReAP",
