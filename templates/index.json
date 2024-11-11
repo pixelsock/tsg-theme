@@ -299,9 +299,7 @@
         "image-2",
         "image-1"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "reveal_on_scroll": false,
         "separate_section_with_border": true,
@@ -868,9 +866,7 @@
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1",
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "separate_section_with_border": true,
         "image_size": "md",
@@ -1114,7 +1110,7 @@
         "show_excerpt": true,
         "show_read_more": true,
         "subheading": "",
-        "title": "The TSG Dispatch",
+        "title": "The TSG Dispatches",
         "content": "<p>A collection of guides and ramblings and other sometimes long-winded thoughts on all things sporting, life, and general debauchery. </p>",
         "button_link": "shopify://blogs/dispatches",
         "button_text": "See More"
