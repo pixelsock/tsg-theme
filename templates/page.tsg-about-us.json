@@ -163,7 +163,7 @@
           "settings": {
             "title": "GOOD TIME PURVEYORS",
             "heading_tag": "h3",
-            "content": "<p>From field guides to reviews, and heck, just ramblings about how much fun we're having, our Dispatches are our landing zone for all things good times.</p>",
+            "content": "<p>From field guides to reviews, and heck, just ramblings about how much fun we're having, our Dispatches are our landing zone for all things good times worthy.</p>",
             "link_url": "shopify://pages/gentry-dispatches",
             "link_text": ""
           }
@@ -174,9 +174,7 @@
         "image_with_text_ErFdNq",
         "image_with_text_MharUX"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "separate_section_with_border": false,
         "columns_per_row": 3,
@@ -277,6 +275,85 @@
         "overlay_opacity": 30
       }
     },
+    "media_grid_pKfdNM": {
+      "type": "media-grid",
+      "blocks": {
+        "image_GBh3nJ": {
+          "type": "image",
+          "settings": {
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_erUCUY": {
+          "type": "image",
+          "settings": {
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_YMMEBC": {
+          "type": "image",
+          "settings": {
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_GBh3nJ",
+        "image_erUCUY",
+        "image_YMMEBC"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "text_color": ""
+      }
+    },
     "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34": {
       "type": "blog-posts",
       "disabled": true,
@@ -322,6 +399,7 @@
     "multi_column_BCfWBe",
     "slideshow_Ug9awq",
     "image_with_text_overlay_T9FqBG",
+    "media_grid_pKfdNM",
     "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
