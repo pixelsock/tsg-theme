@@ -160,7 +160,7 @@
             "subheading": "",
             "title": "The Fly Guy",
             "button_text": "SHOP NOW",
-            "button_link": "",
+            "button_link": "shopify://collections/tsgaco-baeron-waxed-collection",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
