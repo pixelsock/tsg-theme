@@ -530,7 +530,7 @@ th,
 }
 
 .frcp-popup__btn {
-  border-radius: 4px;
+  border-radius: 4px !important;
 }
 
 .frcp-login__login.frcp-popup__btn.frcp-popup__btn--primary:hover {
