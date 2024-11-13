@@ -572,3 +572,7 @@ th,
 .frcp-form__field input:focus {
   outline: 1px solid black;
 }
+
+.#frcp_customer_login > div.h-captcha {
+  position: absolute;
+}
