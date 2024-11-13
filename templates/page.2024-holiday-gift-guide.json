@@ -262,7 +262,7 @@
             "button_text": "View products",
             "button_link": "",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
+            "overlay_color": "#8d762f",
             "overlay_opacity": 30,
             "button_background": "",
             "button_text_color": ""
@@ -279,7 +279,7 @@
             "button_text": "View products",
             "button_link": "",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
+            "overlay_color": "#8d762f",
             "overlay_opacity": 30,
             "button_background": "",
             "button_text_color": ""
@@ -296,75 +296,7 @@
             "button_text": "View products",
             "button_link": "",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_7P8nKa": {
-          "type": "collection",
-          "settings": {
-            "collection": "personalize-me",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "CUSTOM GIFTS",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_rUFca6": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_3Xd6PL": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_jfGnVX": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
+            "overlay_color": "#8d762f",
             "overlay_opacity": 30,
             "button_background": "",
             "button_text_color": ""
@@ -374,22 +306,114 @@
       "block_order": [
         "collection_wTJHi7",
         "collection_8j7xLC",
-        "collection_JTapmw",
-        "collection_7P8nKa",
-        "collection_rUFca6",
-        "collection_3Xd6PL",
-        "collection_jfGnVX"
+        "collection_JTapmw"
       ],
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
         "show_text_outside": false,
         "space_items": true,
-        "stack_collections": true,
+        "stack_collections": false,
         "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "STUFF YE 'Ol STOCKING...",
         "content": "<p>with some of our favorites from thoughtful chotchkes to the ultimate grilling master tool.  As we always say, for the guy who has everything, we have something.</p>",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "rich_text_wMadyd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rPxAnt": {
+          "type": "heading",
+          "settings": {
+            "text": "But WAIT, THere's More...",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rPxAnt"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "collection_list_dmMtLq": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_BgJ34Y": {
+          "type": "collection",
+          "settings": {
+            "collection": "luggage-bags-1",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "LUGGAGE & BAGS",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#8d762f",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_bEpUce": {
+          "type": "collection",
+          "settings": {
+            "collection": "sweaters-pullovers",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "CASHMERE BLISS",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#8d762f",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_ExwqYc": {
+          "type": "collection",
+          "settings": {
+            "collection": "personalize-me",
+            "image": "shopify://shop_images/claytonandcrumemain1000x_0002_Layer18.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "CUSTOM GIFTS",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#8d762f",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_BgJ34Y",
+        "collection_bEpUce",
+        "collection_ExwqYc"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": false,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
       }
@@ -448,6 +472,8 @@
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
     "shop_the_look_rX6wMr",
     "collection_list_8akPWq",
+    "rich_text_wMadyd",
+    "collection_list_dmMtLq",
     "featured_collections_EJbhpb",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
