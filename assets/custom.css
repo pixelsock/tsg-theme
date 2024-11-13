@@ -569,3 +569,8 @@ th,
   display: none;
 }
 
+.frcp-form__field input:focus {
+  outline: 1px solid black;
+  outline-offset: 2px;
+  border: 1px solid #ccc;
+}
