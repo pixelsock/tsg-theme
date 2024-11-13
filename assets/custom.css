@@ -573,6 +573,6 @@ th,
   outline: 1px solid black;
 }
 
-.frcp-popup > .h-captcha {
+.frcp-popup .h-captcha {
   position: absolute;
 }
