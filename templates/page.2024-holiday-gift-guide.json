@@ -34,7 +34,7 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify://shop_images/082024-f24-launch-lockup-hero-dt.jpg",
+        "image": "shopify://shop_images/111324-holiday-gift-guide-lockup-hero-dt.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -52,14 +52,14 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "DOING WHAT WE DO BEST.",
-            "heading_tag": "h1"
+            "text": "TAKE THE GUESSING OUT OF THE GAME",
+            "heading_tag": "h2"
           }
         },
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>If you said the Fall/Winter seasons is where TSG shines like a new penny, then call us Abe, because this is our best collection yet. We’re committed to finding the best in fabric and function, reinforcing our core styles, and doing all the leg work for, so you can get out there and make some new memories.<br/>\t</p><p>So, feast your eyes and let those thumbs go crazy. </p>"
+            "content": "<p>If there's one thing we know, it's how to order way too much food at a steakhouse.  </p><p>A close second: it's how to put together a list of the perfect gifts for a gent.</p><p>So feast your eyes and let your fingers do the ordering, and don't worry, you won't ever feel embarrassingly full.</p>"
           }
         }
       },
@@ -111,6 +111,83 @@
         "overlay_opacity": 0
       }
     },
+    "e5971167-2fc4-4b51-a545-d1c14d7c618b": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/A7R4196_1650e6eb-0d8a-4fa6-8903-75347d3411a7.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "THE WING MAN",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify://collections/field-apparel",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/A7R3855.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "Ol' Dapper Dan",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify://collections/new-fall-casual-goods-arrivals",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/A7R4344.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "The Fly Guy",
+            "button_text": "SHOP NOW",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2",
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1",
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "sm",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "PICK YOUR GENT",
+        "content": "<p>Tops to bottoms, this Fall's collection is our best ever.  Check out the new fabrics and styles below and see why.</p>",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
     "shop_the_look_rX6wMr": {
       "type": "shop-the-look",
       "blocks": {
@@ -118,7 +195,7 @@
           "type": "look",
           "settings": {
             "image": "shopify://shop_images/LBUILDER-TSG-240916-098.jpg",
-            "hot_spots_background": "#ffffff",
+            "hot_spots_background": "#ed8a00",
             "product_1": "tsg-sutton-worksman-shell-midnight",
             "product_1_horizontal_position": 43,
             "product_1_vertical_position": 35,
@@ -135,6 +212,7 @@
         },
         "look_hAT4eJ": {
           "type": "look",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/LBUILDER-TSG-240916-136.jpg",
             "hot_spots_background": "#ffffff",
@@ -154,6 +232,7 @@
         },
         "look_WgBeFk": {
           "type": "look",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/LBUILDER-TSG-240916-228.jpg",
             "hot_spots_background": "#ffffff",
@@ -173,6 +252,7 @@
         },
         "look_74b9Mt": {
           "type": "look",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/LBUILDER-TSG-240916-172.jpg",
             "hot_spots_background": "#ffffff",
@@ -199,8 +279,8 @@
       ],
       "settings": {
         "separate_section_with_border": true,
-        "subheading": "The Missus will thank you.",
-        "title": "Fall Pairings Made Easy...",
+        "subheading": "Winter is coming.  We promise.",
+        "title": "Very likely the best jacket we've ever made.  Seriously.",
         "content": "",
         "popover_title": "Shop the look"
       }
@@ -275,83 +355,6 @@
         "flip_text_color": "",
         "overlay_color": "#000000",
         "overlay_opacity": 30
-      }
-    },
-    "e5971167-2fc4-4b51-a545-d1c14d7c618b": {
-      "type": "collection-list",
-      "blocks": {
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/A7R4196_1650e6eb-0d8a-4fa6-8903-75347d3411a7.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "HAVENFIELD SHELL",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify://products/tsg-havenfield-shell-jacket-dark-olive",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/A7R3855.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "BOONE PANTS",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify://products/tsg-ridge-short-sage",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/A7R4344.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "Airetex™ Button Downs",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify://products/tsg-tanner-bamboo-button-down-grassland-check-1",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2",
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1",
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "md",
-        "show_text_outside": false,
-        "space_items": false,
-        "stack_collections": true,
-        "collections_per_row_desktop": 3,
-        "subheading": "",
-        "title": "The Newest Arrivals",
-        "content": "<p>Tops to bottoms, this Fall's collection is our best ever.  Check out the new fabrics and styles below and see why.</p>",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
       }
     },
     "40d836d0-5c70-4341-b9cb-b40c858de1d6": {
@@ -451,23 +454,6 @@
         "subheading": ""
       }
     },
-    "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34": {
-      "type": "blog-posts",
-      "settings": {
-        "separate_section_with_border": true,
-        "blog": "dispatches",
-        "posts_count": 3,
-        "stack_on_mobile": false,
-        "show_category": true,
-        "show_excerpt": true,
-        "show_read_more": true,
-        "subheading": "",
-        "title": "READ UP, GET EXCITED",
-        "content": "",
-        "button_link": "",
-        "button_text": "View all"
-      }
-    },
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
       "type": "newsletter",
       "settings": {
@@ -482,8 +468,8 @@
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#202531",
-        "overlay_color": "#000000",
-        "overlay_opacity": 24
+        "overlay_color": "#282e29",
+        "overlay_opacity": 100
       }
     }
   },
@@ -492,14 +478,13 @@
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "32d730e3-3904-45e0-ac3b-2904076b078e",
+    "e5971167-2fc4-4b51-a545-d1c14d7c618b",
     "shop_the_look_rX6wMr",
     "047ea314-02cf-4695-877e-47db2ca47942",
     "9517b309-2a41-4d87-8e33-0ef4f447fc66",
-    "e5971167-2fc4-4b51-a545-d1c14d7c618b",
     "40d836d0-5c70-4341-b9cb-b40c858de1d6",
     "featured_collections_EJbhpb",
     "featured_collections_AiMxxy",
-    "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
 }
