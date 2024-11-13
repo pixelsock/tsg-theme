@@ -578,3 +578,6 @@ th,
   position: absolute;
 }
 
+.button {
+  border-radius: 6px;
+}
