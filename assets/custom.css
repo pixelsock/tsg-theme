@@ -499,3 +499,73 @@ th,
   padding-top: 0;
   padding-bottom: 0;
 }
+
+.frcp-login__login.frcp-popup__btn.frcp-popup__btn--primary {
+  --initial-gradient: linear-gradient(rgb(var(--button-background, var(--button-background-primary))), rgb(var(--button-background, var(--button-background-primary))));
+  --hover-gradient: linear-gradient(transparent, transparent);
+  --initial-background-position: var(--transform-origin-end);
+  --hover-background-position: var(--transform-origin-start);
+  -webkit-appearance: none;
+  appearance: none;
+  text-transform: var(--button-text-transform);
+  font: var(--button-font);
+  letter-spacing: var(--button-letter-spacing);
+  text-shadow: none;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(var(--button-text-color, var(--button-text-primary)));
+  background-color: #0000;
+  background-image: var(--initial-gradient), var(--hover-gradient);
+  background-size: 100% 100%, 0 100%;
+  background-position: var(--initial-background-position);
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.125rem;
+  padding: .65rem 1.75rem;
+  transition: background-size .45s cubic-bezier(.785,.135,.15,.86), background-position .45s step-end, color .45s cubic-bezier(.785,.135,.15,.86), border .45s cubic-bezier(.785,.135,.15,.86);
+  display: inline-flex;
+  position: relative;
+  width: 100%;
+}
+
+.frcp-login__login.frcp-popup__btn.frcp-popup__btn--primary:hover {
+  background: #CF7900;
+  border-color: #CF7900;
+  opacity: 1;
+}
+
+.frcp-popup__btn:hover {
+  opacity: 1 !important;
+}
+
+.frcp-popup__btn.frcp-form__switch--registration,
+.frcp-popup__btn.frcp-form__switch--login {
+  color: rgb(var(--text-color) / .65);
+  transition: color .2s ease-in-out;
+  border: none;
+  font-weight: 700;
+}
+
+.frcp-popup__btn.frcp-form__switch--registration:hover,
+.frcp-popup__btn.frcp-form__switch--login:hover {
+  color: rgb(var(--text-color));
+}
+
+.frcp-login .frcp-form__field>input {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: var(--input-padding-block) var(--input-padding-inline) !important;
+  border-radius: var(--input-border-radius);
+  background: rgb(transparent);
+  color: rgb(var(--input-text-color, var(--text-color)));
+  text-align: start;
+  border-width: 1px;
+  transition: border-color .1s ease-in-out;
+}
+
+.frcp-form__field > label {
+  display: none;
+}
+
