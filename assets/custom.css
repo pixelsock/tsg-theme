@@ -529,6 +529,10 @@ th,
   width: 100%;
 }
 
+.frcp-popup__btn {
+  border: none !important;
+}
+
 .frcp-login__login.frcp-popup__btn.frcp-popup__btn--primary:hover {
   background: #CF7900;
   border-color: #CF7900;
