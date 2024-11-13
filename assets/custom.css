@@ -578,6 +578,6 @@ th,
   position: absolute;
 }
 
-button, .button {
+a, button, .button {
   border-radius: 4px;
 }
