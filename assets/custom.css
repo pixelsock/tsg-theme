@@ -573,6 +573,6 @@ th,
   outline: 1px solid black;
 }
 
-.#frcp_customer_login > div.h-captcha {
+#frcp_customer_login > .h-captcha {
   position: absolute;
 }
