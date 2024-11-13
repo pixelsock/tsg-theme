@@ -506,7 +506,7 @@ th,
   --initial-background-position: var(--transform-origin-end);
   --hover-background-position: var(--transform-origin-start);
   -webkit-appearance: none;
-  border-radius: 4px;
+  border-radius: 4px !important;
   appearance: none;
   text-transform: var(--button-text-transform);
   font: var(--button-font);
