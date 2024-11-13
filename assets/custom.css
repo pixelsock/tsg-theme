@@ -506,6 +506,7 @@ th,
   --initial-background-position: var(--transform-origin-end);
   --hover-background-position: var(--transform-origin-start);
   -webkit-appearance: none;
+  border-radius: 6px;
   appearance: none;
   text-transform: var(--button-text-transform);
   font: var(--button-font);
@@ -576,3 +577,4 @@ th,
 .frcp-popup .h-captcha {
   position: absolute;
 }
+
