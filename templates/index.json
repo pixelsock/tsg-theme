@@ -45,7 +45,7 @@
             "image": "shopify://shop_images/091924-F24-Launch-New-Arrivals-DT-hero-v2.jpg",
             "mobile_image": "shopify://shop_images/091924-F24-Launch-New-Arrivals-mobile-hero-_0000_Brightness_Contrast_1_a55c926d-1408-4c9d-9563-121fc3438113.jpg",
             "subheading": "New season, New Gear",
-            "title": "Check it out",
+            "title": "EARLY BIRD",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "content_max_width": 780,
@@ -72,8 +72,8 @@
           "settings": {
             "image": "shopify://shop_images/100724-guide-relief-BRN-hero-DT_85696b84-43f2-4fab-bd21-3db16648cb78.jpg",
             "mobile_image": "shopify://shop_images/100724-guide-relief-BRN-hero-mobile_2830a273-674b-469e-85b9-15de00052515.jpg",
-            "subheading": "LEARN MORE ABOUT OUR BRN GUIDE RELIEF CAMPAIGN",
-            "title": "",
+            "subheading": "",
+            "title": "Black Friday",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -93,12 +93,39 @@
             "border_color": "",
             "gradient_overlay": ""
           }
+        },
+        "image_txD8AX": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell your story",
+            "title": "Cyber",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
         }
       },
       "block_order": [
         "image_mTcHjm",
         "image_dtHXgr",
-        "image_iphqir"
+        "image_iphqir",
+        "image_txD8AX"
       ],
       "custom_css": [
         "@media only screen and (min-width: 1000px) {.h1 {font-size: 54px; } .h6 {font-size: 36px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
