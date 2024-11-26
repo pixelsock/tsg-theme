@@ -126,8 +126,10 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "subheading": "Tell your story",
-            "title": "Image slide",
+            "image": "shopify://shop_images/112623-BFCM-Cyber-Monday-DT-hero-3_2642bd60-eb42-4d80-aaac-6bdc0a5c6f1c.jpg",
+            "mobile_image": "shopify://shop_images/112623-CM-mobile-Hero-2_535f573d-c9fe-402b-b076-f6bb7e6f7cd7.jpg",
+            "subheading": "",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
