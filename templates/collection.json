@@ -1,19 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "content_width": "md",
         "image_size": "xs",
@@ -57,8 +55,9 @@
         "open_filters_by_default": false,
         "promotion_placement_order": "random",
         "custom_promotion_placement_order": 2,
+        "promotion_image_url": "shopify://shop_images/112523-BFCM-Cyber-Sunday-collection-graphic_a09f4d01-7e85-4525-98da-38f8ef361fb5.jpg",
         "enable_promotion_link": false,
-        "promotion_link_url": "shopify:\/\/pages\/tsg-apparel-co"
+        "promotion_link_url": "shopify://pages/tsg-apparel-co"
       }
     },
     "newsletter_igGzqj": {
@@ -71,8 +70,8 @@
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/070824-summer-fishing-mobile-hero_1a5cd972-7ffc-4f70-ab3c-1cf95358475e.jpg",
+        "image": "shopify://shop_images/042122_learntofish_hero-dt.jpg",
+        "mobile_image": "shopify://shop_images/070824-summer-fishing-mobile-hero_1a5cd972-7ffc-4f70-ab3c-1cf95358475e.jpg",
         "subheading": "Want to stay in the loop?",
         "title": "Sign Up for our TSG Dispatches",
         "content": "",
