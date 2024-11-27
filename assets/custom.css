@@ -141,7 +141,7 @@ img.blog-post-card__image {
     margin: 5%;
   }
 
-  .product-card .product-title {
+  .product-card .product-title.h6 {
     line-height: 1.4rem;
   }
 
