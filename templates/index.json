@@ -14,6 +14,7 @@
       "blocks": {
         "image_mTcHjm": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/LBUILDER-TSG-240916-040.jpg",
             "subheading": "NEW ARRIVALS DAILY",
@@ -40,7 +41,6 @@
         },
         "image_dtHXgr": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/112524-BFCM-24-Early-Bird-DT-hero_3f042c60-1d5a-40bb-9951-7f7e57bd9b6b.jpg",
             "mobile_image": "shopify://shop_images/112524-BFCM-24-Early-Bird-mobile-hero_c37a16b8-6ad8-4346-90af-6685a8c84a39.jpg",
@@ -262,13 +262,32 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "collection_GRQRQt": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Untitled-1_0001_TSG_JO21_frontopencopymidnight.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "shopify://products/tsg-sutton-worksman-shell-whiskey",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
         "collection_Q3Vt8z",
         "collection_qTV7tz",
         "collection_VzcEKR",
-        "collection_9dJAb4"
+        "collection_9dJAb4",
+        "collection_GRQRQt"
       ],
       "custom_css": [
         ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}",
@@ -282,7 +301,7 @@
         "stack_collections": false,
         "collections_per_row_desktop": 4,
         "subheading": "",
-        "title": "Made to be worn, and worn in.",
+        "title": "HOLIDAY TOP PICKS FROM TSG",
         "content": "<p>We're a small-batch company, so if you want it, snag it.  These don't and won't last long...and the bean-counters are super happy about it.</p>",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
