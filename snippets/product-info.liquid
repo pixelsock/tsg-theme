@@ -398,46 +398,39 @@
           {%- when 'buy_buttons' -%}
             
 {% comment %} Personalization {% endcomment %}
-    {% if product.metafields.custom.personalization_options == 'UP TO 6 CHARACTERS' %}
-      <div class="custom-properties-section-product">
-        <div class="prose"><p><strong>PERSONALIZATION</strong></p></div>
-        <div class="line-item-property">
-          {% render 'input', type: 'text', label: '(Up to 6 Characters)', name: 'properties[Add]', form: product_form_id, required: false, maxlength: 6 %}
-        </div>
-      </div>
-    {% endif %}
+    <div class="custom-properties-section-product">
+      {% if product.metafields.custom.personalization_options == 'UP TO 6 CHARACTERS' %}
+          <div class="prose"><p><strong>PERSONALIZATION</strong></p></div>
+          <div class="line-item-property">
+            {% render 'input', type: 'text', label: '(Up to 6 Characters)', name: 'properties[Add]', form: product_form_id, required: false, maxlength: 6 %}
+          </div>
+      {% endif %}
 
-    {% if product.metafields.custom.personalization_options == '2 LINES. 12 CHARACTERS MAX PER LINE' %}
-      <div class="custom-properties-section-product">
-        <div class="prose"><p><strong>PERSONALIZATION</strong></p></div>
-        <div class="line-item-property">
-          {% render 'input', type: 'text', label: 'Line 1 - Max 12 Characters Per Line', name: 'properties[Add Line 1]', form: product_form_id, required: false, maxlength: 12 %}
-          {% render 'input', type: 'text', label: 'Line 2 - Max 12 Characters Per Line', name: 'properties[Add Line 2]', form: product_form_id, required: false, maxlength: 12 %}
-        </div>
-      </div>
-    {% endif %}
+      {% if product.metafields.custom.personalization_options == '2 LINES. 12 CHARACTERS MAX PER LINE' %}
+          <div class="prose"><p><strong>PERSONALIZATION</strong></p></div>
+          <div class="line-item-property">
+            {% render 'input', type: 'text', label: 'Line 1 - Max 12 Characters Per Line', name: 'properties[Add Line 1]', form: product_form_id, required: false, maxlength: 12 %}
+            {% render 'input', type: 'text', label: 'Line 2 - Max 12 Characters Per Line', name: 'properties[Add Line 2]', form: product_form_id, required: false, maxlength: 12 %}
+          </div>
+      {% endif %}
 
-    {% if product.metafields.custom.personalization_options == 'UP TO 3 CHARACTERS' %}
-      <div class="custom-properties-section-product">
-        <div class="prose"><p><strong>PERSONALIZATION</strong></p></div>
-        <div class="line-item-property">
-          {% render 'input', type: 'text', label: '(Up to 3 Characters)', name: 'properties[Add]', form: product_form_id, required: false, maxlength: 3 %}
-        </div>
-      </div>
-    {% endif %}
+      {% if product.metafields.custom.personalization_options == 'UP TO 3 CHARACTERS' %}
+          <div class="prose"><p><strong>PERSONALIZATION</strong></p></div>
+          <div class="line-item-property">
+            {% render 'input', type: 'text', label: '(Up to 3 Characters)', name: 'properties[Add]', form: product_form_id, required: false, maxlength: 3 %}
+          </div>
+      {% endif %}
 
-    {% if product.metafields.custom.personalization_options == 'OPTIONAL HEMMING' %}
-      <div class="custom-properties-section-product">
-        <div class="prose"><p><strong>If Hemming Needed</strong></p></div>
-        <div class="line-item-property">
-          {% render 'input', type: 'text', label: 'Enter Inseam Here', name: name, form: product_form_id, required: false %}
-        </div>
-      </div>
-      
-    {% endif %}
-      <div style="font-size: 0.75rem; line-height: 0.875rem;">
+      {% if product.metafields.custom.personalization_options == 'OPTIONAL HEMMING' %}
+          <div class="prose"><p><strong>If Hemming Needed</strong></p></div>
+          <div class="line-item-property">
+            {% render 'input', type: 'text', label: 'Enter Inseam Here', name: name, form: product_form_id, required: false %}
+          </div>
+      {% endif %}
+      <div style="font-size: 0.75rem;line-height: 0.875rem;">
         Please note: Please allow a few extra working days for your customized good(s) as we work through our existing orders
       </div>
+    </div>
             {%- render 'buy-buttons',
                 product: product,
                 form_id: product_form_id,
