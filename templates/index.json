@@ -269,14 +269,32 @@
             "collection": "",
             "image": "shopify://shop_images/Untitled-1_0001_TSG_JO21_frontopencopymidnight.jpg",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "",
-            "button_text": "View products",
+            "button_text": "CAMDEN SHELL JACKET",
             "button_link": "shopify://products/tsg-sutton-worksman-shell-whiskey",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_nNt7rm": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/TSG_Fraser-Cashmere_grey-copydeep-green_cbe81d4f-3175-454d-b71a-17e0aad58457.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "FRASER CASHEMERE 1/2-ZIP",
+            "button_link": "shopify://products/tsg-fraser-cashmere-sweater-deep-green",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
             "button_background": "",
             "button_text_color": ""
           }
@@ -287,7 +305,8 @@
         "collection_qTV7tz",
         "collection_VzcEKR",
         "collection_9dJAb4",
-        "collection_GRQRQt"
+        "collection_GRQRQt",
+        "collection_nNt7rm"
       ],
       "custom_css": [
         ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}",
