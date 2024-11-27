@@ -55,8 +55,8 @@
         "open_filters_by_default": false,
         "promotion_placement_order": "random",
         "custom_promotion_placement_order": 2,
-        "promotion_image_url": "shopify://shop_images/112523-BFCM-Cyber-Sunday-collection-graphic_a09f4d01-7e85-4525-98da-38f8ef361fb5.jpg",
-        "enable_promotion_link": false,
+        "promotion_image_url": "shopify://shop_images/112524-BFCM-24-Early-Bird-mobile-hero_c37a16b8-6ad8-4346-90af-6685a8c84a39.jpg",
+        "enable_promotion_link": true,
         "promotion_link_url": "shopify://pages/tsg-apparel-co"
       }
     },
