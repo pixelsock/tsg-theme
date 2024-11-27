@@ -135,14 +135,14 @@
     {%- endif -%}
 
     {%- if show_title or show_prices or show_vendor and product.vendor != blank -%}
-      <div class="v-stack justify-items-start gap-1.5">
+      <div class="v-stack justify-items-start gap-1">
         {%- if show_vendor and product.vendor != blank -%}
           {%- capture vendor_class -%}smallcaps {% if settings.product_card_text_font == 'heading' %}heading{% endif %}{% endcapture %}
           {%- render 'vendor' with product.vendor, class: vendor_class -%}
         {%- endif -%}
 
         {%- if show_title or show_prices -%}
-          <div class="v-stack justify-items-start gap-1">
+          <div class="v-stack justify-items-start gap-1.5">
             {%- if show_title -%}
               <a
                 href="{{ product.url }}"
