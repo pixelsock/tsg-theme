@@ -97,6 +97,7 @@
         },
         "image_txD8AX": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/112523-BFCM-Cyber-Sunday-DT-hero_4b17a9b5-ea83-4998-8951-24557f71c55e.jpg",
             "mobile_image": "shopify://shop_images/112624-24-Cyber-Sunday-hero-mobile.jpg",
