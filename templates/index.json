@@ -191,6 +191,24 @@
     "collection_list_UCmGTM": {
       "type": "collection-list",
       "blocks": {
+        "collection_CtxMbY": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/f24-tsgaco-_0004_TSG_Baeronjackest_frontcopy.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "Baeron Waxed Jacket",
+            "button_link": "shopify://products/tsg-baeron-waxed-jacket-cigar",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
         "collection_Q3Vt8z": {
           "type": "collection",
           "settings": {
@@ -301,6 +319,7 @@
         }
       },
       "block_order": [
+        "collection_CtxMbY",
         "collection_Q3Vt8z",
         "collection_qTV7tz",
         "collection_nNt7rm",
