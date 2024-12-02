@@ -392,6 +392,106 @@
         "button_text_color": ""
       }
     },
+    "collection_list_BJppBc": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_YHQwAn": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/baeron-waxed-rustic-olive-main-1000x_0001_TSG_waxed-Baeron-jacket_rustic-olive-copy.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "BAERON JACKET",
+            "button_link": "shopify://products/waxed-baeron-jacket-taupe",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_FxTwTQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/TSG_briarbritchescopy.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "Field Britches",
+            "button_link": "shopify://products/tsg-briar-britches-ii",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_kyDhtF": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/baeron-waxed-vest-oxbow-main-1000x.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "Baeron Vest",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_DP6FKe": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/left_1.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "Briar Chaps",
+            "button_link": "shopify://products/tsg-waxed-briar-chaps",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_YHQwAn",
+        "collection_FxTwTQ",
+        "collection_kyDhtF",
+        "collection_DP6FKe"
+      ],
+      "custom_css": [
+        ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}",
+        ".h2 {font-size: 24pt;}"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 4,
+        "subheading": "",
+        "title": "BAERON WAXED GOODS",
+        "content": "<p>Our Exclusive Wax-Coated Cotton and Spandex™ Blend at TSG.  We spent over 4+ years developing the lightest, but strongest blend of durable cotton twill we could.  Several dozen prototypes and even more Neosporin later, we have it perfected.  Have a field day in these.</p>",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
     "multiple-media-with-text": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -1111,108 +1211,9 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
-    "collection_list_BJppBc": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_YHQwAn": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/baeron-waxed-rustic-olive-main-1000x_0001_TSG_waxed-Baeron-jacket_rustic-olive-copy.png",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "BAERON JACKET",
-            "button_link": "shopify://products/waxed-baeron-jacket-taupe",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 5,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_FxTwTQ": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/TSG_briarbritchescopy.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "Field Britches",
-            "button_link": "shopify://products/tsg-briar-britches-ii",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 5,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_kyDhtF": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/baeron-waxed-vest-oxbow-main-1000x.png",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "Baeron Vest",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 5,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_DP6FKe": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/left_1.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "Briar Chaps",
-            "button_link": "shopify://products/tsg-waxed-briar-chaps",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 5,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_YHQwAn",
-        "collection_FxTwTQ",
-        "collection_kyDhtF",
-        "collection_DP6FKe"
-      ],
-      "custom_css": [
-        ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}",
-        ".h2 {font-size: 24pt;}"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": true,
-        "collections_per_row_desktop": 4,
-        "subheading": "",
-        "title": "BAERON WAXED GOODS",
-        "content": "<p>Our Exclusive Wax-Coated Cotton and Spandex™ Blend at TSG.  We spent over 4+ years developing the lightest, but strongest blend of durable cotton twill we could.  Several dozen prototypes and even more Neosporin later, we have it perfected.  Have a field day in these.</p>",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
+      "disabled": true,
       "custom_css": [
         ".h2 {font-size: 24pt;}"
       ],
@@ -1260,6 +1261,7 @@
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "collection_list_UCmGTM",
     "multiple_media_with_text_dLtGfn",
+    "collection_list_BJppBc",
     "multiple-media-with-text",
     "slideshow_7cYzUq",
     "collection_list_DHReAP",
@@ -1270,7 +1272,6 @@
     "rich_text_3c6R3f",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "16c35784-55f0-4e62-a535-e33bcc8677a3",
-    "collection_list_BJppBc",
     "blog-posts",
     "newsletter"
   ]
