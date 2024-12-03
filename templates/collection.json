@@ -56,7 +56,7 @@
         "promotion_placement_order": "random",
         "custom_promotion_placement_order": 2,
         "promotion_image_url": "shopify://shop_images/112623-CM-mobile-Hero-2_535f573d-c9fe-402b-b076-f6bb7e6f7cd7.jpg",
-        "enable_promotion_link": true,
+        "enable_promotion_link": false,
         "promotion_link_url": "shopify://pages/tsg-apparel-co"
       }
     },
