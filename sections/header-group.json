@@ -14,12 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message_YhFzmf": {
-          "type": "message",
-          "settings": {
-            "text": "25% OFF SITEWIDE* ENDS TONIGHT | USE CODE \"CYBER\""
-          }
-        },
         "1090e969-2407-46e8-a855-23e75fedd389": {
           "type": "message",
           "settings": {
@@ -28,7 +22,6 @@
         },
         "958e3cb8-313c-4d8c-85dd-660942b09bff": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "Get 15% off your first order by <a href=\"#\" title=\"klayvio_trigger\">signing up for our emails</a>!"
           }
@@ -47,7 +40,6 @@
         }
       },
       "block_order": [
-        "message_YhFzmf",
         "1090e969-2407-46e8-a855-23e75fedd389",
         "958e3cb8-313c-4d8c-85dd-660942b09bff",
         "24f48508-6c61-4f52-a226-9a3eb069b0a1",
