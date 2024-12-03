@@ -16,8 +16,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/LBUILDER-TSG-240916-040.jpg",
-            "subheading": "NEW ARRIVALS DAILY",
-            "title": "FALL IS here.",
+            "subheading": "FOR THE GUY WHO HAS EVERYTHING,",
+            "title": "WE HAVE SOMETHING.",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -159,8 +159,8 @@
         "image_UVeWqH"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 1000px) {.h1 {font-size: 54px; } .h6 {font-size: 36px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
-        "@media only screen and (max-width: 900px) {.h1 {font-size: 36px; } .h6 {font-size: 24px; }}"
+        "@media only screen and (min-width: 1000px) {.h1 {font-size: 36px; } .h6 {font-size: 36px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
+        "@media only screen and (max-width: 900px) {.h1 {font-size: 24px; } .h6 {font-size: 24px; }}"
       ],
       "settings": {
         "allow_transparent_header": false,
