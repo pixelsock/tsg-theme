@@ -151,6 +151,237 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
+    "collection_list_yeYtxF": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_DrQ44c": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/120324-holiday-squares_0000_Boone-TSG-Builder-23-0397.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "THOMAS FIELD FLANNEL",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-thomas-flannel-field-shirt-wheat",
+            "text_color": "#282e29",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_WWE6gn": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/120324-holiday-squares_0005_LBUILDER-TSG-240916-092.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "CAMDEN WORKMANS SHELL",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-sutton-worksman-shell-midnight",
+            "text_color": "#282e29",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_q4GGUp": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/120324-holiday-squares_0008_LBUILDER-TSG-240916-012.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "MIDLAND TWILL PANT",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-midland-twill-pant-field-khaki",
+            "text_color": "#282e29",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_DrQ44c",
+        "collection_WWE6gn",
+        "collection_q4GGUp"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": true,
+        "space_items": false,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "MIXING IS MATCHING.",
+        "content": "<p>Making picking out \"outfits\" easier for you, and most importantly, for him.</p>",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "collection_list_FhczPK": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_PwkBVN": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/120324-holiday-squares_0011__A7R4078.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "HIGHLAND QUILTED JACKET",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-highland-quilted-jacket-sienna",
+            "text_color": "#282e29",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_LnTUNe": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/120324-holiday-squares_0007_LBUILDER-TSG-240916-030.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "TANNER BAMBOO BUTTON DOWN",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-tanner-bamboo-button-down-bridgewater-plaid",
+            "text_color": "#282e29",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_GY79cV": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/120324-holiday-squares_0006_LBUILDER-TSG-240916-061.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "FRASER CASHMERE 1/2-ZIP",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-fraser-cashmere-sweater-medium-grey",
+            "text_color": "#282e29",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_PwkBVN",
+        "collection_LnTUNe",
+        "collection_GY79cV"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": true,
+        "space_items": false,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "OR...",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "collection_list_mBaBnz": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_A4w7Vd": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/120324-holiday-squares_0003_LBUILDER-TSG-240916-265_f450dfc5-9448-4f0b-aa59-76bb2d25ef03.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "CAMDEN WORKMANS SHELL",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-sutton-worksman-shell-whiskey",
+            "text_color": "#282e29",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_K7EiAz": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/120324-holiday-squares_0002_Boone-TSG-Builder-23-0139.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "MIDWEIGHT BUTTON DOWN",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-midweight-button-down-shirt-rwb-tattersall",
+            "text_color": "#282e29",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_xFacRA": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/120324-holiday-squares_0001_Boone-TSG-Builder-23-0309.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "BOONE 5-POCKET PANTS",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-boone-5-pocket-pant-field-khaki",
+            "text_color": "#282e29",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_A4w7Vd",
+        "collection_K7EiAz",
+        "collection_xFacRA"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "show_text_outside": true,
+        "space_items": false,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "OR...",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
     "shop_the_look_rX6wMr": {
       "type": "shop-the-look",
       "blocks": {
@@ -470,6 +701,9 @@
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
+    "collection_list_yeYtxF",
+    "collection_list_FhczPK",
+    "collection_list_mBaBnz",
     "shop_the_look_rX6wMr",
     "collection_list_8akPWq",
     "rich_text_wMadyd",
