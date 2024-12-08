@@ -427,9 +427,11 @@
             {% render 'input', type: 'text', label: 'Enter Inseam Here', name: name, form: product_form_id, required: false %}
           </div>
       {% endif %}
-      <div style="font-size: 0.75rem;line-height: 0.875rem;">
-        Please note: Please allow a few extra working days for your customized good(s) as we work through our existing orders
-      </div>
+      {% if product.metafields.custom.personalization_options %}
+        <div style="font-size: 0.75rem;line-height: 0.875rem;">
+          Please note: Please allow a few extra working days for your customized good(s) as we work through our existing orders
+        </div>
+      {% endif %}
     </div>
             {%- render 'buy-buttons',
                 product: product,
