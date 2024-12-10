@@ -12,16 +12,6 @@
     "rich_text_GCqkWX": {
       "type": "rich-text",
       "blocks": {
-        "image_hUq8eN": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/120924-24-Holiday-Promo-Shipping-banner-DT.jpg",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 600
-          }
-        },
         "subheading_iTMhpq": {
           "type": "subheading",
           "disabled": true,
@@ -31,16 +21,15 @@
         }
       },
       "block_order": [
-        "image_hUq8eN",
         "subheading_iTMhpq"
       ],
       "custom_css": [
         ".h6 {color: white;}",
-        ".container.container {width: 100% !important; max-width: 100% !important; background-color: #ed8a00;}"
+        ".container.container {max-width: 100% !important; background-color: #ed8a00;}"
       ],
       "settings": {
         "separate_section_with_border": false,
-        "content_width": "sm",
+        "content_width": "md",
         "text_position": "center",
         "remove_vertical_spacing": true
       }
