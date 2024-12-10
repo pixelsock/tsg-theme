@@ -21,13 +21,23 @@
             "max_width": 1000,
             "mobile_max_width": 600
           }
+        },
+        "subheading_iTMhpq": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "ORDERS $300+ GET FREE EXPRESS SHIPPING*"
+          }
         }
       },
       "block_order": [
-        "image_hUq8eN"
+        "image_hUq8eN",
+        "subheading_iTMhpq"
       ],
-      "disabled": true,
-      "custom_css": [],
+      "custom_css": [
+        ".h6 {color: white;}",
+        ".container.container {background-color: #ed8a00; max-width: 3000px;}"
+      ],
       "settings": {
         "separate_section_with_border": false,
         "content_width": "sm",
