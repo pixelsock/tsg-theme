@@ -36,7 +36,7 @@
       ],
       "custom_css": [
         ".h6 {color: white;}",
-        ".container.container {background-color: #ed8a00; max-width: 3000px;}"
+        ".container.container {width: 100% !important; max-width: 100% !important; background-color: #ed8a00;}"
       ],
       "settings": {
         "separate_section_with_border": false,
