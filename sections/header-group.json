@@ -11,29 +11,6 @@
   "type": "header",
   "name": "Header group",
   "sections": {
-    "banner": {
-      "type": "announcement-bar",
-      "blocks": {
-        "banner-message": {
-          "type": "message",
-          "settings": {
-            "text": "ORDERS $300+ GET FREE EXPRESS SHIPPING*"
-          }
-        }
-      },
-      "block_order": [
-        "banner-message"
-      ],
-      "settings": {
-        "enable_sticky": false,
-        "autoplay": false,
-        "cycle_speed": 4,
-        "desktop_font_size": 14,
-        "mobile_font_size": 12,
-        "background": "#ed8a00",
-        "text_color": "#ffffff"
-      }
-    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -169,11 +146,35 @@
         "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify://shop_images/TSG-Logo-White-min.png"
       }
+    },
+    "banner": {
+      "type": "announcement-bar",
+      "blocks": {
+        "banner-message": {
+          "type": "message",
+          "settings": {
+            "text": "ORDERS $300+ GET FREE EXPRESS SHIPPING*"
+          }
+        }
+      },
+      "block_order": [
+        "banner-message"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_sticky": false,
+        "autoplay": false,
+        "cycle_speed": 4,
+        "desktop_font_size": 14,
+        "mobile_font_size": 12,
+        "background": "#ed8a00",
+        "text_color": "#ffffff"
+      }
     }
   },
   "order": [
     "announcement-bar",
     "header",
-    "banner",
+    "banner"
   ]
 }
