@@ -160,12 +160,14 @@
       "block_order": [
         "banner-message"
       ],
-      "disabled": true,
+      "custom_css": [
+        ".announcement-bar {font-size: 0.925rem; padding-block: 0.425em;}"
+      ],
       "settings": {
         "enable_sticky": true,
         "autoplay": false,
         "cycle_speed": 4,
-        "desktop_font_size": 15,
+        "desktop_font_size": 14,
         "mobile_font_size": 12,
         "background": "#ed8a00",
         "text_color": "#ffffff"
