@@ -160,11 +160,12 @@
       "block_order": [
         "banner-message"
       ],
+      "disabled": true,
       "settings": {
-        "enable_sticky": false,
+        "enable_sticky": true,
         "autoplay": false,
         "cycle_speed": 4,
-        "desktop_font_size": 14,
+        "desktop_font_size": 15,
         "mobile_font_size": 12,
         "background": "#ed8a00",
         "text_color": "#ffffff"
