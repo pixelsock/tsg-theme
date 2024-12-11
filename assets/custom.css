@@ -589,6 +589,6 @@ button,
 }
 
 /* Cart Drawer */
-.cart-drawer__footer button {
-  /* background-color: #282E29; */
+.cart-drawer__footer .button-group button {
+  background-color: #282E29;
 }
