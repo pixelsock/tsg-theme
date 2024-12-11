@@ -14,6 +14,7 @@
       "blocks": {
         "subheading_iTMhpq": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "ORDERS $300+ GET FREE EXPRESS SHIPPING*"
           }
