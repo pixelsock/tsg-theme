@@ -9,31 +9,6 @@
  */
 {
   "sections": {
-    "rich_text_GCqkWX": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_iTMhpq": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "ORDERS $300+ GET FREE EXPRESS SHIPPING*"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_iTMhpq"
-      ],
-      "custom_css": [
-        ".h6 {color: white;}",
-        ".container {margin: 0; background-color: #ed8a00;}"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "content_width": "md",
-        "text_position": "center",
-        "remove_vertical_spacing": true
-      }
-    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -1282,7 +1257,6 @@
     }
   },
   "order": [
-    "rich_text_GCqkWX",
     "slideshow",
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "collection_list_UCmGTM",
