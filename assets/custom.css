@@ -592,3 +592,7 @@ button,
 .cart-drawer__footer .button-group button {
   background: #282E29;
 }
+
+.cart-drawer__footer .button-group button:hover {
+  background: #3a3f40;
+}
