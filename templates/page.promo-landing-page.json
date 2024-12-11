@@ -1,5 +1,39 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "rich_text_GCqkWX": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_iTMhpq": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "ORDERS $300+ GET FREE EXPRESS SHIPPING*"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_iTMhpq"
+      ],
+      "custom_css": [
+        ".h6 {color: white;}",
+        ".container {margin: 0; background-color: #ed8a00;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "md",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -25,8 +59,8 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Hunf-ot-a-Lifetime-landing-page-DT-al1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Hunf-ot-a-Lifetime-landingpage-mobile.jpg",
+        "image": "shopify://shop_images/Hunf-ot-a-Lifetime-landing-page-DT-al1.jpg",
+        "mobile_image": "shopify://shop_images/Hunf-ot-a-Lifetime-landingpage-mobile.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -57,7 +91,7 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We're offering an exclusive experience to one lucky winner and three friends to enjoy a day of quail hunting and fellowship at one of South Carolina's most pristine and historical private hunting plantations.  The prize package also includes one-night of lodging and accommodations for you and your guests plus a $500 TSG Gift Card.<\/p>"
+            "content": "<p>We're offering an exclusive experience to one lucky winner and three friends to enjoy a day of quail hunting and fellowship at one of South Carolina's most pristine and historical private hunting plantations.  The prize package also includes one-night of lodging and accommodations for you and your guests plus a $500 TSG Gift Card.</p>"
           }
         }
       },
@@ -97,8 +131,8 @@
       "disabled": true,
       "settings": {
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-DT_83e13441-325c-4582-93f1-2a3fab5a77d2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-mobile_30573633-0cff-4437-a996-dce1df8b8ccc.jpg",
+        "image": "shopify://shop_images/Hunt-ot-a-Lifetime-entry-DT_83e13441-325c-4582-93f1-2a3fab5a77d2.jpg",
+        "mobile_image": "shopify://shop_images/Hunt-ot-a-Lifetime-entry-mobile_30573633-0cff-4437-a996-dce1df8b8ccc.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": false,
@@ -116,15 +150,15 @@
         "template--16783006138600__047ea314-02cf-4695-877e-47db2ca47942-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-DT_83e13441-325c-4582-93f1-2a3fab5a77d2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Hunt-ot-a-Lifetime-entry-mobile_30573633-0cff-4437-a996-dce1df8b8ccc.jpg",
+            "image": "shopify://shop_images/Hunt-ot-a-Lifetime-entry-DT_83e13441-325c-4582-93f1-2a3fab5a77d2.jpg",
+            "mobile_image": "shopify://shop_images/Hunt-ot-a-Lifetime-entry-mobile_30573633-0cff-4437-a996-dce1df8b8ccc.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "",
-            "button_1_link": "shopify:\/\/collections\/field-gear",
+            "button_1_link": "shopify://collections/field-gear",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -161,7 +195,7 @@
         "template--16783006138600__d885fde2-13ec-45fb-b4d0-dfcede3c62de-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p><a href=\"https:\/\/www.thesportinggent.com\/pages\/hunt-of-a-lifetime-giveaway-terms-conditions\" target=\"_blank\" title=\"https:\/\/www.thesportinggent.com\/pages\/hunt-of-a-lifetime-giveaway-terms-conditions\">Giveaway Terms & Conditions<\/a><\/p>"
+            "content": "<p><a href=\"https://www.thesportinggent.com/pages/hunt-of-a-lifetime-giveaway-terms-conditions\" target=\"_blank\" title=\"https://www.thesportinggent.com/pages/hunt-of-a-lifetime-giveaway-terms-conditions\">Giveaway Terms & Conditions</a></p>"
           }
         }
       },
@@ -208,13 +242,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/tsgoxbowshortsleeveguidealt1000x_0001s_0002_TSG-CHS-F230028.jpg",
+            "image": "shopify://shop_images/tsgoxbowshortsleeveguidealt1000x_0001s_0002_TSG-CHS-F230028.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "OXBOW™ CAMO",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/oxbow-goods-collection",
+            "button_link": "shopify://collections/oxbow-goods-collection",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 10,
@@ -226,13 +260,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/083023-twillfield-shopthelook-1200x.jpg",
+            "image": "shopify://shop_images/083023-twillfield-shopthelook-1200x.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "BAGS & ACCESSORIES",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/danner-grouse-8-boot",
+            "button_link": "shopify://products/danner-grouse-8-boot",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -244,13 +278,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/anselvestalt1000x_0001_2021-11-10-SportingGent-1-Brighter-15Navy.jpg",
+            "image": "shopify://shop_images/anselvestalt1000x_0001_2021-11-10-SportingGent-1-Brighter-15Navy.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "Headwear",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/headwear",
+            "button_link": "shopify://collections/headwear",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
@@ -273,7 +307,7 @@
         "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "GEAR UP FOR THE FIELD DAY",
-        "content": "<p>We're not saying that getting geared up will help you shoot better or with an invite for next year, but it won't hurt to try.  Remember: First impressions are everything.<\/p>",
+        "content": "<p>We're not saying that getting geared up will help you shoot better or with an invite for next year, but it won't hurt to try.  Remember: First impressions are everything.</p>",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
       }
@@ -285,13 +319,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/TSG_Twill-Field_khaki_front-copyiron.jpg",
+            "image": "shopify://shop_images/TSG_Twill-Field_khaki_front-copyiron.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "MIDLAND TWILL PANT",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-midland-twill-pant-field-khaki",
+            "button_link": "shopify://products/tsg-midland-twill-pant-field-khaki",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
@@ -303,13 +337,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/57300_Q.jpg",
+            "image": "shopify://shop_images/57300_Q.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "HUNTING BOOTS",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/danner-grouse-8-boot",
+            "button_link": "shopify://products/danner-grouse-8-boot",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
@@ -321,13 +355,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/tsghavenfieldmain1000x_0000s_0006_TSG_Havenfield_khaki_frontcopy_6beaf4ea-86ef-482d-8567-7f4a4988319e.jpg",
+            "image": "shopify://shop_images/tsghavenfieldmain1000x_0000s_0006_TSG_Havenfield_khaki_frontcopy_6beaf4ea-86ef-482d-8567-7f4a4988319e.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "HAVENFIELD SHELL",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-havenfield-shell-jacket-khaki",
+            "button_link": "shopify://products/tsg-havenfield-shell-jacket-khaki",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
@@ -362,13 +396,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/main1000x_0000s_0010_TSG_bamboo_highcountrycheck_frontcopy.jpg",
+            "image": "shopify://shop_images/main1000x_0000s_0010_TSG_bamboo_highcountrycheck_frontcopy.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "TANNER BAMBOO SHIRT",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-tanner-button-down-shirt-high-country-check",
+            "button_link": "shopify://products/tsg-tanner-button-down-shirt-high-country-check",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
@@ -380,13 +414,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/tsg-highland-vest-sienna-main-1000x_57830deb-aae5-4c7b-87e0-ec3ac3c11438.jpg",
+            "image": "shopify://shop_images/tsg-highland-vest-sienna-main-1000x_57830deb-aae5-4c7b-87e0-ec3ac3c11438.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "HIGHLAND QUILTED VEST",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/tsg-highland-quilted-vest-sienna",
+            "button_link": "shopify://products/tsg-highland-quilted-vest-sienna",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
@@ -398,13 +432,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/mission_mercantile_oxbow_shellbag_8c58faf7-7a37-43c4-b275-e05ded5c7b52.jpg",
+            "image": "shopify://shop_images/mission_mercantile_oxbow_shellbag_8c58faf7-7a37-43c4-b275-e05ded5c7b52.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "SHELL BAGS",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/white-wing-waxed-canvas-hunting-shell-bag",
+            "button_link": "shopify://products/white-wing-waxed-canvas-hunting-shell-bag",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
@@ -439,7 +473,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/091923-F23-new-arrivals-hero-DT.jpg",
+            "image": "shopify://shop_images/091923-F23-new-arrivals-hero-DT.jpg",
             "expand_collection": true,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -493,7 +527,7 @@
       "settings": {
         "separate_section_with_border": true,
         "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
+        "image": "shopify://shop_images/042122_learntofish_hero-dt.jpg",
         "subheading": "WANT TO STAY IN THE LOOP?",
         "title": "SIGN UP FOR OUR TSG DISPATCHES",
         "content": "",
@@ -507,6 +541,7 @@
     }
   },
   "order": [
+    "rich_text_GCqkWX",
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
