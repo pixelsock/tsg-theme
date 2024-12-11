@@ -146,10 +146,22 @@
         "transparent_header_text_color": "#ffffff",
         "transparent_logo": "shopify://shop_images/TSG-Logo-White-min.png"
       }
+    },
+    "custom_liquid_yW3gqr": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p>Write or copy/paste Liquid code</p>",
+        "text_alignment": "center"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "custom_liquid_yW3gqr"
   ]
 }
