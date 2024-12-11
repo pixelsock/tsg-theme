@@ -14,6 +14,12 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_fBJpaw": {
+          "type": "message",
+          "settings": {
+            "text": "Holiday Standard Shipping Cutoff - December 20th"
+          }
+        },
         "1090e969-2407-46e8-a855-23e75fedd389": {
           "type": "message",
           "settings": {
@@ -31,19 +37,13 @@
           "settings": {
             "text": "<a href=\"/pages/brick-mortar-charlotte\" title=\"Charlotte Brick & Mortar\">Brick & Mortar</a>     |    2848 Selwyn Ave. Charlotte, NC   |   (704) 896-5600   |   <a href=\"/pages/holler-at-us\" title=\"Holler At Us\">Holler at Us</a>"
           }
-        },
-        "message_fBJpaw": {
-          "type": "message",
-          "settings": {
-            "text": "Holiday Standard Shipping Cutoff - December 19th"
-          }
         }
       },
       "block_order": [
+        "message_fBJpaw",
         "1090e969-2407-46e8-a855-23e75fedd389",
         "958e3cb8-313c-4d8c-85dd-660942b09bff",
-        "24f48508-6c61-4f52-a226-9a3eb069b0a1",
-        "message_fBJpaw"
+        "24f48508-6c61-4f52-a226-9a3eb069b0a1"
       ],
       "custom_css": [],
       "settings": {
