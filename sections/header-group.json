@@ -160,8 +160,10 @@
       "block_order": [
         "banner-message"
       ],
+      "disabled": true,
       "custom_css": [
-        ".announcement-bar {font-size: 0.925rem; padding-block: 0.425em;}"
+        ".announcement-bar {font-size: 0.925rem; padding-block: 0.425em;}",
+        "@media (max-width: 999px) {.announcement-bar {font-size: 0.75rem; }}"
       ],
       "settings": {
         "enable_sticky": true,
