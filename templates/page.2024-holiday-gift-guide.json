@@ -61,15 +61,22 @@
           "settings": {
             "content": "<p>We checked in with the team here at TSG for their no-brainer ideas for gear and goods they can't live without.  So here it is, straight from the experts in finding gear for guys who have everything.</p>"
           }
+        },
+        "subheading_GjfCqi": {
+          "type": "subheading",
+          "settings": {
+            "text": "Scroll down and see what we're wearing or buying ourselves."
+          }
         }
       },
       "block_order": [
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1",
-        "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1"
+        "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1",
+        "subheading_GjfCqi"
       ],
       "settings": {
         "separate_section_with_border": true,
-        "content_width": "lg",
+        "content_width": "xs",
         "text_position": "center",
         "remove_vertical_spacing": false
       }
