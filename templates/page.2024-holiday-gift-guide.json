@@ -46,6 +46,91 @@
         "overlay_opacity": 0
       }
     },
+    "image_with_text_HUU4qX": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_kwtYxL": {
+          "type": "subheading",
+          "settings": {
+            "text": "MAKING IT EASY AS...."
+          }
+        },
+        "heading_ddk3ad": {
+          "type": "heading",
+          "settings": {
+            "text": "THE TSG TEAM'S PICKS",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_fNbefq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We checked in with the team here at TSG for their no-brainer ideas for gear and goods they can't live without. So here it is, straight from the experts in finding gear for guys who have everything.</p>"
+          }
+        },
+        "button_4dqrRP": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "CLICK HERE TO SHOP",
+            "url": "shopify://pages/2024-no-brainer-guide-staff-picks",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_kwtYxL",
+        "heading_ddk3ad",
+        "richtext_fNbefq",
+        "button_4dqrRP"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/091924-F24-Launch-New-Arrivals-DT-hero.jpg",
+        "mobile_image": "shopify://shop_images/120324-holiday-squares_0003_LBUILDER-TSG-240916-265_f450dfc5-9448-4f0b-aa59-76bb2d25ef03.jpg",
+        "reveal_on_scroll": false,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_fdQtEC": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_RtWdhg": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_dhxD7U": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_9jM4Bj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_RtWdhg",
+        "heading_dhxD7U",
+        "richtext_9jM4Bj"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "md",
+        "remove_vertical_spacing": false
+      }
+    },
     "b68f4120-e5fd-4103-875c-84f7da9480a5": {
       "type": "rich-text",
       "blocks": {
@@ -1020,6 +1105,8 @@
   "order": [
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
+    "image_with_text_HUU4qX",
+    "image_with_text_fdQtEC",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "featured_product_MpiKDE",
     "featured_product_efj6mT",
