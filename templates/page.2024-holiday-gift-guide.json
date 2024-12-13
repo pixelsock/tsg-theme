@@ -74,6 +74,445 @@
         "remove_vertical_spacing": false
       }
     },
+    "featured_product_MpiKDE": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_y4MBC6": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_URDTbz": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges_mpktBy": {
+          "type": "badges",
+          "disabled": true,
+          "settings": {}
+        },
+        "price_xcBFRA": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_thbCG8": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "rating"
+          }
+        },
+        "payment_terms_tR8zAa": {
+          "type": "payment_terms",
+          "disabled": true,
+          "settings": {}
+        },
+        "separator_UDzAVn": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_JDKWFx": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_LWn7xC": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_ep9Afm": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_8j6Wgz": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_b7crP7": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_y4MBC6",
+        "title_URDTbz",
+        "badges_mpktBy",
+        "price_xcBFRA",
+        "rating_thbCG8",
+        "payment_terms_tR8zAa",
+        "separator_UDzAVn",
+        "description_JDKWFx",
+        "variant_picker_LWn7xC",
+        "quantity_selector_ep9Afm",
+        "buy_buttons_8j6Wgz",
+        "pickup_availability_b7crP7"
+      ],
+      "settings": {
+        "product": "tsg-sutton-worksman-shell-whiskey",
+        "separate_section_with_border": false,
+        "container_size": "full",
+        "product_info_size": 30,
+        "center_basic_info": true,
+        "desktop_media_layout": "carousel_dots",
+        "desktop_media_grid_gap": 11,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 1.5,
+        "subheading": "",
+        "title": "Marc's Pick",
+        "content": "<p>Our Chief Shirt Folder's suggestion is: \"Easily one the best outerwear pieces we've designed since we started TSG. A perfect wind and rain stopping layer for cooler mornings.  Just wore one in Texas and it performed better than my shooting skills.\"</p>"
+      }
+    },
+    "featured_product_efj6mT": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_pLV9MQ": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_V7epLB": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges_NFazf7": {
+          "type": "badges",
+          "disabled": true,
+          "settings": {}
+        },
+        "price_DXqL4r": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_8QAjcf": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "rating"
+          }
+        },
+        "payment_terms_7zEQQH": {
+          "type": "payment_terms",
+          "disabled": true,
+          "settings": {}
+        },
+        "separator_pmQqTN": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_Edy4BW": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_HRRyLB": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_EDYcgm": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_xkEB3B": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_Yx4nVz": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_pLV9MQ",
+        "title_V7epLB",
+        "badges_NFazf7",
+        "price_DXqL4r",
+        "rating_8QAjcf",
+        "payment_terms_7zEQQH",
+        "separator_pmQqTN",
+        "description_Edy4BW",
+        "variant_picker_HRRyLB",
+        "quantity_selector_EDYcgm",
+        "buy_buttons_xkEB3B",
+        "pickup_availability_Yx4nVz"
+      ],
+      "settings": {
+        "product": "tsg-midweight-button-down-shirt-ivory-olive-check",
+        "separate_section_with_border": true,
+        "container_size": "lg",
+        "product_info_size": 30,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_dots",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 1.5,
+        "subheading": "",
+        "title": "Tyler's Pick",
+        "content": "<p>Tyler, AKA \"Meat\", our larger-than-life, former collegiate O-Line, and Ops Manager, says: \"It's tough to find a nice shirt that fits really well and our midweight shirts are great for me as a XXL and fit a slimmer guy as well.\"</p>"
+      }
+    },
+    "featured_product_XgPyUL": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_QwwhEd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_hg4kFt": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges_zLewCR": {
+          "type": "badges",
+          "disabled": true,
+          "settings": {}
+        },
+        "price_A4p44g": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_UiVTX4": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "rating"
+          }
+        },
+        "payment_terms_MxcF6r": {
+          "type": "payment_terms",
+          "disabled": true,
+          "settings": {}
+        },
+        "separator_xX6KVh": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_TFJpmg": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_ArdWWA": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_acmWFW": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_d9RhBh": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_QkGmqw": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_QwwhEd",
+        "title_hg4kFt",
+        "badges_zLewCR",
+        "price_A4p44g",
+        "rating_UiVTX4",
+        "payment_terms_MxcF6r",
+        "separator_xX6KVh",
+        "description_TFJpmg",
+        "variant_picker_ArdWWA",
+        "quantity_selector_acmWFW",
+        "buy_buttons_d9RhBh",
+        "pickup_availability_QkGmqw"
+      ],
+      "settings": {
+        "product": "tsg-cottonwood-cord-shirt-cedar",
+        "separate_section_with_border": true,
+        "container_size": "lg",
+        "product_info_size": 30,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_dots",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 1.5,
+        "subheading": "",
+        "title": "LINDSAY's Pick",
+        "content": "<p>Our ever-capable and super patient Head of Production, Lindsay, says her favorite item is: \"Something different for us but has been one of my favorite's since joining the team at TSG.  We love the colors and the weight and fit of the shirt is perfect to compliment our other shirts and vests.  A home run by the team here.\"</p>"
+      }
+    },
+    "featured_product_TV8hgq": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_H6nhAw": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_8k4Gcp": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges_GDinEQ": {
+          "type": "badges",
+          "disabled": true,
+          "settings": {}
+        },
+        "price_xyfMUJ": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Mx9EmY": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "rating"
+          }
+        },
+        "payment_terms_cbPDD4": {
+          "type": "payment_terms",
+          "disabled": true,
+          "settings": {}
+        },
+        "separator_pFXDaL": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_fCRtpk": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_FgjyLt": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_UGqMhi": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_Qy9ARG": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_yTixEw": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_H6nhAw",
+        "title_8k4Gcp",
+        "badges_GDinEQ",
+        "price_xyfMUJ",
+        "rating_Mx9EmY",
+        "payment_terms_cbPDD4",
+        "separator_pFXDaL",
+        "description_fCRtpk",
+        "variant_picker_FgjyLt",
+        "quantity_selector_UGqMhi",
+        "buy_buttons_Qy9ARG",
+        "pickup_availability_yTixEw"
+      ],
+      "settings": {
+        "product": "tsg-drift-polo-estate",
+        "separate_section_with_border": true,
+        "container_size": "lg",
+        "product_info_size": 30,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_dots",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "subheading": "",
+        "title": "BG's PICK",
+        "content": "<p>The life of the TSG party, our design and production assistant BG is all in on the Drift Polo.  Read why she has one proud papa: \"Got one for my pops, who is arguably not a dresser, and he's obsessed with it.  Calls it his \"fancy polo\".  He looks great and it fits him perfectly.\"</p>"
+      }
+    },
     "collection_list_yeYtxF": {
       "type": "collection-list",
       "blocks": {
@@ -356,6 +795,10 @@
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
+    "featured_product_MpiKDE",
+    "featured_product_efj6mT",
+    "featured_product_XgPyUL",
+    "featured_product_TV8hgq",
     "collection_list_yeYtxF",
     "collection_list_FhczPK",
     "collection_list_mBaBnz",
