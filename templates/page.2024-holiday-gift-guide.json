@@ -69,7 +69,7 @@
       ],
       "settings": {
         "separate_section_with_border": true,
-        "content_width": "sm",
+        "content_width": "lg",
         "text_position": "center",
         "remove_vertical_spacing": false
       }
@@ -278,7 +278,7 @@
       ],
       "settings": {
         "product": "tsg-midweight-button-down-shirt-ivory-olive-check",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "container_size": "lg",
         "product_info_size": 30,
         "center_basic_info": false,
@@ -387,7 +387,7 @@
       ],
       "settings": {
         "product": "tsg-cottonwood-cord-shirt-cedar",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "container_size": "lg",
         "product_info_size": 30,
         "center_basic_info": false,
@@ -497,7 +497,7 @@
       ],
       "settings": {
         "product": "tsg-drift-polo-estate",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "container_size": "lg",
         "product_info_size": 30,
         "center_basic_info": false,
