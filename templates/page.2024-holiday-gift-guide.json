@@ -9,31 +9,6 @@
  */
 {
   "sections": {
-    "rich_text_GCqkWX": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_iTMhpq": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "ORDERS $300+ GET FREE EXPRESS SHIPPING*"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_iTMhpq"
-      ],
-      "custom_css": [
-        ".h6 {color: white;}",
-        ".container {margin: 0; background-color: #ed8a00;}"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "content_width": "md",
-        "text_position": "center",
-        "remove_vertical_spacing": true
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -77,14 +52,14 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "TAKE THE GUESSING OUT OF THE GAME",
-            "heading_tag": "h2"
+            "text": "THE GEAR WE CAN'T LIVE WITHOUT",
+            "heading_tag": "h1"
           }
         },
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>If there's one thing we know, it's how to order way too much food at a steakhouse.  </p><p>A close second: it's how to put together a list of the perfect gifts for a gent.</p><p>So feast your eyes and let your fingers do the ordering, and don't worry, you won't ever feel embarrassingly full.</p><p>For starters, we've thrown together a few options for the \"usual\" guys we help out around here.</p>"
+            "content": "<p>We checked in with the team here at TSG for their no-brainer ideas for gear and goods they can't live without.  So here it is, straight from the experts in finding gear for guys who have everything.</p>"
           }
         }
       },
@@ -93,193 +68,10 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
-      }
-    },
-    "shop_the_look_fmyGWW": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look_8rFURF": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/121124-holiday-guide-ads-images_0002_LBUILDER-TSG-240916-116.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "tsg-tanner-button-down-shirt-rio-plaid",
-            "product_1_horizontal_position": 35,
-            "product_1_vertical_position": 35,
-            "product_2": "tsg-boone-5-pocket-pant-field-khaki",
-            "product_2_horizontal_position": 34,
-            "product_2_vertical_position": 85,
-            "product_3": "tsg-highland-quilted-jacket-sienna",
-            "product_3_horizontal_position": 66,
-            "product_3_vertical_position": 38,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "look_8rFURF"
-      ],
-      "custom_css": [
-        ".h2 {font-display: underline;}"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "subheading": "",
-        "title": "Ol' Dapper Dan",
-        "content": "",
-        "popover_title": "Pick Your Gent"
-      }
-    },
-    "shop_the_look_44ENmF": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look_LAPChn": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/121124-holiday-guide-ads-images_0001_LBUILDER-TSG-240916-132.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "tsg-havenfield-shell-jacket-dark-olive",
-            "product_1_horizontal_position": 40,
-            "product_1_vertical_position": 35,
-            "product_2": "tsg-cottonwood-cord-shirt-cedar",
-            "product_2_horizontal_position": 50,
-            "product_2_vertical_position": 48,
-            "product_3": "tsg-midland-twill-pant-field-khaki",
-            "product_3_horizontal_position": 58,
-            "product_3_vertical_position": 67,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "look_LAPChn"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "subheading": "",
-        "title": "The Wing Man",
-        "content": "",
-        "popover_title": "Pick Your Gent"
-      }
-    },
-    "shop_the_look_FRjPFF": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look_Gcwkf4": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/121124-holiday-guide-ads-images_0000_LBUILDER-TSG-240916-173.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "tsg-tyne-waxed-vest-taupe",
-            "product_1_horizontal_position": 34,
-            "product_1_vertical_position": 56,
-            "product_2": "tsg-tanner-button-down-shirt-high-country-check",
-            "product_2_horizontal_position": 65,
-            "product_2_vertical_position": 39,
-            "product_3": "",
-            "product_3_horizontal_position": 60,
-            "product_3_vertical_position": 65,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "look_Gcwkf4"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "subheading": "",
-        "title": "The Rolling Stone",
-        "content": "",
-        "popover_title": "Pick Your Gent"
-      }
-    },
-    "e5971167-2fc4-4b51-a545-d1c14d7c618b": {
-      "type": "collection-list",
-      "blocks": {
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/A7R4196_1650e6eb-0d8a-4fa6-8903-75347d3411a7.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "THE WING MAN",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify://collections/field-apparel",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/A7R3855.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "Ol' Dapper Dan",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify://collections/new-fall-casual-goods-arrivals",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/A7R4344.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "The Rolling Stone",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify://collections/tsgaco-baeron-waxed-collection",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2",
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1",
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "sm",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": true,
-        "collections_per_row_desktop": 3,
-        "subheading": "",
-        "title": "PICK YOUR GENT",
-        "content": "<p>Tops to bottoms, this Fall's collection is our best ever.  Check out the new fabrics and styles below and see why.</p>",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
       }
     },
     "collection_list_yeYtxF": {
@@ -513,273 +305,6 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
-    "shop_the_look_rX6wMr": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look_Yn6pWD": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/LBUILDER-TSG-240916-098.jpg",
-            "hot_spots_background": "#ed8a00",
-            "product_1": "tsg-sutton-worksman-shell-midnight",
-            "product_1_horizontal_position": 43,
-            "product_1_vertical_position": 35,
-            "product_2": "tsg-boone-5-pocket-pant-whiskey",
-            "product_2_horizontal_position": 18,
-            "product_2_vertical_position": 78,
-            "product_3": "tsg-tanner-button-down-shirt-riverside-check",
-            "product_3_horizontal_position": 57,
-            "product_3_vertical_position": 41,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        },
-        "look_hAT4eJ": {
-          "type": "look",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/LBUILDER-TSG-240916-136.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "tsg-havenfield-shell-jacket-dark-olive",
-            "product_1_horizontal_position": 30,
-            "product_1_vertical_position": 35,
-            "product_2": "tsg-cottonwood-cord-shirt-cedar",
-            "product_2_horizontal_position": 59,
-            "product_2_vertical_position": 65,
-            "product_3": "tsg-tanner-bamboo-button-down-bridgewater-plaid",
-            "product_3_horizontal_position": 55,
-            "product_3_vertical_position": 32,
-            "product_4": "tsg-midland-twill-pant-field-khaki",
-            "product_4_horizontal_position": 73,
-            "product_4_vertical_position": 95
-          }
-        },
-        "look_WgBeFk": {
-          "type": "look",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/LBUILDER-TSG-240916-228.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "tsg-highland-quilted-jacket-slate",
-            "product_1_horizontal_position": 32,
-            "product_1_vertical_position": 49,
-            "product_2": "tsg-fraser-cashmere-sweater-medium-grey",
-            "product_2_horizontal_position": 53,
-            "product_2_vertical_position": 59,
-            "product_3": "tsg-boone-5-pocket-pant-field-khaki",
-            "product_3_horizontal_position": 66,
-            "product_3_vertical_position": 95,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        },
-        "look_74b9Mt": {
-          "type": "look",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/LBUILDER-TSG-240916-172.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "tsg-tyne-waxed-vest-taupe",
-            "product_1_horizontal_position": 32,
-            "product_1_vertical_position": 68,
-            "product_2": "tsg-tanner-button-down-shirt-high-country-check",
-            "product_2_horizontal_position": 57,
-            "product_2_vertical_position": 60,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "look_Yn6pWD",
-        "look_hAT4eJ",
-        "look_WgBeFk",
-        "look_74b9Mt"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "subheading": "Winter is coming.  We promise.",
-        "title": "Very likely the best jacket we've ever made.  Seriously.",
-        "content": "",
-        "popover_title": "Shop the look"
-      }
-    },
-    "collection_list_8akPWq": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_wTJHi7": {
-          "type": "collection",
-          "settings": {
-            "collection": "vagabond-house",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "Vagabond House",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#8d762f",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_8j7xLC": {
-          "type": "collection",
-          "settings": {
-            "collection": "belts",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "TSG BELTS",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#8d762f",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_JTapmw": {
-          "type": "collection",
-          "settings": {
-            "collection": "bar-accessories",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "Bar Essentials",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#8d762f",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_wTJHi7",
-        "collection_8j7xLC",
-        "collection_JTapmw"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": false,
-        "collections_per_row_desktop": 3,
-        "subheading": "",
-        "title": "STUFF YE 'Ol STOCKING...",
-        "content": "<p>with some of our favorites from thoughtful chotchkes to the ultimate grilling master tool.  As we always say, for the guy who has everything, we have something.</p>",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "rich_text_wMadyd": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_rPxAnt": {
-          "type": "heading",
-          "settings": {
-            "text": "But WAIT, THere's More...",
-            "heading_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "heading_rPxAnt"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
-    "collection_list_dmMtLq": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_BgJ34Y": {
-          "type": "collection",
-          "settings": {
-            "collection": "luggage-bags-1",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "LUGGAGE & BAGS",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#8d762f",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_bEpUce": {
-          "type": "collection",
-          "settings": {
-            "collection": "sweaters-pullovers",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "CASHMERE BLISS",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#8d762f",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_ExwqYc": {
-          "type": "collection",
-          "settings": {
-            "collection": "personalize-me",
-            "image": "shopify://shop_images/claytonandcrumemain1000x_0002_Layer18.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "CUSTOM GIFTS",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#8d762f",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_BgJ34Y",
-        "collection_bEpUce",
-        "collection_ExwqYc"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "image_size": "auto",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": false,
-        "collections_per_row_desktop": 3,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
     "featured_collections_EJbhpb": {
       "type": "featured-collections",
       "blocks": {
@@ -805,7 +330,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "OR MAY WE SUGGEST A GIFT FROM YOURS TRULY...."
+        "subheading": "Here's The Whole Enchilada FROM YOURS TRULY..."
       }
     },
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
@@ -828,21 +353,12 @@
     }
   },
   "order": [
-    "rich_text_GCqkWX",
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
-    "shop_the_look_fmyGWW",
-    "shop_the_look_44ENmF",
-    "shop_the_look_FRjPFF",
-    "e5971167-2fc4-4b51-a545-d1c14d7c618b",
     "collection_list_yeYtxF",
     "collection_list_FhczPK",
     "collection_list_mBaBnz",
-    "shop_the_look_rX6wMr",
-    "collection_list_8akPWq",
-    "rich_text_wMadyd",
-    "collection_list_dmMtLq",
     "featured_collections_EJbhpb",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
