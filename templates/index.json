@@ -39,45 +39,18 @@
             "gradient_overlay": ""
           }
         },
-        "image_mTcHjm": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Untitled-1_e111a818-2a48-44ef-9949-f62d15b7925f.jpg",
-            "subheading": "FOR THE GUY WHO HAS EVERYTHING,",
-            "title": "WE HAVE SOMETHING.",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "content_max_width": 780,
-            "button_1_text": "SEE WHY",
-            "button_1_link": "shopify://pages/2024-no-brainer-holiday-gift-guide",
-            "button_1_style": "link",
-            "button_1_background": "#282e29",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#282e29",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(127deg, rgba(254, 217, 81, 0) 10%, rgba(0, 0, 0, 0.25) 100%)"
-          }
-        },
         "image_dtHXgr": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/112524-BFCM-24-Early-Bird-DT-hero_3f042c60-1d5a-40bb-9951-7f7e57bd9b6b.jpg",
-            "mobile_image": "shopify://shop_images/112524-BFCM-24-Early-Bird-mobile-hero_c37a16b8-6ad8-4346-90af-6685a8c84a39.jpg",
+            "image": "shopify://shop_images/122324-boxing-day-2024-DT-hero.jpg",
+            "mobile_image": "shopify://shop_images/122324-Boxing-Day-Sale-hero-mobile-v2.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center-end text-end",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "SHOP TO IT",
+            "button_1_text": "",
             "button_1_link": "",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
@@ -181,7 +154,6 @@
       },
       "block_order": [
         "video_JGUccL",
-        "image_mTcHjm",
         "image_dtHXgr",
         "image_iphqir",
         "image_txD8AX",
