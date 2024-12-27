@@ -16,6 +16,7 @@
       "blocks": {
         "message_fBJpaw": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "BOXING DAY SALE IS UNDERWAY | 25% OFF SITE WIDE"
           }
@@ -160,6 +161,7 @@
       "block_order": [
         "banner-message"
       ],
+      "disabled": true,
       "custom_css": [
         ".announcement-bar {font-size: 1rem; padding-block: 0.25em;}",
         "@media (max-width: 999px) {.announcement-bar {font-size: 0.75rem; }}"
