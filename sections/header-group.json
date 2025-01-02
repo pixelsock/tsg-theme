@@ -154,14 +154,13 @@
         "banner-message": {
           "type": "message",
           "settings": {
-            "text": "BRICK & MORTAR CLOSED: 12/25 & 12/26 | MERRY CHRISTMAS"
+            "text": "BRICK & MORTAR CLOSED JAN. 2"
           }
         }
       },
       "block_order": [
         "banner-message"
       ],
-      "disabled": true,
       "custom_css": [
         ".announcement-bar {font-size: 1rem; padding-block: 0.25em;}",
         "@media (max-width: 999px) {.announcement-bar {font-size: 0.75rem; }}"
