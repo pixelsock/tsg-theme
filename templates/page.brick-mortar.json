@@ -105,6 +105,7 @@
         },
         "image_exqizV": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/122724-2024-NYE-Holiday-Hours-banner-email_496e1cbd-3c7c-4289-86fa-2ff748ed3ae9.jpg",
             "width_mode": "custom",
