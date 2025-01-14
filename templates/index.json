@@ -230,6 +230,7 @@
         },
         "collection_qTV7tz": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "image": "shopify://shop_images/TSG_Boonepant_khaki_frontcopy2whiskey.png",
@@ -248,6 +249,7 @@
         },
         "collection_nNt7rm": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "image": "shopify://shop_images/TSG_Fraser-Cashmere_grey-copydeep-green_cbe81d4f-3175-454d-b71a-17e0aad58457.jpg",
@@ -340,7 +342,7 @@
         "stack_collections": false,
         "collections_per_row_desktop": 4,
         "subheading": "",
-        "title": "HOLIDAY TOP PICKS FROM TSG",
+        "title": "FIELD GRADE™ APPAREL",
         "content": "<p>We're a small-batch company, so if you want it, snag it.  These don't and won't last long...and the bean-counters are super happy about it.</p>",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
