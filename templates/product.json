@@ -105,6 +105,10 @@
             "payment_button_text_color": ""
           }
         },
+        "judge_me_reviews_review_snippet_widget_UJe3bY": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "pickup_availability_Lk9exR": {
           "type": "pickup_availability",
           "settings": {}
@@ -215,6 +219,7 @@
         "quantity_selector",
         "payment_terms",
         "buy_buttons",
+        "judge_me_reviews_review_snippet_widget_UJe3bY",
         "pickup_availability_Lk9exR",
         "91c578f3-33c8-4bbf-afdb-6aa8668231da",
         "c679f56d-abe2-40cf-b46d-860f17955676",
