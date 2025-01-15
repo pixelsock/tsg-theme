@@ -14,17 +14,16 @@
       "blocks": {
         "image_dtHXgr": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/122324-boxing-day-2024-DT-hero.jpg",
-            "mobile_image": "shopify://shop_images/122324-Boxing-Day-Sale-hero-mobile-v3.jpg",
+            "image": "shopify://shop_images/011425-SES-Winter-25-hero-DT.jpg",
+            "mobile_image": "shopify://shop_images/011425-SES-Winter-25-hero-mobile.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center-end text-end",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "",
-            "button_1_link": "",
+            "button_1_link": "shopify://collections/tsg-seasons-end-sale",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -66,98 +65,11 @@
             "border_color": "",
             "gradient_overlay": ""
           }
-        },
-        "image_iphqir": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/112524-24-BFCM-Black-Friday-hero-DT_ff27afc2-5178-40c8-a355-d7f676743d15.jpg",
-            "mobile_image": "shopify://shop_images/112524-24-BFCM-Black-Friday-hero-mobile_cdfe3ebe-f174-49f3-ae31-c463988198b2.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify://collections/blue-ridge-native",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_txD8AX": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/112523-BFCM-Cyber-Sunday-DT-hero_4b17a9b5-ea83-4998-8951-24557f71c55e.jpg",
-            "mobile_image": "shopify://shop_images/112624-24-Cyber-Sunday-hero-mobile.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_UVeWqH": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/120224-24-BFCM-Cyber-Monday-DT-hero_bd60feb8-3273-4686-b9f1-d21cc3b903fc.jpg",
-            "mobile_image": "shopify://shop_images/112623-CM-mobile-Hero-2_535f573d-c9fe-402b-b076-f6bb7e6f7cd7.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
         }
       },
       "block_order": [
         "image_dtHXgr",
-        "video_JGUccL",
-        "image_iphqir",
-        "image_txD8AX",
-        "image_UVeWqH"
+        "video_JGUccL"
       ],
       "custom_css": [
         "@media only screen and (min-width: 1000px) {.h1 {font-size: 36px; } .h6 {font-size: 36px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
