@@ -47,6 +47,13 @@
             "heading_tag": "h1"
           }
         },
+        "heading_hdGxRG": {
+          "type": "heading",
+          "settings": {
+            "text": "USE CODE: WINTERSALE FOR 25% OFF",
+            "heading_tag": "h2"
+          }
+        },
         "richtext_MR4TxL": {
           "type": "richtext",
           "settings": {
@@ -57,6 +64,7 @@
       "block_order": [
         "subheading_tgGpm3",
         "heading_NQ4hWH",
+        "heading_hdGxRG",
         "richtext_MR4TxL"
       ],
       "settings": {
