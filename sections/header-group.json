@@ -153,7 +153,6 @@
       "blocks": {
         "banner-message": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "SHOP OUR WINTER MARKDOWNS | SAVE AT LEAST 25% OFF"
           }
