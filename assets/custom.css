@@ -596,3 +596,8 @@ button,
 .cart-drawer__footer .button-group button:hover {
   background: #3a3f40;
 }
+
+.badge--sold-out .badge {
+    color: #fff;
+    background-color: #7c6e4e;
+}
