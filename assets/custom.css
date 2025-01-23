@@ -597,7 +597,7 @@ button,
   background: #3a3f40;
 }
 
-.badge--sold-out .badge {
+.badge--sold-out {
     color: #fff;
-    background-color: #7c6e4e;
+    background-color: #7c6e4e !important;
 }
