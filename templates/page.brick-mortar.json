@@ -140,7 +140,7 @@
         "image_q3ApQE": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/013025-b-and-m-location-web-dt.jpg",
+            "image": "shopify://shop_images/013025-b-and-m-location-web-mobile.jpg",
             "width_mode": "full_width",
             "max_width": 1000,
             "mobile_max_width": 600
