@@ -137,6 +137,15 @@
             "heading_tag": "h3"
           }
         },
+        "image_q3ApQE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/013025-b-and-m-location-web-dt.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
         "c1018f4d-d1b3-4c4c-8f2a-19d9799a4257": {
           "type": "richtext",
           "settings": {
@@ -156,11 +165,12 @@
       },
       "block_order": [
         "1058c197-0f51-4cdd-8640-c5105ef561be",
+        "image_q3ApQE",
         "c1018f4d-d1b3-4c4c-8f2a-19d9799a4257",
         "951c2aa8-9821-4677-bb6b-373a4065a165"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "content_width": "md",
         "text_position": "center",
         "remove_vertical_spacing": false
