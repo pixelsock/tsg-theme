@@ -129,12 +129,17 @@
           "custom_css": ""
         }
       },
+      "14952540001915115444": {
+        "type": "shopify://apps/upcart-cart-drawer/blocks/app-embed/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
+        "disabled": false,
+        "settings": {}
+      },
       "11074193060611426105": {
         "type": "shopify://apps/accounts-concierge/blocks/product_wishlist/3c495b68-652c-468d-a0ef-5bad6935d104",
         "disabled": false,
         "settings": {
           "placement": "below_add_to_cart",
-          "product_css_selector": "",
+          "product_css_selector": "#product-form-8901740855528-template--16748705874152__main",
           "button_style": "icon_and_text",
           "border_radius": 4,
           "shadow": false,
@@ -156,11 +161,6 @@
           "remove_button_text_color": "#5873f9",
           "custom_css": ".frcp-wishlist-btn__icon svg {\n  display: none;\n}\n.frcp-wishlist-btn__icon::before {\n  content: \"+\";\n  display: inline-block;\n  transition: transform 0.3s ease, opacity 0.3s ease;\n  font-size: 1.375rem;\n}\n\n.frcp-wishlist-btn--add .frcp-wishlist-btn__icon::before {\n  content: \"+\";\n  transform: rotate(0deg);\n  opacity: 1;\n  animation: icon-fade-in 0.3s forwards;\n  font-size: 1.375rem;\n}\n\n.frcp-wishlist-btn--remove .frcp-wishlist-btn__icon::before {\n  content: \"−\";\n  transform: rotate(90deg);\n  opacity: 1;\n  animation: icon-fade-in 0.3s forwards;\n  font-size: 1.5rem;\n  margin-top: -2px;\n}\n\n@keyframes icon-fade-in {\n  0% {\n    opacity: 0;\n    transform: scale(0.8);\n  }\n  100% {\n    opacity: 1;\n    transform: scale(1);\n  }\n}\n\n.frcp-wishlist-btn__icon {\n  transition: transform 0.3s ease, opacity 0.3s ease;\n}"
         }
-      },
-      "14952540001915115444": {
-        "type": "shopify://apps/upcart-cart-drawer/blocks/app-embed/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
