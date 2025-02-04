@@ -76,6 +76,10 @@
           "disabled": true,
           "settings": {}
         },
+        "true_fit_widget_ytMqVP": {
+          "type": "shopify://apps/true-fit/blocks/widget/caa08c3b-c601-47cd-9c2a-32bb0567b191",
+          "settings": {}
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -84,10 +88,6 @@
             "color_selector_type": "color",
             "size_chart_page": "size-guide"
           }
-        },
-        "true_fit_widget_ytMqVP": {
-          "type": "shopify://apps/true-fit/blocks/widget/caa08c3b-c601-47cd-9c2a-32bb0567b191",
-          "settings": {}
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -220,8 +220,8 @@
         "separator_L9DGtA",
         "e3537eb7-87d7-4dc0-a917-b7c1a48da8aa",
         "separator_dXB68M",
-        "variant_picker",
         "true_fit_widget_ytMqVP",
+        "variant_picker",
         "quantity_selector",
         "payment_terms",
         "buy_buttons",
