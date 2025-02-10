@@ -1025,7 +1025,7 @@
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426"
       ],
       "custom_css": [
-        ".container {margin-bottom: -1.75rem; margin-top: -2.75rem;}",
+        ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}",
         ".h2 {font-size: 24pt;}"
       ],
       "settings": {
@@ -1036,7 +1036,7 @@
         "stack_collections": false,
         "collections_per_row_desktop": 3,
         "subheading": "",
-        "title": "Shop By Collection",
+        "title": "",
         "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
