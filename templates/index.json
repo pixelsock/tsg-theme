@@ -277,7 +277,7 @@
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
-        "show_text_outside": false,
+        "show_text_outside": true,
         "space_items": true,
         "stack_collections": false,
         "collections_per_row_desktop": 4,
@@ -424,7 +424,7 @@
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
-        "show_text_outside": false,
+        "show_text_outside": true,
         "space_items": true,
         "stack_collections": false,
         "collections_per_row_desktop": 4,
@@ -1024,7 +1024,10 @@
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1",
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".container {margin-bottom: -1.75rem; margin-top: -2.75rem;}",
+        ".h2 {font-size: 24pt;}"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "image_size": "md",
@@ -1033,7 +1036,7 @@
         "stack_collections": false,
         "collections_per_row_desktop": 3,
         "subheading": "",
-        "title": "",
+        "title": "Shop By Collection",
         "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
