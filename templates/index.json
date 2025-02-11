@@ -676,7 +676,9 @@
         "image-2",
         "image-1"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".h3 {line-height: 1.2}"
+      ],
       "settings": {
         "reveal_on_scroll": false,
         "separate_section_with_border": true,
