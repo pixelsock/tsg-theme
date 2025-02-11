@@ -282,6 +282,7 @@
         "image_6RqdyG",
         "image_miLpqC"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "separate_section_with_border": true,
@@ -947,24 +948,6 @@
     "11300496-0b96-4e9c-939f-8b4fa6c86620": {
       "type": "collection-list",
       "blocks": {
-        "collection_PrBp3L": {
-          "type": "collection",
-          "settings": {
-            "collection": "shorts",
-            "image": "shopify://shop_images/main1000x_0001_TSG-Bluff-S23-Builder-150Denim.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "SHORTS",
-            "button_text": "",
-            "button_link": "shopify://collections/shorts",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
         "74a21c4e-de8f-47ef-a8f9-212606a0f88e": {
           "type": "collection",
           "disabled": true,
@@ -980,6 +963,24 @@
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 6,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_PrBp3L": {
+          "type": "collection",
+          "settings": {
+            "collection": "shorts",
+            "image": "shopify://shop_images/main1000x_0001_TSG-Bluff-S23-Builder-150Denim.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "SHORTS",
+            "button_text": "",
+            "button_link": "shopify://collections/shorts",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
             "button_background": "",
             "button_text_color": ""
           }
@@ -1037,95 +1038,12 @@
             "button_background": "",
             "button_text_color": ""
           }
-        }
-      },
-      "block_order": [
-        "collection_PrBp3L",
-        "74a21c4e-de8f-47ef-a8f9-212606a0f88e",
-        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
-        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1",
-        "49dbe3c1-d8ef-4de7-b50e-946fb4e61426"
-      ],
-      "custom_css": [
-        ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}",
-        ".h2 {font-size: 24pt;}"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "md",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": false,
-        "collections_per_row_desktop": 3,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "16c35784-55f0-4e62-a535-e33bcc8677a3": {
-      "type": "collection-list",
-      "blocks": {
-        "674fcc65-93d7-46ee-95c6-ae76fd223542": {
+        },
+        "collection_EYerpy": {
           "type": "collection",
           "settings": {
             "collection": "oxbow-goods-collection",
-            "image": "shopify://shop_images/tsg_midszn_hooded_jacket_oxbow_1500x_69e8a660-0a56-4afa-a395-9fc87412e2e6.png",
-            "expand_collection": true,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
-            "button_text": "",
-            "button_link": "shopify://pages/oxbow-camo",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 16,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "4e1dfdf9-ef31-4df6-9f4b-42a6b45c153c": {
-          "type": "collection",
-          "settings": {
-            "collection": "field-gear",
-            "image": "shopify://shop_images/Untitled-2_a7c26ed1-3bc4-4395-a50d-dc6ddf218a2e.jpg",
-            "expand_collection": true,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 17,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "4c4cac34-eb3b-419d-a005-64251cfb2833": {
-          "type": "collection",
-          "settings": {
-            "collection": "airetex-bamboo-apparel-collection",
-            "image": "shopify://shop_images/tsgacos23altimages_0020_TSG-Bluff-S23-Builder-2.jpg",
-            "expand_collection": true,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "Airetex™ Bamboo Apparel",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "76afd619-8003-49c9-812c-846812885b82": {
-          "type": "collection",
-          "settings": {
-            "collection": "fly-goods",
-            "image": "shopify://shop_images/20220626-TSG-Troutsky-Builder-247.jpg",
+            "image": "shopify://shop_images/tsgmidsznhoodedjacketoxbowalt1000x2.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
@@ -1134,16 +1052,52 @@
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 9,
+            "overlay_opacity": 6,
             "button_background": "",
             "button_text_color": ""
           }
         },
-        "474638f9-e9f8-40de-a198-e90686a03525": {
+        "collection_xwkyeD": {
           "type": "collection",
           "settings": {
-            "collection": "hats-headwear",
-            "image": "shopify://shop_images/A7R0958.jpg",
+            "collection": "field-gear",
+            "image": "shopify://shop_images/f24-tsg-alt-1000x_0002_GenerativeFill3.jpg",
+            "expand_collection": true,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "shopify://collections/field-gear",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 6,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_8QgKN6": {
+          "type": "collection",
+          "settings": {
+            "collection": "airetex-bamboo-apparel-collection",
+            "image": "shopify://shop_images/tsgaco.brooksssaltimages1000x2.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_pAH6Tp": {
+          "type": "collection",
+          "settings": {
+            "collection": "fly-goods",
+            "image": "shopify://shop_images/the_sporting_gent_fly_goods_reels.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
@@ -1159,19 +1113,27 @@
         }
       },
       "block_order": [
-        "674fcc65-93d7-46ee-95c6-ae76fd223542",
-        "4e1dfdf9-ef31-4df6-9f4b-42a6b45c153c",
-        "4c4cac34-eb3b-419d-a005-64251cfb2833",
-        "76afd619-8003-49c9-812c-846812885b82",
-        "474638f9-e9f8-40de-a198-e90686a03525"
+        "74a21c4e-de8f-47ef-a8f9-212606a0f88e",
+        "collection_PrBp3L",
+        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
+        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1",
+        "49dbe3c1-d8ef-4de7-b50e-946fb4e61426",
+        "collection_EYerpy",
+        "collection_xwkyeD",
+        "collection_8QgKN6",
+        "collection_pAH6Tp"
+      ],
+      "custom_css": [
+        ".container {margin-bottom: -0.75rem; margin-top: -0.75rem;}",
+        ".h2 {font-size: 24pt;}"
       ],
       "settings": {
-        "separate_section_with_border": false,
-        "image_size": "sm",
+        "separate_section_with_border": true,
+        "image_size": "md",
         "show_text_outside": false,
         "space_items": true,
         "stack_collections": false,
-        "collections_per_row_desktop": 5,
+        "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "",
         "content": "",
@@ -1240,7 +1202,6 @@
     "collection_list_XBTAm9",
     "rich_text_3c6R3f",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
-    "16c35784-55f0-4e62-a535-e33bcc8677a3",
     "blog-posts",
     "newsletter"
   ]
