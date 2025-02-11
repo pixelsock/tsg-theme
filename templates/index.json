@@ -123,24 +123,6 @@
             "button_text_color": ""
           }
         },
-        "collection_PrBp3L": {
-          "type": "collection",
-          "settings": {
-            "collection": "shorts",
-            "image": "shopify://shop_images/main1000x_0001_TSG-Bluff-S23-Builder-150Denim.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "SHORTS",
-            "button_text": "",
-            "button_link": "shopify://collections/shorts",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0": {
           "type": "collection",
           "settings": {
@@ -155,24 +137,6 @@
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "button-downs",
-            "image": "shopify://shop_images/tsg-tanner-bamboo-shirt-alt-1000x6.png",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "BUTTON DOWNS & SHIRTS",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 21,
             "button_background": "",
             "button_text_color": ""
           }
@@ -195,38 +159,20 @@
             "button_text_color": ""
           }
         },
-        "collection_EYerpy": {
+        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1": {
           "type": "collection",
           "settings": {
-            "collection": "oxbow-goods-collection",
-            "image": "shopify://shop_images/tsgmidsznhoodedjacketoxbowalt1000x2.jpg",
+            "collection": "button-downs",
+            "image": "shopify://shop_images/tsg-tanner-bamboo-shirt-alt-1000x6.png",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
+            "title": "BUTTON DOWNS & SHIRTS",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 6,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_xwkyeD": {
-          "type": "collection",
-          "settings": {
-            "collection": "field-gear",
-            "image": "shopify://shop_images/f24-tsg-alt-1000x_0002_GenerativeFill3.jpg",
-            "expand_collection": true,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
-            "button_text": "",
-            "button_link": "shopify://collections/field-gear",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 6,
+            "overlay_opacity": 21,
             "button_background": "",
             "button_text_color": ""
           }
@@ -249,6 +195,42 @@
             "button_text_color": ""
           }
         },
+        "collection_PrBp3L": {
+          "type": "collection",
+          "settings": {
+            "collection": "shorts",
+            "image": "shopify://shop_images/main1000x_0001_TSG-Bluff-S23-Builder-150Denim.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "SHORTS",
+            "button_text": "",
+            "button_link": "shopify://collections/shorts",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_xwkyeD": {
+          "type": "collection",
+          "settings": {
+            "collection": "field-gear",
+            "image": "shopify://shop_images/f24-tsg-alt-1000x_0002_GenerativeFill3.jpg",
+            "expand_collection": true,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "shopify://collections/field-gear",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 6,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
         "collection_pAH6Tp": {
           "type": "collection",
           "settings": {
@@ -266,18 +248,36 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "collection_EYerpy": {
+          "type": "collection",
+          "settings": {
+            "collection": "oxbow-goods-collection",
+            "image": "shopify://shop_images/tsgmidsznhoodedjacketoxbowalt1000x2.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 6,
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
         "74a21c4e-de8f-47ef-a8f9-212606a0f88e",
-        "collection_PrBp3L",
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
-        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1",
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426",
-        "collection_EYerpy",
-        "collection_xwkyeD",
+        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1",
         "collection_8QgKN6",
-        "collection_pAH6Tp"
+        "collection_PrBp3L",
+        "collection_xwkyeD",
+        "collection_pAH6Tp",
+        "collection_EYerpy"
       ],
       "custom_css": [
         ".h2 {font-size: 20pt; line-height: 1;}",
