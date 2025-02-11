@@ -281,7 +281,7 @@
       ],
       "custom_css": [
         ".h2 {font-size: 20pt; line-height: 1;}",
-        ".section-stack {gap: 1rem;}",
+        ".section-stack {gap: 1.5rem;}",
         ".section-spacing {margin-top: 3.5rem;}"
       ],
       "settings": {
