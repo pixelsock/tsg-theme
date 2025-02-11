@@ -314,6 +314,7 @@
           "type": "video",
           "settings": {
             "video": "shopify://files/videos/tsg_website__38s_-_16x9 (720p).mp4",
+            "mobile_video": "shopify://files/videos/Vertical 30s - with guns.mp4",
             "allow_sound": true,
             "subheading": "",
             "title": "",
@@ -348,7 +349,7 @@
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
-        "media_size": "auto",
+        "media_size": "lg",
         "autoplay": true,
         "autoplay_pause_on_video": true,
         "cycle_speed": 5,
