@@ -280,7 +280,8 @@
         "collection_pAH6Tp"
       ],
       "custom_css": [
-        ".h2 {font-size: 24pt; line-height: 1;}"
+        ".h2 {font-size: 24pt; line-height: 1;}",
+        ".container {margin-top: -1rem;}"
       ],
       "settings": {
         "separate_section_with_border": true,
