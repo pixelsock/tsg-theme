@@ -281,7 +281,8 @@
       ],
       "custom_css": [
         ".h2 {font-size: 24pt; line-height: 1;}",
-        ".container {margin-top: -1rem;}"
+        ".container {margin-top: -1rem;}",
+        ".section-stack {gap: 1rem;}"
       ],
       "settings": {
         "separate_section_with_border": true,
