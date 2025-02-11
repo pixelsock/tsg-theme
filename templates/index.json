@@ -280,7 +280,6 @@
         "collection_pAH6Tp"
       ],
       "custom_css": [
-        ".container {margin-bottom: -0.75rem; margin-top: -0.75rem;}",
         ".h2 {font-size: 24pt; line-height: 1;}"
       ],
       "settings": {
@@ -677,7 +676,7 @@
         "image-1"
       ],
       "custom_css": [
-        ".h3 {line-height: 1.2}"
+        ".h3 {line-height: 1.2;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
