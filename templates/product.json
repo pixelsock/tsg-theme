@@ -33,10 +33,15 @@
         },
         "121dc7ac-4018-4486-892f-4571b772c4de": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": true,
             "rating_mode": "rating"
           }
+        },
+        "5ce33f42-3250-40e6-8ce1-d7a8683dbae5": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "separator_MGrJxL": {
           "type": "separator",
@@ -50,11 +55,6 @@
         },
         "separator_JPrtGb": {
           "type": "separator",
-          "settings": {}
-        },
-        "5ce33f42-3250-40e6-8ce1-d7a8683dbae5": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
           "settings": {}
         },
         "separator_L9DGtA": {
@@ -213,10 +213,10 @@
         "vendor",
         "title",
         "121dc7ac-4018-4486-892f-4571b772c4de",
+        "5ce33f42-3250-40e6-8ce1-d7a8683dbae5",
         "separator_MGrJxL",
         "price",
         "separator_JPrtGb",
-        "5ce33f42-3250-40e6-8ce1-d7a8683dbae5",
         "separator_L9DGtA",
         "e3537eb7-87d7-4dc0-a917-b7c1a48da8aa",
         "separator_dXB68M",
