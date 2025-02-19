@@ -2,6 +2,7 @@
   --button-border-radius: 4px;
   --input-border-radius: 4px;
   --frcp-wishlist-borderRadius: 4px;
+  --frcp-wishlist-hoverOpacity: 1;
 }
 
 *, :before, :after {
@@ -5921,7 +5922,7 @@ tfoot td {
 }
 
 .product-info {
-  --product-info-gap: 1rem;
+  --product-info-gap: 0.5rem;
   grid-area: product-info;
 }
 
