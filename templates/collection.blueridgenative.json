@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "video_xXi4xW": {
@@ -111,7 +111,7 @@
             "image": "shopify://shop_images/0724-brn-collection-tees-tsg-ss24-watauga-builder-134_8a233d23-854f-4d0c-8ca7-312c165bce41.png",
             "mobile_image": "shopify://shop_images/040324-BRN-collection-hero-mobile.jpg",
             "subheading": "Blue Ridge Native Co.",
-            "title": "Help our guiding community.",
+            "title": "Be O-RIDGE-NAL",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -168,7 +168,7 @@
         "richtext_8NjJtx": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Our guiding community along the Blue Ridge has been devastated by the flooding and destruction caused by Helene.  The fisheries are non-existent and so is their primary source of income.  We have a wonderful community of customers and friends and now is the time for us to come together to support those that need it most.  The rivers will rebound.  Nature will recover.  But the people, businesses and communities which have welcomed us in their backyard need our help.  Now more than ever.</p><p></p><p>While supplies last, 100% of the profits from the sale of our Blue Ridge Native Co. brand will be donated to a local and community-focused organization dedicated to supporting the guides who have not only lost their belongings, but their livelihood as well.</p>"
+            "content": "<p>Our guiding community along the Blue Ridge has been devastated by the flooding and destruction caused by Helene.  The fisheries are non-existent and so is their primary source of income.  We have a wonderful community of customers and friends and now is the time for us to come together to support those that need it most.  The rivers will rebound.  Nature will recover.  But the people, businesses and communities which have welcomed us in their backyard need our help.  Now more than ever.</p>"
           }
         }
       },
