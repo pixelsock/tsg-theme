@@ -9,38 +9,6 @@
  */
 {
   "sections": {
-    "video_xXi4xW": {
-      "type": "video",
-      "blocks": {
-        "play_PckyB9": {
-          "type": "play",
-          "disabled": true,
-          "settings": {
-            "icon_color": "#ffffff"
-          }
-        },
-        "heading_rX44Dm": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "play_PckyB9",
-        "heading_rX44Dm"
-      ],
-      "disabled": true,
-      "settings": {
-        "autoplay": false,
-        "show_controls": false,
-        "video_size": "md",
-        "external_video_url": "",
-        "text_color": "#ffffff"
-      }
-    },
     "collection-banner": {
       "type": "collection-banner",
       "disabled": true,
@@ -146,125 +114,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "collection_list_6FrLgU": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_Ryix9V": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/tsg_tshirt_brn-sierra-back.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 8,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_qTDmL8": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/tsg_tshirt_brn-whiskey-back.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 9,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_imUGQB": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/tsg_tshirt_brn-navy-back.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 8,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_NLPf6N": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/tsg_tshirt_brn-stream.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "brn",
-            "button_text": "",
-            "button_link": "shopify://products/brn-trout-short-sleeve-tee-1",
-            "text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 8,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_rqYWAM": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/tsg_tshirt_brn-agave-back.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 8,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_Ryix9V",
-        "collection_qTDmL8",
-        "collection_imUGQB",
-        "collection_NLPf6N",
-        "collection_rqYWAM"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".button {background-color: #ffff;}"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "image_size": "xs",
-        "show_text_outside": true,
-        "space_items": true,
-        "stack_collections": false,
-        "collections_per_row_desktop": 4,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
     "main": {
       "type": "main-collection",
       "custom_css": [
@@ -316,11 +165,9 @@
     }
   },
   "order": [
-    "video_xXi4xW",
     "collection-banner",
     "slideshow_ziUw4J",
     "rich_text_Te97A6",
-    "collection_list_6FrLgU",
     "main",
     "newsletter_aEky8U"
   ]
