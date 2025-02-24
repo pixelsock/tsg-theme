@@ -66,6 +66,51 @@
         "overlay_opacity": 30
       }
     },
+    "slideshow_ziUw4J": {
+      "type": "slideshow",
+      "blocks": {
+        "image_9dUfdA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0724-brn-collection-tees-tsg-ss24-watauga-builder-134_8a233d23-854f-4d0c-8ca7-312c165bce41.png",
+            "mobile_image": "shopify://shop_images/040324-BRN-collection-hero-mobile.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9dUfdA"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "auto",
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
     "rich_text_Te97A6": {
       "type": "rich-text",
       "blocks": {
@@ -94,143 +139,11 @@
         "heading_tmkN3y",
         "richtext_nL4VB3"
       ],
-      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "content_width": "lg",
         "text_position": "start",
         "remove_vertical_spacing": false
-      }
-    },
-    "slideshow_ziUw4J": {
-      "type": "slideshow",
-      "blocks": {
-        "image_9dUfdA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/0724-brn-collection-tees-tsg-ss24-watauga-builder-134_8a233d23-854f-4d0c-8ca7-312c165bce41.png",
-            "mobile_image": "shopify://shop_images/040324-BRN-collection-hero-mobile.jpg",
-            "subheading": "Blue Ridge Native Co.",
-            "title": "Be O-RIDGE-NAL",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        }
-      },
-      "block_order": [
-        "image_9dUfdA"
-      ],
-      "settings": {
-        "allow_transparent_header": false,
-        "show_next_section_button": false,
-        "media_size": "auto",
-        "autoplay": false,
-        "autoplay_pause_on_video": false,
-        "cycle_speed": 5,
-        "background": "#000000",
-        "controls_color": "#ffffff"
-      }
-    },
-    "rich_text_9NFzdh": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_Vhf7Wp": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_JFHAcA": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_8NjJtx": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Our guiding community along the Blue Ridge has been devastated by the flooding and destruction caused by Helene.  The fisheries are non-existent and so is their primary source of income.  We have a wonderful community of customers and friends and now is the time for us to come together to support those that need it most.  The rivers will rebound.  Nature will recover.  But the people, businesses and communities which have welcomed us in their backyard need our help.  Now more than ever.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_Vhf7Wp",
-        "heading_JFHAcA",
-        "richtext_8NjJtx"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
-    "rich_text_HkdFAe": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_J7ykGm": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_L7h9mz": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_JUyaFt": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "image_Dt6wKn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/0724-brn-collection-tees-tsg-ss24-watauga-builder-134_8a233d23-854f-4d0c-8ca7-312c165bce41.png",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 400
-          }
-        }
-      },
-      "block_order": [
-        "subheading_J7ykGm",
-        "heading_L7h9mz",
-        "richtext_JUyaFt",
-        "image_Dt6wKn"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": false,
-        "content_width": "lg",
-        "text_position": "center",
-        "remove_vertical_spacing": true
       }
     },
     "collection_list_6FrLgU": {
@@ -352,223 +265,6 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
-    "rich_text_cR7JQX": {
-      "type": "rich-text",
-      "blocks": {
-        "image_zenHJe": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/072424-brn-collection-hats-tsg-ss24-watauga-builder-138_5d1d9752-c525-4112-be22-c8f3eb63a08f.png",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 390
-          }
-        }
-      },
-      "block_order": [
-        "image_zenHJe"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": false,
-        "content_width": "lg",
-        "text_position": "start",
-        "remove_vertical_spacing": true
-      }
-    },
-    "featured_collections_Q9YdgK": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_xjPjJ9": {
-          "type": "collection",
-          "settings": {
-            "collection": "blue-ridge-native",
-            "products_count": 5,
-            "title": "BRN TEES",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_xjPjJ9"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".h2 {line-height: 2rem; font-size: 33px;}"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "featured_collections_8zaJce": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_64ePYr": {
-          "type": "collection",
-          "settings": {
-            "collection": "brn-headwear",
-            "products_count": 8,
-            "title": "BRN HEADWEAR",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_64ePYr"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".h2 {line-height: 2rem; font-size: 33px;}"
-      ],
-      "settings": {
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "collection_list_pfR9x7": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_VefGmX": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_VN9kmV": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_bzE8zx": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_KMzFgx": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_wq6EnC": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_6L3x4B": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_VefGmX",
-        "collection_VN9kmV",
-        "collection_bzE8zx",
-        "collection_KMzFgx",
-        "collection_wq6EnC",
-        "collection_6L3x4B"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": false,
-        "image_size": "auto",
-        "show_text_outside": true,
-        "space_items": true,
-        "stack_collections": false,
-        "collections_per_row_desktop": 4,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
     "main": {
       "type": "main-collection",
       "custom_css": [
@@ -622,15 +318,9 @@
   "order": [
     "video_xXi4xW",
     "collection-banner",
-    "rich_text_Te97A6",
     "slideshow_ziUw4J",
-    "rich_text_9NFzdh",
-    "rich_text_HkdFAe",
+    "rich_text_Te97A6",
     "collection_list_6FrLgU",
-    "rich_text_cR7JQX",
-    "featured_collections_Q9YdgK",
-    "featured_collections_8zaJce",
-    "collection_list_pfR9x7",
     "main",
     "newsletter_aEky8U"
   ]
