@@ -153,6 +153,7 @@
       "blocks": {
         "banner-message": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/collections/tsg-seasons-end-sale\" title=\"TSG Season's End Markdowns\">SHOP OUR WINTER MARKDOWNS | 25% OFF MARKED PRICE</a>"
           }
