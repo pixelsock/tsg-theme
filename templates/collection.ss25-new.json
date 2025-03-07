@@ -16,8 +16,8 @@
       ],
       "settings": {
         "content_width": "md",
-        "image": "shopify://shop_images/072524-airetex-collection-hero-dt-Brooks-SS-hero-DT-v2.jpg",
-        "mobile_image": "shopify://shop_images/s24tannerbambooshirtalt1000x_0005s_0001_TSG-SS24-Builder-KHP-053.jpg",
+        "image": "shopify://shop_images/030725-ss25-collection-pg-banner-DT.png",
+        "mobile_image": "shopify://shop_images/030725-ss25-collection-pg-banner-mobile.png",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
@@ -39,20 +39,20 @@
         "subheading_3D3ibh": {
           "type": "subheading",
           "settings": {
-            "text": "Dries Quicker than your lawn in august."
+            "text": "Gearing up for going down."
           }
         },
         "heading_nmDKqh": {
           "type": "heading",
           "settings": {
-            "text": "AIRETEX™ BAMBOO APPAREL",
+            "text": "new arrivals from tsg",
             "heading_tag": "h1"
           }
         },
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Some do it right, and some do it better, and that's where the Airetex™ bamboo fabric comes into play.  The team at TSG Apparel Co. worked with an STeP™ certified facility to create a blend of lightweight, quick drying and anti-microbial fabric as the first and most important part of the puzzle during the design and production of the collection of Airetex™ goods.  So whether your next adventure is in the stream or the field, or just taking your ol' lady to a nice steak dinner, you'll be good to go - even if your overcooked steak isn't.</p>"
+            "content": "<p>Temps go up, days get longer, allergies.  Spring.  Gotta love it. But the fun can’t continue without (re)stocking up on new arrivals as some of us head South to the warmer waters of the Carribean and Central America for the most epic of epic days fishing the Gulf Stream.  Shop the newest, latest, greatest, and best from yours truly at TSG.</p>"
           }
         }
       },
@@ -107,6 +107,7 @@
         "richtext_R77g3t",
         "button_tnHxC8"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "separate_section_with_border": true,
