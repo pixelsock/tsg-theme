@@ -12,19 +12,19 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "image_Bj9NgQ": {
+        "image_zFJCUD": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/080723-F23-boone-pant-DT-hero.jpg",
-            "mobile_image": "shopify://shop_images/tsg-boone-pant-alt-image-1000x_0000s_0001_tsg-f21-alt-images-15.jpg",
-            "subheading": "BOONE IS BACK.",
-            "title": "Restocked & READY",
+            "image": "shopify://shop_images/030725-ss25-collection-pg-banner-DT.png",
+            "mobile_image": "shopify://shop_images/030725-ss25-collection-pg-banner-mobile.png",
+            "subheading": "",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "Shop Now",
-            "button_1_link": "shopify://collections/tsg-boone-5-pocket-pants",
-            "button_1_style": "link",
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/spring-summer-2025-new-arrivals",
+            "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
@@ -39,19 +39,19 @@
             "gradient_overlay": ""
           }
         },
-        "image_zFJCUD": {
+        "image_Bj9NgQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/030725-ss25-collection-pg-banner-DT.png",
-            "mobile_image": "shopify://shop_images/030725-ss25-collection-pg-banner-mobile.png",
-            "subheading": "",
-            "title": "",
+            "image": "shopify://shop_images/080723-F23-boone-pant-DT-hero.jpg",
+            "mobile_image": "shopify://shop_images/tsg-boone-pant-alt-image-1000x_0000s_0001_tsg-f21-alt-images-15.jpg",
+            "subheading": "BOONE IS BACK.",
+            "title": "Restocked & READY",
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify://collections/spring-summer-2025-new-arrivals",
-            "button_1_style": "solid",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify://collections/tsg-boone-5-pocket-pants",
+            "button_1_style": "link",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
             "button_2_text": "",
@@ -95,8 +95,8 @@
         }
       },
       "block_order": [
-        "image_Bj9NgQ",
         "image_zFJCUD",
+        "image_Bj9NgQ",
         "image_dtHXgr"
       ],
       "custom_css": [
