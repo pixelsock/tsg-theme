@@ -180,20 +180,20 @@
             "button_text_color": ""
           }
         },
-        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0": {
+        "collection_brUP8p": {
           "type": "collection",
           "settings": {
-            "collection": "pants",
-            "image": "shopify://shop_images/tsgboonepantcharcoalalt1000x_0000s_0001_TSG-Bluff-S23-Builder-84.jpg",
+            "collection": "polos",
+            "image": "shopify://shop_images/A745755_copy.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "PANTS & BRITCHES",
+            "title": "POLOS",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 7,
             "button_background": "",
             "button_text_color": ""
           }
@@ -225,6 +225,24 @@
             "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "{{ block.settings.collection.title }}",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "pants",
+            "image": "shopify://shop_images/tsgboonepantcharcoalalt1000x_0000s_0001_TSG-Bluff-S23-Builder-84.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "PANTS & BRITCHES",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -327,9 +345,10 @@
       },
       "block_order": [
         "74a21c4e-de8f-47ef-a8f9-212606a0f88e",
-        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
+        "collection_brUP8p",
         "collection_PrBp3L",
         "collection_8QgKN6",
+        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1",
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426",
         "collection_xwkyeD",
