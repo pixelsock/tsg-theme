@@ -211,7 +211,7 @@
             "button_link": "shopify://collections/shorts",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 9,
             "button_background": "",
             "button_text_color": ""
           }
@@ -229,7 +229,7 @@
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 7,
             "button_background": "",
             "button_text_color": ""
           }
