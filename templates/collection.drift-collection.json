@@ -16,8 +16,8 @@
       ],
       "settings": {
         "content_width": "md",
-        "image": "shopify://shop_images/072524-airetex-collection-hero-dt-Brooks-SS-hero-DT-v2.jpg",
-        "mobile_image": "shopify://shop_images/072524-airetex-collection-hero-dt-Brooks-SS-hero-DT-v2.jpg",
+        "image": "shopify://shop_images/032125-drift-collection-hero-dt-3000x1000.jpg",
+        "mobile_image": "shopify://shop_images/032125-drift-collection-hero-mobile-2000x1000.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
@@ -39,20 +39,20 @@
         "subheading_3D3ibh": {
           "type": "subheading",
           "settings": {
-            "text": "Dries Quicker than your lawn in august."
+            "text": "The \"I've got sh*t to do today\" collection."
           }
         },
         "heading_nmDKqh": {
           "type": "heading",
           "settings": {
-            "text": "AIRETEX™ BAMBOO APPAREL",
+            "text": "The DRIFT COLLECTION",
             "heading_tag": "h1"
           }
         },
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Some do it right, and some do it better, and that's where the Airetex™ bamboo fabric comes into play.  The team at TSG Apparel Co. worked with an STeP™ certified facility to create a blend of lightweight, quick drying and anti-microbial fabric as the first and most important part of the puzzle during the design and production of the collection of Airetex™ goods.  So whether your next adventure is in the stream or the field, or just taking your ol' lady to a nice steak dinner, you'll be good to go - even if your overcooked steak isn't.</p>"
+            "content": "<p>Meet <em>Drift</em>—the apparel collection for people who want to feel like they never left the couch, even when they’re knee-deep in a trout stream. Made from a ridiculously comfortable performance cotton-poly blend, <em>Drift</em> is soft enough for naps, yet tough enough for nature. Whether you’re dodging spreadsheets or mosquitoes, these pieces are built to layer up and keep you cozy without looking like you just rolled off of the aforementioned couch (even if you did). From couch to campfire, <em>Drift</em> has your back—literally, it's a shirt.</p>"
           }
         }
       },
@@ -74,7 +74,7 @@
         "subheading_BhfK4P": {
           "type": "subheading",
           "settings": {
-            "text": "It's a no brainer"
+            "text": "So soft you'll scream. Kidding."
           }
         },
         "heading_QqnhjV": {
@@ -86,6 +86,7 @@
         },
         "richtext_R77g3t": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<ul><li>Made from a sustainable source of Bamboo fibers in our Airetex™ fabric blend</li><li>Anti-microbial and anti-odor fabric</li><li>Soft AF</li><li>Lightweight and breathable fabric </li><li>Quick drying</li><li>Modern but not slim fit so you won't look like you borrowed a shirt from your dorm closet.</li></ul><p></p>"
           }
@@ -110,7 +111,7 @@
       "custom_css": [],
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/TSG-Bluff-S23-Builder-69.jpg",
+        "image": "shopify://shop_images/tsg-charleston-s25-builder-0038_copy.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
