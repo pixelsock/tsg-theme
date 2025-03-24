@@ -102,6 +102,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/tsg-charleston-s25-builder-0243.jpg",
+            "mobile_image": "shopify://shop_images/ss25-web-images-alt-1000x_0012_tsg-charleston-s25-builder-0033.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -128,6 +129,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/032425-drift-collection-landing-pg-images-dt-1800x1200_0001_tsg-charleston-s25-builder-0035.jpg",
+            "mobile_image": "shopify://shop_images/tsg-charleston-s25-builder-0038_copy.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
