@@ -74,7 +74,7 @@
         "image_WHgqQU": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/tsg-charleston-s25-builder-0040_f632f7b2-8b80-433d-94e0-2a4d33452e72.jpg",
+            "image": "shopify://shop_images/tsg-charleston-s25-builder-0184.jpg",
             "mobile_image": "shopify://shop_images/tsg-charleston-s25-builder-0038_copy.jpg",
             "subheading": "",
             "title": "",
@@ -101,8 +101,9 @@
         "image_8MaF3H": {
           "type": "image",
           "settings": {
-            "subheading": "Tell your story",
-            "title": "Image slide",
+            "image": "shopify://shop_images/tsg-charleston-s25-builder-0243.jpg",
+            "subheading": "",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -120,14 +121,15 @@
             "background_opacity": 50,
             "text_color": "#ffffff",
             "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+            "gradient_overlay": ""
           }
         },
         "image_WNNULY": {
           "type": "image",
           "settings": {
-            "subheading": "Tell your story",
-            "title": "Image slide",
+            "image": "shopify://shop_images/ss25-web-images-alt-1000x_0012_tsg-charleston-s25-builder-0033.jpg",
+            "subheading": "",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -145,7 +147,7 @@
             "background_opacity": 50,
             "text_color": "#ffffff",
             "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+            "gradient_overlay": ""
           }
         }
       },
@@ -158,7 +160,7 @@
         "allow_transparent_header": false,
         "show_next_section_button": false,
         "media_size": "auto",
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_pause_on_video": false,
         "cycle_speed": 5,
         "background": "#000000",
