@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection-banner": {
@@ -16,8 +16,8 @@
       ],
       "settings": {
         "content_width": "md",
-        "image": "shopify:\/\/shop_images\/072524-airetex-collection-hero-dt-Brooks-SS-hero-DT-v2.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/s24tannerbambooshirtalt1000x_0005s_0001_TSG-SS24-Builder-KHP-053.jpg",
+        "image": "shopify://shop_images/072524-airetex-collection-hero-dt-Brooks-SS-hero-DT-v2.jpg",
+        "mobile_image": "shopify://shop_images/s24tannerbambooshirtalt1000x_0005s_0001_TSG-SS24-Builder-KHP-053.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
@@ -52,7 +52,7 @@
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Some do it right, and some do it better, and that's where the Airetex™ bamboo fabric comes into play.  The team at TSG Apparel Co. worked with an STeP™ certified facility to create a blend of lightweight, quick drying and anti-microbial fabric as the first and most important part of the puzzle during the design and production of the collection of Airetex™ goods.  So whether your next adventure is in the stream or the field, or just taking your ol' lady to a nice steak dinner, you'll be good to go - even if your overcooked steak isn't.<\/p>"
+            "content": "<p>Some do it right, and some do it better, and that's where the Airetex™ bamboo fabric comes into play.  The team at TSG Apparel Co. worked with an STeP™ certified facility to create a blend of lightweight, quick drying and anti-microbial fabric as the first and most important part of the puzzle during the design and production of the collection of Airetex™ goods.  So whether your next adventure is in the stream or the field, or just taking your ol' lady to a nice steak dinner, you'll be good to go - even if your overcooked steak isn't.</p>"
           }
         }
       },
@@ -87,7 +87,7 @@
         "richtext_R77g3t": {
           "type": "richtext",
           "settings": {
-            "content": "<ul><li>Made from a sustainable source of Bamboo fibers in our Airetex™ fabric blend<\/li><li>Anti-microbial and anti-odor fabric<\/li><li>Soft AF<\/li><li>Lightweight and breathable fabric <\/li><li>Quick drying<\/li><li>Modern but not slim fit so you won't look like you borrowed a shirt from your dorm closet.<\/li><\/ul><p><\/p>"
+            "content": "<ul><li>Made from a sustainable source of Bamboo fibers in our Airetex™ fabric blend</li><li>Anti-microbial and anti-odor fabric</li><li>Soft AF</li><li>Lightweight and breathable fabric </li><li>Quick drying</li><li>Modern but not slim fit so you won't look like you borrowed a shirt from your dorm closet.</li></ul><p></p>"
           }
         },
         "button_tnHxC8": {
@@ -95,7 +95,7 @@
           "settings": {
             "style": "solid",
             "text": "Shop The Collection",
-            "url": "shopify:\/\/collections\/airetex-bamboo-apparel-collection",
+            "url": "shopify://collections/airetex-bamboo-apparel-collection",
             "background": "",
             "text_color": ""
           }
@@ -107,12 +107,10 @@
         "richtext_R77g3t",
         "button_tnHxC8"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify:\/\/shop_images\/TSG-Bluff-S23-Builder-69.jpg",
+        "image": "shopify://shop_images/ss25-web-images-alt-1000x_0017_tsg-charleston-s25-builder-0160.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -146,7 +144,7 @@
         "promotion_placement_order": "random",
         "custom_promotion_placement_order": 2,
         "enable_promotion_link": false,
-        "promotion_link_url": "shopify:\/\/pages\/tsg-apparel-co"
+        "promotion_link_url": "shopify://pages/tsg-apparel-co"
       }
     },
     "slideshow_HBU8dN": {
@@ -155,8 +153,8 @@
         "image_NRM3Hn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/072524-airetex-collection-alt-image-3200x1000.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/s24tannerbamboobuttondownalt1000x_0000s_0000_TSG-SS24-Builder-KHP-213.jpg",
+            "image": "shopify://shop_images/072524-airetex-collection-alt-image-3200x1000.jpg",
+            "mobile_image": "shopify://shop_images/s24tannerbamboobuttondownalt1000x_0000s_0000_TSG-SS24-Builder-KHP-213.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -216,14 +214,12 @@
     },
     "newsletter_CqViA7": {
       "type": "newsletter",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/070824-summer-fishing-mobile-hero_1a5cd972-7ffc-4f70-ab3c-1cf95358475e.jpg",
+        "image": "shopify://shop_images/042122_learntofish_hero-dt.jpg",
+        "mobile_image": "shopify://shop_images/070824-summer-fishing-mobile-hero_1a5cd972-7ffc-4f70-ab3c-1cf95358475e.jpg",
         "subheading": "Want to stay in the loop?",
         "title": "Sign up for our TSG Dispatches",
         "content": "",
