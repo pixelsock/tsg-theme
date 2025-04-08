@@ -296,6 +296,7 @@
         },
         "collection_NKtGXa": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "image": "shopify://shop_images/A745755_copy.jpg",
