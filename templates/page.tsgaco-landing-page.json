@@ -244,13 +244,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/A7R4196_1650e6eb-0d8a-4fa6-8903-75347d3411a7.jpg",
+            "image": "shopify://shop_images/ss25-web-images-alt-1000x_0000_tsg-charleston-s25-builder-0111.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "HAVENFIELD SHELL",
+            "title": "COASTAL OXBOW™",
             "button_text": "SHOP NOW",
-            "button_link": "shopify://products/tsg-havenfield-shell-jacket-dark-olive",
+            "button_link": "shopify://products/tsg-short-sleeve-oxbow-guide-shirt-coastal-oxbow",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -262,13 +262,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/A7R3855.jpg",
+            "image": "shopify://shop_images/ss25-web-images-alt-1000x_0017_tsg-charleston-s25-builder-0160.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "BOONE PANTS",
+            "title": "AIRETEX™ BROOKS SHIRT",
             "button_text": "SHOP NOW",
-            "button_link": "shopify://products/tsg-ridge-short-sage",
+            "button_link": "shopify://products/tsg-brooks-bamboo-long-sleeve-shirt-field-plaid-green-1",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -280,13 +280,31 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/A7R4344.jpg",
+            "image": "shopify://shop_images/ss25-web-images-alt-1000x_0004_tsg-charleston-s25-builder-0064.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "Airetex™ Button Downs",
+            "title": "THE REEL SHORT",
             "button_text": "SHOP NOW",
-            "button_link": "shopify://products/tsg-tanner-bamboo-button-down-grassland-check-1",
+            "button_link": "shopify://products/tsg-reel-short-slate",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_NKtGXa": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/A745755_copy.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "THE DRIFT POLO",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify://products/tsg-drift-polo-harbour",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -298,7 +316,8 @@
       "block_order": [
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2",
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1",
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3"
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3",
+        "collection_NKtGXa"
       ],
       "settings": {
         "separate_section_with_border": true,
