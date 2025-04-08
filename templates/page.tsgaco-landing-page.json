@@ -34,7 +34,7 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify://shop_images/082024-f24-launch-lockup-hero-dt.jpg",
+        "image": "shopify://shop_images/030725-ss25-collection-pg-banner-DT.png",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -59,7 +59,7 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>If you said the Fall/Winter seasons is where TSG shines like a new penny, then call us Abe, because this is our best collection yet. We’re committed to finding the best in fabric and function, reinforcing our core styles, and doing all the leg work for, so you can get out there and make some new memories.<br/>\t</p><p>So, feast your eyes and let those thumbs go crazy. </p>"
+            "content": "<p>The spring and summer collection is where TSG shines like a new penny, so call us Abe, because this is our best collection yet. We’re committed to finding the best in fabric and function, reinforcing our core styles, and doing all the leg work for, so you can get out there and make some new memories.<br/>\t</p><p>So, feast your eyes and let those thumbs go crazy. </p>"
           }
         }
       },
@@ -117,15 +117,15 @@
         "look_Yn6pWD": {
           "type": "look",
           "settings": {
-            "image": "shopify://shop_images/LBUILDER-TSG-240916-098.jpg",
+            "image": "shopify://shop_images/ss25-web-images-alt-1000x_0011_tsg-charleston-s25-builder-0038.jpg",
             "hot_spots_background": "#ffffff",
-            "product_1": "tsg-sutton-worksman-shell-midnight",
+            "product_1": "tsg-drift-hoody-sage",
             "product_1_horizontal_position": 43,
             "product_1_vertical_position": 35,
-            "product_2": "tsg-boone-5-pocket-pant-whiskey",
+            "product_2": "",
             "product_2_horizontal_position": 18,
             "product_2_vertical_position": 78,
-            "product_3": "tsg-tanner-button-down-shirt-riverside-check",
+            "product_3": "",
             "product_3_horizontal_position": 57,
             "product_3_vertical_position": 41,
             "product_4": "",
@@ -136,71 +136,31 @@
         "look_hAT4eJ": {
           "type": "look",
           "settings": {
-            "image": "shopify://shop_images/LBUILDER-TSG-240916-136.jpg",
+            "image": "shopify://shop_images/ss25-web-images-alt-1000x_0012_tsg-charleston-s25-builder-0033.jpg",
             "hot_spots_background": "#ffffff",
-            "product_1": "tsg-havenfield-shell-jacket-dark-olive",
+            "product_1": "tsg-drift-short-sleeve-crew-wheat",
             "product_1_horizontal_position": 30,
             "product_1_vertical_position": 35,
-            "product_2": "tsg-cottonwood-cord-shirt-cedar",
+            "product_2": "",
             "product_2_horizontal_position": 59,
             "product_2_vertical_position": 65,
-            "product_3": "tsg-tanner-bamboo-button-down-bridgewater-plaid",
+            "product_3": "",
             "product_3_horizontal_position": 55,
             "product_3_vertical_position": 32,
-            "product_4": "tsg-midland-twill-pant-field-khaki",
+            "product_4": "",
             "product_4_horizontal_position": 73,
             "product_4_vertical_position": 95
-          }
-        },
-        "look_WgBeFk": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/LBUILDER-TSG-240916-228.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "tsg-highland-quilted-jacket-slate",
-            "product_1_horizontal_position": 32,
-            "product_1_vertical_position": 49,
-            "product_2": "tsg-fraser-cashmere-sweater-medium-grey",
-            "product_2_horizontal_position": 53,
-            "product_2_vertical_position": 59,
-            "product_3": "tsg-boone-5-pocket-pant-field-khaki",
-            "product_3_horizontal_position": 66,
-            "product_3_vertical_position": 95,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        },
-        "look_74b9Mt": {
-          "type": "look",
-          "settings": {
-            "image": "shopify://shop_images/LBUILDER-TSG-240916-172.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "tsg-tyne-waxed-vest-taupe",
-            "product_1_horizontal_position": 32,
-            "product_1_vertical_position": 68,
-            "product_2": "tsg-tanner-button-down-shirt-high-country-check",
-            "product_2_horizontal_position": 57,
-            "product_2_vertical_position": 60,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
           }
         }
       },
       "block_order": [
         "look_Yn6pWD",
-        "look_hAT4eJ",
-        "look_WgBeFk",
-        "look_74b9Mt"
+        "look_hAT4eJ"
       ],
       "settings": {
         "separate_section_with_border": true,
-        "subheading": "The Missus will thank you.",
-        "title": "Fall Pairings Made Easy...",
+        "subheading": "Comfy? Oh, yea.",
+        "title": "New from the Drift Collection",
         "content": "",
         "popover_title": "Shop the look"
       }
