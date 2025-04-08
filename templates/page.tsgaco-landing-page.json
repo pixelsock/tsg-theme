@@ -120,17 +120,17 @@
             "image": "shopify://shop_images/ss25-web-images-alt-1000x_0011_tsg-charleston-s25-builder-0038.jpg",
             "hot_spots_background": "#ffffff",
             "product_1": "tsg-drift-hoody-sage",
-            "product_1_horizontal_position": 43,
+            "product_1_horizontal_position": 41,
             "product_1_vertical_position": 35,
             "product_2": "tsg-drift-hoody-fly-goods-wheat-copy",
-            "product_2_horizontal_position": 18,
-            "product_2_vertical_position": 78,
+            "product_2_horizontal_position": 41,
+            "product_2_vertical_position": 35,
             "product_3": "tsg-drift-hoody-fly-goods-wheat",
-            "product_3_horizontal_position": 57,
-            "product_3_vertical_position": 41,
+            "product_3_horizontal_position": 41,
+            "product_3_vertical_position": 35,
             "product_4": "tsg-drift-hoody-smoke-blue",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
+            "product_4_horizontal_position": 41,
+            "product_4_vertical_position": 35
           }
         },
         "look_hAT4eJ": {
@@ -139,17 +139,17 @@
             "image": "shopify://shop_images/ss25-web-images-alt-1000x_0012_tsg-charleston-s25-builder-0033.jpg",
             "hot_spots_background": "#ffffff",
             "product_1": "tsg-drift-short-sleeve-crew-wheat",
-            "product_1_horizontal_position": 30,
-            "product_1_vertical_position": 35,
+            "product_1_horizontal_position": 58,
+            "product_1_vertical_position": 65,
             "product_2": "tsg-drift-short-sleeve-crew-pebble",
-            "product_2_horizontal_position": 59,
+            "product_2_horizontal_position": 58,
             "product_2_vertical_position": 65,
             "product_3": "tsg-drift-short-sleeve-crew-smoke-blue",
-            "product_3_horizontal_position": 55,
-            "product_3_vertical_position": 32,
+            "product_3_horizontal_position": 58,
+            "product_3_vertical_position": 65,
             "product_4": "tsg-drift-short-sleeve-crew-sage",
-            "product_4_horizontal_position": 73,
-            "product_4_vertical_position": 95
+            "product_4_horizontal_position": 58,
+            "product_4_vertical_position": 65
           }
         }
       },
