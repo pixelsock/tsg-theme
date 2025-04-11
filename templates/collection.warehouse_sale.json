@@ -15,7 +15,6 @@
       "settings": {
         "content_width": "sm",
         "image": "shopify://shop_images/041125-Warehouse-Sale-hero-dt.jpg",
-        "mobile_image": "shopify://shop_images/011425-SES-Winter-25-hero-mobile.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
