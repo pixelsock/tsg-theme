@@ -14,7 +14,7 @@
       "custom_css": [],
       "settings": {
         "content_width": "sm",
-        "image": "shopify://shop_images/011425-SES-Winter-25-hero-DT_d2aa54ae-bad8-4f0c-aaac-d65ebe8ad420.jpg",
+        "image": "shopify://shop_images/041125-Warehouse-Sale-hero-dt.jpg",
         "mobile_image": "shopify://shop_images/011425-SES-Winter-25-hero-mobile.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
@@ -52,8 +52,8 @@
         "heading_hdGxRG": {
           "type": "heading",
           "settings": {
-            "text": "SAVE AT LEAST 25% OFF",
-            "heading_tag": "h2"
+            "text": "SAVE AT LEAST 50-80% OFF",
+            "heading_tag": "h1"
           }
         },
         "subheading_HCxgRM": {
@@ -65,7 +65,7 @@
         "richtext_MR4TxL": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We don't run many sales, but when we do we <em>do not</em> mess around.  Amassed below you'll find goods and gear ready at prices you <em>cannot</em> pass up.  From outerwear, vests, shorts, polos, pants, and gear, you have less excuses here than you do to go visit a certain relative by marriage. </p><p>  Again, what's the excuse??</p>"
+            "content": "<p><strong>The TSG Warehouse Sale is in effect.  No discount code needed here, folks.  Shop the </strong><em><strong>crazy</strong></em><strong> prices and deals and speak-now-or-forever-hold-your-peace because once they are gone, they are gone.  No mo'.  Done-zo.  Never more.</strong></p>"
           }
         }
       },
