@@ -235,6 +235,14 @@
     "rich_text_b8jAqK": {
       "type": "rich-text",
       "blocks": {
+        "image_EFKJjw": {
+          "type": "image",
+          "settings": {
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        },
         "heading_eGrC7V": {
           "type": "heading",
           "settings": {
@@ -244,6 +252,7 @@
         }
       },
       "block_order": [
+        "image_EFKJjw",
         "heading_eGrC7V"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
