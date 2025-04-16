@@ -16,8 +16,6 @@
       ],
       "settings": {
         "content_width": "md",
-        "image": "shopify://shop_images/032125-drift-collection-hero-dt-3000x1000.jpg",
-        "mobile_image": "shopify://shop_images/032125-drift-collection-hero-mobile-2000x1000.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
@@ -38,28 +36,36 @@
       "blocks": {
         "subheading_3D3ibh": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
-            "text": "Our \"I've got sh*t to do today\" collection."
+            "text": "\"NO CLUB LOGOS.\""
           }
         },
         "heading_nmDKqh": {
           "type": "heading",
           "settings": {
-            "text": "The DRIFT COLLECTION",
+            "text": "POLO SHIRTS",
             "heading_tag": "h1"
           }
         },
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Meet <em>Drift</em>—the apparel collection for people who want to feel like they never left the couch, even when they’re knee-deep in a trout stream. Made from a ridiculously comfortable performance cotton-poly blend, <em>Drift</em> is soft enough for naps, yet tough enough for nature. Whether you’re dodging spreadsheets or mosquitoes, these pieces are built to layer up and keep you cozy without looking like you just rolled off of the aforementioned couch (even if you did). From couch to campfire, <em>Drift</em> has your back—literally, it's a shirt.</p>"
+            "content": "<p>Golf courses. Poolside. Casual Friday. Or just getting sh*t done around the house: It's the first thing we gravitate towards as soon as Spring starts to bud up from the ground - when the temps go up, so do the sleeves.  From performance fabrics to classic staples like our TSG Roadie cotton/spandex blended polo, our selection of polo shirts perfect for the spectrum of situations you may find the need to \"button up\" or down.</p>"
+          }
+        },
+        "subheading_7aTfEk": {
+          "type": "subheading",
+          "settings": {
+            "text": "CHECK OUT THE SELECTION BELOW."
           }
         }
       },
       "block_order": [
         "subheading_3D3ibh",
         "heading_nmDKqh",
-        "richtext_Eiht3r"
+        "richtext_Eiht3r",
+        "subheading_7aTfEk"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -158,6 +164,7 @@
         "image_8MaF3H",
         "image_WNNULY"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
@@ -172,28 +179,34 @@
     "image_with_text_bXrnij": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_BhfK4P": {
-          "type": "subheading",
-          "settings": {
-            "text": "So soft you'll scream. Kidding."
-          }
-        },
         "heading_QqnhjV": {
           "type": "heading",
           "settings": {
-            "text": "Bamboo + Poly = PERFECT",
-            "heading_tag": "h2"
+            "text": "THE TOPPER POLO",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_BhfK4P": {
+          "type": "subheading",
+          "settings": {
+            "text": "The Polo That Tops Them All."
           }
         },
         "richtext_R77g3t": {
           "type": "richtext",
-          "disabled": true,
           "settings": {
-            "content": "<ul><li>Made from a sustainable source of Bamboo fibers in our Airetex™ fabric blend</li><li>Anti-microbial and anti-odor fabric</li><li>Soft AF</li><li>Lightweight and breathable fabric </li><li>Quick drying</li><li>Modern but not slim fit so you won't look like you borrowed a shirt from your dorm closet.</li></ul><p></p>"
+            "content": "<p>The TSG Topper Polo, the my-wife-made-me polo for those evening activities or, heck, even just for a hot day on the course or at the bar.  The Topper polo is built with an<em>ultra-comfortable</em>, moisture-wicking poly and Spandex™ blend so you can keep your lady impressed all while feeling super masculine.  </p><p></p>"
+          }
+        },
+        "page_8VypnU": {
+          "type": "page",
+          "settings": {
+            "page": ""
           }
         },
         "button_tnHxC8": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "solid",
             "text": "Shop The Collection",
@@ -201,23 +214,100 @@
             "background": "",
             "text_color": ""
           }
+        },
+        "link_W8NPY4": {
+          "type": "link",
+          "settings": {
+            "text": "Shop Now",
+            "url": ""
+          }
         }
       },
       "block_order": [
-        "subheading_BhfK4P",
         "heading_QqnhjV",
+        "subheading_BhfK4P",
         "richtext_R77g3t",
-        "button_tnHxC8"
+        "page_8VypnU",
+        "button_tnHxC8",
+        "link_W8NPY4"
       ],
-      "disabled": true,
       "custom_css": [],
+      "name": "Topper Section",
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/tsg-charleston-s25-builder-0038_copy.jpg",
+        "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_0c510c42-195b-4452-a083-842ec2bd6c18.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
         "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_yEhJTt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hVDMYM": {
+          "type": "heading",
+          "settings": {
+            "text": "THE DRIFT POLO",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_jUj68Y": {
+          "type": "subheading",
+          "settings": {
+            "text": "The \"I've Got Sh** To Do Today\" Polo"
+          }
+        },
+        "richtext_G6iR6P": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>This is the honey-do-list, grab mulch, go to the brewery, and all-rounder get-sh**-done polo. Complete with an old school look but with a modern construction and moisture wicking tech from drirelease®, this versatile polo is the ideal length to wear untucked.</p>"
+          }
+        },
+        "link_hAaD4j": {
+          "type": "link",
+          "settings": {
+            "text": "Shop Now",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_hVDMYM",
+        "subheading_jUj68Y",
+        "richtext_G6iR6P",
+        "link_hAaD4j"
+      ],
+      "name": "Drift Section",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_bd3e39ae-541a-48cb-b800-931e6c36d14a.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "rich_text_b8jAqK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eGrC7V": {
+          "type": "heading",
+          "settings": {
+            "text": "Shop POLOS",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eGrC7V"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "main": {
@@ -227,7 +317,7 @@
       ],
       "settings": {
         "hide_product_information": false,
-        "show_variant_swatches": false,
+        "show_variant_swatches": true,
         "products_per_page": 24,
         "products_per_row_mobile": "2",
         "products_size_desktop": "large",
@@ -340,6 +430,8 @@
     "rich_text_wz38A6",
     "slideshow_zt3xLf",
     "image_with_text_bXrnij",
+    "image_with_text_yEhJTt",
+    "rich_text_b8jAqK",
     "main",
     "slideshow_HBU8dN",
     "rich_text_gYzfAf",
