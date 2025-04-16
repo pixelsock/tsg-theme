@@ -51,7 +51,7 @@
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Golf courses. Poolside. Casual Friday. Or just getting sh*t done around the house: It's the first thing we gravitate towards as soon as Spring starts to bud up from the ground - when the temps go up, so do the sleeves.  From performance fabrics to classic staples like our TSG Roadie cotton/spandex blended polo, our selection of polo shirts perfect for the spectrum of situations you may find the need to \"button up\" or down.</p>"
+            "content": "<p>Golf courses. Poolside. Casual Friday. Or just getting sh*t done around the house: It's the first thing we gravitate towards as soon as Spring starts to bud up from the ground - when the temps go up, so do the sleeves.  From performance fabrics to classic staples like our TSG Drift cotton/spandex blended polo, our selection of polo shirts perfect for the spectrum of situations you may find the need to \"button up\" or down.</p>"
           }
         },
         "subheading_7aTfEk": {
@@ -294,7 +294,7 @@
         "heading_eGrC7V": {
           "type": "heading",
           "settings": {
-            "text": "Shop POLOS",
+            "text": "SHOP ALL POLOS",
             "heading_tag": "h1"
           }
         }
@@ -307,7 +307,7 @@
         "separate_section_with_border": false,
         "content_width": "sm",
         "text_position": "center",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
       }
     },
     "main": {
