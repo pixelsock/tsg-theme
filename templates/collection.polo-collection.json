@@ -74,108 +74,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "slideshow_zt3xLf": {
-      "type": "slideshow",
-      "blocks": {
-        "image_WHgqQU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/032425-drift-collection-landing-pg-images-dt-1800x1200_0000_tsg-charleston-s25-builder-0040.jpg",
-            "mobile_image": "shopify://shop_images/tsg-charleston-s25-builder-0184.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_8MaF3H": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/tsg-charleston-s25-builder-0243.jpg",
-            "mobile_image": "shopify://shop_images/tsg-charleston-s25-builder-0068.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_WNNULY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/032425-drift-collection-landing-pg-images-dt-1800x1200_0001_tsg-charleston-s25-builder-0035.jpg",
-            "mobile_image": "shopify://shop_images/tsg-charleston-s25-builder-0040_f632f7b2-8b80-433d-94e0-2a4d33452e72.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_WHgqQU",
-        "image_8MaF3H",
-        "image_WNNULY"
-      ],
-      "disabled": true,
-      "settings": {
-        "allow_transparent_header": false,
-        "show_next_section_button": false,
-        "media_size": "auto",
-        "autoplay": true,
-        "autoplay_pause_on_video": false,
-        "cycle_speed": 5,
-        "background": "#000000",
-        "controls_color": "#ffffff"
-      }
-    },
     "image_with_text_bXrnij": {
       "type": "image-with-text",
       "blocks": {
@@ -198,28 +96,11 @@
             "content": "<p>The TSG Topper Polo, the my-wife-made-me polo for those evening activities or, heck, even just for a hot day on the course or at the bar.  The Topper polo is built with an<em>ultra-comfortable</em>, moisture-wicking poly and Spandex™ blend so you can keep your lady impressed all while feeling super masculine.  </p><p></p>"
           }
         },
-        "page_8VypnU": {
-          "type": "page",
-          "settings": {
-            "page": ""
-          }
-        },
-        "button_tnHxC8": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "style": "solid",
-            "text": "Shop The Collection",
-            "url": "shopify://collections/airetex-bamboo-apparel-collection",
-            "background": "",
-            "text_color": ""
-          }
-        },
         "link_W8NPY4": {
           "type": "link",
           "settings": {
             "text": "Shop Now",
-            "url": ""
+            "url": "shopify://collections/topper-polos"
           }
         }
       },
@@ -227,8 +108,6 @@
         "heading_QqnhjV",
         "subheading_BhfK4P",
         "richtext_R77g3t",
-        "page_8VypnU",
-        "button_tnHxC8",
         "link_W8NPY4"
       ],
       "custom_css": [],
@@ -237,9 +116,38 @@
         "separate_section_with_border": true,
         "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_0c510c42-195b-4452-a083-842ec2bd6c18.jpg",
         "reveal_on_scroll": true,
-        "image_position": "start",
+        "image_position": "end",
         "content_width": "sm",
         "remove_vertical_spacing": true
+      }
+    },
+    "featured_collections_RqDqJG": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Tnmx7t": {
+          "type": "collection",
+          "settings": {
+            "collection": "topper-polos",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_Tnmx7t"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "horizontal_spacing_factor": 0.3,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "image_with_text_yEhJTt": {
@@ -288,26 +196,33 @@
         "remove_vertical_spacing": true
       }
     },
-    "rich_text_b8jAqK": {
-      "type": "rich-text",
+    "featured_collections_EUVtA3": {
+      "type": "featured-collections",
       "blocks": {
-        "heading_eGrC7V": {
-          "type": "heading",
+        "collection_bidMR6": {
+          "type": "collection",
           "settings": {
-            "text": "SHOP ALL POLOS",
-            "heading_tag": "h1"
+            "collection": "drift-polos",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": ""
           }
         }
       },
       "block_order": [
-        "heading_eGrC7V"
+        "collection_bidMR6"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
         "separate_section_with_border": false,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": true
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "main": {
@@ -338,6 +253,29 @@
         "custom_promotion_placement_order": 2,
         "enable_promotion_link": false,
         "promotion_link_url": "shopify://pages/tsg-apparel-co"
+      }
+    },
+    "rich_text_b8jAqK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eGrC7V": {
+          "type": "heading",
+          "settings": {
+            "text": "SHOP ALL POLOS",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eGrC7V"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": true
       }
     },
     "slideshow_HBU8dN": {
@@ -428,11 +366,12 @@
   "order": [
     "collection-banner",
     "rich_text_wz38A6",
-    "slideshow_zt3xLf",
     "image_with_text_bXrnij",
+    "featured_collections_RqDqJG",
     "image_with_text_yEhJTt",
-    "rich_text_b8jAqK",
+    "featured_collections_EUVtA3",
     "main",
+    "rich_text_b8jAqK",
     "slideshow_HBU8dN",
     "rich_text_gYzfAf",
     "newsletter_CqViA7"
