@@ -191,6 +191,7 @@
         "richtext_G6iR6P",
         "link_hAaD4j"
       ],
+      "custom_css": [],
       "name": "Reel Section",
       "settings": {
         "separate_section_with_border": true,
@@ -218,6 +219,7 @@
       "block_order": [
         "collection_bidMR6"
       ],
+      "custom_css": [],
       "name": "Reel Collection",
       "settings": {
         "separate_section_with_border": false,
@@ -259,7 +261,7 @@
       ],
       "settings": {
         "hide_product_information": false,
-        "show_variant_swatches": true,
+        "show_variant_swatches": false,
         "products_per_page": 24,
         "products_per_row_mobile": "2",
         "products_size_desktop": "large",
