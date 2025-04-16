@@ -99,6 +99,7 @@
         },
         "link_W8NPY4": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "text": "Shop Now",
             "url": "shopify://collections/topper-polos"
@@ -130,7 +131,7 @@
           "settings": {
             "collection": "topper-polos",
             "products_count": 8,
-            "title": "",
+            "title": "SHOP ALL",
             "link_url": "",
             "link_text": ""
           }
@@ -175,6 +176,7 @@
         },
         "link_hAaD4j": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "text": "Shop Now",
             "url": ""
@@ -205,7 +207,7 @@
           "settings": {
             "collection": "drift-polos",
             "products_count": 8,
-            "title": "",
+            "title": "SHOP ALL",
             "link_url": "",
             "link_text": ""
           }
