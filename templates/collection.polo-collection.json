@@ -54,8 +54,16 @@
             "content": "<p>Golf courses. Poolside. Casual Friday. Or just getting sh*t done around the house: It's the first thing we gravitate towards as soon as Spring starts to bud up from the ground - when the temps go up, so do the sleeves.  From performance fabrics to classic staples like our TSG Drift cotton/spandex blended polo, our selection of polo shirts perfect for the spectrum of situations you may find the need to \"button up\" or down.</p>"
           }
         },
+        "link_L7EGTy": {
+          "type": "link",
+          "settings": {
+            "text": "See More Below.",
+            "url": ""
+          }
+        },
         "subheading_7aTfEk": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "<em>SEE MORE BELOW.</em>"
           }
@@ -65,6 +73,7 @@
         "subheading_3D3ibh",
         "heading_nmDKqh",
         "richtext_Eiht3r",
+        "link_L7EGTy",
         "subheading_7aTfEk"
       ],
       "settings": {
@@ -118,7 +127,7 @@
         "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_0c510c42-195b-4452-a083-842ec2bd6c18.jpg",
         "reveal_on_scroll": false,
         "image_position": "end",
-        "content_width": "sm",
+        "content_width": "lg",
         "remove_vertical_spacing": true
       }
     },
