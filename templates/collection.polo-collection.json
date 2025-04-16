@@ -245,10 +245,21 @@
             "text": "SHOP ALL POLOS",
             "heading_tag": "h1"
           }
+        },
+        "button_gghLFw": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP ALL POLOS",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
-        "heading_eGrC7V"
+        "heading_eGrC7V",
+        "button_gghLFw"
       ],
       "disabled": true,
       "name": "t:sections.rich_text.presets.rich_text.name",
