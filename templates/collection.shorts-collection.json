@@ -44,14 +44,14 @@
         "heading_nmDKqh": {
           "type": "heading",
           "settings": {
-            "text": "POLO SHIRTS",
+            "text": "SHORTS",
             "heading_tag": "h1"
           }
         },
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Golf courses. Poolside. Casual Friday. Or just getting sh*t done around the house: It's the first thing we gravitate towards as soon as Spring starts to bud up from the ground - when the temps go up, so do the sleeves.  From performance fabrics to classic staples like our TSG Drift cotton/spandex blended polo, our selection of polo shirts perfect for the spectrum of situations you may find the need to \"button up\" or down.</p>"
+            "content": "<p>One of the beautiful things about America is freedom - freedom to do a whole bunch of fun stuff without prejudice...one of those being the ability to \"free our knees\".  So check out our wide ranging selection of shorts for every kind of occasion and inseam, but mostly those that fit our belief that shorts should be short (or at least not too short where we get banned from our favorite local Mexican restaurant on Tequila Tuesday - just as an example).</p>"
           }
         },
         "subheading_7aTfEk": {
@@ -81,20 +81,20 @@
         "heading_QqnhjV": {
           "type": "heading",
           "settings": {
-            "text": "THE TOPPER POLO",
+            "text": "THE RIDGE SHORT",
             "heading_tag": "h1"
           }
         },
         "subheading_BhfK4P": {
           "type": "subheading",
           "settings": {
-            "text": "The Polo That Tops Them All."
+            "text": "THE BEST SIX INCHES ON THE NET."
           }
         },
         "richtext_R77g3t": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The TSG Topper Polo, the my-wife-made-me polo for those evening activities or, heck, even just for a hot day on the course or at the bar.  The Topper polo is built with an<em>ultra-comfortable</em>, moisture-wicking poly and Spandex™ blend so you can keep your lady impressed all while feeling super masculine.  </p><p></p>"
+            "content": "<p>Constructed with a soft but stretchy lightweight cotton canvas and woven with Spandex™, these 6-inchers are our answer to the gap in the market left behind by the \"folks\" at Patagucci.  But as we do with most of our apparel, we approach it with the mindset of the \"If only...\".  </p><p></p>"
           }
         },
         "link_W8NPY4": {
@@ -112,11 +112,13 @@
         "richtext_R77g3t",
         "link_W8NPY4"
       ],
-      "custom_css": [],
-      "name": "Topper Section",
+      "custom_css": [
+        "section {padding-bottom: -1rem;}"
+      ],
+      "name": "Ridge Section",
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_0c510c42-195b-4452-a083-842ec2bd6c18.jpg",
+        "image": "shopify://shop_images/tsg-charleston-s25-builder-0079.jpg",
         "reveal_on_scroll": false,
         "image_position": "end",
         "content_width": "sm",
@@ -129,7 +131,7 @@
         "collection_Tnmx7t": {
           "type": "collection",
           "settings": {
-            "collection": "topper-polos",
+            "collection": "ridge-shorts",
             "products_count": 8,
             "title": "SHOP ALL",
             "link_url": "",
@@ -140,7 +142,7 @@
       "block_order": [
         "collection_Tnmx7t"
       ],
-      "name": "Topper Collection",
+      "name": "Ridge Shorts",
       "settings": {
         "separate_section_with_border": false,
         "hide_product_information": false,
@@ -158,20 +160,20 @@
         "heading_hVDMYM": {
           "type": "heading",
           "settings": {
-            "text": "THE DRIFT POLO",
+            "text": "THE REEL SHORT",
             "heading_tag": "h1"
           }
         },
         "subheading_jUj68Y": {
           "type": "subheading",
           "settings": {
-            "text": "The \"I've Got Sh** To Do Today\" Polo"
+            "text": "BE AMPHIBIOUS."
           }
         },
         "richtext_G6iR6P": {
           "type": "richtext",
           "settings": {
-            "content": "<p>This is the honey-do-list, grab mulch, go to the brewery, and all-rounder get-sh**-done polo. Complete with an old school look but with a modern construction and moisture wicking tech from drirelease®, this versatile polo is the ideal length to wear untucked.</p>"
+            "content": "<p>Meet The Reel Short — the amphibious offspring of our best-selling Ridge Short and a dolphin with a killer sense of style. Designed for guys who want to go from dock to dive bar without a costume change, these shorts are equal parts chill and thrill.</p>"
           }
         },
         "link_hAaD4j": {
@@ -189,14 +191,14 @@
         "richtext_G6iR6P",
         "link_hAaD4j"
       ],
-      "name": "Drift Section",
+      "name": "Reel Section",
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_bd3e39ae-541a-48cb-b800-931e6c36d14a.jpg",
+        "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_3fd40193-51a0-4fe9-8f00-a16a40f9bece.jpg",
         "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "sm",
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false
       }
     },
     "featured_collections_EUVtA3": {
@@ -205,7 +207,7 @@
         "collection_bidMR6": {
           "type": "collection",
           "settings": {
-            "collection": "drift-polos",
+            "collection": "reel-shorts",
             "products_count": 8,
             "title": "SHOP ALL",
             "link_url": "",
@@ -222,9 +224,9 @@
         "hide_product_information": false,
         "stack_products": true,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 3,
         "horizontal_spacing_factor": 0.5,
-        "vertical_spacing_factor": 1,
+        "vertical_spacing_factor": 0.5,
         "subheading": ""
       }
     },
@@ -234,7 +236,7 @@
         "heading_eGrC7V": {
           "type": "heading",
           "settings": {
-            "text": "SHOP ALL POLOS",
+            "text": "SHOP ALL SHORTS",
             "heading_tag": "h1"
           }
         }
@@ -242,7 +244,6 @@
       "block_order": [
         "heading_eGrC7V"
       ],
-      "disabled": true,
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "separate_section_with_border": true,
@@ -253,7 +254,6 @@
     },
     "main": {
       "type": "main-collection",
-      "disabled": true,
       "custom_css": [
         ".dot-checkbox {border-radius: 0px; height: 0.75rem; width: 0.75rem; inset-block-start: calc(0.35em + 1px); background: #f79e1b; border: 2px solid;}"
       ],
