@@ -225,8 +225,32 @@
         "subheading": ""
       }
     },
+    "rich_text_b8jAqK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eGrC7V": {
+          "type": "heading",
+          "settings": {
+            "text": "SHOP ALL POLOS",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eGrC7V"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "custom_css": [
         ".dot-checkbox {border-radius: 0px; height: 0.75rem; width: 0.75rem; inset-block-start: calc(0.35em + 1px); background: #f79e1b; border: 2px solid;}"
       ],
@@ -253,29 +277,6 @@
         "custom_promotion_placement_order": 2,
         "enable_promotion_link": false,
         "promotion_link_url": "shopify://pages/tsg-apparel-co"
-      }
-    },
-    "rich_text_b8jAqK": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_eGrC7V": {
-          "type": "heading",
-          "settings": {
-            "text": "SHOP ALL POLOS",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_eGrC7V"
-      ],
-      "disabled": true,
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "separate_section_with_border": false,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": true
       }
     },
     "slideshow_HBU8dN": {
@@ -370,8 +371,8 @@
     "featured_collections_RqDqJG",
     "image_with_text_yEhJTt",
     "featured_collections_EUVtA3",
-    "main",
     "rich_text_b8jAqK",
+    "main",
     "slideshow_HBU8dN",
     "rich_text_gYzfAf",
     "newsletter_CqViA7"
