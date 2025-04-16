@@ -116,7 +116,7 @@
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_0c510c42-195b-4452-a083-842ec2bd6c18.jpg",
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "image_position": "end",
         "content_width": "sm",
         "remove_vertical_spacing": true
@@ -191,7 +191,7 @@
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_bd3e39ae-541a-48cb-b800-931e6c36d14a.jpg",
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "sm",
         "remove_vertical_spacing": true
@@ -221,7 +221,7 @@
         "stack_products": true,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
+        "horizontal_spacing_factor": 0.5,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
