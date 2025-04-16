@@ -56,9 +56,8 @@
         },
         "subheading_7aTfEk": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
-            "text": "CHECK OUT THE SELECTION BELOW."
+            "text": "<em>SEE MORE BELOW.</em>"
           }
         }
       },
