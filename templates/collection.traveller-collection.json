@@ -66,7 +66,6 @@
       "block_order": [
         "image_nxJkzh"
       ],
-      "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
@@ -83,9 +82,8 @@
       "blocks": {
         "subheading_3D3ibh": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
-            "text": "\"NO CLUB LOGOS.\""
+            "text": "Made just like they used to."
           }
         },
         "heading_nmDKqh": {
@@ -97,9 +95,8 @@
         },
         "richtext_Eiht3r": {
           "type": "richtext",
-          "disabled": true,
           "settings": {
-            "content": "<p>Golf courses. Poolside. Casual Friday. Or just getting sh*t done around the house: It's the first thing we gravitate towards as soon as Spring starts to bud up from the ground - when the temps go up, so do the sleeves.  From performance fabrics to classic staples like our TSG Drift cotton/spandex blended polo, our selection of polo shirts perfect for the spectrum of situations you may find the need to \"button up\" or down.</p>"
+            "content": "<p>Introducing our latest collection of heirloom-quality leather goods, handcrafted in Charlotte, NC, in collaboration with Traveller Trading Co. Each piece is made from fine, full-grain leather, and innovative materials like Biothane™, built to last a lifetime—timeless design meets artisanal craftsmanship in this exclusive partnership.</p>"
           }
         },
         "subheading_7aTfEk": {
