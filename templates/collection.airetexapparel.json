@@ -93,8 +93,8 @@
         "button_tnHxC8": {
           "type": "button",
           "settings": {
-            "style": "solid",
-            "text": "Shop The Collection",
+            "style": "outline",
+            "text": "Shop The Collection Below",
             "url": "shopify://collections/airetex-bamboo-apparel-collection",
             "background": "",
             "text_color": ""
