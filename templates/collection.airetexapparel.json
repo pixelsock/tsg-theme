@@ -92,6 +92,7 @@
         },
         "button_tnHxC8": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "outline",
             "text": "Shop The Collection Below",
@@ -99,13 +100,21 @@
             "background": "",
             "text_color": ""
           }
+        },
+        "link_zbwbVf": {
+          "type": "link",
+          "settings": {
+            "text": "Shop The Collection Below",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "subheading_BhfK4P",
         "heading_QqnhjV",
         "richtext_R77g3t",
-        "button_tnHxC8"
+        "button_tnHxC8",
+        "link_zbwbVf"
       ],
       "custom_css": [],
       "settings": {
