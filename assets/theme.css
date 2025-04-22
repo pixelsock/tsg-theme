@@ -4935,6 +4935,7 @@ tfoot td {
   /* z-index: -1; */
   display: none;
   position: absolute;
+  margin-top: 3px solid black;
   inset-block-start: 100%;
   inset-inline-start: 0;
 }
