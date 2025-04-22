@@ -102,7 +102,7 @@
         "richtext_R77g3t": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The TSG Topper Polo, the my-wife-made-me polo for those evening activities or, heck, even just for a hot day on the course or at the bar.  The Topper polo is built with an<em>ultra-comfortable</em>, moisture-wicking poly and Spandex™ blend so you can keep your lady impressed all while feeling super masculine.  </p><p></p>"
+            "content": "<p>The TSG Topper Polo, the my-wife-made-me polo for those evening activities or, heck, even just for a hot day on the course or at the bar.  The Topper polo is built with an<em>ultra-comfortable</em>, moisture-wicking poly and Spandex™ blend so you can keep your lady impressed all while feeling super masculine.  </p>"
           }
         },
         "link_W8NPY4": {
@@ -121,7 +121,6 @@
         "link_W8NPY4"
       ],
       "custom_css": [],
-      "name": "Topper Section",
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_0c510c42-195b-4452-a083-842ec2bd6c18.jpg",
@@ -148,7 +147,6 @@
       "block_order": [
         "collection_Tnmx7t"
       ],
-      "name": "Topper Collection",
       "settings": {
         "separate_section_with_border": false,
         "hide_product_information": false,
@@ -197,7 +195,6 @@
         "richtext_G6iR6P",
         "link_hAaD4j"
       ],
-      "name": "Drift Section",
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_bd3e39ae-541a-48cb-b800-931e6c36d14a.jpg",
@@ -224,7 +221,6 @@
       "block_order": [
         "collection_bidMR6"
       ],
-      "name": "Drift Collection",
       "settings": {
         "separate_section_with_border": false,
         "hide_product_information": false,
@@ -262,7 +258,6 @@
         "button_gghLFw"
       ],
       "disabled": true,
-      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "separate_section_with_border": true,
         "content_width": "sm",
