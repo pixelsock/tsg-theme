@@ -782,10 +782,17 @@ height-observer {
   position: relative;
 }
 
-:where(.modal, .drawer, .popover, .header-search)::part(overlay) {
+:where(.modal, .drawer, .popover)::part(overlay) {
   min-height: 100vh;
   background: rgb(var(--page-overlay));
   position: fixed;
+  inset: 0;
+}
+
+:where(.header-search)::part(overlay) {
+  min-height: 100vh;
+  background: rgb(var(--page-overlay));
+  position: absolute;
   inset: 0;
 }
 
