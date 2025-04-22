@@ -4932,7 +4932,7 @@ tfoot td {
 
 .header-search {
   width: 100%;
-  z-index: -1;
+  /* z-index: -1; */
   display: none;
   position: absolute;
   inset-block-start: 100%;
