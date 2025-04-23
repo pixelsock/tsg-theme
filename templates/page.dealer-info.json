@@ -69,7 +69,7 @@
         "richtext_UY4mGg": {
           "type": "richtext",
           "settings": {
-            "content": "<p>JUST HOLLER AT US.</p><p>Please email <a href=\"mailto:wholesale@thesportinggent.com\" title=\"mailto:wholesale@thesportinggent.com\">wholesale@thesportinggent.com</a> for more information about our wholesale options.</p>"
+            "content": "<p>JUST HOLLER AT US.</p><p>Please email <a href=\"mailto:wholesale@thesportinggent.com\" title=\"mailto:wholesale@thesportinggent.com\">wholesale@thesportinggent.com</a> for more information about our wholesale options or just fill out the form below with your info and one of our shopkeepers will eagerly be in touch soon.</p>"
           }
         }
       },
@@ -82,6 +82,15 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
+      }
+    },
+    "contact_B6ztYj": {
+      "type": "contact",
+      "settings": {
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     },
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
@@ -108,6 +117,7 @@
     "custom_liquid_GHwxjR",
     "main",
     "rich_text_idhbRK",
+    "contact_B6ztYj",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
 }
