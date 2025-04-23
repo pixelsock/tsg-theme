@@ -312,7 +312,7 @@
         "collection_A4xppz"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": true,
         "products_per_row_mobile": "2",
@@ -384,7 +384,7 @@
         "collection_zdj6zc"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": true,
         "products_per_row_mobile": "2",
@@ -456,7 +456,7 @@
         "collection_ex6wWW"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": true,
         "products_per_row_mobile": "2",
