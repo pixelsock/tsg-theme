@@ -106,9 +106,9 @@
         "button_text": "Subscribe Now",
         "text_color": "#ffffff",
         "button_background": "#ffffff",
-        "button_text_color": "#303030",
+        "button_text_color": "#282e29",
         "overlay_color": "#000000",
-        "overlay_opacity": 47
+        "overlay_opacity": 100
       }
     }
   },
