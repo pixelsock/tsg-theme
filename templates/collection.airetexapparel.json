@@ -36,12 +36,6 @@
     "rich_text_wz38A6": {
       "type": "rich-text",
       "blocks": {
-        "subheading_3D3ibh": {
-          "type": "subheading",
-          "settings": {
-            "text": "Dries Quicker than your lawn in august."
-          }
-        },
         "heading_nmDKqh": {
           "type": "heading",
           "settings": {
@@ -49,17 +43,33 @@
             "heading_tag": "h1"
           }
         },
+        "subheading_3D3ibh": {
+          "type": "subheading",
+          "settings": {
+            "text": "Dries Quicker than your lawn in august."
+          }
+        },
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
             "content": "<p>Some do it right, and some do it better, and that's where the Airetex™ bamboo fabric comes into play.  The team at TSG Apparel Co. worked with an STeP™ certified facility to create a blend of lightweight, quick drying and anti-microbial fabric as the first and most important part of the puzzle during the design and production of the collection of Airetex™ goods.  So whether your next adventure is in the stream or the field, or just taking your ol' lady to a nice steak dinner, you'll be good to go - even if your overcooked steak isn't.</p>"
           }
+        },
+        "image_kTLLhc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/042225-airetex-collection-images-5.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
         }
       },
       "block_order": [
-        "subheading_3D3ibh",
         "heading_nmDKqh",
-        "richtext_Eiht3r"
+        "subheading_3D3ibh",
+        "richtext_Eiht3r",
+        "image_kTLLhc"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -104,7 +114,7 @@
         "link_zbwbVf": {
           "type": "link",
           "settings": {
-            "text": "Shop The Collection Below",
+            "text": "Shop The Airetex™ Goods Below",
             "url": ""
           }
         }
@@ -116,18 +126,62 @@
         "button_tnHxC8",
         "link_zbwbVf"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/042225-airetex-collection-images-5.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
     },
+    "rich_text_He6PXB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ihbC4w": {
+          "type": "heading",
+          "settings": {
+            "text": "Bamboo + Poly = PERFECT",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_d434tK": {
+          "type": "subheading",
+          "settings": {
+            "text": "It's a no brainer"
+          }
+        },
+        "richtext_R3kKTL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<ul><li>Made from a sustainable source of Bamboo fibers in our Airetex™ fabric blend</li><li>Anti-microbial and anti-odor fabric</li><li>Soft AF</li><li>Lightweight and breathable fabric </li><li>Quick drying thanks to <em>right</em> blend of yarn</li><li>UPF 30+</li></ul><p></p>"
+          }
+        },
+        "link_XCfiFn": {
+          "type": "link",
+          "settings": {
+            "text": "Shop The Airetex™ Goods Below",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ihbC4w",
+        "subheading_d434tK",
+        "richtext_R3kKTL",
+        "link_XCfiFn"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "custom_css": [
         ".dot-checkbox {border-radius: 0px; height: 0.75rem; width: 0.75rem; inset-block-start: calc(0.35em + 1px); background: #f79e1b; border: 2px solid;}"
       ],
@@ -154,6 +208,34 @@
         "custom_promotion_placement_order": 2,
         "enable_promotion_link": false,
         "promotion_link_url": "shopify://pages/tsg-apparel-co"
+      }
+    },
+    "featured_collections_gtE6rx": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_A4xppz": {
+          "type": "collection",
+          "settings": {
+            "collection": "airetex-button-down-shirts",
+            "products_count": 8,
+            "title": "SHOP AIRETEX™ BUTTON DOWNS",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_A4xppz"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "slideshow_HBU8dN": {
@@ -245,7 +327,9 @@
     "collection-banner",
     "rich_text_wz38A6",
     "image_with_text_bXrnij",
+    "rich_text_He6PXB",
     "main",
+    "featured_collections_gtE6rx",
     "slideshow_HBU8dN",
     "rich_text_gYzfAf",
     "newsletter_CqViA7"
