@@ -34,13 +34,6 @@
     "rich_text_wz38A6": {
       "type": "rich-text",
       "blocks": {
-        "subheading_3D3ibh": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "\"NO CLUB LOGOS.\""
-          }
-        },
         "heading_nmDKqh": {
           "type": "heading",
           "settings": {
@@ -60,21 +53,12 @@
             "text": "See More Below.",
             "url": ""
           }
-        },
-        "subheading_7aTfEk": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "<em>SEE MORE BELOW.</em>"
-          }
         }
       },
       "block_order": [
-        "subheading_3D3ibh",
         "heading_nmDKqh",
         "richtext_Eiht3r",
-        "link_L7EGTy",
-        "subheading_7aTfEk"
+        "link_L7EGTy"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -104,21 +88,12 @@
           "settings": {
             "content": "<p>Because your cocktail deserves better than a red Solo cup. From macho mugs to whiskey glasses that practically age your brown water, this collection is built for sipping, swigging, and impressing. Drink like a legend. With or without company.</p>"
           }
-        },
-        "link_W8NPY4": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "text": "Shop Now",
-            "url": "shopify://collections/topper-polos"
-          }
         }
       },
       "block_order": [
         "heading_QqnhjV",
         "subheading_BhfK4P",
-        "richtext_R77g3t",
-        "link_W8NPY4"
+        "richtext_R77g3t"
       ],
       "custom_css": [],
       "settings": {
@@ -208,21 +183,12 @@
           "settings": {
             "content": "<p>Fire it up with high-carbon steel pans, savage meat shredders, and cookbooks that don’t insult your intelligence. Whether you’re searing steak or just trying not to burn breakfast, this gear makes you look like you <em>definitely</em> know what you’re doing.</p>"
           }
-        },
-        "link_hAaD4j": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "text": "Shop Now",
-            "url": ""
-          }
         }
       },
       "block_order": [
         "heading_hVDMYM",
         "subheading_jUj68Y",
-        "richtext_G6iR6P",
-        "link_hAaD4j"
+        "richtext_G6iR6P"
       ],
       "settings": {
         "separate_section_with_border": true,
