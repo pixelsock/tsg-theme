@@ -112,10 +112,10 @@
           "type": "collection",
           "settings": {
             "collection": "drinkware",
-            "products_count": 8,
+            "products_count": 24,
             "title": "SHOP DRINKWARE",
             "link_url": "",
-            "link_text": ""
+            "link_text": "View All"
           }
         }
       },
@@ -140,10 +140,10 @@
           "type": "collection",
           "settings": {
             "collection": "bar-accessories",
-            "products_count": 8,
+            "products_count": 24,
             "title": "Shop Bar Accessories",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": "View All"
           }
         }
       },
@@ -206,10 +206,10 @@
           "type": "collection",
           "settings": {
             "collection": "grill-cooking-tools",
-            "products_count": 8,
+            "products_count": 24,
             "title": "Shop Grill and Cookware",
             "link_url": "",
-            "link_text": ""
+            "link_text": "View All"
           }
         }
       },
@@ -303,7 +303,7 @@
           "type": "collection",
           "settings": {
             "collection": "art",
-            "products_count": 8,
+            "products_count": 50,
             "title": "SHOP WALL DECOR",
             "link_url": "",
             "link_text": "View all"
