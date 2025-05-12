@@ -96,7 +96,7 @@
         "subheading_BhfK4P": {
           "type": "subheading",
           "settings": {
-            "text": "The Polo That Tops Them All."
+            "text": "Host with The Most. Every time."
           }
         },
         "richtext_R77g3t": {
@@ -123,10 +123,10 @@
       "custom_css": [],
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_0c510c42-195b-4452-a083-842ec2bd6c18.jpg",
+        "image": "shopify://shop_images/tsg_barrier_rose_altweb.jpg",
         "reveal_on_scroll": false,
         "image_position": "end",
-        "content_width": "lg",
+        "content_width": "md",
         "remove_vertical_spacing": true
       }
     },
@@ -179,7 +179,7 @@
       "settings": {
         "separate_section_with_border": false,
         "hide_product_information": false,
-        "stack_products": false,
+        "stack_products": true,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
@@ -226,7 +226,7 @@
       ],
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_bd3e39ae-541a-48cb-b800-931e6c36d14a.jpg",
+        "image": "shopify://shop_images/051225-bar-and-home-grill-1.jpg",
         "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "sm",
@@ -280,14 +280,14 @@
       ],
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
-        "stack_products": false,
+        "stack_products": true,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "Featured collection"
+        "subheading": ""
       }
     },
     "main": {
