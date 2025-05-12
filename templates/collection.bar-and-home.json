@@ -287,6 +287,73 @@
         "promotion_link_url": "shopify://pages/tsg-apparel-co"
       }
     },
+    "image_with_text_84zA34": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ecyy87": {
+          "type": "heading",
+          "settings": {
+            "text": "Home Goods",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_iFxr4R": {
+          "type": "subheading",
+          "settings": {
+            "text": "Not your First apartment anymore."
+          }
+        },
+        "richtext_fkerJ9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ecyy87",
+        "subheading_iFxr4R",
+        "richtext_fkerJ9"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/051225-bar-and-home-art-1.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "featured_collections_n8BcxQ": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_PjA6QL": {
+          "type": "collection",
+          "settings": {
+            "collection": "art",
+            "products_count": 8,
+            "title": "SHOP WALL DECOR",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_PjA6QL"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "slideshow_HBU8dN": {
       "type": "slideshow",
       "blocks": {
@@ -382,6 +449,8 @@
     "featured_collections_EUVtA3",
     "featured_collections_xA8EMp",
     "main",
+    "image_with_text_84zA34",
+    "featured_collections_n8BcxQ",
     "slideshow_HBU8dN",
     "rich_text_gYzfAf",
     "newsletter_CqViA7"
