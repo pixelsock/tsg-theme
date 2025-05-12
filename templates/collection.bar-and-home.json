@@ -44,14 +44,14 @@
         "heading_nmDKqh": {
           "type": "heading",
           "settings": {
-            "text": "POLO SHIRTS",
+            "text": "Bar & Home",
             "heading_tag": "h1"
           }
         },
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Golf courses. Poolside. Casual Friday. Or just getting sh*t done around the house: It's the first thing we gravitate towards as soon as Spring starts to bud up from the ground - when the temps go up, so do the sleeves.  From performance fabrics to classic staples like our TSG Drift cotton/spandex blended polo, our selection of polo shirts perfect for the spectrum of situations you may find the need to \"button up\" or down.</p>"
+            "content": "<p>TBD</p>"
           }
         },
         "link_L7EGTy": {
@@ -89,7 +89,7 @@
         "heading_QqnhjV": {
           "type": "heading",
           "settings": {
-            "text": "THE TOPPER POLO",
+            "text": "Bar Essentials",
             "heading_tag": "h1"
           }
         },
@@ -136,9 +136,9 @@
         "collection_Tnmx7t": {
           "type": "collection",
           "settings": {
-            "collection": "topper-polos",
+            "collection": "drinkware",
             "products_count": 8,
-            "title": "SHOP THE TOPPER POLOS",
+            "title": "SHOP DRINKWARE",
             "link_url": "",
             "link_text": ""
           }
@@ -158,13 +158,42 @@
         "subheading": ""
       }
     },
+    "featured_collections_T9MeBx": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_CQVyy7": {
+          "type": "collection",
+          "settings": {
+            "collection": "bar-accessories",
+            "products_count": 8,
+            "title": "Shop Bar Accessories",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_CQVyy7"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "image_with_text_yEhJTt": {
       "type": "image-with-text",
       "blocks": {
         "heading_hVDMYM": {
           "type": "heading",
           "settings": {
-            "text": "THE DRIFT POLO",
+            "text": "Grill Works",
             "heading_tag": "h1"
           }
         },
@@ -210,9 +239,9 @@
         "collection_bidMR6": {
           "type": "collection",
           "settings": {
-            "collection": "drift-polos",
+            "collection": "grill-cooking-tools",
             "products_count": 8,
-            "title": "SHOP THE DRIFT POLOS",
+            "title": "SHOP COOKING TOOLS",
             "link_url": "",
             "link_text": ""
           }
@@ -232,37 +261,33 @@
         "subheading": ""
       }
     },
-    "rich_text_b8jAqK": {
-      "type": "rich-text",
+    "featured_collections_xA8EMp": {
+      "type": "featured-collections",
       "blocks": {
-        "heading_eGrC7V": {
-          "type": "heading",
+        "collection_tEXVL9": {
+          "type": "collection",
           "settings": {
-            "text": "SHOP ALL POLOS",
-            "heading_tag": "h1"
-          }
-        },
-        "button_gghLFw": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "SHOP ALL POLOS",
-            "url": "",
-            "background": "",
-            "text_color": ""
+            "collection": "",
+            "products_count": 8,
+            "title": "SHOP COOK BOOKS",
+            "link_url": "",
+            "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "heading_eGrC7V",
-        "button_gghLFw"
+        "collection_tEXVL9"
       ],
-      "disabled": true,
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
         "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Featured collection"
       }
     },
     "main": {
@@ -386,9 +411,10 @@
     "rich_text_wz38A6",
     "image_with_text_bXrnij",
     "featured_collections_RqDqJG",
+    "featured_collections_T9MeBx",
     "image_with_text_yEhJTt",
     "featured_collections_EUVtA3",
-    "rich_text_b8jAqK",
+    "featured_collections_xA8EMp",
     "main",
     "slideshow_HBU8dN",
     "rich_text_gYzfAf",
