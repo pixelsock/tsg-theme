@@ -92,17 +92,17 @@
         },
         "c8725d76-3b46-45a7-8f20-e1fec452f9c3": {
           "type": "mega_menu",
-          "disabled": true,
           "settings": {
             "menu_item": "Bar & Home",
-            "images_position": "right",
+            "images_position": "left",
             "image_1": "shopify://shop_images/tsg_barrier_rose_altweb.jpg",
             "image_1_heading": "The Bar is OPEN!",
             "image_1_text": "Shop the collection of goods for entertaining and grilling.",
-            "image_1_link": "",
-            "image_2_heading": "",
-            "image_2_text": "",
-            "image_2_link": ""
+            "image_1_link": "shopify://collections/bar-home-1",
+            "image_2": "shopify://shop_images/traveller-glasses-main-1000x_0006__A7R8066.jpg",
+            "image_2_heading": "Shop our Personalized",
+            "image_2_text": "Collection of Leather Drinkware and Accessories Made in USA",
+            "image_2_link": "shopify://collections/traveller-trading-tsg-leather-goods"
           }
         },
         "mega_menu_TmAzLb": {
