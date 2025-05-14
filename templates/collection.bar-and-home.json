@@ -112,7 +112,7 @@
           "type": "collection",
           "settings": {
             "collection": "drinkware",
-            "products_count": 12,
+            "products_count": 8,
             "title": "SHOP DRINKWARE",
             "link_url": "",
             "link_text": "View All"
@@ -127,7 +127,7 @@
         "hide_product_information": false,
         "stack_products": true,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
+        "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.3,
         "vertical_spacing_factor": 1,
         "subheading": ""
