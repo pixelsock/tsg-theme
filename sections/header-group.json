@@ -92,6 +92,7 @@
         },
         "c8725d76-3b46-45a7-8f20-e1fec452f9c3": {
           "type": "mega_menu",
+          "disabled": true,
           "settings": {
             "menu_item": "Bar & Home",
             "images_position": "right",
