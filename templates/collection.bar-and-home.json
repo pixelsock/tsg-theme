@@ -140,7 +140,7 @@
           "type": "collection",
           "settings": {
             "collection": "bar-accessories",
-            "products_count": 12,
+            "products_count": 8,
             "title": "Shop Bar Essentials",
             "link_url": "",
             "link_text": "View All"
