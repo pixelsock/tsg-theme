@@ -227,35 +227,33 @@
         "subheading": ""
       }
     },
-    "main": {
-      "type": "main-collection",
-      "disabled": true,
-      "custom_css": [
-        ".dot-checkbox {border-radius: 0px; height: 0.75rem; width: 0.75rem; inset-block-start: calc(0.35em + 1px); background: #f79e1b; border: 2px solid;}"
+    "featured_collections_cVGqkC": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_3NzbAx": {
+          "type": "collection",
+          "settings": {
+            "collection": "cookbooks",
+            "products_count": 8,
+            "title": "SHOP COOKBOOKS",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_3NzbAx"
       ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
+        "separate_section_with_border": true,
         "hide_product_information": false,
-        "show_variant_swatches": true,
-        "products_per_page": 24,
+        "stack_products": true,
         "products_per_row_mobile": "2",
-        "products_size_desktop": "large",
-        "show_grid_mode_selector": false,
-        "horizontal_spacing_factor": 0.5,
-        "vertical_spacing_factor": 0.5,
-        "filter_layout": "sidebar",
-        "quick_links_menu": "",
-        "show_sort_by": true,
-        "show_filters": true,
-        "show_results_count": false,
-        "show_filter_group_name": true,
-        "show_empty_filter_values": true,
-        "show_filter_values_count": true,
-        "show_color_swatch": true,
-        "open_filters_by_default": false,
-        "promotion_placement_order": "random",
-        "custom_promotion_placement_order": 2,
-        "enable_promotion_link": false,
-        "promotion_link_url": "shopify://pages/tsg-apparel-co"
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "image_with_text_84zA34": {
@@ -390,6 +388,37 @@
         "remove_vertical_spacing": false
       }
     },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "custom_css": [
+        ".dot-checkbox {border-radius: 0px; height: 0.75rem; width: 0.75rem; inset-block-start: calc(0.35em + 1px); background: #f79e1b; border: 2px solid;}"
+      ],
+      "settings": {
+        "hide_product_information": false,
+        "show_variant_swatches": true,
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "large",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 0.5,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": true,
+        "show_empty_filter_values": true,
+        "show_filter_values_count": true,
+        "show_color_swatch": true,
+        "open_filters_by_default": false,
+        "promotion_placement_order": "random",
+        "custom_promotion_placement_order": 2,
+        "enable_promotion_link": false,
+        "promotion_link_url": "shopify://pages/tsg-apparel-co"
+      }
+    },
     "newsletter_CqViA7": {
       "type": "newsletter",
       "custom_css": [],
@@ -418,11 +447,12 @@
     "featured_collections_T9MeBx",
     "image_with_text_yEhJTt",
     "featured_collections_EUVtA3",
-    "main",
+    "featured_collections_cVGqkC",
     "image_with_text_84zA34",
     "featured_collections_n8BcxQ",
     "slideshow_HBU8dN",
     "rich_text_gYzfAf",
+    "main",
     "newsletter_CqViA7"
   ]
 }
