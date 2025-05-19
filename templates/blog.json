@@ -15,7 +15,7 @@
         "show_blog_title": true,
         "show_rss_feed": false,
         "menu": "dispatch",
-        "feature_first_blog_post": false,
+        "feature_first_blog_post": true,
         "featured_post": "dispatches/250-years-later",
         "posts_per_page": 50,
         "sort_by": "date",
