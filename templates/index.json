@@ -42,6 +42,7 @@
         },
         "image_zFJCUD": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/030725-ss25-collection-pg-banner-DT.png",
             "mobile_image": "shopify://shop_images/030725-ss25-collection-pg-banner-mobile.png",
@@ -69,6 +70,7 @@
         },
         "image_Bj9NgQ": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/080723-F23-boone-pant-DT-hero.jpg",
             "mobile_image": "shopify://shop_images/tsg-boone-pant-alt-image-1000x_0000s_0001_tsg-f21-alt-images-15.jpg",
@@ -96,6 +98,7 @@
         },
         "image_dtHXgr": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/011425-SES-Winter-25-hero-DT_d2aa54ae-bad8-4f0c-aaac-d65ebe8ad420.jpg",
             "mobile_image": "shopify://shop_images/011425-SES-Winter-25-hero-mobile.jpg",
