@@ -294,35 +294,6 @@
         "remove_vertical_spacing": true
       }
     },
-    "featured_collections_pct488": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_Ymnmib": {
-          "type": "collection",
-          "settings": {
-            "collection": "home-accessories",
-            "products_count": 8,
-            "title": "SHOP HOME ACCESSORIES",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_Ymnmib"
-      ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.3,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
     "featured_collections_RzFTED": {
       "type": "featured-collections",
       "blocks": {
@@ -352,32 +323,31 @@
         "subheading": ""
       }
     },
-    "featured_collections_n8BcxQ": {
+    "featured_collections_pct488": {
       "type": "featured-collections",
       "blocks": {
-        "collection_PjA6QL": {
+        "collection_Ymnmib": {
           "type": "collection",
           "settings": {
-            "collection": "art",
-            "products_count": 12,
-            "title": "SHOP WALL DECOR",
+            "collection": "home-accessories",
+            "products_count": 8,
+            "title": "SHOP HOME ACCESSORIES",
             "link_url": "",
             "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "collection_PjA6QL"
+        "collection_Ymnmib"
       ],
-      "disabled": true,
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": true,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
+        "horizontal_spacing_factor": 0.3,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
@@ -508,9 +478,8 @@
     "featured_collections_EUVtA3",
     "featured_collections_cVGqkC",
     "image_with_text_84zA34",
-    "featured_collections_pct488",
     "featured_collections_RzFTED",
-    "featured_collections_n8BcxQ",
+    "featured_collections_pct488",
     "slideshow_HBU8dN",
     "rich_text_gYzfAf",
     "main",
