@@ -14,7 +14,7 @@
       "custom_css": [],
       "settings": {
         "content_width": "sm",
-        "image": "shopify://shop_images/011425-SES-Winter-25-hero-DT_d2aa54ae-bad8-4f0c-aaac-d65ebe8ad420.jpg",
+        "image": "shopify://shop_images/052225-mdw-spring-clearing-hero-dt.jpg",
         "mobile_image": "shopify://shop_images/011425-SES-Winter-25-hero-mobile.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
@@ -34,21 +34,6 @@
     "rich_text_7t3XAm": {
       "type": "rich-text",
       "blocks": {
-        "subheading_tgGpm3": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "SAVE UP TO 60% OFF | GREAT GEAR AT CRAZY DEALS"
-          }
-        },
-        "heading_NQ4hWH": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "SEASON'S END MARKDOWNS",
-            "heading_tag": "h1"
-          }
-        },
         "heading_hdGxRG": {
           "type": "heading",
           "settings": {
@@ -70,8 +55,6 @@
         }
       },
       "block_order": [
-        "subheading_tgGpm3",
-        "heading_NQ4hWH",
         "heading_hdGxRG",
         "subheading_HCxgRM",
         "richtext_MR4TxL"
