@@ -377,6 +377,56 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
+    "multiple-media-with-text": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/main1000x_0000s_0006_TSG_bamboo_riversidecheck_frontcopy.jpg",
+            "rotation": 0
+          }
+        },
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tsgtanneraltimages1000x_0001s_0003_TSG-Bluff-S23-Builder-32.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image-2",
+        "image-1"
+      ],
+      "custom_css": [
+        ".h3 {line-height: 1.2;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "separate_section_with_border": true,
+        "media_position_desktop": "after_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "separated",
+        "media_alignment": "start",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "start",
+        "subheading": "A TSGACO. BEST SELLER",
+        "title": "A feel good shirt, with a feel good story.",
+        "content": "<p>Let it be known: Inspiration comes in many forms.  One day we sat down and said, 'Brah, we love that Brooks Shirt, but what if we could wear it to dinner and the office and the club but without getting side-eyed by the \"boss\"?'</p><p>So here it is: The TSG Airetex™ Tanner Bamboo Button Down.  That's right...Bamboo!  Made from our Airetex™ Bamboo fabric, this is the newest and latest and greatest for a soft AF option so you can look the part and feel like a champ in the process.  </p>",
+        "button_1_text": "SHOP THE TANNERS",
+        "button_1_link": "shopify://products/tsg-tanner-button-down-shirt-high-country-check",
+        "button_1_style": "outline",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid",
+        "background": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "slideshow_BMAjgx": {
       "type": "slideshow",
       "blocks": {
@@ -685,56 +735,6 @@
         "content": "<p>Our Exclusive Wax-Coated Cotton and Spandex™ Blend at TSG.  We spent over 4+ years developing the lightest, but strongest blend of durable cotton twill we could.  Several dozen prototypes and even more Neosporin later, we have it perfected.  Have a field day in these.</p>",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "multiple-media-with-text": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/main1000x_0000s_0006_TSG_bamboo_riversidecheck_frontcopy.jpg",
-            "rotation": 0
-          }
-        },
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/tsgtanneraltimages1000x_0001s_0003_TSG-Bluff-S23-Builder-32.jpg",
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image-2",
-        "image-1"
-      ],
-      "custom_css": [
-        ".h3 {line-height: 1.2;}"
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "separate_section_with_border": true,
-        "media_position_desktop": "after_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "separated",
-        "media_alignment": "start",
-        "media_alignment_offset": 0,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "start",
-        "subheading": "A TSGACO. BEST SELLER",
-        "title": "A feel good shirt, with a feel good story.",
-        "content": "<p>Let it be known: Inspiration comes in many forms.  One day we sat down and said, 'Brah, we love that Brooks Shirt, but what if we could wear it to dinner and the office and the club but without getting side-eyed by the \"boss\"?'</p><p>So here it is: The TSG Airetex™ Tanner Bamboo Button Down.  That's right...Bamboo!  Made from our Airetex™ Bamboo fabric, this is the newest and latest and greatest for a soft AF option so you can look the part and feel like a champ in the process.  </p>",
-        "button_1_text": "SHOP THE TANNERS",
-        "button_1_link": "shopify://products/tsg-tanner-button-down-shirt-high-country-check",
-        "button_1_style": "outline",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid",
-        "background": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
       }
     },
     "slideshow_7cYzUq": {
@@ -1225,8 +1225,8 @@
     "slideshow",
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
-    "slideshow_BMAjgx",
     "multiple-media-with-text",
+    "slideshow_BMAjgx",
     "collection_list_UCmGTM",
     "collection_list_BJppBc",
     "slideshow_7cYzUq",
