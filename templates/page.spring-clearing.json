@@ -23,6 +23,8 @@
         "image_HAmQiM": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/052225-mdw-spring-cleaning-hero-dt.jpg",
+            "mobile_image": "shopify://shop_images/052225-mdw-spring-clearing-hero-mobile.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -294,6 +296,60 @@
         "subheading": ""
       }
     },
+    "rich_text_mKXXTd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_W3h964": {
+          "type": "heading",
+          "settings": {
+            "text": "THE NECESSITIES FOR...",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_L9tkAh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Getting your summer started off on the right foot.  And hopefully that right foot is going into some fishable water.</p>"
+          }
+        },
+        "button_ntiw84": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "solid",
+            "text": "SHOP NOW",
+            "url": "shopify://collections/tsg-apparel",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "image_87jewQ": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/s23-topper-polos-_2333x780_1883da6c-c3b1-4a36-9d3c-ab2bcde27980.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "heading_W3h964",
+        "richtext_L9tkAh",
+        "button_ntiw84",
+        "image_87jewQ"
+      ],
+      "custom_css": [
+        ".constrained-image {padding-top: 2rem;}"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "lg",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
     "e5971167-2fc4-4b51-a545-d1c14d7c618b": {
       "type": "collection-list",
       "blocks": {
@@ -378,15 +434,15 @@
       ],
       "custom_css": [],
       "settings": {
-        "separate_section_with_border": true,
-        "image_size": "sm",
+        "separate_section_with_border": false,
+        "image_size": "md",
         "show_text_outside": false,
         "space_items": true,
         "stack_collections": false,
         "collections_per_row_desktop": 4,
         "subheading": "",
-        "title": "THE NECESSITIES FOR...",
-        "content": "<p>Getting your summer started off on the right foot.  And hopefully that right foot is going into some fishable water.</p>",
+        "title": "",
+        "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
       }
@@ -455,61 +511,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "rich_text_mKXXTd": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_W3h964": {
-          "type": "heading",
-          "settings": {
-            "text": "YOUR SUMMER CLOSET UPGRADE",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_L9tkAh": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>From the Topper Polo to our Hatteras Pants, if you're not cooler this summer than you were last year, then sounds like those \"light beers\" weren't that light.</p>"
-          }
-        },
-        "button_ntiw84": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "style": "solid",
-            "text": "SHOP NOW",
-            "url": "shopify://collections/tsg-apparel",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "image_87jewQ": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/s23-topper-polos-_2333x780_1883da6c-c3b1-4a36-9d3c-ab2bcde27980.jpg",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        }
-      },
-      "block_order": [
-        "heading_W3h964",
-        "richtext_L9tkAh",
-        "button_ntiw84",
-        "image_87jewQ"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".constrained-image {padding-top: 2rem;}"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "content_width": "lg",
-        "text_position": "start",
-        "remove_vertical_spacing": false
-      }
-    },
     "featured_collections_EJbhpb": {
       "type": "featured-collections",
       "blocks": {
@@ -568,10 +569,10 @@
     "collection_list_y7iqCk",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "featured_collections_xCLLxj",
+    "rich_text_mKXXTd",
     "e5971167-2fc4-4b51-a545-d1c14d7c618b",
     "40d836d0-5c70-4341-b9cb-b40c858de1d6",
     "rich_text_hMxmxq",
-    "rich_text_mKXXTd",
     "featured_collections_EJbhpb",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
