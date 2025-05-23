@@ -549,7 +549,7 @@
             "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
+            "content_max_width": 1200,
             "button_1_text": "",
             "button_1_link": "",
             "button_1_style": "solid",
@@ -578,7 +578,7 @@
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
-        "media_size": "lg",
+        "media_size": "md",
         "autoplay": true,
         "autoplay_pause_on_video": true,
         "cycle_speed": 5,
