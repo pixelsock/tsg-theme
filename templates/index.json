@@ -44,8 +44,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/030725-ss25-collection-pg-banner-DT.png",
-            "mobile_image": "shopify://shop_images/030725-ss25-collection-pg-banner-mobile.png",
+            "image": "shopify://shop_images/052225-mdw-spring-cleaning-hero-dt.jpg",
+            "mobile_image": "shopify://shop_images/052225-mdw-spring-clearing-hero-mobile.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
