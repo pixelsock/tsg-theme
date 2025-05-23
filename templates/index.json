@@ -460,8 +460,8 @@
         "subheading": "A TSGACO. BEST SELLER",
         "title": "A feel good shirt, with a feel good story.",
         "content": "<p>Let it be known: Inspiration comes in many forms.  One day we sat down and said, 'Brah, we love that Brooks Shirt, but what if we could wear it to dinner and the office and the club but without getting side-eyed by the \"boss\"?'</p><p>So here it is: The TSG Airetex™ Tanner Bamboo Button Down.  That's right...Bamboo!  Made from our Airetex™ Bamboo fabric, this is the newest and latest and greatest for a soft AF option so you can look the part and feel like a champ in the process.  </p>",
-        "button_1_text": "SHOP THE TANNERS",
-        "button_1_link": "shopify://products/tsg-tanner-button-down-shirt-high-country-check",
+        "button_1_text": "SHOP AIRETEX™ SHIRTS",
+        "button_1_link": "shopify://collections/airetex-bamboo-apparel-collection",
         "button_1_style": "outline",
         "button_2_text": "",
         "button_2_link": "",
@@ -470,6 +470,92 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
+      }
+    },
+    "slideshow_KgiFpE": {
+      "type": "slideshow",
+      "blocks": {
+        "image_9w6Xz9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/021224-Brooks-SS-hero-DT-v2.jpg",
+            "mobile_image": "shopify://shop_images/042225-airetex-collection-images-2.jpg",
+            "subheading": "Learn <em>why</em> Airetex™ is",
+            "title": "The Better Bamboo",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "FIND OUT MORE",
+            "button_1_link": "shopify://collections/airetex-bamboo-apparel-collection",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(57deg, rgba(0, 0, 0, 1) 7%, rgba(54, 212, 255, 0) 47%, rgba(43, 252, 135, 0) 83%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_9w6Xz9"
+      ],
+      "custom_css": [
+        ".h6 {margin-top: -0.5rem; font-size: 24px;}"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "auto",
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 4,
+        "background": "#ffffff",
+        "controls_color": "#ffffff"
+      }
+    },
+    "rich_text_99iQke": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_QTDNTg": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_hzC4tc": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_yChUUg": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QTDNTg",
+        "heading_hzC4tc",
+        "richtext_yChUUg"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "slideshow_BMAjgx": {
@@ -1072,54 +1158,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "slideshow_KgiFpE": {
-      "type": "slideshow",
-      "blocks": {
-        "image_9w6Xz9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/021224-Brooks-SS-hero-DT-v2.jpg",
-            "mobile_image": "shopify://shop_images/042225-airetex-collection-images-2.jpg",
-            "subheading": "Learn <em>why</em> Airetex™ is",
-            "title": "The Better Bamboo",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "content_max_width": 780,
-            "button_1_text": "FIND OUT MORE",
-            "button_1_link": "shopify://collections/airetex-bamboo-apparel-collection",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(57deg, rgba(0, 0, 0, 1) 7%, rgba(54, 212, 255, 0) 47%, rgba(43, 252, 135, 0) 83%)"
-          }
-        }
-      },
-      "block_order": [
-        "image_9w6Xz9"
-      ],
-      "custom_css": [
-        ".h6 {margin-top: -0.5rem; font-size: 24px;}"
-      ],
-      "settings": {
-        "allow_transparent_header": false,
-        "show_next_section_button": false,
-        "media_size": "auto",
-        "autoplay": false,
-        "autoplay_pause_on_video": false,
-        "cycle_speed": 4,
-        "background": "#ffffff",
-        "controls_color": "#ffffff"
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "disabled": true,
@@ -1171,6 +1209,8 @@
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "slideshow_fHcLry",
     "multiple-media-with-text",
+    "slideshow_KgiFpE",
+    "rich_text_99iQke",
     "slideshow_BMAjgx",
     "collection_list_UCmGTM",
     "collection_list_BJppBc",
@@ -1178,7 +1218,6 @@
     "collection_list_DHReAP",
     "rich_text_WpqxEn",
     "rich_text_yPCbG8",
-    "slideshow_KgiFpE",
     "blog-posts",
     "newsletter"
   ]
