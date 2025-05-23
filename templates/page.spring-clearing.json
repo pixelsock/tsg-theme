@@ -23,8 +23,6 @@
         "image_HAmQiM": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/060124-Summah-DT-hero_0ed5e1cf-65ea-41ba-9a58-ae3b5f1cd96e.jpg",
-            "mobile_image": "shopify://shop_images/060124-Summah-mobile-hero_de46cdd7-a344-4dc2-bbff-f62b2c09d1a0.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -95,11 +93,41 @@
         "heading_wq77n6",
         "richtext_pjDaQH"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "content_width": "md",
         "text_position": "center",
         "remove_vertical_spacing": false
+      }
+    },
+    "featured_collections_eNdJpR": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_zG4i7a": {
+          "type": "collection",
+          "settings": {
+            "collection": "shorts",
+            "products_count": 8,
+            "title": "SHOP THE NEWNESS FOR SUMMER",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_zG4i7a"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 6,
+        "horizontal_spacing_factor": 0.3,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "collection_list_y7iqCk": {
@@ -118,7 +146,7 @@
             "button_link": "shopify://products/tsg-topper-polo-teal-cast-stripe",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "button_background": "",
             "button_text_color": ""
           }
@@ -165,6 +193,7 @@
         "collection_87jfG6",
         "collection_mHXifP"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "separate_section_with_border": true,
@@ -222,6 +251,7 @@
         "button_6FPewP",
         "image_cBGEmc"
       ],
+      "disabled": true,
       "custom_css": [
         ".constrained-image {padding-top: 2rem;}"
       ],
@@ -249,6 +279,7 @@
       "block_order": [
         "collection_jbkRGJ"
       ],
+      "disabled": true,
       "custom_css": [
         ".h2 {font-size: large;}"
       ],
@@ -269,15 +300,15 @@
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "best-sellers",
+            "collection": "drift-collection",
             "image": "shopify://shop_images/tsg-s24-builder-001-25.jpg",
             "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
+            "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "BEST SELLERS",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify://collections/best-sellers",
-            "text_color": "#ffffff",
+            "title": "DRIFT POLOS",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#f7f6f3",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "button_background": "",
@@ -287,14 +318,14 @@
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrivals-this-week-tsg",
-            "image": "shopify://shop_images/022624-ridge-short-hero-mobile.jpg",
+            "collection": "airetex-brooks-shirts",
+            "image": "shopify://shop_images/ss25-web-images-alt-1000x_0017_tsg-charleston-s25-builder-0160_ad2827e6-cb8e-448b-9171-803cf929a412.jpg",
             "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
+            "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "NEW ARRIVALS",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify://collections/new-arrivals-this-week-tsg",
+            "title": "BROOKS SHIRTS",
+            "button_text": "",
+            "button_link": "shopify://collections/airetex-brooks-shirts",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -306,13 +337,13 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/burchsupplybarrelmain1000x_0006_Layer51.jpg",
+            "image": "shopify://shop_images/ss25-web-images-alt-1000x_0011_tsg-charleston-s25-builder-0038.jpg",
             "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
+            "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "GRILL GEAR & GOODS",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify://collections/grill-cooking-tools",
+            "title": "DRIFT HOODY",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-drift-hoody-smoke-blue",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -332,7 +363,7 @@
         "image_size": "sm",
         "show_text_outside": false,
         "space_items": true,
-        "stack_collections": true,
+        "stack_collections": false,
         "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "THE NECESSITIES FOR...",
@@ -409,7 +440,7 @@
         "image_size": "sm",
         "show_text_outside": false,
         "space_items": true,
-        "stack_collections": true,
+        "stack_collections": false,
         "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "",
@@ -500,6 +531,7 @@
         },
         "button_ntiw84": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "solid",
             "text": "SHOP NOW",
@@ -510,6 +542,7 @@
         },
         "image_87jewQ": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/s23-topper-polos-_2333x780_1883da6c-c3b1-4a36-9d3c-ab2bcde27980.jpg",
             "width_mode": "full_width",
@@ -540,7 +573,7 @@
         "collection_BWKqbq": {
           "type": "collection",
           "settings": {
-            "collection": "tsg-apparel",
+            "collection": "spring-summer-2025-new-arrivals",
             "products_count": 8,
             "title": "",
             "link_url": "shopify://collections/tsg-apparel",
@@ -588,6 +621,7 @@
     "main",
     "slideshow_rL8YMj",
     "rich_text_mpbJeB",
+    "featured_collections_eNdJpR",
     "collection_list_y7iqCk",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "featured_collections_xCLLxj",
