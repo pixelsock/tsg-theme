@@ -377,6 +377,56 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
+    "slideshow_BMAjgx": {
+      "type": "slideshow",
+      "blocks": {
+        "video_W3ezgN": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/tsg_website__38s_-_16x9 (720p).mp4",
+            "mobile_video": "shopify://files/videos/Vertical 30s - with guns.mp4",
+            "allow_sound": true,
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 1200,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_W3ezgN"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 1000px) {.h1 {font-size: 36px; } .h6 {font-size: 36px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
+        "@media only screen and (max-width: 900px) {.h1 {font-size: 24px; } .h6 {font-size: 24px; }}"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "md",
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 5,
+        "background": "#f7f6f3",
+        "controls_color": "#ffffff"
+      }
+    },
     "collection_list_UCmGTM": {
       "type": "collection-list",
       "blocks": {
@@ -536,56 +586,6 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
-    "slideshow_BMAjgx": {
-      "type": "slideshow",
-      "blocks": {
-        "video_W3ezgN": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/tsg_website__38s_-_16x9 (720p).mp4",
-            "mobile_video": "shopify://files/videos/Vertical 30s - with guns.mp4",
-            "allow_sound": true,
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 1200,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        }
-      },
-      "block_order": [
-        "video_W3ezgN"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 1000px) {.h1 {font-size: 36px; } .h6 {font-size: 36px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
-        "@media only screen and (max-width: 900px) {.h1 {font-size: 24px; } .h6 {font-size: 24px; }}"
-      ],
-      "settings": {
-        "allow_transparent_header": false,
-        "show_next_section_button": false,
-        "media_size": "md",
-        "autoplay": false,
-        "autoplay_pause_on_video": false,
-        "cycle_speed": 5,
-        "background": "#f7f6f3",
-        "controls_color": "#ffffff"
-      }
-    },
     "collection_list_BJppBc": {
       "type": "collection-list",
       "blocks": {
@@ -668,6 +668,7 @@
         "collection_kyDhtF",
         "collection_DP6FKe"
       ],
+      "disabled": true,
       "custom_css": [
         ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}",
         ".h2 {font-size: 24pt; line-height: 1;}"
@@ -1224,10 +1225,10 @@
     "slideshow",
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
-    "collection_list_UCmGTM",
     "slideshow_BMAjgx",
-    "collection_list_BJppBc",
     "multiple-media-with-text",
+    "collection_list_UCmGTM",
+    "collection_list_BJppBc",
     "slideshow_7cYzUq",
     "collection_list_DHReAP",
     "rich_text_WpqxEn",
