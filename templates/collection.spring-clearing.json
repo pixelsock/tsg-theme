@@ -11,6 +11,7 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "content_width": "sm",
@@ -36,7 +37,7 @@
         "heading_hdGxRG": {
           "type": "heading",
           "settings": {
-            "text": "SAVE AT LEAST 25% OFF",
+            "text": "SPRING CLEARING SALE",
             "heading_tag": "h2"
           }
         },
