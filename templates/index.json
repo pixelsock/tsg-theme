@@ -643,7 +643,7 @@
         "collection_GRQRQt"
       ],
       "custom_css": [
-        ".container {margin-bottom: -1.75rem; margin-top: -0.75rem;}",
+        ".container {margin-bottom: -0.75rem; margin-top: -0.75rem;}",
         ".h2 {font-size: 24pt; line-height: 1;}"
       ],
       "settings": {
@@ -1058,7 +1058,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/021224-Brooks-SS-hero-DT-v2.jpg",
-            "mobile_image": "shopify://shop_images/040324-BRN-collection-hero-mobile_79fa6e30-a4ab-40e4-8cd2-72d69e337a79.jpg",
+            "mobile_image": "shopify://shop_images/042225-airetex-collection-images-2.jpg",
             "subheading": "Learn <em>why</em> Airetex™ is",
             "title": "The Better Bamboo",
             "mobile_text_position": "place-self-end-center text-center",
