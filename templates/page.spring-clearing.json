@@ -350,12 +350,31 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "collection_aCfaXn": {
+          "type": "collection",
+          "settings": {
+            "collection": "tsg-seasons-end-sale",
+            "image": "shopify://shop_images/brookssscoastalalt1000x_0000s_0000_TSG-Bluff-S23-Builder-148.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "MARKDOWNS & SALE ITEMS",
+            "button_text": "",
+            "button_link": "shopify://collections/tsg-seasons-end-sale",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-2",
         "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-1",
-        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3"
+        "template--16783006138600__e5971167-2fc4-4b51-a545-d1c14d7c618b-collection-3",
+        "collection_aCfaXn"
       ],
       "custom_css": [],
       "settings": {
@@ -364,7 +383,7 @@
         "show_text_outside": false,
         "space_items": true,
         "stack_collections": false,
-        "collections_per_row_desktop": 3,
+        "collections_per_row_desktop": 4,
         "subheading": "",
         "title": "THE NECESSITIES FOR...",
         "content": "<p>Getting your summer started off on the right foot.  And hopefully that right foot is going into some fishable water.</p>",
