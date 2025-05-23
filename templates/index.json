@@ -579,10 +579,10 @@
         "allow_transparent_header": false,
         "show_next_section_button": false,
         "media_size": "md",
-        "autoplay": true,
-        "autoplay_pause_on_video": true,
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
         "cycle_speed": 5,
-        "background": "#000000",
+        "background": "#f7f6f3",
         "controls_color": "#ffffff"
       }
     },
