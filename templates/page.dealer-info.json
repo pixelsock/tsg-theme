@@ -37,22 +37,39 @@
         "overlay_opacity": 100
       }
     },
-    "custom_liquid_GHwxjR": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "custom_css": [],
+    "rich_text_3gJJ6N": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QJFH77": {
+          "type": "heading",
+          "settings": {
+            "text": "TSG DEALER LOCATOR",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_QwCh9m": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We love great gear, and we love working with great people. Meet the marriage of both at our TSG dealers.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QJFH77",
+        "richtext_QwCh9m"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style type=\"text/css\">\n        body {\n            padding-top: 20px;\n            padding-bottom: 20px;\n            font-family: Helvetica;\n            font-weight: 300;\n        }\n\n        form {\n            margin-bottom: 18px;\n            border-top: 1px solid black;\n            border-bottom: 1px solid black;\n        }\n\n        .form-group {\n            display: flex;\n            justify-content: flex-start;\n            flex-direction: column;\n            margin: 2rem 0;\n        }\n\n        .control-label {\n            font-weight: 700;\n            text-transform: uppercase;\n            color: #5A5A5A;\n            margin-bottom: 0.5rem;\n        }\n\n        /* Custom page header */\n        .header {\n            margin-bottom: 10px;\n        }\n\n        .header h1 {\n            margin: 10px 0;\n            font-size: 24px;\n            font-weight: 300;\n            font-size: 1.25rem;\n            padding-bottom: 1rem;\n            color: #5A5A5A;\n            font-weight: 200;\n        }\n\n        .required-fields {\n            text-align: right;\n        }\n\n        .required-fields span {\n            color: #a94442;\n            font-weight: bold;\n        }\n\n        .list-group-item label {\n            font-weight: normal;\n            margin-top: 17px;\n        }\n\n        .list-group-item label input[type=\"checkbox\"] {\n            margin-right: 4px;\n        }\n\n        .form-group span.required {\n            position: absolute;\n            top: 0;\n            right: 0;\n            font-size: 20px;\n            color: #a94442;\n            font-weight: bold;\n            user-select: none;\n        }\n\n        label.error {\n            color: #a94442;\n            font-weight: bold;\n            margin-top: 4px;\n        }\n\n        .form-actions {\n            margin: 25px 0;\n        }\n\n        .panel-group .panel-title .closed-icon,\n        .panel-group .panel-title .open-icon {\n            margin-right: 0.5em;\n            top: 2px;\n        }\n\n        .panel-group .panel-title a:hover,\n        .panel-group .panel-title a:active {\n            text-decoration: none;\n        }\n\n        .panel-group .panel-title a:hover .text,\n        .panel-group .panel-title a:active .text {\n            text-decoration: underline;\n        }\n\n        .panel-group .panel-title .closed-icon {\n            display: none;\n        }\n\n        .panel-group.closed .panel-title .open-icon {\n            display: none;\n        }\n\n        .panel-group.closed .panel-title .closed-icon {\n            display: inline;\n        }\n\n        .footer {\n            padding-top: 18px;\n            border-top: 1px solid #e5e5e5;\n        }\n\n        @media (min-width: 768px) {\n            .container {\n                max-width: 730px;\n    text-align: left;\n            }\n        }\n\n        .radio {\n            margin: 0.25rem 0;\n        }\n\n        .radio input {\n            margin: 0 0 0.5rem 0;\n            height: 0.625rem;\n        }\n\n        .body-style {\n            padding: 2rem;\n        }\n\n        .container-style {\n            margin: auto;\n        }\n\n        .input-style {\n            margin: 0.25rem 0 1.5rem 0;\n            max-width: 34rem;\n            width: 100%;\n            height: 2rem;\n            /* border-radius: 1rem; */\n            border: none;\n            background: #E7E7E7;\n        }\n\n        .unsubscribe-label-style,\n        .radio-label-style {\n            font-size: 0.875rem;\n            color: #8F8F8F;\n        }\n\n        .unsubscribe-span-style {\n            /* margin: 0 0 1.5rem 0; */\n            font-size: 0.75rem;\n            display: flex;\n            font-style: italic;\n            color: #8F8F8F;\n        }\n\n        .radio-div-style {\n            display: flex;\n            flex-direction: column;\n        }\n\n        .update-button-style {\n            font-weight: 700;\n            font-size: 0.75rem;\n            text-transform: uppercase;\n            letter-spacing: 0.025rem;\n            width: 12rem;\n            height: 2rem;\n            color: white;\n            border: none;\n            /* border-radius: 1rem; */\n            background-image: linear-gradient(rgb(237, 138, 0), rgb(237, 138, 0)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));\n        }\n\n        .flex-1 {\n            flex: 1;\n        }\n    </style>\n<div class=\"container container-style\">\n        <form action=\"\" id=\"preferences_form\" method=\"POST\" role=\"form\" class=\"form-horizontal\">\n            <input type=\"hidden\" name=\"$fields\" value=\"EmailInterests,EmailFrequency\">\n            <input type=\"hidden\" name=\"$list_fields\" value=\"EmailInterests\">\n            <div class=\"form-group\">\n                <label for=\"frequency\" class=\"col-sm-3 control-label\">How often would you like to hear from us?</label>\n                <div class=\"col-sm-9 radio-div-style\">\n                    <div class=\"radio\">\n                        <label class=\"radio-label-style\">\n                            <input type=\"radio\" name=\"EmailFrequency\" id=\"email_frequency_0\" value=\"All\">\n                            Every email (in the know)\n                        </label>\n                    </div>\n                    <div class=\"radio\">\n                        <label class=\"radio-label-style\">\n                            <input type=\"radio\" name=\"EmailFrequency\" id=\"email_frequency_1\" value=\"Weekly\">\n                            Once a month (best of the best)\n                        </label>\n                    </div>\n                    <div class=\"radio\">\n                        <label class=\"radio-label-style\">\n                            <input type=\"radio\" name=\"EmailFrequency\" id=\"email_frequency_1\" value=\"Weekly\">\n                            Only when there's a sale and new releases\n                        </label>\n                    </div>\n                    <div class=\"radio\">\n                        <label class=\"radio-label-style\">\n                            <input type=\"radio\" name=\"EmailFrequency\" id=\"email_frequency_2\" value=\"Monthly\">\n                            Never, unsubscribe me\n                        </label>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-group\">\n                <label for=\"interests\" class=\"col-sm-3 control-label\">Interests</label>\n                <div class=\"col-sm-9 radio-div-style\">\n                    <div class=\"radio\">\n                        <label class=\"radio-label-style\">\n                            <input type=\"radio\" name=\"EmailInterests\" id=\"email_interest_0\" value=\"All\">\n                            Fly Goods\n                        </label>\n                    </div>\n                    <div class=\"radio\">\n                        <label class=\"radio-label-style\">\n                            <input type=\"radio\" name=\"EmailInterests\" id=\"email_interest_1\" value=\"Weekly\">\n                            Field Gear\n                        </label>\n                    </div>\n                    <div class=\"radio\">\n                        <label class=\"radio-label-style\">\n                            <input type=\"radio\" name=\"EmailInterests\" id=\"email_interest_2\" value=\"Monthly\">\n                            All Outdoor Goods\n                        </label>\n                    </div>\n                    <div class=\"radio\">\n                        <label class=\"radio-label-style\">\n                            <input type=\"radio\" name=\"EmailInterests\" id=\"email_interest_2\" value=\"Monthly\">\n                            Style and Apparel\n                        </label>\n                    </div>\n                    <div class=\"radio\">\n                        <label class=\"radio-label-style\">\n                            <input type=\"radio\" name=\"EmailInterests\" id=\"email_interest_2\" value=\"Monthly\">\n                            Everything\n                        </label>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-group\">\n                <label for=\"email\" class=\"col-sm-3 control-label\">Email Address<span class=\"required\">*</span></label>\n                <div class=\"col-sm-9 flex-1\">\n                    <input type=\"email\" class=\"input-style\" id=\"email\" name=\"$email\" value=\"\">\n                    <span class=\"unsubscribe-span-style\">Please note, if you unsubscribe from marketing emails you may\n                        still receive emails from us such as order and shipping confirmations or emails about your\n                        account.</span>\n                </div>\n            </div>\n            <div class=\"clearfix form-actions\">\n                <div class=\"pull-right\">\n                    <button type=\"submit\" class=\"btn btn-default btn-primary update-button-style\">Update\n                        Preferences\n                    </button>\n                </div>\n            </div>\n        </form>\n    </div>",
-        "text_alignment": "center"
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "main": {
       "type": "main-page",
       "settings": {
-        "show_title": true,
+        "show_title": false,
         "page_width": "md"
       }
     },
@@ -114,7 +131,7 @@
   },
   "order": [
     "6f24ea95-3114-45ea-82c1-8817e5d8508d",
-    "custom_liquid_GHwxjR",
+    "rich_text_3gJJ6N",
     "main",
     "rich_text_idhbRK",
     "contact_B6ztYj",
