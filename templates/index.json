@@ -42,7 +42,6 @@
         },
         "image_zFJCUD": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/052225-mdw-spring-clearing-hero-dt.jpg",
             "mobile_image": "shopify://shop_images/052225-mdw-spring-clearing-hero-mobile_0812326d-2760-41fd-ae1e-713f8ab98d14.jpg",
