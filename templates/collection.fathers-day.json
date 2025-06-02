@@ -205,7 +205,7 @@
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image": "shopify://shop_images/072524-airetex-collection-alt-image-3200x1000.png",
         "reveal_on_scroll": true,
         "image_position": "start",
