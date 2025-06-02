@@ -62,6 +62,12 @@
             "text": "CHECK OUT THE SELECTION BELOW."
           }
         },
+        "liquid_iymgHP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p></p>"
+          }
+        },
         "image_TCNH6H": {
           "type": "image",
           "settings": {
@@ -77,6 +83,7 @@
         "heading_nmDKqh",
         "richtext_Eiht3r",
         "subheading_7aTfEk",
+        "liquid_iymgHP",
         "image_TCNH6H"
       ],
       "settings": {
