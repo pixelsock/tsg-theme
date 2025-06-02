@@ -65,6 +65,13 @@
             "content": "<p>The Ultimate One-Stop-Curated-Shop for Father's Day.  Here's our list of no-brainer gift ideas for Father's Day, because trust us, he DOES NOT want a tie again.  Check out the hand-picked collection of our best-selling and best-received gift ideas this for Father's Day.   From fly rod kits that y'all can enjoy together to new shirts without a club logo, get something for the Ole' Man he won't soon forget.</p>"
           }
         },
+        "heading_HAJb63": {
+          "type": "heading",
+          "settings": {
+            "text": "CHECK OUT THE COLLECTION BELOW and ENJOY THE BIG SMILE on the Ol' Man's Face this year.",
+            "heading_tag": "h4"
+          }
+        },
         "subheading_7aTfEk": {
           "type": "subheading",
           "disabled": true,
@@ -84,6 +91,7 @@
         "image_TCNH6H",
         "heading_nmDKqh",
         "richtext_Eiht3r",
+        "heading_HAJb63",
         "subheading_7aTfEk",
         "liquid_iymgHP"
       ],
