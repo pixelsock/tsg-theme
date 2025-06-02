@@ -37,6 +37,7 @@
       "blocks": {
         "subheading_3D3ibh": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "For the dad who has everything, we have something."
           }
@@ -45,7 +46,7 @@
           "type": "heading",
           "settings": {
             "text": "{{ collection.title }}",
-            "heading_tag": "h3"
+            "heading_tag": "h1"
           }
         },
         "richtext_Eiht3r": {
@@ -60,13 +61,23 @@
           "settings": {
             "text": "CHECK OUT THE SELECTION BELOW."
           }
+        },
+        "image_TCNH6H": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/060225-fathers-day-collection-hero-dt-top.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
         }
       },
       "block_order": [
         "subheading_3D3ibh",
         "heading_nmDKqh",
         "richtext_Eiht3r",
-        "subheading_7aTfEk"
+        "subheading_7aTfEk",
+        "image_TCNH6H"
       ],
       "settings": {
         "separate_section_with_border": true,
