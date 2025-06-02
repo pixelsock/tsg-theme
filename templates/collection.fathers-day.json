@@ -11,6 +11,7 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
+      "disabled": true,
       "custom_css": [
         "{text-align: left;}"
       ],
@@ -37,7 +38,6 @@
       "blocks": {
         "subheading_3D3ibh": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
             "text": "For the dad who has everything, we have something."
           }
@@ -303,6 +303,7 @@
       "block_order": [
         "image_nxJkzh"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
@@ -314,35 +315,33 @@
         "controls_color": "#ffffff"
       }
     },
-    "rich_text_qTPpq9": {
+    "rich_text_ExgMdc": {
       "type": "rich-text",
       "blocks": {
-        "subheading_cY8LaH": {
+        "subheading_CjYzNA": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
-            "text": "Subheading"
+            "text": "HAND CHOSEN...."
           }
         },
-        "heading_mrnDwM": {
+        "heading_rWaqk9": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "text": "Heading",
+            "text": "TSG STAFF PICKS",
             "heading_tag": "h1"
           }
         },
-        "richtext_iKDhDW": {
+        "richtext_Pt6wR7": {
           "type": "richtext",
           "settings": {
-            "content": ""
+            "content": "<p>What we're buying for our dads.  From new Spring/Summer arrivals to Ole' Glory herself, we have a pile of gifts and gear to keep the Old Man happy and occupied.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_cY8LaH",
-        "heading_mrnDwM",
-        "richtext_iKDhDW"
+        "subheading_CjYzNA",
+        "heading_rWaqk9",
+        "richtext_Pt6wR7"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
@@ -431,7 +430,7 @@
     "image_with_text_T9NQaR",
     "rich_text_Qhhpz8",
     "slideshow_Lb9q8g",
-    "rich_text_qTPpq9",
+    "rich_text_ExgMdc",
     "main",
     "rich_text_gYzfAf",
     "newsletter_CqViA7"
