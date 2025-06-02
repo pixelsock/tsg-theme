@@ -326,17 +326,17 @@
     "rich_text_ExgMdc": {
       "type": "rich-text",
       "blocks": {
-        "subheading_CjYzNA": {
-          "type": "subheading",
-          "settings": {
-            "text": "HAND CHOSEN...."
-          }
-        },
         "heading_rWaqk9": {
           "type": "heading",
           "settings": {
             "text": "TSG STAFF PICKS",
             "heading_tag": "h1"
+          }
+        },
+        "subheading_CjYzNA": {
+          "type": "subheading",
+          "settings": {
+            "text": "HAND CHOSEN...."
           }
         },
         "richtext_Pt6wR7": {
@@ -347,8 +347,8 @@
         }
       },
       "block_order": [
-        "subheading_CjYzNA",
         "heading_rWaqk9",
+        "subheading_CjYzNA",
         "richtext_Pt6wR7"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
