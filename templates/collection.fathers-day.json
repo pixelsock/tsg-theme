@@ -37,6 +37,7 @@
       "blocks": {
         "image_nxJkzh": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/050525-grad-gifts-banner-dt-hero_82661897-d8a9-4d51-a28e-1fd1e7c83eca.jpg",
             "mobile_image": "shopify://shop_images/050525-grad-gifts-banner-mobile-hero.jpg",
@@ -83,7 +84,7 @@
         "subheading_3D3ibh": {
           "type": "subheading",
           "settings": {
-            "text": "Made just like they used to."
+            "text": "For the dad who has everything, we have something."
           }
         },
         "heading_nmDKqh": {
@@ -96,7 +97,7 @@
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Introducing our latest collection of heirloom-quality leather goods, handcrafted in Charlotte, NC, in collaboration with Traveller Trading Co. Each piece is made from fine, full-grain leather, and innovative materials like Biothane™, built to last a lifetime—timeless design meets artisanal craftsmanship in this exclusive partnership.</p>"
+            "content": "<p>The Ultimate One-Stop-Curated-Shop for Father's Day.  Here's our list of no-brainer gift ideas for Father's Day, because trust us, he DOES NOT want a tie again.  Check out the hand-picked collection of our best-selling and best-received gift ideas this for Father's Day.   From fly rod kits that y'all can enjoy together to new shirts without a club logo, get something for the Ole' Man he won't soon forget.</p>"
           }
         },
         "subheading_7aTfEk": {
@@ -184,6 +185,7 @@
       "block_order": [
         "image_NRM3Hn"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
