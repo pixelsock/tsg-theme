@@ -32,51 +32,6 @@
         "overlay_opacity": 30
       }
     },
-    "slideshow_Lb9q8g": {
-      "type": "slideshow",
-      "blocks": {
-        "image_nxJkzh": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/050525-grad-gifts-banner-dt-hero_82661897-d8a9-4d51-a28e-1fd1e7c83eca.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_nxJkzh"
-      ],
-      "settings": {
-        "allow_transparent_header": false,
-        "show_next_section_button": false,
-        "media_size": "auto",
-        "autoplay": true,
-        "autoplay_pause_on_video": true,
-        "cycle_speed": 5,
-        "background": "#000000",
-        "controls_color": "#ffffff"
-      }
-    },
     "rich_text_wz38A6": {
       "type": "rich-text",
       "blocks": {
@@ -118,6 +73,50 @@
         "content_width": "md",
         "text_position": "center",
         "remove_vertical_spacing": false
+      }
+    },
+    "slideshow_Lb9q8g": {
+      "type": "slideshow",
+      "blocks": {
+        "image_nxJkzh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/060225-fathers-day-collection-hero-dt_627c3977-5f1a-4344-8f05-987daa08c37e.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nxJkzh"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "auto",
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
       }
     },
     "main": {
@@ -238,8 +237,8 @@
   },
   "order": [
     "collection-banner",
-    "slideshow_Lb9q8g",
     "rich_text_wz38A6",
+    "slideshow_Lb9q8g",
     "main",
     "slideshow_HBU8dN",
     "rich_text_gYzfAf",
