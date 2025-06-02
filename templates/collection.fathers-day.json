@@ -75,6 +75,98 @@
         "remove_vertical_spacing": false
       }
     },
+    "image_with_text_X4ran8": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_H7fDEE": {
+          "type": "subheading",
+          "settings": {
+            "text": "Cocktails, Anyone?"
+          }
+        },
+        "heading_4TX7E3": {
+          "type": "heading",
+          "settings": {
+            "text": "Bar Man",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_hbXgtW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "link_MfVWmP": {
+          "type": "link",
+          "settings": {
+            "text": "Click Here",
+            "url": "shopify://collections/bar-home-1"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_H7fDEE",
+        "heading_4TX7E3",
+        "richtext_hbXgtW",
+        "link_MfVWmP"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/tsg_barrier_rose_altweb.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_kXYpTi": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_AgMXAD": {
+          "type": "subheading",
+          "settings": {
+            "text": "He's Hooked."
+          }
+        },
+        "heading_cWdtaR": {
+          "type": "heading",
+          "settings": {
+            "text": "Fly Guy",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_6PgJya": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "link_nHJG9b": {
+          "type": "link",
+          "settings": {
+            "text": "Click Here",
+            "url": "shopify://pages/fly-goods"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_AgMXAD",
+        "heading_cWdtaR",
+        "richtext_6PgJya",
+        "link_nHJG9b"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/042225-airetex-collection-images-2.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
     "slideshow_Lb9q8g": {
       "type": "slideshow",
       "blocks": {
@@ -231,6 +323,8 @@
   "order": [
     "collection-banner",
     "rich_text_wz38A6",
+    "image_with_text_X4ran8",
+    "image_with_text_kXYpTi",
     "slideshow_Lb9q8g",
     "rich_text_qTPpq9",
     "main",
