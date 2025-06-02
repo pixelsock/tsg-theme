@@ -115,7 +115,7 @@
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/tsg_barrier_rose_altweb.png",
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "sm",
         "remove_vertical_spacing": true
@@ -161,9 +161,9 @@
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/042225-airetex-collection-images-2.jpg",
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "image_position": "end",
-        "content_width": "sm",
+        "content_width": "md",
         "remove_vertical_spacing": false
       }
     },
@@ -207,7 +207,7 @@
       "settings": {
         "separate_section_with_border": false,
         "image": "shopify://shop_images/072524-airetex-collection-alt-image-3200x1000.png",
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "sm",
         "remove_vertical_spacing": true
