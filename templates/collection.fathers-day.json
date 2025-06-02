@@ -37,6 +37,7 @@
       "blocks": {
         "image_nxJkzh": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/050525-grad-gifts-banner-dt-hero_82661897-d8a9-4d51-a28e-1fd1e7c83eca.jpg",
             "subheading": "",
