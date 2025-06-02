@@ -167,6 +167,52 @@
         "remove_vertical_spacing": true
       }
     },
+    "image_with_text_T9NQaR": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_TbiLbX": {
+          "type": "subheading",
+          "settings": {
+            "text": "No Moss Gathering on this guy"
+          }
+        },
+        "heading_3d7gbC": {
+          "type": "heading",
+          "settings": {
+            "text": "Ol' Dapper Dad",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_LhHUQW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "link_btgcra": {
+          "type": "link",
+          "settings": {
+            "text": "Click Here",
+            "url": "shopify://pages/custom-tsgapparelco"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_TbiLbX",
+        "heading_3d7gbC",
+        "richtext_LhHUQW",
+        "link_btgcra"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/072524-airetex-collection-alt-image-3200x1000.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
     "slideshow_Lb9q8g": {
       "type": "slideshow",
       "blocks": {
@@ -325,6 +371,7 @@
     "rich_text_wz38A6",
     "image_with_text_X4ran8",
     "image_with_text_kXYpTi",
+    "image_with_text_T9NQaR",
     "slideshow_Lb9q8g",
     "rich_text_qTPpq9",
     "main",
