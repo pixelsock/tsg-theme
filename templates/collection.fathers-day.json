@@ -11,12 +11,12 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
-      "disabled": true,
       "custom_css": [
         "{text-align: left;}"
       ],
       "settings": {
         "content_width": "md",
+        "image": "shopify://shop_images/060225-fathers-day-collection-hero-dt-top.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
@@ -40,6 +40,16 @@
           "disabled": true,
           "settings": {
             "text": "For the dad who has everything, we have something."
+          }
+        },
+        "image_TCNH6H": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/060225-fathers-day-collection-hero-dt-top.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
           }
         },
         "heading_nmDKqh": {
@@ -67,24 +77,15 @@
           "settings": {
             "liquid": "<p></p>"
           }
-        },
-        "image_TCNH6H": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/060225-fathers-day-collection-hero-dt-top.jpg",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
         }
       },
       "block_order": [
         "subheading_3D3ibh",
+        "image_TCNH6H",
         "heading_nmDKqh",
         "richtext_Eiht3r",
         "subheading_7aTfEk",
-        "liquid_iymgHP",
-        "image_TCNH6H"
+        "liquid_iymgHP"
       ],
       "settings": {
         "separate_section_with_border": true,
