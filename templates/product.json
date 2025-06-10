@@ -115,6 +115,10 @@
           "disabled": true,
           "settings": {}
         },
+        "separator_fFLt4j": {
+          "type": "separator",
+          "settings": {}
+        },
         "pickup_availability_Lk9exR": {
           "type": "pickup_availability",
           "settings": {}
@@ -227,6 +231,7 @@
         "quantity_selector",
         "buy_buttons",
         "judge_me_reviews_review_snippet_widget_UJe3bY",
+        "separator_fFLt4j",
         "pickup_availability_Lk9exR",
         "91c578f3-33c8-4bbf-afdb-6aa8668231da",
         "c679f56d-abe2-40cf-b46d-860f17955676",
