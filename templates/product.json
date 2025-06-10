@@ -89,13 +89,13 @@
             "size_chart_page": "size-guide"
           }
         },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {}
-        },
-        "payment_terms": {
-          "type": "payment_terms",
           "settings": {}
         },
         "buy_buttons": {
@@ -222,8 +222,8 @@
         "separator_dXB68M",
         "true_fit_widget_ytMqVP",
         "variant_picker",
-        "quantity_selector",
         "payment_terms",
+        "quantity_selector",
         "buy_buttons",
         "judge_me_reviews_review_snippet_widget_UJe3bY",
         "pickup_availability_Lk9exR",
