@@ -16,8 +16,8 @@
       ],
       "settings": {
         "content_width": "md",
-        "image": "shopify://shop_images/030725-ss25-collection-pg-banner-DT.png",
-        "mobile_image": "shopify://shop_images/030725-ss25-collection-pg-banner-mobile.png",
+        "image": "shopify://shop_images/061125-ss25-tsgaco-summer-dt-hero.jpg",
+        "mobile_image": "shopify://shop_images/061125-ss25-collection-hero-mobile.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
