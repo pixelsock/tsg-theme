@@ -118,6 +118,120 @@
         "remove_vertical_spacing": true
       }
     },
+    "collection_list_UPVVBz": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_hUi4eC": {
+          "type": "collection",
+          "settings": {
+            "collection": "reel-shorts",
+            "image": "shopify://shop_images/tsg-troutin-builder-250516-001-4.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "REEL SHORTS",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_4Mkryf": {
+          "type": "collection",
+          "settings": {
+            "collection": "airetex-brooks-shirts",
+            "image": "shopify://shop_images/ss25-web-images-alt-1000x_0017_tsg-charleston-s25-builder-0160_ad2827e6-cb8e-448b-9171-803cf929a412.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "Airetex™ Brooks Shirts",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-brooks-bamboo-long-sleeve-shirt-field-plaid-grey",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_PfpW8Q": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "RIDGE SHORTS",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_kQGMVH": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_ia6dLM": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_hUi4eC",
+        "collection_4Mkryf",
+        "collection_PfpW8Q",
+        "collection_kQGMVH",
+        "collection_ia6dLM"
+      ],
+      "disabled": true,
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": false,
+        "collections_per_row_desktop": 5,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
     "main": {
       "type": "main-collection",
       "custom_css": [
@@ -238,6 +352,7 @@
     "collection-banner",
     "rich_text_wz38A6",
     "image_with_text_bXrnij",
+    "collection_list_UPVVBz",
     "main",
     "slideshow_HBU8dN",
     "rich_text_gYzfAf",
