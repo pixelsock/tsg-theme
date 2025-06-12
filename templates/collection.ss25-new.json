@@ -68,56 +68,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "image_with_text_bXrnij": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_BhfK4P": {
-          "type": "subheading",
-          "settings": {
-            "text": "It's a no brainer"
-          }
-        },
-        "heading_QqnhjV": {
-          "type": "heading",
-          "settings": {
-            "text": "Bamboo + Poly = PERFECT",
-            "heading_tag": "h2"
-          }
-        },
-        "richtext_R77g3t": {
-          "type": "richtext",
-          "settings": {
-            "content": "<ul><li>Made from a sustainable source of Bamboo fibers in our Airetex™ fabric blend</li><li>Anti-microbial and anti-odor fabric</li><li>Soft AF</li><li>Lightweight and breathable fabric </li><li>Quick drying</li><li>Modern but not slim fit so you won't look like you borrowed a shirt from your dorm closet.</li></ul><p></p>"
-          }
-        },
-        "button_tnHxC8": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Shop The Collection",
-            "url": "shopify://collections/airetex-bamboo-apparel-collection",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_BhfK4P",
-        "heading_QqnhjV",
-        "richtext_R77g3t",
-        "button_tnHxC8"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/TSG-Bluff-S23-Builder-69.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
-      }
-    },
     "collection_list_UPVVBz": {
       "type": "collection-list",
       "blocks": {
@@ -350,7 +300,6 @@
   "order": [
     "collection-banner",
     "rich_text_wz38A6",
-    "image_with_text_bXrnij",
     "collection_list_UPVVBz",
     "main",
     "slideshow_HBU8dN",
