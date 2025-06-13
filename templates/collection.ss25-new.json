@@ -75,12 +75,13 @@
           "type": "collection",
           "settings": {
             "collection": "reel-shorts",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0005_tsg-troutin-builder-250516-001-4.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
             "title": "REEL SHORTS",
             "button_text": "",
-            "button_link": "",
+            "button_link": "shopify://products/tsg-reel-short-driftwood",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -92,7 +93,7 @@
           "type": "collection",
           "settings": {
             "collection": "airetex-brooks-shirts",
-            "image": "shopify://shop_images/ss25-web-images-alt-1000x_0017_tsg-charleston-s25-builder-0160_ad2827e6-cb8e-448b-9171-803cf929a412.jpg",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0004_tsg-charleston-s25-builder-0160.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
@@ -110,6 +111,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0002_tsg-troutin-builder-250516-046.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
@@ -118,7 +120,7 @@
             "button_link": "shopify://products/tsg-ridge-short-stone",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 6,
             "button_background": "",
             "button_text_color": ""
           }
@@ -127,6 +129,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0001_TSG-Downtown-S23-Builder-93.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
@@ -144,6 +147,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0000_tsg-charleston-s25-builder-0184.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
@@ -152,7 +156,7 @@
             "button_link": "shopify://products/tsg-drift-hoody-fly-goods-wheat-copy",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 5,
             "button_background": "",
             "button_text_color": ""
           }
@@ -165,8 +169,6 @@
         "collection_kQGMVH",
         "collection_ia6dLM"
       ],
-      "disabled": true,
-      "name": "t:sections.collection_list.presets.collection_list.name",
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
@@ -217,6 +219,7 @@
       "blocks": {
         "image_NRM3Hn": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/A7R0284.jpg",
             "mobile_image": "shopify://shop_images/A7R0284.jpg",
