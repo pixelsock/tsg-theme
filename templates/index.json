@@ -683,7 +683,8 @@
       ],
       "custom_css": [
         "h2 {font-size: 36px;}",
-        ".section-spacing {margin-block-end: 1rem; margin-block-start: 1rem;}"
+        ".section-spacing {margin-block-end: 1rem; margin-block-start: 1rem;}",
+        "@media only screen and (max-width: 699px) {.logo-list {--logo-list-items-per-row: 3}"
       ],
       "settings": {
         "separate_section_with_border": true,
