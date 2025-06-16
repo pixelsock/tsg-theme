@@ -285,10 +285,11 @@
       "block_order": [
         "image_NRM3Hn"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
-        "media_size": "sm",
+        "media_size": "md",
         "autoplay": false,
         "autoplay_pause_on_video": true,
         "cycle_speed": 5,
