@@ -73,6 +73,7 @@
       "blocks": {
         "image_WHgqQU": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/032425-drift-collection-landing-pg-images-dt-1800x1200_0000_tsg-charleston-s25-builder-0040.jpg",
             "mobile_image": "shopify://shop_images/tsg-charleston-s25-builder-0184.jpg",
@@ -161,7 +162,7 @@
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
-        "media_size": "auto",
+        "media_size": "sm",
         "autoplay": true,
         "autoplay_pause_on_video": false,
         "cycle_speed": 5,
