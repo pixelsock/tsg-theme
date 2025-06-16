@@ -350,19 +350,38 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
-    "collection_list_gQQpQg": {
+    "collection_list_nLPhpF": {
       "type": "collection-list",
       "blocks": {
-        "collection_YRUQVD": {
+        "collection_b9Y9RU": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "reel-shorts",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0005_tsg-troutin-builder-250516-001-4.jpg",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "title": "REEL SHORTS",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-reel-short-driftwood",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_JfLVAb": {
+          "type": "collection",
+          "settings": {
+            "collection": "airetex-brooks-shirts",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0004_tsg-charleston-s25-builder-0160.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "Airetex™ Brooks Shirts",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-brooks-bamboo-long-sleeve-shirt-field-plaid-grey",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
@@ -370,16 +389,35 @@
             "button_text_color": ""
           }
         },
-        "collection_TRzPJb": {
+        "collection_KyXbfw": {
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0002_tsg-troutin-builder-250516-046.jpg",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "title": "RIDGE SHORTS",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-ridge-short-stone",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 6,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_MdfbWz": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0001_TSG-Downtown-S23-Builder-93.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "TOPPER POLO",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-topper-polo-blue-white-stripe",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
@@ -387,118 +425,31 @@
             "button_text_color": ""
           }
         },
-        "collection_krktpY": {
+        "collection_xbkC7w": {
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0000_tsg-charleston-s25-builder-0184.jpg",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "title": "DRIFT HOODY",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-drift-hoody-fly-goods-wheat-copy",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_T9VwCb": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_WqXxE4": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_GrmLaJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_pTP4mk": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_gykrA3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 5,
             "button_background": "",
             "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "collection_YRUQVD",
-        "collection_TRzPJb",
-        "collection_krktpY",
-        "collection_T9VwCb",
-        "collection_WqXxE4",
-        "collection_GrmLaJ",
-        "collection_pTP4mk",
-        "collection_gykrA3"
+        "collection_b9Y9RU",
+        "collection_JfLVAb",
+        "collection_KyXbfw",
+        "collection_MdfbWz",
+        "collection_xbkC7w"
       ],
       "disabled": true,
       "name": "Summer Best Sellers",
@@ -510,7 +461,7 @@
         "stack_collections": false,
         "collections_per_row_desktop": 5,
         "subheading": "",
-        "title": "",
+        "title": "SUMMERTIME BEST SELLERS",
         "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
@@ -1440,7 +1391,7 @@
     "slideshow",
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
-    "collection_list_gQQpQg",
+    "collection_list_nLPhpF",
     "slideshow_fHcLry",
     "multiple-media-with-text",
     "slideshow_KgiFpE",
