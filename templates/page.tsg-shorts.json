@@ -280,80 +280,6 @@
         "subheading": ""
       }
     },
-    "featured_collections_EJbhpb": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_BWKqbq": {
-          "type": "collection",
-          "settings": {
-            "collection": "spring-summer-2025-new-arrivals",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "Shop The Whole Collection"
-          }
-        }
-      },
-      "block_order": [
-        "collection_BWKqbq"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "featured_collections_AiMxxy": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_xhA8Xb": {
-          "type": "collection",
-          "settings": {
-            "collection": "blue-ridge-native",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_xhA8Xb"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 6,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34": {
-      "type": "blog-posts",
-      "settings": {
-        "separate_section_with_border": true,
-        "blog": "dispatches",
-        "posts_count": 3,
-        "stack_on_mobile": false,
-        "show_category": true,
-        "show_excerpt": true,
-        "show_read_more": true,
-        "subheading": "",
-        "title": "READ UP, GET EXCITED",
-        "content": "",
-        "button_link": "",
-        "button_text": "View all"
-      }
-    },
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
       "type": "newsletter",
       "settings": {
@@ -383,9 +309,6 @@
     "featured_collections_ekMfPi",
     "image_with_text_e9eXWM",
     "featured_collections_gLwKAV",
-    "featured_collections_EJbhpb",
-    "featured_collections_AiMxxy",
-    "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
 }
