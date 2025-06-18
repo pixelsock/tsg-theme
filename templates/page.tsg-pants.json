@@ -84,7 +84,6 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/tsg_ridge_shorts_main_1000x_77674681-8136-4f41-96b2-7ff5cf02aea6.png",
         "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "md",
@@ -196,7 +195,6 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/tsg_reel_shorts_main_1000x_b34a8ff5-aeab-48e0-98ee-2c3e0a61288b.png",
         "reveal_on_scroll": false,
         "image_position": "end",
         "content_width": "lg",
@@ -271,7 +269,6 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/tsg_boone_shorts_main_1000x_5787f1ba-67ff-407a-902b-822ce7a4f541.png",
         "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "lg",
@@ -284,9 +281,9 @@
         "collection_gQ9cxp": {
           "type": "collection",
           "settings": {
-            "collection": "boone-shorts",
+            "collection": "tsg-midland-twill-5-pocket-pants",
             "products_count": 8,
-            "title": "SHOP BOONE SHORTS",
+            "title": "SHOP MIDLAND TWILL PANTS",
             "link_url": "",
             "link_text": ""
           }
@@ -301,7 +298,7 @@
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
+        "products_per_row_desktop": 3,
         "horizontal_spacing_factor": 0.3,
         "vertical_spacing_factor": 1,
         "subheading": ""
