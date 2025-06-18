@@ -66,12 +66,20 @@
           "settings": {
             "content": "<p>A short with all the good parts and minus the \"junk\".  Constructed with a soft but stretchy lightweight cotton canvas and woven with Spandex™, these 6-inchers are our answer to the gap in the market left behind by the \"folks\" at Patagucci.  </p>"
           }
+        },
+        "link_e7Xn36": {
+          "type": "link",
+          "settings": {
+            "text": "Shop The Ridge Shorts",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "heading_HETgi6",
         "subheading_CNTK6N",
-        "richtext_ELjWyK"
+        "richtext_ELjWyK",
+        "link_e7Xn36"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
