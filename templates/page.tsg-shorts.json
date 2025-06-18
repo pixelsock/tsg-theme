@@ -178,12 +178,20 @@
           "settings": {
             "content": "<p>Meet The Reel Short — the amphibious offspring of our best-selling Ridge Short and a dolphin with a killer sense of style. Designed for guys who want to go from dock to dive bar without a costume change, these shorts are equal parts chill and thrill.</p>"
           }
+        },
+        "link_7aQ6dG": {
+          "type": "link",
+          "settings": {
+            "text": "Shop The Reel Shorts",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "heading_yGxhkd",
         "subheading_EjKwq9",
-        "richtext_f6hXnU"
+        "richtext_f6hXnU",
+        "link_7aQ6dG"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
