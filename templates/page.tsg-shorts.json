@@ -85,7 +85,7 @@
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/tsg_ridge_shorts_main_1000x_77674681-8136-4f41-96b2-7ff5cf02aea6.png",
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "md",
         "remove_vertical_spacing": true
@@ -197,7 +197,7 @@
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/tsg_reel_shorts_main_1000x_b34a8ff5-aeab-48e0-98ee-2c3e0a61288b.png",
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "image_position": "end",
         "content_width": "lg",
         "remove_vertical_spacing": true
@@ -272,7 +272,7 @@
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/main1000x_0001_TSG-Bluff-S23-Builder-150Denim.jpg",
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "lg",
         "remove_vertical_spacing": true
