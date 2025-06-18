@@ -253,12 +253,20 @@
           "settings": {
             "content": "<p>Up your game with our TSG Boone Short. Built using the <em>exact same fabric </em>as our best-selling pant, the TSG Boone 5P, this pair soft and durable (with a bit of stretch) chino short is designed for comfort and flexibility.</p>"
           }
+        },
+        "link_QJ8bFR": {
+          "type": "link",
+          "settings": {
+            "text": "Shop The Boone Shorts",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "heading_Wt6UwX",
         "subheading_AkNjYa",
-        "richtext_iPCVVx"
+        "richtext_iPCVVx",
+        "link_QJ8bFR"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
