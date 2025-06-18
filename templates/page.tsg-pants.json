@@ -304,6 +304,80 @@
         "subheading": ""
       }
     },
+    "image_with_text_ChELDi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_r3FmAn": {
+          "type": "heading",
+          "settings": {
+            "text": "TSG BRITCHES & CHAPS",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_MmRixC": {
+          "type": "subheading",
+          "settings": {
+            "text": "FREE YOUR KNEES."
+          }
+        },
+        "richtext_HrghWG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Up your game with our TSG Boone Short. Built using the <em>exact same fabric </em>as our best-selling pant, the TSG Boone 5P, this pair soft and durable (with a bit of stretch) chino short is designed for comfort and flexibility.</p>"
+          }
+        },
+        "link_4x6CP9": {
+          "type": "link",
+          "settings": {
+            "text": "Shop The Boone Shorts",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_r3FmAn",
+        "subheading_MmRixC",
+        "richtext_HrghWG",
+        "link_4x6CP9"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "reveal_on_scroll": false,
+        "image_position": "end",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
+      }
+    },
+    "featured_collections_P73zxn": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_WgWykG": {
+          "type": "collection",
+          "settings": {
+            "collection": "tsg-britches-chaps",
+            "products_count": 8,
+            "title": "SHOP TSG BRITCHES",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_WgWykG"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "horizontal_spacing_factor": 0.3,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e": {
       "type": "newsletter",
       "settings": {
@@ -333,6 +407,8 @@
     "featured_collections_ekMfPi",
     "image_with_text_e9eXWM",
     "featured_collections_gLwKAV",
+    "image_with_text_ChELDi",
+    "featured_collections_P73zxn",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
 }
