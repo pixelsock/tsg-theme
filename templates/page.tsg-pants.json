@@ -255,7 +255,7 @@
         "link_QJ8bFR": {
           "type": "link",
           "settings": {
-            "text": "Shop The Boone Shorts",
+            "text": "Shop The Midland Twill Pants",
             "url": ""
           }
         }
@@ -329,7 +329,7 @@
         "link_4x6CP9": {
           "type": "link",
           "settings": {
-            "text": "Shop The Boone Shorts",
+            "text": "Shop Britches & Chaps",
             "url": ""
           }
         }
@@ -357,7 +357,7 @@
           "settings": {
             "collection": "tsg-britches-chaps",
             "products_count": 8,
-            "title": "SHOP TSG BRITCHES",
+            "title": "SHOP TSG BRITCHES & Chaps",
             "link_url": "",
             "link_text": ""
           }
