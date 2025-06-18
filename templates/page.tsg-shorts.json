@@ -271,7 +271,7 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/main1000x_0001_TSG-Bluff-S23-Builder-150Denim.jpg",
+        "image": "shopify://shop_images/tsg_boone_shorts_main_1000x_5787f1ba-67ff-407a-902b-822ce7a4f541.png",
         "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "lg",
@@ -286,7 +286,7 @@
           "settings": {
             "collection": "boone-shorts",
             "products_count": 8,
-            "title": "",
+            "title": "SHOP BOONE SHORTS",
             "link_url": "",
             "link_text": ""
           }
