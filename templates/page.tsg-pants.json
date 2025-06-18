@@ -163,26 +163,26 @@
         "heading_yGxhkd": {
           "type": "heading",
           "settings": {
-            "text": "THE REEL SHORTS",
+            "text": "HATTERAS 5-POCKET PANT",
             "heading_tag": "h1"
           }
         },
         "subheading_EjKwq9": {
           "type": "subheading",
           "settings": {
-            "text": "AMPHIBIOUS BECAUSE SOMETIMES YOU ARE."
+            "text": "ABC PANTS BUT FOR ALPHA MALES"
           }
         },
         "richtext_f6hXnU": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Meet The Reel Short — the amphibious offspring of our best-selling Ridge Short and a dolphin with a killer sense of style. Designed for guys who want to go from dock to dive bar without a costume change, these shorts are equal parts chill and thrill.</p>"
+            "content": "<p>Introducing the Hatteras Performance Pant - the more athletic-slash-fraternal twin to our Numero Uno selling pant:  the Boone 5-Pocket.  Possibly the Alpha Male version of the ABC Pant, definitely the world's greatest travel pant.</p>"
           }
         },
         "link_7aQ6dG": {
           "type": "link",
           "settings": {
-            "text": "Shop The Reel Shorts",
+            "text": "Shop The Hatteras Pants",
             "url": ""
           }
         }
@@ -209,9 +209,9 @@
         "collection_4PW4fi": {
           "type": "collection",
           "settings": {
-            "collection": "reel-shorts",
+            "collection": "tsg-hatteras-5-pocket-performance-pants",
             "products_count": 8,
-            "title": "SHOP THE REEL SHORTS",
+            "title": "SHOP THE HATTERAS PANTS",
             "link_url": "",
             "link_text": ""
           }
@@ -226,7 +226,7 @@
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 5,
         "horizontal_spacing_factor": 0.3,
         "vertical_spacing_factor": 1,
         "subheading": ""
@@ -238,7 +238,7 @@
         "heading_Wt6UwX": {
           "type": "heading",
           "settings": {
-            "text": "THE BOONE SHORTS",
+            "text": "THE MIDLAND TWILL PANTS",
             "heading_tag": "h1"
           }
         },
