@@ -141,7 +141,7 @@
       "settings": {
         "separate_section_with_border": false,
         "hide_product_information": false,
-        "stack_products": true,
+        "stack_products": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.3,
@@ -247,7 +247,7 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/tsgacos23altimages_0005_TSG-Downtown-S23-Builder-117.jpg",
+        "image": "shopify://shop_images/main1000x_0001_TSG-Bluff-S23-Builder-150Denim.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -264,7 +264,7 @@
             "products_count": 8,
             "title": "",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": ""
           }
         }
       },
@@ -297,8 +297,8 @@
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#202531",
-        "overlay_color": "#000000",
-        "overlay_opacity": 24
+        "overlay_color": "#282e29",
+        "overlay_opacity": 100
       }
     }
   },
