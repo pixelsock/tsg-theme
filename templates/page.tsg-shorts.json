@@ -76,6 +76,7 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
+        "image": "shopify://shop_images/061225-ss25-collection-reels_0002_tsg-troutin-builder-250516-046.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -179,6 +180,7 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
+        "image": "shopify://shop_images/061225-ss25-collection-reels_0005_tsg-troutin-builder-250516-001-4.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "sm",
@@ -245,6 +247,7 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
+        "image": "shopify://shop_images/tsgacos23altimages_0005_TSG-Downtown-S23-Builder-117.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
