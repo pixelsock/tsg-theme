@@ -23,14 +23,14 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "SHORTS",
+            "text": "PANTS",
             "heading_tag": "h1"
           }
         },
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>One of the beautiful things about America is freedom - freedom to do a whole bunch of fun stuff without prejudice...one of those being the ability to \"free our knees\".  So check out our wide ranging selection of shorts for every kind of occasion and inseam, but mostly those that fit our belief that shorts should be short (or at least not too short where we get banned from our favorite local Mexican restaurant on Tequila Tuesday - just as an example).</p>"
+            "content": "<p>Pants: you can’t leave home without ‘em—well, you can actually, but we highly advise against it.  So to protect you and your love ones from those pesky public indecency citations we offer a terrific collection of men's pants ranging from the traditional church-on-Sunday chinos to the Casual Friday staple: the 5-Pocket.  Take your pick, but please, pick something so we don't have to see \"that\".</p>"
           }
         }
       },
@@ -51,26 +51,26 @@
         "heading_HETgi6": {
           "type": "heading",
           "settings": {
-            "text": "THE RIDGE SHORT",
+            "text": "THE BOONE 5-POCKET PANT",
             "heading_tag": "h1"
           }
         },
         "subheading_CNTK6N": {
           "type": "subheading",
           "settings": {
-            "text": "THe BEST SIX INCHES ON THE INTERNET TODAy."
+            "text": "Our Best Selling Pant For a Reason."
           }
         },
         "richtext_ELjWyK": {
           "type": "richtext",
           "settings": {
-            "content": "<p>A short with all the good parts and minus the \"junk\".  Constructed with a soft but stretchy lightweight cotton canvas and woven with Spandex™, these 6-inchers are our answer to the gap in the market left behind by the \"folks\" at Patagucci.  </p>"
+            "content": "<p>Pants: you can’t leave home without ‘em—well, you can actually, but we highly advise against it.  So to protect you and your love ones from those pesky public indecency citations we offer a terrific collection of men's pants ranging from the traditional church-on-Sunday chinos to the Casual Friday staple: the 5-Pocket.  Take your pick, but please, pick something so we don't have to see \"that\".</p>"
           }
         },
         "link_e7Xn36": {
           "type": "link",
           "settings": {
-            "text": "Shop The Ridge Shorts",
+            "text": "Shop The Boone Pants",
             "url": ""
           }
         }
@@ -134,10 +134,10 @@
         "collection_kQVxmM": {
           "type": "collection",
           "settings": {
-            "collection": "ridge-shorts",
+            "collection": "tsg-boone-5-pocket-pants",
             "products_count": 8,
-            "title": "SHOP THE RIDGE SHORTS",
-            "link_url": "shopify://products/tsg-ridge-short-stone",
+            "title": "SHOP THE BOONE PANTS",
+            "link_url": "shopify://collections/tsg-boone-5-pocket-pants",
             "link_text": ""
           }
         }
@@ -149,7 +149,7 @@
       "settings": {
         "separate_section_with_border": false,
         "hide_product_information": false,
-        "stack_products": false,
+        "stack_products": true,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.2,
