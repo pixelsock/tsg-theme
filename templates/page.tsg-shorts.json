@@ -84,7 +84,7 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/061225-ss25-collection-reels_0002_tsg-troutin-builder-250516-046.jpg",
+        "image": "shopify://shop_images/tsg_ridge_shorts_main_1000x_77674681-8136-4f41-96b2-7ff5cf02aea6.png",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -196,7 +196,7 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/061225-ss25-collection-reels_0005_tsg-troutin-builder-250516-001-4.jpg",
+        "image": "shopify://shop_images/tsg_reel_shorts_main_1000x_b34a8ff5-aeab-48e0-98ee-2c3e0a61288b.png",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "sm",
