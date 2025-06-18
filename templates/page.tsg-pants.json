@@ -79,7 +79,7 @@
           "type": "link",
           "settings": {
             "text": "Shop The Boone Pants",
-            "url": ""
+            "url": "shopify://collections/tsg-boone-5-pocket-pants"
           }
         }
       },
@@ -191,7 +191,7 @@
           "type": "link",
           "settings": {
             "text": "Shop The Hatteras Pants",
-            "url": ""
+            "url": "shopify://collections/tsg-hatteras-5-pocket-performance-pants"
           }
         }
       },
@@ -266,7 +266,7 @@
           "type": "link",
           "settings": {
             "text": "Shop The Midland Twill Pants",
-            "url": ""
+            "url": "shopify://collections/tsg-midland-twill-5-pocket-pants"
           }
         }
       },
@@ -341,7 +341,7 @@
           "type": "link",
           "settings": {
             "text": "Shop Britches & Chaps",
-            "url": ""
+            "url": "shopify://collections/tsg-britches-chaps"
           }
         }
       },
