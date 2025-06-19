@@ -74,41 +74,119 @@
         "remove_vertical_spacing": false
       }
     },
-    "32d730e3-3904-45e0-ac3b-2904076b078e": {
-      "type": "image-with-text-overlay",
+    "collection_list_YgwDXw": {
+      "type": "collection-list",
       "blocks": {
-        "template--16783006138600__32d730e3-3904-45e0-ac3b-2904076b078e-heading-1": {
-          "type": "heading",
+        "collection_3A4fnh": {
+          "type": "collection",
           "settings": {
-            "text": "",
-            "heading_tag": "h4"
+            "collection": "reel-shorts",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0005_tsg-troutin-builder-250516-001-4.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "REEL SHORTS",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-reel-short-driftwood",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
           }
         },
-        "template--16783006138600__32d730e3-3904-45e0-ac3b-2904076b078e-richtext-1": {
-          "type": "richtext",
+        "collection_waaTn3": {
+          "type": "collection",
           "settings": {
-            "content": ""
+            "collection": "airetex-brooks-shirts",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0004_tsg-charleston-s25-builder-0160.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "Airetex™ Brooks Shirts",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-brooks-bamboo-long-sleeve-shirt-field-plaid-grey",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_XpibDq": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0002_tsg-troutin-builder-250516-046.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "RIDGE SHORTS",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-ridge-short-stone",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 6,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_ai3ei8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0001_TSG-Downtown-S23-Builder-93.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "TOPPER POLO",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-topper-polo-blue-white-stripe",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_wnyd63": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0000_tsg-charleston-s25-builder-0184.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "DRIFT HOODY",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-drift-hoody-fly-goods-wheat-copy",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "template--16783006138600__32d730e3-3904-45e0-ac3b-2904076b078e-heading-1",
-        "template--16783006138600__32d730e3-3904-45e0-ac3b-2904076b078e-richtext-1"
+        "collection_3A4fnh",
+        "collection_waaTn3",
+        "collection_XpibDq",
+        "collection_ai3ei8",
+        "collection_wnyd63"
       ],
-      "disabled": true,
       "settings": {
+        "separate_section_with_border": true,
         "image_size": "auto",
-        "image": "shopify://shop_images/Hunt-ot-a-Lifetime-entry-DT_83e13441-325c-4582-93f1-2a3fab5a77d2.jpg",
-        "mobile_image": "shopify://shop_images/Hunt-ot-a-Lifetime-entry-mobile_30573633-0cff-4437-a996-dce1df8b8ccc.jpg",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": false,
-        "remove_vertical_spacing": false,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": false,
+        "collections_per_row_desktop": 5,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
       }
     },
     "shop_the_look_rX6wMr": {
@@ -472,7 +550,7 @@
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
-    "32d730e3-3904-45e0-ac3b-2904076b078e",
+    "collection_list_YgwDXw",
     "shop_the_look_rX6wMr",
     "047ea314-02cf-4695-877e-47db2ca47942",
     "9517b309-2a41-4d87-8e33-0ef4f447fc66",
