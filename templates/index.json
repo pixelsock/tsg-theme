@@ -684,6 +684,7 @@
       "custom_css": [
         "h2 {font-size: 36px;}",
         ".section-spacing {margin-block-end: 1rem; margin-block-start: 1rem;}",
+        ".logo-list__item {outline: 1px solid rgb(var(--logo-list-item-border-color)); place-items: center; padding: 1.25rem; display: grid;}",
         "@media only screen and (max-width: 700px) {.logo-list {--logo-list-items-per-row: 3;}.section-stack {gap: 1rem; grid-auto-columns: minmax(0, 1fr); display: grid;}"
       ],
       "settings": {
