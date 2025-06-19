@@ -38,6 +38,7 @@
       "blocks": {
         "subheading_3D3ibh": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "Gearing up for going down."
           }
