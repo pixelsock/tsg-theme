@@ -112,6 +112,9 @@
         "6c34292f-f545-4ae6-9fda-42c8b1da57d5",
         "c8725d76-3b46-45a7-8f20-e1fec452f9c3"
       ],
+      "custom_css": [
+        ".h6 {font-size: 15px;}"
+      ],
       "settings": {
         "enable_sticky": false,
         "show_separation_border": false,
