@@ -1245,7 +1245,7 @@
         "collection_MJJi7B"
       ],
       "custom_css": [
-        ".h6 {font-size: 18pt; line-height: 1.25;}"
+        ".h6 {font-size: 22pt; line-height: 1.25;}"
       ],
       "settings": {
         "separate_section_with_border": false,
