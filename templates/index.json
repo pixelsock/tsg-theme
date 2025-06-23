@@ -1177,8 +1177,8 @@
             "button_text": "",
             "button_link": "shopify://products/tsg-hatteras-performance-pant-khaki",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10,
+            "overlay_color": "#eaab53",
+            "overlay_opacity": 4,
             "button_background": "",
             "button_text_color": ""
           }
@@ -1195,8 +1195,8 @@
             "button_text": "",
             "button_link": "shopify://products/tsg-hatteras-performance-pant-navy",
             "text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10,
+            "overlay_color": "#eaab53",
+            "overlay_opacity": 5,
             "button_background": "",
             "button_text_color": ""
           }
@@ -1213,8 +1213,8 @@
             "button_text": "",
             "button_link": "shopify://products/tsg-hatteras-performance-pant-grey",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10,
+            "overlay_color": "#eaab53",
+            "overlay_opacity": 5,
             "button_background": "",
             "button_text_color": ""
           }
@@ -1231,8 +1231,8 @@
             "button_text": "",
             "button_link": "shopify://products/tsg-hatteras-performance-pant-fir",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10,
+            "overlay_color": "#eaab53",
+            "overlay_opacity": 5,
             "button_background": "",
             "button_text_color": ""
           }
@@ -1249,8 +1249,8 @@
             "button_text": "",
             "button_link": "shopify://products/tsg-hatteras-performance-5-pocket-pant-otter",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10,
+            "overlay_color": "#eaab53",
+            "overlay_opacity": 5,
             "button_background": "",
             "button_text_color": ""
           }
