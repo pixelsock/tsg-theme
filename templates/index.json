@@ -1165,6 +1165,24 @@
     "collection_list_DHReAP": {
       "type": "collection-list",
       "blocks": {
+        "collection_PtYhmj": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/tsghatteraspantmain1000x_0000s_0000_TSG_hatteraspant_charcoal_frontcopy2khaki.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-hatteras-performance-pant-khaki",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
         "collection_fg7Xh8": {
           "type": "collection",
           "settings": {
@@ -1201,24 +1219,6 @@
             "button_text_color": ""
           }
         },
-        "collection_gXTBQG": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/TSG_hatteraspant_charcoal_frontcopy2Otter.png",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "",
-            "button_link": "shopify://products/tsg-hatteras-performance-5-pocket-pant-otter",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 10,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
         "collection_MJJi7B": {
           "type": "collection",
           "settings": {
@@ -1236,13 +1236,32 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "collection_gXTBQG": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/TSG_hatteraspant_charcoal_frontcopy2Otter.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-hatteras-performance-5-pocket-pant-otter",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10,
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
+        "collection_PtYhmj",
         "collection_fg7Xh8",
         "collection_iPcxQ3",
-        "collection_gXTBQG",
-        "collection_MJJi7B"
+        "collection_MJJi7B",
+        "collection_gXTBQG"
       ],
       "custom_css": [
         ".h6 {font-size: 22pt; line-height: 1.25;}"
