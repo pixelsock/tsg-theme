@@ -190,7 +190,7 @@
         "heading_nrAQrg": {
           "type": "heading",
           "settings": {
-            "text": "It's Independence Day, DUDES.",
+            "text": "It's Independence Day, Fellas.",
             "heading_tag": "h1"
           }
         },
@@ -225,23 +225,6 @@
     "collection_list_KxeAfC": {
       "type": "collection-list",
       "blocks": {
-        "collection_9TKhND": {
-          "type": "collection",
-          "settings": {
-            "collection": "topper-polos",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "TOPPER POLO",
-            "button_link": "shopify://products/tsg-topper-polo-navy-cast-stripe",
-            "text_color": "#282e29",
-            "overlay_color": "#8d762f",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": "#282e29"
-          }
-        },
         "collection_RVza4y": {
           "type": "collection",
           "settings": {
@@ -277,20 +260,37 @@
             "button_background": "",
             "button_text_color": "#282e29"
           }
+        },
+        "collection_9TKhND": {
+          "type": "collection",
+          "settings": {
+            "collection": "topper-polos",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "TOPPER POLO",
+            "button_link": "shopify://products/tsg-topper-polo-navy-cast-stripe",
+            "text_color": "#282e29",
+            "overlay_color": "#8d762f",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": "#282e29"
+          }
         }
       },
       "block_order": [
-        "collection_9TKhND",
         "collection_RVza4y",
-        "collection_VBxfR8"
+        "collection_VBxfR8",
+        "collection_9TKhND"
       ],
       "name": "t:sections.collection_list.presets.collection_list.name",
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image_size": "auto",
         "show_text_outside": true,
         "space_items": true,
-        "stack_collections": true,
+        "stack_collections": false,
         "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "",
