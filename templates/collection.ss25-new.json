@@ -331,6 +331,24 @@
             "button_background": "",
             "button_text_color": "#303030"
           }
+        },
+        "collection_RidFWQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/TSG_guideshirt_coastaloxbowcopy.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "COASTAL OXBOW™ SHIRTS",
+            "button_link": "shopify://products/tsg-long-sleeve-guide-shirt-coastal-oxbow",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": "#282e29"
+          }
         }
       },
       "block_order": [
@@ -339,7 +357,8 @@
         "collection_9TKhND",
         "collection_agyDfH",
         "collection_xkBCyR",
-        "collection_t3LeNT"
+        "collection_t3LeNT",
+        "collection_RidFWQ"
       ],
       "name": "t:sections.collection_list.presets.collection_list.name",
       "settings": {
