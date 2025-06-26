@@ -297,6 +297,24 @@
             "button_text_color": "#303030"
           }
         },
+        "collection_JpLFKi": {
+          "type": "collection",
+          "settings": {
+            "collection": "boone-shorts",
+            "image": "shopify://shop_images/main1000x_0001_TSG_Clubshort_bonecopy.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "Boone Shorts",
+            "button_link": "shopify://products/copy-of-tsg-club-short-stone",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": "#282e29"
+          }
+        },
         "collection_xkBCyR": {
           "type": "collection",
           "settings": {
@@ -357,6 +375,7 @@
         "collection_VBxfR8",
         "collection_9TKhND",
         "collection_agyDfH",
+        "collection_JpLFKi",
         "collection_xkBCyR",
         "collection_t3LeNT",
         "collection_RidFWQ"
