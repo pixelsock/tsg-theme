@@ -218,8 +218,8 @@
         "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_bd3e39ae-541a-48cb-b800-931e6c36d14a.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
-        "content_width": "lg",
-        "remove_vertical_spacing": true
+        "content_width": "md",
+        "remove_vertical_spacing": false
       }
     },
     "collection_list_KxeAfC": {
