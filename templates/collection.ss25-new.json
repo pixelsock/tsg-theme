@@ -277,12 +277,31 @@
             "button_background": "",
             "button_text_color": "#282e29"
           }
+        },
+        "collection_agyDfH": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/TSGS25Tee-MockUpFile_CaptainJack_IvoryBack.png",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "Cap'n JACK TEE",
+            "button_link": "shopify://products/tsgaco-captain-jack-tee",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": "#303030"
+          }
         }
       },
       "block_order": [
         "collection_RVza4y",
         "collection_VBxfR8",
-        "collection_9TKhND"
+        "collection_9TKhND",
+        "collection_agyDfH"
       ],
       "name": "t:sections.collection_list.presets.collection_list.name",
       "settings": {
