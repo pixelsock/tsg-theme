@@ -9,30 +9,6 @@
  */
 {
   "sections": {
-    "collection-banner": {
-      "type": "collection-banner",
-      "custom_css": [
-        "{text-align: left;}"
-      ],
-      "settings": {
-        "content_width": "md",
-        "image": "shopify://shop_images/061125-ss25-tsgaco-summer-dt-hero_659a8687-7b48-495d-b233-4ea38a01875f.jpg",
-        "mobile_image": "shopify://shop_images/061125-ss25-collection-hero-mobile.jpg",
-        "image_size": "auto",
-        "allow_transparent_header": false,
-        "reveal": false,
-        "enable_parallax": false,
-        "show_collection_title": false,
-        "show_collection_description": false,
-        "show_breadcrumb": false,
-        "breadcrumb_color": "#303030",
-        "breadcrumb_text_color": "#ffffff",
-        "background": "#282e29",
-        "text_color": "#ffffff",
-        "overlay_color": "#282e29",
-        "overlay_opacity": 30
-      }
-    },
     "rich_text_wz38A6": {
       "type": "rich-text",
       "blocks": {
@@ -67,6 +43,30 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "custom_css": [
+        "{text-align: left;}"
+      ],
+      "settings": {
+        "content_width": "md",
+        "image": "shopify://shop_images/061125-ss25-tsgaco-summer-dt-hero_659a8687-7b48-495d-b233-4ea38a01875f.jpg",
+        "mobile_image": "shopify://shop_images/061125-ss25-collection-hero-mobile.jpg",
+        "image_size": "auto",
+        "allow_transparent_header": false,
+        "reveal": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_breadcrumb": false,
+        "breadcrumb_color": "#303030",
+        "breadcrumb_text_color": "#ffffff",
+        "background": "#282e29",
+        "text_color": "#ffffff",
+        "overlay_color": "#282e29",
+        "overlay_opacity": 30
       }
     },
     "collection_list_UPVVBz": {
@@ -177,6 +177,121 @@
         "space_items": true,
         "stack_collections": false,
         "collections_per_row_desktop": 5,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "image_with_text_eqbYE9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_nrAQrg": {
+          "type": "heading",
+          "settings": {
+            "text": "It's Independence Day, DUDES.",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_YmHYXx": {
+          "type": "subheading",
+          "settings": {
+            "text": "QUICK PICKS FOR THE LONG WEEKEND."
+          }
+        },
+        "richtext_aNzGUy": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We don't sell 100% wool overcoats like Ol' Tommy J and his pals wore, but we do sell lightweight, comfortable and cool clothes because it's hotter than George The Third's temper outside. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nrAQrg",
+        "subheading_YmHYXx",
+        "richtext_aNzGUy"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/042325-polo-collection-bottom-banner-hero-dt_6de7bfdc-28eb-476b-9ec2-d031c0e65512.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
+      }
+    },
+    "collection_list_KxeAfC": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_9TKhND": {
+          "type": "collection",
+          "settings": {
+            "collection": "topper-polos",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "TOPPER POLO",
+            "button_link": "shopify://products/tsg-topper-polo-navy-cast-stripe",
+            "text_color": "#282e29",
+            "overlay_color": "#8d762f",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": "#282e29"
+          }
+        },
+        "collection_RVza4y": {
+          "type": "collection",
+          "settings": {
+            "collection": "ridge-shorts",
+            "image": "shopify://shop_images/main1000x_0003_TSG_ridgeshort_stone_frontcopy.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "RIDGE SHORTS",
+            "button_link": "shopify://products/tsg-ridge-short-stone",
+            "text_color": "#282e29",
+            "overlay_color": "#8d762f",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": "#303030"
+          }
+        },
+        "collection_VBxfR8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/TSGHats-5181.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "HUZZAH ROPER HAT",
+            "button_link": "",
+            "text_color": "#282e29",
+            "overlay_color": "#8d762f",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": "#282e29"
+          }
+        }
+      },
+      "block_order": [
+        "collection_9TKhND",
+        "collection_RVza4y",
+        "collection_VBxfR8"
+      ],
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "",
         "content": "",
@@ -302,9 +417,11 @@
     }
   },
   "order": [
-    "collection-banner",
     "rich_text_wz38A6",
+    "collection-banner",
     "collection_list_UPVVBz",
+    "image_with_text_eqbYE9",
+    "collection_list_KxeAfC",
     "main",
     "slideshow_HBU8dN",
     "rich_text_gYzfAf",
