@@ -300,6 +300,7 @@
           "type": "collection",
           "settings": {
             "collection": "reel-shorts",
+            "image": "shopify://shop_images/tsg-ss25-reel-short-main-1000x_0000_TSG_baggyshort_driftwood_frontcopyslate.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-center text-center",
             "subheading": "",
@@ -328,7 +329,7 @@
         "show_text_outside": true,
         "space_items": true,
         "stack_collections": false,
-        "collections_per_row_desktop": 3,
+        "collections_per_row_desktop": 4,
         "subheading": "",
         "title": "",
         "content": "",
