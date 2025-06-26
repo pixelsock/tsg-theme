@@ -364,7 +364,7 @@
       "name": "t:sections.collection_list.presets.collection_list.name",
       "settings": {
         "separate_section_with_border": false,
-        "image_size": "auto",
+        "image_size": "sm",
         "show_text_outside": true,
         "space_items": true,
         "stack_collections": false,
