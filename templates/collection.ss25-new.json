@@ -215,7 +215,7 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/042325-polo-collection-bottom-banner-hero-dt_6de7bfdc-28eb-476b-9ec2-d031c0e65512.jpg",
+        "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_bd3e39ae-541a-48cb-b800-931e6c36d14a.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "lg",
@@ -295,13 +295,31 @@
             "button_background": "",
             "button_text_color": "#303030"
           }
+        },
+        "collection_xkBCyR": {
+          "type": "collection",
+          "settings": {
+            "collection": "reel-shorts",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "REEL SHORTS",
+            "button_link": "shopify://products/tsg-reel-short-slate",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": "#282e29"
+          }
         }
       },
       "block_order": [
         "collection_RVza4y",
         "collection_VBxfR8",
         "collection_9TKhND",
-        "collection_agyDfH"
+        "collection_agyDfH",
+        "collection_xkBCyR"
       ],
       "name": "t:sections.collection_list.presets.collection_list.name",
       "settings": {
