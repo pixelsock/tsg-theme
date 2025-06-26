@@ -265,6 +265,7 @@
           "type": "collection",
           "settings": {
             "collection": "topper-polos",
+            "image": "shopify://shop_images/TSG_menspolo_tealcaststripecopynavy.png",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
