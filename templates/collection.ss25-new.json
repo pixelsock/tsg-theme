@@ -243,6 +243,24 @@
             "button_text_color": "#303030"
           }
         },
+        "collection_mbVPPC": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/TSG_drifttee_pebble_frontcopysmokeblue.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "DRIFT TEES",
+            "button_link": "shopify://products/tsg-drift-short-sleeve-crew-smoke-blue",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": "#282e29"
+          }
+        },
         "collection_VBxfR8": {
           "type": "collection",
           "settings": {
@@ -372,6 +390,7 @@
       },
       "block_order": [
         "collection_RVza4y",
+        "collection_mbVPPC",
         "collection_VBxfR8",
         "collection_9TKhND",
         "collection_agyDfH",
