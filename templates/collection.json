@@ -56,7 +56,7 @@
         "promotion_placement_order": "custom",
         "custom_promotion_placement_order": 4,
         "promotion_image_url": "shopify://shop_images/070125-J4-sale-collection-promo_7f81645e-2edc-472d-adf2-e3b5d5e0450e.jpg",
-        "enable_promotion_link": true,
+        "enable_promotion_link": false,
         "promotion_link_url": "shopify://pages/tsg-apparel-co"
       }
     },
