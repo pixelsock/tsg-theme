@@ -51,12 +51,13 @@
         "heading_Uc3qJw": {
           "type": "heading",
           "settings": {
-            "text": "WANT TSG IN YOUR TOWN?",
+            "text": "THIS PAGE IS UNDER CONSTRUCTION",
             "heading_tag": "h1"
           }
         },
         "richtext_UY4mGg": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>JUST HOLLER AT US.</p><p>Please email <a href=\"mailto:wholesale@thesportinggent.com\" title=\"mailto:wholesale@thesportinggent.com\">wholesale@thesportinggent.com</a> for more information about our wholesale options or just fill out the form below with your info and one of our shopkeepers will eagerly be in touch soon.</p>"
           }
@@ -75,6 +76,7 @@
     },
     "contact_B6ztYj": {
       "type": "contact",
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "subheading": "",
