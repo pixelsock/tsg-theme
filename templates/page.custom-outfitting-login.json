@@ -51,13 +51,20 @@
         "heading_Uc3qJw": {
           "type": "heading",
           "settings": {
-            "text": "THIS PAGE IS UNDER CONSTRUCTION",
+            "text": "COMING SOON...",
             "heading_tag": "h1"
+          }
+        },
+        "richtext_VxHydF": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>If you do not currently have a TSG Custom Outfitting account and would like to get set up, please complete the form below and one of our Shopkeepers will reply to you eagerly and as quickly as possible.</p>"
           }
         }
       },
       "block_order": [
-        "heading_Uc3qJw"
+        "heading_Uc3qJw",
+        "richtext_VxHydF"
       ],
       "settings": {
         "separate_section_with_border": false,
@@ -68,7 +75,6 @@
     },
     "contact_B6ztYj": {
       "type": "contact",
-      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "subheading": "",
