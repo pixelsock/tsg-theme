@@ -12,6 +12,15 @@
     "rich_text_3gJJ6N": {
       "type": "rich-text",
       "blocks": {
+        "image_G64pJb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/061825-tsgaco-with-slogan-logo-1200x.png",
+            "width_mode": "custom",
+            "max_width": 140,
+            "mobile_max_width": 140
+          }
+        },
         "heading_QJFH77": {
           "type": "heading",
           "settings": {
@@ -28,6 +37,7 @@
         }
       },
       "block_order": [
+        "image_G64pJb",
         "heading_QJFH77",
         "richtext_QwCh9m"
       ],
