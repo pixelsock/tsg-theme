@@ -15,14 +15,14 @@
         "heading_QJFH77": {
           "type": "heading",
           "settings": {
-            "text": "TSG DEALER LOGIN",
+            "text": "TSG Custom OUtfitting LOGIN",
             "heading_tag": "h1"
           }
         },
         "richtext_QwCh9m": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Log in below with your email and credentials provide by one of our Shopkeepers.  If you have any questions, please email wholesale@thesportinggent.com for quick help.</p>"
+            "content": "<p>Log in below with your email and credentials provide by one of our Shopkeepers.  If you have any questions, please email custom@thesportinggent.com for quick help.</p>"
           }
         }
       },
