@@ -108,7 +108,7 @@
           "type": "link",
           "settings": {
             "text": "Log In Now",
-            "url": "shopify://pages/b2b-login"
+            "url": "shopify://pages/custom-login"
           }
         }
       },
