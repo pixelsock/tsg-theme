@@ -88,13 +88,41 @@
         "remove_vertical_spacing": false
       }
     },
-    "contact_Gn3GpW": {
-      "type": "contact",
+    "rich_text_nMiaJT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yUQqQn": {
+          "type": "heading",
+          "settings": {
+            "text": "ALREADY HAVE AN ACCOUNT?",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_VVdiyw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>If you're an existing TSG Custom Outfitting customer, you can login below and shop,  place orders, take advantage of bulk discounts and upload logo files directly to your account.</p>"
+          }
+        },
+        "link_XazKFG": {
+          "type": "link",
+          "settings": {
+            "text": "Log In Now",
+            "url": "shopify://pages/b2b-login"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yUQqQn",
+        "richtext_VVdiyw",
+        "link_XazKFG"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Contact us and We'll get you started.",
-        "content": ""
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd": {
@@ -158,6 +186,7 @@
         "33da0444-df20-4439-b84d-e8782bc790c7",
         "bdd0589d-fc18-4c0d-9678-332353185d04"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
@@ -170,6 +199,15 @@
         "content": "<p>If we make it, we can customize it for you.  And with ultra-low minimums and a full-service process, you don't need to break the bank to make it happen either.</p>",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
+      }
+    },
+    "contact_Gn3GpW": {
+      "type": "contact",
+      "settings": {
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Contact us and We'll get you started.",
+        "content": ""
       }
     },
     "9852aff1-1244-41a2-a109-1f5dc22585f7": {
@@ -365,8 +403,9 @@
     "7b52fbc8-ec23-4608-adf4-c500a36b63ba",
     "8c73236e-61cc-42db-b218-c0f2fa1dfc46",
     "a8ca3ce9-e46f-4757-9271-ac7d90e4f2fe",
-    "contact_Gn3GpW",
+    "rich_text_nMiaJT",
     "4c405f7b-ef5b-49ac-a8b3-d4c6b9e004cd",
+    "contact_Gn3GpW",
     "9852aff1-1244-41a2-a109-1f5dc22585f7",
     "6f4072a3-740a-49b0-86bb-382803a9312f",
     "acb25f99-5bbd-4339-9a18-107c326b2263",
