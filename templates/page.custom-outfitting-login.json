@@ -54,18 +54,10 @@
             "text": "THIS PAGE IS UNDER CONSTRUCTION",
             "heading_tag": "h1"
           }
-        },
-        "richtext_UY4mGg": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>JUST HOLLER AT US.</p><p>Please email <a href=\"mailto:wholesale@thesportinggent.com\" title=\"mailto:wholesale@thesportinggent.com\">wholesale@thesportinggent.com</a> for more information about our wholesale options or just fill out the form below with your info and one of our shopkeepers will eagerly be in touch soon.</p>"
-          }
         }
       },
       "block_order": [
-        "heading_Uc3qJw",
-        "richtext_UY4mGg"
+        "heading_Uc3qJw"
       ],
       "settings": {
         "separate_section_with_border": false,
