@@ -21,6 +21,7 @@
         },
         "richtext_QwCh9m": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>Log in below with your email and credentials provide by one of our Shopkeepers.  If you have any questions, please email custom@thesportinggent.com for quick help.</p>"
           }
@@ -32,8 +33,8 @@
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "separate_section_with_border": true,
-        "content_width": "sm",
+        "separate_section_with_border": false,
+        "content_width": "lg",
         "text_position": "center",
         "remove_vertical_spacing": false
       }
