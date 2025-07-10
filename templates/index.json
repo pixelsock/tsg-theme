@@ -105,7 +105,7 @@
       "custom_css": [
         "@media only screen and (min-width: 1000px) {.h1 {font-size: 36px; } .h6 {font-size: 36px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
         "@media only screen and (max-width: 900px) {.h1 {font-size: 24px; } .h6 {font-size: 24px; }}",
-        ".content-over-media>picture img {height: unset; min-height: unset;}",
+        ".content-over-media > picture img {height: unset; min-height: unset;}",
         ".content-over-media--lg {--content-over-media-height: unset;}"
       ],
       "settings": {
@@ -502,11 +502,12 @@
       "block_order": [
         "image_EgMaUP"
       ],
+      "custom_css": [],
       "name": "Airetex Hero",
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
-        "media_size": "md",
+        "media_size": "sm",
         "autoplay": false,
         "autoplay_pause_on_video": false,
         "cycle_speed": 5,
