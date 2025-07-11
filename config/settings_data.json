@@ -99,20 +99,6 @@
         "disabled": true,
         "settings": {}
       },
-      "15683396631634586217": {
-        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": false,
-        "settings": {
-          "button_color": "#ed8a00",
-          "secondary_color": "#FFFFFF",
-          "ternary_color": "#6A6A6A",
-          "button_icon": "chat_bubble",
-          "button_text": "no_text",
-          "button_horizontal_position": "bottom_left",
-          "button_vertical_position": "lowest",
-          "greeting_message": "👋  Good day! Please holler at us if you have questions.  We’re here and happy to help!"
-        }
-      },
       "12046557757412368804": {
         "type": "shopify://apps/accounts-concierge/blocks/customer_account_page/3c495b68-652c-468d-a0ef-5bad6935d104",
         "disabled": false,
@@ -156,6 +142,20 @@
           "navigation_link": false,
           "navigation_link_css_selector": "",
           "custom_css": ".frcp-wishlist-btn__icon svg {\n  display: none;\n}\n.frcp-wishlist-btn__icon::before {\n  content: \"+\";\n  display: inline-block;\n  transition: transform 0.3s ease, opacity 0.3s ease;\n  font-size: 1.375rem;\n}\n\n.frcp-wishlist-btn--add .frcp-wishlist-btn__icon::before {\n  content: \"+\";\n  transform: rotate(0deg);\n  opacity: 1;\n  animation: icon-fade-in 0.3s forwards;\n  font-size: 1.375rem;\n}\n\n.frcp-wishlist-btn--remove .frcp-wishlist-btn__icon::before {\n  content: \"−\";\n  transform: rotate(90deg);\n  opacity: 1;\n  animation: icon-fade-in 0.3s forwards;\n  font-size: 1.5rem;\n  margin-top: -2px;\n}\n\n@keyframes icon-fade-in {\n  0% {\n    opacity: 0;\n    transform: scale(0.8);\n  }\n  100% {\n    opacity: 1;\n    transform: scale(1);\n  }\n}\n\n.frcp-wishlist-btn__icon {\n  transition: transform 0.3s ease, opacity 0.3s ease;\n}"
+        }
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#ed8a00",
+          "secondary_color": "#ffffff",
+          "ternary_color": "#282e29",
+          "button_icon": "chat_bubble",
+          "button_text": "no_text",
+          "button_horizontal_position": "bottom_left",
+          "button_vertical_position": "lowest",
+          "greeting_message": "👋  Good day! Please holler at us if you have questions.  We’re here and happy to help!"
         }
       }
     }
