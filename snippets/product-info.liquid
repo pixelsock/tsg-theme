@@ -151,7 +151,7 @@
             {%- endif -%}
 
           {%- when 'sku' -%}
-            <variant-sku class="variant-sku text-sm text-subdued" form="{{ product_form_id }}" {% if product != blank and product.selected_or_first_available_variant.sku == blank %}hidden{% endif %}>
+            <variant-sku data-spark="b2c-only" class="variant-sku text-sm text-subdued" form="{{ product_form_id }}" {% if product != blank and product.selected_or_first_available_variant.sku == blank %}hidden{% endif %}>
               {{- 'product.general.sku' | t }} {% if product != blank -%}{{ product.selected_or_first_available_variant.sku -}}{%- else -%}SK-123AB{%- endif -%}
             </variant-sku>
 
@@ -164,7 +164,8 @@
           {%- endcomment -%}
 
           {%- when 'price' -%}
-            <div class="v-stack">
+          <spark-pdp parent-id="{{ product.id }}"></spark-pdp>
+            <div  data-spark="b2c-only" class="v-stack">
               <div style="display: flex; align-items: center;">
                 {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, context: 'product', form_id: product_form_id -%}
   
@@ -199,7 +200,7 @@
 
           {%- when 'payment_terms' -%}
             {%- if product != blank -%}
-              <payment-terms class="payment-terms" form="{{ product_form_id }}">
+              <payment-terms data-spark="b2c-only" class="payment-terms" form="{{ product_form_id }}">
                 {%- capture product_installment_form_id -%}product-installment-form-{{ section.id }}-{{ product.id }}{%- endcapture -%}
 
                 {%- form 'product', product, id: product_installment_form_id -%}
@@ -239,6 +240,7 @@
 
           {%- when 'variant_picker' -%}
             {%- if product != blank -%}
+              <div data-spark="b2c-only">
               {%- render 'variant-picker',
                   product: product,
                   form_id: product_form_id,
@@ -247,6 +249,7 @@
                   selector_type: block.settings.selector_type,
                   color_selector_type: block.settings.color_selector_type,
                   size_chart_page: block.settings.size_chart_page -%}
+              </div>
             {%- endif -%}
 
           {%- when 'product_variations' -%}
@@ -280,7 +283,7 @@
                   IMPLEMENTATION NOTE: this feature allows to connect different products on the same page. It is therefore
                   visually similar to a variant picker, although it does not share the functionality
                 {%- endcomment -%}
-                <div class="variant-picker v-stack gap-4">
+                <div data-spark="b2c-only" class="variant-picker v-stack gap-4">
                   <div class="variant-picker__option v-stack gap-2">
                     {%- if block.settings.option_name != blank -%}
                       <div class="h-stack gap-1">
@@ -324,7 +327,7 @@
                   IMPLEMENTATION NOTE: this feature allows to connect different products on the same page. It is therefore
                   visually similar to a variant picker, although it does not share the functionality
                 {%- endcomment -%}
-                <div class="variant-picker v-stack gap-4">
+                <div data-spark="b2c-only" class="variant-picker v-stack gap-4">
                   <div class="variant-picker__option v-stack gap-2">
                     {%- assign metafield_parts = block.settings.option_value_metafield | split: '.' -%}
                     {%- assign metafield_namespace = metafield_parts | first -%}
@@ -362,7 +365,7 @@
             {%- if block.settings.label != blank -%}
               {%- capture name -%}properties[{{ block.settings.label | escape }}]{%- endcapture -%}
 
-              <div class="line-item-property">
+              <div data-spark="b2c-only" class="line-item-property">
                 {%- liquid
                   if block.settings.type == 'text'
                     if block.settings.allow_long_text
@@ -382,10 +385,13 @@
 
           {%- when 'quantity_selector' -%}
             {%- if product.available -%}
+              <div data-spark="b2c-only">
               {% render 'quantity-selector', variant: product.selected_or_first_available_variant, form: product_form_id %}
+              </div>
             {%- endif -%}
 
           {%- when 'inventory' -%}
+          <div data-spark="b2c-only">
             {%- render 'inventory',
                 product: product,
                 show_in_stock_quantity: block.settings.show_in_stock_quantity,
@@ -394,11 +400,12 @@
                 low_threshold: block.settings.low_inventory_threshold,
                 form_id: product_form_id
             -%}
+          </div>
 
           {%- when 'buy_buttons' -%}
             
 {% comment %} Personalization {% endcomment %}
-    <div class="custom-properties-section-product">
+    <div data-spark="b2c-only" class="custom-properties-section-product">
       {% if product.metafields.custom.personalization_options == 'UP TO 6 CHARACTERS' %}
           <div class="prose"><p><strong>PERSONALIZATION</strong></p></div>
           <div class="line-item-property">
@@ -433,6 +440,7 @@
         </div>
       {% endif %}
     </div>
+          <div data-spark="b2c-only">
             {%- render 'buy-buttons',
                 product: product,
                 form_id: product_form_id,
@@ -443,6 +451,7 @@
                 payment_button_background: block.settings.payment_button_background,
                 payment_button_text_color: block.settings.payment_button_text_color
             -%}
+          </div>
 
           {%- when 'pickup_availability' -%}
             {%- if product != blank -%}
