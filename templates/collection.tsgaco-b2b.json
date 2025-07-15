@@ -62,26 +62,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "rich_text_gYzfAf": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_3PDcHq": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_3PDcHq"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
     "featured_collections_RqDqJG": {
       "type": "featured-collections",
       "blocks": {
@@ -465,7 +445,6 @@
   "order": [
     "collection-banner",
     "rich_text_wz38A6",
-    "rich_text_gYzfAf",
     "featured_collections_RqDqJG",
     "featured_collections_EUVtA3",
     "featured_collections_gXqYBg",
