@@ -24,14 +24,14 @@
         "heading_QJFH77": {
           "type": "heading",
           "settings": {
-            "text": "TSG DEALER LOGIN",
+            "text": "TSG STOCKIST RESOURCES",
             "heading_tag": "h1"
           }
         },
         "richtext_QwCh9m": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Log in below with your email and credentials provide by one of our Shopkeepers.  If you have any questions, please email wholesale@thesportinggent.com for quick help.</p>"
+            "content": "<p>Click the link below to log in with your email and credentials.  If you have any questions, please email wholesale@thesportinggent.com for quick help.</p>"
           }
         }
       },
@@ -53,35 +53,6 @@
       "settings": {
         "show_title": false,
         "page_width": "md"
-      }
-    },
-    "rich_text_idhbRK": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Uc3qJw": {
-          "type": "heading",
-          "settings": {
-            "text": "THIS PAGE IS UNDER CONSTRUCTION",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_UY4mGg": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>JUST HOLLER AT US.</p><p>Please email <a href=\"mailto:wholesale@thesportinggent.com\" title=\"mailto:wholesale@thesportinggent.com\">wholesale@thesportinggent.com</a> for more information about our wholesale options or just fill out the form below with your info and one of our shopkeepers will eagerly be in touch soon.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Uc3qJw",
-        "richtext_UY4mGg"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
       }
     },
     "contact_B6ztYj": {
@@ -116,7 +87,6 @@
   "order": [
     "rich_text_3gJJ6N",
     "main",
-    "rich_text_idhbRK",
     "contact_B6ztYj",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
