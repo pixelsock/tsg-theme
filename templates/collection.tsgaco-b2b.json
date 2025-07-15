@@ -47,7 +47,7 @@
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Lorem Ipsum</p>"
+            "content": "<p>Here it is.  For your stocking pleasure: The Whole Enchilada.</p>"
           }
         }
       },
@@ -58,6 +58,26 @@
       "settings": {
         "separate_section_with_border": true,
         "content_width": "md",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_gYzfAf": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_3PDcHq": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3PDcHq"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
       }
@@ -127,6 +147,7 @@
       "block_order": [
         "collection_Tnmx7t"
       ],
+      "name": "Topper Polos",
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
@@ -202,6 +223,7 @@
       "block_order": [
         "collection_bidMR6"
       ],
+      "name": "Drift Polos",
       "settings": {
         "separate_section_with_border": false,
         "hide_product_information": false,
@@ -209,35 +231,6 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.5,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "featured_collections_7WpDFR": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_yVwp9z": {
-          "type": "collection",
-          "settings": {
-            "collection": "tsg-graphic-tees",
-            "products_count": 8,
-            "title": "SHOP TSG GRAPHIC TEES",
-            "link_url": "shopify://collections/tsg-graphic-tees",
-            "link_text": "Shop All Graphic Tees"
-          }
-        }
-      },
-      "block_order": [
-        "collection_yVwp9z"
-      ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
@@ -259,7 +252,7 @@
       "block_order": [
         "collection_TVczmU"
       ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "name": "Drift Tees",
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
@@ -271,37 +264,120 @@
         "subheading": ""
       }
     },
-    "rich_text_b8jAqK": {
-      "type": "rich-text",
+    "featured_collections_7WpDFR": {
+      "type": "featured-collections",
       "blocks": {
-        "heading_eGrC7V": {
-          "type": "heading",
+        "collection_yVwp9z": {
+          "type": "collection",
           "settings": {
-            "text": "SHOP ALL POLOS",
-            "heading_tag": "h1"
-          }
-        },
-        "button_gghLFw": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "SHOP ALL POLOS",
-            "url": "",
-            "background": "",
-            "text_color": ""
+            "collection": "tsg-graphic-tees",
+            "products_count": 8,
+            "title": "SHOP TSG GRAPHIC TEES",
+            "link_url": "shopify://collections/tsg-graphic-tees",
+            "link_text": "Shop All Graphic Tees"
           }
         }
       },
       "block_order": [
-        "heading_eGrC7V",
-        "button_gghLFw"
+        "collection_yVwp9z"
       ],
-      "disabled": true,
+      "name": "Graphic Tees",
       "settings": {
         "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_maYead": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_AXw7Tg": {
+          "type": "collection",
+          "settings": {
+            "collection": "airetex-button-down-shirts",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_AXw7Tg"
+      ],
+      "name": "Button Downs",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_ABFMep": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_FRit6e": {
+          "type": "collection",
+          "settings": {
+            "collection": "airetex-brooks-shirts",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_FRit6e"
+      ],
+      "name": "Brooks Shirts",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_gCAYfg": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Bn78qU": {
+          "type": "collection",
+          "settings": {
+            "collection": "airetex-rise-shirts",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_Bn78qU"
+      ],
+      "name": "Rise Shirts",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
       }
     },
     "main": {
@@ -334,91 +410,6 @@
         "enable_promotion_link": false,
         "promotion_link_url": "shopify://pages/tsg-apparel-co"
       }
-    },
-    "slideshow_HBU8dN": {
-      "type": "slideshow",
-      "blocks": {
-        "image_NRM3Hn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/042325-polo-collection-bottom-banner-hero-dt_6de7bfdc-28eb-476b-9ec2-d031c0e65512.jpg",
-            "mobile_image": "shopify://shop_images/042325-polo-collection-bottom-banner-hero-mobile_65f257bc-ebe0-4f3a-8dc3-4a64b5037738.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 0,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_NRM3Hn"
-      ],
-      "disabled": true,
-      "settings": {
-        "allow_transparent_header": false,
-        "show_next_section_button": false,
-        "media_size": "auto",
-        "autoplay": false,
-        "autoplay_pause_on_video": true,
-        "cycle_speed": 5,
-        "background": "#000000",
-        "controls_color": "#ffffff"
-      }
-    },
-    "rich_text_gYzfAf": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_3PDcHq": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_3PDcHq"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
-    "newsletter_CqViA7": {
-      "type": "newsletter",
-      "custom_css": [],
-      "settings": {
-        "separate_section_with_border": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/042122_learntofish_hero-dt.jpg",
-        "mobile_image": "shopify://shop_images/070824-summer-fishing-mobile-hero_1a5cd972-7ffc-4f70-ab3c-1cf95358475e.jpg",
-        "subheading": "Want to stay in the loop?",
-        "title": "Sign up for our TSG Dispatches",
-        "content": "",
-        "button_text": "Subscribe",
-        "text_color": "#ffffff",
-        "button_background": "",
-        "button_text_color": "#ffffff",
-        "overlay_color": "#282e29",
-        "overlay_opacity": 100
-      }
     }
   },
   "order": [
@@ -429,11 +420,11 @@
     "featured_collections_RqDqJG",
     "image_with_text_yEhJTt",
     "featured_collections_EUVtA3",
-    "featured_collections_7WpDFR",
     "featured_collections_gXqYBg",
-    "rich_text_b8jAqK",
-    "main",
-    "slideshow_HBU8dN",
-    "newsletter_CqViA7"
+    "featured_collections_7WpDFR",
+    "featured_collections_maYead",
+    "featured_collections_ABFMep",
+    "featured_collections_gCAYfg",
+    "main"
   ]
 }
