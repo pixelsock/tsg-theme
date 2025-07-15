@@ -12,7 +12,7 @@ Supported variables
 * filter: the filter object to use
 {%- endcomment -%}
 
-<price-range class="price-range">
+<price-range data-spark="b2c-only" class="price-range">
   {%- assign min_value = filter.min_value.value | default: 0.0 | divided_by: 100.0 -%}
   {%- assign max_value = filter.max_value.value | default: filter.range_max | divided_by: 100.0 -%}
   {%- assign range_max = filter.range_max | divided_by: 100.0 | ceil -%}
