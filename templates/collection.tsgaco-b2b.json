@@ -12,7 +12,8 @@
     "collection-banner": {
       "type": "collection-banner",
       "custom_css": [
-        "{text-align: left;}"
+        ".content-over-media > picture img {height: unset; min-height: unset;}",
+        ".content-over-media--lg {--content-over-media-height: unset;}"
       ],
       "settings": {
         "content_width": "xs",
