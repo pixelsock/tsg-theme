@@ -77,7 +77,7 @@
         "apply_submit": "Apply Now",
         "form_message_success": "Thank you for your messsage, we will be in touch shortly.",
         "form_message_error": "Sorry, there appears to be an error in your form submission.",
-        "form_action": "redirect",
+        "form_action": "email",
         "custom_form_html": "<p>Paste your custom form HTML here</p>",
         "redirect_url": "shopify://pages/store-locator",
         "show_form_expanded": false,
