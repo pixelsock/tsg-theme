@@ -50,6 +50,7 @@
     },
     "main": {
       "type": "main-b2b-login",
+      "custom_css": [],
       "settings": {
         "page_width": "full",
         "login_type": "password",
