@@ -259,7 +259,7 @@
         "stack_products": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
+        "horizontal_spacing_factor": 0.5,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
@@ -303,7 +303,7 @@
             "products_count": 8,
             "title": "",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": "Shop All Button Downs"
           }
         }
       },
