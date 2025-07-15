@@ -48,6 +48,31 @@
         "remove_vertical_spacing": false
       }
     },
+    "rich_text_pXy8bw": {
+      "type": "rich-text",
+      "blocks": {
+        "button_KbwRQK": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "CLICK HERE",
+            "url": "shopify://pages/b2b-login",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_KbwRQK"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -76,6 +101,7 @@
   },
   "order": [
     "rich_text_3gJJ6N",
+    "rich_text_pXy8bw",
     "main",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
