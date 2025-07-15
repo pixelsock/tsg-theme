@@ -252,7 +252,7 @@
             "products_count": 8,
             "title": "",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": ""
           }
         }
       },
@@ -306,6 +306,7 @@
     },
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "custom_css": [
         ".dot-checkbox {border-radius: 0px; height: 0.75rem; width: 0.75rem; inset-block-start: calc(0.35em + 1px); background: #f79e1b; border: 2px solid;}"
       ],
@@ -368,6 +369,7 @@
       "block_order": [
         "image_NRM3Hn"
       ],
+      "disabled": true,
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
@@ -422,6 +424,7 @@
   "order": [
     "collection-banner",
     "rich_text_wz38A6",
+    "rich_text_gYzfAf",
     "image_with_text_bXrnij",
     "featured_collections_RqDqJG",
     "image_with_text_yEhJTt",
@@ -431,7 +434,6 @@
     "rich_text_b8jAqK",
     "main",
     "slideshow_HBU8dN",
-    "rich_text_gYzfAf",
     "newsletter_CqViA7"
   ]
 }
