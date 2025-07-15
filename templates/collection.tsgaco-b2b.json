@@ -314,6 +314,64 @@
         "subheading": ""
       }
     },
+    "featured_collections_wrGqqK": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_kpR78H": {
+          "type": "collection",
+          "settings": {
+            "collection": "boone-shorts",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "Shop All Boone Shorts"
+          }
+        }
+      },
+      "block_order": [
+        "collection_kpR78H"
+      ],
+      "name": "Boone Shorts",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_MmYRRk": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_P6qcqP": {
+          "type": "collection",
+          "settings": {
+            "collection": "reel-shorts",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_P6qcqP"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "disabled": true,
@@ -358,6 +416,8 @@
     "featured_collections_ABFMep",
     "featured_collections_gCAYfg",
     "featured_collections_JtYXY8",
+    "featured_collections_wrGqqK",
+    "featured_collections_MmYRRk",
     "main"
   ]
 }
