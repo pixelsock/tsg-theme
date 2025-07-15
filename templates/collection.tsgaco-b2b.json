@@ -15,8 +15,9 @@
         "{text-align: left;}"
       ],
       "settings": {
-        "content_width": "md",
-        "image_size": "auto",
+        "content_width": "xs",
+        "image": "shopify://shop_images/030725-ss25-collection-pg-banner-DT.png",
+        "image_size": "xs",
         "allow_transparent_header": false,
         "reveal": false,
         "enable_parallax": false,
@@ -76,6 +77,7 @@
         "link_L7EGTy",
         "subheading_7aTfEk"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "content_width": "md",
@@ -120,6 +122,7 @@
         "richtext_R77g3t",
         "link_W8NPY4"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "separate_section_with_border": true,
@@ -195,6 +198,7 @@
         "richtext_G6iR6P",
         "link_hAaD4j"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_bd3e39ae-541a-48cb-b800-931e6c36d14a.jpg",
@@ -267,7 +271,6 @@
     },
     "main": {
       "type": "main-collection",
-      "disabled": true,
       "custom_css": [
         ".dot-checkbox {border-radius: 0px; height: 0.75rem; width: 0.75rem; inset-block-start: calc(0.35em + 1px); background: #f79e1b; border: 2px solid;}"
       ],
