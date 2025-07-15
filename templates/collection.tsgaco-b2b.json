@@ -360,7 +360,7 @@
       "block_order": [
         "collection_P6qcqP"
       ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "name": "Reel Shorts",
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
@@ -368,6 +368,35 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_4YxbMC": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_a78Kiw": {
+          "type": "collection",
+          "settings": {
+            "collection": "tsg-boone-5-pocket-pants",
+            "products_count": 50,
+            "title": "",
+            "link_url": "",
+            "link_text": "Shop All Boone Pants"
+          }
+        }
+      },
+      "block_order": [
+        "collection_a78Kiw"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.5,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
@@ -418,6 +447,7 @@
     "featured_collections_JtYXY8",
     "featured_collections_wrGqqK",
     "featured_collections_MmYRRk",
+    "featured_collections_4YxbMC",
     "main"
   ]
 }
