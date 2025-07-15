@@ -128,7 +128,7 @@
         "collection_Tnmx7t"
       ],
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": true,
         "products_per_row_mobile": "2",
@@ -219,11 +219,11 @@
         "collection_yVwp9z": {
           "type": "collection",
           "settings": {
-            "collection": "tees",
+            "collection": "tsg-graphic-tees",
             "products_count": 8,
             "title": "SHOP TSG GRAPHIC TEES",
-            "link_url": "",
-            "link_text": ""
+            "link_url": "shopify://collections/tsg-graphic-tees",
+            "link_text": "Shop All Graphic Tees"
           }
         }
       },
@@ -235,6 +235,35 @@
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_gXqYBg": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_TVczmU": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_TVczmU"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
@@ -398,6 +427,7 @@
     "image_with_text_yEhJTt",
     "featured_collections_EUVtA3",
     "featured_collections_7WpDFR",
+    "featured_collections_gXqYBg",
     "rich_text_b8jAqK",
     "main",
     "slideshow_HBU8dN",
