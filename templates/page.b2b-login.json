@@ -9,15 +9,54 @@
  */
 {
   "sections": {
+    "rich_text_XwXPDe": {
+      "type": "rich-text",
+      "blocks": {
+        "image_AmQPiw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/061825-tsgaco-with-slogan-logo-1200x.png",
+            "width_mode": "custom",
+            "max_width": 180,
+            "mobile_max_width": 150
+          }
+        },
+        "heading_dBD3A7": {
+          "type": "heading",
+          "settings": {
+            "text": "TSG STOCKIST RESOURCES",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_M6zUMq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Click the link below to log in with your email and credentials.  If you have any questions, please email wholesale@thesportinggent.com for quick help.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_AmQPiw",
+        "heading_dBD3A7",
+        "richtext_M6zUMq"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "main": {
       "type": "main-b2b-login",
       "settings": {
-        "page_width": "fixed",
+        "page_width": "full",
         "login_type": "password",
         "featured_image": "shopify://shop_images/061225-ss25-collection-reels_0000_tsg-charleston-s25-builder-0184.jpg",
         "background_width": "fill",
         "background_color": "#f1f1f1",
-        "base_page_spacing": 24,
+        "base_page_spacing": 60,
         "base_font_color": "#555555",
         "base_font_size": 15,
         "base_link_color": "#000000",
@@ -77,6 +116,7 @@
     }
   },
   "order": [
+    "rich_text_XwXPDe",
     "main"
   ]
 }
