@@ -37,49 +37,24 @@
     "rich_text_wz38A6": {
       "type": "rich-text",
       "blocks": {
-        "subheading_3D3ibh": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "\"NO CLUB LOGOS.\""
-          }
-        },
         "heading_nmDKqh": {
           "type": "heading",
           "settings": {
-            "text": "POLO SHIRTS",
+            "text": "THE TSG MOTHERLOAD",
             "heading_tag": "h1"
           }
         },
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Golf courses. Poolside. Casual Friday. Or just getting sh*t done around the house: It's the first thing we gravitate towards as soon as Spring starts to bud up from the ground - when the temps go up, so do the sleeves.  From performance fabrics to classic staples like our TSG Drift cotton/spandex blended polo, our selection of polo shirts perfect for the spectrum of situations you may find the need to \"button up\" or down.</p>"
-          }
-        },
-        "link_L7EGTy": {
-          "type": "link",
-          "settings": {
-            "text": "See More Below.",
-            "url": ""
-          }
-        },
-        "subheading_7aTfEk": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "<em>SEE MORE BELOW.</em>"
+            "content": "<p>Lorem Ipsum</p>"
           }
         }
       },
       "block_order": [
-        "subheading_3D3ibh",
         "heading_nmDKqh",
-        "richtext_Eiht3r",
-        "link_L7EGTy",
-        "subheading_7aTfEk"
+        "richtext_Eiht3r"
       ],
-      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "content_width": "md",
@@ -234,6 +209,35 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_7WpDFR": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_yVwp9z": {
+          "type": "collection",
+          "settings": {
+            "collection": "tees",
+            "products_count": 8,
+            "title": "SHOP TSG GRAPHIC TEES",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_yVwp9z"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
@@ -393,6 +397,7 @@
     "featured_collections_RqDqJG",
     "image_with_text_yEhJTt",
     "featured_collections_EUVtA3",
+    "featured_collections_7WpDFR",
     "rich_text_b8jAqK",
     "main",
     "slideshow_HBU8dN",
