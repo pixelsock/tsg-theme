@@ -82,54 +82,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "image_with_text_bXrnij": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_QqnhjV": {
-          "type": "heading",
-          "settings": {
-            "text": "THE TOPPER POLO",
-            "heading_tag": "h1"
-          }
-        },
-        "subheading_BhfK4P": {
-          "type": "subheading",
-          "settings": {
-            "text": "The Polo That Tops Them All."
-          }
-        },
-        "richtext_R77g3t": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The TSG Topper Polo, the my-wife-made-me polo for those evening activities or, heck, even just for a bonkers hot day on the course or at the bar.  The Topper polo is built with an <em>ultra-comfortable</em>, <em>moisture-wicking </em>poly and Spandex™ blend so you can keep your lady impressed all while feeling super masculine and cool.  </p>"
-          }
-        },
-        "link_W8NPY4": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "text": "Shop Now",
-            "url": "shopify://collections/topper-polos"
-          }
-        }
-      },
-      "block_order": [
-        "heading_QqnhjV",
-        "subheading_BhfK4P",
-        "richtext_R77g3t",
-        "link_W8NPY4"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_0c510c42-195b-4452-a083-842ec2bd6c18.jpg",
-        "reveal_on_scroll": false,
-        "image_position": "end",
-        "content_width": "lg",
-        "remove_vertical_spacing": true
-      }
-    },
     "featured_collections_RqDqJG": {
       "type": "featured-collections",
       "blocks": {
@@ -157,53 +109,6 @@
         "horizontal_spacing_factor": 0.3,
         "vertical_spacing_factor": 1,
         "subheading": ""
-      }
-    },
-    "image_with_text_yEhJTt": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_hVDMYM": {
-          "type": "heading",
-          "settings": {
-            "text": "THE DRIFT POLO",
-            "heading_tag": "h1"
-          }
-        },
-        "subheading_jUj68Y": {
-          "type": "subheading",
-          "settings": {
-            "text": "The \"I've Got Sh** To Do Today\" Polo"
-          }
-        },
-        "richtext_G6iR6P": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>This is the honey-do-list, grab mulch, go to the brewery, and all-rounder get-sh**-done polo. Complete with an old school look but with a modern construction and moisture wicking tech from drirelease®, this versatile polo is the ideal length to wear untucked.</p>"
-          }
-        },
-        "link_hAaD4j": {
-          "type": "link",
-          "disabled": true,
-          "settings": {
-            "text": "Shop Now",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_hVDMYM",
-        "subheading_jUj68Y",
-        "richtext_G6iR6P",
-        "link_hAaD4j"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_bd3e39ae-541a-48cb-b800-931e6c36d14a.jpg",
-        "reveal_on_scroll": false,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
       }
     },
     "featured_collections_EUVtA3": {
@@ -380,6 +285,35 @@
         "subheading": ""
       }
     },
+    "featured_collections_JtYXY8": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_b9LGcL": {
+          "type": "collection",
+          "settings": {
+            "collection": "ridge-shorts",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_b9LGcL"
+      ],
+      "name": "Ridge Shorts",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "disabled": true,
@@ -416,15 +350,14 @@
     "collection-banner",
     "rich_text_wz38A6",
     "rich_text_gYzfAf",
-    "image_with_text_bXrnij",
     "featured_collections_RqDqJG",
-    "image_with_text_yEhJTt",
     "featured_collections_EUVtA3",
     "featured_collections_gXqYBg",
     "featured_collections_7WpDFR",
     "featured_collections_maYead",
     "featured_collections_ABFMep",
     "featured_collections_gCAYfg",
+    "featured_collections_JtYXY8",
     "main"
   ]
 }
