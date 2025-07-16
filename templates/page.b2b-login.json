@@ -48,6 +48,36 @@
         "remove_vertical_spacing": false
       }
     },
+    "rich_text_m6Y83m": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_t7aaiK": {
+          "type": "heading",
+          "settings": {
+            "text": "Whoops....",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_a6JqfL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We're undergoing a little maintenance.  You email any orders directly to our team at wholesale@thesportinggent.com until the computers stop with the nonsense.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_t7aaiK",
+        "richtext_a6JqfL"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "main": {
       "type": "main-b2b-login",
       "custom_css": [],
@@ -118,6 +148,7 @@
   },
   "order": [
     "rich_text_XwXPDe",
+    "rich_text_m6Y83m",
     "main"
   ]
 }
