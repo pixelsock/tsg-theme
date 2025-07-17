@@ -95,7 +95,25 @@ window.sparkOptions = {
     urlRegex: /\/account/g,
     goTo: "/index", // page to redirect logged in users to
   },
-  
+  /* Add the below code into the SparkLayer Core Script */
+/* Please refer to our help guide on how to do this */
+translations: {
+  en: {
+    "account.order-status.incoming": "Incoming",
+    "account.order-status.returned": "Returned",
+    "account.order-status.cancelled": "Cancelled",
+    "account.order-status.seturned": "Shipped",
+    "account.order-status.part_shipped": "Part-shipped",
+    "account.order-status.part_returned": "Part-returned",
+    "account.order-status.varied": "Varied",
+    "account.order-status.processing": "Processing",
+    "account.order-status.complete": "Complete",
+    "account.order-status.awaiting_approval": "Requires approval",
+    "account.order-status.awaiting_merchant": "Awaiting merchant",
+    "account.order-status.archived": "Archived",
+  }
+},  
+/* End of code */
   auth: {
     user: {{ customer.email | json }},
     token: {{ customer.metafields.sparklayer.authentication | json }},
