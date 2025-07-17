@@ -95,6 +95,7 @@ window.sparkOptions = {
     urlRegex: /\/account/g,
     goTo: "/index", // page to redirect logged in users to
   },
+  
   auth: {
     user: {{ customer.email | json }},
     token: {{ customer.metafields.sparklayer.authentication | json }},
