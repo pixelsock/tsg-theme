@@ -16,16 +16,16 @@
       ],
       "settings": {
         "content_width": "sm",
-        "image": "shopify://shop_images/080224--Field-Gear-collection-banner-3000x1000.jpg",
+        "image": "shopify://shop_images/071825-collection-hero-dt_2.jpg",
         "image_size": "xs",
         "allow_transparent_header": false,
-        "reveal": true,
-        "enable_parallax": true,
+        "reveal": false,
+        "enable_parallax": false,
         "show_collection_title": false,
         "show_collection_description": false,
         "show_breadcrumb": false,
-        "breadcrumb_color": "#282E29",
-        "breadcrumb_text_color": "#fff",
+        "breadcrumb_color": "#282e29",
+        "breadcrumb_text_color": "#ffffff",
         "background": "#000000",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -35,35 +35,35 @@
     "rich_text_ajCUdx": {
       "type": "rich-text",
       "blocks": {
-        "subheading_zTXt3m": {
-          "type": "subheading",
-          "settings": {
-            "text": "HAVE A FIELD DAY."
-          }
-        },
         "heading_qTq3hN": {
           "type": "heading",
           "settings": {
-            "text": "FIELD GEAR",
+            "text": "We LOVE TO Fish.",
             "heading_tag": "h1"
+          }
+        },
+        "subheading_zTXt3m": {
+          "type": "subheading",
+          "settings": {
+            "text": "So we make apparel that we love to fish in."
           }
         },
         "richtext_Ux6pzJ": {
           "type": "richtext",
           "settings": {
-            "content": "<p>This is what we work for--day-in, and day-out.  The field day.  Memories are made out there and the gear we use to help us be successful in the field means something as well.  Quality hunting, shooting, and field gear and goods are important to accomplish the task at hand: make memories, chase game, and pass along the traditions to the next person.  Shop our curated collection of shooting accessories, upland apparel, knives, binoculars, and other hunting gear for your next field day.</p>"
+            "content": "<p>Let’s be honest.<br/>It’s hard to beat that fresh air. So it makes sense that we design fabrics that are both durable and breathable so you can enjoy that fresh air from inside and out, and top to bottom. From our woven Airetex™ Brooks Shirts with venting for days to the ultralight and moisture-crushing Drift Hoody - we are making you cooler than that \"muscle\" car you drove in high school.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_zTXt3m",
         "heading_qTq3hN",
+        "subheading_zTXt3m",
         "richtext_Ux6pzJ"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "content_width": "lg",
-        "text_position": "start",
+        "text_position": "center",
         "remove_vertical_spacing": false
       }
     },
@@ -73,12 +73,12 @@
         "template--16748728287464__13e995ae-26bd-48a6-80d6-b273bb649389-1688747058e9958a7d-2": {
           "type": "collection",
           "settings": {
-            "collection": "field-apparel",
-            "image": "shopify://shop_images/baeronwaxedjacketoxbowf23_0006_tsg-ducks-240114-024.jpg",
+            "collection": "drift-collection",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0000_tsg-charleston-s25-builder-0184.jpg",
             "expand_collection": true,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "APPAREL",
+            "title": "DRIFT COLLECTION",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -91,12 +91,12 @@
         "eb0b3846-751a-4f7e-a06d-0297a139346d": {
           "type": "collection",
           "settings": {
-            "collection": "bottoms",
-            "image": "shopify://shop_images/filsoncompactbriefcase_0001s_0000_Layer19.jpg",
+            "collection": "airetex-brooks-shirts",
+            "image": "shopify://shop_images/061225-ss25-collection-reels_0003_tsg-troutin-builder-250516-113.jpg",
             "expand_collection": true,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "Packs & Bags",
+            "title": "Airetex™ Brooks Shirts",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -109,12 +109,12 @@
         "93557da7-9886-48c5-aaae-82984379c5e0": {
           "type": "collection",
           "settings": {
-            "collection": "footwear",
+            "collection": "tsg-drift-hoody",
             "image": "shopify://shop_images/russell_tsg_oxbow_boot_alt_0000s_0000_tsg0marc-SD2023-0080Brown_laces.jpg",
             "expand_collection": true,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "FOOTWEAR",
+            "title": "DRIFT HOODY",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -130,6 +130,7 @@
         "eb0b3846-751a-4f7e-a06d-0297a139346d",
         "93557da7-9886-48c5-aaae-82984379c5e0"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
@@ -168,8 +169,9 @@
         "show_filter_values_count": true,
         "show_color_swatch": true,
         "open_filters_by_default": false,
-        "promotion_placement_order": "random",
+        "promotion_placement_order": "custom",
         "custom_promotion_placement_order": 2,
+        "promotion_image_url": "shopify://shop_images/071825-ss25-beach-v-mountains-collection-promo_01.jpg",
         "enable_promotion_link": true,
         "promotion_link_url": ""
       }
