@@ -150,7 +150,12 @@
         {%- endif -%}
         {%- if menu.links.size > 0 and section.settings.layout != 'drawer' -%}
           <ul class="contents unstyled-list md-max:hidden">
-            {%- for link in menu.links -%}
+            {%- if customer.metafields.sparklayer.authentication -%}
+{% assign menu = linklists.b2b-menu %}
+{%- else -%}
+{% assign menu = linklists.new-main %}
+{%- endif -%}
+{%- for link in menu.links -%}
               {% liquid
                 assign link_title_downcase = link.title | strip | downcase
                 assign mega_menu_block = ''
