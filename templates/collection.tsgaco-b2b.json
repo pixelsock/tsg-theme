@@ -423,7 +423,6 @@
     },
     "main": {
       "type": "main-collection",
-      "disabled": true,
       "custom_css": [
         ".dot-checkbox {border-radius: 0px; height: 0.75rem; width: 0.75rem; inset-block-start: calc(0.35em + 1px); background: #f79e1b; border: 2px solid;}"
       ],
