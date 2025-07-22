@@ -171,6 +171,16 @@
         "remove_vertical_spacing": false
       }
     },
+    "contact_gJA33n": {
+      "type": "contact",
+      "name": "t:sections.contact.presets.contact_form.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "",
+        "content": "<p>Enter your information below to enter!</p>"
+      }
+    },
     "53762d71-21b1-4901-9926-dc2f90215d94": {
       "type": "rich-text",
       "blocks": {
@@ -245,6 +255,7 @@
     "93367fbc-a4dd-4211-b8e5-34e41d58c0a0",
     "rich_text_p64XHA",
     "rich_text_QYHDJp",
+    "contact_gJA33n",
     "53762d71-21b1-4901-9926-dc2f90215d94",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
