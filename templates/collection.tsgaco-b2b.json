@@ -18,7 +18,6 @@
       "settings": {
         "content_width": "xs",
         "image": "shopify://shop_images/022421_tsg_collection_banner_69dbd53b-1fa8-4b41-8393-5a7ac6901aed.webp",
-        "mobile_image": "shopify://shop_images/061125-ss25-collection-hero-mobile_98c83db0-ec03-48e5-8750-a562d7a67180.jpg",
         "image_size": "xs",
         "allow_transparent_header": false,
         "reveal": false,
