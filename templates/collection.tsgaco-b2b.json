@@ -79,6 +79,7 @@
       "block_order": [
         "collection_Tnmx7t"
       ],
+      "disabled": true,
       "name": "Topper Polos",
       "settings": {
         "separate_section_with_border": true,
@@ -108,6 +109,7 @@
       "block_order": [
         "collection_bidMR6"
       ],
+      "disabled": true,
       "name": "Drift Polos",
       "settings": {
         "separate_section_with_border": false,
@@ -137,6 +139,7 @@
       "block_order": [
         "collection_TVczmU"
       ],
+      "disabled": true,
       "name": "Drift Tees",
       "settings": {
         "separate_section_with_border": true,
@@ -166,6 +169,7 @@
       "block_order": [
         "collection_yVwp9z"
       ],
+      "disabled": true,
       "name": "Graphic Tees",
       "settings": {
         "separate_section_with_border": true,
@@ -195,6 +199,7 @@
       "block_order": [
         "collection_AXw7Tg"
       ],
+      "disabled": true,
       "name": "Button Downs",
       "settings": {
         "separate_section_with_border": true,
@@ -224,6 +229,7 @@
       "block_order": [
         "collection_FRit6e"
       ],
+      "disabled": true,
       "name": "Brooks Shirts",
       "settings": {
         "separate_section_with_border": true,
@@ -253,6 +259,7 @@
       "block_order": [
         "collection_Bn78qU"
       ],
+      "disabled": true,
       "name": "Rise Shirts",
       "settings": {
         "separate_section_with_border": true,
@@ -282,6 +289,7 @@
       "block_order": [
         "collection_b9LGcL"
       ],
+      "disabled": true,
       "name": "Ridge Shorts",
       "settings": {
         "separate_section_with_border": true,
@@ -311,6 +319,7 @@
       "block_order": [
         "collection_kpR78H"
       ],
+      "disabled": true,
       "name": "Boone Shorts",
       "settings": {
         "separate_section_with_border": true,
@@ -340,6 +349,7 @@
       "block_order": [
         "collection_P6qcqP"
       ],
+      "disabled": true,
       "name": "Reel Shorts",
       "settings": {
         "separate_section_with_border": true,
@@ -369,6 +379,7 @@
       "block_order": [
         "collection_a78Kiw"
       ],
+      "disabled": true,
       "name": "Boone Pants",
       "settings": {
         "separate_section_with_border": true,
@@ -398,7 +409,7 @@
       "block_order": [
         "collection_afLAki"
       ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "name": "Hatteras Pants",
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
