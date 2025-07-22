@@ -409,6 +409,7 @@
       "block_order": [
         "collection_afLAki"
       ],
+      "disabled": true,
       "name": "Hatteras Pants",
       "settings": {
         "separate_section_with_border": true,
