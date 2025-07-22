@@ -50,7 +50,6 @@
         "655c721e-32d7-4fc0-aea0-d1419e823573",
         "aba604b8-5a73-45fe-b5b0-d34c16392dce"
       ],
-      "disabled": true,
       "custom_css": [
         ".footer__block-list {gap: 2rem;}",
         "@media (max-width: 700px) {.footer__block-list {grid-template-rows: repeat(2, 1fr); grid-template-columns: repeat(2, 1fr); }}"
