@@ -1,4 +1,11 @@
 <section class="shopify-section shopify-section--custom-liquid">
+  {% if customer.tags contains 'b2b' %}
+	
+  <div style="text-align: center">
+    You're now being redirected. If you're not redirected in 10 seconds, <a href="/index#spark-account"><strong>click here.</strong></a>
+  </div>
+  
+  {% else %}
   <div class="section-spacing bordered-section">
     <div class="button-group justify-center">
       {%- assign user_tags = customer.tags | downcase -%}
@@ -171,6 +178,7 @@
       <a href="/account/logout" class="button button--outline">Logout</a>
     </div>
   </div>
+  {% endif %}
 </section>
 
 {% schema %}
@@ -201,3 +209,4 @@
 ]
 }
 {% endschema %}
+    
