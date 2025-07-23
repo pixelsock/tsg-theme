@@ -220,7 +220,7 @@
         {%- endif -%}
       {%- endfor -%}
     {%- endif -%}
-    <spark-product-card parent-id="{{ product.id }}"></spark-product-card>
+    <spark-product-card show-stock parent-id="{{ product.id }}"></spark-product-card>
 
     {%- if show_rating -%}
       {%- render 'product-rating',
