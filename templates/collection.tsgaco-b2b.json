@@ -517,7 +517,7 @@
         "collection_VHrXjf": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "tsg-outerwear",
             "products_count": 8,
             "title": "",
             "link_url": "",
@@ -528,7 +528,7 @@
       "block_order": [
         "collection_VHrXjf"
       ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "name": "Outerwear",
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
