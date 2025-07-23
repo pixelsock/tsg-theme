@@ -511,24 +511,56 @@
         "subheading": ""
       }
     },
+    "rich_text_dzrjxR": {
+      "type": "rich-text",
+      "blocks": {
+        "image_9yFVgc": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "heading_aaXniC": {
+          "type": "heading",
+          "settings": {
+            "text": "TSG OUTERWEAR",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "image_9yFVgc",
+        "heading_aaXniC"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "featured_collections_fJmQ7K": {
       "type": "featured-collections",
       "blocks": {
         "collection_VHrXjf": {
           "type": "collection",
           "settings": {
-            "collection": "tsg-outerwear",
+            "collection": "tsg-vests-1",
             "products_count": 8,
             "title": "",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": "Shop All TSG Vests"
           }
         }
       },
       "block_order": [
         "collection_VHrXjf"
       ],
-      "name": "Outerwear",
+      "name": "Vests",
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
@@ -590,6 +622,7 @@
     "featured_collections_MmYRRk",
     "featured_collections_4YxbMC",
     "featured_collections_iKWTj8",
+    "rich_text_dzrjxR",
     "featured_collections_fJmQ7K",
     "main"
   ]
