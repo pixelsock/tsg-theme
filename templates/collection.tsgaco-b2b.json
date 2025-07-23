@@ -572,6 +572,35 @@
         "subheading": ""
       }
     },
+    "featured_collections_gNj7HX": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_RT4aJG": {
+          "type": "collection",
+          "settings": {
+            "collection": "tsg-outerwear",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "Shop All Outerwear"
+          }
+        }
+      },
+      "block_order": [
+        "collection_RT4aJG"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "disabled": true,
@@ -624,6 +653,7 @@
     "featured_collections_iKWTj8",
     "rich_text_dzrjxR",
     "featured_collections_fJmQ7K",
+    "featured_collections_gNj7HX",
     "main"
   ]
 }
