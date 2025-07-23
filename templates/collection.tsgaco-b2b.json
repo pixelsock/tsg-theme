@@ -553,7 +553,7 @@
             "products_count": 8,
             "title": "",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": ""
           }
         }
       },
@@ -566,7 +566,7 @@
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 3,
         "horizontal_spacing_factor": 0.5,
         "vertical_spacing_factor": 0.5,
         "subheading": ""
