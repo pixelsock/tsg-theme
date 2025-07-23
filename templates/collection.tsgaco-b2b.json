@@ -48,11 +48,18 @@
           "settings": {
             "content": "<p>Here it is.  For your stocking pleasure: The Whole Enchilada.</p>"
           }
+        },
+        "richtext_idRAVr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From The Topper Polo to the Boone 5-Pocket Pants, our whole available collection is below by style.  Please let us know if you face any issues with your portal and ordering by emailing our team at wholesale@thesportinggent.com.</p>"
+          }
         }
       },
       "block_order": [
         "heading_nmDKqh",
-        "richtext_Eiht3r"
+        "richtext_Eiht3r",
+        "richtext_idRAVr"
       ],
       "settings": {
         "separate_section_with_border": true,
@@ -78,7 +85,6 @@
       "block_order": [
         "collection_Tnmx7t"
       ],
-      "disabled": true,
       "name": "Topper Polos",
       "settings": {
         "separate_section_with_border": true,
@@ -423,6 +429,7 @@
     },
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "custom_css": [
         ".dot-checkbox {border-radius: 0px; height: 0.75rem; width: 0.75rem; inset-block-start: calc(0.35em + 1px); background: #f79e1b; border: 2px solid;}"
       ],
