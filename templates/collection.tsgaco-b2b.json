@@ -334,6 +334,38 @@
         "subheading": ""
       }
     },
+    "rich_text_qkjphV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_69FbVz": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "image_bbQ3eD": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "heading_69FbVz",
+        "image_bbQ3eD"
+      ],
+      "disabled": true,
+      "name": "Bottoms Header",
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "featured_collections_JtYXY8": {
       "type": "featured-collections",
       "blocks": {
@@ -479,6 +511,35 @@
         "subheading": ""
       }
     },
+    "featured_collections_fJmQ7K": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_VHrXjf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_VHrXjf"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "disabled": true,
@@ -523,11 +584,13 @@
     "featured_collections_7WpDFR",
     "featured_collections_ABFMep",
     "featured_collections_gCAYfg",
+    "rich_text_qkjphV",
     "featured_collections_JtYXY8",
     "featured_collections_wrGqqK",
     "featured_collections_MmYRRk",
     "featured_collections_4YxbMC",
     "featured_collections_iKWTj8",
+    "featured_collections_fJmQ7K",
     "main"
   ]
 }
