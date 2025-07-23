@@ -83,6 +83,12 @@
     "rich_text_p64XHA": {
       "type": "rich-text",
       "blocks": {
+        "liquid_9i6A4q": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<span id=\"shop-events\"></span>"
+          }
+        },
         "heading_ecErC4": {
           "type": "heading",
           "settings": {
@@ -112,6 +118,7 @@
         }
       },
       "block_order": [
+        "liquid_9i6A4q",
         "heading_ecErC4",
         "subheading_AHafiC",
         "richtext_yFzeD8",
