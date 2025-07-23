@@ -543,6 +543,35 @@
         "remove_vertical_spacing": false
       }
     },
+    "featured_collections_WLbG8U": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_4BTexw": {
+          "type": "collection",
+          "settings": {
+            "collection": "sweaters-pullovers",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_4BTexw"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 0.5,
+        "subheading": ""
+      }
+    },
     "featured_collections_fJmQ7K": {
       "type": "featured-collections",
       "blocks": {
@@ -567,8 +596,8 @@
         "stack_products": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 0.5,
         "subheading": ""
       }
     },
@@ -596,8 +625,8 @@
         "stack_products": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 0.5,
         "subheading": ""
       }
     },
@@ -652,6 +681,7 @@
     "featured_collections_4YxbMC",
     "featured_collections_iKWTj8",
     "rich_text_dzrjxR",
+    "featured_collections_WLbG8U",
     "featured_collections_fJmQ7K",
     "featured_collections_gNj7HX",
     "main"
