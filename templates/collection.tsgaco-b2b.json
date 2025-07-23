@@ -68,6 +68,39 @@
         "remove_vertical_spacing": false
       }
     },
+    "rich_text_mdgm6t": {
+      "type": "rich-text",
+      "blocks": {
+        "image_tEnbRB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/021224-Brooks-SS-hero-DT-v2.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "heading_NxUewn": {
+          "type": "heading",
+          "settings": {
+            "text": "TSG Tops",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "image_tEnbRB",
+        "heading_NxUewn"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "featured_collections_RqDqJG": {
       "type": "featured-collections",
       "blocks": {
@@ -114,7 +147,6 @@
       "block_order": [
         "collection_bidMR6"
       ],
-      "disabled": true,
       "name": "Drift Polos",
       "settings": {
         "separate_section_with_border": false,
@@ -144,7 +176,6 @@
       "block_order": [
         "collection_TVczmU"
       ],
-      "disabled": true,
       "name": "Drift Tees",
       "settings": {
         "separate_section_with_border": true,
@@ -174,12 +205,11 @@
       "block_order": [
         "collection_yVwp9z"
       ],
-      "disabled": true,
       "name": "Graphic Tees",
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
-        "stack_products": true,
+        "stack_products": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
@@ -462,6 +492,7 @@
   "order": [
     "collection-banner",
     "rich_text_wz38A6",
+    "rich_text_mdgm6t",
     "featured_collections_RqDqJG",
     "featured_collections_EUVtA3",
     "featured_collections_gXqYBg",
