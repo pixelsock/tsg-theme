@@ -188,6 +188,35 @@
         "subheading": ""
       }
     },
+    "featured_collections_K6BTjg": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_PYLT3r": {
+          "type": "collection",
+          "settings": {
+            "collection": "tsg-drift-hoody",
+            "products_count": 8,
+            "title": "TSG DRIFT HOODY",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_PYLT3r"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 0.5,
+        "subheading": ""
+      }
+    },
     "featured_collections_7WpDFR": {
       "type": "featured-collections",
       "blocks": {
@@ -496,6 +525,7 @@
     "featured_collections_RqDqJG",
     "featured_collections_EUVtA3",
     "featured_collections_gXqYBg",
+    "featured_collections_K6BTjg",
     "featured_collections_7WpDFR",
     "featured_collections_maYead",
     "featured_collections_ABFMep",
