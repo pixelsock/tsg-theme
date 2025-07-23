@@ -61,6 +61,7 @@
         "richtext_Eiht3r",
         "richtext_idRAVr"
       ],
+      "name": "Page Header",
       "settings": {
         "separate_section_with_border": true,
         "content_width": "md",
@@ -93,7 +94,7 @@
         "heading_NxUewn"
       ],
       "disabled": true,
-      "name": "t:sections.rich_text.presets.rich_text.name",
+      "name": "Tops Header",
       "settings": {
         "separate_section_with_border": true,
         "content_width": "sm",
