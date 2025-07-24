@@ -168,6 +168,12 @@
     "image_with_text_D3prpy": {
       "type": "image-with-text",
       "blocks": {
+        "liquid_Yb3QgV": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<span id=\"hatteras-pants\"></span>"
+          }
+        },
         "heading_yGxhkd": {
           "type": "heading",
           "settings": {
@@ -196,6 +202,7 @@
         }
       },
       "block_order": [
+        "liquid_Yb3QgV",
         "heading_yGxhkd",
         "subheading_EjKwq9",
         "richtext_f6hXnU",
