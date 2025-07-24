@@ -190,228 +190,47 @@
         "heading_nrAQrg": {
           "type": "heading",
           "settings": {
-            "text": "It's Independence Day, Fellas.",
+            "text": "Dove Day Is Almost Here.",
             "heading_tag": "h1"
           }
         },
         "subheading_YmHYXx": {
           "type": "subheading",
           "settings": {
-            "text": "QUICK PICKS FOR THE LONG WEEKEND."
+            "text": "The Daytona 500 of Wing Shooting."
           }
         },
         "richtext_aNzGUy": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We don't sell 100% wool overcoats like Ol' Tommy J and his pals wore, but we do sell lightweight, comfortable and cool clothes because it's hotter than George The Third's temper outside. </p>"
+            "content": "<p>Labor Day Weekend might have been created to celebrate the American worker, but let's be honest, it's really the call to the fields for the American Wing Man.  Time to get geared up.</p>"
+          }
+        },
+        "button_iPUh8b": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Shop Now",
+            "url": "shopify://collections/dove-hunt-goods-gear",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
         "heading_nrAQrg",
         "subheading_YmHYXx",
-        "richtext_aNzGUy"
+        "richtext_aNzGUy",
+        "button_iPUh8b"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_bd3e39ae-541a-48cb-b800-931e6c36d14a.jpg",
+        "image": "shopify://shop_images/072425-dove-season-hero.jpg",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "md",
         "remove_vertical_spacing": false
-      }
-    },
-    "collection_list_KxeAfC": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_RVza4y": {
-          "type": "collection",
-          "settings": {
-            "collection": "ridge-shorts",
-            "image": "shopify://shop_images/main1000x_0003_TSG_ridgeshort_stone_frontcopy.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "RIDGE SHORTS",
-            "button_link": "shopify://products/tsg-ridge-short-stone",
-            "text_color": "#282e29",
-            "overlay_color": "#8d762f",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": "#303030"
-          }
-        },
-        "collection_mbVPPC": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/TSG_drifttee_pebble_frontcopysmokeblue.png",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "DRIFT TEES",
-            "button_link": "shopify://products/tsg-drift-short-sleeve-crew-smoke-blue",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": "#282e29"
-          }
-        },
-        "collection_VBxfR8": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/TSGHats-5181.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "HUZZAH ROPER HAT",
-            "button_link": "shopify://products/tsg-huzzah-hat-cardinal",
-            "text_color": "#282e29",
-            "overlay_color": "#8d762f",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": "#282e29"
-          }
-        },
-        "collection_9TKhND": {
-          "type": "collection",
-          "settings": {
-            "collection": "topper-polos",
-            "image": "shopify://shop_images/TSG_menspolo_tealcaststripecopynavy.png",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "TOPPER POLO",
-            "button_link": "shopify://products/tsg-topper-polo-navy-cast-stripe",
-            "text_color": "#282e29",
-            "overlay_color": "#8d762f",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": "#282e29"
-          }
-        },
-        "collection_agyDfH": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/TSGS25Tee-MockUpFile_CaptainJack_IvoryBack.png",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "Cap'n JACK TEE",
-            "button_link": "shopify://products/tsgaco-captain-jack-tee",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": "#303030"
-          }
-        },
-        "collection_JpLFKi": {
-          "type": "collection",
-          "settings": {
-            "collection": "boone-shorts",
-            "image": "shopify://shop_images/main1000x_0001_TSG_Clubshort_bonecopy.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "Boone Shorts",
-            "button_link": "shopify://products/copy-of-tsg-club-short-stone",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": "#282e29"
-          }
-        },
-        "collection_xkBCyR": {
-          "type": "collection",
-          "settings": {
-            "collection": "reel-shorts",
-            "image": "shopify://shop_images/tsg-ss25-reel-short-main-1000x_0000_TSG_baggyshort_driftwood_frontcopyslate.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "REEL SHORTS",
-            "button_link": "shopify://products/tsg-reel-short-slate",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": "#282e29"
-          }
-        },
-        "collection_t3LeNT": {
-          "type": "collection",
-          "settings": {
-            "collection": "drift-polos",
-            "image": "shopify://shop_images/TSG_sage_polosky.png",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "DRIFT POLOS",
-            "button_link": "shopify://products/copy-of-tsg-drift-polo-sky",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": "#303030"
-          }
-        },
-        "collection_RidFWQ": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/TSG_guideshirt_coastaloxbowcopy.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-end-center text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "COASTAL OXBOW™ SHIRTS",
-            "button_link": "shopify://products/tsg-long-sleeve-guide-shirt-coastal-oxbow",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": "#282e29"
-          }
-        }
-      },
-      "block_order": [
-        "collection_RVza4y",
-        "collection_mbVPPC",
-        "collection_VBxfR8",
-        "collection_9TKhND",
-        "collection_agyDfH",
-        "collection_JpLFKi",
-        "collection_xkBCyR",
-        "collection_t3LeNT",
-        "collection_RidFWQ"
-      ],
-      "name": "J4 Quick Picks",
-      "settings": {
-        "separate_section_with_border": false,
-        "image_size": "sm",
-        "show_text_outside": true,
-        "space_items": true,
-        "stack_collections": false,
-        "collections_per_row_desktop": 4,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
       }
     },
     "main": {
@@ -536,7 +355,6 @@
     "collection-banner",
     "collection_list_UPVVBz",
     "image_with_text_eqbYE9",
-    "collection_list_KxeAfC",
     "main",
     "slideshow_HBU8dN",
     "rich_text_gYzfAf",
