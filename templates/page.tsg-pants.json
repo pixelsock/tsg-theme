@@ -165,14 +165,26 @@
         "subheading": ""
       }
     },
+    "custom_liquid_JKpkN6": {
+      "type": "custom-liquid",
+      "name": "Anchor Tag",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<span id=\"hatteras-pants\"></span>",
+        "text_alignment": "center"
+      }
+    },
     "image_with_text_D3prpy": {
       "type": "image-with-text",
       "blocks": {
         "liquid_Yb3QgV": {
           "type": "liquid",
           "name": "Anchor Tag",
+          "disabled": true,
           "settings": {
-            "liquid": "<span id=\"hatteras-pants\"></span>"
+            "liquid": ""
           }
         },
         "heading_yGxhkd": {
@@ -423,6 +435,7 @@
     "image_with_text_N6QYYx",
     "32d730e3-3904-45e0-ac3b-2904076b078e",
     "featured_collections_dt8aAf",
+    "custom_liquid_JKpkN6",
     "image_with_text_D3prpy",
     "featured_collections_ekMfPi",
     "image_with_text_e9eXWM",
