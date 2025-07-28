@@ -47,10 +47,16 @@ therefore using a different structure for the Shadow DOM template
   <div class="header-sidebar__main-panel" slot="main-panel">
     <div class="header-sidebar__scroller">
       <ul class="header-sidebar__linklist {% if show_dividers %}divide-y{% endif %} unstyled-list" role="list">
+        {%- comment %}<locksmith:3ee6>{% endcomment -%}
+          {%- assign locksmith_313f_forloop__size = 0 %}{%- for link in menu.links -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_313f_forloop__size = locksmith_313f_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_313f_forloop__index = nil -%}
+        {%- comment %}</locksmith:3ee6>{% endcomment -%}
         {%- for link in menu.links -%}
+          {%- comment %}<locksmith:fe15>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_313f_forloop__index == nil %}{% assign locksmith_313f_forloop__index = 1 %}{% assign locksmith_313f_forloop__index0 = 0 %}{% else %}{% assign locksmith_313f_forloop__index = locksmith_313f_forloop__index | plus: 1 %}{% assign locksmith_313f_forloop__index0 = locksmith_313f_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_313f_forloop__index == 1 %}{% assign locksmith_313f_forloop__first = true %}{% else %}{% assign locksmith_313f_forloop__first = false %}{% endif %}{% if locksmith_313f_forloop__index == locksmith_313f_forloop__size %}{% assign locksmith_313f_forloop__last = true %}{% else %}{% assign locksmith_313f_forloop__last = false %}{% endif %}{% assign locksmith_313f_forloop__rindex = locksmith_313f_forloop__size | minus: locksmith_313f_forloop__index | minus: 1 %}{% assign locksmith_313f_forloop__rindex0 = locksmith_313f_forloop__size | minus: locksmith_313f_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:fe15>{% endcomment -%}
           <li>
             {%- if link.links.size > 0 -%}
-              <button type="button" class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}" aria-controls="header-panel-{{ forloop.index }}" aria-expanded="false">
+              <button type="button" class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}" aria-controls="header-panel-{{ locksmith_313f_forloop__index }}" aria-expanded="false">
                 {{- link.title -}}
                 {%- render 'icon' with 'chevron-right', width: 12, direction_aware: true -%}
               </button>
@@ -106,9 +112,15 @@ therefore using a different structure for the Shadow DOM template
   {%- if menu.levels > 0 -%}
     <header-sidebar-collapsible-panel class="header-sidebar__collapsible-panel" slot="collapsible-panel">
       <div class="header-sidebar__scroller">
+        {%- comment %}<locksmith:9f2e>{% endcomment -%}
+          {%- assign locksmith_0bdf_forloop__size = 0 %}{%- for link in menu.links -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_0bdf_forloop__size = locksmith_0bdf_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_0bdf_forloop__index = nil -%}
+        {%- comment %}</locksmith:9f2e>{% endcomment -%}
         {%- for link in menu.links -%}
+          {%- comment %}<locksmith:1816>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_0bdf_forloop__index == nil %}{% assign locksmith_0bdf_forloop__index = 1 %}{% assign locksmith_0bdf_forloop__index0 = 0 %}{% else %}{% assign locksmith_0bdf_forloop__index = locksmith_0bdf_forloop__index | plus: 1 %}{% assign locksmith_0bdf_forloop__index0 = locksmith_0bdf_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_0bdf_forloop__index == 1 %}{% assign locksmith_0bdf_forloop__first = true %}{% else %}{% assign locksmith_0bdf_forloop__first = false %}{% endif %}{% if locksmith_0bdf_forloop__index == locksmith_0bdf_forloop__size %}{% assign locksmith_0bdf_forloop__last = true %}{% else %}{% assign locksmith_0bdf_forloop__last = false %}{% endif %}{% assign locksmith_0bdf_forloop__rindex = locksmith_0bdf_forloop__size | minus: locksmith_0bdf_forloop__index | minus: 1 %}{% assign locksmith_0bdf_forloop__rindex0 = locksmith_0bdf_forloop__size | minus: locksmith_0bdf_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:1816>{% endcomment -%}
           {%- if link.links.size > 0 -%}
-            <div id="header-panel-{{ forloop.index }}" class="header-sidebar__sub-panel" hidden>
+            <div id="header-panel-{{ locksmith_0bdf_forloop__index }}" class="header-sidebar__sub-panel" hidden>
               <button type="button" class="header-sidebar__back-button link-faded {% if show_dividers %}is-divided{% endif %} text-with-icon {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %} md:hidden" data-action="close-panel">
                 {%- render 'icon' with 'chevron-left', width: 12, direction_aware: true -%}
                 {{- link.title -}}
@@ -116,6 +128,9 @@ therefore using a different structure for the Shadow DOM template
 
               <ul class="header-sidebar__linklist {% if show_dividers %}divide-y{% endif %} unstyled-list" role="list">
                 {%- for sub_link in link.links -%}
+                  {%- comment %}<locksmith:9496>{% endcomment -%}
+                    {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                  {%- comment %}</locksmith:9496>{% endcomment -%}
                   <li>
                     {%- if sub_link.links.size > 0 -%}
                       <details is="accordion-disclosure" class="group">
@@ -126,6 +141,9 @@ therefore using a different structure for the Shadow DOM template
 
                         <div class="header-sidebar__nested-linklist">
                           {%- for sub_sub_link in sub_link.links -%}
+                            {%- comment %}<locksmith:066c>{% endcomment -%}
+                              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_sub_link, subject_parent: sub_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                            {%- comment %}</locksmith:066c>{% endcomment -%}
                             <a href="{{ sub_sub_link.url }}" class="link-faded-reverse">{{ sub_sub_link.title }}</a>
                           {%- endfor -%}
                         </div>

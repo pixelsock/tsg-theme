@@ -206,6 +206,9 @@ This is the Shopify Liquid code that generates the page layout
                       {% endif %}
 
                      {% for block in form_fields %}
+                      {%- comment %}<locksmith:54b6>{% endcomment -%}
+                        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                      {%- comment %}</locksmith:54b6>{% endcomment -%}
                       <div class="b2b-form-item">
                         {% if block.settings.field_type == "hidden" %}
                             <input type="hidden" {% if block.settings.field_required %} required {% endif %} id="ContactForm-{{ block.settings.field_name | handleize }}" name="contact[{{ block.settings.field_name | handleize }}]" value="{{ block.settings.default_value }}">
@@ -254,6 +257,9 @@ This is the Shopify Liquid code that generates the page layout
                      {% assign faq_blocks = section.blocks | where: "type", "feature" %}
 
                       {% for block in faq_blocks %}
+                          {%- comment %}<locksmith:b2be>{% endcomment -%}
+                            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                          {%- comment %}</locksmith:b2be>{% endcomment -%}
                           <div class="b2b-faq-item">
                               <div class="b2b-faq-question">
                                   {{ block.settings.block_title }}

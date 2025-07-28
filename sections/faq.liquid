@@ -9,8 +9,14 @@
 
           {%- if section.settings.show_categories and categories_blocks.size > 0 -%}
             <faq-toc class="faq__toc hidden md:grid">
+              {%- comment %}<locksmith:ae56>{% endcomment -%}
+                {%- assign locksmith_a2bc_forloop__size = 0 %}{%- for block in categories_blocks -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_a2bc_forloop__size = locksmith_a2bc_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_a2bc_forloop__index = nil -%}
+              {%- comment %}</locksmith:ae56>{% endcomment -%}
               {%- for block in categories_blocks -%}
-                <a class="faq__toc-item {% if forloop.first %}is-active{% endif %}" href="#block-{{ block.id }}">{{ block.settings.title }}</a>
+                {%- comment %}<locksmith:1f45>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_a2bc_forloop__index == nil %}{% assign locksmith_a2bc_forloop__index = 1 %}{% assign locksmith_a2bc_forloop__index0 = 0 %}{% else %}{% assign locksmith_a2bc_forloop__index = locksmith_a2bc_forloop__index | plus: 1 %}{% assign locksmith_a2bc_forloop__index0 = locksmith_a2bc_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_a2bc_forloop__index == 1 %}{% assign locksmith_a2bc_forloop__first = true %}{% else %}{% assign locksmith_a2bc_forloop__first = false %}{% endif %}{% if locksmith_a2bc_forloop__index == locksmith_a2bc_forloop__size %}{% assign locksmith_a2bc_forloop__last = true %}{% else %}{% assign locksmith_a2bc_forloop__last = false %}{% endif %}{% assign locksmith_a2bc_forloop__rindex = locksmith_a2bc_forloop__size | minus: locksmith_a2bc_forloop__index | minus: 1 %}{% assign locksmith_a2bc_forloop__rindex0 = locksmith_a2bc_forloop__size | minus: locksmith_a2bc_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:1f45>{% endcomment -%}
+                <a class="faq__toc-item {% if locksmith_a2bc_forloop__first %}is-active{% endif %}" href="#block-{{ block.id }}">{{ block.settings.title }}</a>
               {%- endfor -%}
             </faq-toc>
           {%- endif -%}
@@ -62,7 +68,13 @@
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
+        {%- comment %}<locksmith:c9b6>{% endcomment -%}
+          {%- assign locksmith_a5f9_forloop__size = 0 %}{%- for block in question_blocks -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_a5f9_forloop__size = locksmith_a5f9_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_a5f9_forloop__index = nil -%}
+        {%- comment %}</locksmith:c9b6>{% endcomment -%}
         {%- for block in question_blocks -%}
+          {%- comment %}<locksmith:e572>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_a5f9_forloop__index == nil %}{% assign locksmith_a5f9_forloop__index = 1 %}{% assign locksmith_a5f9_forloop__index0 = 0 %}{% else %}{% assign locksmith_a5f9_forloop__index = locksmith_a5f9_forloop__index | plus: 1 %}{% assign locksmith_a5f9_forloop__index0 = locksmith_a5f9_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_a5f9_forloop__index == 1 %}{% assign locksmith_a5f9_forloop__first = true %}{% else %}{% assign locksmith_a5f9_forloop__first = false %}{% endif %}{% if locksmith_a5f9_forloop__index == locksmith_a5f9_forloop__size %}{% assign locksmith_a5f9_forloop__last = true %}{% else %}{% assign locksmith_a5f9_forloop__last = false %}{% endif %}{% assign locksmith_a5f9_forloop__rindex = locksmith_a5f9_forloop__size | minus: locksmith_a5f9_forloop__index | minus: 1 %}{% assign locksmith_a5f9_forloop__rindex0 = locksmith_a5f9_forloop__size | minus: locksmith_a5f9_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:e572>{% endcomment -%}
           {
             "@type": "Question",
             "name": {{ block.settings.question | json }},
@@ -70,7 +82,7 @@
               "@type": "Answer",
               "text": {{ block.settings.answer | json }}
             }
-          }{% unless forloop.last %},{% endunless %}
+          }{% unless locksmith_a5f9_forloop__last %},{% endunless %}
         {%- endfor -%}
       ]
     }

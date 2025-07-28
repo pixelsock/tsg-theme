@@ -34,6 +34,9 @@
             {%- if section.settings.menu.links.size > 0 -%}
               <ul class="blog-tags unstyled-list" role="list">
                 {%- for link in section.settings.menu.links -%}
+                  {%- comment %}<locksmith:2daf>{% endcomment -%}
+                    {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: section.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                  {%- comment %}</locksmith:2daf>{% endcomment -%}
                   <li class="link-faded">
                     <a href="{{ link.url }}">{{ link.title }}</a>
                   </li>

@@ -21,6 +21,9 @@
 
           {%- capture product_list -%}
             {%- for product in recommendations.products -%}
+              {%- comment %}<locksmith:50d2>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:50d2>{% endcomment -%}
               {%- render 'product-card', product: product, reveal: settings.stagger_products_apparition, hide_product_information: section.settings.hide_product_information -%}
             {%- endfor -%}
           {%- endcapture -%}

@@ -156,6 +156,9 @@
             {% assign menu = linklists.new-main %}
                 {%- endif -%}
               {%- for link in menu.links -%}
+              {%- comment %}<locksmith:221d>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:221d>{% endcomment -%}
               {% liquid
                 assign link_title_downcase = link.title | strip | downcase
                 assign mega_menu_block = ''
@@ -200,6 +203,9 @@
                         role="list"
                       >
                         {%- for sub_link in link.links -%}
+                          {%- comment %}<locksmith:7d0c>{% endcomment -%}
+                            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                          {%- comment %}</locksmith:7d0c>{% endcomment -%}
                           <li>
                             {%- if sub_link.levels == 0 -%}
                               <a
@@ -227,6 +233,9 @@
 
                                 <ul class="header__dropdown-menu unstyled-list" role="list">
                                   {%- for sub_sub_link in sub_link.links -%}
+                                    {%- comment %}<locksmith:f1ec>{% endcomment -%}
+                                      {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_sub_link, subject_parent: sub_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                                    {%- comment %}</locksmith:f1ec>{% endcomment -%}
                                     <li>
                                       <a
                                         href="{{ sub_sub_link.url }}"
