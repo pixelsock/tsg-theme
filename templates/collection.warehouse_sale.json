@@ -14,7 +14,6 @@
       "custom_css": [],
       "settings": {
         "content_width": "sm",
-        "image": "shopify://shop_images/041125-Warehouse-Sale-hero-dt.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
@@ -66,6 +65,15 @@
           "settings": {
             "content": "<p><strong>The TSG Warehouse Sale is in effect.  No discount code needed here, folks.  Shop the </strong><em><strong>crazy</strong></em><strong> prices and deals and speak-now-or-forever-hold-your-peace because once they are gone, they are gone.  No mo'.  Done-zo.  Never more.</strong></p>"
           }
+        },
+        "image_3FiApp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/022421_tsg_collection_banner_69dbd53b-1fa8-4b41-8393-5a7ac6901aed.webp",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
         }
       },
       "block_order": [
@@ -73,7 +81,8 @@
         "heading_NQ4hWH",
         "heading_hdGxRG",
         "subheading_HCxgRM",
-        "richtext_MR4TxL"
+        "richtext_MR4TxL",
+        "image_3FiApp"
       ],
       "settings": {
         "separate_section_with_border": false,
