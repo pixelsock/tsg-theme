@@ -168,6 +168,9 @@
       <fieldset data-spark="b2c-only"  class="h-stack wrap justify-center gap-1" data-option-position="{{ product_option.position }}">
         <div data-option-selector class="variant-picker__option-values h-stack gap-2.5 wrap">
           {% for item in product.metafields.custom.variant_products.value %}
+            {%- comment %}<locksmith:d8e0>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, subject_parent: product.metafields.custom.variant_products, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:d8e0>{% endcomment -%}
             {% liquid
               if item.metafields.customSwatches.current == product.metafields.customSwatches.current
                 assign selected = true

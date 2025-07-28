@@ -45,7 +45,13 @@
       endif
     -%}
 
+    {%- comment %}<locksmith:b60a>{% endcomment -%}
+      {%- assign locksmith_fd38_forloop__size = 0 %}{%- for block in filtered_blocks -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_fd38_forloop__size = locksmith_fd38_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_fd38_forloop__index = nil -%}
+    {%- comment %}</locksmith:b60a>{% endcomment -%}
     {%- for block in filtered_blocks -%}
+      {%- comment %}<locksmith:757a>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_fd38_forloop__index == nil %}{% assign locksmith_fd38_forloop__index = 1 %}{% assign locksmith_fd38_forloop__index0 = 0 %}{% else %}{% assign locksmith_fd38_forloop__index = locksmith_fd38_forloop__index | plus: 1 %}{% assign locksmith_fd38_forloop__index0 = locksmith_fd38_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_fd38_forloop__index == 1 %}{% assign locksmith_fd38_forloop__first = true %}{% else %}{% assign locksmith_fd38_forloop__first = false %}{% endif %}{% if locksmith_fd38_forloop__index == locksmith_fd38_forloop__size %}{% assign locksmith_fd38_forloop__last = true %}{% else %}{% assign locksmith_fd38_forloop__last = false %}{% endif %}{% assign locksmith_fd38_forloop__rindex = locksmith_fd38_forloop__size | minus: locksmith_fd38_forloop__index | minus: 1 %}{% assign locksmith_fd38_forloop__rindex0 = locksmith_fd38_forloop__size | minus: locksmith_fd38_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+      {%- comment %}</locksmith:757a>{% endcomment -%}
       {%- liquid
         # Filter the blocks (if allow_blocks is set)
         if allow_blocks
@@ -54,7 +60,7 @@
           endunless
         endif
 
-        assign next_block_index = forloop.index0 | plus: 1
+        assign next_block_index = locksmith_fd38_forloop__index0 | plus: 1
         assign next_block = filtered_blocks[next_block_index]
 
         if block.settings.show_below_gallery
@@ -262,6 +268,19 @@
               assign metafield_key = metafield_parts | last
 
               for product_variation in block.settings.products
+                comment
+                  <locksmith:5034> Code added automatically by the Locksmith app. Do not modify or remove.
+                endcomment
+                capture var
+                  render 'locksmith-variables', scope: 'subject', subject: product_variation, subject_parent: block.settings, variable: 'transparent'
+                endcapture
+                if var == "true"
+                else
+                  continue
+                endif
+                comment
+                  </locksmith:5034> End Locksmith code block.
+                endcomment
                 if product_variation == product
                   assign contains_product = true
                 endif
@@ -295,6 +314,19 @@
                     <div class="variant-picker__option-values h-stack gap-2.5 wrap">
                       {%- liquid
                         for product_variation in block.settings.products
+                          comment
+                            <locksmith:221f> Code added automatically by the Locksmith app. Do not modify or remove.
+                          endcomment
+                          capture var
+                            render 'locksmith-variables', scope: 'subject', subject: product_variation, subject_parent: block.settings, variable: 'transparent'
+                          endcapture
+                          if var == "true"
+                          else
+                            continue
+                          endif
+                          comment
+                            </locksmith:221f> End Locksmith code block.
+                          endcomment
                           assign value = product_variation.metafields[metafield_namespace][metafield_key].value
 
                           if product_variation == product
@@ -343,6 +375,19 @@
                     <div class="variant-picker__option-values h-stack gap-2.5 wrap">
                       {%- liquid
                         for product_variation in block.settings.products
+                          comment
+                            <locksmith:0726> Code added automatically by the Locksmith app. Do not modify or remove.
+                          endcomment
+                          capture var
+                            render 'locksmith-variables', scope: 'subject', subject: product_variation, subject_parent: block.settings, variable: 'transparent'
+                          endcapture
+                          if var == "true"
+                          else
+                            continue
+                          endif
+                          comment
+                            </locksmith:0726> End Locksmith code block.
+                          endcomment
                           assign value = product_variation.metafields.custom.variant_size
 
                           if product_variation == product

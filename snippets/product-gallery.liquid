@@ -113,6 +113,9 @@
 -%}
 
 {%- for block in filtered_blocks -%}
+  {%- comment %}<locksmith:f67e>{% endcomment -%}
+    {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+  {%- comment %}</locksmith:f67e>{% endcomment -%}
   {%- case block.type -%}
     {%- when 'badges' -%}
       {%- if product != blank -%}
