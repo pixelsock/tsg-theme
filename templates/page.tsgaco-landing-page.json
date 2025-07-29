@@ -32,9 +32,13 @@
       "block_order": [
         "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1"
       ],
+      "custom_css": [
+        ".content-over-media > picture img {height: unset; min-height: unset;}",
+        ".content-over-media--lg {--content-over-media-height: unset;}"
+      ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify://shop_images/030725-ss25-collection-pg-banner-DT.png",
+        "image": "shopify://shop_images/072925-ss25-collection-pg-banner-DT.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
