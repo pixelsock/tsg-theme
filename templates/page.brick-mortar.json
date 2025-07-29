@@ -157,6 +157,7 @@
         },
         "image_exqizV": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/071725-gleezy-dog-contest-email_01.jpg",
             "width_mode": "custom",
@@ -180,6 +181,7 @@
     },
     "contact_gJA33n": {
       "type": "contact",
+      "disabled": true,
       "name": "t:sections.contact.presets.contact_form.name",
       "settings": {
         "separate_section_with_border": false,
