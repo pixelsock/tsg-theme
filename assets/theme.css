@@ -51,7 +51,7 @@ b, strong {
 
 code, kbd, samp, pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 table {
