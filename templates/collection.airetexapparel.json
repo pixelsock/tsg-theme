@@ -278,6 +278,17 @@
         "controls_color": "#ffffff"
       }
     },
+    "custom_liquid_m3icwm": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<span id=\"brooks-shirts\"></span>",
+        "text_alignment": "center"
+      }
+    },
     "featured_collections_qxMChU": {
       "type": "featured-collections",
       "blocks": {
@@ -497,6 +508,7 @@
     "image_with_text_bXrnij",
     "image_with_text_FfeX44",
     "rich_text_k7hTJn",
+    "custom_liquid_m3icwm",
     "slideshow_Q4pggM",
     "featured_collections_qxMChU",
     "slideshow_HBU8dN",
