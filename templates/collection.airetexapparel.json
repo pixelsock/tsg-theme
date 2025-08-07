@@ -234,6 +234,17 @@
         "remove_vertical_spacing": false
       }
     },
+    "custom_liquid_m3icwm": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<span id=\"brooks-shirts\"></span>",
+        "text_alignment": "center"
+      }
+    },
     "slideshow_Q4pggM": {
       "type": "slideshow",
       "blocks": {
@@ -276,17 +287,6 @@
         "cycle_speed": 5,
         "background": "#000000",
         "controls_color": "#ffffff"
-      }
-    },
-    "custom_liquid_m3icwm": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
-      "settings": {
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<span id=\"brooks-shirts\"></span>",
-        "text_alignment": "center"
       }
     },
     "featured_collections_qxMChU": {
@@ -387,6 +387,17 @@
         "horizontal_spacing_factor": 0.5,
         "vertical_spacing_factor": 1,
         "subheading": ""
+      }
+    },
+    "custom_liquid_Ca4Gk7": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<span id=\"rise-shirts\"></span>",
+        "text_alignment": "center"
       }
     },
     "slideshow_W4pJqc": {
@@ -513,6 +524,7 @@
     "featured_collections_qxMChU",
     "slideshow_HBU8dN",
     "featured_collections_gtE6rx",
+    "custom_liquid_Ca4Gk7",
     "slideshow_W4pJqc",
     "featured_collections_3VqdAY",
     "rich_text_gYzfAf",
