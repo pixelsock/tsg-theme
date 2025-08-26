@@ -14,7 +14,7 @@
       "custom_css": [],
       "settings": {
         "content_width": "sm",
-        "image": "shopify://shop_images/011425-SES-Winter-25-hero-DT_d2aa54ae-bad8-4f0c-aaac-d65ebe8ad420.jpg",
+        "image": "shopify://shop_images/082525-LDW-Sale-collection-hero-DT.jpg",
         "mobile_image": "shopify://shop_images/011425-SES-Winter-25-hero-mobile.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
@@ -22,7 +22,7 @@
         "enable_parallax": false,
         "show_collection_title": false,
         "show_collection_description": false,
-        "show_breadcrumb": true,
+        "show_breadcrumb": false,
         "breadcrumb_color": "#282e29",
         "breadcrumb_text_color": "#ffffff",
         "background": "#ffffff",
@@ -114,6 +114,47 @@
         "promotion_link_url": "shopify://pages/tsg-apparel-co"
       }
     },
+    "custom_liquid_BHrFU8": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p>Write or copy/paste Liquid code</p>",
+        "text_alignment": "center"
+      }
+    },
+    "featured_collections_87WGfr": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_P4TwUN": {
+          "type": "collection",
+          "name": "Warehouse",
+          "settings": {
+            "collection": "warehouse-sale-tsg-apparel-co",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_P4TwUN"
+      ],
+      "name": "Warehouse Collection",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "newsletter_igGzqj": {
       "type": "newsletter",
       "settings": {
@@ -137,6 +178,8 @@
     "collection-banner",
     "rich_text_7t3XAm",
     "main",
+    "custom_liquid_BHrFU8",
+    "featured_collections_87WGfr",
     "newsletter_igGzqj"
   ],
   "wrapper": ".boost-sd__product-filter-fallback"
