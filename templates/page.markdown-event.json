@@ -23,8 +23,8 @@
         "image_HAmQiM": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/052225-mdw-spring-cleaning-hero-dt.jpg",
-            "mobile_image": "shopify://shop_images/052225-mdw-spring-clearing-hero-mobile.jpg",
+            "image": "shopify://shop_images/082525-LDW-Sale-collection-hero-DT_971d2147-98e3-4243-8c58-f5bf61ac6a55.jpg",
+            "mobile_image": "shopify://shop_images/082525-LDW-Sale-ad-feed-v2.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -109,9 +109,9 @@
         "collection_zG4i7a": {
           "type": "collection",
           "settings": {
-            "collection": "shorts",
-            "products_count": 8,
-            "title": "SHOP THE NEWNESS FOR SUMMER",
+            "collection": "labor-day-weekend-markdowns",
+            "products_count": 50,
+            "title": "",
             "link_url": "",
             "link_text": ""
           }
@@ -120,13 +120,13 @@
       "block_order": [
         "collection_zG4i7a"
       ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "name": "LDW Collection",
       "settings": {
         "separate_section_with_border": false,
         "hide_product_information": false,
-        "stack_products": false,
+        "stack_products": true,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 6,
+        "products_per_row_desktop": 3,
         "horizontal_spacing_factor": 0.3,
         "vertical_spacing_factor": 1,
         "subheading": ""
