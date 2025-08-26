@@ -425,7 +425,7 @@
         "collection_BWKqbq"
       ],
       "custom_css": [
-        ".h2 {font-size: large;}"
+        ".h2 {display: none;}"
       ],
       "settings": {
         "separate_section_with_border": false,
