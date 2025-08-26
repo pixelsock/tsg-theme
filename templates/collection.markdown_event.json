@@ -14,8 +14,8 @@
       "custom_css": [],
       "settings": {
         "content_width": "sm",
-        "image": "shopify://shop_images/082525-LDW-Sale-collection-hero-DT.jpg",
-        "mobile_image": "shopify://shop_images/011425-SES-Winter-25-hero-mobile.jpg",
+        "image": "shopify://shop_images/082525-LDW-Sale-collection-hero-DT_971d2147-98e3-4243-8c58-f5bf61ac6a55.jpg",
+        "mobile_image": "shopify://shop_images/082525-LDW-Sale-ad-feed-v2.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
@@ -114,15 +114,49 @@
         "promotion_link_url": "shopify://pages/tsg-apparel-co"
       }
     },
-    "custom_liquid_BHrFU8": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+    "slideshow_CbpVDT": {
+      "type": "slideshow",
+      "blocks": {
+        "image_hN44M9": {
+          "type": "image",
+          "settings": {
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_hN44M9"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<p>Write or copy/paste Liquid code</p>",
-        "text_alignment": "center"
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "auto",
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
       }
     },
     "featured_collections_87WGfr": {
@@ -133,10 +167,10 @@
           "name": "Warehouse",
           "settings": {
             "collection": "warehouse-sale-tsg-apparel-co",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
+            "products_count": 50,
+            "title": "EXTRA SAVINGS FROM OUR WAREHOUSE SALE STOCK",
+            "link_url": "shopify://collections/warehouse-sale-tsg-apparel-co",
+            "link_text": "View More"
           }
         }
       },
@@ -145,9 +179,9 @@
       ],
       "name": "Warehouse Collection",
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
-        "stack_products": false,
+        "stack_products": true,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
@@ -178,7 +212,7 @@
     "collection-banner",
     "rich_text_7t3XAm",
     "main",
-    "custom_liquid_BHrFU8",
+    "slideshow_CbpVDT",
     "featured_collections_87WGfr",
     "newsletter_igGzqj"
   ],
