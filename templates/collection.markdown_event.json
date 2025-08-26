@@ -11,7 +11,10 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
-      "custom_css": [],
+      "custom_css": [
+        ".content-over-media > picture img {height: unset; min-height: unset;}",
+        ".content-over-media--lg {--content-over-media-height: unset;}"
+      ],
       "settings": {
         "content_width": "sm",
         "image": "shopify://shop_images/082525-LDW-Sale-collection-hero-DT_971d2147-98e3-4243-8c58-f5bf61ac6a55.jpg",
