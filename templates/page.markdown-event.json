@@ -103,6 +103,58 @@
         "remove_vertical_spacing": false
       }
     },
+    "rich_text_F8Pcdg": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_PmfUmT": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "SAVE UP TO 60% OFF | GREAT GEAR AT CRAZY DEALS"
+          }
+        },
+        "heading_AkBMyg": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "SEASON'S END MARKDOWNS",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_Na8HpX": {
+          "type": "heading",
+          "settings": {
+            "text": "SAVE AT LEAST 30% OFF",
+            "heading_tag": "h2"
+          }
+        },
+        "subheading_pYn4jK": {
+          "type": "subheading",
+          "settings": {
+            "text": "NO CODE NECESSARY - DISCOUNT APPLIED AUTOMATICALLY AT CHECKOUT"
+          }
+        },
+        "richtext_hmJh3z": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We don't run many sales, but when we do we <em>do not</em> mess around.  Amassed below you'll find goods and gear ready at prices you <em>cannot</em> pass up.  From outerwear, vests, shorts, polos, pants, and gear, you have less excuses here than you do to go visit a certain relative by marriage. </p><p>  Again, what's the excuse??</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PmfUmT",
+        "heading_AkBMyg",
+        "heading_Na8HpX",
+        "subheading_pYn4jK",
+        "richtext_hmJh3z"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "featured_collections_eNdJpR": {
       "type": "featured-collections",
       "blocks": {
@@ -565,6 +617,7 @@
     "main",
     "slideshow_rL8YMj",
     "rich_text_mpbJeB",
+    "rich_text_F8Pcdg",
     "featured_collections_eNdJpR",
     "collection_list_y7iqCk",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
