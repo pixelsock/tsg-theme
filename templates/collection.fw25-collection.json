@@ -75,14 +75,14 @@
         "collection_hUi4eC": {
           "type": "collection",
           "settings": {
-            "collection": "reel-shorts",
-            "image": "shopify://shop_images/061225-ss25-collection-reels_0005_tsg-troutin-builder-250516-001-4.jpg",
+            "collection": "outerwear-jackets",
+            "image": "shopify://shop_images/090325-fw25-collection-page_0000_LBUILDER-TSG-240916-271.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "REEL SHORTS",
+            "title": "Outerwear",
             "button_text": "",
-            "button_link": "shopify://products/tsg-reel-short-driftwood",
+            "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -93,17 +93,17 @@
         "collection_4Mkryf": {
           "type": "collection",
           "settings": {
-            "collection": "airetex-brooks-shirts",
-            "image": "shopify://shop_images/061225-ss25-collection-reels_0004_tsg-charleston-s25-builder-0160.jpg",
+            "collection": "vests",
+            "image": "shopify://shop_images/090325-fw25-collection-page_0003__A747055.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "Airetex™ Brooks Shirts",
+            "title": "VESTS",
             "button_text": "",
-            "button_link": "shopify://products/tsg-brooks-bamboo-long-sleeve-shirt-field-plaid-grey",
+            "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 11,
             "button_background": "",
             "button_text_color": ""
           }
@@ -111,17 +111,17 @@
         "collection_PfpW8Q": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/061225-ss25-collection-reels_0002_tsg-troutin-builder-250516-046.jpg",
+            "collection": "pants",
+            "image": "shopify://shop_images/090325-fw25-collection-page_0001_Boone-TSG-Builder-23-0401.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "RIDGE SHORTS",
+            "title": "BOTTOMS",
             "button_text": "",
-            "button_link": "shopify://products/tsg-ridge-short-stone",
+            "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 6,
+            "overlay_opacity": 0,
             "button_background": "",
             "button_text_color": ""
           }
@@ -129,17 +129,17 @@
         "collection_kQGMVH": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/061225-ss25-collection-reels_0001_TSG-Downtown-S23-Builder-93.jpg",
+            "collection": "button-downs",
+            "image": "shopify://shop_images/090325-fw25-collection-page_0002_LBUILDER-TSG-240916-042.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "TOPPER POLO",
+            "title": "SHIRTING",
             "button_text": "",
             "button_link": "shopify://products/tsg-topper-polo-blue-white-stripe",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "button_background": "",
             "button_text_color": ""
           }
@@ -147,17 +147,17 @@
         "collection_ia6dLM": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/061225-ss25-collection-reels_0000_tsg-charleston-s25-builder-0184.jpg",
+            "collection": "field-apparel",
+            "image": "shopify://shop_images/090325-fw25-collection-page_0000_Field-Grade.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "DRIFT HOODY",
+            "title": "FIELD GRADE™",
             "button_text": "",
-            "button_link": "shopify://products/tsg-drift-hoody-fly-goods-wheat-copy",
+            "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 5,
+            "overlay_opacity": 0,
             "button_background": "",
             "button_text_color": ""
           }
