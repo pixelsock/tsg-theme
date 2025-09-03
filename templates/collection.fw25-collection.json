@@ -223,6 +223,7 @@
         "richtext_aNzGUy",
         "button_iPUh8b"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
