@@ -29,7 +29,7 @@
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Temps go up, days get longer, allergies.  Spring.  Gotta love it. But the fun can’t continue without (re)stocking up on new arrivals as some of us head South to the warmer waters of the Carribean and Central America for the most epic of epic days fishing the Gulf Stream.  Shop the newest, latest, greatest, and best from yours truly at TSG.</p>"
+            "content": "<p>Ah, Fall.  Our time to shine.  While we love warmer temps and hiding from them as well in the mountains, the fall is where we really come out to play.  From our newest releases like the Camden Workmans Vest, to the perennial Boone Pant - we're here to play.  See below for just the start of our best collection yet.  Good times ahead.</p>"
           }
         }
       },
@@ -170,6 +170,7 @@
         "collection_kQGMVH",
         "collection_ia6dLM"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
@@ -223,6 +224,7 @@
         "richtext_aNzGUy",
         "button_iPUh8b"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
@@ -296,6 +298,7 @@
         "collection_imhYAj",
         "collection_pfXNii"
       ],
+      "disabled": true,
       "name": "Dove Day Picks",
       "settings": {
         "separate_section_with_border": false,
