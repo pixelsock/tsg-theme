@@ -9,6 +9,30 @@
  */
 {
   "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "custom_css": [
+        "{text-align: left;}"
+      ],
+      "settings": {
+        "content_width": "md",
+        "image": "shopify://shop_images/082125-fw25-launch-lockup-hero-dt-v2.jpg",
+        "mobile_image": "shopify://shop_images/090325-fw25-launch-lockup-hero-mobile-v2.jpg",
+        "image_size": "auto",
+        "allow_transparent_header": false,
+        "reveal": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_breadcrumb": false,
+        "breadcrumb_color": "#303030",
+        "breadcrumb_text_color": "#ffffff",
+        "background": "#282e29",
+        "text_color": "#ffffff",
+        "overlay_color": "#282e29",
+        "overlay_opacity": 30
+      }
+    },
     "rich_text_wz38A6": {
       "type": "rich-text",
       "blocks": {
@@ -43,30 +67,6 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
-      }
-    },
-    "collection-banner": {
-      "type": "collection-banner",
-      "custom_css": [
-        "{text-align: left;}"
-      ],
-      "settings": {
-        "content_width": "md",
-        "image": "shopify://shop_images/082125-fw25-launch-lockup-hero-dt-v2.jpg",
-        "mobile_image": "shopify://shop_images/090325-fw25-launch-lockup-hero-mobile-v2.jpg",
-        "image_size": "auto",
-        "allow_transparent_header": false,
-        "reveal": false,
-        "enable_parallax": false,
-        "show_collection_title": false,
-        "show_collection_description": false,
-        "show_breadcrumb": false,
-        "breadcrumb_color": "#303030",
-        "breadcrumb_text_color": "#ffffff",
-        "background": "#282e29",
-        "text_color": "#ffffff",
-        "overlay_color": "#282e29",
-        "overlay_opacity": 30
       }
     },
     "collection_list_UPVVBz": {
@@ -432,8 +432,8 @@
     }
   },
   "order": [
-    "rich_text_wz38A6",
     "collection-banner",
+    "rich_text_wz38A6",
     "collection_list_UPVVBz",
     "image_with_text_eqbYE9",
     "collection_list_VaNanJ",
