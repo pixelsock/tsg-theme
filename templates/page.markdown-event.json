@@ -22,6 +22,7 @@
       "blocks": {
         "image_HAmQiM": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/082525-LDW-Sale-collection-hero-DT_971d2147-98e3-4243-8c58-f5bf61ac6a55.jpg",
             "mobile_image": "shopify://shop_images/082525-LDW-Sale-ad-feed-v2.jpg",
