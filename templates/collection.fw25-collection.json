@@ -322,7 +322,7 @@
       "settings": {
         "hide_product_information": false,
         "show_variant_swatches": false,
-        "products_per_page": 24,
+        "products_per_page": 50,
         "products_per_row_mobile": "2",
         "products_size_desktop": "large",
         "show_grid_mode_selector": false,
