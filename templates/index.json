@@ -138,16 +138,33 @@
       "blocks": {
         "74a21c4e-de8f-47ef-a8f9-212606a0f88e": {
           "type": "collection",
-          "disabled": true,
           "settings": {
-            "collection": "best-sellers",
-            "image": "shopify://shop_images/tsgaco.brooksssaltimages1000x1.jpg",
+            "collection": "fall-winter-2025-collection",
+            "image": "shopify://shop_images/090925-fw25-camden-vestwhiskey-alt-1000x.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "BEST SELLERS",
+            "title": "NEW ARRIVALS",
             "button_text": "",
-            "button_link": "shopify://collections/best-sellers",
+            "button_link": "shopify://collections/fall-winter-2025-collection",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "49dbe3c1-d8ef-4de7-b50e-946fb4e61426": {
+          "type": "collection",
+          "settings": {
+            "collection": "vests-outerwear-jackets",
+            "image": "shopify://shop_images/091025-f25-midszn-vest-main-alt-1000x.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "VESTS & OUTERWEAR",
+            "button_text": "",
+            "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 6,
@@ -157,6 +174,7 @@
         },
         "collection_brUP8p": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "polos",
             "image": "shopify://shop_images/A745755_copy.jpg",
@@ -175,6 +193,7 @@
         },
         "collection_PrBp3L": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "shorts",
             "image": "shopify://shop_images/main1000x_0001_TSG-Bluff-S23-Builder-150Denim.jpg",
@@ -187,24 +206,6 @@
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 12,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_8QgKN6": {
-          "type": "collection",
-          "settings": {
-            "collection": "airetex-bamboo-apparel-collection",
-            "image": "shopify://shop_images/A746688_copy_42a01c3c-267e-4327-afb1-9147e10ae3a7.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "{{ block.settings.collection.title }}",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 15,
             "button_background": "",
             "button_text_color": ""
           }
@@ -231,7 +232,7 @@
           "type": "collection",
           "settings": {
             "collection": "button-downs",
-            "image": "shopify://shop_images/tsg-tanner-bamboo-shirt-alt-1000x6.png",
+            "image": "shopify://shop_images/090325-fw25-collection-page_0000_Field-Grade.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
@@ -245,20 +246,20 @@
             "button_text_color": ""
           }
         },
-        "49dbe3c1-d8ef-4de7-b50e-946fb4e61426": {
+        "collection_8QgKN6": {
           "type": "collection",
           "settings": {
-            "collection": "vests-outerwear-jackets",
-            "image": "shopify://shop_images/Boone-TSG-Builder-23-0105.jpg",
+            "collection": "airetex-bamboo-apparel-collection",
+            "image": "shopify://shop_images/A746688_copy_42a01c3c-267e-4327-afb1-9147e10ae3a7.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "",
-            "title": "VESTS & OUTERWEAR",
+            "title": "{{ block.settings.collection.title }}",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 6,
+            "overlay_opacity": 15,
             "button_background": "",
             "button_text_color": ""
           }
@@ -320,12 +321,12 @@
       },
       "block_order": [
         "74a21c4e-de8f-47ef-a8f9-212606a0f88e",
+        "49dbe3c1-d8ef-4de7-b50e-946fb4e61426",
         "collection_brUP8p",
         "collection_PrBp3L",
-        "collection_8QgKN6",
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1",
-        "49dbe3c1-d8ef-4de7-b50e-946fb4e61426",
+        "collection_8QgKN6",
         "collection_xwkyeD",
         "collection_pAH6Tp",
         "collection_EYerpy"
