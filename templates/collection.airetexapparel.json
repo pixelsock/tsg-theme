@@ -361,6 +361,17 @@
         "controls_color": "#ffffff"
       }
     },
+    "custom_liquid_G96gpz": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<span id=\"tanner-shirts\"></span>",
+        "text_alignment": "center"
+      }
+    },
     "featured_collections_gtE6rx": {
       "type": "featured-collections",
       "blocks": {
@@ -523,6 +534,7 @@
     "slideshow_Q4pggM",
     "featured_collections_qxMChU",
     "slideshow_HBU8dN",
+    "custom_liquid_G96gpz",
     "featured_collections_gtE6rx",
     "custom_liquid_Ca4Gk7",
     "slideshow_W4pJqc",
