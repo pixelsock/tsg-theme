@@ -174,7 +174,7 @@
         "pickup_availability_b7crP7"
       ],
       "settings": {
-        "product": "tsg-sutton-worksman-shell-whiskey",
+        "product": "tsg-camden-worksman-shell-whiskey",
         "separate_section_with_border": false,
         "container_size": "lg",
         "product_info_size": 30,
@@ -800,7 +800,7 @@
             "subheading": "",
             "title": "CAMDEN WORKMANS SHELL",
             "button_text": "",
-            "button_link": "shopify://products/tsg-sutton-worksman-shell-whiskey",
+            "button_link": "shopify://products/tsg-camden-worksman-shell-whiskey",
             "text_color": "#282e29",
             "overlay_color": "#000000",
             "overlay_opacity": 5,
