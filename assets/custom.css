@@ -1,4 +1,13 @@
 /* ++++ START: Global ++++ */
+@font-face {
+  font-family: 'Nineties Headliner';
+  src: url({{ 'NinetiesHeadliner-Regular.woff2' | asset_url }}) format('woff2'),
+       url({{ 'NinetiesHeadliner-Regular.woff' | asset_url }}) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+}
+
 .button:hover {
   background: #CF7900;
   border-color: #CF7900;
