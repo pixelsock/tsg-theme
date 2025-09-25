@@ -82,8 +82,8 @@ note that this may have impact on different places.
     --heading-font-style: {{ settings.heading_font.style }};
     --heading-text-transform: {{ settings.heading_text_transform }};
     --heading-letter-spacing: {% if language_code == 'ar' %}0{% else %}{{ settings.heading_letter_spacing | divided_by: 100.0 }}{% endif %}em;
-    {% comment %}  --text-font-family: {{ settings.text_font.family }}, {{ settings.text_font.fallback_families }}; {% endcomment %}
-    --text-font-family: 'Perfectly Nineties', {{ settings.text_font.fallback_families }}; 
+    --text-font-family: {{ settings.text_font.family }}, {{ settings.text_font.fallback_families }}; 
+    {% comment %}  --text-font-family: 'Perfectly Nineties', {{ settings.text_font.fallback_families }}; {% endcomment %}
     --text-font-weight: {{ settings.text_font.weight }};
     --text-font-style: {{ settings.text_font.style }};
     --text-letter-spacing: {% if language_code == 'ar' %}0{% else %}{{ settings.text_font_letter_spacing | divided_by: 100.0 }}{% endif %}em; 
