@@ -58,14 +58,14 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "THE TROUTFECTA: A SHORT FILM",
+            "text": "TRAILER: BLUE RIDGE RISING",
             "heading_tag": "h1"
           }
         },
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Some call it the Appalachian Slam, we call it the Troutfecta.  The truck is packed, flies are tied, and we're searching out the Blue Ridge's three wild fish in one day: Brook, Rainbow and Brown.</p><p></p><p>Enjoy our first short film and follow along as we load our coffee mugs and gear bags and drive along the parkway in search of The Troutfecta.</p>"
+            "content": "<p>Hurricane Helene left its mark on the mountains, rivers, and people of western North Carolina. Yet from the wreckage came resilience—neighbors helping neighbors, guides supporting one another, and communities determined to rise again. Our new film is dedicated to these unsung heroes, whose grit and grace turned tragedy into triumph. May their story inspire us all to see that even when waters rise, the human spirit rises higher.  </p>"
           }
         }
       },
@@ -106,8 +106,7 @@
         "autoplay": false,
         "show_controls": true,
         "video_size": "md",
-        "external_video_url": "https://youtu.be/Y8Lc7LCRMwg?si=Pj4RupCcD4EWzdPl",
-        "poster": "shopify://shop_images/101122_troutfecta-thumbnail_YouTube_1280x720_647e919c-f696-44ca-9540-506b6686679e.jpg",
+        "external_video_url": "https://youtu.be/yV2t40JgzsM",
         "text_color": "#ffffff"
       }
     },
