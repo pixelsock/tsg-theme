@@ -34,7 +34,8 @@
       ],
       "settings": {
         "image_size": "auto",
-        "image": "shopify://shop_images/030424-troutfecta-hero-DT_73d2a08c-b7ae-4927-8e0c-3edabc6da1a5.jpg",
+        "image": "shopify://shop_images/092725-blue-ridge-rising-hero-dt_434c677d-82c2-4f29-879c-7af380362f8a.jpg",
+        "mobile_image": "shopify://shop_images/092525-pocket-pool-trailer-email_02.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
@@ -107,6 +108,7 @@
         "show_controls": true,
         "video_size": "md",
         "external_video_url": "https://youtu.be/yV2t40JgzsM",
+        "poster": "shopify://shop_images/092725-blue-ridge-rising-hero-dt.jpg",
         "text_color": "#ffffff"
       }
     },
