@@ -53,22 +53,14 @@
     "image_with_text_overlay_9enx3Y": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "heading_VmkHHw": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h4"
-          }
-        },
         "richtext_DjcKWV": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+            "content": ""
           }
         }
       },
       "block_order": [
-        "heading_VmkHHw",
         "richtext_DjcKWV"
       ],
       "disabled": true,
@@ -82,8 +74,36 @@
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_color": "#282e29",
+        "overlay_opacity": 100
+      }
+    },
+    "image_with_text_overlay_mPVQM3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "richtext_cDdYXi": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_cDdYXi"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "image_size": "auto",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#282e29",
+        "overlay_opacity": 100
       }
     },
     "b68f4120-e5fd-4103-875c-84f7da9480a5": {
@@ -591,6 +611,7 @@
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "image_with_text_overlay_9enx3Y",
+    "image_with_text_overlay_mPVQM3",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "collection_list_YgwDXw",
     "shop_the_look_rX6wMr",
