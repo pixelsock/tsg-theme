@@ -50,6 +50,42 @@
         "overlay_opacity": 0
       }
     },
+    "image_with_text_overlay_9enx3Y": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_VmkHHw": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_DjcKWV": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VmkHHw",
+        "richtext_DjcKWV"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "image_size": "auto",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "b68f4120-e5fd-4103-875c-84f7da9480a5": {
       "type": "rich-text",
       "blocks": {
@@ -63,7 +99,7 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The spring and summer collection is where TSG shines like a new penny, so call us Abe, because this is our best collection yet. We’re committed to finding the best in fabric and function, reinforcing our core styles, and doing all the leg work for, so you can get out there and make some new memories.<br/>\t</p><p>So, feast your eyes and let those thumbs go crazy. </p>"
+            "content": "<p>The Fall/Winter 2025 collection is where TSG shines like a new penny, so call us Abe, because this is our best collection yet. We’re committed to finding the best in fabric and function, reinforcing our core styles, and doing all the leg work for, so you can get out there and make some new memories.<br/>\t</p><p>So, feast your eyes and let those thumbs go crazy. </p>"
           }
         }
       },
@@ -554,6 +590,7 @@
   "order": [
     "main",
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
+    "image_with_text_overlay_9enx3Y",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "collection_list_YgwDXw",
     "shop_the_look_rX6wMr",
