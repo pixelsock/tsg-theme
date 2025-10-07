@@ -84,7 +84,7 @@
         "collection_3A4fnh": {
           "type": "collection",
           "settings": {
-            "collection": "reel-shorts",
+            "collection": "field-apparel",
             "image": "shopify://shop_images/061225-ss25-collection-reels_0005_tsg-troutin-builder-250516-001-4.jpg",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
@@ -463,7 +463,7 @@
         "collection_BWKqbq": {
           "type": "collection",
           "settings": {
-            "collection": "spring-summer-2025-new-arrivals",
+            "collection": "fall-winter-2025-collection",
             "products_count": 8,
             "title": "",
             "link_url": "",
