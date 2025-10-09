@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection-banner": {
@@ -16,8 +16,8 @@
       ],
       "settings": {
         "content_width": "lg",
-        "image": "shopify:\/\/shop_images\/072424-tsgaco_banner.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/s24tannerbambooshirtalt1000x_0005s_0001_TSG-SS24-Builder-KHP-053.jpg",
+        "image": "shopify://shop_images/072424-tsgaco_banner.jpg",
+        "mobile_image": "shopify://shop_images/s24tannerbambooshirtalt1000x_0005s_0001_TSG-SS24-Builder-KHP-053.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
@@ -52,7 +52,7 @@
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
-            "content": "<p>After years of watching, learning, testing, and heck, even a little drinking , TSG apparel was born out of a need to offer what we thought the world was lacking: A brand that is inspired to build and design the highest-quality men's apparel and gearfor a lifestyle where style and function can work together. Add in a dash of best-in-market fit, ruggedness, and comfort and the end result is goods and apparel which are made to be worn, and worn in.<\/p>"
+            "content": "<p>After years of watching, learning, testing, and heck, even a little drinking , TSG apparel was born out of a need to offer what we thought the world was lacking: A brand that is inspired to build and design the highest-quality men's apparel and gearfor a lifestyle where style and function can work together. Add in a dash of best-in-market fit, ruggedness, and comfort and the end result is goods and apparel which are made to be worn, and worn in.</p>"
           }
         }
       },
@@ -94,8 +94,9 @@
         "open_filters_by_default": false,
         "promotion_placement_order": "random",
         "custom_promotion_placement_order": 2,
-        "enable_promotion_link": false,
-        "promotion_link_url": "shopify:\/\/pages\/tsg-apparel-co"
+        "promotion_image_url": "shopify://shop_images/100825-collection-page-usp-promo.jpg",
+        "enable_promotion_link": true,
+        "promotion_link_url": "shopify://pages/tsg-apparel-co"
       }
     },
     "newsletter_CqViA7": {
@@ -103,8 +104,8 @@
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/042122_learntofish_hero-dt.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/040324-newsletter-hero-mobile_2040685d-7af9-4189-90de-c4acc04c0b2e.jpg",
+        "image": "shopify://shop_images/042122_learntofish_hero-dt.jpg",
+        "mobile_image": "shopify://shop_images/040324-newsletter-hero-mobile_2040685d-7af9-4189-90de-c4acc04c0b2e.jpg",
         "subheading": "Want to stay in the loop?",
         "title": "Sign up for our TSG Dispatches",
         "content": "",
