@@ -53,11 +53,11 @@
         "show_filter_values_count": true,
         "show_color_swatch": true,
         "open_filters_by_default": false,
-        "promotion_placement_order": "custom",
+        "promotion_placement_order": "random",
         "custom_promotion_placement_order": 4,
-        "promotion_image_url": "shopify://shop_images/070125-J4-sale-collection-promo_7f81645e-2edc-472d-adf2-e3b5d5e0450e.jpg",
-        "enable_promotion_link": false,
-        "promotion_link_url": "shopify://pages/tsg-apparel-co"
+        "promotion_image_url": "shopify://shop_images/100825-collection-page-usp-promo.jpg",
+        "enable_promotion_link": true,
+        "promotion_link_url": "shopify://collections/fall-winter-2025-collection"
       }
     },
     "newsletter_igGzqj": {
