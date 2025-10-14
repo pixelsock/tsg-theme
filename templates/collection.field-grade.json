@@ -16,8 +16,8 @@
       ],
       "settings": {
         "content_width": "md",
-        "image": "shopify://shop_images/082125-fw25-launch-lockup-hero-dt-v2.jpg",
-        "mobile_image": "shopify://shop_images/090325-fw25-launch-lockup-hero-mobile-v2.jpg",
+        "image": "shopify://shop_images/012025-Field-Grade-Hero-dt_f236aa8d-f42b-41e5-8e3e-7a47e7b74211.jpg",
+        "mobile_image": "shopify://shop_images/012025-Field-Grade-Hero-mobile.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
@@ -45,6 +45,7 @@
         },
         "heading_nmDKqh": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "the fall/winter 2025 collection",
             "heading_tag": "h1"
@@ -53,7 +54,7 @@
         "richtext_Eiht3r": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Ah, Fall.  Our time to shine.  While we love warmer temps and hiding from them as well in the mountains, the fall is where we really come out to play.  From our newest releases like the Camden Workmans Vest, to the perennial Boone Pant - we're here to play.  See below for just the start of our best collection yet.  Good times ahead.</p>"
+            "content": "<p>Just like our tagline says: Made to be worn, and worn in.  There's very little apparel developed by our skunk-works team at TSG Apparel Co. that wouldn't stand up to the rigors of a day in the field.  From Briar Chaps and Britches to durable pants like the Midland Twill to the lightweight but insanely awesome Havenfield Rain Shell Jacket, this collection covers all the bases (and bodies) for your next field day.</p>"
           }
         }
       },
