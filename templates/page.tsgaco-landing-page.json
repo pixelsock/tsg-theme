@@ -42,7 +42,7 @@
         "allow_transparent_header": false,
         "reveal_on_scroll": false,
         "remove_vertical_spacing": true,
-        "content_width": "sm",
+        "content_width": "md",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
