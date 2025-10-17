@@ -17,36 +17,6 @@
         "page_width": "lg"
       }
     },
-    "73adeb6e-c32d-4bb0-abc9-b8d202a43bee": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "{{ page.title }}",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1"
-      ],
-      "settings": {
-        "image_size": "auto",
-        "image": "shopify://shop_images/092725-blue-ridge-rising-hero-dt_434c677d-82c2-4f29-879c-7af380362f8a.jpg",
-        "mobile_image": "shopify://shop_images/092525-pocket-pool-trailer-email_02.jpg",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": false,
-        "remove_vertical_spacing": true,
-        "content_width": "sm",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "b68f4120-e5fd-4103-875c-84f7da9480a5": {
       "type": "rich-text",
       "blocks": {
@@ -124,6 +94,37 @@
         "text_alignment": "center"
       }
     },
+    "73adeb6e-c32d-4bb0-abc9-b8d202a43bee": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "{{ page.title }}",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16748705841384__73adeb6e-c32d-4bb0-abc9-b8d202a43bee-heading-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_size": "auto",
+        "image": "shopify://shop_images/092725-blue-ridge-rising-hero-dt_434c677d-82c2-4f29-879c-7af380362f8a.jpg",
+        "mobile_image": "shopify://shop_images/092525-pocket-pool-trailer-email_02.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": true,
+        "content_width": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "recently_viewed_products_TGx8b9": {
       "type": "recently-viewed-products",
       "settings": {
@@ -177,10 +178,10 @@
   },
   "order": [
     "main",
-    "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "video_TJT7kg",
     "custom_liquid_jwjEge",
+    "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "recently_viewed_products_TGx8b9",
     "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
