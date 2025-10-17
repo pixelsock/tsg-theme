@@ -102,57 +102,202 @@
         "remove_vertical_spacing": false
       }
     },
-    "featured_collections_RqDqJG": {
+    "featured_collections_maYead": {
       "type": "featured-collections",
       "blocks": {
-        "collection_Tnmx7t": {
+        "collection_AXw7Tg": {
           "type": "collection",
           "settings": {
-            "collection": "topper-polos",
+            "collection": "tsg-button-down-shirts",
+            "products_count": 50,
+            "title": "",
+            "link_url": "",
+            "link_text": "Shop All Button Downs"
+          }
+        }
+      },
+      "block_order": [
+        "collection_AXw7Tg"
+      ],
+      "name": "Button Downs",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 0.5,
+        "subheading": ""
+      }
+    },
+    "featured_collections_gCAYfg": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Bn78qU": {
+          "type": "collection",
+          "settings": {
+            "collection": "airetex-rise-shirts",
             "products_count": 8,
-            "title": "SHOP THE TOPPER POLOS",
+            "title": "",
             "link_url": "",
             "link_text": ""
           }
         }
       },
       "block_order": [
-        "collection_Tnmx7t"
+        "collection_Bn78qU"
       ],
-      "name": "Topper Polos",
+      "name": "Rise Shirts",
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
-        "stack_products": true,
+        "stack_products": false,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "horizontal_spacing_factor": 0.3,
+        "products_per_row_desktop": 3,
+        "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
     },
-    "featured_collections_EUVtA3": {
+    "featured_collections_fJmQ7K": {
       "type": "featured-collections",
       "blocks": {
-        "collection_bidMR6": {
+        "collection_VHrXjf": {
           "type": "collection",
           "settings": {
-            "collection": "drift-polos",
+            "collection": "tsg-vests",
             "products_count": 8,
-            "title": "SHOP THE DRIFT POLOS",
+            "title": "",
+            "link_url": "",
+            "link_text": "Shop All TSG Vests"
+          }
+        }
+      },
+      "block_order": [
+        "collection_VHrXjf"
+      ],
+      "name": "Vests",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 0.5,
+        "subheading": ""
+      }
+    },
+    "featured_collections_gNj7HX": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_RT4aJG": {
+          "type": "collection",
+          "settings": {
+            "collection": "tsg-outerwear",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "Shop All Outerwear"
+          }
+        }
+      },
+      "block_order": [
+        "collection_RT4aJG"
+      ],
+      "name": "Outerwear",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 0.5,
+        "subheading": ""
+      }
+    },
+    "featured_collections_WLbG8U": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_4BTexw": {
+          "type": "collection",
+          "settings": {
+            "collection": "sweaters-pullovers",
+            "products_count": 8,
+            "title": "",
             "link_url": "",
             "link_text": ""
           }
         }
       },
       "block_order": [
-        "collection_bidMR6"
+        "collection_4BTexw"
       ],
-      "name": "Drift Polos",
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "hide_product_information": false,
-        "stack_products": true,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 0.5,
+        "subheading": ""
+      }
+    },
+    "featured_collections_4YxbMC": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_a78Kiw": {
+          "type": "collection",
+          "settings": {
+            "collection": "tsg-boone-5-pocket-pants",
+            "products_count": 50,
+            "title": "",
+            "link_url": "",
+            "link_text": "Shop All Boone Pants"
+          }
+        }
+      },
+      "block_order": [
+        "collection_a78Kiw"
+      ],
+      "name": "Boone Pants",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_iKWTj8": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_afLAki": {
+          "type": "collection",
+          "settings": {
+            "collection": "tsg-hatteras-5-pocket-performance-pants",
+            "products_count": 50,
+            "title": "",
+            "link_url": "",
+            "link_text": "Shop All Hatteras Pants"
+          }
+        }
+      },
+      "block_order": [
+        "collection_afLAki"
+      ],
+      "name": "Hatteras Pants",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.5,
@@ -189,35 +334,6 @@
         "subheading": ""
       }
     },
-    "featured_collections_maYead": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_AXw7Tg": {
-          "type": "collection",
-          "settings": {
-            "collection": "tsg-button-down-shirts",
-            "products_count": 50,
-            "title": "",
-            "link_url": "",
-            "link_text": "Shop All Button Downs"
-          }
-        }
-      },
-      "block_order": [
-        "collection_AXw7Tg"
-      ],
-      "name": "Button Downs",
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.5,
-        "vertical_spacing_factor": 0.5,
-        "subheading": ""
-      }
-    },
     "featured_collections_K6BTjg": {
       "type": "featured-collections",
       "blocks": {
@@ -236,35 +352,6 @@
         "collection_PYLT3r"
       ],
       "name": "Drift Hoody",
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.5,
-        "vertical_spacing_factor": 0.5,
-        "subheading": ""
-      }
-    },
-    "featured_collections_7WpDFR": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_yVwp9z": {
-          "type": "collection",
-          "settings": {
-            "collection": "tsg-graphic-tees",
-            "products_count": 8,
-            "title": "SHOP TSG GRAPHIC TEES",
-            "link_url": "shopify://collections/tsg-graphic-tees",
-            "link_text": "Shop All Graphic Tees"
-          }
-        }
-      },
-      "block_order": [
-        "collection_yVwp9z"
-      ],
-      "name": "Graphic Tees",
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
@@ -305,65 +392,33 @@
         "subheading": ""
       }
     },
-    "featured_collections_gCAYfg": {
+    "featured_collections_7WpDFR": {
       "type": "featured-collections",
       "blocks": {
-        "collection_Bn78qU": {
+        "collection_yVwp9z": {
           "type": "collection",
           "settings": {
-            "collection": "airetex-rise-shirts",
+            "collection": "tsg-graphic-tees",
             "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": ""
+            "title": "SHOP TSG GRAPHIC TEES",
+            "link_url": "shopify://collections/tsg-graphic-tees",
+            "link_text": "Shop All Graphic Tees"
           }
         }
       },
       "block_order": [
-        "collection_Bn78qU"
+        "collection_yVwp9z"
       ],
-      "name": "Rise Shirts",
+      "name": "Graphic Tees",
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 0.5,
         "subheading": ""
-      }
-    },
-    "rich_text_qkjphV": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_69FbVz": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1"
-          }
-        },
-        "image_bbQ3eD": {
-          "type": "image",
-          "settings": {
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        }
-      },
-      "block_order": [
-        "heading_69FbVz",
-        "image_bbQ3eD"
-      ],
-      "disabled": true,
-      "name": "Bottoms Header",
-      "settings": {
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
       }
     },
     "featured_collections_JtYXY8": {
@@ -453,57 +508,57 @@
         "subheading": ""
       }
     },
-    "featured_collections_4YxbMC": {
+    "featured_collections_RqDqJG": {
       "type": "featured-collections",
       "blocks": {
-        "collection_a78Kiw": {
+        "collection_Tnmx7t": {
           "type": "collection",
           "settings": {
-            "collection": "tsg-boone-5-pocket-pants",
-            "products_count": 50,
-            "title": "",
+            "collection": "topper-polos",
+            "products_count": 8,
+            "title": "SHOP THE TOPPER POLOS",
             "link_url": "",
-            "link_text": "Shop All Boone Pants"
+            "link_text": ""
           }
         }
       },
       "block_order": [
-        "collection_a78Kiw"
+        "collection_Tnmx7t"
       ],
-      "name": "Boone Pants",
+      "name": "Topper Polos",
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
-        "stack_products": false,
+        "stack_products": true,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.5,
+        "products_per_row_desktop": 5,
+        "horizontal_spacing_factor": 0.3,
         "vertical_spacing_factor": 1,
         "subheading": ""
       }
     },
-    "featured_collections_iKWTj8": {
+    "featured_collections_EUVtA3": {
       "type": "featured-collections",
       "blocks": {
-        "collection_afLAki": {
+        "collection_bidMR6": {
           "type": "collection",
           "settings": {
-            "collection": "tsg-hatteras-5-pocket-performance-pants",
-            "products_count": 50,
-            "title": "",
+            "collection": "drift-polos",
+            "products_count": 8,
+            "title": "SHOP THE DRIFT POLOS",
             "link_url": "",
-            "link_text": "Shop All Hatteras Pants"
+            "link_text": ""
           }
         }
       },
       "block_order": [
-        "collection_afLAki"
+        "collection_bidMR6"
       ],
-      "name": "Hatteras Pants",
+      "name": "Drift Polos",
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
-        "stack_products": false,
+        "stack_products": true,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.5,
@@ -543,93 +598,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "featured_collections_WLbG8U": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_4BTexw": {
-          "type": "collection",
-          "settings": {
-            "collection": "sweaters-pullovers",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_4BTexw"
-      ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "horizontal_spacing_factor": 0.5,
-        "vertical_spacing_factor": 0.5,
-        "subheading": ""
-      }
-    },
-    "featured_collections_fJmQ7K": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_VHrXjf": {
-          "type": "collection",
-          "settings": {
-            "collection": "tsg-vests",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "Shop All TSG Vests"
-          }
-        }
-      },
-      "block_order": [
-        "collection_VHrXjf"
-      ],
-      "name": "Vests",
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.5,
-        "vertical_spacing_factor": 0.5,
-        "subheading": ""
-      }
-    },
-    "featured_collections_gNj7HX": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_RT4aJG": {
-          "type": "collection",
-          "settings": {
-            "collection": "tsg-outerwear",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "Shop All Outerwear"
-          }
-        }
-      },
-      "block_order": [
-        "collection_RT4aJG"
-      ],
-      "name": "Outerwear",
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.5,
-        "vertical_spacing_factor": 0.5,
-        "subheading": ""
-      }
-    },
     "main": {
       "type": "main-collection",
       "disabled": true,
@@ -666,24 +634,23 @@
     "collection-banner",
     "rich_text_wz38A6",
     "rich_text_mdgm6t",
-    "featured_collections_RqDqJG",
-    "featured_collections_EUVtA3",
-    "featured_collections_gXqYBg",
     "featured_collections_maYead",
+    "featured_collections_gCAYfg",
+    "featured_collections_fJmQ7K",
+    "featured_collections_gNj7HX",
+    "featured_collections_WLbG8U",
+    "featured_collections_4YxbMC",
+    "featured_collections_iKWTj8",
+    "featured_collections_ABFMep",
+    "featured_collections_gXqYBg",
     "featured_collections_K6BTjg",
     "featured_collections_7WpDFR",
-    "featured_collections_ABFMep",
-    "featured_collections_gCAYfg",
-    "rich_text_qkjphV",
     "featured_collections_JtYXY8",
     "featured_collections_wrGqqK",
     "featured_collections_MmYRRk",
-    "featured_collections_4YxbMC",
-    "featured_collections_iKWTj8",
+    "featured_collections_RqDqJG",
+    "featured_collections_EUVtA3",
     "rich_text_dzrjxR",
-    "featured_collections_WLbG8U",
-    "featured_collections_fJmQ7K",
-    "featured_collections_gNj7HX",
     "main"
   ]
 }
