@@ -113,6 +113,17 @@
         "text_color": "#ffffff"
       }
     },
+    "custom_liquid_jwjEge": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p>\n</p>",
+        "text_alignment": "center"
+      }
+    },
     "recently_viewed_products_TGx8b9": {
       "type": "recently-viewed-products",
       "settings": {
@@ -169,6 +180,7 @@
     "73adeb6e-c32d-4bb0-abc9-b8d202a43bee",
     "b68f4120-e5fd-4103-875c-84f7da9480a5",
     "video_TJT7kg",
+    "custom_liquid_jwjEge",
     "recently_viewed_products_TGx8b9",
     "81ebf8c2-e4f6-4b71-a97a-2eb64cb9de34",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
