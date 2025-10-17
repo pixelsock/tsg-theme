@@ -34,6 +34,12 @@
             "content": "<p>Click the link below to log in with your email and credentials.  If you have any questions, please email wholesale@thesportinggent.com for quick help.</p>"
           }
         },
+        "liquid_QgdhwG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p>\n</p>"
+          }
+        },
         "link_fPxFqc": {
           "type": "link",
           "settings": {
@@ -46,6 +52,7 @@
         "image_AmQPiw",
         "heading_dBD3A7",
         "richtext_M6zUMq",
+        "liquid_QgdhwG",
         "link_fPxFqc"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
