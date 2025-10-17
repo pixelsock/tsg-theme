@@ -33,12 +33,20 @@
           "settings": {
             "content": "<p>Click the link below to log in with your email and credentials.  If you have any questions, please email wholesale@thesportinggent.com for quick help.</p>"
           }
+        },
+        "link_fPxFqc": {
+          "type": "link",
+          "settings": {
+            "text": "Don't have an account yet? Click here.",
+            "url": "https://www.thesportinggent.com/account/register"
+          }
         }
       },
       "block_order": [
         "image_AmQPiw",
         "heading_dBD3A7",
-        "richtext_M6zUMq"
+        "richtext_M6zUMq",
+        "link_fPxFqc"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
@@ -53,9 +61,17 @@
       "blocks": {
         "heading_t7aaiK": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Whoops....",
             "heading_tag": "h1"
+          }
+        },
+        "link_N7XWfU": {
+          "type": "link",
+          "settings": {
+            "text": "",
+            "url": "https://www.thesportinggent.com/account/register"
           }
         },
         "richtext_a6JqfL": {
@@ -67,12 +83,13 @@
       },
       "block_order": [
         "heading_t7aaiK",
+        "link_N7XWfU",
         "richtext_a6JqfL"
       ],
       "disabled": true,
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
