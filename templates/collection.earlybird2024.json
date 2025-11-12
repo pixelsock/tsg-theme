@@ -35,59 +35,6 @@
         "overlay_opacity": 100
       }
     },
-    "rich_text_7t3XAm": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_tgGpm3": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "SAVE UP TO 60% OFF | GREAT GEAR AT CRAZY DEALS"
-          }
-        },
-        "heading_NQ4hWH": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "SEASON'S END MARKDOWNS",
-            "heading_tag": "h1"
-          }
-        },
-        "heading_hdGxRG": {
-          "type": "heading",
-          "settings": {
-            "text": "SAVE AT LEAST 30% OFF",
-            "heading_tag": "h2"
-          }
-        },
-        "subheading_HCxgRM": {
-          "type": "subheading",
-          "settings": {
-            "text": "NO CODE NECESSARY - DISCOUNT APPLIED AUTOMATICALLY AT CHECKOUT"
-          }
-        },
-        "richtext_MR4TxL": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>We don't run many sales, but when we do we <em>do not</em> mess around.  Amassed below you'll find goods and gear ready at prices you <em>cannot</em> pass up.  From outerwear, vests, shorts, polos, pants, and gear, you have less excuses here than you do to go visit a certain relative by marriage. </p><p>  Again, what's the excuse??</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_tgGpm3",
-        "heading_NQ4hWH",
-        "heading_hdGxRG",
-        "subheading_HCxgRM",
-        "richtext_MR4TxL"
-      ],
-      "disabled": true,
-      "settings": {
-        "separate_section_with_border": false,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
     "main": {
       "type": "main-collection",
       "custom_css": [
@@ -99,7 +46,7 @@
         "products_per_page": 50,
         "products_per_row_mobile": "2",
         "products_size_desktop": "large",
-        "show_grid_mode_selector": false,
+        "show_grid_mode_selector": true,
         "horizontal_spacing_factor": 0.5,
         "vertical_spacing_factor": 1,
         "filter_layout": "sidebar",
@@ -140,7 +87,6 @@
   },
   "order": [
     "collection-banner",
-    "rich_text_7t3XAm",
     "main",
     "newsletter_igGzqj"
   ],
