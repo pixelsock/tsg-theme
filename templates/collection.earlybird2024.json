@@ -80,6 +80,7 @@
         "subheading_HCxgRM",
         "richtext_MR4TxL"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "content_width": "sm",
