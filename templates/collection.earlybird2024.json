@@ -11,15 +11,14 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
-      "disabled": true,
       "custom_css": [
         ".content-over-media > picture img {height: unset; min-height: unset;}",
         ".content-over-media--lg {--content-over-media-height: unset;}"
       ],
       "settings": {
         "content_width": "sm",
-        "image": "shopify://shop_images/082525-LDW-Sale-collection-hero-DT_971d2147-98e3-4243-8c58-f5bf61ac6a55.jpg",
-        "mobile_image": "shopify://shop_images/082525-LDW-Sale-ad-feed-v2.jpg",
+        "image": "shopify://shop_images/111225-early-bird-sale-2025-hero-DT.jpg",
+        "mobile_image": "shopify://shop_images/111425-early-bird-sale-2025-email.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
