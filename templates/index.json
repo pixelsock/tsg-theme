@@ -15,15 +15,15 @@
         "image_7YYPkg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/111425-early-bird-sale-homepage-hero-DT_e45e7b0a-23ba-446d-a96b-1dffa73cb732.jpg",
-            "mobile_image": "shopify://shop_images/111425-early-bird-sale-homepage-hero-mobile.jpg",
+            "image": "shopify://shop_images/111225-BFCM-2025-DT-hero.jpg",
+            "mobile_image": "shopify://shop_images/112425-BFCM-2025-ads-feed-v1.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "",
-            "button_1_link": "shopify://collections/early-bird-gift-collection",
+            "button_1_link": "",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -41,6 +41,7 @@
         },
         "image_xw4JKt": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/091125-FW25-homepage-hero-dt_dc59ed9d-9f85-429c-8ccd-e4dc71067858.jpg",
             "mobile_image": "shopify://shop_images/090825-fw25-collection-launch-ad-feed-v2.jpg",
@@ -68,6 +69,7 @@
         },
         "image_HhPbRg": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/080525-CO_-hero-DT.jpg",
             "mobile_image": "shopify://shop_images/080425-CO_-ad-feed-v2.jpg",
@@ -118,6 +120,7 @@
     },
     "ebc5991b-8329-4499-9aff-2ede32c195fa": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "* {margin: 0; padding-top: 2.5px; padding-bottom: 1px;}",
         ".divider-text {font-size: 20px;}",
