@@ -48,11 +48,11 @@
       ],
       "custom_css": [],
       "settings": {
-        "enable_sticky": false,
+        "enable_sticky": true,
         "autoplay": true,
-        "cycle_speed": 4,
-        "desktop_font_size": 12,
-        "mobile_font_size": 10,
+        "cycle_speed": 6,
+        "desktop_font_size": 14,
+        "mobile_font_size": 11,
         "background": "#282e29",
         "text_color": "#ffffff"
       }
