@@ -173,14 +173,14 @@
         "collection_ia6dLM"
       ],
       "settings": {
-        "separate_section_with_border": true,
-        "image_size": "auto",
+        "separate_section_with_border": false,
+        "image_size": "xs",
         "show_text_outside": false,
         "space_items": true,
         "stack_collections": false,
         "collections_per_row_desktop": 5,
         "subheading": "",
-        "title": "",
+        "title": "OUR CHEATSheet GUIDE to the best.",
         "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
