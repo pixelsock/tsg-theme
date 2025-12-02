@@ -71,6 +71,61 @@
         "remove_vertical_spacing": false
       }
     },
+    "rich_text_zr3zbE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BUKYCW": {
+          "type": "heading",
+          "settings": {
+            "text": "Making it Easy one click at a time.",
+            "heading_tag": "h1"
+          }
+        },
+        "button_Qpg8Ca": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Gifts Under $50",
+            "url": "shopify://collections/gifts-under-75",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_yQHrAd": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Gifts Under $100",
+            "url": "shopify://collections/gifts-under-50-copy",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_XdbfjF": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Gifts Under $250",
+            "url": "shopify://collections/gifts-under-100-copy",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_BUKYCW",
+        "button_Qpg8Ca",
+        "button_yQHrAd",
+        "button_XdbfjF"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "collection_list_UPVVBz": {
       "type": "collection-list",
       "blocks": {
@@ -437,6 +492,7 @@
   "order": [
     "collection-banner",
     "rich_text_wz38A6",
+    "rich_text_zr3zbE",
     "collection_list_UPVVBz",
     "image_with_text_eqbYE9",
     "collection_list_VaNanJ",
