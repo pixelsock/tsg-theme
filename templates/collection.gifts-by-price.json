@@ -29,6 +29,31 @@
         "overlay_opacity": 100
       }
     },
+    "rich_text_WeBEeq": {
+      "type": "rich-text",
+      "blocks": {
+        "button_BmfUrL": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Back To Gift Guide",
+            "url": "shopify://collections/holiday-best-sellers",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_BmfUrL"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "main": {
       "type": "main-collection",
       "custom_css": [
@@ -86,6 +111,7 @@
   },
   "order": [
     "collection-banner",
+    "rich_text_WeBEeq",
     "main",
     "newsletter_igGzqj"
   ],
