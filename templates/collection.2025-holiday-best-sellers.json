@@ -379,7 +379,7 @@
       "settings": {
         "hide_product_information": false,
         "show_variant_swatches": false,
-        "products_per_page": 50,
+        "products_per_page": 8,
         "products_per_row_mobile": "2",
         "products_size_desktop": "large",
         "show_grid_mode_selector": false,
@@ -400,53 +400,6 @@
         "promotion_image_url": "shopify://shop_images/100825-collection-page-usp-promo.jpg",
         "enable_promotion_link": true,
         "promotion_link_url": "shopify://collections/fall-winter-2025-collection"
-      }
-    },
-    "slideshow_HBU8dN": {
-      "type": "slideshow",
-      "blocks": {
-        "image_NRM3Hn": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/A7R0284.jpg",
-            "mobile_image": "shopify://shop_images/A7R0284.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_NRM3Hn"
-      ],
-      "disabled": true,
-      "settings": {
-        "allow_transparent_header": false,
-        "show_next_section_button": false,
-        "media_size": "sm",
-        "autoplay": false,
-        "autoplay_pause_on_video": true,
-        "cycle_speed": 5,
-        "background": "#000000",
-        "controls_color": "#ffffff"
       }
     },
     "rich_text_gYzfAf": {
@@ -497,7 +450,6 @@
     "image_with_text_eqbYE9",
     "collection_list_VaNanJ",
     "main",
-    "slideshow_HBU8dN",
     "rich_text_gYzfAf",
     "newsletter_CqViA7"
   ]
