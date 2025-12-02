@@ -122,7 +122,7 @@
       "block_order": [
         "button_EkV9C6"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
+      "name": "Gift Guide Button",
       "settings": {
         "separate_section_with_border": true,
         "content_width": "sm",
