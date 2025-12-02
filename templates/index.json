@@ -14,7 +14,6 @@
       "blocks": {
         "image_7YYPkg": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/111425-holiday-2025-homepage-hero-DT.jpg",
             "mobile_image": "shopify://shop_images/111325-holiday-gift-guide-hero-mobile.jpg",
@@ -42,6 +41,7 @@
         },
         "image_xw4JKt": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/091125-FW25-homepage-hero-dt_dc59ed9d-9f85-429c-8ccd-e4dc71067858.jpg",
             "mobile_image": "shopify://shop_images/090825-fw25-collection-launch-ad-feed-v2.jpg",
@@ -103,6 +103,87 @@
         "remove_horizontal_spacing": false,
         "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<title>\n</title>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\nbody {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}\nh1{font-family:\"Work Sans\", sans-serif;letter-spacing:0px;color:#282E29;background-color:#ffffff;font-weight:900;}\n</style>\n</head>\n<body>\n<h1 class=\"divider-text\">APPAREL MAKERS. GEAR CURATORS. GOOD TIME PURVEYORS.</h1>\n<p></p>\n</body>\n</html>",
         "text_alignment": "center"
+      }
+    },
+    "rich_text_VG3E3w": {
+      "type": "rich-text",
+      "blocks": {
+        "button_EkV9C6": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "SHOP THE GIFT GUIDE",
+            "url": "shopify://collections/holiday-best-sellers",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_EkV9C6"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_tnkYVm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ndUdGf": {
+          "type": "heading",
+          "settings": {
+            "text": "GIFTS BY PRICE",
+            "heading_tag": "h1"
+          }
+        },
+        "button_YtPF78": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_gpbpKE": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_iRHUbA": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ndUdGf",
+        "button_YtPF78",
+        "button_gpbpKE",
+        "button_iRHUbA"
+      ],
+      "disabled": true,
+      "name": "Gifts By Price",
+      "settings": {
+        "separate_section_with_border": false,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": false
       }
     },
     "11300496-0b96-4e9c-939f-8b4fa6c86620": {
@@ -1387,6 +1468,8 @@
   "order": [
     "slideshow",
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
+    "rich_text_VG3E3w",
+    "rich_text_tnkYVm",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "collection_list_nLPhpF",
     "slideshow_fHcLry",
