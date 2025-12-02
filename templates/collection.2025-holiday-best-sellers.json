@@ -16,8 +16,8 @@
       ],
       "settings": {
         "content_width": "md",
-        "image": "shopify://shop_images/082125-fw25-launch-lockup-hero-dt-v2.jpg",
-        "mobile_image": "shopify://shop_images/090325-fw25-launch-lockup-hero-mobile-v2.jpg",
+        "image": "shopify://shop_images/111425-holiday-2025-homepage-hero-DT_cb5021cb-5a77-4739-821f-5c6a7f63b620.jpg",
+        "mobile_image": "shopify://shop_images/111325-holiday-gift-guide-hero-mobile_baba30d0-34a5-478a-b754-09665fbd0e7f.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
         "reveal": false,
@@ -45,15 +45,17 @@
         },
         "heading_nmDKqh": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "text": "the fall/winter 2025 collection",
+            "text": "",
             "heading_tag": "h1"
           }
         },
         "richtext_Eiht3r": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
-            "content": "<p>Ah, Fall.  Our time to shine.  While we love warmer temps and hiding from them as well in the mountains, the fall is where we really come out to play.  From our newest releases like the Camden Workmans Vest, to the perennial Boone Pant - we're here to play.  See below for just the start of our best collection yet.  Good times ahead.</p>"
+            "content": "<p>We're going to make this easy for you.</p>"
           }
         }
       },
