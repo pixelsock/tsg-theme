@@ -221,7 +221,7 @@
           "settings": {
             "style": "solid",
             "text": "Gifts Under $250",
-            "url": "shopify://collections/gifts-under-100-copy",
+            "url": "shopify://collections/gifts-under-250",
             "background": "",
             "text_color": ""
           }
