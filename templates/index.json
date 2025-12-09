@@ -521,6 +521,84 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
+    "collection_list_TgBfmg": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_UwFX8d": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/thomasfieldshirtwheatalt1000x_0003s_0000_Boone-TSG-Builder-23-0396.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "A midweight 100% cotton flannel",
+            "title": "Thomas Field Flannel",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-thomas-flannel-field-shirt-wheat",
+            "text_color": "#282e29",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_aKinzh": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/120325-kc-shirt-buff-blaze-1000x_A746825_6d578dc9-4ef0-4f9c-b7bb-7a7a399464ec.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "More stylish than a good bird dog",
+            "title": "KC Shooting Flannel Shirt",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-king-charles-shooting-shirt-orange-black-buffalo",
+            "text_color": "#282e29",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "collection_pW8p6j": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/L1017568.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "Our lightest & most breathable option",
+            "title": "Airetex™ Rise Field Shirt",
+            "button_text": "",
+            "button_link": "shopify://products/tsg-rise-shirt-dusty-olive",
+            "text_color": "#282e29",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_UwFX8d",
+        "collection_aKinzh",
+        "collection_pW8p6j"
+      ],
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": true,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "FIELD SHIRTS FOR YOUR WING MAN",
+        "content": "",
+        "circle_button_background": "#ffffff",
+        "circle_button_text_color": "#1c1c1c"
+      }
+    },
     "slideshow_fHcLry": {
       "type": "slideshow",
       "blocks": {
@@ -1471,6 +1549,7 @@
     "rich_text_tnkYVm",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "collection_list_nLPhpF",
+    "collection_list_TgBfmg",
     "slideshow_fHcLry",
     "multiple-media-with-text",
     "slideshow_KgiFpE",
