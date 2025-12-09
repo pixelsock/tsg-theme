@@ -206,6 +206,24 @@
             "button_text_color": ""
           }
         },
+        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "pants",
+            "image": "shopify://shop_images/tsgboonepantcharcoalalt1000x_0000s_0001_TSG-Bluff-S23-Builder-84.jpg",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "",
+            "title": "PANTS & BRITCHES",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426": {
           "type": "collection",
           "settings": {
@@ -258,24 +276,6 @@
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 12,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "pants",
-            "image": "shopify://shop_images/tsgboonepantcharcoalalt1000x_0000s_0001_TSG-Bluff-S23-Builder-84.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "PANTS & BRITCHES",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
             "button_background": "",
             "button_text_color": ""
           }
@@ -373,10 +373,10 @@
       },
       "block_order": [
         "74a21c4e-de8f-47ef-a8f9-212606a0f88e",
+        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
         "49dbe3c1-d8ef-4de7-b50e-946fb4e61426",
         "collection_brUP8p",
         "collection_PrBp3L",
-        "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-0",
         "template--16731747844328__11300496-0b96-4e9c-939f-8b4fa6c86620-1685483601f44faf2e-1",
         "collection_8QgKN6",
         "collection_xwkyeD",
