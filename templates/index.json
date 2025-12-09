@@ -587,7 +587,7 @@
       "name": "Field Shirts",
       "settings": {
         "separate_section_with_border": true,
-        "image_size": "auto",
+        "image_size": "xs",
         "show_text_outside": true,
         "space_items": true,
         "stack_collections": true,
