@@ -118,7 +118,7 @@
           "type": "question",
           "settings": {
             "question": "<strong>Oversized Item Shipping Policy</strong>",
-            "answer": "<p>Due to size and weight restrictions, we cannot offer free shipping on all purchases over $99 and above.  Please carefully review the shipping options before check out and completing your order.  Shipping charges cannot be refunded.</p>"
+            "answer": "<p>Due to certain item size and weight restrictions, we cannot offer free shipping on all purchases over $99 and above.  Please carefully review the shipping options before check out and completing your order.  Shipping charges cannot be refunded.</p>"
           }
         }
       },
