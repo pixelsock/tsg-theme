@@ -14,6 +14,7 @@
       "blocks": {
         "image_xw4JKt": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/120425-holiday-santa-helper-homepage-banner-DT.jpg",
             "mobile_image": "shopify://shop_images/120425-holiday-santa-helper-collection-banner-mobile_63a213df-06bc-41a4-9a1d-ef64f55fbe8c.jpg",
@@ -77,6 +78,7 @@
         ".content-over-media > picture img {height: unset; min-height: unset;}",
         ".content-over-media--lg {--content-over-media-height: unset;}"
       ],
+      "name": "Main Hero",
       "settings": {
         "allow_transparent_header": false,
         "show_next_section_button": false,
@@ -86,22 +88,6 @@
         "cycle_speed": 4,
         "background": "#ffffff",
         "controls_color": "#ffffff"
-      }
-    },
-    "ebc5991b-8329-4499-9aff-2ede32c195fa": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "custom_css": [
-        "* {margin: 0; padding-top: 2.5px; padding-bottom: 1px;}",
-        ".divider-text {font-size: 20px;}",
-        "@media only screen and (max-width: 699px) {.divider-text {font-size: 11px; }}"
-      ],
-      "settings": {
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<title>\n</title>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\nbody {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}\nh1{font-family:\"Work Sans\", sans-serif;letter-spacing:0px;color:#282E29;background-color:#ffffff;font-weight:900;}\n</style>\n</head>\n<body>\n<h1 class=\"divider-text\">APPAREL MAKERS. GEAR CURATORS. GOOD TIME PURVEYORS.</h1>\n<p></p>\n</body>\n</html>",
-        "text_alignment": "center"
       }
     },
     "rich_text_VG3E3w": {
@@ -121,68 +107,146 @@
       "block_order": [
         "button_EkV9C6"
       ],
+      "custom_css": [],
       "name": "Gift Guide Button",
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
       }
     },
-    "rich_text_tnkYVm": {
+    "custom_liquid_fATdXy": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p></p>",
+        "text_alignment": "center"
+      }
+    },
+    "slideshow_fjX47D": {
+      "type": "slideshow",
+      "blocks": {
+        "image_9MUL6a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/120425-holiday-santa-helper-homepage-banner-DT.jpg",
+            "mobile_image": "shopify://shop_images/120425-holiday-santa-helper-collection-banner-mobile_63a213df-06bc-41a4-9a1d-ef64f55fbe8c.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/santas-helper-collection",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "shopify://collections/fall-winter-2025-collection",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_6pigyT": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/111425-holiday-2025-homepage-hero-DT.jpg",
+            "mobile_image": "shopify://shop_images/111325-holiday-gift-guide-hero-mobile.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/holiday-best-sellers",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9MUL6a",
+        "image_6pigyT"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 1000px) {.h1 {font-size: 36px; } .h6 {font-size: 36px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
+        "@media only screen and (max-width: 900px) {.h1 {font-size: 24px; } .h6 {font-size: 24px; }}",
+        ".content-over-media > picture img {height: unset; min-height: unset;}",
+        ".content-over-media--lg {--content-over-media-height: unset;}"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "lg",
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 4,
+        "background": "#ffffff",
+        "controls_color": "#ffffff"
+      }
+    },
+    "rich_text_br8rbq": {
       "type": "rich-text",
       "blocks": {
-        "heading_ndUdGf": {
-          "type": "heading",
-          "settings": {
-            "text": "GIFTS BY PRICE",
-            "heading_tag": "h1"
-          }
-        },
-        "button_YtPF78": {
+        "button_mVPpH7": {
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "button_gpbpKE": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "button_iRHUbA": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Button text",
-            "url": "",
+            "text": "Shop Our Holiday Markdowns",
+            "url": "shopify://collections/santas-helper-collection",
             "background": "",
             "text_color": ""
           }
         }
       },
       "block_order": [
-        "heading_ndUdGf",
-        "button_YtPF78",
-        "button_gpbpKE",
-        "button_iRHUbA"
+        "button_mVPpH7"
       ],
-      "disabled": true,
-      "name": "Gifts By Price",
+      "name": "Gift Guide Button",
       "settings": {
         "separate_section_with_border": false,
-        "content_width": "lg",
+        "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
+      }
+    },
+    "ebc5991b-8329-4499-9aff-2ede32c195fa": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "* {margin: 0; padding-top: 2.5px; padding-bottom: 1px;}",
+        ".divider-text {font-size: 20px;}",
+        "@media only screen and (max-width: 699px) {.divider-text {font-size: 11px; }}"
+      ],
+      "name": "Tag Line Custom Liquid",
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<title>\n</title>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\nbody {background-color:#ffffff;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}\nh1{font-family:\"Work Sans\", sans-serif;letter-spacing:0px;color:#282E29;background-color:#ffffff;font-weight:900;}\n</style>\n</head>\n<body>\n<h1 class=\"divider-text\">APPAREL MAKERS. GEAR CURATORS. GOOD TIME PURVEYORS.</h1>\n<p></p>\n</body>\n</html>",
+        "text_alignment": "center"
       }
     },
     "11300496-0b96-4e9c-939f-8b4fa6c86620": {
@@ -399,123 +463,6 @@
         "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "Shop By Collection",
-        "content": "",
-        "circle_button_background": "#ffffff",
-        "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "collection_list_nLPhpF": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_b9Y9RU": {
-          "type": "collection",
-          "settings": {
-            "collection": "reel-shorts",
-            "image": "shopify://shop_images/061225-ss25-collection-reels_0005_tsg-troutin-builder-250516-001-4.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "REEL SHORTS",
-            "button_text": "",
-            "button_link": "shopify://products/tsg-reel-short-driftwood",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_JfLVAb": {
-          "type": "collection",
-          "settings": {
-            "collection": "airetex-brooks-shirts",
-            "image": "shopify://shop_images/061225-ss25-collection-reels_0004_tsg-charleston-s25-builder-0160.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "Airetex™ Brooks Shirts",
-            "button_text": "",
-            "button_link": "shopify://products/tsg-brooks-bamboo-long-sleeve-shirt-field-plaid-grey",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_KyXbfw": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/061225-ss25-collection-reels_0002_tsg-troutin-builder-250516-046.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "RIDGE SHORTS",
-            "button_text": "",
-            "button_link": "shopify://products/tsg-ridge-short-stone",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 6,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_MdfbWz": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/061225-ss25-collection-reels_0001_TSG-Downtown-S23-Builder-93.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "TOPPER POLO",
-            "button_text": "",
-            "button_link": "shopify://products/tsg-topper-polo-blue-white-stripe",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "collection_xbkC7w": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/061225-ss25-collection-reels_0000_tsg-charleston-s25-builder-0184.jpg",
-            "expand_collection": false,
-            "content_position": "place-self-center text-center",
-            "subheading": "",
-            "title": "DRIFT HOODY",
-            "button_text": "",
-            "button_link": "shopify://products/tsg-drift-hoody-fly-goods-wheat-copy",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 5,
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_b9Y9RU",
-        "collection_JfLVAb",
-        "collection_KyXbfw",
-        "collection_MdfbWz",
-        "collection_xbkC7w"
-      ],
-      "disabled": true,
-      "name": "Summer Best Sellers",
-      "settings": {
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": false,
-        "collections_per_row_desktop": 5,
-        "subheading": "",
-        "title": "SUMMERTIME BEST SELLERS",
         "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
@@ -1544,11 +1491,12 @@
   },
   "order": [
     "slideshow",
-    "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "rich_text_VG3E3w",
-    "rich_text_tnkYVm",
+    "custom_liquid_fATdXy",
+    "slideshow_fjX47D",
+    "rich_text_br8rbq",
+    "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
-    "collection_list_nLPhpF",
     "collection_list_TgBfmg",
     "slideshow_fHcLry",
     "multiple-media-with-text",
