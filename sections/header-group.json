@@ -22,13 +22,13 @@
         },
         "1090e969-2407-46e8-a855-23e75fedd389": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Fast & Free Express 2-Day Shipping on All Orders Over $250* Until 12/22 @ 3PM EST"
           }
         },
         "message_96nJek": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "Fast & Free Standard Shipping on All Orders Over $125*"
           }
