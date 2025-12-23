@@ -14,6 +14,12 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_CWQF6q": {
+          "type": "message",
+          "settings": {
+            "text": "CUSTOMER SERVICE WILL RETURN ON DEC. 27th. MERRY MERRY."
+          }
+        },
         "958e3cb8-313c-4d8c-85dd-660942b09bff": {
           "type": "message",
           "settings": {
@@ -41,6 +47,7 @@
         }
       },
       "block_order": [
+        "message_CWQF6q",
         "958e3cb8-313c-4d8c-85dd-660942b09bff",
         "1090e969-2407-46e8-a855-23e75fedd389",
         "message_96nJek",
