@@ -14,10 +14,9 @@
       "blocks": {
         "image_xw4JKt": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/121925-holiday-shipping-free-express-hero-dt.jpg",
-            "mobile_image": "shopify://shop_images/121925-holiday-shipping-free-express-social.jpg",
+            "image": "shopify://shop_images/122325-boxing-day-2025-hero-dt.jpg",
+            "mobile_image": "shopify://shop_images/122225-Boxing-Day-2025-email.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -42,6 +41,7 @@
         },
         "image_7YYPkg": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/111425-holiday-2025-homepage-hero-DT.jpg",
             "mobile_image": "shopify://shop_images/111325-holiday-gift-guide-hero-mobile.jpg",
@@ -107,6 +107,7 @@
       "block_order": [
         "button_EkV9C6"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "Gift Guide Button",
       "settings": {
@@ -118,6 +119,7 @@
     },
     "custom_liquid_fATdXy": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom_liquid.presets.custom_liquid.name",
       "settings": {
         "separate_section_with_border": true,
@@ -190,6 +192,7 @@
         "image_9MUL6a",
         "image_6pigyT"
       ],
+      "disabled": true,
       "custom_css": [
         "@media only screen and (min-width: 1000px) {.h1 {font-size: 36px; } .h6 {font-size: 36px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
         "@media only screen and (max-width: 900px) {.h1 {font-size: 24px; } .h6 {font-size: 24px; }}",
@@ -224,6 +227,7 @@
       "block_order": [
         "button_mVPpH7"
       ],
+      "disabled": true,
       "name": "Gift Guide Button",
       "settings": {
         "separate_section_with_border": false,
