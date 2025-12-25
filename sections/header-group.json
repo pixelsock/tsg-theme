@@ -14,6 +14,12 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "1090e969-2407-46e8-a855-23e75fedd389": {
+          "type": "message",
+          "settings": {
+            "text": "The Boxing Days Sale Event is Live | 25% off site wide*"
+          }
+        },
         "message_CWQF6q": {
           "type": "message",
           "settings": {
@@ -24,13 +30,6 @@
           "type": "message",
           "settings": {
             "text": "Get 15% off your first order by <a href=\"#\" title=\"klayvio_trigger\">signing up for our emails</a>!"
-          }
-        },
-        "1090e969-2407-46e8-a855-23e75fedd389": {
-          "type": "message",
-          "disabled": true,
-          "settings": {
-            "text": "Fast & Free Express 2-Day Shipping on All Orders Over $250* Until 12/22 @ 3PM EST"
           }
         },
         "message_96nJek": {
@@ -47,9 +46,9 @@
         }
       },
       "block_order": [
+        "1090e969-2407-46e8-a855-23e75fedd389",
         "message_CWQF6q",
         "958e3cb8-313c-4d8c-85dd-660942b09bff",
-        "1090e969-2407-46e8-a855-23e75fedd389",
         "message_96nJek",
         "24f48508-6c61-4f52-a226-9a3eb069b0a1"
       ],
