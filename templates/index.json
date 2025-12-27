@@ -38,39 +38,10 @@
             "border_color": "",
             "gradient_overlay": ""
           }
-        },
-        "image_7YYPkg": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/111425-holiday-2025-homepage-hero-DT.jpg",
-            "mobile_image": "shopify://shop_images/111325-holiday-gift-guide-hero-mobile.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify://collections/holiday-best-sellers",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
         }
       },
       "block_order": [
-        "image_xw4JKt",
-        "image_7YYPkg"
+        "image_xw4JKt"
       ],
       "custom_css": [
         "@media only screen and (min-width: 1000px) {.h1 {font-size: 36px; } .h6 {font-size: 36px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
@@ -88,152 +59,6 @@
         "cycle_speed": 4,
         "background": "#ffffff",
         "controls_color": "#ffffff"
-      }
-    },
-    "rich_text_VG3E3w": {
-      "type": "rich-text",
-      "blocks": {
-        "button_EkV9C6": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "SHOP THE GIFT GUIDE",
-            "url": "shopify://collections/holiday-best-sellers",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_EkV9C6"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "name": "Gift Guide Button",
-      "settings": {
-        "separate_section_with_border": false,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
-    "custom_liquid_fATdXy": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
-      "settings": {
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<p></p>",
-        "text_alignment": "center"
-      }
-    },
-    "slideshow_fjX47D": {
-      "type": "slideshow",
-      "blocks": {
-        "image_9MUL6a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/120425-holiday-santa-helper-homepage-banner-DT.jpg",
-            "mobile_image": "shopify://shop_images/120425-holiday-santa-helper-collection-banner-mobile_63a213df-06bc-41a4-9a1d-ef64f55fbe8c.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify://collections/santas-helper-collection",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "shopify://collections/fall-winter-2025-collection",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        },
-        "image_6pigyT": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/111425-holiday-2025-homepage-hero-DT.jpg",
-            "mobile_image": "shopify://shop_images/111325-holiday-gift-guide-hero-mobile.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "shopify://collections/holiday-best-sellers",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_9MUL6a",
-        "image_6pigyT"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media only screen and (min-width: 1000px) {.h1 {font-size: 36px; } .h6 {font-size: 36px; } .prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {margin-block-start: 1rem; }}",
-        "@media only screen and (max-width: 900px) {.h1 {font-size: 24px; } .h6 {font-size: 24px; }}",
-        ".content-over-media > picture img {height: unset; min-height: unset;}",
-        ".content-over-media--lg {--content-over-media-height: unset;}"
-      ],
-      "settings": {
-        "allow_transparent_header": false,
-        "show_next_section_button": false,
-        "media_size": "lg",
-        "autoplay": false,
-        "autoplay_pause_on_video": false,
-        "cycle_speed": 4,
-        "background": "#ffffff",
-        "controls_color": "#ffffff"
-      }
-    },
-    "rich_text_br8rbq": {
-      "type": "rich-text",
-      "blocks": {
-        "button_mVPpH7": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Shop Our Holiday Markdowns",
-            "url": "shopify://collections/santas-helper-collection",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_mVPpH7"
-      ],
-      "disabled": true,
-      "name": "Gift Guide Button",
-      "settings": {
-        "separate_section_with_border": false,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
       }
     },
     "ebc5991b-8329-4499-9aff-2ede32c195fa": {
@@ -1495,10 +1320,6 @@
   },
   "order": [
     "slideshow",
-    "rich_text_VG3E3w",
-    "custom_liquid_fATdXy",
-    "slideshow_fjX47D",
-    "rich_text_br8rbq",
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "collection_list_TgBfmg",
