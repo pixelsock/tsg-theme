@@ -15,15 +15,15 @@
         "image_xw4JKt": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/122325-boxing-day-2025-hero-dt.jpg",
-            "mobile_image": "shopify://shop_images/122225-Boxing-Day-2025-email.jpg",
+            "image": "shopify://shop_images/012025-Field-Grade-Hero-dt_f236aa8d-f42b-41e5-8e3e-7a47e7b74211.jpg",
+            "mobile_image": "shopify://shop_images/012025-Field-Grade-Hero-mobile.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "",
-            "button_1_link": "shopify://collections/holiday-best-sellers",
+            "button_1_link": "",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
