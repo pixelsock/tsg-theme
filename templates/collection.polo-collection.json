@@ -102,7 +102,7 @@
         "richtext_R77g3t": {
           "type": "richtext",
           "settings": {
-            "content": "<p>The TSG Topper Polo, the my-wife-made-me polo for those evening activities or, heck, even just for a hot day on the course or at the bar.  The Topper polo is built with an <em>ultra-comfortable</em>, <em>moisture-wicking </em>poly and Spandex™ blend so you can keep your lady impressed all while feeling super masculine and cool.  </p>"
+            "content": "<p>The TSG Topper Polo, the my-wife-made-me polo for those evening activities or, heck, even just for a bonkers hot day on the course or at the bar.  The Topper polo is built with an <em>ultra-comfortable</em>, <em>moisture-wicking </em>poly and Spandex™ blend so you can keep your lady impressed all while feeling super masculine and cool.  </p>"
           }
         },
         "link_W8NPY4": {
@@ -121,6 +121,7 @@
         "link_W8NPY4"
       ],
       "custom_css": [],
+      "name": "Topper Polo",
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/TSG-Downtown-S23-Builder-93_0c510c42-195b-4452-a083-842ec2bd6c18.jpg",
