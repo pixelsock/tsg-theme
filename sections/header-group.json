@@ -16,6 +16,7 @@
       "blocks": {
         "1090e969-2407-46e8-a855-23e75fedd389": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "The Boxing Days Sale Event is Live | 25% off site wide*"
           }
