@@ -15,8 +15,8 @@
         "image_xw4JKt": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/012025-Field-Grade-Hero-dt_f236aa8d-f42b-41e5-8e3e-7a47e7b74211.jpg",
-            "mobile_image": "shopify://shop_images/012025-Field-Grade-Hero-mobile.jpg",
+            "image": "shopify://shop_images/121825-fw25-tanner-feature-hero-dt.jpg",
+            "mobile_image": "shopify://shop_images/121825-fw25-tanner-feature-social_01.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -54,6 +54,152 @@
         "allow_transparent_header": false,
         "show_next_section_button": false,
         "media_size": "lg",
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 4,
+        "background": "#ffffff",
+        "controls_color": "#ffffff"
+      }
+    },
+    "multiple-media-with-text": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled-1_0017_TSG_Tannershirt_bridgewater.jpg",
+            "rotation": 0
+          }
+        },
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/A747382.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image-2",
+        "image-1"
+      ],
+      "custom_css": [
+        ".h3 {line-height: 1.2;}"
+      ],
+      "name": "Airetex Feature",
+      "settings": {
+        "reveal_on_scroll": false,
+        "separate_section_with_border": false,
+        "media_position_desktop": "after_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "separated",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "A TSGACO. BEST SELLER",
+        "title": "A feel good shirt, with a feel good story.",
+        "content": "<p>Let it be known: Inspiration comes in many forms.  </p><p>So here it is: The TSG Airetex™ Bamboo collection.  That's right...Bamboo!  Made from our Airetex™ Bamboo fabric, this is the newest and latest and greatest for a soft AF option so you can look the part and feel like a champ in the process.  </p>",
+        "button_1_text": "SHOP AIRETEX™ SHIRTS",
+        "button_1_link": "shopify://collections/airetex-bamboo-apparel-collection",
+        "button_1_style": "outline",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_style": "solid",
+        "background": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "slideshow_fHcLry": {
+      "type": "slideshow",
+      "blocks": {
+        "image_EgMaUP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/042225-airetex-collection-images-4.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EgMaUP"
+      ],
+      "custom_css": [],
+      "name": "Airetex Hero",
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "sm",
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "slideshow_KgiFpE": {
+      "type": "slideshow",
+      "blocks": {
+        "image_9w6Xz9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/021224-Brooks-SS-hero-DT-v2.jpg",
+            "mobile_image": "shopify://shop_images/042225-airetex-collection-images-2.jpg",
+            "subheading": "Learn <em>why</em> Airetex™ is",
+            "title": "The Better Bamboo",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 780,
+            "button_1_text": "FIND OUT MORE",
+            "button_1_link": "shopify://collections/airetex-bamboo-apparel-collection",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 24,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(57deg, rgba(0, 0, 0, 0.53), rgba(43, 252, 135, 0) 83%, rgba(54, 212, 255, 0) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_9w6Xz9"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".h6 {margin-top: -0.5rem; font-size: 24px;}"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "auto",
         "autoplay": false,
         "autoplay_pause_on_video": false,
         "cycle_speed": 4,
@@ -297,10 +443,10 @@
         "circle_button_text_color": "#1c1c1c"
       }
     },
-    "collection_list_TgBfmg": {
+    "collection_list_U3fkK3": {
       "type": "collection-list",
       "blocks": {
-        "collection_UwFX8d": {
+        "collection_BMNyEt": {
           "type": "collection",
           "settings": {
             "collection": "",
@@ -318,7 +464,7 @@
             "button_text_color": ""
           }
         },
-        "collection_aKinzh": {
+        "collection_xPjmKW": {
           "type": "collection",
           "settings": {
             "collection": "",
@@ -336,7 +482,7 @@
             "button_text_color": ""
           }
         },
-        "collection_pW8p6j": {
+        "collection_mhakBb": {
           "type": "collection",
           "settings": {
             "collection": "",
@@ -356,9 +502,9 @@
         }
       },
       "block_order": [
-        "collection_UwFX8d",
-        "collection_aKinzh",
-        "collection_pW8p6j"
+        "collection_BMNyEt",
+        "collection_xPjmKW",
+        "collection_mhakBb"
       ],
       "name": "Field Shirts",
       "settings": {
@@ -366,158 +512,13 @@
         "image_size": "xs",
         "show_text_outside": true,
         "space_items": true,
-        "stack_collections": true,
+        "stack_collections": false,
         "collections_per_row_desktop": 3,
         "subheading": "",
         "title": "FIELD SHIRTS FOR A WING MAN",
         "content": "",
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
-      }
-    },
-    "slideshow_fHcLry": {
-      "type": "slideshow",
-      "blocks": {
-        "image_EgMaUP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/042225-airetex-collection-images-4.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_EgMaUP"
-      ],
-      "custom_css": [],
-      "name": "Airetex Hero",
-      "settings": {
-        "allow_transparent_header": false,
-        "show_next_section_button": false,
-        "media_size": "sm",
-        "autoplay": false,
-        "autoplay_pause_on_video": false,
-        "cycle_speed": 5,
-        "background": "#000000",
-        "controls_color": "#ffffff"
-      }
-    },
-    "multiple-media-with-text": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Untitled-1_0017_TSG_Tannershirt_bridgewater.jpg",
-            "rotation": 0
-          }
-        },
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/A747382.jpg",
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image-2",
-        "image-1"
-      ],
-      "custom_css": [
-        ".h3 {line-height: 1.2;}"
-      ],
-      "name": "Airetex Feature",
-      "settings": {
-        "reveal_on_scroll": false,
-        "separate_section_with_border": false,
-        "media_position_desktop": "after_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "separated",
-        "media_alignment": "center",
-        "media_alignment_offset": 0,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "center",
-        "subheading": "A TSGACO. BEST SELLER",
-        "title": "A feel good shirt, with a feel good story.",
-        "content": "<p>Let it be known: Inspiration comes in many forms.  </p><p>So here it is: The TSG Airetex™ Bamboo collection.  That's right...Bamboo!  Made from our Airetex™ Bamboo fabric, this is the newest and latest and greatest for a soft AF option so you can look the part and feel like a champ in the process.  </p>",
-        "button_1_text": "SHOP AIRETEX™ SHIRTS",
-        "button_1_link": "shopify://collections/airetex-bamboo-apparel-collection",
-        "button_1_style": "outline",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_style": "solid",
-        "background": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "slideshow_KgiFpE": {
-      "type": "slideshow",
-      "blocks": {
-        "image_9w6Xz9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/021224-Brooks-SS-hero-DT-v2.jpg",
-            "mobile_image": "shopify://shop_images/042225-airetex-collection-images-2.jpg",
-            "subheading": "Learn <em>why</em> Airetex™ is",
-            "title": "The Better Bamboo",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "content_max_width": 780,
-            "button_1_text": "FIND OUT MORE",
-            "button_1_link": "shopify://collections/airetex-bamboo-apparel-collection",
-            "button_1_style": "link",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 24,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(57deg, rgba(0, 0, 0, 0.53), rgba(43, 252, 135, 0) 83%, rgba(54, 212, 255, 0) 100%)"
-          }
-        }
-      },
-      "block_order": [
-        "image_9w6Xz9"
-      ],
-      "custom_css": [
-        ".h6 {margin-top: -0.5rem; font-size: 24px;}"
-      ],
-      "settings": {
-        "allow_transparent_header": false,
-        "show_next_section_button": false,
-        "media_size": "auto",
-        "autoplay": false,
-        "autoplay_pause_on_video": false,
-        "cycle_speed": 4,
-        "background": "#ffffff",
-        "controls_color": "#ffffff"
       }
     },
     "rich_text_99iQke": {
@@ -550,6 +551,7 @@
         "heading_hzC4tc",
         "richtext_yChUUg"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": true,
         "content_width": "sm",
@@ -1320,12 +1322,12 @@
   },
   "order": [
     "slideshow",
+    "multiple-media-with-text",
+    "slideshow_fHcLry",
+    "slideshow_KgiFpE",
     "ebc5991b-8329-4499-9aff-2ede32c195fa",
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
-    "collection_list_TgBfmg",
-    "slideshow_fHcLry",
-    "multiple-media-with-text",
-    "slideshow_KgiFpE",
+    "collection_list_U3fkK3",
     "rich_text_99iQke",
     "logo_list_6fnxgY",
     "slideshow_BMAjgx",
