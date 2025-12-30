@@ -851,6 +851,7 @@
         ".container {margin-bottom: -0.75rem; margin-top: -0.75rem;}",
         ".h2 {font-size: 24pt; line-height: 1;}"
       ],
+      "name": "Field Grade Collection",
       "settings": {
         "separate_section_with_border": true,
         "image_size": "auto",
