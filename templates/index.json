@@ -559,56 +559,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "logo_list_6fnxgY": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_KNyP3b": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/images_0001_Layer_2.jpg",
-            "logo_width": 250,
-            "link": ""
-          }
-        },
-        "logo_Aq4rtW": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/images_0000_Layer_3.jpg",
-            "logo_width": 250,
-            "link": ""
-          }
-        },
-        "logo_6JjVmF": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/images_0002_Layer_1.jpg",
-            "logo_width": 250,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_KNyP3b",
-        "logo_Aq4rtW",
-        "logo_6JjVmF"
-      ],
-      "custom_css": [
-        "h2 {font-size: 42px;}",
-        ".section-spacing {margin-block-end: 1rem; margin-block-start: 2rem;}",
-        ".logo-list__item {outline: 1px solid rgb(var(--logo-list-item-border-color)); place-items: center; padding: .75rem; display: grid;}",
-        ".section-stack {gap: 0rem; grid-auto-columns: minmax(0, 1fr); display: grid;}",
-        "@media only screen and (max-width: 700px) {.logo-list {--logo-list-items-per-row: 3;}.section-stack {gap: 1rem; grid-auto-columns: minmax(0, 1fr); display: grid;}"
-      ],
-      "name": "AS Seen In...",
-      "settings": {
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "AS SEEN IN<strong>...</strong>",
-        "items_per_row": 3,
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
     "slideshow_BMAjgx": {
       "type": "slideshow",
       "blocks": {
@@ -1298,6 +1248,56 @@
         "button_text": "See More"
       }
     },
+    "logo_list_6fnxgY": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_KNyP3b": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/images_0001_Layer_2.jpg",
+            "logo_width": 250,
+            "link": ""
+          }
+        },
+        "logo_Aq4rtW": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/images_0000_Layer_3.jpg",
+            "logo_width": 250,
+            "link": ""
+          }
+        },
+        "logo_6JjVmF": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/images_0002_Layer_1.jpg",
+            "logo_width": 250,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_KNyP3b",
+        "logo_Aq4rtW",
+        "logo_6JjVmF"
+      ],
+      "custom_css": [
+        "h2 {font-size: 42px;}",
+        ".section-spacing {margin-block-end: 1rem; margin-block-start: 2rem;}",
+        ".logo-list__item {outline: 1px solid rgb(var(--logo-list-item-border-color)); place-items: center; padding: .75rem; display: grid;}",
+        ".section-stack {gap: 0rem; grid-auto-columns: minmax(0, 1fr); display: grid;}",
+        "@media only screen and (max-width: 700px) {.logo-list {--logo-list-items-per-row: 3;}.section-stack {gap: 1rem; grid-auto-columns: minmax(0, 1fr); display: grid;}"
+      ],
+      "name": "AS Seen In...",
+      "settings": {
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "AS SEEN IN<strong>...</strong>",
+        "items_per_row": 3,
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "newsletter": {
       "type": "newsletter",
       "custom_css": [
@@ -1331,7 +1331,6 @@
     "11300496-0b96-4e9c-939f-8b4fa6c86620",
     "collection_list_U3fkK3",
     "rich_text_99iQke",
-    "logo_list_6fnxgY",
     "slideshow_BMAjgx",
     "text_with_icons_DKgWhL",
     "collection_list_UCmGTM",
@@ -1341,6 +1340,7 @@
     "rich_text_WpqxEn",
     "rich_text_yPCbG8",
     "blog-posts",
+    "logo_list_6fnxgY",
     "newsletter"
   ]
 }
