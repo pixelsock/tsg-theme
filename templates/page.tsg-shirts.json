@@ -202,7 +202,7 @@
         "heading_yGxhkd": {
           "type": "heading",
           "settings": {
-            "text": "HATTERAS 5-POCKET PANT",
+            "text": "Midweight Flannels",
             "heading_tag": "h1"
           }
         },
@@ -236,7 +236,7 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/tsg_hatteras_main_1000x_fc3ae038-d3da-4a68-812f-83b472ac8c54.png",
+        "image": "shopify://shop_images/thomasfieldshirtwheatalt1000x_0003s_0000_Boone-TSG-Builder-23-0396.jpg",
         "reveal_on_scroll": false,
         "image_position": "end",
         "content_width": "lg",
@@ -278,7 +278,7 @@
         "heading_Wt6UwX": {
           "type": "heading",
           "settings": {
-            "text": "THE MIDLAND TWILL PANTS",
+            "text": "Airetex™ Rise Field Shirts",
             "heading_tag": "h1"
           }
         },
