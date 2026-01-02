@@ -23,21 +23,21 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "PANTS",
+            "text": "Long & Short Sleeve Shirts",
             "heading_tag": "h1"
           }
         },
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Pants: you can’t leave home without ‘em — well, you can actually, but we highly advise against it.  So to protect you and your love ones from those pesky public indecency citations we offer a terrific collection of men's pants ranging from the traditional church-on-Sunday chinos to the Casual Friday staple: the 5-Pocket.  Take your pick, but please, pick something so we don't have to see \"that\".</p>"
+            "content": "<p>When the boss lady tells you to put on a shirt, this is what she means (we prefer shirtless but no thanks to that fussy No Shirt, No Service-thing). From 9-to-Five'r, after-hours or for the extracurricular activities streamside or in the field, we’ve got all of the above to meet any of your shirting needs. So listen to the Boss Lady, and get shirted with our ever expanding and changing collection or button-ups and button-downs - depending on where your adventure is leading you next.</p>"
           }
         },
         "link_t9HAnB": {
           "type": "link",
           "settings": {
-            "text": "Shop All Pants",
-            "url": "shopify://collections/pants"
+            "text": "Shop All Shirts",
+            "url": "shopify://collections/button-downs"
           }
         }
       },
@@ -46,6 +46,7 @@
         "template--16783006138600__b68f4120-e5fd-4103-875c-84f7da9480a5-richtext-1",
         "link_t9HAnB"
       ],
+      "name": "Page Header",
       "settings": {
         "separate_section_with_border": true,
         "content_width": "sm",
@@ -70,7 +71,7 @@
         "heading_HETgi6": {
           "type": "heading",
           "settings": {
-            "text": "THE BOONE 5-POCKET PANT",
+            "text": "Airetex™ Tanner Shirts",
             "heading_tag": "h1"
           }
         },
@@ -100,12 +101,12 @@
         "richtext_ELjWyK",
         "link_e7Xn36"
       ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "name": "Airetex Tanners",
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/tsgboonepantcharcoalalt1000x_0000s_0001_TSG-Bluff-S23-Builder-84.jpg",
         "reveal_on_scroll": false,
-        "image_position": "start",
+        "image_position": "end",
         "content_width": "md",
         "remove_vertical_spacing": true
       }
