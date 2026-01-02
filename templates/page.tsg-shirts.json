@@ -202,7 +202,7 @@
         "heading_yGxhkd": {
           "type": "heading",
           "settings": {
-            "text": "Midweight Flannels",
+            "text": "Midweight Shirts",
             "heading_tag": "h1"
           }
         },
@@ -353,7 +353,7 @@
         "heading_r3FmAn": {
           "type": "heading",
           "settings": {
-            "text": "TSG BRITCHES & CHAPS",
+            "text": "Airetex™ Brooks Shirts",
             "heading_tag": "h1"
           }
         },
@@ -383,12 +383,58 @@
         "richtext_HrghWG",
         "link_4x6CP9"
       ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "name": "Brooks Shirts",
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/f24-tsg-alt-1000x_0002_GenerativeFill3.jpg",
         "reveal_on_scroll": false,
         "image_position": "end",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_ezDdte": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_M9mcQG": {
+          "type": "heading",
+          "settings": {
+            "text": "Airetex™ Brooks Shirts",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_BUG7cY": {
+          "type": "subheading",
+          "settings": {
+            "text": "FREE YOUR KNEES."
+          }
+        },
+        "richtext_CFbrMU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>After <em>years</em> of development and testing we've created the perfect bottoms specifically designed for the Southern wing shooter. Our TSG Briar Britches and Chaps are built from our existing tried-and-tested fabrics making strong enough for anything your next field day can throw at 'em. </p>"
+          }
+        },
+        "link_g9WnJx": {
+          "type": "link",
+          "settings": {
+            "text": "Shop Britches & Chaps",
+            "url": "shopify://collections/tsg-britches-chaps"
+          }
+        }
+      },
+      "block_order": [
+        "heading_M9mcQG",
+        "subheading_BUG7cY",
+        "richtext_CFbrMU",
+        "link_g9WnJx"
+      ],
+      "name": "Guide Shirts",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/f24-tsg-alt-1000x_0002_GenerativeFill3.jpg",
+        "reveal_on_scroll": false,
+        "image_position": "start",
         "content_width": "lg",
         "remove_vertical_spacing": true
       }
@@ -409,6 +455,35 @@
       },
       "block_order": [
         "collection_WgWykG"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "horizontal_spacing_factor": 0.3,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_t3Gax4": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Ln4a9P": {
+          "type": "collection",
+          "settings": {
+            "collection": "tsg-britches-chaps",
+            "products_count": 8,
+            "title": "SHOP TSG BRITCHES & Chaps",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_Ln4a9P"
       ],
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
@@ -454,6 +529,8 @@
     "image_with_text_e9eXWM",
     "featured_collections_gLwKAV",
     "image_with_text_ChELDi",
+    "featured_collections_t3Gax4",
+    "image_with_text_ezDdte",
     "featured_collections_P73zxn",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
   ]
