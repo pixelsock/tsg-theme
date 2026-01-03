@@ -209,7 +209,7 @@
         "subheading_EjKwq9": {
           "type": "subheading",
           "settings": {
-            "text": "ABC PANTS BUT FOR ALPHA MALES"
+            "text": "From the finest mill on earth"
           }
         },
         "richtext_f6hXnU": {
@@ -222,7 +222,7 @@
           "type": "link",
           "settings": {
             "text": "Shop The Hatteras Pants",
-            "url": "shopify://collections/tsg-hatteras-5-pocket-performance-pants"
+            "url": "shopify://collections/midweight-flannels-shirts"
           }
         }
       },
@@ -324,9 +324,9 @@
         "collection_gQ9cxp": {
           "type": "collection",
           "settings": {
-            "collection": "tsg-midland-twill-5-pocket-pants",
+            "collection": "airetex-rise-shirts",
             "products_count": 8,
-            "title": "SHOP MIDLAND TWILL PANTS",
+            "title": "SHOP Airetex™ Rise Field Shirts",
             "link_url": "",
             "link_text": ""
           }
@@ -343,7 +343,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "horizontal_spacing_factor": 0.3,
-        "vertical_spacing_factor": 1,
+        "vertical_spacing_factor": 0.3,
         "subheading": ""
       }
     },
@@ -399,9 +399,9 @@
         "collection_Ln4a9P": {
           "type": "collection",
           "settings": {
-            "collection": "tsg-britches-chaps",
+            "collection": "airetex-brooks-shirts",
             "products_count": 8,
-            "title": "SHOP TSG BRITCHES & Chaps",
+            "title": "SHOP Airetex™ Brooks Shirts",
             "link_url": "",
             "link_text": ""
           }
@@ -418,7 +418,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "horizontal_spacing_factor": 0.3,
-        "vertical_spacing_factor": 1,
+        "vertical_spacing_factor": 0.3,
         "subheading": ""
       }
     },
@@ -428,7 +428,7 @@
         "heading_M9mcQG": {
           "type": "heading",
           "settings": {
-            "text": "Airetex™ Brooks Shirts",
+            "text": "Oxbow™ Guide Shirts",
             "heading_tag": "h1"
           }
         },
@@ -474,9 +474,9 @@
         "collection_WgWykG": {
           "type": "collection",
           "settings": {
-            "collection": "tsg-britches-chaps",
+            "collection": "oxbow-guide-shirts",
             "products_count": 8,
-            "title": "SHOP TSG BRITCHES & Chaps",
+            "title": "SHOP Oxbow™ Guide Shirts",
             "link_url": "",
             "link_text": ""
           }
@@ -491,9 +491,9 @@
         "hide_product_information": false,
         "stack_products": true,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.3,
-        "vertical_spacing_factor": 1,
+        "vertical_spacing_factor": 0.3,
         "subheading": ""
       }
     },
