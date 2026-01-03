@@ -78,17 +78,18 @@
         "subheading_CNTK6N": {
           "type": "subheading",
           "settings": {
-            "text": "Our Best Selling Pant For a Reason."
+            "text": "A classic shirt that keeps its composure when the day heats up."
           }
         },
         "richtext_ELjWyK": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Designed for work and play alike, these straight-leg move-with-you pants are lightweight with a touch of stretch to ensure both comfort and durability. Pairs equally well with loafers or boots, so you can wear these anywhere and everywhere, and look great doing so. It's no surprise this is our Numero Uno selling item!</p>"
+            "content": "<p>The Airetex™ Shirts are where classic button-down style meets warm-weather ingenuity. Made with our proprietary Airetex™ fabric, it delivers exceptional airflow and comfort while maintaining a tailored, timeless look. Ideal for travel, summer days, and any situation where looking pulled-together shouldn’t require breaking a sweat—literally.</p>"
           }
         },
         "link_e7Xn36": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "text": "Shop The Boone Pants",
             "url": "shopify://collections/tsg-boone-5-pocket-pants"
@@ -209,13 +210,13 @@
         "subheading_EjKwq9": {
           "type": "subheading",
           "settings": {
-            "text": "From the finest mill on earth"
+            "text": "These are the shirts that earn their keep."
           }
         },
         "richtext_f6hXnU": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Introducing the Hatteras Performance Pant - the more athletic-slash-fraternal twin to our Numero Uno selling pant:  the Boone 5-Pocket.  Possibly the Alpha Male version of the ABC Pant, definitely the world's greatest travel pant.</p>"
+            "content": "<p>Crafted from premium cottons with substance and softness in equal measure, our Midweight Shirts and Flannels strike the perfect balance between rugged durability and everyday refinement. Comfortable enough for all-day wear, substantial enough to feel like a proper shirt should. Consider them your year-round workhorses—with better manners.</p>"
           }
         },
         "link_7aQ6dG": {
@@ -286,13 +287,13 @@
         "subheading_AkNjYa": {
           "type": "subheading",
           "settings": {
-            "text": "FREE YOUR KNEES."
+            "text": "Designed for early starts and hard hunting in the field."
           }
         },
         "richtext_iPCVVx": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Our twill five-pocket pant made for Fall days, work days, and most importantly - Field Days.  Using a similar fabric to our number-one selling Boone 5-Pocket Pant, this pant is not only soft, but it has an innovative weave that allows for both mechanical and natural stretch, and is strong enough for just-about-anything you can throw at it (don't actually throw things at them - figure of speech).</p>"
+            "content": "<p>Airetex™ Rise Field Shirt brings technical performance into a traditional field silhouette. Lightweight, breathable, and thoughtfully constructed for movement, it’s built to handle warm days afield without sacrificing the clean lines of a classic sporting shirt. Rise early, stay comfortable, look sharp doing it.</p>"
           }
         }
       },
@@ -353,13 +354,13 @@
         "subheading_MmRixC": {
           "type": "subheading",
           "settings": {
-            "text": "FREE YOUR KNEES."
+            "text": "Built for heat, movement, and long days that don’t end."
           }
         },
         "richtext_HrghWG": {
           "type": "richtext",
           "settings": {
-            "content": "<p>After <em>years</em> of development and testing we've created the perfect bottoms specifically designed for the Southern wing shooter. Our TSG Briar Britches and Chaps are built from our existing tried-and-tested fabrics making strong enough for anything your next field day can throw at 'em. </p>"
+            "content": "<p>Our Airetex™ Brooks Shirts use a proprietary lightweight fabric designed to breathe freely, dry quickly, and stay crisp whether you’re casting flies at noon or settling into a campfire dinner by dusk. Technical silhouettes meet modern performance—proof that comfort and polish don’t have to argue.</p>"
           }
         },
         "link_4x6CP9": {
@@ -429,13 +430,13 @@
         "subheading_BUG7cY": {
           "type": "subheading",
           "settings": {
-            "text": "FREE YOUR KNEES."
+            "text": "Purpose-built for days spent moving through water, brush, and sun."
           }
         },
         "richtext_CFbrMU": {
           "type": "richtext",
           "settings": {
-            "content": "<p>After <em>years</em> of development and testing we've created the perfect bottoms specifically designed for the Southern wing shooter. Our TSG Briar Britches and Chaps are built from our existing tried-and-tested fabrics making strong enough for anything your next field day can throw at 'em. </p>"
+            "content": "<p>The Oxbow™ Guide Shirt is a technical essential with a refined edge, featuring quick-dry performance, thoughtful ventilation, and durable construction that holds up to real use. It’s the shirt you reach for when the plan involves a map, a river, and no particular rush to be anywhere else.</p>"
           }
         },
         "link_g9WnJx": {
