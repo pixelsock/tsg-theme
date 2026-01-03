@@ -71,7 +71,7 @@
         "heading_HETgi6": {
           "type": "heading",
           "settings": {
-            "text": "Airetex™ Tanner Shirts",
+            "text": "Airetex™ Button Downs",
             "heading_tag": "h1"
           }
         },
@@ -154,10 +154,10 @@
         "collection_kQVxmM": {
           "type": "collection",
           "settings": {
-            "collection": "tsg-boone-5-pocket-pants",
+            "collection": "airetex-button-down-shirts",
             "products_count": 12,
-            "title": "SHOP THE BOONE PANTS",
-            "link_url": "shopify://collections/tsg-boone-5-pocket-pants",
+            "title": "SHOP THE Tanner Shirts",
+            "link_url": "",
             "link_text": ""
           }
         }
@@ -249,9 +249,9 @@
         "collection_4PW4fi": {
           "type": "collection",
           "settings": {
-            "collection": "tsg-hatteras-5-pocket-performance-pants",
-            "products_count": 8,
-            "title": "SHOP THE HATTERAS PANTS",
+            "collection": "midweight-flannels-shirts",
+            "products_count": 6,
+            "title": "SHOP THE Midweight Shirts",
             "link_url": "",
             "link_text": ""
           }
@@ -266,9 +266,9 @@
         "hide_product_information": false,
         "stack_products": true,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
+        "products_per_row_desktop": 3,
         "horizontal_spacing_factor": 0.3,
-        "vertical_spacing_factor": 1,
+        "vertical_spacing_factor": 0.3,
         "subheading": ""
       }
     },
@@ -393,6 +393,35 @@
         "remove_vertical_spacing": true
       }
     },
+    "featured_collections_t3Gax4": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Ln4a9P": {
+          "type": "collection",
+          "settings": {
+            "collection": "tsg-britches-chaps",
+            "products_count": 8,
+            "title": "SHOP TSG BRITCHES & Chaps",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_Ln4a9P"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "horizontal_spacing_factor": 0.3,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "image_with_text_ezDdte": {
       "type": "image-with-text",
       "blocks": {
@@ -455,35 +484,6 @@
       },
       "block_order": [
         "collection_WgWykG"
-      ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
-      "settings": {
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": true,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "horizontal_spacing_factor": 0.3,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
-    "featured_collections_t3Gax4": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_Ln4a9P": {
-          "type": "collection",
-          "settings": {
-            "collection": "tsg-britches-chaps",
-            "products_count": 8,
-            "title": "SHOP TSG BRITCHES & Chaps",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_Ln4a9P"
       ],
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
