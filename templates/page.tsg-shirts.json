@@ -178,7 +178,7 @@
         "subheading": ""
       }
     },
-    "custom_liquid_JKpkN6": {
+    "custom_liquid_JNpLyk": {
       "type": "custom-liquid",
       "name": "Anchor Tag",
       "settings": {
@@ -272,6 +272,17 @@
         "horizontal_spacing_factor": 0.3,
         "vertical_spacing_factor": 0.3,
         "subheading": ""
+      }
+    },
+    "custom_liquid_JKpkN6": {
+      "type": "custom-liquid",
+      "name": "Anchor Tag",
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<span id=\"rise-shirts\"></span>",
+        "text_alignment": "center"
       }
     },
     "image_with_text_e9eXWM": {
@@ -519,9 +530,10 @@
     "image_with_text_N6QYYx",
     "32d730e3-3904-45e0-ac3b-2904076b078e",
     "featured_collections_dt8aAf",
-    "custom_liquid_JKpkN6",
+    "custom_liquid_JNpLyk",
     "image_with_text_D3prpy",
     "featured_collections_ekMfPi",
+    "custom_liquid_JKpkN6",
     "image_with_text_e9eXWM",
     "featured_collections_gLwKAV",
     "image_with_text_ChELDi",
