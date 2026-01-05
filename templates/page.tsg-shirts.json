@@ -352,7 +352,7 @@
         "subheading": ""
       }
     },
-    "custom_liquid_JKpkN6": {
+    "custom_liquid_qGDYek": {
       "type": "custom-liquid",
       "name": "Anchor Tag",
       "settings": {
@@ -437,6 +437,17 @@
         "horizontal_spacing_factor": 0.3,
         "vertical_spacing_factor": 0.3,
         "subheading": ""
+      }
+    },
+    "custom_liquid_JKpkN6": {
+      "type": "custom-liquid",
+      "name": "Anchor Tag",
+      "settings": {
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<span id=\"guide-shirts\"></span>",
+        "text_alignment": "center"
       }
     },
     "image_with_text_ezDdte": {
@@ -547,9 +558,10 @@
     "custom_liquid_Df4RJ3",
     "image_with_text_e9eXWM",
     "featured_collections_gLwKAV",
-    "custom_liquid_JKpkN6",
+    "custom_liquid_qGDYek",
     "image_with_text_ChELDi",
     "featured_collections_t3Gax4",
+    "custom_liquid_JKpkN6",
     "image_with_text_ezDdte",
     "featured_collections_P73zxn",
     "b6c6ebb6-5a91-42d4-9521-8029bfeb083e"
