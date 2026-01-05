@@ -109,6 +109,7 @@
         },
         "3bbe87f9-4667-49bb-a30d-c750d0a3ce27": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "question": "<strong>What is your shipping policy for Holiday orders?</strong>",
             "answer": "<p>While we are committed to providing the best service possible and processing your order as quickly as possible, we cannot guarantee any shipment by the estimated delivery date through our third-party shipping vendors. We are also not responsible, but will help out as much as possible, for any delays as a result of weather or any third-party shipping errors.</p>"
@@ -118,7 +119,7 @@
           "type": "question",
           "settings": {
             "question": "<strong>Oversized Item Shipping Policy</strong>",
-            "answer": "<p>Due to certain item size and weight restrictions, we cannot offer free shipping on all purchases over $99 and above.  Please carefully review the shipping options before check out and completing your order.  Shipping charges cannot be refunded.</p>"
+            "answer": "<p>Due to certain item size and weight restrictions, we cannot offer free shipping on all purchases over $125 and above.  Please carefully review the shipping options before check out and completing your order.  Shipping charges cannot be refunded.</p>"
           }
         }
       },
