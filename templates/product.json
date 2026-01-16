@@ -218,13 +218,23 @@
             "page": ""
           }
         },
+        "accordion_rBGgfh": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": true,
+            "icon": "none",
+            "title": "About the Artist",
+            "content": "<p>{{ product.metafields.custom.about_the_artist | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
         "accordion_yHTxeT": {
           "type": "accordion",
           "settings": {
             "show_below_gallery": true,
             "icon": "none",
             "title": "About The Author",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.about_the_author | metafield_tag }}</p>",
             "page": ""
           }
         }
@@ -262,6 +272,7 @@
         "dd52afe9-c3ed-44b9-80b8-f9061e29964a",
         "5ffbdf97-a5b9-4cc0-860a-60d281aa83ac",
         "accordion_fmWEpi",
+        "accordion_rBGgfh",
         "accordion_yHTxeT"
       ],
       "custom_css": [
