@@ -12,6 +12,33 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "image_P8Ej9K": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/022026-feb-boone-restock-hero-dt_2628cab5-c43b-4f17-b779-00a807135298.jpg",
+            "mobile_image": "shopify://shop_images/020626-boone-pants-ad-vertical-v4.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "shopify://products/the-upland-society-glassware-set",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "shopify://collections/fall-winter-2025-collection",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
         "image_XG6UNw": {
           "type": "image",
           "settings": {
@@ -68,6 +95,7 @@
         }
       },
       "block_order": [
+        "image_P8Ej9K",
         "image_XG6UNw",
         "image_xw4JKt"
       ],
