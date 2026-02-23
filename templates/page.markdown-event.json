@@ -414,10 +414,10 @@
         "collection_BWKqbq": {
           "type": "collection",
           "settings": {
-            "collection": "warehouse-sale-tsg-apparel-co",
+            "collection": "warehouse-collection-tsg-apparel-co",
             "products_count": 8,
             "title": "",
-            "link_url": "shopify://collections/warehouse-sale-tsg-apparel-co",
+            "link_url": "shopify://collections/warehouse-collection-tsg-apparel-co",
             "link_text": "See More"
           }
         }
